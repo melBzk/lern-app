@@ -292,7 +292,7 @@ async function kapitelView(f) {
   const row = c => `<div class="row" data-k="${c.key}"><div class="name">${esc(c.title)}</div><div class="chev">›</div></div>`;
   app.innerHTML = `
     ${list.some(c => allg.has(c.key)) ? `<div class="card"><h2>Klausurtipps & Fallen</h2>${list.filter(c => allg.has(c.key)).map(row).join("")}</div>` : ""}
-    <div class="card"><h2>Kapitel</h2>${list.filter(c => !allg.has(c.key)).map(row).join("")}</div>
+    <div class="card"><h2>Inhalt</h2>${list.filter(c => !allg.has(c.key)).map(row).join("")}</div>
     <button class="btn ghost" id="alles">Alles am Stück lesen</button>`;
   app.querySelectorAll(".row").forEach(el => el.onclick = () => {
     const c = list.find(c => c.key === el.dataset.k);

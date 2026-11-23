@@ -47,6 +47,7 @@ Fallunternehmen: **Matuschka-Shop GmbH**, Ingolstadt (Onlinehandel Haar-/Beautyp
 - **Materiell** (Sachgut, z. B. Glätteisen) vs. **immateriell** (nicht käuflich: Anerkennung, Freundschaft, Gesundheit).
   - Achtung Kontext: Frage „materiell/immateriell?“ → Anerkennung (im Team) = **immateriell**. Frage „Maslow-Stufe?“ → Lob/Anerkennung/Beförderung = **Wertschätzung (Stufe 4)**. (Manche Lehrwerke nennen Stufe 4 „Individualbedürfnisse“ – nicht mit Individual-/Kollektivbedürfnis verwechseln.)
 - Trinkwasserversorgung einer Stadt = **Existenz- + Kollektivbedürfnis**.
+- Über Kollektivbedürfnisse entscheiden **Parlament oder Gemeinderat** – nicht der Markt; finanziert über Steuern und Abgaben.
 
 ### Maslow-Pyramide (von unten)
 1. **Grundbedürfnisse** (Essen, Trinken, Schlaf, Wärme) – Basis
@@ -93,12 +94,14 @@ Fallunternehmen: **Matuschka-Shop GmbH**, Ingolstadt (Onlinehandel Haar-/Beautyp
 
 ### Kreislauf
 - Sektoren: Haushalte, Unternehmen (+ Banken = erweitert; + Staat + Ausland = vollständig, 5 Sektoren).
+- **Private Haushalte** fragen Güter nach, die sie nicht selbst herstellen, und stellen Arbeit, Boden, Kapital bereit. **Unternehmen** erzeugen Güter, bieten sie an und kombinieren dafür die Produktionsfaktoren.
+- **Staat** im Kreislauf = öffentliche Haushalte: Bund, Länder, Kreise, Gemeinden und Sozialversicherungsträger (Buch S. 80).
 - **Güterstrom (real):** Produktionsfaktoren, Güter, Dienstleistungen (z. B. Lieferung von 40 Glätteisen, Arbeitsleistung).
   **Geldstrom (monetär):** Einkommen, Konsumausgaben, Steuern, Löhne, Überweisungen. Laufen **immer entgegengesetzt**.
 - **Einfacher Kreislauf:** Haushalte → Unternehmen: **Arbeitsleistungen (Produktionsfaktoren) + Konsumausgaben**; Unternehmen → Haushalte: **Konsumgüter + Einkommen**.
 - **Erweitert:** Haushalte sparen → Banken → Kredite an Unternehmen → Investitionen. **I = S**. Bsp: 500 Einkommen − 450 Konsum = 50 Sparen = 50 Investitionen. (800 − 720 = 80).
 - **Stationäre Wirtschaft:** gesamtes Einkommen wird konsumiert, nur Verbrauchtes ersetzt → kein Wachstum. **Wachsende Wirtschaft:** Sparen + Investieren.
-- **Geschlossene Wirtschaft** = ohne Ausland/Außenhandel (Folie: Modell ohne Staat und Ausland); offene = mit Export/Import.
+- **Geschlossene Wirtschaft** = keine Außenhandelsbeziehungen. Folie (Buch S. 79): „Modell ohne Staat und Ausland“; allgemein meint „geschlossen“ nur: ohne Ausland. Offene Wirtschaft = mit Export/Import.
 - Kreislauf = **Modell**: fasst Millionen Einzelvorgänge zu wenigen Strömen zusammen (zeigt nicht alle Einflüsse).
 - Sparen im Kreislauf ≠ „Kopfkissen“ – fließt über Banken als Kredit zurück.
 
@@ -113,19 +116,19 @@ Fallunternehmen: **Matuschka-Shop GmbH**, Ingolstadt (Onlinehandel Haar-/Beautyp
 | Staatsaufträge, Subventionen | Staat → Unternehmen |
 | Steuern und Abgaben der Haushalte | Haushalte → Staat |
 | Konsumkredit | Banken → Haushalte |
-
-Fallen (IHK): Kredit von einem **Lieferanten** ist kein Strom Banken → Unternehmen; Friseursalon kauft bei Matuschka = Unternehmen → Unternehmen (nicht Haushalte); Einkommensteuer geht nicht Staat → Banken; Aktienanlage ist nicht Unternehmen → Staat.
 | Azubi spart 50 € | Haushalte → Banken (Sparen) |
 | Bankkredit für Packautomat | Banken → Unternehmen (Investitionskredit) |
 | **Export** (Kundin in AT/FR/CH) | **Ausland → Unternehmen (Exporterlös)** |
 | **Import** (Glätteisen aus GB) | **Unternehmen → Ausland (Importausgabe)** |
 | **Direkte Subvention** | **Geldstrom Staat → Unternehmen** |
 
+Fallen (IHK): Kredit von einem **Lieferanten** ist kein Strom Banken → Unternehmen; Friseursalon kauft bei Matuschka = Unternehmen → Unternehmen (nicht Haushalte); Einkommensteuer geht nicht Staat → Banken; Aktienanlage ist nicht Unternehmen → Staat.
+
 ### Kreislauf-Rechnung
 - Konsum = Einkommen von Unternehmen + Transfers − Steuern − Sparen. Bsp: 900 + 300 − 250 − 150 = **800**; 1.000 + 200 − 300 − 100 = **800**.
 - Jeder Sektor: Zuflüsse = Abflüsse.
 
-### Einkommen & BIP (Quiz Tag 2)
+### Einkommen & BIP (Zusatz aus dem Wiederholungsquiz – laut Sprechernotiz nicht im Unterricht)
 - **Sparquote = Sparen × 100 / verfügbares Einkommen** (nicht durch Konsum teilen!). Einkommen 1.600, Konsum 1.440 → Sparen 160 → 160 × 100 / 1.600 = **10 %**; Einkommen 2.000, Konsum 1.800 → Sparen 200 → **10 %** (Falle 11,1 % = 200/1.800).
 - **Masseneinkommen** = Nettolöhne/-gehälter + Sozialleistungen. + Nettounternehmens-/Vermögenseinkommen = verfügbares Einkommen.
 - **BIP (Verwendungsrechnung)** = privater Konsum + Staatskonsum + Bruttoinvestitionen + (Exporte − Importe). 1.900+700+800+200 = **3.600**.
@@ -193,7 +196,7 @@ Beides sind Modelle (nie rein verwirklicht). **Wirtschaftsordnung** = Art, wie e
 
 ### Formeln & Rechenbeispiele
 - **ALQ = Arbeitslose × 100 / (Erwerbstätige + Arbeitslose)**
-  - 2,5 / (42,5+2,5) = **5,56 %** · 2,4 / 44 = **5,45 %** · 2 / 40 = **5,0 %** (Falle 5,26 %) · 3 / 45 = **6,67 %**
+  - 2,5 / (42,5+2,5) = **5,56 %** · 2,4 / 44 = **5,45 %** · 2 / (38 + 2) = **5,0 %** (Falle: 2 / 38 = 5,26 %) · 3 / (42 + 3) = **6,67 %**
 - **Änderungsrate = (neu − alt) × 100 / alt**
   - VPI 120 → 123,6 = **3,0 %** · 118 → 121,5 = **2,97 %** · **120 → 124,2 = 3,5 %** (Falle: 4,2 sind Indexpunkte!)
   - BIP 3.500 → 3.535 = **1,0 %** · 3.400 → 3.434 = **1,0 %** · 3.600 → 3.654 = **1,5 %**
@@ -223,6 +226,7 @@ Beides sind Modelle (nie rein verwirklicht). **Wirtschaftsordnung** = Art, wie e
 
 ## 5. Konjunktur & Fiskalpolitik (Tag 6)
 
+- **Konjunkturpolitik** soll die Ausschläge der Konjunktur gering halten – im Dienst der Ziele des § 1 StabG; Fiskalpolitik ist ihr Instrument auf der Einnahmen-/Ausgabenseite des Staates.
 - **Konjunktur** = wirtschaftliche Lage; reales BIP schwankt in Wellen um den **Trend** (langfristige Grundrichtung/Wachstumspfad).
 - **Saisonale Schwankungen** = jahreszeitlich (Bau im Winter; Urlaubszeit, Wetter, Feiertage), Wochen/Monate. **Konjunkturschwankungen** = mehrjähriges Auf und Ab.
 - **Phasen:** Aufschwung (Expansion) → Boom (Hochkonjunktur, oberer Wendepunkt) → Abschwung (Rezession) → Tiefpunkt (unterer Wendepunkt). **Depression** = lang anhaltender Tiefstand (strukturelle Krise). **Achtung:** In IHK-Aufgaben heißen die Phasen oft Aufschwung (Expansion), Boom, Abschwung (Rezession), **Tiefstand (Depression)** – „Depression“ kann also einfach die vierte Phase meinen.
@@ -251,7 +255,7 @@ Beides sind Modelle (nie rein verwirklicht). **Wirtschaftsordnung** = Art, wie e
 
 ## 6. Geldpolitik der EZB (Tag 7)
 
-- **Vertrag von Maastricht: 1992 in Kraft getreten (laut Folie – gilt für die Klausur)** – Grundlage der Währungsunion. (Nur Hintergrund: Der Podcast sagt „1992 unterzeichnet, 1993 in Kraft“; nachrangig.) Euro 1999 Buchgeld (EZB übernimmt Geldpolitik), 2002 Bargeld. **Konvergenzkriterien:** Inflation ≤ 1,5 %-Punkte über den 3 stabilsten; **Defizit ≤ 3 %**, **Schulden ≤ 60 %** der Wirtschaftsleistung; langfristiger Zins ≤ 2 %-Punkte über den 3 preisstabilsten.
+- **Vertrag von Maastricht** – Grundlage der Währungsunion. Folie: „1992 trat der Vertrag in Kraft“. Allgemein belegt: unterzeichnet 07.02.1992, in Kraft 01.11.1993. → Bei einer Klausurfrage dazu bei der Dozentin nachfragen. Euro 1999 Buchgeld (EZB übernimmt Geldpolitik), 2002 Bargeld. **Konvergenzkriterien (laut Folie):** Inflation ≤ 1,5 %-Punkte über den 3 stabilsten; **Defizit ≤ 3 %**, **Schulden ≤ 60 %** der Wirtschaftsleistung; langfristiger Zins ≤ 2 %-Punkte über den 3 preisstabilsten. Ergänzend (nicht auf der Folie): Wechselkursstabilität – mindestens 2 Jahre im WKM II ohne Abwertung.
 - **Euroraum: 21 Länder** – zuletzt Kroatien (2023), **Bulgarien (01.01.2026)**. Nicht dabei u. a. Dänemark, Schweden, Polen, Tschechien, Ungarn, Rumänien.
 - **EZB** Frankfurt, errichtet Juni 1998, zuständig seit 01.01.1999.
   - **EZB-Rat** (Direktorium + Präsidenten der NZBen der Euro-Länder) **legt Geldpolitik fest** (beschließt Leitzinsen).

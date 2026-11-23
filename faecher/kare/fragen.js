@@ -3,7 +3,7 @@
 // Rechenaufgabe: t:"calc", a: Ergebnis (Zahl), unit: Einheit, tol: erlaubte Abweichung
 (() => {
 const DAYS = {
-  1: "Dreisatz (einfach)",
+  1: "Brüche & Dreisatz (einfach)",
   2: "Zusammengesetzter Dreisatz",
   3: "Kettensatz",
   4: "Währungsrechnen",
@@ -142,7 +142,7 @@ const QUESTIONS = [
        "Sorten sind Münzen, Devisen sind Banknoten",
        "Sorten gelten nur innerhalb der EU, Devisen nur außerhalb",
        "Devisen sind Bargeld, Sorten sind Schecks"],
-    e:"Sorten = Noten und Münzen in Fremdwährung (Verkaufs-/Ankaufskurs). Devisen = Buchgeld, Überweisungen, Schecks (Geld-/Briefkurs).", s:"Übung S. 50" },
+    e:"Sorten = Münzen und Geldscheine in Fremdwährung (Verkaufs-/Ankaufskurs). Devisen = auf Fremdwährung lautende Zahlungsanweisungen: Überweisungen, Schecks, Wechsel (Geld-/Briefkurs). Der Sortenkurs ist immer ungünstiger als der Devisenkurs.", s:"Buch S. 49–50" },
   { d:4, q:"Was sagt die Mengennotierung 1 € = 1,0820 US-$ aus?",
     o:["Für 1 € erhält man 1,0820 US-Dollar",
        "Für 1 US-Dollar erhält man 1,0820 €",
@@ -263,7 +263,7 @@ const QUESTIONS = [
        "Ein Betrag, den ein Beteiligter am Ende zusätzlich zahlen muss",
        "Die Summe aller Verhältniszahlen",
        "Der Betrag, der auf einen Teil entfällt"],
-    e:"Vorleistungen (z. B. Tätigkeitsvergütung, Zinsen auf Einlagen) werden zuerst vom Gesamtbetrag abgezogen und am Ende dem Berechtigten zugeschlagen.", s:"nach Übung S. 73" },
+    e:"Vorleistungen heißen im Buch „Sondervergütungen“ (z. B. Vergütung für Mitarbeit, Zinsen auf Einlagen). Sie werden zuerst vom Gesamtbetrag abgezogen und am Ende dem Berechtigten zugeschlagen. Nachleistungen heißen im Buch „Abzüge“ (z. B. Privatnutzung, Vorempfang); sie werden zuerst zum Gesamtbetrag addiert und am Ende abgezogen.", s:"Buch S. 73" },
   { d:7, q:"Ein Gewinn wird verteilt, A erhält vorab 6.000 €. Wie geht man richtig vor?",
     o:["6.000 € vom Gewinn abziehen, den Rest verteilen, dann bei A die 6.000 € addieren",
        "Den ganzen Gewinn verteilen und A zusätzlich 6.000 € geben",
@@ -304,7 +304,7 @@ const QUESTIONS = [
   { d:7, t:"calc", q:"Gewinn 50.400 €, Verhältnis A : B : C = 3 : 2 : 1. A erhält vorab 2.000 €, C muss sich 800 € anrechnen lassen (Nachleistung). Wie viel erhält C?", a:7400, tol:0.01, unit:"€",
     e:"Verteilbar: 50.400 − 2.000 + 800 = 49.200 € ÷ 6 Teile = 8.200 € je Teil. C: 8.200 − 800 = 7.400 € (A 24.600 + 2.000 = 26.600 €, B 16.400 €; Summe 50.400 €)", s:"nach Übung S. 81" },
   { d:7, t:"calc", q:"Sammelsendung: A 6.000 € / 400 kg, B 9.000 € / 1.100 kg, C 5.000 € / 500 kg. Versicherung 360 € (nach Wert), Fracht 800 € (nach Gewicht). Wie hoch ist der Bezugspreis von Posten B?", a:9602, tol:0.01, unit:"€",
-    e:"Wertspesen: 360 ÷ 20.000 = 0,018 € je € → B 9.000 × 0,018 = 162 €. Gewichtsspesen: 800 ÷ 2.000 kg = 0,40 €/kg → B 1.100 × 0,40 = 440 €. Bezugspreis B: 9.000 + 162 + 440 = 9.602 €", s:"nach Übung S. 78" },
+    e:"Wertspesen: 360 ÷ 20.000 = 0,018 € je € → B 9.000 × 0,018 = 162 €. Gewichtsspesen: 800 ÷ 2.000 kg = 0,40 €/kg → B 1.100 × 0,40 = 440 €. Bezugspreis B: 9.000 + 162 + 440 = 9.602 € (Buchweg: Wert 6 : 9 : 5 = 20 Teile → 18 € je Teil → B 162 €; Gewicht 4 : 11 : 5 = 20 Teile → 40 € je Teil → B 440 €.)", s:"nach Übung S. 78" },
   { d:7, t:"calc", q:"Gleiche Sammelsendung (A 6.000 € / 400 kg; Versicherung 360 € auf 20.000 € Warenwert, Fracht 800 € auf 2.000 kg). Wie hoch ist der Bezugspreis je kg für Posten A?", a:15.67, tol:0.01, unit:"€",
     e:"A Wertspesen: 6.000 × 0,018 = 108 €; Gewichtsspesen: 400 × 0,40 = 160 €. Bezugspreis: 6.000 + 108 + 160 = 6.268 €. Je kg: 6.268 ÷ 400 = 15,67 €", s:"nach Übung S. 78" },
   { d:7, t:"calc", q:"Eine Umsatzprämie von 18.000 € wird so verteilt: 20 % gleichmäßig auf 3 Händler, der Rest nach Umsatz (A 400.000 €, B 600.000 €, C 800.000 €). Wie viel erhält C insgesamt?", a:7600, tol:0.01, unit:"€",

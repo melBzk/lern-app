@@ -54,7 +54,7 @@ Kompakter Lernzettel zu allen Rechenarten aus dem Vorbereitungskurs: Dreisatz, K
 - Bei Fragen wie „Erklären Sie, warum man hier nicht rechnen muss“: kurz begründen, z. B. Mischpreis liegt genau in der Mitte, also 1 : 1.
 - Theoriefragen (gerader/ungerader Dreisatz, Voraussetzung Kettensatz, Sorten/Devisen, einfacher/gewogener Durchschnitt) immer mit einem Beispiel beantworten.
 
-## 1. Dreisatz (einfach)
+## 1. Brüche & Dreisatz (einfach) – Buch Kap. 2–3.1, S. 25–37
 
 ### Was ist das?
 
@@ -96,7 +96,7 @@ Mit dem Dreisatz berechnet man aus drei bekannten Werten einen vierten. Man schl
 - x = 20 × 9 ÷ 12 = 15 Tage
 - Antwort: 12 Maschinen brauchen 15 Tage.
 
-### Grundlagen Brüche
+### Grundlagen Brüche (Buch Kap. 2)
 
 - **Echter Bruch:** Zähler kleiner als Nenner, Wert kleiner als 1 (z. B. 3/8, 5/9).
 - **Unechter Bruch:** Zähler größer als Nenner, Wert größer als 1 (z. B. 9/4).
@@ -105,7 +105,7 @@ Mit dem Dreisatz berechnet man aus drei bekannten Werten einen vierten. Man schl
 
 > FALLE: Bei Vorräten, Arbeitern, Maschinen, Abständen („Pflanzen im Abstand von …“) ist das Verhältnis fast immer ungerade. Erst Logik prüfen: Muss das Ergebnis größer oder kleiner werden?
 
-## 2. Zusammengesetzter Dreisatz (Mehrsatz)
+## 2. Zusammengesetzter Dreisatz (Vielsatz, im Kurs auch „Mehrsatz“) – Buch Kap. 3.2, S. 38–43
 
 ### Was ist das?
 
@@ -152,7 +152,7 @@ x = Ausgangswert der gesuchten Größe × für jede Größe ein Faktor
 
 > MERKE: Kommt eine Kommazahl bei Personen heraus (z. B. 37,6 Arbeiter), wird aufgerundet (38), weil 37 Arbeiter den Termin nicht schaffen.
 
-## 3. Kettensatz
+## 3. Kettensatz – Buch Kap. 4, S. 44–48
 
 ### Was ist das?
 
@@ -215,14 +215,14 @@ Eine Gedenkmünze wiegt 30 g (Rohgewicht) und hat einen Feingehalt von 750/1000.
 
 > FALLE: Kurse in der richtigen Richtung einbauen. „1 € = 1,08 US-$“ wird als Glied „1,08 US-$ | 1 €“ geschrieben, wenn man von Dollar zu Euro kommen will.
 
-## 4. Währungsrechnen (Wechselkurse)
+## 4. Währungsrechnen (Wechselkurse) – Buch Kap. 5, S. 49–54
 
 ### Was ist das?
 
 Umrechnung zwischen Euro und Fremdwährung. In Deutschland gilt die **Mengennotierung**: Der Kurs gibt an, wie viele Einheiten Fremdwährung man für **1 €** bekommt (z. B. 1 € = 1,0650 US-$).
 
 - **Sorten:** Bargeld (Banknoten, Münzen) – z. B. Reisegeld am Schalter.
-- **Devisen:** unbares Geld (Überweisungen, Schecks, Guthaben auf Konten im Ausland).
+- **Devisen:** im Ausland fällige, auf Fremdwährung lautende Zahlungsanweisungen (Überweisungen, Schecks, Wechsel). Der Sortenkurs ist immer ungünstiger als der Devisenkurs.
 
 ### Kurse aus Sicht der Bank
 
@@ -232,6 +232,8 @@ Umrechnung zwischen Euro und Fremdwährung. In Deutschland gilt die **Mengennoti
 | Devisen (unbar) | Geldkurs | Briefkurs |
 
 > MERKE: Verkaufskurs – die Bank gibt Fremdwährung heraus, sie verkauft sie. Ankaufskurs – die Bank nimmt Fremdwährung entgegen, sie kauft sie. Alle Kurse werden immer aus Sicht der Bank benannt.
+
+> ACHTUNG BUCH: Im Beispiel auf S. 50 steht „2.356 EUR zum Geldkurs von 1,3244“. Laut Kurstabelle derselben Seite ist 1,3244 aber der Briefkurs; der Geldkurs ist 1,3184 (Ergebnis dann 3.106,15 US-$ statt 3.120,29 US-$). Die Regel bleibt: Bank verkauft Devisen zum Geldkurs, kauft zum Briefkurs. Ist in einer Aufgabe ein Kurs vorgegeben, rechnet man mit genau diesem Wert.
 
 Die Bank gibt beim Verkauf **weniger** Fremdwährung je € heraus und verlangt beim Ankauf **mehr** Fremdwährung je €. Die Differenz ist ihr Verdienst. Darum ist in der Mengennotierung der Verkaufskurs kleiner als der Ankaufskurs (und der Geldkurs kleiner als der Briefkurs).
 
@@ -280,7 +282,7 @@ Ein Messegast aus der Schweiz begleicht eine Hotelrechnung von 380 € bar in Fr
 
 > FALLE: Bei Provisionen (z. B. 0,15 %) zuerst den Euro-Betrag ermitteln, dann die Provision davon abziehen (Gutschrift) oder hinzurechnen (Belastung).
 
-## 5. Durchschnittsrechnen (einfach und gewogen)
+## 5. Durchschnittsrechnen (einfach und gewogen) – Buch Kap. 6.1, S. 55–60
 
 ### Was ist das?
 
@@ -328,7 +330,7 @@ Die Verwaltungskosten der vier Quartale betragen 18.400 €, 21.300 €, 19.750 
 
 > MERKE: Einfacher und gewogener Durchschnitt sind nur dann gleich, wenn alle Mengen gleich groß sind.
 
-## 6. Mischungsrechnen
+## 6. Mischungsrechnen – Buch Kap. 6.2, S. 60–65
 
 ### Was ist das?
 
@@ -368,7 +370,7 @@ Liegt der Mischpreis genau in der Mitte (z. B. 6 € und 10 € → 8 €), sind
 
 > MERKE: Der Mischpreis muss zwischen dem niedrigsten und dem höchsten Sortenpreis liegen, sonst ist die Mischung unmöglich.
 
-## 7. Verteilungsrechnen
+## 7. Verteilungsrechnen – Buch Kap. 7, S. 66–82
 
 ### Was ist das?
 
@@ -389,8 +391,9 @@ Ein Gesamtbetrag (Gewinn, Kosten, Erbschaft, Spesen) wird nach einem **Verteilun
 
 ### 7.2 Verteilung mit Vor- und Nachleistungen
 
-- **Vorleistung (Vorabbetrag):** Ein Beteiligter erhält vorab einen festen Betrag (z. B. Tätigkeitsvergütung, Zinsen auf Einlagen).
-- **Nachleistung (Abzug):** Ein Beteiligter muss sich einen Betrag anrechnen lassen und bekommt entsprechend weniger.
+- **Vorleistung = Sondervergütung (Buch):** Ein Beteiligter erhält vorab einen festen Betrag (z. B. Tätigkeitsvergütung, Zinsen auf Einlagen).
+- **Nachleistung = Abzug (Buch):** Ein Beteiligter muss sich einen Betrag anrechnen lassen (z. B. Privatnutzung Firmenwagen, Vorempfang bei Erbschaft).
+- Buchformel: Verteilungssumme = vorhandene Summe − Sondervergütungen + Abzüge.
 
 Rechenweg:
 
@@ -425,6 +428,8 @@ Rechenweg:
 4. Bezugspreis je Posten = Warenwert + Wertspesen + Gewichtsspesen.
 5. Bei Bedarf Bezugspreis je kg = Bezugspreis ÷ Gewicht.
 
+Buchweg (gleiches Ergebnis): Warenwerte und Gewichte jeweils kürzen → Verhältniszahlen; Spesen ÷ Summe der Teile = Wert je Teil; × Teile je Posten. Beispiel unten: Wert 8.000 : 4.000 = 2 : 1 → 240 ÷ 3 = 80 € je Teil → X 160 €, Y 80 €; Gewicht 600 : 400 = 3 : 2 → 450 ÷ 5 = 90 € je Teil → X 270 €, Y 180 €.
+
 **Beispiel:** Posten X: 8.000 €, 600 kg. Posten Y: 4.000 €, 400 kg. Versicherung 240 €, Fracht 450 €.
 
 | Posten | Warenwert | Gewicht | Wertspesen | Gewichtsspesen | Bezugspreis | je kg |
@@ -439,7 +444,7 @@ Rechenweg:
 
 > MERKE: Die Probe (Summe der Anteile = Gesamtbetrag) deckt fast jeden Fehler auf.
 
-## 8. Prozentrechnen
+## 8. Prozentrechnen – Buch Kap. 8, S. 83–101
 
 ### Was ist das?
 

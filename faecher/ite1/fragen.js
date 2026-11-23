@@ -9,7 +9,7 @@
 const MC = [
  {sit:"Situation zur 1. bis 5. Aufgabe", unit:"Unit 1", text:"Sie beginnen Ihre Ausbildung in einem IT-Unternehmen und lernen die Firma, ihre Abteilungen und verschiedene Unternehmensarten kennen."},
  {q:"What is a <b>subsidiary</b>?", o:["A company that is owned by a larger parent company","The main office of a company","A company that is run by a family","A department that handles legal issues","A new company without any customers"], a:1, ex:"subsidiary = Tochtergesellschaft. Die Hauptverwaltung heißt head office bzw. headquarters."},
- {q:"Which description fits a <b>start-up</b>?", o:["A company with formalized processes and long-term strategic goals","A company operating in many countries with global infrastructure","A new, agile company that usually can't survive without outside investment","A company owned by the government","A company that only sells hardware"], a:3, ex:"Start-ups sind agil und schnell, aber oft auf Investoren angewiesen. Formalisierte Prozesse kennzeichnen große Unternehmen, globale Infrastruktur multinationale Konzerne."},
+ {q:"Which description fits a <b>start-up</b>?", o:["A company with formalized processes and long-term strategic goals","A company operating in many countries with global infrastructure","A new, agile company that usually can't survive without outside investment","A company owned by the government","A company that only sells hardware"], a:3, ex:"Start-ups sind agil und schnell, aber oft auf Investoren angewiesen. Formalisierte Prozesse kennzeichnen große Unternehmen, globale Infrastruktur multinationale Konzerne. (Stoff der revised-Ausgabe, in den Unterrichtsnotizen nicht belegt.)"},
  {q:"What does <b>SaaS</b> mean?", o:["Security and Antivirus Service","Software as a Service – software that runs in the cloud and is rented by subscription","Storage and Archive System","Server as a Station","Software and Support Standard"], a:2, ex:"SaaS: Man mietet die Software (Abo) und nutzt sie über das Internet, statt sie lokal zu installieren."},
  {q:"Which department <i>makes sure that software meets technical standards</i>?", o:["Human Resources","Sales &amp; Marketing","Legal Department","Quality Assurance","Customer Service"], a:4, ex:"QA = Qualitätssicherung. HR = Personal, R&amp;D = Forschung und Entwicklung."},
  {type:"match", q:"Ordnen Sie die Abteilung der Aufgabe zu!", ref:"<b>Abteilungen:</b> 1. Human Resources · 2. Research &amp; Development · 3. Customer Service", rows:["recruits and trains new employees","creates innovative new products","answers customer questions and complaints","handles staff relations and benefits"], a:[1,2,3,1], ex:"HR kümmert sich um Personal (Einstellung, Schulung, Zusatzleistungen). R&amp;D entwickelt neue Produkte. Customer Service betreut Kundenanfragen."},
@@ -20,7 +20,7 @@ const MC = [
  {q:"What does <b>KPI</b> stand for?", o:["Key Performance Indicator – a figure used to measure success","Keyboard Port Interface","Known Problem Index","Key Project Investment","Kernel Process Information"], a:1, ex:"Mit KPIs wie Umsatz oder Anzahl neuer Kunden misst man den Erfolg."},
  {q:"A <b>vulnerability</b> in an information system is …", o:["a backup copy","a weakness that attackers could use","a new feature","a fast network connection","a user manual"], a:2, ex:"vulnerability = Schwachstelle. Ein breach ist dagegen ein erfolgreicher Angriff oder ein Datenleck."},
  {q:"What does it mean to <b>deploy</b> software?", o:["To delete it","To write the code for it","To install it and make it available for use","To test it on paper","To sell it to a competitor"], a:3, ex:"deploy = bereitstellen, in Betrieb nehmen (z. B. in die production environment)."},
- {q:"What is a <b>compressed work week</b>?", o:["Working only from home","Working full-time hours on fewer days","Being paid only for results","Working part-time","Choosing any working hours without core time"], a:2, ex:"Ein Beispiel ist vier Tage à 10 Stunden. ROWE bedeutet: Es zählt nur das Ergebnis. Flexible hours bedeutet: freie Zeiteinteilung mit Kernzeit."},
+ {q:"What is a <b>compressed work week</b>?", o:["Working only from home","Working full-time hours on fewer days","Being paid only for results","Working part-time","Choosing any working hours without core time"], a:2, ex:"Ein Beispiel ist vier Tage à 10 Stunden. ROWE bedeutet: Es zählt nur das Ergebnis. Flexible hours bedeutet: freie Zeiteinteilung mit Kernzeit. (Stoff der revised-Ausgabe, in den Unterrichtsnotizen nicht belegt.)"},
  {q:"Complete: <i>„We get too ___ emails, and we spend too ___ time answering them.“</i>", o:["much – many","many – much","a lot – many","few – much","much – much"], a:2, ex:"emails sind zählbar → many. time ist unzählbar → much."},
 
  {sit:"Situation zur 13. bis 21. Aufgabe", unit:"Unit 3", text:"Sie arbeiten im IT-Support. Sie erklären neuen Kolleginnen und Kollegen Benutzeroberflächen, Hardware und Software-Einstellungen."},
@@ -51,7 +51,7 @@ const MC = [
  {q:"What is an <b>ERP system</b>?", o:["A program for editing photos","Software that manages and integrates business processes like finance, HR, production, sales and inventory in one central system","A type of network cable","A social media platform","An antivirus program"], a:2, ex:"ERP = Enterprise Resource Planning. CRM = Kundenbeziehungen, SCM = Lieferkette."},
  {q:"What is a <b>CRM</b> system used for?", o:["Managing customer data, contacts, leads and sales","Cooling servers","Writing source code","Managing Wi-Fi access points","Editing videos"], a:1, ex:"CRM = Customer Relationship Management."},
  {q:"In a support ticket, what does <b>severity</b> describe?", o:["How fast the problem must be fixed","How bad the problem is","Who reported the problem","The date of the ticket","The cost of the solution"], a:2, ex:"Severity = wie schlimm. Priority = wie dringend."},
- {q:"A ticket has the status <b>backlog</b>. What does that mean?", o:["It has been fixed","It has been logged but is not yet scheduled","It was deleted","It is being worked on right now","It was sent to the customer"], a:2, ex:"Weitere Status: open, in progress, pending, on hold, closed. deferred = verschoben."},
+ {q:"A ticket has the status <b>backlog</b>. What does that mean?", o:["It has been fixed","It has been logged but is not yet scheduled","It was deleted","It is being worked on right now","It was sent to the customer"], a:2, ex:"Weitere Status: open, in progress, pending, on hold, closed. „deferred“ (verschoben) ist dagegen ein Wert im Feld Resolution, ebenso fixed oder incomplete."},
  {q:"Which chart is best to show <b>parts of a whole</b> (percentages)?", o:["Line chart","Pie chart","Funnel chart","Map chart","Numeric card"], a:2, ex:"pie chart = Anteile, line chart = Trend über Zeit, bar chart = Vergleich."},
  {q:"What is a <b>sandbox</b> environment?", o:["A playground for children","A safe test environment where updates are tested before deployment","The main production server","A cloud storage folder","A backup tape"], a:2, ex:"Gehört zu den Preventative measures im Incident Report: Updates erst in der Sandbox testen."},
  {q:"Which phrase do you use to <b>confirm a customer's symptoms</b>?", o:["You can resolve this by …","Just to confirm, are you experiencing …?","Alternatively, you can try …","If this does not work, you might also consider …","Typical signs include …"], a:2, ex:"Ablauf einer FAQ: issue → symptoms → confirm → solution → alternative."},
@@ -68,8 +68,8 @@ const MC = [
 // ---------- Klausur-Trainer (Forms-Quiz) ----------
 // type: single | multi | text,  a = richtige Nummer(n) ab 1
 const TRAINER = [
- {type:"single", pts:4, q:"What does <b>CPU</b> stand for?", o:["Computer Personal Unit","Central Process Unit","Core Performance Utility","Communication Performance Unit"], a:[2],
-  ex:"CPU = Central Processing Unit (Prozessor). Im Forms-Quiz steht als Antwort „Central Process Unit“; die korrekte Langform lautet „Central Processing Unit“."},
+ {type:"single", pts:4, q:"What does <b>CPU</b> stand for?", o:["Computer Personal Unit","Central Processing Unit","Core Performance Utility","Communication Performance Unit"], a:[2],
+  ex:"CPU = Central Processing Unit (Prozessor). Hinweis: Im Forms-Quiz stand die Antwort „Central Process Unit“ – gemeint ist die korrekte Langform „Central Processing Unit“."},
  {type:"single", pts:4, q:"What is a <b>„GUI“</b>?", o:["General User Interaction","Graphical User Interface","General Utility Interface","Global Utility Integration"], a:[2],
   ex:"GUI = Graphical User Interface, die grafische Benutzeroberfläche mit Fenstern, Symbolen und Menüs."},
  {type:"text", pts:4, q:"Which component in a PC is responsible for sending the video signal to the monitor? (one or 2 words)", accept:["gpu","graphics card","video card","graphics card gpu","graphic card","graphics card (gpu)"],
@@ -97,6 +97,12 @@ const TRAINER = [
 // ---------- Vokabeln: [Englisch, Deutsch, Unit] ----------
 const VOC = [
  // Unit 1 – My company
+ ["to supervise","beaufsichtigen, betreuen","Unit 1"],
+ ["to be in charge of","zuständig sein für","Unit 1"],
+ ["to report to sb","jdm unterstellt sein","Unit 1"],
+ ["to liaise with sb","mit jdm zusammenarbeiten, sich abstimmen","Unit 1"],
+ ["to contribute","beitragen","Unit 1"],
+ ["Chief Executive Officer (CEO)","Geschäftsführer/in, Vorstandsvorsitzende/r","Unit 1"],
  ["apprentice","Auszubildende/r, Lehrling","Unit 1"],
  ["apprenticeship","Ausbildung, Lehre","Unit 1"],
  ["vocational training","Berufsausbildung","Unit 1"],
@@ -128,6 +134,9 @@ const VOC = [
  ["collaboration","Zusammenarbeit","Unit 1"],
  ["compliance","Einhaltung von Vorschriften","Unit 1"],
  // Unit 2 – My workplace
+ ["executives","Führungskräfte","Unit 2"],
+ ["hot desk","nicht fest zugeteilter Arbeitsplatz","Unit 2"],
+ ["agenda","Tagesordnung","Unit 2"],
  ["workflow","Arbeitsablauf","Unit 2"],
  ["productivity","Produktivität","Unit 2"],
  ["to prioritize","Prioritäten setzen","Unit 2"],
@@ -140,8 +149,6 @@ const VOC = [
  ["to be on call","in Rufbereitschaft sein","Unit 2"],
  ["fatigue","Erschöpfung, Ermüdung","Unit 2"],
  ["survey","Umfrage","Unit 2"],
- ["to supervise","beaufsichtigen, betreuen","Unit 2"],
- ["to be in charge of","zuständig sein für","Unit 2"],
  ["bug / defect","Programmfehler / Mangel","Unit 2"],
  ["to deliver","liefern, umsetzen","Unit 2"],
  ["to raise a problem","auf ein Problem aufmerksam machen","Unit 2"],
@@ -162,6 +169,7 @@ const VOC = [
  ["resignation","Kündigung (durch Arbeitnehmer)","Unit 2"],
  ["remuneration","Vergütung","Unit 2"],
  // Unit 3 – Computer software and hardware
+ ["transmitter","Sender","Unit 3"],
  ["graphical user interface (GUI)","grafische Benutzeroberfläche","Unit 3"],
  ["menu bar","Menüleiste","Unit 3"],
  ["file explorer","Datei-Explorer, Dateimanager","Unit 3"],
@@ -199,6 +207,7 @@ const VOC = [
  ["outcome","Ergebnis","Unit 3"],
  ["accessibility","Barrierefreiheit","Unit 3"],
  // Unit 4 – Internal communication
+ ["iterative","iterativ, wiederholend","Unit 4"],
  ["adaptive","anpassungsfähig","Unit 4"],
  ["sequential phases","aufeinanderfolgende Phasen","Unit 4"],
  ["silo","Silo (isolierter Bereich)","Unit 4"],
@@ -240,6 +249,9 @@ const VOC = [
  ["disaster recovery","Notfallwiederherstellung","Unit 4"],
  ["intellectual property","geistiges Eigentum","Unit 4"],
  // Unit 7 – Dealing with customers
+ ["resolution (ticket)","Lösung, Erledigung(sstatus)","Unit 7"],
+ ["template","Vorlage","Unit 7"],
+ ["plugin","Erweiterung, Softwarekomponente","Unit 7"],
  ["severity","Schweregrad (wie schlimm)","Unit 7"],
  ["priority","Dringlichkeit, Priorität","Unit 7"],
  ["showstopper","K.-o.-Fehler (blockiert alles)","Unit 7"],
@@ -352,10 +364,10 @@ registerFach({
   themen: {
     1: "Unit 1 · My company",
     2: "Unit 2 · My workplace",
-    3: "Unit 3 · Software & hardware",
-    4: "Unit 4 · Internal communication",
-    7: "Unit 7 · Dealing with customers",
-    11: "Unit 11 · Digitalization",
+    3: "Unit 3 · Software & hardware (roter Faden: 3 + 4)",
+    4: "Unit 4 · Internal communication (roter Faden: 7)",
+    7: "Unit 7 · Dealing with customers (roter Faden: 6)",
+    11: "Unit 11 · Digitalization (roter Faden: 11, inhaltlich abweichend)",
     [TRAINER_D]: "Klausur-Trainer · Forms-Quiz",
     [VOKABEL_D]: "Vokabeln · alle Units"
   },

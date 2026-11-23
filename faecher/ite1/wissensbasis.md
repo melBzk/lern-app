@@ -1,15 +1,15 @@
 # Lernübersicht Englisch – Baustein ITE1 (09.–20.11.2026)
 
 **Klausur:** Freitag, 20.11.2026, 08:00 Uhr, 120 Minuten
-**Lehrbuch:** *IT Matters 3rd edition revised* (Cornelsen 2025)
+**Lehrbuch:** Laut Bausteinbeschreibung *IT Matters 3rd edition* (Cornelsen 2018, ISBN 978-3-06-451522-2). Im Unterricht wurde ab Unit 3 die *3rd edition revised* (Cornelsen 2025) benutzt.
 **Grundlage:** roter Faden des Kurses. Die roten **COMMUNICATION**-Teile sind hier bewusst weggelassen.
-**Details, Vokabeltabellen und Lösungen:** Ordner [details/](details/)
+**Details, Vokabeltabellen und Lösungen:** Ordner details (nur am PC, nicht in der App)
 
 ---
 
 ## 0. Wichtig vorab: Roter Faden ↔ Buch
 
-Der rote Faden nutzt Kapiteltitel und Seitenzahlen einer **älteren Ausgabe**. Bei den Units 1–3 passen die Seiten. Danach passen die **Inhalte** zu anderen Units des Buchs. Diese Übersicht ordnet deshalb nach Inhalt zu:
+Der rote Faden folgt der Ausgabe von **2018** (ISBN laut Bausteinbeschreibung). Die Unterrichtsnotizen ab Unit 3 folgen der **revised-Ausgabe**. Bei Unit 1 und 2 decken sich roter Faden, Notizen und die Ausgabe von 2018. Ab Unit 3 sind Unit-Nummern und Seiten verschoben. Diese Übersicht ordnet deshalb nach Inhalt zu (in der App steht die Nummer des roten Fadens in Klammern hinter dem Thema):
 
 | Tag | Roter Faden | Im Buch (revised) | Seiten |
 |---|---|---|---|
@@ -19,7 +19,7 @@ Der rote Faden nutzt Kapiteltitel und Seitenzahlen einer **älteren Ausgabe**. B
 | Fr 13.11. / Mo 16.11. | 4 Computer software (GUIs, installation, configuration) | **Unit 3** Foundation GUIs + Part B Software configuration | 26–27, 31–33 |
 | Di 17.11. | 6 Dealing with customers | **Unit 7** Dealing with customers | 70–77 |
 | (Mi 18.11., Feiertag) | 7 Communication with colleagues (collaborating, network, cloud) | **Unit 4** Internal communication | 36–43 |
-| Do 19.11. | 11 Problems and complaints (S. 112–121) | **Unit 11** Digitalization | 112–119 |
+| Do 19.11. | 11 Problems and complaints (S. 112–121), Thema Troubleshooting | **nur nach Seitenzahl:** Unit 11 Digitalization (inhaltlich anders). Inhaltlich passend: Beschwerden, Cyberangriff/Beschwerde-E-Mail (Unit 6), FAQ/Troubleshooting (Unit 7 Part B) | 112–121 |
 | Extras | 5 IT security / 8 Presenting projects / 12 Job application | Unit 6 / Unit 8 / Unit 12 | 58–65 / 80–87 / 122–129 |
 
 ⚠️ **Lücke im Scan:** Die Seiten 70–71 fehlen (Unit 7 Foundation: *Ticketing systems / customer support ticket*). Diese Seiten bitte direkt im Buch nachlesen.
@@ -38,7 +38,12 @@ Der rote Faden nutzt Kapiteltitel und Seitenzahlen einer **älteren Ausgabe**. B
 - **BE vs. AE:** *lift = elevator*. Das deutsche Erdgeschoss ist im BE *ground floor*, im AE *first floor*. Deshalb ist BE *first floor* = AE *second floor*.
 - **Wegbeschreibung** (Imperativ): *Go down the corridor … / Take the elevator up to the third floor. / It's on the right.*
 
-**Part B – Types of companies (S. 10–11)**
+**Part B – The structure of a company (S. 10–11)** *(laut Notizen und rotem Faden im Unterricht behandelt)*
+- **Organigramm und Titel:** *CEO* (Chief Executive Officer), *CIO* (Chief Information Officer), *CTO* (Chief Technology Officer), *CDO* (Chief Digital Officer), *Head of IT Operations*, *Head of Software Engineering*, *Head of PMO*, *Head of QA*, *Project/Development/Product Managers*
+- **Beziehungen beschreiben (simple present):** *The project manager supervises a team of 22 people. / The technical analysts report to the head of department. / The business analysts liaise with the customer. / The lead software tester is in charge of seven testers.*
+- **Verantwortung:** *It's my responsibility to … / I am responsible for … / I report directly to the CEO.*
+
+**Types of companies (revised-Ausgabe, im Unterricht nicht belegt)**
 - *start-up* (ohne Fremdkapital nicht überlebensfähig, agil, schnell, chaotisch) → *small business* (strukturierter, aber noch flexibel) → *medium-sized enterprise* (Abteilungen, formale Prozesse) → *large enterprise* (Effizienz, langfristige Strategie) → *multinational corporation* (globale Infrastruktur, Compliance, Risikomanagement)
 - Für jeden Typ ein Vorteil und ein Nachteil, z. B. Start-up: + *quick decision-making*, – *poor work-life balance*
 - **Vorlieben ausdrücken:** *That really suited me. / It was a good fit for me. / … wasn't ideal. / … doesn't really work well for me.*
@@ -69,7 +74,15 @@ Der rote Faden nutzt Kapiteltitel und Seitenzahlen einer **älteren Ausgabe**. B
 - **Zweck ausdrücken:** *to ensure that … / in order to … / This helps them to … / The reason they do this is to …*
 - **Grammatik:** *enjoy/dislike + -ing*; *want/would prefer + to*; *like* geht mit beidem
 
-**Part B – Working conditions (S. 20–21)**
+**Foundation (laut Unterricht):** Vor- und Nachteile von *face-to-face meeting, phone call/text message, email, intranet, cloud storage, slides* (Gruppenarbeit), dazu eine Umfrage zur internen Kommunikation (*How often do you use … ? How much time … ? How many … ?*).
+
+**Part B – Ways of working in a team (S. 19–21)** *(laut rotem Faden behandelt)*
+- E-Mail des Projektmanagers: tägliche 15-Minuten-*stand-up meetings*, gemeinsames Sitzen auf Level 2, *hot desk* für ruhiges Arbeiten, *paperless* (Wunsch der *executives*), Fragen ins Wiki statt spontan stellen
+- **Vorlieben ausdrücken:** *I prefer formal meetings to stand-up ones. / The team would rather not have formal meetings. / Their preference is for electronic documentation. / I favour printed documents over electronic documentation.*
+- **Vergleichen:** *more difficult than … / not as important as … / the worst / the least effective option*
+- Betonung mit *do*: *If you do feel the need for a quiet space …*
+
+**Working conditions (revised-Ausgabe, im Unterricht nicht belegt)**
 - *base salary, annual bonus, benefits* (health insurance, retirement plan, professional development, discounts)
 - Flexible Modelle:
   - **hybrid work:** mindestens 2 Bürotage pro Woche
@@ -93,6 +106,8 @@ Der rote Faden nutzt Kapiteltitel und Seitenzahlen einer **älteren Ausgabe**. B
   - *spread* zum Hineinzoomen, *pinch* zum Herauszoomen
   - *drag* zum langsamen Scrollen, *swipe up/down/left/right* zum schnellen Scrollen
   - *portrait / landscape mode*
+
+- **Komponenten (Unterricht, S. 30 Nr. 4):** CPU (Central Processing Unit) · GPU (Graphics Processing Unit) · RAM (Random Access Memory) · VRAM (Grafikspeicher) · SSD/HDD · OS (Operating System) · DirectX
 
 **Part A – Hardware set-ups (S. 28–30)**
 - **Arbeitsplatz:** *monitor, laptop, docking station, headset, touchpad, keyboard, mouse, mouse pad, ergonomic chair*
@@ -124,7 +139,11 @@ Der rote Faden nutzt Kapiteltitel und Seitenzahlen einer **älteren Ausgabe**. B
 ## 4. Unit 7 – Dealing with customers (S. 70–77)
 *(roter Faden: „6 Dealing with customers“)*
 
-**Foundation (S. 70–71) – fehlt im Scan.** Thema: *ticketing systems*, ein Kundensupport-Ticket ausfüllen. Bitte im Buch lesen.
+**Foundation – Ticketing (S. 70–71, aus den Unterrichtsnotizen)**
+- Ticketfelder: *Type* (bug, minor bug, feature request) · *Status* (open, in progress, backlog, closed) · *Priority* (low, medium …) · *Severity* (showstopper, moderate, minimal) · *Resolution* (fixed, deferred, incomplete)
+- *severity* = wie schlimm (how bad) · *priority* = wie dringend (how fast do we need to fix it)
+- Beispiel: Zahlungs-Gateway nach API-Update ausgefallen → Status open, Severity showstopper, Resolution incomplete
+- **Incident Report:** Issue summary → Investigation findings → Resolution steps → Post-resolution actions → Preventative measures (z. B. Updates zuerst in einer *sandbox* testen)
 
 **Part A – Set-up and customization (S. 72–74)**
 - **ERP-Dashboard:**
@@ -177,6 +196,7 @@ Der rote Faden nutzt Kapiteltitel und Seitenzahlen einer **älteren Ausgabe**. B
 
 **Part A – Installing a new network (S. 38–40)**
 - Fall: **Jupa Engineering, Dublin.** Budget €20.000, tatsächlich ca. €25.000, also müssen +€5.000 gegenüber Finance begründet werden.
+- Eckdaten (Unterricht): 220 Mitarbeitende, 660–880 gleichzeitige Geräte, 2.800 m², 100 Mbps pro Gerät, 2,4/5 GHz, Empfehlung Wi-Fi 6
 - **Anforderungen und ihre Folgen:**
   - mindestens 12 *access points*, sonst langsamer
   - *dual-band* (2,4 + 5 GHz), sonst leiden Performance und Produktivität
@@ -201,6 +221,8 @@ Der rote Faden nutzt Kapiteltitel und Seitenzahlen einer **älteren Ausgabe**. B
   - regelt *collecting, processing, storing personal data*
   - Ziel: *protect the privacy and rights of individuals*
   - Transfer außerhalb von EU/EWR nur mit *safeguards*
+  - Sicherheitsniveau muss dem Risiko angemessen sein (technische und organisatorische Maßnahmen)
+  - Auskunftsrecht: Betroffene können ihre Daten einsehen und Kopien erhalten; der interne Zugriff ist zu begrenzen
 - **Local vs. cloud:**
   - Kontrolle und Sicherheit: lokal volle Kontrolle, aber teuer; in der Cloud der Drittanbieter
   - *Data residency:* lokal einfach; Cloud evtl. außerhalb der EU
@@ -319,16 +341,16 @@ Der rote Faden nutzt Kapiteltitel und Seitenzahlen einer **älteren Ausgabe**. B
   - Angriffsarten (*unauthorized access*), Warnungen an Mitarbeiter und Kunden
   - Fernzugriff (VPN, MFA), verlorenes Handy
   - Beschwerde-E-Mail nach einem Cyberangriff beantworten
-  - → [wissensbasis/03_units_05-06.md](wissensbasis/03_units_05-06.md)
+  - → Detaildatei details/03_units_05-06.md (nur am PC, nicht in der App)
 - **Unit 8 External communication (S. 80–87):**
   - Messeauftritt, Gespräche auf der Messe
   - Projektbericht für Kunden (Fortschritt, *lessons learned*)
-  - → [wissensbasis/04_units_07-08.md](wissensbasis/04_units_07-08.md)
+  - → Detaildatei details/04_units_07-08.md (nur am PC, nicht in der App)
 - **Unit 12 A job application (S. 122–129):**
   - Stellenanzeigen, Bewerbung, Vorstellungsgespräch
-  - → [wissensbasis/06_unit_12_und_anhang.md](wissensbasis/06_unit_12_und_anhang.md)
+  - → Detaildatei details/06_unit_12_und_anhang.md (nur am PC, nicht in der App)
 
 ## 10. Zum Weiterüben im Anhang
-- **Useful phrases** (S. 152–163) und **Grammar** (S. 164–169): [wissensbasis/06_unit_12_und_anhang.md](wissensbasis/06_unit_12_und_anhang.md)
+- **Useful phrases** (S. 152–163) und **Grammar** (S. 164–169): Detaildatei details/06_unit_12_und_anhang.md (nur am PC, nicht in der App)
 - **KMK Mock exam** (S. 148–151): komplette Probeklausur mit Lösungen, in derselben Datei
-- **Transcripts** aller Hörübungen (Tracks 2–48): [wissensbasis/07_transcripts.md](wissensbasis/07_transcripts.md)
+- **Transcripts** aller Hörübungen (Tracks 2–48): Detaildatei details/07_transcripts.md (nur am PC, nicht in der App)
