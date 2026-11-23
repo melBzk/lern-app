@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Lern-App</title>
+<meta name="theme-color" content="#0D0D0D">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Lern-App">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="icon" href="icon-192.png">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <button id="back" class="icon-btn" hidden aria-label="Zurück">‹</button>
+  <div class="title">
+    <div class="eyebrow" id="eyebrow">Umschulung</div>
+    <h1 id="heading">Lern-App</h1>
+  </div>
+</header>
+<main id="app"></main>
+
+<!-- Lernzettel-Ansicht (legt sich über alles, die Lernrunde bleibt erhalten) -->
+<div id="sheet" class="sheet" hidden>
+  <div class="sheet-head">
+    <div class="sheet-title" id="sheet-title">Lernzettel</div>
+    <button class="sheet-close" id="sheet-close">Schließen</button>
+  </div>
+  <div class="sheet-body md" id="sheet-body"></div>
+</div>
+
+<script src="app.js"></script>
+<!-- ===== Fächer: für ein neues Fach eine weitere Zeile ergänzen ===== -->
+<script src="faecher/wiso/fragen.js"></script>
+<script src="faecher/ite1/fragen.js"></script>
+<script src="faecher/coa1/fragen.js"></script>
+<!-- ================================================================== -->
+<script>start();</script>
+</body>
+</html>
