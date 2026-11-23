@@ -683,6 +683,7 @@ registerFach({
   id: "wiso",
   name: "WISO",
   langname: "Wirtschafts- und Sozialkunde",
+  bereich: "Vorbereitungskurs",
   themen: DAYS,
   fragen: QUESTIONS,
   // Lernzettel: welches Kapitel (## Nummer) der Wissensbasis gehört zu welchem Thema

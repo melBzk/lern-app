@@ -347,6 +347,7 @@ registerFach({
   id: "ite1",
   name: "ITE1",
   langname: "Englisch (IT Matters)",
+  bereich: "Vorbereitungskurs",
   html: true, // Fragen enthalten <b>/<i>
   themen: {
     1: "Unit 1 · My company",

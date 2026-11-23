@@ -95,6 +95,11 @@ details.group summary .name{flex:1;min-width:0;font-size:15px;}
 details.group summary .chev{transition:transform .2s;transform:rotate(90deg);}
 details.group[open] summary .chev{transform:rotate(-90deg);}
 details.group[open] summary{padding-bottom:10px;border-bottom:1px solid var(--line);}
+.bereich-head{display:flex;align-items:baseline;justify-content:space-between;gap:10px;}
+.bereich-head h2{margin-bottom:4px;}
+.suche{width:100%;font-size:16px;padding:12px 14px;border-radius:12px;border:1.5px solid var(--line);background:var(--bg);}
+.suche:focus{outline:none;border-color:var(--rose);background:#fff;}
+#treffer .muted{margin:12px 0 0;}
 .pill{display:inline-block;font-size:11px;background:var(--bad-soft);color:var(--bad);border-radius:20px;padding:1px 8px;font-weight:600;}
 .card.warn{background:#fff8f3;border:1.5px solid #f0c9a8;}
 .card.warn h2{color:#a4572a;}

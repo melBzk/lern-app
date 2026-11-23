@@ -800,6 +800,7 @@ registerFach({
   id: "coa1",
   name: "COA1",
   langname: "PC-Technik",
+  bereich: "Vorbereitungskurs",
   themen,
   fragen,
   // Themen in aufklappbare Gruppen sortieren

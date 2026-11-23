@@ -52,7 +52,7 @@ function parseGermanNumber(str) {
   if (/^-?\d{1,3}(\.\d{3})+$/.test(str)) return parseFloat(str.replace(/\./g, ""));
   return parseFloat(str);
 }
-function fmt(n) { return n.toLocaleString("de-DE", { maximumFractionDigits: 2 }); }
+function fmt(n) { return n.toLocaleString("de-DE", { maximumFractionDigits: 4 }); } // 4 Stellen, z. B. für Wechselkurse
 function correctText(Q) {
   if (Q.t === "calc") return `${fmt(Q.a)} ${Q.unit || ""}`;
   if (Q.t === "text") return Q.accept[0];
@@ -173,17 +173,29 @@ function homeView() {
         <div class="name">${esc(f.themen[d])}<div class="meta">${f.name} · ${pct(stats(themaFragen(f, d)).quote * 100, 100)}% richtig</div></div><div class="chev">›</div></div>`).join("")}
     </div>` : ""}
 
+    ${bereiche().map(([b, fs]) => {
+      const bs = stats(fs.flatMap(fachFragen));
+      return `<div class="card">
+        <div class="bereich-head">
+          <h2>${esc(b)}</h2>
+          <span class="meta">${fs.length} Module · ${pct(bs.mastered, bs.total)}% sicher</span>
+        </div>
+        ${fs.map(f => {
+          const st = stats(fachFragen(f));
+          return `<div class="row fach" data-f="${f.id}">
+            <div class="badge">${esc(f.name.slice(0, 4))}</div>
+            <div class="name"><b>${esc(f.name)}</b> <span class="meta">${esc(f.langname || "")}</span>
+              <div class="meta">${Object.keys(f.themen).length} Themen · ${st.total} Fragen${st.due ? ` · <span class="hl">${st.due} fällig</span>` : ""}</div>
+              <div class="bar"><div class="fill" style="width:${pct(st.mastered, st.total)}%"></div></div>
+            </div><div class="chev">›</div></div>`;
+        }).join("")}
+      </div>`;
+    }).join("")}
+
     <div class="card">
-      <h2>Fächer</h2>
-      ${FAECHER.map(f => {
-        const fs = stats(fachFragen(f));
-        return `<div class="row fach" data-f="${f.id}">
-          <div class="badge">${esc(f.name.slice(0, 4))}</div>
-          <div class="name"><b>${esc(f.name)}</b> <span class="meta">${esc(f.langname || "")}</span>
-            <div class="meta">${Object.keys(f.themen).length} Themen · ${fs.total} Fragen${fs.due ? ` · <span class="hl">${fs.due} fällig</span>` : ""}</div>
-            <div class="bar"><div class="fill" style="width:${pct(fs.mastered, fs.total)}%"></div></div>
-          </div><div class="chev">›</div></div>`;
-      }).join("")}
+      <h2>📖 Wissensbasis</h2>
+      <p class="muted">Kein Quiz gerade? Hier kannst du alles in Ruhe nachlesen oder nach einem Begriff suchen.</p>
+      <button class="btn dark" id="wissen">Wissensbasis öffnen</button>
     </div>
 
     <div class="card">
@@ -193,6 +205,7 @@ function homeView() {
       <button class="btn ghost small danger" id="reset">Fortschritt zurücksetzen</button>
     </div>`;
 
+  on("wissen", () => go(wissenView));
   on("daily", () => startQuiz("Tägliche Runde", r.list));
   on("weak", () => startQuiz("Fehler üben", shuffle(weakQ).slice(0, 15)));
   on("reset", () => {
@@ -202,6 +215,90 @@ function homeView() {
     const f = fachById(el.dataset.f);
     el.dataset.d ? go(themaView, f, el.dataset.d) : go(fachView, f);
   });
+}
+
+// Fächer nach Überkategorie (bereich) gruppieren, Reihenfolge wie in index.html
+function bereiche() {
+  const map = new Map();
+  FAECHER.forEach(f => {
+    const b = f.bereich || "Weitere Fächer";
+    if (!map.has(b)) map.set(b, []);
+    map.get(b).push(f);
+  });
+  return [...map.entries()];
+}
+
+// ---------- Wissensbasis (Lesen ohne Quiz) ----------
+// Kapitelliste einer Wissensbasis: "## 3. Titel" → { key: "3", title: "Titel" }
+function chapterList(md) {
+  return md.split(/\r?\n/).map(l => l.match(/^##\s+(\d+)\.\s*(.*)/)).filter(Boolean)
+    .map(m => ({ key: m[1], title: m[2].replace(/\*\*/g, "") }));
+}
+
+function wissenView() {
+  setTitle("Nachlesen", "Wissensbasis");
+  app.innerHTML = `
+    <div class="card">
+      <input id="suche" class="suche" type="search" placeholder="🔍 Begriff suchen, z. B. USB, Inflation, Dreisatz" autocomplete="off">
+      <div id="treffer"></div>
+    </div>
+    ${bereiche().map(([b, fs]) => `<div class="card">
+      <h2>${esc(b)}</h2>
+      ${fs.filter(f => f.wissensbasis).map(f => `<div class="row" data-f="${f.id}">
+        <div class="badge">${esc(f.name.slice(0, 4))}</div>
+        <div class="name"><b>${esc(f.name)}</b> <span class="meta">${esc(f.langname || "")}</span></div>
+        <div class="chev">›</div></div>`).join("")}
+    </div>`).join("")}`;
+  app.querySelectorAll(".row").forEach(el => el.onclick = () => go(kapitelView, fachById(el.dataset.f)));
+
+  // Volltextsuche über alle Wissensbasen
+  const inp = document.getElementById("suche"), out = document.getElementById("treffer");
+  let timer;
+  inp.oninput = () => {
+    clearTimeout(timer);
+    timer = setTimeout(async () => {
+      const term = inp.value.trim().toLowerCase();
+      if (term.length < 2) { out.innerHTML = ""; return; }
+      const hits = [];
+      for (const f of FAECHER.filter(f => f.wissensbasis)) {
+        let md; try { md = await loadMd(f); } catch { continue; }
+        const ch = chapters(md);
+        chapterList(md).forEach(c => {
+          const n = ch[c.key].toLowerCase().split(term).length - 1;
+          if (n) hits.push({ f, c, n });
+        });
+      }
+      if (inp.value.trim().toLowerCase() !== term) return; // inzwischen weitergetippt
+      hits.sort((a, b) => b.n - a.n);
+      out.innerHTML = hits.length
+        ? `<p class="muted">${hits.length} Kapitel gefunden</p>` + hits.slice(0, 15).map((h, i) => `<div class="row" data-i="${i}">
+            <div class="name">${esc(h.c.title)}<div class="meta">${esc(h.f.name)} · ${h.n}× gefunden</div></div><div class="chev">›</div></div>`).join("")
+        : `<p class="muted">Nichts gefunden.</p>`;
+      out.querySelectorAll(".row").forEach(el => el.onclick = () => {
+        const h = hits[+el.dataset.i];
+        openNotes(h.f, [h.c.key], h.c.title, null, term);
+      });
+    }, 250);
+  };
+}
+
+async function kapitelView(f) {
+  setTitle("Wissensbasis", f.name);
+  app.innerHTML = '<p class="muted">Lade …</p>';
+  let md;
+  try { md = await loadMd(f); } catch { app.innerHTML = '<div class="card"><p class="muted">Die Wissensbasis konnte nicht geladen werden.</p></div>'; return; }
+  const list = chapterList(md);
+  const allg = new Set(f.allgemein || []);
+  const row = c => `<div class="row" data-k="${c.key}"><div class="name">${esc(c.title)}</div><div class="chev">›</div></div>`;
+  app.innerHTML = `
+    ${list.some(c => allg.has(c.key)) ? `<div class="card"><h2>Klausurtipps & Fallen</h2>${list.filter(c => allg.has(c.key)).map(row).join("")}</div>` : ""}
+    <div class="card"><h2>Kapitel</h2>${list.filter(c => !allg.has(c.key)).map(row).join("")}</div>
+    <button class="btn ghost" id="alles">Alles am Stück lesen</button>`;
+  app.querySelectorAll(".row").forEach(el => el.onclick = () => {
+    const c = list.find(c => c.key === el.dataset.k);
+    openNotes(f, [c.key], c.title);
+  });
+  on("alles", () => openNotes(f, list.map(c => c.key), f.name + " · komplett"));
 }
 
 function dailyRound() {
@@ -469,7 +566,7 @@ function chapters(md) {
 const sheet = document.getElementById("sheet");
 document.getElementById("sheet-close").onclick = () => { sheet.hidden = true; document.body.style.overflow = ""; };
 
-async function openNotes(f, keys, title, Q) {
+async function openNotes(f, keys, title, Q, term) {
   document.getElementById("sheet-title").textContent = title;
   const body = document.getElementById("sheet-body");
   body.innerHTML = '<p class="muted">Lade …</p>';
@@ -480,6 +577,7 @@ async function openNotes(f, keys, title, Q) {
     body.innerHTML = keys.map(k => ch[k] ? markdown(ch[k]) : "").join("<hr>") || '<p class="muted">Kein Kapitel gefunden.</p>';
     sheet.scrollTop = 0;
     if (Q) highlight(body, Q);
+    else if (term) markTerm(body, term);
   } catch (e) {
     body.innerHTML = '<p class="muted">Der Lernzettel konnte nicht geladen werden.</p>';
   }
@@ -498,13 +596,23 @@ function highlight(body, Q) {
     const score = uniq.filter(w => text.includes(w)).length;
     if (score > bestScore) { bestScore = score; best = el; }
   });
-  if (best && bestScore >= 2) {
-    best.classList.add("mark");
-    setTimeout(() => {
-      const top = best.getBoundingClientRect().top + sheet.scrollTop - 120;
-      sheet.scrollTo({ top, behavior: "smooth" });
-    }, 50);
-  }
+  if (best && bestScore >= 2) markAndScroll(best);
+}
+
+function markAndScroll(el) {
+  el.classList.add("mark");
+  setTimeout(() => {
+    const top = el.getBoundingClientRect().top + sheet.scrollTop - 120;
+    sheet.scrollTo({ top, behavior: "smooth" });
+  }, 50);
+}
+
+// Suchbegriff: alle Zeilen markieren, die ihn enthalten, und zur ersten springen
+function markTerm(body, term) {
+  const els = [...body.querySelectorAll("h3, li, tr, p, blockquote")]
+    .filter(el => el.textContent.toLowerCase().includes(term) && !el.querySelector("li, tr"));
+  els.forEach(el => el.classList.add("mark"));
+  if (els[0]) markAndScroll(els[0]);
 }
 
 // Kleiner Markdown-Umwandler (Überschriften, Listen, Tabellen, Zitate, fett/kursiv)
