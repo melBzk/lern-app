@@ -1,9 +1,8 @@
 # COA1 – Wissensbasis
 
-Zusammenfassung der 10 Abschnitte des COA1-Inhaltsplans (PC-Technik: Hardware, Systemstart, Betriebssystem, Netzwerk und Sicherheit), in der App aufgeteilt in **12 Einheiten** (Betriebssysteme/Installation und Datensicherung/Schadsoftware sind getrennt; BIOS-Update 14.4–14.7 steht in Einheit 7). „Einheit“ ist eine App-Nummer, **keine Buchkapitel-Nummer** – das Buchkapitel steht jeweils in Klammern. Grundlage: **HERDT-Verlag, *PC-Technik – Grundlagen* (2020)**, Kapitel 2–21 (Seitenzahlen = PDF-Seiten), sowie der **COA1-Inhaltsplan** (Screenshots 23.11.2026). Begleitend: COA1_Lernquiz.html.
-Als „Ergänzung“ markierte Punkte stammen nicht aus dem Buch; Themen des Inhaltsplans ohne Buchkapitel (Binärzahlen, Speichergrößen, Windows 11) sind vorläufig ergänzt, als „Ergänzung, nicht aus Buch/Unterricht“ gekennzeichnet und werden nach dem Unterricht abgeglichen **(Unterricht)**.
+Gegliedert nach den **Kapiteln des Buchs** HERDT, *PC-Technik – Grundlagen* (2020): Die Nummer vor jedem Abschnitt ist die Kapitelnummer im Buch (Seitenzahlen = PDF-Seiten). Kapitel, die im Kurs nicht drankommen (4, 6, 7, 8, 12, 18, 20), fehlen. Inhalte aus dem Unterricht ohne Buchkapitel stehen am Ende (90–92) und sind mit **(Unterricht)** markiert. Als 
 
-## 0. Prüfungsfallen & Selbstcheck – Einheiten 1–12
+## 0. Prüfungsfallen & Selbstcheck – Kapitel 2–21
 
 ### Zahlen, die man kennen muss
 
@@ -37,37 +36,37 @@ Als „Ergänzung“ markierte Punkte stammen nicht aus dem Buch; Themen des Inh
 - Systemwiederherstellung ist keine Datensicherung.
 - Wurm verbreitet sich selbst, Trojaner nicht.
 
-### FALLE-Boxen aus den Einheiten
+### FALLE-Boxen aus den Kapiteln
 
-> **FALLE (Einheit 1):** **Harvard-Architektur** = getrennte Speicher für Daten und Programme. Von Neumann = **ein** gemeinsamer Speicher. Der Bus ist dort der Flaschenhals.
+> **FALLE (Kap. 2):** **Harvard-Architektur** = getrennte Speicher für Daten und Programme. Von Neumann = **ein** gemeinsamer Speicher. Der Bus ist dort der Flaschenhals.
 
-> **FALLE (Einheit 2):** Ein ATX-Board passt **nicht** in ein Mini-ITX-Gehäuse – umgekehrt passt Mini-ITX meist in ein ATX-Gehäuse.
+> **FALLE (Kap. 2):** Ein ATX-Board passt **nicht** in ein Mini-ITX-Gehäuse – umgekehrt passt Mini-ITX meist in ein ATX-Gehäuse.
 
-> **FALLE (Einheit 4):** ESD-Schäden sind oft **unsichtbar** – ein Bauteil kann später ausfallen. Nylon-Kleidung erzeugt über 20.000 V.
+> **FALLE (Kap. 13):** ESD-Schäden sind oft **unsichtbar** – ein Bauteil kann später ausfallen. Nylon-Kleidung erzeugt über 20.000 V.
 
-> **FALLE (Einheit 5):** Cache = **SRAM**, Arbeitsspeicher = **DRAM** – nicht vertauschen. Flash ist **nicht flüchtig**, RAM schon.
+> **FALLE (Kap. 5):** Cache = **SRAM**, Arbeitsspeicher = **DRAM** – nicht vertauschen. Flash ist **nicht flüchtig**, RAM schon.
 
-> **FALLE (Einheit 6):** **RAID ersetzt kein Backup** – gelöschte oder verschlüsselte Dateien sind auf allen Platten gleichzeitig weg.
+> **FALLE (Kap. 10):** **RAID ersetzt kein Backup** – gelöschte oder verschlüsselte Dateien sind auf allen Platten gleichzeitig weg.
 
-> **FALLE (Einheit 7):** **F8** beim Start funktioniert ab Windows 8 nicht mehr.
+> **FALLE (Kap. 14):** **F8** beim Start funktioniert ab Windows 8 nicht mehr.
 
-> **FALLE (Einheit 8):** Eine 6-GB-Datei passt **nicht** auf einen FAT32-Stick (max. 4 GB je Datei) – exFAT oder NTFS nehmen.
+> **FALLE (Kap. 15):** Eine 6-GB-Datei passt **nicht** auf einen FAT32-Stick (max. 4 GB je Datei) – exFAT oder NTFS nehmen.
 
-> **FALLE (Einheit 11):** RAID, Systemwiederherstellung und reine Cloud-Synchronisation sind **keine** Datensicherung. Bei Plattenfehlern zuerst lesbare Daten sichern, dann prüfen (chkdsk, **S.M.A.R.T.**).
+> **FALLE (Kap. 19):** RAID, Systemwiederherstellung und reine Cloud-Synchronisation sind **keine** Datensicherung. Bei Plattenfehlern zuerst lesbare Daten sichern, dann prüfen (chkdsk, **S.M.A.R.T.**).
 
-> **FALLE (Einheit 12):** Wurm = verbreitet sich **allein**; Virus braucht eine Wirtsdatei; Trojaner verbreitet sich **nicht** selbst, sondern wird ausgeführt.
+> **FALLE (Kap. 21):** Wurm = verbreitet sich **allein**; Virus braucht eine Wirtsdatei; Trojaner verbreitet sich **nicht** selbst, sondern wird ausgeführt.
 
-### MERKE-Boxen aus den Einheiten
+### MERKE-Boxen aus den Kapiteln
 
-> **MERKE (Einheit 1):** Touchscreen und Multifunktionsgerät sind **Ein- und Ausgabegeräte** zugleich. *Ergänzung (nicht im Buch):* Bildschirm blendfrei aufstellen, Oberkante etwa auf Augenhöhe, genug Abstand.
+> **MERKE (Kap. 11):** Touchscreen und Multifunktionsgerät sind **Ein- und Ausgabegeräte** zugleich. *Ergänzung (nicht im Buch):* Bildschirm blendfrei aufstellen, Oberkante etwa auf Augenhöhe, genug Abstand.
 
-> **MERKE (Einheit 3):** USB arbeitet **seriell** mit Hub-Struktur – bis zu **127 Geräte** je Controller. Thunderbolt kennt nur die Kette (Daisy-Chain).
+> **MERKE (Kap. 9):** USB arbeitet **seriell** mit Hub-Struktur – bis zu **127 Geräte** je Controller. Thunderbolt kennt nur die Kette (Daisy-Chain).
 
-> **MERKE (Einheit 4):** Prüfung nach Reparatur (DIN VDE 0701-0702, Stand Buch): **Sichtprüfung · Messung · Funktionskontrolle**. Seit 2021: DIN EN 50678 (VDE 0701) und DIN EN 50699 (VDE 0702), die drei Teilprüfungen bleiben (Ergänzung, nicht aus Buch/Unterricht).
+> **MERKE (Kap. 13):** Prüfung nach Reparatur (DIN VDE 0701-0702, Stand Buch): **Sichtprüfung · Messung · Funktionskontrolle**. Seit 2021: DIN EN 50678 (VDE 0701) und DIN EN 50699 (VDE 0702), die drei Teilprüfungen bleiben (Ergänzung, nicht aus Buch/Unterricht).
 
-> **MERKE (Einheit 8):** **NTFS** kann: Zugriffsrechte, Verschlüsselung (EFS, nicht in Home), Komprimierung, Kontingente, Journaling, Mounten. Linux: **ext4** · macOS: **APFS**.
+> **MERKE (Kap. 15):** **NTFS** kann: Zugriffsrechte, Verschlüsselung (EFS, nicht in Home), Komprimierung, Kontingente, Journaling, Mounten. Linux: **ext4** · macOS: **APFS**.
 
-> **MERKE (Einheit 11):** Inkrementell = schnell sichern, langsam wiederherstellen. Differenziell = umgekehrt.
+> **MERKE (Kap. 19):** Inkrementell = schnell sichern, langsam wiederherstellen. Differenziell = umgekehrt.
 
 ### Kann ich das? – Selbstcheck
 
@@ -93,13 +92,67 @@ Als „Ergänzung“ markierte Punkte stammen nicht aus dem Buch; Themen des Inh
 
 ### Vorläufig ergänzte Themen (nach dem Unterricht abgleichen)
 
-- Einheit 2: Binärzahlen und Speichergrößen – kein eigenes Buchkapitel, vorläufig ergänzt **(Unterricht)**
-- Einheit 9: Windows 11 im Grafikmodus installieren – Buch zeigt nur Windows 10, vorläufig ergänzt **(Unterricht)**
+- Abschnitt 91: Binärzahlen und Speichergrößen – kein eigenes Buchkapitel, vorläufig ergänzt **(Unterricht)**
+- Kap. 16: Windows 11 im Grafikmodus installieren – Buch zeigt nur Windows 10, vorläufig ergänzt **(Unterricht)**
 
-## 1. Einheit 1 – Computersystem, EVA-Prinzip, Ein-/Ausgabegeräte (Buch Kap. 2.1–2.2 · Kap. 11)
+## 1. Prüfungsfallen & Selbstcheck – Kapitel 9 und 11
 
-*Wie ein Computer grundsätzlich arbeitet – Minimales Computersystem · EVA-Prinzip · Ein- und Ausgabegeräte.*
-Buch: Kap. 2.1–2.2 (S. 5–7) · Kap. 11 (S. 112–124)
+### Prüfungsfallen
+- PS/2: **Grün = Maus, Lila = Tastatur**.
+- PS/2 ist **nicht** Hot-Plugging-fähig, USB schon.
+- Geräteanzahl: **USB 127 · FireWire 63 · Thunderbolt 7** (Thunderbolt laut Buch S. 98; Intel nennt 6 je Anschluss plus Host).
+- Mbit/s ÷ 8 = MB/s (theoretisch): USB 2.0 = 480 Mbit/s = 60 MB/s. In der Praxis bleiben wegen Protokoll-Overhead nur ca. 37–40 MB/s übrig.
+- **Aktiver Hub** = eigenes Netzteil; **passiver Hub** = Strom vom PC.
+- USB 2.0 liefert 500 mA (2,5 W), USB 3.0 900 mA.
+- eSATA liefert **keinen** Strom.
+- Funk-Dongle ist **nicht** Bluetooth-kompatibel.
+- Interpolierte dpi sagen nichts über die Qualität.
+- Laserdrucker = dokumentenecht, Tinte und Thermopapier nicht.
+- Subpixel = Rot, Grün, Blau (**RGB**) · Druckfarben = **CMYK**.
+- VGA ist analog, DVI-D/HDMI/DisplayPort digital.
+- **VA** = bester Kontrast, **IPS** = beste Farben, **TN** = schnell und günstig.
+- WLAN ist eine Technik, keine Netzwerkgröße.
+
+### Übung Kapitel 9 (Buch S. 100)
+1. Welche Schnittstellen werden bevorzugt für eine Tastatur verwendet? → USB (Standard), außerdem Bluetooth/Funk; früher PS/2
+2. Welche Farbe hat der PS/2-Anschluss für die Maus? → Grün
+3. Auf welcher Übertragungstechnik beruht USB? → Serielle Übertragung (Universal Serial Bus)
+4. Wie viele Geräte können an USB angeschlossen werden? → bis zu 127
+5. Mit welcher Geschwindigkeit arbeitet Thunderbolt 3? → bis zu 40 Gbit/s
+6. Welche USB-Versionen sind heute marktüblich? → USB 2.0, USB 3.x (3.0/3.1/3.2), USB4 – meist mit USB-C
+
+### Übung Kapitel 11 (Buch S. 124)
+1. Welche drei Typen von Scannern unterscheidet man? → Hand-, Einzugs- und Flachbettscanner
+2. Welche Farbe hat der PS/2-Anschluss für die Tastatur? → Lila (violett)
+3. Wie lassen sich Mäuse und Tastaturen anschließen? → PS/2, USB, Bluetooth oder Funkempfänger (USB-Dongle)
+4. Welche Typen von Mäusen werden unterschieden? → mechanische (Kugel) und optische (LED/Laser)
+5. Welcher Druckertyp eignet sich für Durchschläge? → Nadeldrucker
+
+### Abgleich Mitschrift ↔ Buch
+| In der Mitschrift | Richtig (laut Buch) |
+|---|---|
+| Passiver Hub = externe Stromversorgung | **Aktiver** Hub hat das eigene Netzteil; der passive bekommt Strom nur vom USB-Anschluss (S. 97). |
+| Ein Pixel = 3 Punkte (rot, gelb, blau) | Subpixel sind **Rot, Grün, Blau** (RGB). Drucker mischen dagegen mit Cyan, Magenta, Gelb, Schwarz (CMYK). |
+| Tintendrucker-Farben: schwarz, gelb, blau, rot | Fachbegriffe: **Cyan** (Blau), **Magenta** (Rot), **Gelb**, **Schwarz** (S. 117). |
+| Laserdrucker: schnell, nicht die beste Qualität | Das Buch nennt hohe Druckqualität (≥ 1.200 dpi); nur echter Fotodruck geht nicht (S. 117). |
+| PAN: Bluetooth, RFID, EFC | gemeint ist vermutlich **NFC** (Near Field Communication). |
+| Cloud = Festplatte übers Netzwerk (z. B. NAS) | Ein **NAS** steht im eigenen Netz; die **Cloud** ist Speicher bei einem Anbieter im Internet. Beides ist Speicher übers Netzwerk. |
+| Maus: früher Laser/mit Kugel, heute LED | Früher **Kugel** (mechanisch); heute **optisch** – mit LED **oder Laser** (Laser = präziser, S. 114). |
+| Nadeldrucker: 9 oder 24 Nadeln | Buch: 9, 18 oder 24 Nadeln (S. 116). |
+| Thermotransferdrucker für Kassenzettel | Kassenzettel entstehen im **Thermodirektdruck** auf Thermopapier; Thermotransfer (mit Farbband, z. B. Etiketten) ist ein anderes Verfahren (Ergänzung, nicht im Buch). |
+
+### Kann ich das?
+- Geräte nach EVA einordnen
+- Legacy-Schnittstellen nennen
+- USB-Versionen mit Raten und Steckertypen erklären
+- USB, FireWire, Thunderbolt, eSATA, USB4 vergleichen
+- Tastatur- und Maus-Anschlüsse nennen
+- Scannertypen, dpi, TWAIN erklären
+- Druckertypen mit Einsatzgebiet zuordnen
+- Monitor-Kennzahlen und Panels erklären
+- Prüfzeichen CE, GS, TCO, Energy Star erklären
+
+## 2. Kap. 2 – Hauptplatine, Netzteil und Gehäuse (S. 5–30)
 
 > **KERN:** Jeder Computer arbeitet nach dem **EVA-Prinzip**: Eingabe → Verarbeitung → Ausgabe. Das Grundmodell dafür ist die **Von-Neumann-Architektur**.
 
@@ -125,23 +178,6 @@ Buch: Kap. 2.1–2.2 (S. 5–7) · Kap. 11 (S. 112–124)
 - Rechen- und Steuerwerk sitzen im PC gemeinsam in der **CPU**; ihre Befehle bilden den **Befehlssatz**.
 
 > **FALLE:** **Harvard-Architektur** = getrennte Speicher für Daten und Programme. Von Neumann = **ein** gemeinsamer Speicher. Der Bus ist dort der Flaschenhals.
-
-### Ein- und Ausgabegeräte
-
-| Gerät | Wichtig zu wissen |
-|---|---|
-| **Tastatur** | MF-102-Layout; Anschluss USB (Standard), PS/2 (lila), Bluetooth, Funk-Dongle (nicht Bluetooth-kompatibel) |
-| **Maus / Trackball** | heute optisch oder Laser; Maus PS/2 = grün |
-| **Scanner** | Hand-, Einzugs-, Flachbettscanner · Auflösung in **dpi** (optisch vs. interpoliert) · Treiberschnittstelle **TWAIN** |
-| **Drucker** | Nadel (Durchschläge, laut) · Tinte (günstig in der Anschaffung, teure Tinte) · **Laser** (Xerografie, braucht RAM für die ganze Seite) · Thermosublimation (Foto) |
-| **Monitor** | LCD: Diagonale in Zoll, Seitenverhältnis 16:9 / 16:10 / 21:9, Reaktionszeit (ms), Kontrast, Bildwiederholrate (Hz), Pixelfehler · Paneltypen TN, IPS, VA |
-
-> **MERKE:** Touchscreen und Multifunktionsgerät sind **Ein- und Ausgabegeräte** zugleich. *Ergänzung (nicht im Buch):* Bildschirm blendfrei aufstellen, Oberkante etwa auf Augenhöhe, genug Abstand.
-
-## 2. Einheit 2 – Mainboard, Gehäuse, Netzteil, Anschlüsse (Buch Kap. 2.3–2.13)
-
-*Externe Anschlüsse · Gehäuse · Hauptplatine · Komponenten · Binärzahlen · Speichergrößen.*
-Buch: Kap. 2.3–2.13 (S. 8–30) · CPU-Grundlagen → Einheit 3 · Speichermedien → Einheit 6
 
 > **KERN:** Das **Mainboard** verbindet alle Bauteile über Leiterbahnen und verteilt die Spannungen. Sein **Formfaktor** bestimmt, welches Gehäuse und Netzteil passt.
 
@@ -193,33 +229,7 @@ Buch: Kap. 2.3–2.13 (S. 8–30) · CPU-Grundlagen → Einheit 3 · Speichermed
 
 - Unterbrechungsfreie Stromversorgung: überbrückt Stromausfälle per Akku, Zeit zum sicheren Herunterfahren.
 
-### Binärzahlen
-
-> **HINWEIS:** Kein eigenes Buchkapitel; Bezüge im Buch: S. 7 (64 Bit = 8 Byte), S. 65/70 (Hex-Adressen), S. 78 und 117 (Byte → KB → MB mit 1024), S. 184 (IPv4/IPv6). Nach dem Unterricht abgleichen. **(Unterricht)**
-
-- **Bit** = 0 oder 1 · **1 Byte = 8 Bit** (Buch S. 7: 64 Bit = 8 Byte)
-- Stellenwerte binär (ein Byte): **128 – 64 – 32 – 16 – 8 – 4 – 2 – 1** *(Ergänzung, nicht aus Buch/Unterricht)*
-- Beispiel: 1100 0000 (binär) = 128 + 64 = **192** (dezimal) – erstes Oktett von 192.168.… *(Ergänzung, nicht aus Buch/Unterricht)*
-- **Hexadezimal**: Ziffern 0–9 und A–F · 1 Hex-Ziffer = 4 Bit · 1 Byte = 2 Hex-Ziffern (FF = 255) *(Ergänzung, nicht aus Buch/Unterricht)*
-- Im Buch: I/O-Adressen hexadezimal, z. B. **0220h** (S. 65, Übung S. 70) · IPv6-Adressen hexadezimal (S. 184)
-
-### Speichergrößen
-
-> **HINWEIS:** Kein eigenes Buchkapitel; Bezüge im Buch: S. 78, S. 95 (Mbit/s vs. MB/s), S. 117 (÷ 8, ÷ 1024, ÷ 1024 → 16,6 MB). Nach dem Unterricht abgleichen. **(Unterricht)**
-
-| System | Umrechnung | Wer nutzt es? |
-|---|---|---|
-| **Dezimal (SI)** | 1 kB = 1.000 Byte · 1 MB = 1.000 kB · 1 GB = 1.000 MB · 1 TB = 1.000 GB | Festplattenhersteller *(Ergänzung, nicht aus Buch/Unterricht)* |
-| **Binär (IEC)** | 1 KiB = 1.024 Byte · 1 MiB = 1.024 KiB · 1 GiB = 1.024 MiB · 1 TiB = 1.024 GiB | Windows zeigt Binärwerte, schreibt aber „GB“ *(Ergänzung, nicht aus Buch/Unterricht)* |
-
-- Folge: Eine 1-TB-Platte zeigt in Windows nur ca. **931 GB** (eigentlich GiB) an. *(Ergänzung, nicht aus Buch/Unterricht)*
-- **Datenraten in Bit** (Mbit/s), **Dateigrößen in Byte** → durch 8 teilen: 480 Mbit/s = 60 MB/s theoretisch (Buch S. 95: praktisch ca. 37 MB/s).
-- Das Buch rechnet mit **1.024** (S. 117: Bit ÷ 8 ÷ 1.024 ÷ 1.024 → 16,6 MB).
-
-## 3. Einheit 3 – Prozessor-Grundlagen und externe Schnittstellen (Buch Kap. 3 · Kap. 9)
-
-*Mikroprozessoren und externe Schnittstellen – Kernkomponenten CPU · Arbeitsweise · moderne CPUs · Hersteller · Technologie · Schnittstellen.*
-Buch: Kap. 2.1, 2.6 (S. 5–6, 12–13) · Kap. 3 (S. 31–47) · Kap. 9 (S. 94–100)
+## 3. Kap. 3 – Prozessor (CPU) (S. 31–47)
 
 > **KERN:** Die CPU-Leistung hängt **nicht nur vom Takt** ab, sondern auch von Kernen, Threads, Cache, Befehlen pro Takt und Architektur.
 
@@ -271,42 +281,11 @@ Buch: Kap. 2.1, 2.6 (S. 5–6, 12–13) · Kap. 3 (S. 31–47) · Kap. 9 (S. 94�
 | **Intel** | Celeron, Pentium, Core i3 | Core i5 | Core i7, i9 | Xeon | LGA 1200 |
 | **AMD** | Athlon, Ryzen 3 | Ryzen 5 | Ryzen 7, 9, Threadripper | EPYC | AM4 |
 
-### Externe Schnittstellen
-
-| Schnittstelle | Datenrate (theoretisch) | Bemerkung |
-|---|---|---|
-| **USB 1.1** | 12 Mbit/s | Plug & Play, Hot-Plugging |
-| **USB 2.0** Hi-Speed | 480 Mbit/s | theoretisch 480 ÷ 8 = 60 MB/s, praktisch ca. 37–40 MB/s |
-| **USB 3.0 / 3.1 Gen 1 / 3.2 Gen 1** | 5 Gbit/s | SuperSpeed |
-| **USB 3.1 Gen 2 / 3.2 Gen 2** | 10 Gbit/s | SuperSpeedPlus, Kodierung laut Buch (S. 96) 128b/130b; technisch korrekt ist 128b/132b (128b/130b gilt für PCIe 3.0) |
-| **USB 3.2 Gen 2x2** | 20 Gbit/s | doppelte Leitungen, nur USB-C (Buch S. 96 vereinfacht: „USB 3.2 = 20 Gbit/s“) |
-| **USB4 · Thunderbolt 3** | 40 Gbit/s | USB-C-Stecker; Thunderbolt bündelt PCIe, DisplayPort, USB; Daisy-Chain |
-| FireWire 400/800 · eSATA | 400/800 Mbit/s · wie SATA | veraltet |
-
-> **MERKE:** USB arbeitet **seriell** mit Hub-Struktur – bis zu **127 Geräte** je Controller. Thunderbolt kennt nur die Kette (Daisy-Chain).
-
-## 4. Einheit 4 – CPU auswählen, einbauen, Fehler beheben (Buch Kap. 2.6–2.7 · 3.4–3.6 · 13.1–13.2)
-
-*Prozessoren auswählen, installieren, Fehler beheben – Moderne CPUs · Technologie · Auswahl und Installation · Probleme · Fehlerbehebung.*
-Buch: Kap. 2.7 (S. 14–17) · Kap. 3.4–3.6 (S. 40–47) · Kap. 13.1–13.2 (S. 136–139) · Einbau-Schrittfolge ergänzt (kein eigenes Buchkapitel)
-
-> **KERN:** Eine CPU passt nur, wenn **Sockel** und **Chipsatz/BIOS-Version** des Mainboards sie unterstützen. Beim Einbau entscheiden ESD-Schutz, Ausrichtung und Wärmeleitpaste.
-
 ### Auswahlkriterien
 
 - **Passt sie?** Sockel (z. B. LGA 1200, AM4) · **CPU Support List** des Boards · ggf. vorher BIOS-Update
 - **Wofür?** Büro: i3/Ryzen 3 · Allround: i5/Ryzen 5 · Gaming/Video: i7, i9/Ryzen 7, 9 · Server: Xeon/EPYC
 - **Was drumherum?** Kerne/Threads, Takt, Cache, TDP, integrierte Grafik ja/nein · Kühler und Netzteil passend
-
-### Einbau Schritt für Schritt
-
-1. Konfiguration dokumentieren, **Netzstecker ziehen**, Einschalter drücken (Restspannung).
-2. **ESD-Schutz**: Erdungsarmband und Matte, sonst Heizkörper anfassen.
-3. Sockelhebel öffnen, CPU **ohne Kraft** einsetzen – Dreieck auf Markierung.
-4. Hebel schließen.
-5. **Wärmeleitpaste** dünn auftragen, Kühler über Kreuz festschrauben.
-6. Lüfter an **CPU_FAN**, 4/8-pol. CPU-Strom stecken.
-7. Starten, im BIOS prüfen: CPU erkannt, Temperatur plausibel.
 
 ### Kühlung
 
@@ -314,25 +293,7 @@ Buch: Kap. 2.7 (S. 14–17) · Kap. 3.4–3.6 (S. 40–47) · Kap. 13.1–13.2 (
 - **Wasser**: sehr starke Systeme, Übertakten (Overclocking).
 - **Stromsparen**: Intel SpeedStep, AMD Cool’n’Quiet.
 
-> **FALLE:** ESD-Schäden sind oft **unsichtbar** – ein Bauteil kann später ausfallen. Nylon-Kleidung erzeugt über 20.000 V.
-
-> **MERKE:** Prüfung nach Reparatur (DIN VDE 0701-0702, Stand Buch S. 138–139): **Sichtprüfung · Messung · Funktionskontrolle**. Seit 2021: DIN EN 50678 (VDE 0701) und DIN EN 50699 (VDE 0702), die drei Teilprüfungen bleiben (Ergänzung, nicht aus Buch/Unterricht).
-
-### Probleme und Fehlerbehebung
-
-| Symptom | Mögliche Ursache | Maßnahme |
-|---|---|---|
-| **Kein Bild, startet nicht** | CPU nicht unterstützt, BIOS zu alt, CPU-Strom fehlt | Support List prüfen, BIOS-Update, Stecker prüfen |
-| **Pieptöne beim Start** | POST-Fehler | Beep-Code im Mainboard-Handbuch nachschlagen |
-| **Abschalten unter Last** | Überhitzung | Paste, Kühlersitz, Lüfter prüfen; Temperatur im BIOS |
-| **„CPU Fan Error“** | Lüfter falsch angeschlossen oder defekt | an CPU_FAN anschließen, Lüfter tauschen |
-| **Langsam** | Thermal Throttling, Energiesparplan | Kühlung und Energieoptionen prüfen |
-| **Verbogene Pins** | falsch eingesetzt | vorsichtig richten oder Teil tauschen |
-
-## 5. Einheit 5 – Arbeitsspeicher und Cache (Buch Kap. 5)
-
-*Speichertechnologien, Arbeitsspeicher, Cache – Speichertechnologien · Arbeitsspeicher · Speicheroptimierung · Cache.*
-Buch: Kap. 5 (S. 55–64) · Kap. 13.3 Arbeitsspeicher aufrüsten (S. 140)
+## 5. Kap. 5 – Speicher (S. 55–64)
 
 > **KERN:** Programme werden zum Ausführen in den **RAM** geladen: Zugriff in **Nanosekunden** statt Millisekunden (Festplatte). RAM ist **flüchtig** – ohne Strom sind die Daten weg.
 
@@ -382,10 +343,105 @@ Buch: Kap. 5 (S. 55–64) · Kap. 13.3 Arbeitsspeicher aufrüsten (S. 140)
 
 > **FALLE:** Cache = **SRAM**, Arbeitsspeicher = **DRAM** – nicht vertauschen. Flash ist **nicht flüchtig**, RAM schon.
 
-## 6. Einheit 6 – Massenspeicher, Startvorgang, BIOS-Setup (Buch Kap. 10 · 14.1–14.3)
+## 9. Kap. 9 – Externe Schnittstellen (S. 94–100)
 
-*Speichermedien, Festplatten, Startvorgang, BIOS – Einteilung · Festplatten · Sorten und Funktion · Startvorgang · BIOS-Einstellungen · Vorarbeiten Update.*
-Buch: Kap. 10 (S. 101–111) · Kap. 13.5 (S. 142) · Kap. 14.1–14.3 (S. 146–156)
+### Überblick: Datenraten
+
+| Schnittstelle | Datenrate (theoretisch) | Bemerkung |
+|---|---|---|
+| **USB 1.1** | 12 Mbit/s | Plug & Play, Hot-Plugging |
+| **USB 2.0** Hi-Speed | 480 Mbit/s | theoretisch 480 ÷ 8 = 60 MB/s, praktisch ca. 37–40 MB/s |
+| **USB 3.0 / 3.1 Gen 1 / 3.2 Gen 1** | 5 Gbit/s | SuperSpeed |
+| **USB 3.1 Gen 2 / 3.2 Gen 2** | 10 Gbit/s | SuperSpeedPlus, Kodierung laut Buch (S. 96) 128b/130b; technisch korrekt ist 128b/132b (128b/130b gilt für PCIe 3.0) |
+| **USB 3.2 Gen 2x2** | 20 Gbit/s | doppelte Leitungen, nur USB-C (Buch S. 96 vereinfacht: „USB 3.2 = 20 Gbit/s“) |
+| **USB4 · Thunderbolt 3** | 40 Gbit/s | USB-C-Stecker; Thunderbolt bündelt PCIe, DisplayPort, USB; Daisy-Chain |
+| FireWire 400/800 · eSATA | 400/800 Mbit/s · wie SATA | veraltet |
+
+> **MERKE:** USB arbeitet **seriell** mit Hub-Struktur – bis zu **127 Geräte** je Controller. Thunderbolt kennt nur die Kette (Daisy-Chain).
+
+### Was ist eine Schnittstelle? (Buch S. 94)
+- **Schnittstelle (Interface):** Übergabepunkt, an dem zwei eigenständige Komponenten verbunden werden.
+- **Software-Schnittstelle:** z. B. **API** (Application Programming Interface).
+- **Hardware-Schnittstelle:** verbindet Komponenten des Computers, z. B. USB, PS/2, HDMI.
+
+> **MERKE:** Bei Schnittstellen unterscheidet man die **theoretische** (maximale) und die **praktische** Übertragungsrate. Die praktische ist immer deutlich niedriger.
+
+### 9.1 Legacy-Schnittstellen (S. 94)
+
+> **KERN:** USB ist seit Jahren die wichtigste Schnittstelle für externe Geräte. Legacy-Schnittstellen sind veraltet.
+
+| Schnittstelle | Zweck früher |
+|---|---|
+| **Seriell (RS-232)** | Modem, Maus, Geräte |
+| **Parallel (IEEE 1284)** | Drucker |
+| **PS/2** (IBM Personal System/2) | Tastatur und Maus |
+
+- „Legacy“ = Hinterlassenschaft: aus Kompatibilitätsgründen lange „mitgeschleppt“, heute durch USB ersetzt.
+
+#### PS/2
+- **Grün = Maus · Lila = Tastatur**
+- neue Boards: höchstens ein **Kombi-Anschluss**; für beide Geräte ein Y-Adapter
+- PS/2 ↔ USB per Adapter, wenn das Gerät beide Protokolle versteht
+- **(Unterricht)** PS/2 ist **nicht Hot-Plugging-fähig**: Gerät nicht im laufenden Betrieb ein- oder ausstecken, sonst Neustart nötig
+
+### 9.2 USB (S. 94–97)
+
+> **KERN:** USB: seriell, Plug & Play, Hot-Plugging, bis zu **127 Geräte**.
+
+- **Seriell:** Daten Bit für Bit; „Bus“ = gemeinsame Verbindung
+- **127 Geräte:** jedes bekommt automatisch eine eigene Geräte-ID
+- **Baumstruktur:** über Hubs erweiterbar; Host-Controller (Master) steuert Geräte (Slaves)
+- **Plug & Play + Hot-Plugging:** im laufenden Betrieb an- und abstecken, wird automatisch erkannt
+
+| Version | Name | seit | theoretisch | praktisch (Buch) |
+|---|---|---|---|---|
+| **USB 1.1** | Low Speed / Full Speed | 1996/98 | 1,5 / 12 Mbit/s | ca. 180 kB/s / 1,5 MB/s |
+| **USB 2.0** | Hi-Speed | 2002 | 480 Mbit/s (= 60 MB/s) | ca. 37–40 MB/s |
+| **USB 3.0 = 3.1 Gen 1 = 3.2 Gen 1** | SuperSpeed | 2010 | 5 Gbit/s | ca. 450 MB/s |
+| **USB 3.1 Gen 2 = 3.2 Gen 2** | SuperSpeedPlus | – | 10 Gbit/s | ca. 800 MB/s |
+| **USB 3.2 Gen 2x2** | – | 2018 | 20 Gbit/s | ca. 1.600 MB/s |
+| **USB4** | – | ab 2021 | 40 Gbit/s | – |
+
+- Das Buch (S. 96) schreibt vereinfacht „USB 3.2 = 20 Gbit/s“; genau ist das nur **USB 3.2 Gen 2x2** (doppelte Leitungen, nur USB-C). USB 3.2 Gen 1 (5 Gbit/s) und Gen 2 (10 Gbit/s) sind umbenannte ältere Versionen.
+- **Wie wurde es schneller?** USB 3.1 Gen 2: höherer Takt + effizientere Kodierung statt 8b/10b – laut Buch **128b/130b**; technisch korrekt ist 128b/132b (Buch S. 96: „128b/130b“ – dort verwechselt mit PCIe 3.0) · USB 3.2 Gen 2x2: **doppelte** Hochgeschwindigkeitsleitungen
+- **USB OTG (On-the-Go):** zwei Geräte direkt koppeln, z. B. USB-Stick am Smartphone (Adapterkabel)
+- **USB Wireless:** kabellos, 480 Mbit/s – hat sich nie durchgesetzt (Bluetooth, USB 3)
+
+#### Kabel und Strom
+| | USB 1.x / 2.0 | USB 3.0 |
+|---|---|---|
+| **Adern** | 4 (2 Strom, 2 Daten) | 9 |
+| **Strom** | 5 V · max. **500 mA = 2,5 W** | max. **900 mA** |
+
+- USB 1.x/2.0: **Twisted-Pair**-Kabel. Low Speed (Maus, Tastatur): ungeschirmt reicht; schnellere Modi brauchen **geschirmte** Kabel.
+- 2,5″-Festplatten an USB 2.0: oft **Y-Kabel** (Strom von zwei Ports). Ab USB 3.0 genügt einer.
+- Drucker, Scanner, Kameras bringen eigene Stromversorgung mit.
+
+#### Stecker
+- **Typ A** = am Computer · **Typ B** = am Gerät (Drucker, 3,5″-Festplatte)
+- **Mini-USB** und **Micro-USB** für kleine Geräte; per Adapter kompatibel
+- **USB-C:** oval, 24-polig, verdrehsicher; für USB 3.1/3.2, Thunderbolt, USB4
+- Alte Stecker passen in USB-3.0-Buchsen. Der neue **USB-3.0-B-Stecker** passt nur in neue Buchsen – ein USB-3.0-Gerät am USB-2.0-PC braucht daher ein herkömmliches USB-Kabel.
+
+#### USB-Hubs
+- **Aktiver Hub:** eigenes **Netzteil** – für stromhungrige Geräte
+- **Passiver Hub:** Strom nur **vom PC-Anschluss** – reicht für Maus und Tastatur
+- An einem USB-2.0-Hub lassen sich Low-, Full- und Hi-Speed-Geräte ohne Nachteil mischen; USB-3.0-Geräte laufen dort nur im **Hi-Speed**-Modus.
+
+### 9.3–9.6 FireWire, Thunderbolt, eSATA, USB4 (S. 97–100)
+
+| Schnittstelle | Geschwindigkeit | Geräte | Besonderheiten |
+|---|---|---|---|
+| **FireWire (IEEE 1394)** | 400 Mbit/s (≈ 40 MB/s) · 800 Mbit/s (≈ 80 MB/s) | bis 63, Kette | 1995 von Apple, bei Sony „i.Link“ · Geräte tauschen Daten **ohne PC** direkt aus · Hot-Plugging · Video-/Audiobereich · FW400-Kabel 4- oder 6-adrig (6 = mit Strom), max. 4,5 m · FW800 9-adrig, per Adapter kombinierbar · veraltet (Apple wechselte zu Thunderbolt) |
+| **Thunderbolt** | TB1: 2 × 10 · TB2: 20 · **TB3: 40 Gbit/s** | bis 7 laut Buch (Intel: 6 je Anschluss plus Host), Kette (Daisy-Chain) | Intel + Apple, Codename „Light Peak“, 2011 · bündelt **USB, DisplayPort und PCIe** in einem Kabel · laut Buch (2020) **schnellste** externe Schnittstelle (heute: Thunderbolt 5 / USB4 v2 mit 80 Gbit/s) · Stecker anfangs = **Mini-DisplayPort**, heute **USB-C** · Adapter zu DP, DVI, HDMI, VGA · Kupfer 3 m, Glasfaser 10 m · Kabel mit aktiver Elektronik (ca. 5× USB-3.0-Preis) |
+| **eSATA** | 150–600 MB/s (wie SATA) | 1 | nach außen geführtes SATA, besser geschirmt, eigener Stecker (SATA-Kabel passt nicht) · **liefert keinen Strom** · Hot-Plugging oft problematisch · durch USB verdrängt |
+| **USB4** | 40 Gbit/s (Stand Buch 2020; USB4 Version 2.0 seit 2022: 80 Gbit/s) | Hub-Struktur | aus Thunderbolt 3 entstanden + USB-Hubstruktur · kompatibel zu Thunderbolt 3 und USB 3 |
+
+> **FALLE:** **Thunderbolt** kennt nur die **Kette**, **USB/USB4** die **Hub-/Baumstruktur**. FireWire: max. **63** Geräte, Thunderbolt: **7** (laut Buch; Intel nennt 6 je Anschluss plus Host), USB: **127**.
+
+> **FALLE:** Mbit/s ≠ MB/s: 480 **Mbit**/s (USB 2.0) sind theoretisch 60 **MB**/s, praktisch nur rund 37–40 MB/s. Kleines b = Bit, großes B = Byte.
+
+## 10. Kap. 10 – Massenspeicher (S. 101–111)
 
 > **KERN:** Massenspeicher halten Daten **dauerhaft**. Beim Einschalten prüft das BIOS/UEFI die Hardware (**POST**) und startet dann von einem bootfähigen Laufwerk.
 
@@ -422,6 +478,191 @@ Buch: Kap. 10 (S. 101–111) · Kap. 13.5 (S. 142) · Kap. 14.1–14.3 (S. 146�
 
 > **FALLE:** **RAID ersetzt kein Backup** – gelöschte oder verschlüsselte Dateien sind auf allen Platten gleichzeitig weg.
 
+## 11. Kap. 11 – Ein- und Ausgabegeräte (S. 112–124)
+
+### Überblick
+
+| Gerät | Wichtig zu wissen |
+|---|---|
+| **Tastatur** | MF-102-Layout; Anschluss USB (Standard), PS/2 (lila), Bluetooth, Funk-Dongle (nicht Bluetooth-kompatibel) |
+| **Maus / Trackball** | heute optisch oder Laser; Maus PS/2 = grün |
+| **Scanner** | Hand-, Einzugs-, Flachbettscanner · Auflösung in **dpi** (optisch vs. interpoliert) · Treiberschnittstelle **TWAIN** |
+| **Drucker** | Nadel (Durchschläge, laut) · Tinte (günstig in der Anschaffung, teure Tinte) · **Laser** (Xerografie, braucht RAM für die ganze Seite) · Thermosublimation (Foto) |
+| **Monitor** | LCD: Diagonale in Zoll, Seitenverhältnis 16:9 / 16:10 / 21:9, Reaktionszeit (ms), Kontrast, Bildwiederholrate (Hz), Pixelfehler · Paneltypen TN, IPS, VA |
+
+> **MERKE:** Touchscreen und Multifunktionsgerät sind **Ein- und Ausgabegeräte** zugleich. *Ergänzung (nicht im Buch):* Bildschirm blendfrei aufstellen, Oberkante etwa auf Augenhöhe, genug Abstand.
+
+### 11.1–11.2 Tastatur, Maus, Trackball (S. 112–114)
+
+> **KERN:** Tastatur und Maus werden heute per **USB**, **Bluetooth** oder **Funk-Dongle** angeschlossen.
+
+#### 11.1 Tastatur
+- Standard: **MF-102** (Multifunktion, 102+ Tasten); früher PC/XT mit 83–86 Tasten.
+- Blöcke: **alphanumerischer Block** (wie Schreibmaschine) · **Ziffernblock** (wie Taschenrechner) · Cursor-Steuerung · **Funktionstasten** F1–F12.
+- Status-LEDs: Num-Lock, Umschalt-Feststelltaste, Rollen.
+- Ergonomie: **Natural Keyboard** (geteilt, V-förmig) schont Handgelenke; Sondertastaturen für Linkshänder, Sehbehinderte.
+- Treiber nur für programmierbare Zusatztasten nötig.
+
+| Anschluss | Einsatz |
+|---|---|
+| **PS/2** | ältere PCs; oft nur eine Kombi-Buchse |
+| **USB** | aktueller Standard |
+| **Bluetooth** | schnurlos |
+| **Funk-Dongle** (USB) | schnurlos, **nicht** Bluetooth-kompatibel |
+
+#### 11.2 Maus und Trackball
+- **Mechanisch (alt):** Gummikugel → zwei Wellen → Lochrädchen → Lichtschranke · verschmutzt leicht
+- **Optisch / Laser (heute):** Sensor tastet die Oberfläche ab · keine Mechanik · Laser = präziser · Auflösung oft umschaltbar
+- **Trackball:** Kugel oben, mit Daumen oder Fingern bewegt; Gerät bleibt stehen → wenig Platz, schont Arm und Handgelenk.
+- **Mehrere Funkgeräte im Büro:** auf genug Funkkanäle achten, sonst steuert eine Maus mehrere PCs.
+- **Sicherheit:** Funksignale können ausgespäht werden.
+- **(Unterricht)** Weitere Anschlusswege für Eingabegeräte: Radiowellen (Funk), Infrarot, Bluetooth.
+
+### 11.3 Scanner (S. 115–116)
+
+> **KERN:** Scanner digitalisieren Papiervorlagen; vergleichen sollte man nur die **optische** Auflösung.
+
+| Typ | Funktion | Vor- / Nachteile |
+|---|---|---|
+| **Handscanner** | wird von Hand über die Vorlage gezogen | breite Vorlagen in Streifen („Stitching“) → oft unbrauchbar, kaum noch genutzt |
+| **Einzugsscanner** | Vorlage wird wie beim Drucker eingezogen | wenig Platz, saubere Ergebnisse · keine Bücher oder dicken Vorlagen |
+| **Flachbettscanner** | Vorlage liegt auf Glas, Scaneinheit fährt darunter | auch Bücher möglich · braucht Platz · oft Kombigerät mit **ADF** (automatischer Einzug) |
+
+- **Auflösung in dpi:** dots per inch (1 Zoll = 2,54 cm) · **optisch** = echt · **interpoliert** = „erraten“ (Mittelwerte), bringt keine Qualität
+- **TWAIN:** „Technology Without An Interesting Name“ – Standardtreiber, jedes TWAIN-Programm kann jeden Scanner nutzen
+- **Farbtiefe:** Scanner 30–42 Bit, Software meist 24 Bit; Überschuss gleicht Bildrauschen aus
+- **Durchlichteinheit:** für Dias und Negative – Vorlage wird von hinten durchleuchtet · Tempo hängt von Auflösung, Schnittstelle (USB, im Kombigerät Netzwerk) und Mechanik ab
+
+> **FALLE:** Höher scannen als die optische Auflösung bringt nichts – nur größere Dateien. Ein Bildpunkt auf dem Monitor besteht aus drei Subpixeln: **Rot, Grün, Blau** (RGB). In der Mitschrift steht „rot, gelb, blau“.
+
+### 11.4 Drucker (S. 116–118, ergänzt aus dem Unterricht)
+
+> **KERN:** Jeder Druckertyp hat ein Einsatzgebiet: **Nadel** für Durchschläge, **Laser** fürs Büro, **Tinte** für Farbe und Fotos zuhause, **Thermosublimation** für Fotos in höchster Qualität und Spezialdruck.
+
+| Drucker | Funktionsweise | Typisch / Merkmale | Dokumentenecht? |
+|---|---|---|---|
+| **Typenrad- / Kugelkopf** (Unterricht) | mechanisch: Rad bzw. Metallkugel mit Buchstaben dreht sich, ein Hammer schlägt durch das Farbband | historisch, nur Text | – |
+| **Nadeldrucker** | 9, 18 oder 24 Nadeln drücken durch ein Farbband (Punktmatrix); Tempo in CPS (50–500 Zeichen/s) | laut, robust, günstig im Betrieb · **Durchschläge, Endlospapier** (Arztpraxis, Spedition) | – |
+| **Laserdrucker** | **Xerografie:** Trommel wird geladen → Laser entlädt Stellen → Toner haftet → auf Papier übertragen → mit Druck und **Hitze fixiert** → Trommel gereinigt (Resttonerbehälter) | schnell, leise, ≥ 1.200 dpi, günstig pro Seite · Farblaser: 4 Toner (CMYK) · braucht **RAM** für die ganze Seite | ja (auch bei Nässe) |
+| **Tintenstrahl** | feine Tintentröpfchen aus Düsen; Farben **CMYK** (Cyan, Magenta, Gelb, Schwarz), Foto: + Foto-Magenta, Foto-Türkis | günstig in der Anschaffung, teure Tinte · Düsen verkleben bei seltener Nutzung · Druckkopf mit Patrone (HP) oder fest im Gerät (Canon) (Unterricht) | nein |
+| **Thermosublimation** | Farbfolie wird erhitzt, Farbe wird gasförmig und zieht ins Spezialpapier; 256 Stufen je Farbe | Fotos in höchster Qualität · teuer pro Seite · (Unterricht) auch Tassen, T-Shirts, Planen | ja |
+| **Thermodirektdrucker** (Unterricht: „Thermotransfer“) | hitzeempfindliches Spezialpapier wird an erhitzten Stellen dunkel | Kassenzettel · wartungsarm, keine Tinte/Toner · verblasst bei Sonne/Hitze, nicht ins Altpapier | nein |
+| **Wachsdrucker** (Unterricht) | wie Tinte, aber festes Wachs wird geschmolzen und aufgespritzt | glänzende, sehr farbstarke Ausdrucke | – |
+| **3D-Drucker** (Unterricht) | schichtweiser Aufbau, meist geschmolzenes Granulat/Filament | auch innen komplexe Strukturen möglich | – |
+
+Thermotransfer (mit Farbband, z. B. Etiketten) ist ein anderes Verfahren als der Thermodirektdruck der Kassenzettel *(Ergänzung, nicht aus Buch/Unterricht)*.
+
+#### Entscheidungskriterien beim Druckerkauf (Buch S. 118)
+| Typ | Anschaffung | Kosten/Seite | Tempo | Lärm | Foto |
+|---|---|---|---|---|---|
+| **Nadel** | hoch | sehr gering | langsam | hoch | – |
+| **Laser** | niedrig | gering | schnell | gering | – |
+| **Farblaser** | mittel–sehr hoch | gering–mittel | mittel | gering | mittel |
+| **Tinte** | niedrig | hoch | mittel–schnell | gering | gut |
+| **Thermosubl.** | hoch | sehr hoch | langsam | gering | sehr gut |
+
+#### Rechenbeispiel: RAM im Laserdrucker (Buch S. 117)
+- A4, schwarz-weiß, 1.200 dpi: **8,27 × 1.200 × 11,69 × 1.200 ≈ 139 Mio. Punkte**
+- 1 Punkt = 1 Bit → ÷ 8 = 17,4 Mio. Byte → ÷ 1.024 ÷ 1.024 ≈ **16,6 MB**
+- A4 = 210 × 297 mm = 8,27 × 11,69 Zoll · Farblaser: 192–512 MB
+
+> **MERKE:** Günstige Tintendrucker mit nur einer CMY-Patrone mischen Schwarz → Farbstich und dreifacher Verbrauch. Besser: **CMYK** mit einzeln tauschbaren Tanks.
+
+> **(Unterricht)** Alle Drucker haben Sperren, z. B. gegen das Drucken von **Banknoten** (3D-Drucker: keine Waffen).
+
+### 11.5 Monitor (S. 119–123) und Beamer (Unterricht)
+
+> **KERN:** Der **LCD**-Monitor hat den Röhrenmonitor (**CRT**: groß, schwer, stromhungrig, Strahlung; Entsorgung nur über Fachbetrieb wegen Vakuum) ersetzt. Wichtige Kennzahlen: **Diagonale** (Zoll), **Seitenverhältnis**, **native Auflösung**, **Reaktionszeit**, **Kontrast** und Panel-Typ.
+
+- **Größe:** Diagonale in Zoll, üblich 24″–30″
+- **Seitenverhältnis:** früher 4:3 · heute 16:9, 16:10 · 21:9 = Ultrawide, oft **Curved**
+- **Auflösung:** Pixel Breite × Höhe, z. B. 1024 × 768 = 786.432 · LCD in **nativer** Auflösung betreiben, sonst kleines Bild oder unscharfe Skalierung
+- **Bildwiederholrate:** LCD flimmert nicht · ab 59 Hz, Gaming bis 240 Hz
+- **Reaktionszeit:** Pixel schwarz → weiß → schwarz · <2–16 ms · zu langsam = Schlieren
+- **Kontrast:** hellster zu dunkelster Pixel · TN/IPS 1000:1 · VA 3000:1
+- **Sichtwinkel:** Farbe ändert sich, wenn man schräg schaut
+- **Strom & Strahlung:** nur Hintergrundlicht (Kaltkathode oder **LED**) · keine schädliche Strahlung
+
+#### Panel-Typen
+| Panel | Stärken | Schwächen |
+|---|---|---|
+| **TN** | günstig, schnell, sparsam · größter Marktanteil (Stand Buch 2020) · Office, einfache Spiele | Farbtreue, Blickwinkel |
+| **IPS** | sehr gute Farbtreue, großer Blickwinkel | mehr Strom, teurer, langsamer als TN |
+| **VA** | bester Schwarzwert, höchster Kontrast | oft träge → weniger für schnelle Spiele |
+
+Varianten: TN (STN, DSTN, TSTN) · IPS (S-IPS, AH-IPS …) · VA (PVA, MVA)
+
+#### So funktioniert LCD
+Flüssigkristalle zwischen zwei um **90° gedrehten Polarisationsfiltern**. Ohne Spannung drehen die Kristalle das Licht um 90° → **heller** Pixel. Mit Spannung richten sie sich aus, das Licht wird geschluckt → **dunkler** Pixel. **OLED** leuchtet selbst, braucht kein Hintergrundlicht.
+
+#### Pixelfehler (ISO 9241)
+| Typ | Fehler |
+|---|---|
+| 1 | Pixel immer hell |
+| 2 | Pixel immer dunkel |
+| 3 | Subpixel (R, G, B) defekt |
+
+Fehlerklasse **0** = keine Fehler erlaubt · Klasse I–IV = immer mehr Fehler je 1 Mio. Pixel erlaubt. Gut: Klasse 0 oder I.
+
+#### Anschlüsse
+**VGA** analog (Qualitätsverlust durch Umwandlung) → **DVI** digital (DVI-D; Varianten DVI-I/DVI-A führen auch analoge Signale – nicht im Buch) → heute **HDMI** und **DisplayPort**, auch **USB-C**. Adapter gibt es in jede Richtung.
+
+#### Kaufkriterien
+Größe · Auflösung · Schaltzeit < 12 ms · Pixelfehlerklasse 0/I · Helligkeit > 300 cd · Kontrast ≥ 800:1 · Blickwinkel > 170° · digitaler Anschluss · Pivot (90° drehbar)
+
+> **(Unterricht)** **Beamer:** starke Lichtquelle projiziert das Bild. Die Lampen haben eine begrenzte Lebensdauer (Betriebsstunden) und müssen getauscht werden.
+
+### 11.6 Prüfzeichen, Ozon, Lärmschutz (S. 123–124)
+
+#### Normen und Prüfzeichen
+| Zeichen | Bedeutung |
+|---|---|
+| **CE** | erfüllt EU-Vorschriften zur elektromagnetischen Verträglichkeit (EMV) |
+| **GS** | „geprüfte Sicherheit“ nach Produktsicherheitsgesetz, ISO 9241, Unfallvorschriften – **freiwillig** |
+| **TÜV** | prüft Sicherheit, Funktion, Qualität, Umwelt, Bedienbarkeit |
+| **TCO** | Monitor: flimmerfrei, gleichmäßig ausgeleuchtet, reflexionsarm, max. 15 W im Stand-by |
+| **ISO 9241** | Regeln für die Mensch-Maschine-Interaktion – ergonomische Bildschirmarbeit |
+| **Energy Star** | US-Stromsparzeichen: automatischer Stand-by, max. 30 W im Stand-by |
+
+#### Ozon durch Laserdrucker
+Entsteht bei der Ladung der Trommel · Grenzwert **0,1 ppm** · Aktivkohlefilter regelmäßig tauschen · ältere Drucker nicht direkt am Arbeitsplatz, gut lüften · neue Geräte „ozonfrei“.
+
+#### Lärmschutz
+Dämmmaterial im Gehäuse · Silent-Lüfter, passive Kühlung, lüfterlose Netzteile · Laufwerke mit Gummipuffern entkoppeln · **Acoustic Management** der Festplatte (leiser, aber langsamer) · wenige große, langsame Lüfter · Wasserkühlung · „Silent-PC“.
+
+> **MERKE (Ergänzung, nicht im Buch):** Bildschirm blendfrei aufstellen, Oberkante auf Augenhöhe, genug Abstand · ergonomische Tastatur (Natural Keyboard, S. 113) und Trackball (S. 114) schonen die Handgelenke.
+
+## 13. Kap. 13 – PC montieren (S. 136–145)
+
+> **KERN:** Eine CPU passt nur, wenn **Sockel** und **Chipsatz/BIOS-Version** des Mainboards sie unterstützen. Beim Einbau entscheiden ESD-Schutz, Ausrichtung und Wärmeleitpaste.
+
+### Einbau Schritt für Schritt
+
+1. Konfiguration dokumentieren, **Netzstecker ziehen**, Einschalter drücken (Restspannung).
+2. **ESD-Schutz**: Erdungsarmband und Matte, sonst Heizkörper anfassen.
+3. Sockelhebel öffnen, CPU **ohne Kraft** einsetzen – Dreieck auf Markierung.
+4. Hebel schließen.
+5. **Wärmeleitpaste** dünn auftragen, Kühler über Kreuz festschrauben.
+6. Lüfter an **CPU_FAN**, 4/8-pol. CPU-Strom stecken.
+7. Starten, im BIOS prüfen: CPU erkannt, Temperatur plausibel.
+
+> **FALLE:** ESD-Schäden sind oft **unsichtbar** – ein Bauteil kann später ausfallen. Nylon-Kleidung erzeugt über 20.000 V.
+
+> **MERKE:** Prüfung nach Reparatur (DIN VDE 0701-0702, Stand Buch S. 138–139): **Sichtprüfung · Messung · Funktionskontrolle**. Seit 2021: DIN EN 50678 (VDE 0701) und DIN EN 50699 (VDE 0702), die drei Teilprüfungen bleiben (Ergänzung, nicht aus Buch/Unterricht).
+
+### Probleme und Fehlerbehebung
+
+| Symptom | Mögliche Ursache | Maßnahme |
+|---|---|---|
+| **Kein Bild, startet nicht** | CPU nicht unterstützt, BIOS zu alt, CPU-Strom fehlt | Support List prüfen, BIOS-Update, Stecker prüfen |
+| **Pieptöne beim Start** | POST-Fehler | Beep-Code im Mainboard-Handbuch nachschlagen |
+| **Abschalten unter Last** | Überhitzung | Paste, Kühlersitz, Lüfter prüfen; Temperatur im BIOS |
+| **„CPU Fan Error“** | Lüfter falsch angeschlossen oder defekt | an CPU_FAN anschließen, Lüfter tauschen |
+| **Langsam** | Thermal Throttling, Energiesparplan | Kühlung und Energieoptionen prüfen |
+| **Verbogene Pins** | falsch eingesetzt | vorsichtig richten oder Teil tauschen |
+
+## 14. Kap. 14 – Startvorgang des Computers (S. 146–165)
+
 ### Startvorgang des Computers
 
 1. Strom an → CPU startet an fester Adresse im **BIOS-ROM**.
@@ -444,11 +685,6 @@ Buch: Kap. 10 (S. 101–111) · Kap. 13.5 (S. 142) · Kap. 14.1–14.3 (S. 146�
 2. **Board + Version:** Startbildschirm, BIOS, msinfo32, CPU-Z, Sandra
 3. **Download:** nur passende Datei von der **Herstellerseite**, Readme lesen
 4. **Absichern:** Einstellungen notieren, Strom sichern (Netzteil, USV)
-
-## 7. Einheit 7 – BIOS-Update, UEFI, Windows-Start (Buch Kap. 14.4–14.10)
-
-*Update per Bootmedium · Live-Update · Absturz · EFI · Booten · Startoptionen.*
-Buch: Kap. 14.4–14.11 (S. 157–165)
 
 > **KERN:** Ein BIOS-Update darf **nie unterbrochen** werden. **UEFI** ist der moderne Nachfolger des BIOS – grafisch, 64-Bit-fähig, mit GPT und Secure Boot.
 
@@ -490,10 +726,7 @@ Buch: Kap. 14.4–14.11 (S. 157–165)
 
 > **FALLE:** **F8** beim Start funktioniert ab Windows 8 nicht mehr.
 
-## 8. Einheit 8 – PC-Betriebssysteme und Dateisysteme (Buch Kap. 15)
-
-*PC-Betriebssysteme – Übersicht · Windows · Eigenschaften · Architektur · Dateisysteme · Linux · andere.*
-Buch: Kap. 15 (S. 166–177)
+## 15. Kap. 15 – Aktuelle PC-Betriebssysteme (S. 166–177)
 
 > **KERN:** Das Betriebssystem ist die **Schnittstelle** zwischen Hardware, Programmen und Benutzer. Auf PCs dominiert Windows; daneben UNIX-artige Systeme wie Linux und macOS.
 
@@ -542,10 +775,7 @@ Buch: Kap. 15 (S. 166–177)
 
 > **FALLE:** Eine 6-GB-Datei passt **nicht** auf einen FAT32-Stick (max. 4 GB je Datei) – exFAT oder NTFS nehmen.
 
-## 9. Einheit 9 – Betriebssystem installieren (Buch Kap. 16)
-
-*Betriebssystem installieren – PC vorbereiten · Installationsmethoden · Windows 11 im Grafikmodus · Aktivieren · Fehlerbehandlung.*
-Buch: Kap. 16 (S. 178–183) – im Buch mit **Windows 10**
+## 16. Kap. 16 – Betriebssystem installieren (S. 178–183)
 
 > **KERN:** Vor der Installation stehen **Bootreihenfolge**, **Partitionierung** und Datensicherung fest. Danach führt ein Setup-Assistent durch Installation, Ersteinrichtung und Aktivierung.
 
@@ -605,10 +835,7 @@ Buch: Kap. 16 (S. 178–183) – im Buch mit **Windows 10**
 | **Zu wenig Platz** | Partition löschen/vergrößern, größere Platte |
 | **Unklarer Fehler** | Protokolle Panther\setupact.log, setuperr.log |
 
-## 10. Einheit 10 – Netzwerk- und Internetzugang einrichten (Buch Kap. 17)
-
-*Zugang zum Netzwerk und Internet – Gemeinsamkeiten aller Desktop-OS · Netzwerkverbindungen · Internetzugang · Internet Explorer.*
-Buch: Kap. 17 (S. 184–194)
+## 17. Kap. 17 – Zugang zum Netzwerk und Internet (S. 184–194)
 
 > **KERN:** Alle Desktop-Betriebssysteme sprechen **TCP/IP**. Jedes Gerät braucht eine eindeutige **IP-Adresse** – dazu Subnetzmaske, Gateway und DNS-Server.
 
@@ -649,10 +876,7 @@ Buch: Kap. 17 (S. 184–194)
 
 > **ERGÄNZUNG:** Diagnose-Befehle: ipconfig /all · ipconfig /release + /renew · ping · tracert · nslookup
 
-## 11. Einheit 11 – Datensicherung (Buch Kap. 19 · S.M.A.R.T. aus 20.3)
-
-*Datensicherung durchführen – Sicherungsarten und -strategien · Windows-Bordmittel · Image-Sicherung.*
-Buch: Kap. 19 (S. 205–217) · Kap. 20 Datenrettung (S. 218–224)
+## 19. Kap. 19 – Datensicherung durchführen (S. 205–217, S.M.A.R.T. aus 20.3)
 
 > **KERN:** Regelmäßige Sicherung schützt vor Datenverlust durch Defekte, Schadsoftware oder Bedienfehler. Entscheidend sind **Strategie** und eine **getestete Wiederherstellung**.
 
@@ -693,10 +917,7 @@ Buch: Kap. 19 (S. 205–217) · Kap. 20 Datenrettung (S. 218–224)
 
 > **FALLE:** RAID, Systemwiederherstellung und reine Cloud-Synchronisation sind **keine** Datensicherung. Bei Plattenfehlern zuerst lesbare Daten sichern, dann prüfen (chkdsk, **S.M.A.R.T.**).
 
-## 12. Einheit 12 – Schutz vor Schadsoftware (Buch Kap. 21)
-
-*Vor Schadsoftware schützen – Grundsätzliches · Antivirenprogramme · Windows-Sicherheit · Test · Client/Server-Antivirus.*
-Buch: Kap. 21 (S. 225–233)
+## 21. Kap. 21 – Vor Schadsoftware schützen (S. 225–233)
 
 > **KERN:** Schadsoftware gelangt unbemerkt auf den PC, verbreitet sich, manipuliert oder spioniert. Schutz = **Virenschutz + Updates + Firewall + Backups + vorsichtiges Verhalten**.
 
@@ -744,71 +965,7 @@ Buch: Kap. 21 (S. 225–233)
 
 > **FALLE:** Wurm = verbreitet sich **allein**; Virus braucht eine Wirtsdatei; Trojaner verbreitet sich **nicht** selbst, sondern wird ausgeführt.
 
-
----
-
-# Teil 2 – Kapitel 9 & 11: Externe Schnittstellen · Ein- und Ausgabegeräte
-
-Zusammenfassung aus HERDT, *PC-Technik – Grundlagen* (2020), Kap. 9 (S. 94–100) und Kap. 11 (S. 112–124), ergänzt um die Unterrichts-Mitschrift „Hardware, Software“. Inhalte aus dem Unterricht sind mit **(Unterricht)** markiert. Dieser Teil vertieft **Einheit 1** (Buch Kap. 11) und **Einheit 3** (Buch Kap. 9); die Abschnittsnummern 20–30 sind App-Nummern, keine Buchkapitel.
-
-## 20. Prüfungsfallen & Selbstcheck – Vertiefung Buch Kap. 9 & 11
-
-### Prüfungsfallen
-- PS/2: **Grün = Maus, Lila = Tastatur**.
-- PS/2 ist **nicht** Hot-Plugging-fähig, USB schon.
-- Geräteanzahl: **USB 127 · FireWire 63 · Thunderbolt 7** (Thunderbolt laut Buch S. 98; Intel nennt 6 je Anschluss plus Host).
-- Mbit/s ÷ 8 = MB/s (theoretisch): USB 2.0 = 480 Mbit/s = 60 MB/s. In der Praxis bleiben wegen Protokoll-Overhead nur ca. 37–40 MB/s übrig.
-- **Aktiver Hub** = eigenes Netzteil; **passiver Hub** = Strom vom PC.
-- USB 2.0 liefert 500 mA (2,5 W), USB 3.0 900 mA.
-- eSATA liefert **keinen** Strom.
-- Funk-Dongle ist **nicht** Bluetooth-kompatibel.
-- Interpolierte dpi sagen nichts über die Qualität.
-- Laserdrucker = dokumentenecht, Tinte und Thermopapier nicht.
-- Subpixel = Rot, Grün, Blau (**RGB**) · Druckfarben = **CMYK**.
-- VGA ist analog, DVI-D/HDMI/DisplayPort digital.
-- **VA** = bester Kontrast, **IPS** = beste Farben, **TN** = schnell und günstig.
-- WLAN ist eine Technik, keine Netzwerkgröße.
-
-### Übung Kapitel 9 (Buch S. 100)
-1. Welche Schnittstellen werden bevorzugt für eine Tastatur verwendet? → USB (Standard), außerdem Bluetooth/Funk; früher PS/2
-2. Welche Farbe hat der PS/2-Anschluss für die Maus? → Grün
-3. Auf welcher Übertragungstechnik beruht USB? → Serielle Übertragung (Universal Serial Bus)
-4. Wie viele Geräte können an USB angeschlossen werden? → bis zu 127
-5. Mit welcher Geschwindigkeit arbeitet Thunderbolt 3? → bis zu 40 Gbit/s
-6. Welche USB-Versionen sind heute marktüblich? → USB 2.0, USB 3.x (3.0/3.1/3.2), USB4 – meist mit USB-C
-
-### Übung Kapitel 11 (Buch S. 124)
-1. Welche drei Typen von Scannern unterscheidet man? → Hand-, Einzugs- und Flachbettscanner
-2. Welche Farbe hat der PS/2-Anschluss für die Tastatur? → Lila (violett)
-3. Wie lassen sich Mäuse und Tastaturen anschließen? → PS/2, USB, Bluetooth oder Funkempfänger (USB-Dongle)
-4. Welche Typen von Mäusen werden unterschieden? → mechanische (Kugel) und optische (LED/Laser)
-5. Welcher Druckertyp eignet sich für Durchschläge? → Nadeldrucker
-
-### Abgleich Mitschrift ↔ Buch
-| In der Mitschrift | Richtig (laut Buch) |
-|---|---|
-| Passiver Hub = externe Stromversorgung | **Aktiver** Hub hat das eigene Netzteil; der passive bekommt Strom nur vom USB-Anschluss (S. 97). |
-| Ein Pixel = 3 Punkte (rot, gelb, blau) | Subpixel sind **Rot, Grün, Blau** (RGB). Drucker mischen dagegen mit Cyan, Magenta, Gelb, Schwarz (CMYK). |
-| Tintendrucker-Farben: schwarz, gelb, blau, rot | Fachbegriffe: **Cyan** (Blau), **Magenta** (Rot), **Gelb**, **Schwarz** (S. 117). |
-| Laserdrucker: schnell, nicht die beste Qualität | Das Buch nennt hohe Druckqualität (≥ 1.200 dpi); nur echter Fotodruck geht nicht (S. 117). |
-| PAN: Bluetooth, RFID, EFC | gemeint ist vermutlich **NFC** (Near Field Communication). |
-| Cloud = Festplatte übers Netzwerk (z. B. NAS) | Ein **NAS** steht im eigenen Netz; die **Cloud** ist Speicher bei einem Anbieter im Internet. Beides ist Speicher übers Netzwerk. |
-| Maus: früher Laser/mit Kugel, heute LED | Früher **Kugel** (mechanisch); heute **optisch** – mit LED **oder Laser** (Laser = präziser, S. 114). |
-| Nadeldrucker: 9 oder 24 Nadeln | Buch: 9, 18 oder 24 Nadeln (S. 116). |
-| Thermotransferdrucker für Kassenzettel | Kassenzettel entstehen im **Thermodirektdruck** auf Thermopapier; Thermotransfer (mit Farbband, z. B. Etiketten) ist ein anderes Verfahren (Ergänzung, nicht im Buch). |
-
-### Kann ich das?
-- Geräte nach EVA einordnen
-- Legacy-Schnittstellen nennen
-- USB-Versionen mit Raten und Steckertypen erklären
-- USB, FireWire, Thunderbolt, eSATA, USB4 vergleichen
-- Tastatur- und Maus-Anschlüsse nennen
-- Scannertypen, dpi, TWAIN erklären
-- Druckertypen mit Einsatzgebiet zuordnen
-- Monitor-Kennzahlen und Panels erklären
-- Prüfzeichen CE, GS, TCO, Energy Star erklären
-
-## 21. Unterricht – EVA-Prinzip und Geräteliste (Mitschrift)
+## 90. Unterricht – EVA-Prinzip und Geräteliste
 
 > **KERN:** Kleinste Definition eines Computers: **CPU + RAM**. Alles andere ordnet man nach dem EVA-Prinzip ein: **Eingabe → Verarbeitung → Ausgabe**. Was keiner Gruppe zugeordnet ist, fällt unter „Sonstiges“ (Netzwerk, Speicher, Verbindungen).
 
@@ -831,229 +988,32 @@ Touchscreen (und Headset) sind **Ein- und Ausgabegerät** zugleich.
 - **historisch:** Lochstreifen
 - **über Netzwerk:** NAS im eigenen Netz · Cloud über das Internet
 
-### Was ist eine Schnittstelle? (Buch S. 94)
-- **Schnittstelle (Interface):** Übergabepunkt, an dem zwei eigenständige Komponenten verbunden werden.
-- **Software-Schnittstelle:** z. B. **API** (Application Programming Interface).
-- **Hardware-Schnittstelle:** verbindet Komponenten des Computers, z. B. USB, PS/2, HDMI.
+## 91. Unterricht – Binärzahlen und Speichergrößen
 
-> **MERKE:** Bei Schnittstellen unterscheidet man die **theoretische** (maximale) und die **praktische** Übertragungsrate. Die praktische ist immer deutlich niedriger.
+### Binärzahlen
 
-## 22. Buch Kap. 9.1 – Legacy-Schnittstellen (S. 94)
+> **HINWEIS:** Kein eigenes Buchkapitel; Bezüge im Buch: S. 7 (64 Bit = 8 Byte), S. 65/70 (Hex-Adressen), S. 78 und 117 (Byte → KB → MB mit 1024), S. 184 (IPv4/IPv6). Nach dem Unterricht abgleichen. **(Unterricht)**
 
-> **KERN:** USB ist seit Jahren die wichtigste Schnittstelle für externe Geräte. Legacy-Schnittstellen sind veraltet.
+- **Bit** = 0 oder 1 · **1 Byte = 8 Bit** (Buch S. 7: 64 Bit = 8 Byte)
+- Stellenwerte binär (ein Byte): **128 – 64 – 32 – 16 – 8 – 4 – 2 – 1** *(Ergänzung, nicht aus Buch/Unterricht)*
+- Beispiel: 1100 0000 (binär) = 128 + 64 = **192** (dezimal) – erstes Oktett von 192.168.… *(Ergänzung, nicht aus Buch/Unterricht)*
+- **Hexadezimal**: Ziffern 0–9 und A–F · 1 Hex-Ziffer = 4 Bit · 1 Byte = 2 Hex-Ziffern (FF = 255) *(Ergänzung, nicht aus Buch/Unterricht)*
+- Im Buch: I/O-Adressen hexadezimal, z. B. **0220h** (S. 65, Übung S. 70) · IPv6-Adressen hexadezimal (S. 184)
 
-| Schnittstelle | Zweck früher |
-|---|---|
-| **Seriell (RS-232)** | Modem, Maus, Geräte |
-| **Parallel (IEEE 1284)** | Drucker |
-| **PS/2** (IBM Personal System/2) | Tastatur und Maus |
+### Speichergrößen
 
-- „Legacy“ = Hinterlassenschaft: aus Kompatibilitätsgründen lange „mitgeschleppt“, heute durch USB ersetzt.
+> **HINWEIS:** Kein eigenes Buchkapitel; Bezüge im Buch: S. 78, S. 95 (Mbit/s vs. MB/s), S. 117 (÷ 8, ÷ 1024, ÷ 1024 → 16,6 MB). Nach dem Unterricht abgleichen. **(Unterricht)**
 
-### PS/2
-- **Grün = Maus · Lila = Tastatur**
-- neue Boards: höchstens ein **Kombi-Anschluss**; für beide Geräte ein Y-Adapter
-- PS/2 ↔ USB per Adapter, wenn das Gerät beide Protokolle versteht
-- **(Unterricht)** PS/2 ist **nicht Hot-Plugging-fähig**: Gerät nicht im laufenden Betrieb ein- oder ausstecken, sonst Neustart nötig
-
-## 23. Buch Kap. 9.2 – USB (S. 94–97)
-
-> **KERN:** USB: seriell, Plug & Play, Hot-Plugging, bis zu **127 Geräte**.
-
-- **Seriell:** Daten Bit für Bit; „Bus“ = gemeinsame Verbindung
-- **127 Geräte:** jedes bekommt automatisch eine eigene Geräte-ID
-- **Baumstruktur:** über Hubs erweiterbar; Host-Controller (Master) steuert Geräte (Slaves)
-- **Plug & Play + Hot-Plugging:** im laufenden Betrieb an- und abstecken, wird automatisch erkannt
-
-| Version | Name | seit | theoretisch | praktisch (Buch) |
-|---|---|---|---|---|
-| **USB 1.1** | Low Speed / Full Speed | 1996/98 | 1,5 / 12 Mbit/s | ca. 180 kB/s / 1,5 MB/s |
-| **USB 2.0** | Hi-Speed | 2002 | 480 Mbit/s (= 60 MB/s) | ca. 37–40 MB/s |
-| **USB 3.0 = 3.1 Gen 1 = 3.2 Gen 1** | SuperSpeed | 2010 | 5 Gbit/s | ca. 450 MB/s |
-| **USB 3.1 Gen 2 = 3.2 Gen 2** | SuperSpeedPlus | – | 10 Gbit/s | ca. 800 MB/s |
-| **USB 3.2 Gen 2x2** | – | 2018 | 20 Gbit/s | ca. 1.600 MB/s |
-| **USB4** | – | ab 2021 | 40 Gbit/s | – |
-
-- Das Buch (S. 96) schreibt vereinfacht „USB 3.2 = 20 Gbit/s“; genau ist das nur **USB 3.2 Gen 2x2** (doppelte Leitungen, nur USB-C). USB 3.2 Gen 1 (5 Gbit/s) und Gen 2 (10 Gbit/s) sind umbenannte ältere Versionen.
-- **Wie wurde es schneller?** USB 3.1 Gen 2: höherer Takt + effizientere Kodierung statt 8b/10b – laut Buch **128b/130b**; technisch korrekt ist 128b/132b (Buch S. 96: „128b/130b“ – dort verwechselt mit PCIe 3.0) · USB 3.2 Gen 2x2: **doppelte** Hochgeschwindigkeitsleitungen
-- **USB OTG (On-the-Go):** zwei Geräte direkt koppeln, z. B. USB-Stick am Smartphone (Adapterkabel)
-- **USB Wireless:** kabellos, 480 Mbit/s – hat sich nie durchgesetzt (Bluetooth, USB 3)
-
-### Kabel und Strom
-| | USB 1.x / 2.0 | USB 3.0 |
+| System | Umrechnung | Wer nutzt es? |
 |---|---|---|
-| **Adern** | 4 (2 Strom, 2 Daten) | 9 |
-| **Strom** | 5 V · max. **500 mA = 2,5 W** | max. **900 mA** |
+| **Dezimal (SI)** | 1 kB = 1.000 Byte · 1 MB = 1.000 kB · 1 GB = 1.000 MB · 1 TB = 1.000 GB | Festplattenhersteller *(Ergänzung, nicht aus Buch/Unterricht)* |
+| **Binär (IEC)** | 1 KiB = 1.024 Byte · 1 MiB = 1.024 KiB · 1 GiB = 1.024 MiB · 1 TiB = 1.024 GiB | Windows zeigt Binärwerte, schreibt aber „GB“ *(Ergänzung, nicht aus Buch/Unterricht)* |
 
-- USB 1.x/2.0: **Twisted-Pair**-Kabel. Low Speed (Maus, Tastatur): ungeschirmt reicht; schnellere Modi brauchen **geschirmte** Kabel.
-- 2,5″-Festplatten an USB 2.0: oft **Y-Kabel** (Strom von zwei Ports). Ab USB 3.0 genügt einer.
-- Drucker, Scanner, Kameras bringen eigene Stromversorgung mit.
+- Folge: Eine 1-TB-Platte zeigt in Windows nur ca. **931 GB** (eigentlich GiB) an. *(Ergänzung, nicht aus Buch/Unterricht)*
+- **Datenraten in Bit** (Mbit/s), **Dateigrößen in Byte** → durch 8 teilen: 480 Mbit/s = 60 MB/s theoretisch (Buch S. 95: praktisch ca. 37 MB/s).
+- Das Buch rechnet mit **1.024** (S. 117: Bit ÷ 8 ÷ 1.024 ÷ 1.024 → 16,6 MB).
 
-### Stecker
-- **Typ A** = am Computer · **Typ B** = am Gerät (Drucker, 3,5″-Festplatte)
-- **Mini-USB** und **Micro-USB** für kleine Geräte; per Adapter kompatibel
-- **USB-C:** oval, 24-polig, verdrehsicher; für USB 3.1/3.2, Thunderbolt, USB4
-- Alte Stecker passen in USB-3.0-Buchsen. Der neue **USB-3.0-B-Stecker** passt nur in neue Buchsen – ein USB-3.0-Gerät am USB-2.0-PC braucht daher ein herkömmliches USB-Kabel.
-
-### USB-Hubs
-- **Aktiver Hub:** eigenes **Netzteil** – für stromhungrige Geräte
-- **Passiver Hub:** Strom nur **vom PC-Anschluss** – reicht für Maus und Tastatur
-- An einem USB-2.0-Hub lassen sich Low-, Full- und Hi-Speed-Geräte ohne Nachteil mischen; USB-3.0-Geräte laufen dort nur im **Hi-Speed**-Modus.
-
-## 24. Buch Kap. 9.3–9.6 – FireWire, Thunderbolt, eSATA, USB4 (S. 97–100)
-
-| Schnittstelle | Geschwindigkeit | Geräte | Besonderheiten |
-|---|---|---|---|
-| **FireWire (IEEE 1394)** | 400 Mbit/s (≈ 40 MB/s) · 800 Mbit/s (≈ 80 MB/s) | bis 63, Kette | 1995 von Apple, bei Sony „i.Link“ · Geräte tauschen Daten **ohne PC** direkt aus · Hot-Plugging · Video-/Audiobereich · FW400-Kabel 4- oder 6-adrig (6 = mit Strom), max. 4,5 m · FW800 9-adrig, per Adapter kombinierbar · veraltet (Apple wechselte zu Thunderbolt) |
-| **Thunderbolt** | TB1: 2 × 10 · TB2: 20 · **TB3: 40 Gbit/s** | bis 7 laut Buch (Intel: 6 je Anschluss plus Host), Kette (Daisy-Chain) | Intel + Apple, Codename „Light Peak“, 2011 · bündelt **USB, DisplayPort und PCIe** in einem Kabel · laut Buch (2020) **schnellste** externe Schnittstelle (heute: Thunderbolt 5 / USB4 v2 mit 80 Gbit/s) · Stecker anfangs = **Mini-DisplayPort**, heute **USB-C** · Adapter zu DP, DVI, HDMI, VGA · Kupfer 3 m, Glasfaser 10 m · Kabel mit aktiver Elektronik (ca. 5× USB-3.0-Preis) |
-| **eSATA** | 150–600 MB/s (wie SATA) | 1 | nach außen geführtes SATA, besser geschirmt, eigener Stecker (SATA-Kabel passt nicht) · **liefert keinen Strom** · Hot-Plugging oft problematisch · durch USB verdrängt |
-| **USB4** | 40 Gbit/s (Stand Buch 2020; USB4 Version 2.0 seit 2022: 80 Gbit/s) | Hub-Struktur | aus Thunderbolt 3 entstanden + USB-Hubstruktur · kompatibel zu Thunderbolt 3 und USB 3 |
-
-> **FALLE:** **Thunderbolt** kennt nur die **Kette**, **USB/USB4** die **Hub-/Baumstruktur**. FireWire: max. **63** Geräte, Thunderbolt: **7** (laut Buch; Intel nennt 6 je Anschluss plus Host), USB: **127**.
-
-> **FALLE:** Mbit/s ≠ MB/s: 480 **Mbit**/s (USB 2.0) sind theoretisch 60 **MB**/s, praktisch nur rund 37–40 MB/s. Kleines b = Bit, großes B = Byte.
-
-## 25. Buch Kap. 11.1–11.2 – Tastatur, Maus, Trackball (S. 112–114)
-
-> **KERN:** Tastatur und Maus werden heute per **USB**, **Bluetooth** oder **Funk-Dongle** angeschlossen.
-
-### 11.1 Tastatur
-- Standard: **MF-102** (Multifunktion, 102+ Tasten); früher PC/XT mit 83–86 Tasten.
-- Blöcke: **alphanumerischer Block** (wie Schreibmaschine) · **Ziffernblock** (wie Taschenrechner) · Cursor-Steuerung · **Funktionstasten** F1–F12.
-- Status-LEDs: Num-Lock, Umschalt-Feststelltaste, Rollen.
-- Ergonomie: **Natural Keyboard** (geteilt, V-förmig) schont Handgelenke; Sondertastaturen für Linkshänder, Sehbehinderte.
-- Treiber nur für programmierbare Zusatztasten nötig.
-
-| Anschluss | Einsatz |
-|---|---|
-| **PS/2** | ältere PCs; oft nur eine Kombi-Buchse |
-| **USB** | aktueller Standard |
-| **Bluetooth** | schnurlos |
-| **Funk-Dongle** (USB) | schnurlos, **nicht** Bluetooth-kompatibel |
-
-### 11.2 Maus und Trackball
-- **Mechanisch (alt):** Gummikugel → zwei Wellen → Lochrädchen → Lichtschranke · verschmutzt leicht
-- **Optisch / Laser (heute):** Sensor tastet die Oberfläche ab · keine Mechanik · Laser = präziser · Auflösung oft umschaltbar
-- **Trackball:** Kugel oben, mit Daumen oder Fingern bewegt; Gerät bleibt stehen → wenig Platz, schont Arm und Handgelenk.
-- **Mehrere Funkgeräte im Büro:** auf genug Funkkanäle achten, sonst steuert eine Maus mehrere PCs.
-- **Sicherheit:** Funksignale können ausgespäht werden.
-- **(Unterricht)** Weitere Anschlusswege für Eingabegeräte: Radiowellen (Funk), Infrarot, Bluetooth.
-
-## 26. Buch Kap. 11.3 – Scanner (S. 115–116)
-
-> **KERN:** Scanner digitalisieren Papiervorlagen; vergleichen sollte man nur die **optische** Auflösung.
-
-| Typ | Funktion | Vor- / Nachteile |
-|---|---|---|
-| **Handscanner** | wird von Hand über die Vorlage gezogen | breite Vorlagen in Streifen („Stitching“) → oft unbrauchbar, kaum noch genutzt |
-| **Einzugsscanner** | Vorlage wird wie beim Drucker eingezogen | wenig Platz, saubere Ergebnisse · keine Bücher oder dicken Vorlagen |
-| **Flachbettscanner** | Vorlage liegt auf Glas, Scaneinheit fährt darunter | auch Bücher möglich · braucht Platz · oft Kombigerät mit **ADF** (automatischer Einzug) |
-
-- **Auflösung in dpi:** dots per inch (1 Zoll = 2,54 cm) · **optisch** = echt · **interpoliert** = „erraten“ (Mittelwerte), bringt keine Qualität
-- **TWAIN:** „Technology Without An Interesting Name“ – Standardtreiber, jedes TWAIN-Programm kann jeden Scanner nutzen
-- **Farbtiefe:** Scanner 30–42 Bit, Software meist 24 Bit; Überschuss gleicht Bildrauschen aus
-- **Durchlichteinheit:** für Dias und Negative – Vorlage wird von hinten durchleuchtet · Tempo hängt von Auflösung, Schnittstelle (USB, im Kombigerät Netzwerk) und Mechanik ab
-
-> **FALLE:** Höher scannen als die optische Auflösung bringt nichts – nur größere Dateien. Ein Bildpunkt auf dem Monitor besteht aus drei Subpixeln: **Rot, Grün, Blau** (RGB). In der Mitschrift steht „rot, gelb, blau“.
-
-## 27. Buch Kap. 11.4 – Drucker (S. 116–118, ergänzt aus dem Unterricht)
-
-> **KERN:** Jeder Druckertyp hat ein Einsatzgebiet: **Nadel** für Durchschläge, **Laser** fürs Büro, **Tinte** für Farbe und Fotos zuhause, **Thermosublimation** für Fotos in höchster Qualität und Spezialdruck.
-
-| Drucker | Funktionsweise | Typisch / Merkmale | Dokumentenecht? |
-|---|---|---|---|
-| **Typenrad- / Kugelkopf** (Unterricht) | mechanisch: Rad bzw. Metallkugel mit Buchstaben dreht sich, ein Hammer schlägt durch das Farbband | historisch, nur Text | – |
-| **Nadeldrucker** | 9, 18 oder 24 Nadeln drücken durch ein Farbband (Punktmatrix); Tempo in CPS (50–500 Zeichen/s) | laut, robust, günstig im Betrieb · **Durchschläge, Endlospapier** (Arztpraxis, Spedition) | – |
-| **Laserdrucker** | **Xerografie:** Trommel wird geladen → Laser entlädt Stellen → Toner haftet → auf Papier übertragen → mit Druck und **Hitze fixiert** → Trommel gereinigt (Resttonerbehälter) | schnell, leise, ≥ 1.200 dpi, günstig pro Seite · Farblaser: 4 Toner (CMYK) · braucht **RAM** für die ganze Seite | ja (auch bei Nässe) |
-| **Tintenstrahl** | feine Tintentröpfchen aus Düsen; Farben **CMYK** (Cyan, Magenta, Gelb, Schwarz), Foto: + Foto-Magenta, Foto-Türkis | günstig in der Anschaffung, teure Tinte · Düsen verkleben bei seltener Nutzung · Druckkopf mit Patrone (HP) oder fest im Gerät (Canon) (Unterricht) | nein |
-| **Thermosublimation** | Farbfolie wird erhitzt, Farbe wird gasförmig und zieht ins Spezialpapier; 256 Stufen je Farbe | Fotos in höchster Qualität · teuer pro Seite · (Unterricht) auch Tassen, T-Shirts, Planen | ja |
-| **Thermodirektdrucker** (Unterricht: „Thermotransfer“) | hitzeempfindliches Spezialpapier wird an erhitzten Stellen dunkel | Kassenzettel · wartungsarm, keine Tinte/Toner · verblasst bei Sonne/Hitze, nicht ins Altpapier | nein |
-| **Wachsdrucker** (Unterricht) | wie Tinte, aber festes Wachs wird geschmolzen und aufgespritzt | glänzende, sehr farbstarke Ausdrucke | – |
-| **3D-Drucker** (Unterricht) | schichtweiser Aufbau, meist geschmolzenes Granulat/Filament | auch innen komplexe Strukturen möglich | – |
-
-Thermotransfer (mit Farbband, z. B. Etiketten) ist ein anderes Verfahren als der Thermodirektdruck der Kassenzettel *(Ergänzung, nicht aus Buch/Unterricht)*.
-
-### Entscheidungskriterien beim Druckerkauf (Buch S. 118)
-| Typ | Anschaffung | Kosten/Seite | Tempo | Lärm | Foto |
-|---|---|---|---|---|---|
-| **Nadel** | hoch | sehr gering | langsam | hoch | – |
-| **Laser** | niedrig | gering | schnell | gering | – |
-| **Farblaser** | mittel–sehr hoch | gering–mittel | mittel | gering | mittel |
-| **Tinte** | niedrig | hoch | mittel–schnell | gering | gut |
-| **Thermosubl.** | hoch | sehr hoch | langsam | gering | sehr gut |
-
-### Rechenbeispiel: RAM im Laserdrucker (Buch S. 117)
-- A4, schwarz-weiß, 1.200 dpi: **8,27 × 1.200 × 11,69 × 1.200 ≈ 139 Mio. Punkte**
-- 1 Punkt = 1 Bit → ÷ 8 = 17,4 Mio. Byte → ÷ 1.024 ÷ 1.024 ≈ **16,6 MB**
-- A4 = 210 × 297 mm = 8,27 × 11,69 Zoll · Farblaser: 192–512 MB
-
-> **MERKE:** Günstige Tintendrucker mit nur einer CMY-Patrone mischen Schwarz → Farbstich und dreifacher Verbrauch. Besser: **CMYK** mit einzeln tauschbaren Tanks.
-
-> **(Unterricht)** Alle Drucker haben Sperren, z. B. gegen das Drucken von **Banknoten** (3D-Drucker: keine Waffen).
-
-## 28. Buch Kap. 11.5 – Monitor (S. 119–123) und Beamer (Unterricht)
-
-> **KERN:** Der **LCD**-Monitor hat den Röhrenmonitor (**CRT**: groß, schwer, stromhungrig, Strahlung; Entsorgung nur über Fachbetrieb wegen Vakuum) ersetzt. Wichtige Kennzahlen: **Diagonale** (Zoll), **Seitenverhältnis**, **native Auflösung**, **Reaktionszeit**, **Kontrast** und Panel-Typ.
-
-- **Größe:** Diagonale in Zoll, üblich 24″–30″
-- **Seitenverhältnis:** früher 4:3 · heute 16:9, 16:10 · 21:9 = Ultrawide, oft **Curved**
-- **Auflösung:** Pixel Breite × Höhe, z. B. 1024 × 768 = 786.432 · LCD in **nativer** Auflösung betreiben, sonst kleines Bild oder unscharfe Skalierung
-- **Bildwiederholrate:** LCD flimmert nicht · ab 59 Hz, Gaming bis 240 Hz
-- **Reaktionszeit:** Pixel schwarz → weiß → schwarz · <2–16 ms · zu langsam = Schlieren
-- **Kontrast:** hellster zu dunkelster Pixel · TN/IPS 1000:1 · VA 3000:1
-- **Sichtwinkel:** Farbe ändert sich, wenn man schräg schaut
-- **Strom & Strahlung:** nur Hintergrundlicht (Kaltkathode oder **LED**) · keine schädliche Strahlung
-
-### Panel-Typen
-| Panel | Stärken | Schwächen |
-|---|---|---|
-| **TN** | günstig, schnell, sparsam · größter Marktanteil (Stand Buch 2020) · Office, einfache Spiele | Farbtreue, Blickwinkel |
-| **IPS** | sehr gute Farbtreue, großer Blickwinkel | mehr Strom, teurer, langsamer als TN |
-| **VA** | bester Schwarzwert, höchster Kontrast | oft träge → weniger für schnelle Spiele |
-
-Varianten: TN (STN, DSTN, TSTN) · IPS (S-IPS, AH-IPS …) · VA (PVA, MVA)
-
-### So funktioniert LCD
-Flüssigkristalle zwischen zwei um **90° gedrehten Polarisationsfiltern**. Ohne Spannung drehen die Kristalle das Licht um 90° → **heller** Pixel. Mit Spannung richten sie sich aus, das Licht wird geschluckt → **dunkler** Pixel. **OLED** leuchtet selbst, braucht kein Hintergrundlicht.
-
-### Pixelfehler (ISO 9241)
-| Typ | Fehler |
-|---|---|
-| 1 | Pixel immer hell |
-| 2 | Pixel immer dunkel |
-| 3 | Subpixel (R, G, B) defekt |
-
-Fehlerklasse **0** = keine Fehler erlaubt · Klasse I–IV = immer mehr Fehler je 1 Mio. Pixel erlaubt. Gut: Klasse 0 oder I.
-
-### Anschlüsse
-**VGA** analog (Qualitätsverlust durch Umwandlung) → **DVI** digital (DVI-D; Varianten DVI-I/DVI-A führen auch analoge Signale – nicht im Buch) → heute **HDMI** und **DisplayPort**, auch **USB-C**. Adapter gibt es in jede Richtung.
-
-### Kaufkriterien
-Größe · Auflösung · Schaltzeit < 12 ms · Pixelfehlerklasse 0/I · Helligkeit > 300 cd · Kontrast ≥ 800:1 · Blickwinkel > 170° · digitaler Anschluss · Pivot (90° drehbar)
-
-> **(Unterricht)** **Beamer:** starke Lichtquelle projiziert das Bild. Die Lampen haben eine begrenzte Lebensdauer (Betriebsstunden) und müssen getauscht werden.
-
-## 29. Buch Kap. 11.6 – Prüfzeichen, Ozon, Lärmschutz (S. 123–124)
-
-### Normen und Prüfzeichen
-| Zeichen | Bedeutung |
-|---|---|
-| **CE** | erfüllt EU-Vorschriften zur elektromagnetischen Verträglichkeit (EMV) |
-| **GS** | „geprüfte Sicherheit“ nach Produktsicherheitsgesetz, ISO 9241, Unfallvorschriften – **freiwillig** |
-| **TÜV** | prüft Sicherheit, Funktion, Qualität, Umwelt, Bedienbarkeit |
-| **TCO** | Monitor: flimmerfrei, gleichmäßig ausgeleuchtet, reflexionsarm, max. 15 W im Stand-by |
-| **ISO 9241** | Regeln für die Mensch-Maschine-Interaktion – ergonomische Bildschirmarbeit |
-| **Energy Star** | US-Stromsparzeichen: automatischer Stand-by, max. 30 W im Stand-by |
-
-### Ozon durch Laserdrucker
-Entsteht bei der Ladung der Trommel · Grenzwert **0,1 ppm** · Aktivkohlefilter regelmäßig tauschen · ältere Drucker nicht direkt am Arbeitsplatz, gut lüften · neue Geräte „ozonfrei“.
-
-### Lärmschutz
-Dämmmaterial im Gehäuse · Silent-Lüfter, passive Kühlung, lüfterlose Netzteile · Laufwerke mit Gummipuffern entkoppeln · **Acoustic Management** der Festplatte (leiser, aber langsamer) · wenige große, langsame Lüfter · Wasserkühlung · „Silent-PC“.
-
-> **MERKE (Ergänzung, nicht im Buch):** Bildschirm blendfrei aufstellen, Oberkante auf Augenhöhe, genug Abstand · ergonomische Tastatur (Natural Keyboard, S. 113) und Trackball (S. 114) schonen die Handgelenke.
-
-## 30. Unterricht – Netzwerkgrößen PAN–GAN, Router, Software-Begriffe (Mitschrift)
+## 92. Unterricht – Netzwerkgrößen, Router, Software-Begriffe
 
 ### Ausdehnung von Netzwerken (Unterricht)
 | Netz | Name | Ausdehnung |

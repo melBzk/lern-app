@@ -17,7 +17,8 @@ const ALL = []; // alle Fragen aller Fächer
 function registerFach(f) {
   f.fragen.forEach(Q => {
     Q.fach = f.id;
-    Q.id = f.id + ":" + hash(Q.d + "|" + (Q.key || Q.q));
+    // hd = frühere Themen-Nummer, damit der Lernstand nach einer Umsortierung erhalten bleibt
+    Q.id = f.id + ":" + hash((Q.hd ?? Q.d) + "|" + (Q.key || Q.q));
     ALL.push(Q);
   });
   FAECHER.push(f);

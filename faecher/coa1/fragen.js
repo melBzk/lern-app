@@ -4,7 +4,7 @@
 // Format wie bei WISO: o[0] ist immer die richtige Antwort.
 (() => {
 
-// ---------- Kursplan: Einheiten 1–12 (Einheit = App-Nummer, NICHT Buchkapitel) ----------
+// ---------- Quiz 1, Abschnitte 1–12 (nur intern; in der App werden die Fragen unten nach Buchkapiteln sortiert) ----------
 const DAYS_A = {
   1: "Einheit 1 · Computersystem, EVA, E/A-Geräte (Buch Kap. 2.1–2.2, 11)",
   2: "Einheit 2 · Mainboard, Gehäuse, Netzteil, Anschlüsse (Buch Kap. 2.3–2.13)",
@@ -368,7 +368,7 @@ const FRAGEN_A = [
     e:"Ein aktueller Scanner mit Echtzeitschutz reicht. Zusatztools ohne Echtzeitschutz sind möglich.", s:"Einheit 12 · Ergänzung (nicht im Buch)" }
 ];
 
-// ---------- Vertiefung: Buch Kap. 9 & 11 und Unterricht (Themen bekommen in der App +100) ----------
+// ---------- Quiz 2: Buch Kap. 9 & 11 und Unterricht (nur intern, siehe unten) ----------
 const DAYS_B = {
   1: "Unterricht · EVA-Prinzip und Geräteliste (vertieft Einheit 1)",
   2: "Buch Kap. 9.1 · Legacy-Schnittstellen (PS/2, seriell, parallel)",
@@ -785,11 +785,42 @@ const FRAGEN_B = [
     e:"OCR = Optical Character Recognition, oft zusammen mit Scannern genutzt.", s:"Mitschrift" }
 ];
 
-// =================== Zusammenführen für die App ===================
-const themen = { ...DAYS_A };
-Object.keys(DAYS_B).forEach(d => themen[+d + 100] = DAYS_B[d]);
-const fragen = FRAGEN_A.concat(FRAGEN_B.map(Q => ({ ...Q, d: Q.d + 100 })));
+// =================== Zusammenführen für die App: Themen = Buchkapitel ===================
+// Thema-Nummer = Kapitelnummer im Buch (HERDT, PC-Technik – Grundlagen 2020).
+// 90 und 92 = nur im Unterricht (kein Buchkapitel).
+const themen = {
+  2: "Kap. 2 · Hauptplatine, Netzteil und Gehäuse",
+  3: "Kap. 3 · Prozessor (CPU)",
+  5: "Kap. 5 · Speicher (Arbeitsspeicher und Cache)",
+  9: "Kap. 9 · Externe Schnittstellen",
+  10: "Kap. 10 · Massenspeicher",
+  11: "Kap. 11 · Ein- und Ausgabegeräte",
+  13: "Kap. 13 · PC montieren",
+  14: "Kap. 14 · Startvorgang des Computers (BIOS/UEFI)",
+  15: "Kap. 15 · Aktuelle PC-Betriebssysteme",
+  16: "Kap. 16 · Betriebssystem installieren",
+  17: "Kap. 17 · Zugang zum Netzwerk und Internet",
+  19: "Kap. 19 · Datensicherung durchführen",
+  21: "Kap. 21 · Vor Schadsoftware schützen",
+  90: "Unterricht · EVA-Prinzip und Geräteliste",
+  92: "Unterricht · Netzwerkgrößen, Router, Software-Begriffe"
+};
+// Buchseiten → Kapitel (Startseite je Kapitel laut Inhaltsverzeichnis)
+const KAP_START = [[2,5],[3,31],[4,48],[5,55],[6,65],[7,71],[8,84],[9,94],[10,101],[11,112],[12,125],
+  [13,136],[14,146],[15,166],[16,178],[17,184],[18,195],[19,205],[20,218],[21,225],[22,234]];
+const kapVonSeite = p => { let k = null; KAP_START.forEach(([kap, s]) => { if (p >= s) k = kap; }); return k; };
+// je Quiz-Abschnitt: erlaubte Kapitel (erstes = Standard, wenn keine passende Seite angegeben ist)
+const ERLAUBT_A = { 1:[2,11], 2:[2], 3:[3,9], 4:[13,2,3], 5:[5], 6:[10,14], 7:[14], 8:[15], 9:[16], 10:[17], 11:[19], 12:[21] };
+const ERLAUBT_B = { 1:[90,9], 2:[9], 3:[9], 4:[9], 5:[11], 6:[11], 7:[11], 8:[11], 9:[11], 10:[92] };
+function zuordnen(Q, erlaubt, alt) {
+  const m = (Q.s || "").match(/S\.\s*(\d+)/);
+  const k = m ? kapVonSeite(+m[1]) : null;
+  return { ...Q, hd: alt, d: erlaubt.includes(k) ? k : erlaubt[0], s: (Q.s || "").replace(/^Einheit \d+ · /, "") };
+}
+const fragen = FRAGEN_A.map(Q => zuordnen(Q, ERLAUBT_A[Q.d], Q.d))
+  .concat(FRAGEN_B.map(Q => zuordnen(Q, ERLAUBT_B[Q.d], Q.d + 100)));
 
+const buch = Object.keys(themen).map(Number).filter(d => d < 90);
 registerFach({
   id: "coa1",
   name: "COA1",
@@ -797,17 +828,13 @@ registerFach({
   bereich: "Vorbereitungskurs",
   themen,
   fragen,
-  // Themen in aufklappbare Gruppen sortieren
   gruppen: [
-    ["Kursplan · Einheiten 1–12 (Buch Kap. 2–21)", Object.keys(DAYS_A).map(Number)],
-    ["Vertiefung · Buch Kap. 9 + 11 und Unterricht (zu Einheit 1 und 3)", Object.keys(DAYS_B).map(d => +d + 100)]
+    ["Buchkapitel (PC-Technik – Grundlagen)", buch],
+    ["Nur im Unterricht (nicht im Buch)", [90, 92]]
   ],
   wissensbasis: "faecher/coa1/wissensbasis.md",
-  // Kapitel der Wissensbasis (## Nummer) je Thema
-  kapitel: {
-    1: "1", 2: "2", 3: "3", 4: "4", 5: "5", 6: "6", 7: "7", 8: "8", 9: "9", 10: "10", 11: "11", 12: "12",
-    101: "21", 102: "22", 103: "23", 104: "24", 105: "25", 106: "26", 107: "27", 108: "28", 109: "29", 110: "30"
-  },
-  allgemein: ["0", "20"]
+  // Kapitel der Wissensbasis (## Nummer) = Buchkapitel
+  kapitel: Object.fromEntries(Object.keys(themen).map(d => [d, String(d)])),
+  allgemein: ["0", "1"]
 });
 })();
