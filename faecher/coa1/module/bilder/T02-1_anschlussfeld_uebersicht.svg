@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 560" font-family="system-ui, sans-serif">
+  <title>Rückseite eines Tower-PCs: Oben links sitzt das ATX-Anschlussfeld (I/O-Panel). Es gehört zum Mainboard, die Buchsen sind direkt darauf gelötet. In der Vergrößerung vier Gruppen: Eingabe (PS/2), Bild (VGA, DVI, HDMI, DisplayPort), Netz (RJ45) und Ton (Klinke analog, S/PDIF optisch).</title>
+  <rect width="400" height="560" fill="#fff"/>
+  <text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700" fill="#222">Der PC von hinten</text>
+
+  <!-- Gehäuse -->
+  <rect x="30" y="44" width="130" height="266" rx="6" fill="#ececec" stroke="#555" stroke-width="2"/>
+  <!-- Netzteil -->
+  <rect x="40" y="52" width="110" height="44" rx="3" fill="#d4d4d4" stroke="#555"/>
+  <circle cx="126" cy="74" r="15" fill="#fff" stroke="#555"/>
+  <line x1="111" y1="74" x2="141" y2="74" stroke="#888"/>
+  <line x1="126" y1="59" x2="126" y2="89" stroke="#888"/>
+  <text x="46" y="79" font-size="13" fill="#333">Netzteil</text>
+  <!-- Mainboard innen (gestrichelt) -->
+  <rect x="37" y="104" width="117" height="198" fill="none" stroke="#2e8b57" stroke-width="2" stroke-dasharray="6 4"/>
+  <!-- Steckkarten-Blenden -->
+  <g fill="#d4d4d4" stroke="#777">
+    <rect x="44" y="226" width="100" height="8"/>
+    <rect x="44" y="240" width="100" height="8"/>
+    <rect x="44" y="254" width="100" height="8"/>
+    <rect x="44" y="268" width="100" height="8"/>
+    <rect x="44" y="282" width="100" height="8"/>
+  </g>
+  <!-- Anschlussfeld -->
+  <rect x="43" y="110" width="32" height="104" fill="#fff" stroke="#D4607A" stroke-width="3"/>
+  <circle cx="59" cy="122" r="5" fill="#3fa34d"/>
+  <rect x="50" y="134" width="18" height="8" fill="#3a6ed8"/>
+  <rect x="50" y="148" width="18" height="6" fill="#333"/>
+  <rect x="50" y="160" width="18" height="6" fill="#555"/>
+  <rect x="51" y="172" width="16" height="12" fill="#fff" stroke="#555"/>
+  <circle cx="53" cy="196" r="3.5" fill="#7cbf3f"/>
+  <circle cx="65" cy="196" r="3.5" fill="#e58fb0"/>
+  <circle cx="53" cy="206" r="3.5" fill="#6aa8e0"/>
+  <rect x="61" y="202" width="8" height="8" fill="#333"/>
+
+  <!-- Beschriftung Anschlussfeld -->
+  <line x1="78" y1="140" x2="174" y2="140" stroke="#D4607A" stroke-width="2"/>
+  <text x="178" y="136" font-size="15" font-weight="700" fill="#D4607A">ATX-Anschlussfeld</text>
+  <text x="178" y="154" font-size="13" fill="#222">(I/O-Panel)</text>
+  <!-- Beschriftung Mainboard -->
+  <line x1="156" y1="236" x2="174" y2="236" stroke="#2e8b57" stroke-width="2"/>
+  <polygon points="156,236 164,231 164,241" fill="#2e8b57"/>
+  <text x="178" y="232" font-size="15" font-weight="700" fill="#2e8b57">Mainboard (innen)</text>
+  <text x="178" y="250" font-size="13" fill="#222">Die Buchsen sind direkt</text>
+  <text x="178" y="267" font-size="13" fill="#222">auf das Mainboard gelötet.</text>
+
+  <!-- Verbindung zur Lupe -->
+  <line x1="59" y1="214" x2="59" y2="330" stroke="#D4607A" stroke-width="2" stroke-dasharray="5 4"/>
+
+  <!-- Lupe -->
+  <rect x="10" y="330" width="380" height="222" rx="14" fill="#fff" stroke="#D4607A" stroke-width="3"/>
+  <text x="24" y="352" font-size="13" fill="#666">vergrößert und quer gelegt:</text>
+
+  <!-- Zeile Eingabe -->
+  <rect x="18" y="362" width="364" height="43" rx="7" fill="#f4f1ee"/>
+  <text x="28" y="380" font-size="15" font-weight="700" fill="#222">Eingabe: PS/2</text>
+  <text x="28" y="397" font-size="13" fill="#333">grün = Maus · lila = Tastatur</text>
+  <circle cx="320" cy="383" r="13" fill="#3fa34d" stroke="#2d7a38"/>
+  <circle cx="356" cy="383" r="13" fill="#8e5cc4" stroke="#6b4196"/>
+
+  <!-- Zeile Bild -->
+  <rect x="18" y="409" width="364" height="43" rx="7" fill="#f4f1ee"/>
+  <text x="28" y="427" font-size="15" font-weight="700" fill="#222">Bild</text>
+  <text x="28" y="444" font-size="13" fill="#333">VGA · DVI · HDMI · DisplayPort</text>
+  <path d="M236,421 H268 L264,439 H240 Z" fill="#3a6ed8"/>
+  <rect x="274" y="421" width="40" height="18" fill="#fff" stroke="#555"/>
+  <path d="M320,423 H348 V433 L344,438 H324 L320,433 Z" fill="#333"/>
+  <path d="M354,423 H378 V438 H360 L354,432 Z" fill="#333"/>
+
+  <!-- Zeile Netz -->
+  <rect x="18" y="456" width="364" height="43" rx="7" fill="#f4f1ee"/>
+  <text x="28" y="474" font-size="15" font-weight="700" fill="#222">Netz: RJ45</text>
+  <text x="28" y="491" font-size="13" fill="#333">Netzwerkkabel (LAN)</text>
+  <rect x="330" y="465" width="30" height="26" fill="#fff" stroke="#555" stroke-width="2"/>
+  <rect x="339" y="485" width="12" height="6" fill="#555"/>
+  <g stroke="#c9a227" stroke-width="1.5"><line x1="335" y1="468" x2="335" y2="474"/><line x1="340" y1="468" x2="340" y2="474"/><line x1="345" y1="468" x2="345" y2="474"/><line x1="350" y1="468" x2="350" y2="474"/><line x1="355" y1="468" x2="355" y2="474"/></g>
+
+  <!-- Zeile Ton -->
+  <rect x="18" y="503" width="364" height="43" rx="7" fill="#f4f1ee"/>
+  <text x="28" y="521" font-size="15" font-weight="700" fill="#222">Ton</text>
+  <text x="28" y="538" font-size="13" fill="#333">Klinke analog + S/PDIF optisch</text>
+  <circle cx="290" cy="524" r="9" fill="#7cbf3f"/><circle cx="290" cy="524" r="3.5" fill="#222"/>
+  <circle cx="313" cy="524" r="9" fill="#e58fb0"/><circle cx="313" cy="524" r="3.5" fill="#222"/>
+  <circle cx="336" cy="524" r="9" fill="#6aa8e0"/><circle cx="336" cy="524" r="3.5" fill="#222"/>
+  <rect x="352" y="514" width="22" height="20" fill="#333"/>
+  <circle cx="363" cy="524" r="4" fill="#e03030"/>
+</svg>

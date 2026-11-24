@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 470" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Seriell oder parallel: Oben seriell, eine einzige Spur vom PC über einen langen Weg zum USB-Stecker und zur Maus; die 8 Bits 1 0 1 1 0 0 1 0 fahren nacheinander. Unten parallel, eine kurze Straße mit 8 Spuren zwischen CPU und RAM; dieselben 8 Bits fahren nebeneinander, also gleichzeitig.</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker><marker id="o" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E07B00"/></marker><marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker><marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker><marker id="p" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7b3fa0"/></marker><marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6b4f"/></marker><marker id="x" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#bbb"/></marker></defs>
+<rect width="400" height="470" fill="#fff"/>
+<text x="200" y="26" font-size="17" text-anchor="middle" font-weight="700">Seriell oder parallel?</text>
+<text x="14" y="56" font-size="16" font-weight="700">Seriell: 1 Leitung</text>
+<rect x="10" y="66" width="50" height="40" rx="4" fill="#e3f0e9" stroke="#2f6b4f" stroke-width="2"/>
+<text x="35" y="91" font-size="14" text-anchor="middle" font-weight="700">PC</text>
+<rect x="60" y="74" width="276" height="24" fill="#e9e9e9"/>
+<path d="M282,70 l-8,32 M292,70 l-8,32" stroke="#fff" stroke-width="5"/>
+<path d="M282,70 l-8,32 M292,70 l-8,32" stroke="#888" stroke-width="1.5"/>
+<rect x="230" y="79" width="18" height="14" rx="2" fill="#fff" stroke="#777" stroke-width="1"/>
+<text x="239" y="90.5" font-size="13" text-anchor="middle" font-weight="700">1</text>
+<rect x="208" y="79" width="18" height="14" rx="2" fill="#fff" stroke="#777" stroke-width="1"/>
+<text x="217" y="90.5" font-size="13" text-anchor="middle" font-weight="700">0</text>
+<rect x="186" y="79" width="18" height="14" rx="2" fill="#fff" stroke="#777" stroke-width="1"/>
+<text x="195" y="90.5" font-size="13" text-anchor="middle" font-weight="700">1</text>
+<rect x="164" y="79" width="18" height="14" rx="2" fill="#fff" stroke="#777" stroke-width="1"/>
+<text x="173" y="90.5" font-size="13" text-anchor="middle" font-weight="700">1</text>
+<rect x="142" y="79" width="18" height="14" rx="2" fill="#fff" stroke="#777" stroke-width="1"/>
+<text x="151" y="90.5" font-size="13" text-anchor="middle" font-weight="700">0</text>
+<rect x="120" y="79" width="18" height="14" rx="2" fill="#fff" stroke="#777" stroke-width="1"/>
+<text x="129" y="90.5" font-size="13" text-anchor="middle" font-weight="700">0</text>
+<rect x="98" y="79" width="18" height="14" rx="2" fill="#fff" stroke="#777" stroke-width="1"/>
+<text x="107" y="90.5" font-size="13" text-anchor="middle" font-weight="700">1</text>
+<rect x="76" y="79" width="18" height="14" rx="2" fill="#fff" stroke="#777" stroke-width="1"/>
+<text x="85" y="90.5" font-size="13" text-anchor="middle" font-weight="700">0</text>
+<rect x="336" y="78" width="14" height="16" rx="2" fill="#bbb" stroke="#555" stroke-width="1.5"/>
+<rect x="350" y="81" width="8" height="10" rx="1" fill="#ddd" stroke="#555" stroke-width="1.5"/>
+<text x="347" y="70" font-size="13" text-anchor="middle" font-weight="700">USB</text>
+<path d="M358,86 q8,0 12,-6" fill="none" stroke="#555" stroke-width="1.5"/>
+<rect x="366" y="62" width="26" height="40" rx="13" fill="#fff" stroke="#222" stroke-width="2"/>
+<line x1="379" y1="62" x2="379" y2="78" stroke="#222" stroke-width="1.5"/>
+<text x="379" y="120" font-size="13" text-anchor="middle" font-weight="700">Maus</text>
+<line x1="80" y1="116" x2="252" y2="116" stroke="#E07B00" stroke-width="3" marker-end="url(#o)"/>
+<text x="166" y="136" font-size="15" text-anchor="middle" font-weight="700" fill="#E07B00">nacheinander</text>
+<rect x="262" y="108" width="82" height="26" rx="4" fill="#fffbe6" stroke="#222" stroke-width="1.5"/>
+<text x="303" y="126" font-size="13" text-anchor="middle" font-weight="700">lange Wege</text>
+<text x="14" y="160" font-size="13" fill="#555">billig, aber langsamer – z. B. USB</text>
+<line x1="10" y1="178" x2="390" y2="178" stroke="#ccc" stroke-width="1.5"/>
+<text x="14" y="206" font-size="16" font-weight="700">Parallel: viele Leitungen</text>
+<rect x="90" y="220" width="56" height="144" rx="4" fill="#e3f0e9" stroke="#2f6b4f" stroke-width="2"/>
+<text x="118" y="297" font-size="14" text-anchor="middle" font-weight="700">CPU</text>
+<rect x="254" y="220" width="56" height="144" rx="4" fill="#c9c3bd" stroke="#888" stroke-width="2"/>
+<text x="282" y="297" font-size="14" text-anchor="middle" font-weight="700">RAM</text>
+<rect x="146" y="220" width="108" height="144" fill="#e9e9e9"/>
+<rect x="191" y="222" width="18" height="14" rx="2" fill="#fff" stroke="#777" stroke-width="1"/>
+<text x="200" y="233.5" font-size="13" text-anchor="middle" font-weight="700">1</text>
+<line x1="146" y1="238" x2="254" y2="238" stroke="#fff" stroke-width="1.5" stroke-dasharray="6 5"/>
+<rect x="191" y="240" width="18" height="14" rx="2" fill="#fff" stroke="#777" stroke-width="1"/>
+<text x="200" y="251.5" font-size="13" text-anchor="middle" font-weight="700">0</text>
+<line x1="146" y1="256" x2="254" y2="256" stroke="#fff" stroke-width="1.5" stroke-dasharray="6 5"/>
+<rect x="191" y="258" width="18" height="14" rx="2" fill="#fff" stroke="#777" stroke-width="1"/>
+<text x="200" y="269.5" font-size="13" text-anchor="middle" font-weight="700">1</text>
+<line x1="146" y1="274" x2="254" y2="274" stroke="#fff" stroke-width="1.5" stroke-dasharray="6 5"/>
+<rect x="191" y="276" width="18" height="14" rx="2" fill="#fff" stroke="#777" stroke-width="1"/>
+<text x="200" y="287.5" font-size="13" text-anchor="middle" font-weight="700">1</text>
+<line x1="146" y1="292" x2="254" y2="292" stroke="#fff" stroke-width="1.5" stroke-dasharray="6 5"/>
+<rect x="191" y="294" width="18" height="14" rx="2" fill="#fff" stroke="#777" stroke-width="1"/>
+<text x="200" y="305.5" font-size="13" text-anchor="middle" font-weight="700">0</text>
+<line x1="146" y1="310" x2="254" y2="310" stroke="#fff" stroke-width="1.5" stroke-dasharray="6 5"/>
+<rect x="191" y="312" width="18" height="14" rx="2" fill="#fff" stroke="#777" stroke-width="1"/>
+<text x="200" y="323.5" font-size="13" text-anchor="middle" font-weight="700">0</text>
+<line x1="146" y1="328" x2="254" y2="328" stroke="#fff" stroke-width="1.5" stroke-dasharray="6 5"/>
+<rect x="191" y="330" width="18" height="14" rx="2" fill="#fff" stroke="#777" stroke-width="1"/>
+<text x="200" y="341.5" font-size="13" text-anchor="middle" font-weight="700">1</text>
+<line x1="146" y1="346" x2="254" y2="346" stroke="#fff" stroke-width="1.5" stroke-dasharray="6 5"/>
+<rect x="191" y="348" width="18" height="14" rx="2" fill="#fff" stroke="#777" stroke-width="1"/>
+<text x="200" y="359.5" font-size="13" text-anchor="middle" font-weight="700">0</text>
+<text x="330" y="270" font-size="13" font-weight="700">8 Spuren</text>
+<text x="330" y="288" font-size="13">neben-</text>
+<text x="330" y="306" font-size="13">einander</text>
+<line x1="150" y1="380" x2="250" y2="380" stroke="#E07B00" stroke-width="3" marker-end="url(#o)"/>
+<text x="200" y="402" font-size="15" text-anchor="middle" font-weight="700" fill="#E07B00">gleichzeitig</text>
+<rect x="155" y="414" width="90" height="26" rx="4" fill="#fffbe6" stroke="#222" stroke-width="1.5"/>
+<text x="200" y="432" font-size="13" text-anchor="middle" font-weight="700">kurze Wege</text>
+<text x="14" y="456" font-size="13" fill="#555">schnell – z. B. Arbeitsspeicher ↔ Prozessor</text>
+</svg>

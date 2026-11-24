@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 548" font-family="system-ui, sans-serif" role="img">
+  <title>Rechenkette Liebesbrief mit 1024: 512 GB mal 1024 = 524.288 MB, mal 1024 = 536.870.912 KB, geteilt durch 15 = etwa 35.791.394 Seiten, also Minuten, geteilt durch 60 = etwa 596.523 Stunden, geteilt durch 24 = etwa 24.855 Tage, geteilt durch 365,25 = etwa 68 Jahre.</title>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker>
+    <marker id="as" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e8590c"/></marker>
+    <marker id="ab" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker>
+    <marker id="ak" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker>
+  </defs>
+  <rect width="400" height="548" fill="#fff"/>
+  <text x="200" y="28" text-anchor="middle" font-size="18" font-weight="700" fill="#222">Liebesbrief auf 512 GB</text>
+  <text x="200" y="52" text-anchor="middle" font-size="14" font-weight="400" fill="#444">1 Seite = 15 KB = 1 Minute · Rechnung mit 1024</text>
+  <rect x="80" y="66" width="300" height="40" rx="8" fill="#dbe6fb" stroke="#9fb3dc" stroke-width="1.5"/>
+  <text x="230" y="92" text-anchor="middle" font-size="15" font-weight="700" fill="#222">512 GB</text>
+  <rect x="24" y="72" width="40" height="28" rx="4" fill="#d0d3d8" stroke="#555"/><circle cx="56" cy="93" r="3" fill="#2b8a3e"/>
+  <line x1="230" y1="108" x2="230" y2="132" stroke="#333" stroke-width="2.5" marker-end="url(#a)"/>
+  <text x="242" y="126" text-anchor="start" font-size="15" font-weight="700" fill="#3a6ed8">× 1024</text>
+  <rect x="80" y="134" width="300" height="40" rx="8" fill="#dbe6fb" stroke="#9fb3dc" stroke-width="1.5"/>
+  <text x="230" y="160" text-anchor="middle" font-size="15" font-weight="700" fill="#222">524.288 MB</text>
+  <line x1="230" y1="176" x2="230" y2="200" stroke="#333" stroke-width="2.5" marker-end="url(#a)"/>
+  <text x="242" y="194" text-anchor="start" font-size="15" font-weight="700" fill="#3a6ed8">× 1024</text>
+  <rect x="80" y="202" width="300" height="40" rx="8" fill="#dbe6fb" stroke="#9fb3dc" stroke-width="1.5"/>
+  <text x="230" y="228" text-anchor="middle" font-size="15" font-weight="700" fill="#222">536.870.912 KB</text>
+  <line x1="230" y1="244" x2="230" y2="268" stroke="#333" stroke-width="2.5" marker-end="url(#a)"/>
+  <text x="242" y="262" text-anchor="start" font-size="15" font-weight="700" fill="#3a6ed8">÷ 15</text>
+  <rect x="80" y="270" width="300" height="40" rx="8" fill="#dbe6fb" stroke="#9fb3dc" stroke-width="1.5"/>
+  <text x="230" y="296" text-anchor="middle" font-size="15" font-weight="700" fill="#222">≈ 35.791.394 Seiten = Minuten</text>
+  <rect x="24" y="276" width="40" height="28" fill="#fff" stroke="#555" stroke-width="1.5"/><path d="M24,276 L44,292 L64,276" fill="none" stroke="#555" stroke-width="1.5"/>
+  <path d="M44,302 C30,292 36,282 44,289 C52,282 58,292 44,302 Z" fill="#e03131"/>
+  <line x1="230" y1="312" x2="230" y2="336" stroke="#333" stroke-width="2.5" marker-end="url(#a)"/>
+  <text x="242" y="330" text-anchor="start" font-size="15" font-weight="700" fill="#3a6ed8">÷ 60</text>
+  <rect x="80" y="338" width="300" height="40" rx="8" fill="#dbe6fb" stroke="#9fb3dc" stroke-width="1.5"/>
+  <text x="230" y="364" text-anchor="middle" font-size="15" font-weight="700" fill="#222">≈ 596.523 Stunden</text>
+  <circle cx="44" cy="358" r="16" fill="#fff" stroke="#555" stroke-width="2"/><path d="M44,358 L44,348 M44,358 L52,362" stroke="#333" stroke-width="2" stroke-linecap="round"/>
+  <line x1="230" y1="380" x2="230" y2="404" stroke="#333" stroke-width="2.5" marker-end="url(#a)"/>
+  <text x="242" y="398" text-anchor="start" font-size="15" font-weight="700" fill="#3a6ed8">÷ 24</text>
+  <rect x="80" y="406" width="300" height="40" rx="8" fill="#dbe6fb" stroke="#9fb3dc" stroke-width="1.5"/>
+  <text x="230" y="432" text-anchor="middle" font-size="15" font-weight="700" fill="#222">≈ 24.855 Tage</text>
+  <rect x="27" y="410" width="34" height="32" rx="3" fill="#fff" stroke="#555" stroke-width="1.5"/><rect x="27" y="410" width="34" height="9" rx="3" fill="#e03131"/>
+  <text x="44" y="438" text-anchor="middle" font-size="13" font-weight="700" fill="#333">24</text>
+  <line x1="230" y1="448" x2="230" y2="472" stroke="#333" stroke-width="2.5" marker-end="url(#a)"/>
+  <text x="242" y="466" text-anchor="start" font-size="15" font-weight="700" fill="#3a6ed8">÷ 365,25</text>
+  <rect x="80" y="474" width="300" height="40" rx="8" fill="#fff4ec" stroke="#e8590c" stroke-width="2.5"/>
+  <text x="230" y="500" text-anchor="middle" font-size="18" font-weight="700" fill="#e8590c">≈ 68 Jahre</text>
+  <rect x="27" y="478" width="34" height="32" rx="3" fill="#fff" stroke="#555" stroke-width="1.5"/><rect x="27" y="478" width="34" height="9" rx="3" fill="#e03131"/>
+  <text x="44" y="506" text-anchor="middle" font-size="13" font-weight="700" fill="#333">68</text>
+
+</svg>

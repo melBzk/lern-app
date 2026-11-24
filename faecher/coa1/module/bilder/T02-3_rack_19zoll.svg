@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 460" font-family="system-ui, sans-serif">
+  <title>Vorderansicht eines 19-Zoll-Serverschranks (Rack). Links eine Maßleiste in Höheneinheiten (HE). Im Schrank drei flache Server-Einschübe: zwei sind 1 HE hoch (ca. 44 mm), einer 2 HE. Oben ein Maßpfeil über die Breite: 19 Zoll = 48,26 cm. Daneben ein Regal-Symbol: wie ein genormtes Regal.</title>
+  <defs>
+    <marker id="sp" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#D4607A"/>
+    </marker>
+    <g id="server1">
+      <rect x="0" y="1" width="210" height="28" rx="2" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+      <circle cx="16" cy="15" r="4" fill="#2e9d5b"/>
+      <g stroke="#9cb4e0" stroke-width="2"><line x1="40" y1="9" x2="40" y2="21"/><line x1="48" y1="9" x2="48" y2="21"/><line x1="56" y1="9" x2="56" y2="21"/><line x1="64" y1="9" x2="64" y2="21"/></g>
+    </g>
+  </defs>
+  <rect width="400" height="460" fill="#fff"/>
+  <text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700" fill="#222">Das 19-Zoll-Rack</text>
+
+  <!-- Breite -->
+  <line x1="84" y1="68" x2="296" y2="68" stroke="#D4607A" stroke-width="2.5" marker-start="url(#sp)" marker-end="url(#sp)"/>
+  <text x="190" y="58" text-anchor="middle" font-size="15" font-weight="700" fill="#D4607A">19 Zoll = 48,26 cm</text>
+
+  <!-- Schrank -->
+  <rect x="70" y="82" width="240" height="340" rx="6" fill="#444"/>
+  <rect x="80" y="92" width="220" height="320" fill="#2b2b2b"/>
+  <!-- Schienen mit Löchern -->
+  <rect x="82" y="92" width="10" height="320" fill="#888"/>
+  <rect x="288" y="92" width="10" height="320" fill="#888"/>
+
+  <!-- Maßleiste: 1 HE = 30 px, 10 HE von unten -->
+  <g stroke="#555" stroke-width="1.5">
+    <line x1="58" y1="112" x2="58" y2="412"/>
+    <line x1="50" y1="112" x2="58" y2="112"/><line x1="50" y1="142" x2="58" y2="142"/><line x1="50" y1="172" x2="58" y2="172"/><line x1="50" y1="202" x2="58" y2="202"/><line x1="50" y1="232" x2="58" y2="232"/>
+    <line x1="50" y1="262" x2="58" y2="262"/><line x1="50" y1="292" x2="58" y2="292"/><line x1="50" y1="322" x2="58" y2="322"/><line x1="50" y1="352" x2="58" y2="352"/><line x1="50" y1="382" x2="58" y2="382"/><line x1="50" y1="412" x2="58" y2="412"/>
+  </g>
+  <g font-size="13" text-anchor="end" fill="#222">
+    <text x="47" y="117">0</text>
+    <text x="47" y="147">1 HE</text>
+    <text x="47" y="177">2 HE</text>
+    <text x="47" y="207">3 HE</text>
+    <text x="47" y="237">4 HE</text>
+    <text x="47" y="267">5 HE</text>
+    <text x="47" y="297">6 HE</text>
+    <text x="47" y="327">…</text>
+  </g>
+
+  <!-- Server-Einschübe -->
+  <use href="#server1" x="85" y="112"/>
+  <g>
+    <rect x="85" y="173" width="210" height="58" rx="2" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+    <circle cx="101" cy="202" r="4" fill="#2e9d5b"/>
+    <g fill="#9cb4e0"><rect x="124" y="182" width="36" height="10"/><rect x="166" y="182" width="36" height="10"/><rect x="124" y="198" width="36" height="10"/><rect x="166" y="198" width="36" height="10"/><rect x="124" y="214" width="36" height="10"/><rect x="166" y="214" width="36" height="10"/></g>
+  </g>
+  <use href="#server1" x="85" y="262"/>
+
+  <!-- Maße rechts -->
+  <path d="M316,113 H324 V141 H316" fill="none" stroke="#222" stroke-width="1.5"/>
+  <text x="330" y="124" font-size="14" font-weight="700" fill="#222">1 HE</text>
+  <text x="330" y="141" font-size="13" fill="#222">≈ 44 mm</text>
+  <path d="M316,173 H324 V231 H316" fill="none" stroke="#222" stroke-width="1.5"/>
+  <text x="330" y="207" font-size="14" font-weight="700" fill="#222">2 HE</text>
+  <path d="M316,263 H324 V291 H316" fill="none" stroke="#222" stroke-width="1.5"/>
+  <text x="330" y="282" font-size="14" font-weight="700" fill="#222">1 HE</text>
+
+  <!-- Regal-Symbol -->
+  <g stroke="#8b5a2b" stroke-width="3" fill="none">
+    <line x1="322" y1="318" x2="322" y2="380"/><line x1="386" y1="318" x2="386" y2="380"/>
+    <line x1="322" y1="338" x2="386" y2="338"/><line x1="322" y1="360" x2="386" y2="360"/><line x1="322" y1="380" x2="386" y2="380"/>
+  </g>
+  <g fill="#3a6ed8"><rect x="328" y="324" width="6" height="14"/><rect x="336" y="326" width="6" height="12"/></g>
+  <g fill="#e08a2e"><rect x="356" y="346" width="6" height="14"/><rect x="364" y="346" width="6" height="14"/><rect x="372" y="348" width="6" height="12"/></g>
+  <text x="354" y="400" text-anchor="middle" font-size="13" fill="#222">wie ein</text>
+  <text x="354" y="416" text-anchor="middle" font-size="13" fill="#222">genormtes</text>
+  <text x="354" y="432" text-anchor="middle" font-size="13" fill="#222">Regal</text>
+
+  <text x="190" y="446" text-anchor="middle" font-size="13" fill="#666">HE = Höheneinheit</text>
+</svg>

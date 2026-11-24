@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 390" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Leitungsdichte unter der Lupe: Links zwischen CPU und RAM sehr viele dicht gepackte Leiterbahnen, einige mit kleinen Kurven, damit alle Signale gleichzeitig ankommen. Viele Leitungen bedeuten schnell. Rechts am SATA-Anschluss für die Festplatte nur wenige Leiterbahnen. Wenige Leitungen bedeuten langsam.</title>
+<defs>
+<marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker>
+<clipPath id="l"><circle cx="100" cy="172" r="86"/></clipPath>
+<clipPath id="r"><circle cx="300" cy="172" r="86"/></clipPath>
+</defs>
+<rect width="400" height="390" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">Leitungen unter der Lupe</text>
+<text x="100" y="66" text-anchor="middle" font-size="15" font-weight="700">CPU ↔ RAM</text>
+<text x="300" y="58" text-anchor="middle" font-size="15" font-weight="700">SATA-Anschluss</text>
+<text x="300" y="76" text-anchor="middle" font-size="13">(Festplatte)</text>
+
+<!-- Griffe -->
+<line x1="162" y1="234" x2="190" y2="262" stroke="#555" stroke-width="9" stroke-linecap="round"/>
+<line x1="362" y1="234" x2="390" y2="262" stroke="#555" stroke-width="9" stroke-linecap="round"/>
+
+<!-- Lupe links -->
+<circle cx="100" cy="172" r="86" fill="#1f4d3a"/>
+<g clip-path="url(#l)" stroke="#e0b84a" stroke-width="2" fill="none">
+<line x1="0" y1="100" x2="200" y2="100"/><line x1="0" y1="108" x2="200" y2="108"/><line x1="0" y1="116" x2="200" y2="116"/><line x1="0" y1="124" x2="200" y2="124"/><line x1="0" y1="132" x2="200" y2="132"/><line x1="0" y1="140" x2="200" y2="140"/><line x1="0" y1="148" x2="200" y2="148"/><line x1="0" y1="156" x2="200" y2="156"/><line x1="0" y1="164" x2="200" y2="164"/>
+<path d="M0,172 H36 v-3 h6 v6 h6 v-6 h6 v6 h6 v-6 h6 v3 H200"/>
+<path d="M0,180 H36 v3 h6 v-6 h6 v6 h6 v-6 h6 v6 h6 v-3 H200"/>
+<line x1="0" y1="188" x2="200" y2="188"/><line x1="0" y1="196" x2="200" y2="196"/><line x1="0" y1="204" x2="200" y2="204"/><line x1="0" y1="212" x2="200" y2="212"/><line x1="0" y1="220" x2="200" y2="220"/><line x1="0" y1="228" x2="200" y2="228"/><line x1="0" y1="236" x2="200" y2="236"/><line x1="0" y1="244" x2="200" y2="244"/>
+</g>
+<circle cx="100" cy="172" r="86" fill="none" stroke="#555" stroke-width="6"/>
+
+<!-- Lupe rechts -->
+<circle cx="300" cy="172" r="86" fill="#1f4d3a"/>
+<g clip-path="url(#r)">
+<g stroke="#e0b84a" stroke-width="2"><line x1="200" y1="152" x2="332" y2="152"/><line x1="200" y1="172" x2="332" y2="172"/><line x1="200" y1="192" x2="332" y2="192"/></g>
+<rect x="332" y="136" width="44" height="72" rx="3" fill="#111"/>
+<path d="M342,148 H366 V196 H356 V160 H342 Z" fill="#555"/>
+</g>
+<circle cx="300" cy="172" r="86" fill="none" stroke="#555" stroke-width="6"/>
+
+<!-- Beschriftungen -->
+<line x1="30" y1="322" x2="44" y2="182" stroke="#333" stroke-width="1.5" marker-end="url(#a)"/>
+<text x="100" y="290" text-anchor="middle" font-size="14">viele Leitungen</text>
+<text x="100" y="309" text-anchor="middle" font-size="15" font-weight="700" fill="#b45f06">= schnell</text>
+<text x="300" y="290" text-anchor="middle" font-size="14">wenige Leitungen</text>
+<text x="300" y="309" text-anchor="middle" font-size="15" font-weight="700" fill="#3a6ed8">= langsam</text>
+<text x="20" y="344" font-size="13" font-weight="700">Kurve: damit alle Signale</text>
+<text x="20" y="362" font-size="13" font-weight="700">gleichzeitig ankommen</text>
+</svg>

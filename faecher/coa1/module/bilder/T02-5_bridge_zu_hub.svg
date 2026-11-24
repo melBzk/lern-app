@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 444" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Von der Bridge- zur Hub-Architektur: Links Bridge mit CPU, Northbridge und Southbridge. Rechts Hub mit CPU, MCH oder GMCH, ICH und einem zusätzlichen I/O-Chip für Schnittstellen. Northbridge entspricht MCH, beide mit Grafik und Arbeitsspeicher (RAM). Southbridge entspricht ICH, beide für Laufwerke, BIOS, Steckkarten und Controller. Das Prinzip bleibt gleich, nur die Namen ändern sich.</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker></defs>
+<rect width="400" height="444" fill="#fff"/>
+<text x="200" y="24" text-anchor="middle" font-size="17" font-weight="700">Aus Bridge wird Hub</text>
+<text x="81" y="62" text-anchor="middle" font-size="16" font-weight="700">Bridge</text>
+<text x="319" y="62" text-anchor="middle" font-size="16" font-weight="700">Hub</text>
+<line x1="130" y1="57" x2="270" y2="57" stroke="#333" stroke-width="2.5" marker-end="url(#a)"/>
+<text x="200" y="50" text-anchor="middle" font-size="13">wurde zu</text>
+
+<!-- Verbindungslinien -->
+<g stroke="#333" stroke-width="2.5"><line x1="81" y1="108" x2="81" y2="136"/><line x1="81" y1="192" x2="81" y2="220"/><line x1="319" y1="108" x2="319" y2="136"/><line x1="319" y1="192" x2="319" y2="220"/><line x1="319" y1="324" x2="319" y2="352"/></g>
+
+<!-- CPU -->
+<rect x="31" y="76" width="100" height="32" rx="5" fill="#e3f0e9" stroke="#2f6b4f" stroke-width="2"/>
+<text x="81" y="98" text-anchor="middle" font-size="15" font-weight="700">CPU</text>
+<rect x="269" y="76" width="100" height="32" rx="5" fill="#e3f0e9" stroke="#2f6b4f" stroke-width="2"/>
+<text x="319" y="98" text-anchor="middle" font-size="15" font-weight="700">CPU</text>
+
+<!-- schnell -->
+<rect x="6" y="136" width="150" height="56" rx="5" fill="#fdebd8" stroke="#e8892b" stroke-width="2.5"/>
+<text x="81" y="160" text-anchor="middle" font-size="15" font-weight="700">Northbridge</text>
+<text x="81" y="180" text-anchor="middle" font-size="13">Grafik, RAM</text>
+<rect x="244" y="136" width="150" height="56" rx="5" fill="#fdebd8" stroke="#e8892b" stroke-width="2.5"/>
+<text x="319" y="160" text-anchor="middle" font-size="15" font-weight="700">MCH / GMCH</text>
+<text x="319" y="180" text-anchor="middle" font-size="13">Grafik, RAM</text>
+<text x="200" y="174" text-anchor="middle" font-size="32" font-weight="700" fill="#e8892b">=</text>
+
+<!-- langsam -->
+<rect x="6" y="220" width="150" height="104" rx="5" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2.5"/>
+<text x="81" y="242" text-anchor="middle" font-size="15" font-weight="700">Southbridge</text>
+<g font-size="13" text-anchor="middle"><text x="81" y="262">Laufwerke, BIOS,</text><text x="81" y="279">Schnittstellen,</text><text x="81" y="296">Steckkarten,</text><text x="81" y="313">Controller</text></g>
+<rect x="244" y="220" width="150" height="104" rx="5" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2.5"/>
+<text x="319" y="242" text-anchor="middle" font-size="15" font-weight="700">ICH</text>
+<g font-size="13" text-anchor="middle"><text x="319" y="262">Laufwerke, USB,</text><text x="319" y="279">Steckkarten,</text><text x="319" y="296">BIOS,</text><text x="319" y="313">Controller</text></g>
+<text x="200" y="282" text-anchor="middle" font-size="32" font-weight="700" fill="#3a6ed8">=</text>
+
+<!-- I/O-Chip -->
+<rect x="264" y="352" width="110" height="48" rx="5" fill="#eeeeee" stroke="#9e9e9e" stroke-width="2"/>
+<text x="319" y="372" text-anchor="middle" font-size="14" font-weight="700">I/O-Chip</text>
+<text x="319" y="391" text-anchor="middle" font-size="13">Schnittstellen</text>
+<text x="246" y="372" text-anchor="end" font-size="13" fill="#555">neu dazu:</text>
+
+<text x="200" y="432" text-anchor="middle" font-size="14" font-weight="700">Prinzip gleich – nur neue Namen</text>
+</svg>

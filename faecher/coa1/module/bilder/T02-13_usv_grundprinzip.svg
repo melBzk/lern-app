@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" font-family="-apple-system,'Segoe UI',system-ui,sans-serif">
+  <title>USV-Grundprinzip in zwei Szenen. Oben Normalbetrieb: Strom fließt von der Steckdose durch die USV zum PC, die Batterie wird geladen. Unten Stromausfall: Die Steckdose liefert nichts, die Batterie in der USV versorgt den PC. Über ein Signalkabel meldet die USV dem PC: Strom weg, bitte herunterfahren. Der PC speichert die Daten und fährt herunter.</title>
+  <defs>
+    <marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1f9d55"/></marker>
+    <marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d63c3c"/></marker>
+    <g id="dose">
+      <circle cx="0" cy="0" r="28" fill="#f3f4f6" stroke="#555" stroke-width="2"/>
+      <circle cx="-9" cy="0" r="4" fill="#333"/><circle cx="9" cy="0" r="4" fill="#333"/>
+    </g>
+  </defs>
+  <rect width="400" height="520" fill="#fff"/>
+
+  <!-- ===== Normalbetrieb ===== -->
+  <rect x="8" y="8" width="384" height="200" rx="12" fill="#eaf6ee" stroke="#1f9d55" stroke-width="1.5"/>
+  <text x="22" y="34" font-size="17" font-weight="700" fill="#1c6b3c">Normalbetrieb</text>
+  <use href="#dose" x="50" y="110"/>
+  <text x="50" y="160" text-anchor="middle" font-size="13">Steckdose</text>
+  <line x1="80" y1="110" x2="128" y2="110" stroke="#1f9d55" stroke-width="6" marker-end="url(#g)"/>
+  <!-- USV -->
+  <rect x="132" y="66" width="100" height="90" rx="8" fill="#3a3f4a"/>
+  <text x="182" y="88" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">USV</text>
+  <rect x="160" y="100" width="40" height="40" rx="3" fill="#fff"/>
+  <rect x="172" y="95" width="16" height="6" fill="#fff"/>
+  <rect x="164" y="114" width="32" height="22" fill="#1f9d55"/>
+  <path d="M180,104 v8 M176,108 h8" stroke="#1f9d55" stroke-width="2"/>
+  <text x="182" y="178" text-anchor="middle" font-size="13" fill="#1c6b3c" font-weight="700">Batterie wird geladen</text>
+  <line x1="232" y1="110" x2="282" y2="110" stroke="#1f9d55" stroke-width="6" marker-end="url(#g)"/>
+  <!-- PC -->
+  <rect x="290" y="64" width="90" height="64" rx="4" fill="#3a3f4a"/>
+  <rect x="296" y="70" width="78" height="52" fill="#c8f0d6"/>
+  <text x="335" y="101" text-anchor="middle" font-size="14" font-weight="700" fill="#1c6b3c">läuft</text>
+  <rect x="322" y="128" width="26" height="10" fill="#555"/>
+  <text x="335" y="160" text-anchor="middle" font-size="13">PC / Server</text>
+
+  <!-- ===== Stromausfall ===== -->
+  <rect x="8" y="222" width="384" height="290" rx="12" fill="#fdecec" stroke="#d63c3c" stroke-width="1.5"/>
+  <text x="22" y="248" font-size="17" font-weight="700" fill="#a32020">Stromausfall</text>
+  <use href="#dose" x="50" y="324"/>
+  <path d="M30,304 l40,40 M70,304 l-40,40" stroke="#d63c3c" stroke-width="6" stroke-linecap="round"/>
+  <text x="50" y="374" text-anchor="middle" font-size="13">kein Strom</text>
+  <line x1="80" y1="324" x2="128" y2="324" stroke="#bbb" stroke-width="4" stroke-dasharray="6 5"/>
+  <!-- USV -->
+  <rect x="132" y="280" width="100" height="90" rx="8" fill="#3a3f4a"/>
+  <text x="182" y="302" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">USV</text>
+  <rect x="160" y="314" width="40" height="40" rx="3" fill="#fff"/>
+  <rect x="172" y="309" width="16" height="6" fill="#fff"/>
+  <rect x="164" y="338" width="32" height="12" fill="#d63c3c"/>
+  <text x="166" y="392" text-anchor="middle" font-size="13" fill="#a32020" font-weight="700">Batterie liefert Strom</text>
+  <line x1="232" y1="324" x2="282" y2="324" stroke="#d63c3c" stroke-width="6" marker-end="url(#r)"/>
+  <!-- PC -->
+  <rect x="290" y="264" width="90" height="84" rx="4" fill="#3a3f4a"/>
+  <rect x="296" y="270" width="78" height="72" fill="#fff6d6"/>
+  <g font-size="13" text-anchor="middle" fill="#333">
+    <text x="335" y="288">Daten</text>
+    <text x="335" y="304">speichern …</text>
+    <text x="335" y="322">herunter-</text>
+    <text x="335" y="337">fahren</text>
+  </g>
+  <rect x="322" y="348" width="26" height="10" fill="#555"/>
+
+  <!-- Signalkabel -->
+  <path d="M232,360 h68 v-2" fill="none" stroke="#333" stroke-width="2" stroke-dasharray="4 3"/>
+  <text x="300" y="378" font-size="13" fill="#333">Signalkabel</text>
+  <!-- Sprechblase -->
+  <rect x="30" y="414" width="250" height="62" rx="10" fill="#fff" stroke="#333" stroke-width="1.5"/>
+  <path d="M236,415 l28,-51 l2,51" fill="#fff" stroke="#333" stroke-width="1.5" stroke-linejoin="round"/>
+  <rect x="234" y="412" width="34" height="5" fill="#fff"/>
+  <text x="155" y="439" text-anchor="middle" font-size="15" font-weight="700" fill="#a32020">Strom weg!</text>
+  <text x="155" y="462" text-anchor="middle" font-size="15" font-weight="700">Bitte herunterfahren</text>
+  <text x="200" y="500" text-anchor="middle" font-size="13" fill="#333">USV meldet den Ausfall, der PC fährt sicher herunter</text>
+</svg>

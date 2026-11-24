@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 510" font-family="system-ui, sans-serif">
+  <title>Schema eines ATX-Mainboards mit festen Zonen: links oben das ATX-Anschlussfeld (Anschlüsse nach außen), oben Mitte der Prozessorbereich, rechts daneben die Speicherbänke (RAM), ganz rechts die Stromversorgung, unten links die Steckplätze für Erweiterungskarten, unten rechts die SATA-Anschlüsse, am unteren Rand USB, Einschalter und Reset für das Gehäuse. Jede Zone hat einen festen Platz.</title>
+  <rect width="400" height="510" fill="#fff"/>
+  <text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700" fill="#222">ATX: jede Zone an festem Platz</text>
+
+  <!-- Platine -->
+  <rect x="16" y="44" width="368" height="426" rx="6" fill="#2f6b4f"/>
+
+  <!-- Anschlussfeld -->
+  <rect x="24" y="52" width="46" height="200" rx="4" fill="#f6e4e8" stroke="#D4607A" stroke-width="3"/>
+  <text transform="translate(44,152) rotate(-90)" text-anchor="middle" font-size="14" font-weight="700" fill="#222">ATX-Anschlussfeld</text>
+  <text transform="translate(61,152) rotate(-90)" text-anchor="middle" font-size="13" fill="#222">(Anschlüsse nach außen)</text>
+
+  <!-- Prozessor -->
+  <rect x="80" y="52" width="164" height="178" rx="4" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+  <rect x="127" y="102" width="70" height="70" fill="#fff" stroke="#3a6ed8" stroke-width="2"/>
+  <text x="162" y="198" text-anchor="middle" font-size="14" font-weight="700" fill="#222">Prozessorbereich</text>
+
+  <!-- RAM -->
+  <rect x="254" y="52" width="64" height="200" rx="4" fill="#eaf6ec" stroke="#2e9d5b" stroke-width="2"/>
+  <g fill="#2e9d5b"><rect x="262" y="62" width="5" height="180"/><rect x="272" y="62" width="5" height="180"/><rect x="282" y="62" width="5" height="180"/><rect x="292" y="62" width="5" height="180"/></g>
+  <text transform="translate(309,152) rotate(-90)" text-anchor="middle" font-size="14" font-weight="700" fill="#222">Speicherbänke (RAM)</text>
+
+  <!-- Strom -->
+  <rect x="328" y="52" width="48" height="230" rx="4" fill="#fff4e0" stroke="#e08a2e" stroke-width="2"/>
+  <text transform="translate(357,167) rotate(-90)" text-anchor="middle" font-size="14" font-weight="700" fill="#222">Stromversorgung</text>
+
+  <!-- Steckplätze -->
+  <rect x="24" y="262" width="270" height="152" rx="4" fill="#f4f1ee" stroke="#777" stroke-width="2"/>
+  <g fill="#999"><rect x="40" y="276" width="200" height="8"/><rect x="40" y="300" width="200" height="8"/><rect x="40" y="324" width="200" height="8"/><rect x="40" y="348" width="200" height="8"/></g>
+  <text x="159" y="382" text-anchor="middle" font-size="14" font-weight="700" fill="#222">Steckplätze für</text>
+  <text x="159" y="400" text-anchor="middle" font-size="14" font-weight="700" fill="#222">Erweiterungskarten</text>
+
+  <!-- SATA -->
+  <rect x="304" y="292" width="72" height="122" rx="4" fill="#efeafb" stroke="#7a5cc4" stroke-width="2"/>
+  <g fill="#7a5cc4"><rect x="318" y="304" width="16" height="10"/><rect x="346" y="304" width="16" height="10"/><rect x="318" y="322" width="16" height="10"/><rect x="346" y="322" width="16" height="10"/></g>
+  <text x="340" y="370" text-anchor="middle" font-size="14" font-weight="700" fill="#222">SATA-</text>
+  <text x="340" y="388" text-anchor="middle" font-size="14" font-weight="700" fill="#222">Anschlüsse</text>
+
+  <!-- unterer Rand -->
+  <rect x="24" y="424" width="352" height="38" rx="4" fill="#f0f0f0" stroke="#777" stroke-width="2"/>
+  <text x="200" y="448" text-anchor="middle" font-size="14" font-weight="700" fill="#222">USB, Einschalter, Reset (zum Gehäuse)</text>
+
+  <text x="200" y="494" text-anchor="middle" font-size="13" fill="#555">Darum passt jedes ATX-Board in jedes ATX-Gehäuse.</text>
+</svg>

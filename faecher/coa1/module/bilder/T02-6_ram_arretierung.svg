@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 340" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>RAM einsetzen: Links falsch, der Riegel steckt nur halb im Steckplatz, die seitlichen Halteklammern stehen offen, beim Start piept der PC. Rechts richtig, der Riegel steckt ganz drin, beide Klammern sind geschlossen: Klick, Arretierung ganz zu.</title>
+<rect width="400" height="340" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">RAM einsetzen: ganz einrasten</text>
+<line x1="200" y1="42" x2="200" y2="330" stroke="#ccc" stroke-width="1.5"/>
+
+<!-- falsch -->
+<path d="M70,50 l16,16 M86,50 l-16,16" stroke="#c62828" stroke-width="4" stroke-linecap="round"/>
+<text x="96" y="64" font-size="16" font-weight="700" fill="#c62828">falsch</text>
+<g transform="rotate(9 166 236)">
+<rect x="34" y="156" width="132" height="80" fill="#2e7d32"/>
+<g fill="#1a1a1a"><rect x="44" y="168" width="22" height="30"/><rect x="74" y="168" width="22" height="30"/><rect x="104" y="168" width="22" height="30"/><rect x="134" y="168" width="22" height="30"/></g>
+<rect x="38" y="224" width="124" height="12" fill="#c9a227"/>
+</g>
+<rect x="28" y="226" width="144" height="20" rx="2" fill="#111"/>
+<g stroke="#9e9e9e" stroke-width="8" stroke-linecap="round"><line x1="30" y1="240" x2="12" y2="192"/><line x1="170" y1="240" x2="188" y2="192"/></g>
+<text x="100" y="268" text-anchor="middle" font-size="13">halb drin, Klammern offen</text>
+<!-- Lautsprecher -->
+<path d="M44,284 h10 l12,-10 v32 l-12,-10 h-10 z" fill="#555"/>
+<g fill="none" stroke="#555" stroke-width="2"><path d="M72,282 q6,8 0,16"/><path d="M78,277 q11,13 0,26"/></g>
+<text x="92" y="296" font-size="15" font-weight="700" fill="#c62828">Piep! Piep!</text>
+
+<!-- richtig -->
+<path d="M266,57 l6,6 l14,-15" fill="none" stroke="#2e7d32" stroke-width="4" stroke-linecap="round"/>
+<text x="294" y="64" font-size="16" font-weight="700" fill="#2e7d32">richtig</text>
+<rect x="234" y="150" width="132" height="80" fill="#2e7d32"/>
+<g fill="#1a1a1a"><rect x="244" y="162" width="22" height="30"/><rect x="274" y="162" width="22" height="30"/><rect x="304" y="162" width="22" height="30"/><rect x="334" y="162" width="22" height="30"/></g>
+<rect x="228" y="226" width="144" height="20" rx="2" fill="#111"/>
+<g stroke="#9e9e9e" stroke-width="8" stroke-linecap="round"><line x1="228" y1="244" x2="228" y2="176"/><line x1="372" y1="244" x2="372" y2="176"/></g>
+<g fill="#9e9e9e"><rect x="228" y="172" width="8" height="8"/><rect x="364" y="172" width="8" height="8"/></g>
+<text x="300" y="276" text-anchor="middle" font-size="15" font-weight="700" fill="#2e7d32">Klick –</text>
+<text x="300" y="296" text-anchor="middle" font-size="14" font-weight="700" fill="#2e7d32">Arretierung ganz zu</text>
+</svg>

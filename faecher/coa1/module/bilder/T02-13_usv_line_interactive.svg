@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 430" font-family="-apple-system,'Segoe UI',system-ui,sans-serif">
+  <title>Line-Interactive-USV, vereinfachtes Schaltbild: 230 V Wechselspannung läuft über einen Eingangsfilter und einen Ausgangsfilter zum PC (grün). Ein Wandler hängt an der Leitung und lädt im Normalbetrieb die Batterie (grün). Bei Stromausfall (rot) liefert die Batterie über den Wandler Wechselspannung an den Ausgang. Umschaltzeit 2 bis 4 Millisekunden.</title>
+  <defs>
+    <marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1f9d55"/></marker>
+    <marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d63c3c"/></marker>
+  </defs>
+  <rect width="400" height="430" fill="#fff"/>
+  <text x="200" y="28" text-anchor="middle" font-size="16" font-weight="700">Line-Interactive-USV</text>
+  <text x="8" y="76" font-size="15" font-weight="700">230 V <tspan font-size="22" fill="#3a6ed8">~</tspan></text>
+  <path d="M8,110 L48,110" fill="none" stroke="#1f9d55" stroke-width="5" stroke-linejoin="round" marker-end="url(#g)"/>
+  <rect x="50" y="88" width="70" height="44" rx="8" fill="#f3f4f6" stroke="#555" stroke-width="1.5"/>
+  <text x="85.0" y="115.0" text-anchor="middle" font-size="14" font-weight="700">Filter</text>
+  <path d="M120,110 L260,110" fill="none" stroke="#1f9d55" stroke-width="5" stroke-linejoin="round" marker-end="url(#g)"/>
+  <rect x="262" y="88" width="70" height="44" rx="8" fill="#f3f4f6" stroke="#555" stroke-width="1.5"/>
+  <text x="297.0" y="115.0" text-anchor="middle" font-size="14" font-weight="700">Filter</text>
+  <path d="M332,104 L390,104" fill="none" stroke="#1f9d55" stroke-width="5" stroke-linejoin="round" marker-end="url(#g)"/>
+  <path d="M332,120 L390,120" fill="none" stroke="#d63c3c" stroke-width="5" stroke-linejoin="round" marker-end="url(#r)"/>
+  <text x="392" y="92" text-anchor="end" font-size="15" font-weight="700">PC</text>
+  <path d="M165,110 L165,178" fill="none" stroke="#1f9d55" stroke-width="5" stroke-linejoin="round" marker-end="url(#g)"/>
+  <rect x="140" y="180" width="120" height="70" rx="8" fill="#f3f4f6" stroke="#555" stroke-width="1.5"/>
+  <text x="200.0" y="212.0" text-anchor="middle" font-size="14" font-weight="700">Wandler</text>
+  <text x="200.0" y="239.0" text-anchor="middle" font-size="17" font-weight="700" fill="#3a6ed8">~ ↔ =</text>
+  <path d="M185,250 L185,288" fill="none" stroke="#1f9d55" stroke-width="5" stroke-linejoin="round" marker-end="url(#g)"/>
+  <path d="M215,290 L215,252" fill="none" stroke="#d63c3c" stroke-width="5" stroke-linejoin="round" marker-end="url(#r)"/>
+  <rect x="165" y="290" width="70" height="50" rx="8" fill="#f3f4f6" stroke="#555" stroke-width="1.5"/>
+  <rect x="187" y="298" width="26" height="15" rx="2" fill="#fff" stroke="#333" stroke-width="1.5"/><rect x="213" y="302" width="3" height="7" fill="#333"/>
+  <text x="200" y="331" text-anchor="middle" font-size="13" font-weight="700">Batterie</text>
+  <path d="M240,180 L240,124 L260,124" fill="none" stroke="#d63c3c" stroke-width="5" stroke-linejoin="round" marker-end="url(#r)"/>
+  <circle cx="318" cy="210" r="16" fill="#fff" stroke="#333" stroke-width="2"/>
+  <path d="M318,200 v10 h7" fill="none" stroke="#333" stroke-width="2"/>
+  <text x="318" y="245" text-anchor="middle" font-size="14" font-weight="700">Umschaltzeit</text>
+  <text x="318" y="263" text-anchor="middle" font-size="14" font-weight="700" fill="#a32020">2–4 ms</text>
+  <rect x="10" y="356" width="380" height="62" rx="10" fill="#f8f9fa" stroke="#ddd"/>
+  <line x1="24" y1="377" x2="64" y2="377" stroke="#1f9d55" stroke-width="5"/>
+  <text x="74" y="382" font-size="14"><tspan font-weight="700" fill="#1c6b3c">grün:</tspan> Netz da (Normalbetrieb)</text>
+  <line x1="24" y1="400" x2="64" y2="400" stroke="#d63c3c" stroke-width="5"/>
+  <text x="74" y="405" font-size="14"><tspan font-weight="700" fill="#a32020">rot:</tspan> Stromausfall (Batterie liefert)</text>
+</svg>

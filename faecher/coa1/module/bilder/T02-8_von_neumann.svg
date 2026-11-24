@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 390" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Von-Neumann-Bauplan: Steuerwerk, Rechenwerk und Speicher für Daten und Programme sind über das Bussystem verbunden; unten hängt die Ein- und Ausgabe am Bus, zum Beispiel Tastatur rein und Monitor raus. Steuerwerk und Rechenwerk stecken heute in der CPU.</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker><marker id="o" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E07B00"/></marker><marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker><marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker><marker id="p" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7b3fa0"/></marker><marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6b4f"/></marker></defs>
+<rect width="400" height="390" fill="#fff"/>
+<text x="200.0" y="26" font-size="17" text-anchor="middle" font-weight="700" >Bauplan nach Von Neumann</text>
+<rect x="4" y="50" width="262" height="110" rx="12" fill="#fdf0e0" stroke="#E07B00" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="135" y="68" font-size="14" text-anchor="middle" font-weight="700" fill="#E07B00" >steckt heute in der CPU</text>
+<rect x="12" y="78" width="118" height="74" rx="8" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2" />
+<text x="71" y="104" font-size="15" text-anchor="middle" font-weight="700" >Steuerwerk</text>
+<text x="71" y="124" font-size="13" text-anchor="middle" fill="#555" >steuert</text>
+<line x1="71" y1="157" x2="71" y2="197" stroke="#222" stroke-width="2" marker-end="url(#a)" marker-start="url(#a)" />
+<rect x="140" y="78" width="118" height="74" rx="8" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2" />
+<text x="199" y="104" font-size="15" text-anchor="middle" font-weight="700" >Rechenwerk</text>
+<text x="199" y="124" font-size="13" text-anchor="middle" fill="#555" >rechnet</text>
+<line x1="199" y1="157" x2="199" y2="197" stroke="#222" stroke-width="2" marker-end="url(#a)" marker-start="url(#a)" />
+<rect x="274" y="78" width="120" height="74" rx="8" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2" />
+<text x="334" y="104" font-size="15" text-anchor="middle" font-weight="700" >Speicher</text>
+<text x="334" y="124" font-size="13" text-anchor="middle" fill="#555" >merkt sich Daten</text>
+<text x="334" y="141" font-size="13" text-anchor="middle" fill="#555" >UND Programme</text>
+<line x1="334" y1="157" x2="334" y2="197" stroke="#222" stroke-width="2" marker-end="url(#a)" marker-start="url(#a)" />
+<rect x="10" y="200" width="380" height="42" rx="8" fill="#f4f1ee" stroke="#888" stroke-width="2" />
+<text x="200" y="226" font-size="15" text-anchor="middle" font-weight="700" >Bussystem (Schnittstelle)</text>
+<line x1="200" y1="246" x2="200" y2="284" stroke="#222" stroke-width="2" marker-end="url(#a)" marker-start="url(#a)" />
+<rect x="120" y="288" width="160" height="50" rx="8" fill="#e3f0e9" stroke="#2f6b4f" stroke-width="2" />
+<text x="200" y="318" font-size="15" text-anchor="middle" font-weight="700" >Eingabe / Ausgabe</text>
+<rect x="14" y="300" width="70" height="30" rx="3" fill="#fff" stroke="#222" stroke-width="1.5" />
+<rect x="19.0" y="304.0" width="8" height="6" rx="1" fill="#ccc" stroke="none" stroke-width="0" />
+<rect x="29.5" y="304.0" width="8" height="6" rx="1" fill="#ccc" stroke="none" stroke-width="0" />
+<rect x="40.0" y="304.0" width="8" height="6" rx="1" fill="#ccc" stroke="none" stroke-width="0" />
+<rect x="50.5" y="304.0" width="8" height="6" rx="1" fill="#ccc" stroke="none" stroke-width="0" />
+<rect x="61.0" y="304.0" width="8" height="6" rx="1" fill="#ccc" stroke="none" stroke-width="0" />
+<rect x="71.5" y="304.0" width="8" height="6" rx="1" fill="#ccc" stroke="none" stroke-width="0" />
+<rect x="19.0" y="312.5" width="8" height="6" rx="1" fill="#ccc" stroke="none" stroke-width="0" />
+<rect x="29.5" y="312.5" width="8" height="6" rx="1" fill="#ccc" stroke="none" stroke-width="0" />
+<rect x="40.0" y="312.5" width="8" height="6" rx="1" fill="#ccc" stroke="none" stroke-width="0" />
+<rect x="50.5" y="312.5" width="8" height="6" rx="1" fill="#ccc" stroke="none" stroke-width="0" />
+<rect x="61.0" y="312.5" width="8" height="6" rx="1" fill="#ccc" stroke="none" stroke-width="0" />
+<rect x="71.5" y="312.5" width="8" height="6" rx="1" fill="#ccc" stroke="none" stroke-width="0" />
+<rect x="19.0" y="321.0" width="8" height="6" rx="1" fill="#ccc" stroke="none" stroke-width="0" />
+<rect x="29.5" y="321.0" width="8" height="6" rx="1" fill="#ccc" stroke="none" stroke-width="0" />
+<rect x="40.0" y="321.0" width="8" height="6" rx="1" fill="#ccc" stroke="none" stroke-width="0" />
+<rect x="50.5" y="321.0" width="8" height="6" rx="1" fill="#ccc" stroke="none" stroke-width="0" />
+<rect x="61.0" y="321.0" width="8" height="6" rx="1" fill="#ccc" stroke="none" stroke-width="0" />
+<rect x="71.5" y="321.0" width="8" height="6" rx="1" fill="#ccc" stroke="none" stroke-width="0" />
+<line x1="88" y1="315" x2="116" y2="315" stroke="#222" stroke-width="2" marker-end="url(#a)" />
+<text x="49" y="350" font-size="13" text-anchor="middle" fill="#555" >Tastatur</text>
+<text x="49" y="366" font-size="13" text-anchor="middle" fill="#555" >(rein)</text>
+<rect x="316" y="296" width="70" height="42" rx="3" fill="#fff" stroke="#222" stroke-width="1.5" />
+<rect x="322" y="302" width="58" height="30" rx="1" fill="#e8f0fe" stroke="none" stroke-width="0" />
+<line x1="351" y1="338" x2="351" y2="346" stroke="#222" stroke-width="2" />
+<line x1="338" y1="347" x2="364" y2="347" stroke="#222" stroke-width="2" />
+<line x1="284" y1="315" x2="312" y2="315" stroke="#222" stroke-width="2" marker-end="url(#a)" />
+<text x="351" y="364" font-size="13" text-anchor="middle" fill="#555" >Monitor</text>
+<text x="351" y="380" font-size="13" text-anchor="middle" fill="#555" >(raus)</text>
+</svg>

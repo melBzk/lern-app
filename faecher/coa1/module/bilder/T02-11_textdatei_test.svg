@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 420" font-family="system-ui, sans-serif" role="img">
+  <title>Versuch mit dem Editor: Drei Textdateien untereinander. Die leere Datei hat 0 Byte. Die Datei mit dem Buchstaben A hat 1 Byte. Die Datei mit A und einem Leerzeichen hat 2 Byte. Jedes Zeichen kostet 1 Byte mehr, auch das Leerzeichen.</title>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker>
+    <marker id="as" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e8590c"/></marker>
+  </defs>
+  <rect width="400" height="420" fill="#fff"/>
+  <text x="200" y="28" text-anchor="middle" font-size="18" font-weight="700" fill="#222">Textdatei-Versuch im Editor</text>
+  <text x="308" y="62" text-anchor="middle" font-size="13" fill="#666">Dateigröße</text>
+
+  <!-- Fenster 1: leer -->
+  <rect x="16" y="50" width="214" height="92" rx="6" fill="#fff" stroke="#555" stroke-width="1.5"/>
+  <path d="M16,74 V56 Q16,50 22,50 H224 Q230,50 230,56 V74 Z" fill="#e9ecef"/>
+  <line x1="16" y1="74" x2="230" y2="74" stroke="#555" stroke-width="1.5"/>
+  <text x="26" y="67" font-size="13" fill="#444">datei.txt – Editor</text>
+  <line x1="30" y1="88" x2="30" y2="124" stroke="#222" stroke-width="2"/>
+  <text x="44" y="112" font-size="13" fill="#9aa0a6">(leer)</text>
+  <line x1="234" y1="96" x2="258" y2="96" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+  <rect x="262" y="76" width="92" height="40" rx="8" fill="#eef4ff" stroke="#3a6ed8" stroke-width="2"/>
+  <text x="308" y="103" text-anchor="middle" font-size="20" font-weight="700" fill="#222">0 Byte</text>
+
+  <!-- Fenster 2: A -->
+  <rect x="16" y="160" width="214" height="92" rx="6" fill="#fff" stroke="#555" stroke-width="1.5"/>
+  <path d="M16,184 V166 Q16,160 22,160 H224 Q230,160 230,166 V184 Z" fill="#e9ecef"/>
+  <line x1="16" y1="184" x2="230" y2="184" stroke="#555" stroke-width="1.5"/>
+  <text x="26" y="177" font-size="13" fill="#444">datei.txt – Editor</text>
+  <text x="30" y="232" font-size="32" font-family="Consolas, monospace" fill="#222">A</text>
+  <line x1="52" y1="198" x2="52" y2="234" stroke="#222" stroke-width="2"/>
+  <line x1="234" y1="206" x2="258" y2="206" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+  <rect x="262" y="186" width="92" height="40" rx="8" fill="#eef4ff" stroke="#3a6ed8" stroke-width="2"/>
+  <text x="308" y="213" text-anchor="middle" font-size="20" font-weight="700" fill="#222">1 Byte</text>
+
+  <!-- Fenster 3: A + Leerzeichen -->
+  <rect x="16" y="270" width="214" height="92" rx="6" fill="#fff" stroke="#555" stroke-width="1.5"/>
+  <path d="M16,294 V276 Q16,270 22,270 H224 Q230,270 230,276 V294 Z" fill="#e9ecef"/>
+  <line x1="16" y1="294" x2="230" y2="294" stroke="#555" stroke-width="1.5"/>
+  <text x="26" y="287" font-size="13" fill="#444">datei.txt – Editor</text>
+  <text x="30" y="342" font-size="32" font-family="Consolas, monospace" fill="#222">A</text>
+  <rect x="52" y="306" width="24" height="42" rx="3" fill="#fff4ec" stroke="#e8590c" stroke-width="2"/>
+  <text x="64" y="338" text-anchor="middle" font-size="24" font-weight="700" fill="#e8590c">␣</text>
+  <line x1="80" y1="308" x2="80" y2="344" stroke="#222" stroke-width="2"/>
+  <text x="92" y="324" font-size="14" font-weight="700" fill="#e8590c">Leerzeichen</text>
+  <text x="92" y="341" font-size="13" fill="#e8590c">zählt mit!</text>
+  <line x1="234" y1="316" x2="258" y2="316" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+  <rect x="262" y="296" width="92" height="40" rx="8" fill="#eef4ff" stroke="#3a6ed8" stroke-width="2"/>
+  <text x="308" y="323" text-anchor="middle" font-size="20" font-weight="700" fill="#222">2 Byte</text>
+
+  <!-- Plus-Pfeile -->
+  <line x1="308" y1="120" x2="308" y2="180" stroke="#e8590c" stroke-width="2.5" marker-end="url(#as)"/>
+  <text x="318" y="155" font-size="14" font-weight="700" fill="#e8590c">+ 1 Byte</text>
+  <line x1="308" y1="230" x2="308" y2="290" stroke="#e8590c" stroke-width="2.5" marker-end="url(#as)"/>
+  <text x="318" y="265" font-size="14" font-weight="700" fill="#e8590c">+ 1 Byte</text>
+
+  <rect x="16" y="378" width="368" height="34" rx="8" fill="#fff4ec" stroke="#e8590c" stroke-width="2"/>
+  <text x="200" y="401" text-anchor="middle" font-size="16" font-weight="700" fill="#222">Jedes Zeichen kostet 1 Byte</text>
+</svg>

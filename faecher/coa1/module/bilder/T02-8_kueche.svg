@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" font-family="system-ui, sans-serif" role="img">
+  <title>Vergleich Restaurantküche: Die Küchenchefin liest das Rezept und sagt, was als Nächstes passiert, sie ist das Steuerwerk. Der Koch am Schneidebrett führt aus, er ist das Rechenwerk. Die Tomate in seiner Hand ist das Register: was er gerade braucht. Das Regal rechts mit Zutaten und Rezepten ist der Arbeitsspeicher. Der Gang zwischen Koch und Regal ist der Bus, dort geht es hin und her. Wo der Vergleich hinkt: In der Küche arbeiten viele gleichzeitig, der Von-Neumann-Rechner arbeitet nacheinander.</title>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker>
+  </defs>
+  <rect width="400" height="500" fill="#fff"/>
+  <text x="200" y="28" text-anchor="middle" font-size="18" font-weight="700" fill="#222">Die Restaurantküche</text>
+
+  <!-- Küchenchefin -->
+  <rect x="52" y="54" width="36" height="20" rx="8" fill="#fff" stroke="#555" stroke-width="1.5"/>
+  <circle cx="58" cy="56" r="9" fill="#fff" stroke="#555" stroke-width="1.5"/>
+  <circle cx="70" cy="50" r="10" fill="#fff" stroke="#555" stroke-width="1.5"/>
+  <circle cx="82" cy="56" r="9" fill="#fff" stroke="#555" stroke-width="1.5"/>
+  <rect x="53" y="58" width="34" height="14" fill="#fff"/>
+  <circle cx="70" cy="90" r="16" fill="#f0c9a0"/>
+  <path d="M38,160 Q38,110 70,110 Q102,110 102,160 Z" fill="#7ea0e8"/>
+  <!-- Rezeptzettel -->
+  <rect x="96" y="112" width="30" height="38" fill="#fffbe6" stroke="#7a6a48" stroke-width="1.5" transform="rotate(8 111 131)"/>
+  <g stroke="#7a6a48" stroke-width="1.5" transform="rotate(8 111 131)"><line x1="101" y1="122" x2="121" y2="122"/><line x1="101" y1="130" x2="121" y2="130"/><line x1="101" y1="138" x2="116" y2="138"/></g>
+  <!-- Sprechblase -->
+  <path d="M138,52 H262 Q270,52 270,60 V96 Q270,104 262,104 H150 L128,118 L138,104 Q130,104 130,96 V60 Q130,52 138,52 Z" fill="#fff" stroke="#3a6ed8" stroke-width="2"/>
+  <text x="200" y="74" text-anchor="middle" font-size="13" fill="#222">Als Nächstes:</text>
+  <text x="200" y="93" text-anchor="middle" font-size="14" font-weight="700" fill="#222">Tomate schneiden!</text>
+  <text x="70" y="184" text-anchor="middle" font-size="16" font-weight="700" fill="#3a6ed8">Steuerwerk</text>
+  <text x="70" y="202" text-anchor="middle" font-size="13" fill="#444">sagt, was passiert</text>
+
+  <!-- Koch -->
+  <rect x="56" y="232" width="28" height="16" rx="4" fill="#fff" stroke="#555" stroke-width="1.5"/>
+  <circle cx="70" cy="264" r="16" fill="#f0c9a0"/>
+  <path d="M38,336 Q38,286 70,286 Q102,286 102,336 Z" fill="#9aa0a6"/>
+  <!-- Arm mit Tomate -->
+  <path d="M96,300 L120,286" stroke="#9aa0a6" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="126" cy="282" r="11" fill="#e03131"/>
+  <path d="M122,272 l4,4 l4,-4" fill="none" stroke="#2f9e44" stroke-width="2"/>
+  <!-- Schneidebrett / Arbeitsplatte -->
+  <rect x="20" y="336" width="140" height="12" fill="#b08455"/>
+  <rect x="48" y="328" width="60" height="8" rx="2" fill="#d9a066"/>
+  <text x="70" y="370" text-anchor="middle" font-size="16" font-weight="700" fill="#222">Rechenwerk</text>
+  <text x="70" y="388" text-anchor="middle" font-size="13" fill="#444">führt aus</text>
+  <!-- Register-Beschriftung -->
+  <line x1="136" y1="276" x2="150" y2="262" stroke="#333" stroke-width="1.5"/>
+  <text x="152" y="246" font-size="15" font-weight="700" fill="#222">Register</text>
+  <text x="152" y="263" font-size="13" fill="#444">was er gerade</text>
+  <text x="152" y="279" font-size="13" fill="#444">braucht</text>
+
+  <!-- Gang / Bus -->
+  <rect x="164" y="300" width="74" height="48" fill="#f1f3f5"/>
+  <line x1="168" y1="314" x2="232" y2="314" stroke="#333" stroke-width="2.5" marker-end="url(#a)"/>
+  <line x1="232" y1="334" x2="168" y2="334" stroke="#333" stroke-width="2.5" marker-end="url(#a)"/>
+  <text x="201" y="370" text-anchor="middle" font-size="16" font-weight="700" fill="#222">Bus</text>
+  <text x="201" y="388" text-anchor="middle" font-size="13" fill="#444">der Gang</text>
+
+  <!-- Regal -->
+  <rect x="244" y="124" width="146" height="224" fill="#f6ecd2" stroke="#7a6a48" stroke-width="2"/>
+  <g fill="#7a6a48"><rect x="244" y="178" width="146" height="5"/><rect x="244" y="236" width="146" height="5"/><rect x="244" y="294" width="146" height="5"/></g>
+  <!-- Zutaten -->
+  <rect x="254" y="148" width="18" height="30" rx="3" fill="#e03131"/>
+  <rect x="276" y="140" width="18" height="38" rx="3" fill="#f59f00"/>
+  <rect x="298" y="152" width="18" height="26" rx="3" fill="#2f9e44"/>
+  <circle cx="331" cy="168" r="10" fill="#e03131"/><circle cx="352" cy="168" r="10" fill="#e03131"/><circle cx="373" cy="168" r="10" fill="#f59f00"/>
+  <rect x="254" y="200" width="22" height="36" rx="3" fill="#f59f00"/>
+  <rect x="280" y="208" width="22" height="28" rx="3" fill="#2f9e44"/>
+  <!-- Rezeptbücher -->
+  <g stroke="#333" stroke-width="1"><rect x="254" y="254" width="12" height="40" fill="#3a6ed8"/><rect x="266" y="258" width="12" height="36" fill="#8e5cc4"/><rect x="278" y="252" width="12" height="42" fill="#3a6ed8"/><rect x="290" y="260" width="12" height="34" fill="#555"/><rect x="302" y="254" width="12" height="40" fill="#8e5cc4"/></g>
+  <rect x="254" y="314" width="56" height="10" fill="#3a6ed8" stroke="#333" stroke-width="1"/>
+  <rect x="254" y="304" width="50" height="10" fill="#8e5cc4" stroke="#333" stroke-width="1"/>
+  <text x="310" y="226" font-size="14" font-weight="700" fill="#222">Zutaten</text>
+  <text x="320" y="280" font-size="14" font-weight="700" fill="#222">Rezepte</text>
+  <text x="317" y="370" text-anchor="middle" font-size="16" font-weight="700" fill="#222">Arbeitsspeicher</text>
+  <text x="317" y="388" text-anchor="middle" font-size="13" fill="#444">Zutaten UND Rezepte</text>
+
+  <!-- Hinweis -->
+  <rect x="10" y="414" width="380" height="72" rx="10" fill="#fff4ec" stroke="#e8590c" stroke-width="2"/>
+  <text x="200" y="440" text-anchor="middle" font-size="14" fill="#222">Wo es hinkt: In der Küche arbeiten viele gleichzeitig.</text>
+  <text x="200" y="466" text-anchor="middle" font-size="15" font-weight="700" fill="#e8590c">Der Rechner macht alles nacheinander.</text>
+</svg>

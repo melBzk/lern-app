@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 424" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Vergleich Stadtplan: Der ganze Stadtplan ist das Mainboard. Die Straßen sind die Leiterbahnen, die Fabrik ist die CPU, das Lager der Arbeitsspeicher (RAM), die Grundstücke sind Sockel und Steckplätze, der Bahnhof mit Gleisen nach außen sind die externen Anschlüsse.</title>
+<rect width="400" height="424" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">Das Mainboard als Stadtplan</text>
+
+<!-- Plan -->
+<rect x="40" y="44" width="352" height="346" rx="8" fill="#e3f0e9" stroke="#2f6b4f" stroke-width="3"/>
+
+<!-- Straßen -->
+<rect x="40" y="200" width="352" height="22" fill="#8d8d8d"/>
+<rect x="207" y="44" width="22" height="346" fill="#8d8d8d"/>
+<line x1="44" y1="211" x2="388" y2="211" stroke="#fff" stroke-width="1.5" stroke-dasharray="8 6"/>
+<rect x="234" y="201" width="152" height="20" fill="#8d8d8d"/>
+<text x="310" y="216" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">Straßen = Leiterbahnen</text>
+
+<!-- Rathaus = CPU -->
+<polygon points="70,112 128,78 186,112" fill="#D4607A"/>
+<rect x="78" y="112" width="100" height="70" fill="#fbe3e8" stroke="#D4607A" stroke-width="2.5"/>
+<text x="128" y="141" text-anchor="middle" font-size="14" font-weight="700">Fabrik</text>
+<text x="128" y="163" text-anchor="middle" font-size="15" font-weight="700" fill="#D4607A">= CPU</text>
+
+<!-- Lagerhaus = RAM -->
+<path d="M248,110 l20,-18 v18 l20,-18 v18 l20,-18 v18 l20,-18 v18 l20,-18 v18 z" fill="#3a6ed8"/>
+<rect x="248" y="110" width="120" height="70" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2.5"/>
+<text x="308" y="139" text-anchor="middle" font-size="14" font-weight="700">Lager</text>
+<text x="308" y="161" text-anchor="middle" font-size="15" font-weight="700" fill="#3a6ed8">= RAM</text>
+
+<!-- Bahnhof -->
+<g stroke="#555" stroke-width="2.5"><line x1="0" y1="262" x2="62" y2="262"/><line x1="0" y1="278" x2="62" y2="278"/></g>
+<g stroke="#555" stroke-width="2"><line x1="6" y1="258" x2="6" y2="282"/><line x1="18" y1="258" x2="18" y2="282"/><line x1="30" y1="258" x2="30" y2="282"/><line x1="42" y1="258" x2="42" y2="282"/><line x1="54" y1="258" x2="54" y2="282"/></g>
+<rect x="62" y="246" width="84" height="48" fill="#f4f1ee" stroke="#555" stroke-width="2"/>
+<polygon points="58,246 104,232 150,246" fill="#777"/>
+<text x="104" y="275" text-anchor="middle" font-size="13" font-weight="700">Bahnhof</text>
+<text x="56" y="322" font-size="13">Gleise nach</text>
+<text x="56" y="339" font-size="13">außen =</text>
+<text x="56" y="356" font-size="13" font-weight="700">externe</text>
+<text x="56" y="373" font-size="13" font-weight="700">Anschlüsse</text>
+
+<!-- Grundstücke -->
+<g fill="none" stroke="#2f6b4f" stroke-width="1.5" stroke-dasharray="5 4"><rect x="242" y="234" width="64" height="48"/><rect x="316" y="234" width="64" height="48"/><rect x="242" y="290" width="64" height="48"/><rect x="316" y="290" width="64" height="48"/></g>
+<polygon points="256,256 274,242 292,256" fill="#777"/><rect x="260" y="256" width="28" height="20" fill="#fff" stroke="#555"/>
+<polygon points="330,312 348,298 366,312" fill="#777"/><rect x="334" y="312" width="28" height="20" fill="#fff" stroke="#555"/>
+<text x="311" y="360" text-anchor="middle" font-size="13">Grundstücke =</text>
+<text x="311" y="378" text-anchor="middle" font-size="13" font-weight="700">Sockel / Steckplätze</text>
+
+<text x="216" y="414" text-anchor="middle" font-size="14" font-weight="700" fill="#2f6b4f">Der ganze Stadtplan = das Mainboard</text>
+</svg>

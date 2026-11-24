@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 464" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Sicher arbeiten am offenen PC, vier Schritte: 1. Stecker ziehen, vom Strom trennen. 2. Statisch entladen und erden, an Metall oder mit Antistatik-Armband – das schützt vor ESD, dem winzigen Funken. 3. Handschuhe tragen, damit Fett und Schweiß nicht an die Kontakte kommen. 4. Herstelleranleitung lesen.</title>
+<rect width="400" height="464" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">Sicher arbeiten am offenen PC</text>
+<text x="200" y="66" text-anchor="middle" font-size="14" font-weight="700">Vier Schritte vor dem Öffnen</text>
+
+<!-- Zeile 1 -->
+<rect x="10" y="88" width="380" height="84" rx="10" fill="#f4f1ee"/>
+<circle cx="32" cy="130" r="14" fill="#D4607A"/><text x="32" y="135" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">1</text>
+<rect x="60" y="106" width="34" height="48" rx="6" fill="#fff" stroke="#333" stroke-width="2"/>
+<circle cx="77" cy="122" r="3.5" fill="#333"/><circle cx="77" cy="138" r="3.5" fill="#333"/>
+<g stroke="#777" stroke-width="3"><line x1="106" y1="124" x2="116" y2="124"/><line x1="106" y1="136" x2="116" y2="136"/></g>
+<rect x="116" y="116" width="22" height="28" rx="4" fill="#333"/>
+<line x1="138" y1="130" x2="148" y2="130" stroke="#333" stroke-width="4"/>
+<text x="160" y="124" font-size="15" font-weight="700">Stecker ziehen</text>
+<text x="160" y="146" font-size="13">vom Strom trennen</text>
+
+<!-- Zeile 2 -->
+<rect x="10" y="182" width="380" height="84" rx="10" fill="#f4f1ee"/>
+<circle cx="32" cy="224" r="14" fill="#D4607A"/><text x="32" y="229" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">2</text>
+<rect x="52" y="196" width="54" height="56" fill="#b0bec5" stroke="#607d8b" stroke-width="2"/>
+<text x="79" y="228" text-anchor="middle" font-size="13" font-weight="700" fill="#37474f">Metall</text>
+<circle cx="128" cy="212" r="11" fill="none" stroke="#3a6ed8" stroke-width="4"/>
+<path d="M128,223 V242 H106" fill="none" stroke="#3a6ed8" stroke-width="2"/>
+<text x="160" y="218" font-size="15" font-weight="700">statisch entladen, erden</text>
+<text x="160" y="240" font-size="13">Metall / Armband – gegen ESD</text>
+<polygon points="374,192 362,210 370,210 365,224 381,203 372,203 378,192" fill="#D4607A"/>
+
+<!-- Zeile 3 -->
+<rect x="10" y="276" width="380" height="84" rx="10" fill="#f4f1ee"/>
+<circle cx="32" cy="318" r="14" fill="#D4607A"/><text x="32" y="323" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">3</text>
+<g fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2">
+<rect x="86" y="290" width="7" height="30" rx="3.5"/><rect x="94" y="286" width="7" height="34" rx="3.5"/><rect x="102" y="288" width="7" height="32" rx="3.5"/><rect x="110" y="294" width="7" height="26" rx="3.5"/>
+<rect x="72" y="314" width="8" height="22" rx="4" transform="rotate(-40 76 325)"/>
+<rect x="84" y="312" width="34" height="30" rx="7"/>
+<rect x="84" y="340" width="34" height="10" rx="2"/>
+</g>
+<text x="160" y="312" font-size="15" font-weight="700">Handschuhe tragen</text>
+<text x="160" y="334" font-size="13">kein Fett/Schweiß an Kontakte</text>
+
+<!-- Zeile 4 -->
+<rect x="10" y="370" width="380" height="84" rx="10" fill="#f4f1ee"/>
+<circle cx="32" cy="412" r="14" fill="#D4607A"/><text x="32" y="417" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">4</text>
+<path d="M100,392 Q84,386 66,390 V434 Q84,430 100,436 Z" fill="#fff" stroke="#333" stroke-width="2"/>
+<path d="M100,392 Q116,386 134,390 V434 Q116,430 100,436 Z" fill="#fff" stroke="#333" stroke-width="2"/>
+<g stroke="#999" stroke-width="1.5"><line x1="72" y1="402" x2="94" y2="404"/><line x1="72" y1="412" x2="94" y2="414"/><line x1="72" y1="422" x2="94" y2="424"/><line x1="106" y1="404" x2="128" y2="402"/><line x1="106" y1="414" x2="128" y2="412"/><line x1="106" y1="424" x2="128" y2="422"/></g>
+<text x="160" y="406" font-size="15" font-weight="700">Anleitung lesen</text>
+<text x="160" y="428" font-size="13">Herstelleranleitung / Handbuch</text>
+</svg>

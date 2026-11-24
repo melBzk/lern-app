@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 540" font-family="-apple-system,'Segoe UI',system-ui,sans-serif">
+  <title>Aufbau einer geöffneten Festplatte von oben: Magnetscheibe auf der Spindel, Plattenarm mit Schreib-/Lesekopf, luftdichtes Gehäuse, Anschlüsse für Daten und Strom. Eine Lupe zeigt: Der Kopf schwebt auf einem Luftpolster und berührt die Scheibe nie.</title>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker>
+  </defs>
+  <rect width="400" height="540" fill="#fff"/>
+  <text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">Festplatte (HDD) von innen</text>
+
+  <!-- Gehäuse -->
+  <rect x="20" y="50" width="240" height="290" rx="14" fill="#e6e9ee" stroke="#555" stroke-width="2"/>
+  <!-- Magnetscheibe -->
+  <circle cx="125" cy="165" r="90" fill="#9fb3cf" stroke="#3a6ed8" stroke-width="2"/>
+  <circle cx="125" cy="165" r="70" fill="none" stroke="#fff" stroke-opacity="0.6"/>
+  <circle cx="125" cy="165" r="50" fill="none" stroke="#fff" stroke-opacity="0.6"/>
+  <circle cx="125" cy="165" r="30" fill="none" stroke="#fff" stroke-opacity="0.6"/>
+  <!-- Spindel -->
+  <circle cx="125" cy="165" r="15" fill="#555"/>
+  <circle cx="125" cy="165" r="5" fill="#ccc"/>
+  <!-- Drehrichtung -->
+  <path d="M125,65 A100,100 0 0 0 38.4,115" fill="none" stroke="#3a6ed8" stroke-width="3" marker-end="url(#a)"/>
+  <!-- Plattenarm -->
+  <line x1="225" y1="290" x2="156" y2="120" stroke="#7a7f88" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="225" cy="290" r="13" fill="#555"/>
+  <!-- Kopf -->
+  <rect x="146" y="106" width="16" height="12" rx="2" fill="#d63c3c"/>
+  <circle cx="154" cy="112" r="15" fill="none" stroke="#d63c3c" stroke-width="2.5"/>
+  <!-- Anschlüsse -->
+  <rect x="55" y="340" width="80" height="14" fill="#333"/>
+  <rect x="160" y="340" width="44" height="14" fill="#333"/>
+  <text x="95" y="372" text-anchor="middle" font-size="14" font-weight="700">Daten</text>
+  <text x="95" y="388" text-anchor="middle" font-size="13" fill="#333">Anschluss</text>
+  <text x="182" y="372" text-anchor="middle" font-size="14" font-weight="700">Strom</text>
+  <text x="182" y="388" text-anchor="middle" font-size="13" fill="#333">Anschluss</text>
+
+  <!-- Beschriftungen rechts -->
+  <g stroke="#333" stroke-width="1.2">
+    <line x1="268" y1="62" x2="168" y2="106"/>
+    <line x1="268" y1="114" x2="205" y2="160"/>
+    <line x1="268" y1="182" x2="140" y2="168"/>
+    <line x1="268" y1="246" x2="210" y2="252"/>
+    <line x1="268" y1="312" x2="260" y2="312"/>
+  </g>
+  <g font-size="14">
+    <text x="272" y="60" font-weight="700" fill="#d63c3c">Schreib-/</text>
+    <text x="272" y="76" font-weight="700" fill="#d63c3c">Lesekopf</text>
+    <text x="272" y="112" font-weight="700">Magnetscheibe</text>
+    <text x="272" y="128">(Platte)</text>
+    <text x="272" y="180" font-weight="700">Spindel</text>
+    <text x="272" y="196">dreht die</text>
+    <text x="272" y="212">Scheiben</text>
+    <text x="272" y="250" font-weight="700">Plattenarm</text>
+    <text x="272" y="310" font-weight="700">Gehäuse</text>
+    <text x="272" y="326">luftdicht, teils</text>
+    <text x="272" y="342">mit Helium</text>
+  </g>
+
+  <!-- Lupe: Luftpolster -->
+  <circle cx="110" cy="465" r="58" fill="#fff" stroke="#d63c3c" stroke-width="3"/>
+  <line x1="151" y1="506" x2="172" y2="527" stroke="#d63c3c" stroke-width="6" stroke-linecap="round"/>
+  <rect x="80" y="430" width="50" height="22" rx="3" fill="#d63c3c"/>
+  <rect x="60" y="470" width="100" height="18" fill="#9fb3cf" stroke="#3a6ed8"/>
+  <path d="M140,452 v18" stroke="#333" stroke-width="1.2"/>
+  <path d="M136,452 h8 M136,470 h8" stroke="#333" stroke-width="1.2"/>
+  <text x="105" y="446" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">Kopf</text>
+  <text x="110" y="484" text-anchor="middle" font-size="13">Scheibe</text>
+  <text x="190" y="440" font-size="13" fill="#d63c3c">Lupe auf den Kopf:</text>
+  <text x="190" y="462" font-size="15" font-weight="700">Luftpolster</text>
+  <text x="190" y="480" font-size="14">Kopf schwebt,</text>
+  <text x="190" y="497" font-size="14">berührt die Scheibe nie</text>
+</svg>

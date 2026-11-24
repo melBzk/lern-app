@@ -24,6 +24,26 @@ function registerFach(f) {
   FAECHER.push(f);
 }
 
+// Lernmodule (Lernkarten) – erzeugt von werkzeuge/module-uebernehmen.py als faecher/<fach>/module.js
+const MODULE = [];
+function registerModule(fid, list) {
+  list.forEach(m => {
+    m.fach = fid;
+    // jede Karte beginnt mit „## Typ: Titel“ (Trennlinien --- sind optional)
+    m.karten = m.md.replace(/^-{3,}[ \t]*$/gm, "").split(/\n(?=##\s)/).map(s => s.trim()).filter(Boolean);
+    MODULE.push(m);
+  });
+  MODULE.sort((a, b) => a.fach.localeCompare(b.fach) || a.nr.split("-")[0].localeCompare(b.nr.split("-")[0]) || a.reihenfolge - b.reihenfolge);
+}
+const modulKey = m => m.fach + ":" + m.nr;
+const modulById = (fid, nr) => MODULE.find(m => m.fach === fid && m.nr === nr);
+const modulFragen = m => ALL.filter(Q => Q.fach === m.fach && Q.m === m.nr);
+function modulZuThema(f, d) {
+  const Q = ALL.find(Q => Q.fach === f.id && Q.d === +d && Q.m);
+  return Q ? modulById(f.id, Q.m) : null;
+}
+const minuten = m => Math.max(3, Math.round(m.karten.length * 0.6)); // ca. 35 s je Karte
+
 const app = document.getElementById("app");
 const heading = document.getElementById("heading");
 const eyebrow = document.getElementById("eyebrow");
@@ -56,7 +76,7 @@ function parseGermanNumber(str) {
 function fmt(n) { return n.toLocaleString("de-DE", { maximumFractionDigits: 4 }); } // 4 Stellen, z. B. für Wechselkurse
 function correctText(Q) {
   if (Q.t === "calc") return `${fmt(Q.a)} ${Q.unit || ""}`;
-  if (Q.t === "text") return Q.accept[0];
+  if (Q.t === "text") return Q.loesung || Q.accept[0].replace(/^\p{Ll}/u, c => c.toUpperCase());
   if (Q.t === "multi") return Q.k.map(i => Q.o[i]).join(" + ");
   return Q.o[0];
 }
@@ -64,23 +84,48 @@ function correctText(Q) {
 function show(Q, s) { return fachById(Q.fach).html ? String(s) : esc(s); }
 function plain(s) { const d = document.createElement("div"); d.innerHTML = s; return d.textContent; }
 function norm(s) { return s.toLowerCase().replace(/[„“"'().,!?]/g, "").replace(/\s+/g, " ").trim(); }
+// Freitext großzügig vergleichen: Bindestriche/Leerzeichen egal ("ASCII-Tabelle" = "ascii tabelle"),
+// Klammerzusatz darf fehlen oder allein stehen ("1 Byte (8 Bit)", "Kibibyte (KiB)")
+function textKey(s) {
+  return s.toLowerCase().trim().replace(/^(der|die|das|den|dem|des|ein|eine|einen|the|a|an)\s+/, "")
+    .replace(/[„“"'.,!?()]/g, "").replace(/[-–_\/\s]+/g, "");
+}
+function textMatch(input, accept) {
+  const varianten = [input, input.replace(/\([^)]*\)/g, " "), ...(input.match(/\(([^)]*)\)/g) || [])];
+  const keys = new Set(varianten.map(textKey).filter(Boolean));
+  return accept.some(a => keys.has(textKey(a)));
+}
 function fachById(id) { return FAECHER.find(f => f.id === id); }
 function themaName(Q) { return fachById(Q.fach).themen[Q.d] || ""; }
 function pct(a, b) { return b ? Math.round(a / b * 100) : 0; }
 
 // ---------- Speicher ----------
 function load() {
-  try { return JSON.parse(localStorage.getItem(STORE_KEY)) || { cards: {}, days: {} }; }
-  catch { return { cards: {}, days: {} }; }
+  let s;
+  try { s = JSON.parse(localStorage.getItem(STORE_KEY)); } catch { s = null; }
+  s = s || { cards: {}, days: {} };
+  s.read = s.read || {};   // Lernmodule: { "coa1:T02-11": { karte: 3, fertig: "2026-11-24" } }
+  s.prefs = Object.assign({ sicherheit: true, quellen: false }, s.prefs || {});
+  return s;
 }
 let state = load();
+const gelesen = m => !!(state.read[modulKey(m)] || {}).fertig;
+// Neue Fragen eines Lernmoduls erst, wenn das Modul gelesen ist (erst verstehen, dann abfragen)
+const neuErlaubt = Q => !Q.m || !modulById(Q.fach, Q.m) || gelesen(modulById(Q.fach, Q.m));
+// Nächstes ungelesenes Lernmodul (Fächer in Kursreihenfolge, innerhalb in Lernreihenfolge)
+function naechstesModul(fid) {
+  const reihe = FAECHER.map(f => f.id).filter(id => !fid || id === fid);
+  return reihe.flatMap(id => MODULE.filter(m => m.fach === id)).find(m => !gelesen(m)) || null;
+}
 function save() { localStorage.setItem(STORE_KEY, JSON.stringify(state)); }
 
 const card = Q => state.cards[Q.id];
 const isDue = Q => card(Q) && card(Q).due <= today();
 const isNew = Q => !card(Q);
 const isMastered = Q => card(Q) && card(Q).box >= 4;
-const isWrongLast = Q => card(Q) && card(Q).box === 1;
+// zuletzt falsch beantwortet (ältere Lernstände ohne „last“: Fach 1)
+const isWrongLast = Q => card(Q) && (card(Q).last === undefined ? card(Q).box === 1 : card(Q).last === false);
+const isHyper = Q => card(Q) && card(Q).hyper;
 
 function streak() {
   let n = 0;
@@ -89,11 +134,21 @@ function streak() {
   return n;
 }
 
-function record(Q, ok) {
+function record(Q, ok, conf) {
   const c = card(Q) || { box: 0, right: 0, wrong: 0, first: today() };
-  // Fach 1 = "zuletzt falsch"; richtig beantwortet geht es mindestens in Fach 2
-  c.box = ok ? Math.min(Math.max(c.box, 1) + 1, 5) : 1;
-  c.due = today(INTERVAL[c.box]);
+  if (ok && conf && conf !== "sicher") {
+    // richtig, aber unsicher/geraten → noch nicht aufsteigen, morgen wieder
+    c.box = Math.max(c.box, 1);
+    c.due = today(1);
+  } else {
+    // Fach 1 = "zuletzt falsch"; richtig beantwortet geht es mindestens in Fach 2
+    c.box = ok ? Math.min(Math.max(c.box, 1) + 1, 5) : 1;
+    c.due = today(INTERVAL[c.box]);
+  }
+  // sicher, aber falsch → besonders wichtig zum Nachüben (Fehler-Stapel, kommt zuerst)
+  c.hyper = !ok && conf === "sicher" ? true : ok ? false : !!c.hyper;
+  c.last = ok;
+  if (conf) { c.conf = c.conf || {}; const k = conf + (ok ? "+" : "-"); c.conf[k] = (c.conf[k] || 0) + 1; }
   ok ? c.right++ : c.wrong++;
   state.cards[Q.id] = c;
   state.days[today()] = (state.days[today()] || 0) + 1;
@@ -146,7 +201,8 @@ function homeView() {
   const fresh = ALL.filter(isNew);
   const weakQ = ALL.filter(isWrongLast);
   const s = stats(ALL);
-  const r = dailyRound();
+  const nm = naechstesModul();
+  const hyper = ALL.filter(isHyper);
 
   const weakTopics = [];
   FAECHER.forEach(f => Object.keys(f.themen).forEach(d => {
@@ -160,11 +216,13 @@ function homeView() {
         <div class="stat"><div class="num">${state.days[today()] || 0}</div><div class="lbl">heute beantwortet</div></div>
         <div class="stat"><div class="num">${pct(s.mastered, s.total)}%</div><div class="lbl">sicher gelernt</div></div>
       </div>
-      <button class="btn primary" id="daily" ${r.list.length ? "" : "disabled"}>
-        Tägliche Runde starten
-        <small>${r.list.length ? `${r.rep} Wiederholungen · ${r.neu} neue Fragen` : "Für heute ist alles erledigt 🎉"}</small>
-      </button>
-      ${weakQ.length ? `<button class="btn dark" id="weak">Fehler üben <small>${weakQ.length} Fragen, die zuletzt falsch waren</small></button>` : ""}
+      <h2 class="heute">Heute lernen – wie viel Zeit hast du?</h2>
+      <div class="zeitwahl">
+        ${[[5, 8], [15, 20], [30, 35]].map(([min, n]) => `<button class="btn primary" data-n="${n}">${min} Min.<small>≈ ${n} Fragen</small></button>`).join("")}
+      </div>
+      <p class="muted klein">${due.length} fällig · ${weakQ.length} Fehler · neue Fragen nur aus Themen, die du schon gelesen hast</p>
+      ${nm ? `<button class="btn dark" id="neu">🃏 Nächstes Thema lesen <small>${esc(fachById(nm.fach).name)} · ${esc(nm.titel)} · ca. ${minuten(nm)} Min.</small></button>` : ""}
+      ${weakQ.length ? `<button class="btn ghost" id="weak">Fehler-Stapel üben <small>${weakQ.length} Fragen, die zuletzt falsch waren${hyper.length ? ` · ${hyper.length} davon warst du dir sicher` : ""}</small></button>` : ""}
     </div>
 
     ${weakTopics.length ? `<div class="card warn">
@@ -201,16 +259,27 @@ function homeView() {
 
     <div class="card">
       <h2>So funktioniert's</h2>
-      <p class="muted">Jede Frage liegt in einem von 5 Fächern der Lernkartei. Richtig → ein Fach weiter, sie kommt erst später wieder (1, 2, 4, 8, 16 Tage). Falsch → zurück in Fach 1. Ab Fach 4 gilt eine Frage als „sicher“. Pro Tag kommen höchstens ${ROUND_SIZE} neue Fragen dazu.</p>
+      <p class="muted">1. <b>Lernkarten lesen</b> (ein Thema, ca. 10 Min.) – danach gleich das Quiz dazu.<br>
+      2. <b>Jeden Tag „Heute lernen“</b> – kurz und regelmäßig wirkt am stärksten.<br>
+      Jede Frage liegt in einem von 5 Fächern der Lernkartei. Richtig und sicher → ein Fach weiter (1, 2, 4, 8, 16 Tage). Richtig, aber unsicher → morgen nochmal. Falsch → zurück in Fach 1 und in derselben Runde wieder, bis es sitzt. Ab Fach 4 gilt eine Frage als „sicher“.</p>
+      <label class="schalter"><input type="checkbox" id="pref-sicher" ${state.prefs.sicherheit ? "checked" : ""}> Vor der Auflösung fragen: „Wie sicher bist du?“</label>
+      <label class="schalter"><input type="checkbox" id="pref-quellen" ${state.prefs.quellen ? "checked" : ""}> In Lernkarten Quellen anzeigen</label>
       <div class="boxes">${[1, 2, 3, 4, 5].map(b => `<div class="b"><span>${ALL.filter(Q => card(Q)?.box === b).length}</span>Fach ${b}</div>`).join("")}</div>
       <button class="btn ghost small danger" id="reset">Fortschritt zurücksetzen</button>
     </div>`;
 
   on("wissen", () => go(wissenView));
-  on("daily", () => startQuiz("Tägliche Runde", r.list));
-  on("weak", () => startQuiz("Fehler üben", shuffle(weakQ).slice(0, 15)));
+  app.querySelectorAll(".zeitwahl button").forEach(b => b.onclick = () => {
+    const list = heuteRunde(+b.dataset.n);
+    if (list.length) startQuiz("Heute · " + b.textContent.trim().split(/\s/)[0] + " Min.", list);
+    else alert(nm ? "Für heute ist alles wiederholt 🎉 Lies als Nächstes ein neues Thema." : "Für heute ist alles erledigt 🎉");
+  });
+  on("neu", () => go(kartenView, nm));
+  on("weak", () => startQuiz("Fehler-Stapel", shuffle(weakQ).sort((a, b) => isHyper(b) - isHyper(a)).slice(0, 15)));
+  document.getElementById("pref-sicher").onchange = e => { state.prefs.sicherheit = e.target.checked; save(); };
+  document.getElementById("pref-quellen").onchange = e => { state.prefs.quellen = e.target.checked; save(); };
   on("reset", () => {
-    if (confirm("Wirklich den gesamten Lernfortschritt löschen?")) { state = { cards: {}, days: {} }; save(); render(); }
+    if (confirm("Wirklich den gesamten Lernfortschritt löschen?")) { state = { cards: {}, days: {}, read: {}, prefs: state.prefs }; save(); render(); }
   });
   app.querySelectorAll(".row").forEach(el => el.onclick = () => {
     const f = fachById(el.dataset.f);
@@ -302,19 +371,24 @@ async function kapitelView(f) {
   on("alles", () => openNotes(f, list.map(c => c.key), f.name + " · komplett"));
 }
 
-function dailyRound() {
-  const due = ALL.filter(isDue).sort((a, b) => card(a).box - card(b).box);
-  const newToday = Object.values(state.cards).filter(c => c.first === today()).length;
-  const rep = shuffle(due.slice(0, ROUND_SIZE));
-  const want = Math.max(0, Math.min(ROUND_SIZE - newToday, ROUND_SIZE - rep.length));
-  // neue Fragen: abwechselnd aus jedem Fach, innerhalb des Fachs der Reihe nach (Thema für Thema)
-  const queues = FAECHER.map(f => fachFragen(f).filter(isNew));
-  const neu = [];
-  for (let k = 0; neu.length < want && queues.some(q => q.length); k++) {
+// „Heute lernen“: n Fragen – erst Sicher-aber-falsch, dann Fehler, dann Fällige, dann Neue (gemischt aus allen Themen)
+function heuteRunde(n) {
+  const liste = [];
+  const add = qs => qs.forEach(Q => { if (liste.length < n && !liste.includes(Q)) liste.push(Q); });
+  add(shuffle(ALL.filter(isHyper)));
+  add(shuffle(ALL.filter(isWrongLast)));
+  add(ALL.filter(isDue).sort((a, b) => card(a).box - card(b).box));
+  const neuHeute = Object.values(state.cards).filter(c => c.first === today()).length;
+  const platz = Math.max(0, Math.min(n - liste.length, 2 * ROUND_SIZE - neuHeute));
+  // neue Fragen: zuerst aus gelesenen Lernmodulen, dann abwechselnd aus den Fächern (Thema für Thema)
+  const ausModulen = MODULE.filter(gelesen).flatMap(m => modulFragen(m).filter(isNew));
+  const queues = FAECHER.map(f => fachFragen(f).filter(Q => isNew(Q) && neuErlaubt(Q) && !ausModulen.includes(Q)));
+  const neu = ausModulen.slice(0, platz);
+  for (let k = 0; neu.length < platz && queues.some(q => q.length); k++) {
     const q = queues[k % queues.length];
     if (q.length) neu.push(q.shift());
   }
-  return { list: shuffle(rep.concat(neu)), rep: rep.length, neu: neu.length };
+  return shuffle(liste.concat(neu));
 }
 
 function on(id, fn) { const el = document.getElementById(id); if (el) el.onclick = fn; }
@@ -325,9 +399,11 @@ const openGroups = new Set(); // welche Gruppen aufgeklappt sind (bleibt beim Zu
 function themenListe(f, ds) {
   return ds.map(d => {
     const ts = stats(themaFragen(f, d));
+    const mod = modulZuThema(f, d);
+    const lese = mod ? (gelesen(mod) ? "🃏 gelesen ✓ · " : '<span class="hl">🃏 noch lesen</span> · ') : "";
     return `<div class="row" data-d="${d}">
       <div class="name">${esc(f.themen[d])}${ts.weak ? ' <span class="pill">⚠ üben</span>' : ""}
-        <div class="meta">${ts.total} Fragen · ${ts.seen} gesehen · ${ts.mastered} sicher${ts.due ? ` · <span class="hl">${ts.due} fällig</span>` : ""}</div>
+        <div class="meta">${lese}${ts.total} Fragen · ${ts.seen} gesehen · ${ts.mastered} sicher${ts.due ? ` · <span class="hl">${ts.due} fällig</span>` : ""}</div>
         <div class="bar"><div class="fill" style="width:${pct(ts.mastered, ts.total)}%"></div></div>
       </div><div class="chev">›</div></div>`;
   }).join("");
@@ -392,6 +468,8 @@ function blockView(f, i) {
   const ts = stats(list);
   const wrong = list.filter(isWrongLast);
   const [kurz, ...rest] = b.name.split("·");
+  const blockModule = b.themen.map(d => modulZuThema(f, d)).filter(Boolean);
+  const naechstes = blockModule.find(m => !gelesen(m));
   setTitle(f.name + " · " + kurz.trim() + (b.datum ? " (" + b.datum + ")" : ""), rest.join("·").trim() || kurz.trim());
   app.innerHTML = `
     <div class="card">
@@ -400,8 +478,9 @@ function blockView(f, i) {
         <div class="stat hl"><div class="num">${ts.mastered}</div><div class="lbl">sicher</div></div>
         <div class="stat"><div class="num">${ts.quote === null ? "–" : pct(ts.quote * 100, 100) + "%"}</div><div class="lbl">Trefferquote</div></div>
       </div>
-      <button class="btn primary" id="quiz">Quiz: 20 Fragen <small>Fehler, Fällige und Neue zuerst, aus allen Themen gemischt</small></button>
-      ${f.wissensbasis ? `<button class="btn ghost" id="notes">📖 Lernzettel zum Block lesen</button>` : ""}
+      ${blockModule.length ? (naechstes ? modulKnopf(naechstes, "karten").replace("Lernkarten lesen", "Lernkarten der Reihe nach") : `<button class="btn ghost" id="karten">🃏 Lernkarten <small>alle ${blockModule.length} Themen gelesen ✓ – nochmal von vorn</small></button>`) : ""}
+      <button class="btn ${naechstes ? "dark" : "primary"}" id="quiz">Quiz: 20 Fragen <small>Fehler, Fällige und Neue zuerst, aus allen Themen gemischt</small></button>
+      ${f.wissensbasis && b.themen.some(d => (f.kapitel || {})[d]) ? `<button class="btn ghost" id="notes">📖 Lernzettel zum Block lesen</button>` : ""}
       <button class="btn dark" id="all">Alle ${ts.total} Fragen üben</button>
       ${wrong.length ? `<button class="btn dark" id="wrong">Nur Fehler üben <small>${wrong.length} Fragen</small></button>` : ""}
     </div>
@@ -413,6 +492,7 @@ function blockView(f, i) {
     startQuiz(kurz.trim() + " · Quiz", shuffle(pick));
   });
   on("notes", () => openNotes(f, b.themen.map(d => (f.kapitel || {})[d]).filter(Boolean), b.name));
+  on("karten", () => go(kartenView, naechstes || blockModule[0]));
   on("all", () => startQuiz(kurz.trim() + " · alle", shuffle(list)));
   on("wrong", () => startQuiz(kurz.trim() + " · Fehler", shuffle(wrong)));
   app.querySelectorAll(".row").forEach(el => el.onclick = () => go(themaView, f, el.dataset.d));
@@ -426,6 +506,7 @@ function themaView(f, d) {
   setTitle(f.name + " · " + kurz.trim(), rest.join("·").trim() || kurz.trim());
   const hasNotes = f.wissensbasis && f.kapitel && f.kapitel[d];
   const wrong = list.filter(isWrongLast);
+  const mod = modulZuThema(f, d);
 
   app.innerHTML = `
     ${ts.weak ? `<div class="card warn">
@@ -438,13 +519,103 @@ function themaView(f, d) {
         <div class="stat hl"><div class="num">${ts.mastered}</div><div class="lbl">sicher</div></div>
         <div class="stat"><div class="num">${ts.quote === null ? "–" : pct(ts.quote * 100, 100) + "%"}</div><div class="lbl">Trefferquote</div></div>
       </div>
+      ${mod ? modulKnopf(mod, "karten") : ""}
       ${hasNotes ? `<button class="btn ${ts.weak ? "primary" : "ghost"}" id="notes">📖 Lernzettel lesen <small>aus deiner Wissensbasis</small></button>` : ""}
-      <button class="btn ${ts.weak ? "dark" : "primary"}" id="all">Alle ${ts.total} Fragen üben</button>
+      <button class="btn ${ts.weak || (mod && !gelesen(mod)) ? "dark" : "primary"}" id="all">Alle ${ts.total} Fragen üben</button>
       ${wrong.length ? `<button class="btn dark" id="wrong">Nur Fehler üben <small>${wrong.length} Fragen</small></button>` : ""}
     </div>`;
   on("notes", () => openNotes(f, [f.kapitel[d]], f.themen[d]));
+  on("karten", () => go(kartenView, mod));
   on("all", () => startQuiz(kurz.trim(), shuffle(list)));
   on("wrong", () => startQuiz(kurz.trim() + " · Fehler", shuffle(wrong)));
+}
+
+// ---------- Lernkarten (ein Lernmodul Karte für Karte) ----------
+const KARTENTYP = { Vorab: "🤔 Rate mal", Begriffe: "🔤 Neue Wörter", Bild: "🖼 Bild", Alltag: "🏠 Aus dem Alltag",
+  Erklärung: "💬 Erklärung", Beispiel: "✏️ Beispiel", Merke: "⭐ Merke", Verwechslung: "⚖️ Nicht verwechseln",
+  Wozu: "🎯 Wofür brauche ich das?", Praxisfall: "🛠 Praxisfall", Warum: "❓ Erklär es dir selbst", Auflösung: "✅ Auflösung" };
+
+function karteHtml(text) {
+  const lines = text.split("\n");
+  const m = (lines[0] || "").match(/^##\s+([^:]+):\s*(.*)/);
+  if (!m) return markdown(text);
+  return `<span class="kartentyp">${esc(KARTENTYP[m[1].trim()] || m[1].trim())}</span>
+    <h2 class="kartentitel">${inline(m[2])}</h2>${markdown(lines.slice(1).join("\n"))}`;
+}
+
+function kartenView(m) {
+  const key = modulKey(m);
+  const r = state.read[key] = state.read[key] || { karte: 0 };
+  let i = Math.min(r.karte || 0, m.karten.length - 1);
+  if (r.fertig && i >= m.karten.length - 1) i = 0; // schon fertig gelesen → von vorn
+  const fragen = modulFragen(m);
+
+  const zeige = () => {
+    r.karte = i; save();
+    const letzte = i === m.karten.length - 1;
+    setTitle(`Lernkarten · ${m.reihenfolge}. Thema`, m.titel);
+    document.body.classList.toggle("quellen", !!state.prefs.quellen);
+    app.innerHTML = `
+      <div class="progress"><div class="bar"><div class="fill" style="width:${pct(i + 1, m.karten.length)}%"></div></div>${i + 1}/${m.karten.length}</div>
+      <div class="card lernkarte md" id="karte">${karteHtml(m.karten[i])}</div>
+      ${letzte ? `<div class="card">
+        <h2>🎉 Geschafft!</h2>
+        <p class="muted">Jetzt gleich abfragen – das festigt das Gelesene am stärksten.</p>
+        ${fragen.length ? `<button class="btn primary" id="mquiz">Quiz zu diesem Thema <small>${fragen.length} Fragen</small></button>` : ""}
+        <button class="btn ghost" id="zurueck">Zur Übersicht</button>
+        ${state.prefs.quellen ? `<div class="quellenliste"><b>Quellen dieses Themas</b>${Object.entries(m.quellen || {}).map(([k, v]) => `<div>${esc(k)} = ${esc(v)}</div>`).join("")}</div>` : ""}
+      </div>` : ""}
+      <div class="kartennav">
+        <button class="btn ghost" id="vor" ${i === 0 ? "disabled" : ""}>‹ Zurück</button>
+        <button class="btn ${letzte ? "ghost" : "primary"}" id="weiter" ${letzte ? "disabled" : ""}>Weiter ›</button>
+      </div>
+      <label class="schalter"><input type="checkbox" id="qz" ${state.prefs.quellen ? "checked" : ""}> Quellen anzeigen (wo steht das?)</label>`;
+    window.scrollTo(0, 0);
+    if (letzte && !r.fertig) { r.fertig = today(); save(); }
+    on("vor", () => { if (i > 0) { i--; zeige(); } });
+    on("weiter", () => { if (i < m.karten.length - 1) { i++; zeige(); } });
+    on("mquiz", () => { history.pop(); startQuiz(m.titel, fragen.slice().sort((a, b) => (a.lv || 1) - (b.lv || 1))); });
+    on("zurueck", () => { history.pop(); render(); });
+    document.getElementById("qz").onchange = e => { state.prefs.quellen = e.target.checked; save(); zeige(); };
+    // Wischen auf dem iPhone
+    const k = document.getElementById("karte");
+    let x0 = null, y0 = null;
+    k.ontouchstart = e => { x0 = e.touches[0].clientX; y0 = e.touches[0].clientY; };
+    k.ontouchend = e => {
+      if (x0 === null) return;
+      const dx = e.changedTouches[0].clientX - x0, dy = e.changedTouches[0].clientY - y0;
+      x0 = null;
+      if (Math.abs(dx) > 60 && Math.abs(dx) > Math.abs(dy) * 1.5) {
+        if (dx < 0 && i < m.karten.length - 1) { i++; zeige(); }
+        if (dx > 0 && i > 0) { i--; zeige(); }
+      }
+    };
+  };
+  zeige();
+}
+document.addEventListener("keydown", e => {
+  if (!document.getElementById("karte") || e.target.tagName === "INPUT") return;
+  if (e.key === "ArrowRight") document.getElementById("weiter")?.click();
+  if (e.key === "ArrowLeft") document.getElementById("vor")?.click();
+});
+
+// Ganzes Lernmodul zum Nachlesen (z. B. aus einer Quizfrage heraus)
+function openModul(m, Q) {
+  document.getElementById("sheet-title").textContent = m.titel;
+  const body = document.getElementById("sheet-body");
+  document.body.classList.toggle("quellen", !!state.prefs.quellen);
+  body.innerHTML = m.karten.map(karteHtml).join("<hr>");
+  sheet.hidden = false;
+  document.body.style.overflow = "hidden";
+  sheet.scrollTop = 0;
+  if (Q) highlight(body, Q);
+}
+
+function modulKnopf(m, id) {
+  const r = state.read[modulKey(m)] || {};
+  const info = r.fertig ? `gelesen ✓ · ${m.karten.length} Karten` :
+    r.karte ? `weiter bei Karte ${r.karte + 1} von ${m.karten.length}` : `${m.karten.length} Karten · ca. ${minuten(m)} Min.`;
+  return `<button class="btn ${r.fertig ? "ghost" : "primary"}" id="${id}">🃏 Lernkarten lesen <small>${info}</small></button>`;
 }
 
 // ---------- Lernrunde ----------
@@ -452,7 +623,7 @@ let S = null;
 
 function startQuiz(name, list) {
   if (!list.length) return;
-  S = { name, queue: list.slice(), total: list.length, i: 0, firstTry: new Map(), retried: new Set(), finished: false };
+  S = { name, queue: list.slice(), total: list.length, i: 0, firstTry: new Map(), retried: new Map(), finished: false };
   go(quizView);
 }
 
@@ -492,6 +663,7 @@ function quizView() {
       ${Q.img ? `<img class="qimg" src="${esc(Q.img)}" alt="Bild zur Frage">` : ""}
       <p class="q">${show(Q, Q.q)}</p>
       ${body}
+      <div id="conf"></div>
       <div id="fb"></div>
     </div>
     <button class="btn dark" id="next" hidden>Weiter</button>`;
@@ -501,11 +673,13 @@ function quizView() {
     const check = () => {
       const v = parseGermanNumber(inp.value);
       if (isNaN(v)) { const fb = document.getElementById("fb"); fb.className = "feedback no"; fb.innerHTML = "<b>Bitte eine Zahl eingeben.</b>"; return; }
-      const ok = Math.abs(v - Q.a) <= (Q.tol || 0.01);
       inp.disabled = true;
-      inp.style.borderColor = ok ? "var(--ok)" : "var(--bad)";
       document.getElementById("check").remove();
-      answer(Q, ok);
+      sicherheit(repeat, conf => {
+        const ok = Math.abs(v - Q.a) <= (Q.tol || 0.01);
+        inp.style.borderColor = ok ? "var(--ok)" : "var(--bad)";
+        answer(Q, ok, conf);
+      });
     };
     on("check", check);
     inp.onkeydown = e => { if (e.key === "Enter") check(); };
@@ -513,11 +687,13 @@ function quizView() {
     const inp = document.getElementById("inp");
     const check = () => {
       if (!inp.value.trim()) return;
-      const ok = Q.accept.some(a => norm(a) === norm(inp.value));
       inp.disabled = true;
-      inp.style.borderColor = ok ? "var(--ok)" : "var(--bad)";
       document.getElementById("check").remove();
-      answer(Q, ok);
+      sicherheit(repeat, conf => {
+        const ok = textMatch(inp.value, Q.accept);
+        inp.style.borderColor = ok ? "var(--ok)" : "var(--bad)";
+        answer(Q, ok, conf);
+      });
     };
     on("check", check);
     inp.onkeydown = e => { if (e.key === "Enter") check(); };
@@ -526,46 +702,68 @@ function quizView() {
     opts.forEach(b => b.onclick = () => b.classList.toggle("sel"));
     on("check", () => {
       if (!opts.some(b => b.classList.contains("sel"))) return;
-      let ok = true;
-      opts.forEach(b => {
-        const right = Q._opts[+b.dataset.k].ok, chosen = b.classList.contains("sel");
-        b.disabled = true;
-        if (right !== chosen) ok = false;
-        if (right) b.classList.add("correct"); else if (chosen) b.classList.add("wrong");
-      });
+      opts.forEach(b => b.disabled = true);
       document.getElementById("check").remove();
-      answer(Q, ok);
+      sicherheit(repeat, conf => {
+        let ok = true;
+        opts.forEach(b => {
+          const right = Q._opts[+b.dataset.k].ok, chosen = b.classList.contains("sel");
+          if (right !== chosen) ok = false;
+          if (right) b.classList.add("correct"); else if (chosen) b.classList.add("wrong");
+          b.classList.remove("sel");
+        });
+        answer(Q, ok, conf);
+      });
     });
   } else {
     app.querySelectorAll(".opt").forEach(b => b.onclick = () => {
       const k = +b.dataset.k;
       const right = Q._opts.findIndex(o => o.ok);
-      app.querySelectorAll(".opt").forEach(x => {
-        x.disabled = true;
-        const n = +x.dataset.k;
-        if (n === right) x.classList.add("correct"); else if (n === k) x.classList.add("wrong");
+      app.querySelectorAll(".opt").forEach(x => x.disabled = true);
+      b.classList.add("sel");
+      sicherheit(repeat, conf => {
+        b.classList.remove("sel");
+        app.querySelectorAll(".opt").forEach(x => {
+          const n = +x.dataset.k;
+          if (n === right) x.classList.add("correct"); else if (n === k) x.classList.add("wrong");
+        });
+        answer(Q, k === right, conf);
       });
-      answer(Q, k === right);
     });
   }
 }
 
-function answer(Q, ok) {
+// Vor der Auflösung: Wie sicher warst du? (stärkt das Lernen, steuert die Wiederholung)
+function sicherheit(repeat, weiter) {
+  const el = document.getElementById("conf");
+  if (!state.prefs.sicherheit || repeat || !el) return weiter(null);
+  el.innerHTML = `<p class="muted">Wie sicher bist du?</p><div class="confwahl">
+    <button class="btn ghost" data-c="sicher">💪 Sicher</button>
+    <button class="btn ghost" data-c="unsicher">🤏 Unsicher</button>
+    <button class="btn ghost" data-c="geraten">🎲 Geraten</button></div>`;
+  el.querySelectorAll("button").forEach(b => b.onclick = () => { el.innerHTML = ""; weiter(b.dataset.c); });
+}
+
+function answer(Q, ok, conf) {
   if (!S.firstTry.has(Q.id)) {
-    S.firstTry.set(Q.id, { Q, ok });
-    record(Q, ok);
+    S.firstTry.set(Q.id, { Q, ok, conf });
+    record(Q, ok, conf);
   }
-  // Falsche Fragen kommen am Ende der Runde einmal wieder
-  if (!ok && !S.retried.has(Q.id)) { S.retried.add(Q.id); S.queue.push(Q); }
+  // Falsche Fragen kommen in derselben Runde wieder, bis sie sitzen (höchstens 3-mal)
+  const wdh = S.retried.get(Q.id) || 0;
+  if (!ok && wdh < 3) { S.retried.set(Q.id, wdh + 1); S.queue.push(Q); }
+  const hinweis = conf === "sicher" && !ok ? "<br><i>Sicher, aber falsch – gut, dass es jetzt auffällt: Solche Fehler merkt man sich nach der Korrektur besonders gut.</i>"
+    : ok && conf && conf !== "sicher" ? "<br><i>Richtig – aber noch nicht sicher. Die Frage kommt morgen wieder.</i>" : "";
 
   const f = fachById(Q.fach);
   const hasNotes = f.wissensbasis && f.kapitel && f.kapitel[Q.d];
+  const mod = Q.m ? modulById(Q.fach, Q.m) : null;
   const fb = document.getElementById("fb");
   fb.className = "feedback " + (ok ? "ok" : "no");
-  fb.innerHTML = `<b>${ok ? "Richtig!" : "Leider falsch – richtig ist: " + show(Q, correctText(Q))}</b><br>${show(Q, Q.e || "")}
+  fb.innerHTML = `<b>${ok ? "Richtig!" : "Leider falsch – richtig ist: " + show(Q, correctText(Q))}</b><br>${show(Q, Q.e || "")}${hinweis}
     ${Q.s ? `<span class="src">${esc(Q.s)}</span>` : ""}
-    ${hasNotes ? `<button class="link" id="read">📖 Im Lernzettel nachlesen</button>` : ""}`;
-  on("read", () => openNotes(f, [f.kapitel[Q.d]], themaName(Q), Q));
+    ${mod ? `<button class="link" id="read">🃏 In den Lernkarten nachlesen</button>` : hasNotes ? `<button class="link" id="read">📖 Im Lernzettel nachlesen</button>` : ""}`;
+  on("read", () => mod ? openModul(mod, Q) : openNotes(f, [f.kapitel[Q.d]], themaName(Q), Q));
 
   const n = document.getElementById("next");
   n.hidden = false;
@@ -670,7 +868,9 @@ function inline(s) {
   return esc(s)
     .replace(/\*\*(.+?)\*\*/g, "<b>$1</b>")
     .replace(/(^|[^*])\*([^*\s][^*]*?)\*/g, "$1<i>$2</i>")
-    .replace(/`([^`]+)`/g, "<code>$1</code>");
+    .replace(/`([^`]+)`/g, "<code>$1</code>")
+    .replace(/〔([^〕]*)〕/g, '<span class="qz">$1</span>') // Quellenzeichen – nur sichtbar, wenn eingeschaltet
+    .replace(/&lt;(\/?(?:b|i|strong|em|br\s*\/?))&gt;/g, "<$1>"); // einfache Formatierung erlauben
 }
 function markdown(md) {
   const lines = md.split("\n");
@@ -684,6 +884,21 @@ function markdown(md) {
       html += `<h${lvl}>${inline(m[2])}</h${lvl}>`; i++; continue;
     }
     if (/^---+\s*$/.test(line)) { html += "<hr>"; i++; continue; }
+    // Aufklappen über mehrere Zeilen: <details><summary>Lösung</summary> … </details>
+    if ((m = line.match(/^\s*<details>\s*<summary>(.*?)<\/summary>\s*$/))) {
+      const inhalt = [];
+      i++;
+      while (i < lines.length && !/<\/details>/.test(lines[i])) { inhalt.push(lines[i]); i++; }
+      if (i < lines.length) inhalt.push(lines[i].replace(/<\/details>.*$/, "")); // Rest der Schlusszeile
+      i++;
+      html += `<details><summary>${inline(m[1])}</summary><div>${markdown(inhalt.join("\n"))}</div></details>`;
+      continue;
+    }
+    // Aufklappen in einer Zeile: <details><summary>Tipp 1</summary>Text</details>
+    if ((m = line.match(/^\s*<details>\s*<summary>(.*?)<\/summary>(.*?)<\/details>(.*)$/))) {
+      html += `<details><summary>${inline(m[1])}</summary><div>${inline(m[2])}</div></details>${m[3].trim() ? `<p>${inline(m[3])}</p>` : ""}`;
+      i++; continue;
+    }
     // Bild: ![Bildunterschrift](faecher/…/bild.svg)
     if ((m = line.match(/^!\[(.*)\]\(([^)\s]+)\)\s*$/))) {
       html += `<figure><a href="${esc(m[2])}" target="_blank"><img src="${esc(m[2])}" alt="${esc(m[1])}"></a><figcaption>${inline(m[1])} · antippen zum Vergrößern</figcaption></figure>`;
@@ -714,8 +929,8 @@ function markdown(md) {
       html += "</ul>";
       continue;
     }
-    const p = [];
-    while (i < lines.length && lines[i].trim() && !/^(#|\||>|---|!\[|\s*([-*]|\d+\.)\s)/.test(lines[i])) { p.push(lines[i]); i++; }
+    const p = [lines[i]]; i++; // erste Zeile immer übernehmen (sonst Endlosschleife bei unbekanntem Format)
+    while (i < lines.length && lines[i].trim() && !/^(#|\||>|---|!\[|\s*<details|\s*([-*]|\d+\.)\s)/.test(lines[i])) { p.push(lines[i]); i++; }
     html += `<p>${p.map(inline).join("<br>")}</p>`;
   }
   return html;

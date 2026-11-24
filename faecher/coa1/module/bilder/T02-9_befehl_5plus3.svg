@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 640" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Ein Befehl im Zusammenspiel: Die CPU rechnet 5 + 3 in vier Stufen. 1 Holen: Adressbus von der CPU zum RAM (wo liegt der Befehl?), Steuerbus meldet lesen, der Datenbus bringt den Befehl 5 + 3 vom RAM zur CPU; die Bussteuereinheit steuert den Bus. 2 Verstehen: Busse haben Pause, der Befehlsdecoder erkennt eine Addition, die Kontrolleinheit koordiniert. 3 Ausführen: Busse haben Pause, die ALU in der Ausführungseinheit rechnet 5 + 3 = 8. 4 Speichern: Die 8 steht im Register; Adressbus sagt wohin, Steuerbus meldet schreiben, der Datenbus bringt die 8 von der CPU zum RAM.</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker><marker id="o" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E07B00"/></marker><marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker><marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker><marker id="p" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7b3fa0"/></marker><marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6b4f"/></marker><marker id="x" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#bbb"/></marker></defs>
+<rect width="400" height="640" fill="#fff"/>
+<text x="200" y="26" font-size="17" text-anchor="middle" font-weight="700">Ein Befehl: 5 + 3</text>
+<text x="76" y="54" font-size="14" text-anchor="middle" font-weight="700" fill="#2f6b4f">CPU</text>
+<text x="390" y="54" font-size="14" text-anchor="end" font-weight="700">Arbeitsspeicher (RAM)</text>
+<rect x="4" y="64" width="392" height="124" rx="10" fill="#f6f6f6" stroke="#ddd" stroke-width="1.5"/>
+<circle cx="24" cy="83" r="13" fill="#E07B00"/>
+<text x="24" y="89" font-size="16" text-anchor="middle" font-weight="700" fill="#fff">1</text>
+<text x="44" y="89" font-size="15" font-weight="700">Holen (Fetch)</text>
+<rect x="12" y="100" width="128" height="80" rx="8" fill="#e3f0e9" stroke="#2f6b4f" stroke-width="2.5"/>
+<rect x="346" y="100" width="44" height="80" rx="6" fill="#c9c3bd" stroke="#888" stroke-width="2"/>
+<text x="368" y="145" font-size="13" text-anchor="middle" font-weight="700">RAM</text>
+<text x="20" y="118" font-size="13" font-weight="700">Bussteuereinheit</text>
+<text x="20" y="135" font-size="13">steuert den Bus</text>
+<text x="20" y="152" font-size="13">und holt den</text>
+<text x="20" y="169" font-size="13">Befehl</text>
+<line x1="144" y1="116" x2="340" y2="116" stroke="#7b3fa0" stroke-width="3" marker-end="url(#p)"/>
+<text x="150" y="110" font-size="13" font-weight="700" fill="#7b3fa0">Steuerbus: lesen</text>
+<line x1="144" y1="142" x2="340" y2="142" stroke="#3a6ed8" stroke-width="3" marker-end="url(#b)"/>
+<text x="150" y="136" font-size="13" font-weight="700" fill="#3a6ed8">Adresse: Wo liegt der Befehl?</text>
+<line x1="342" y1="168" x2="146" y2="168" stroke="#c62828" stroke-width="5" marker-end="url(#r)"/>
+<text x="150" y="161" font-size="13" font-weight="700" fill="#c62828">Datenbus:</text>
+<rect x="242.0" y="157" width="56" height="22" rx="3" fill="#fffbe6" stroke="#222" stroke-width="1.5"/>
+<text x="270" y="173" font-size="15" text-anchor="middle" font-weight="700">5 + 3</text>
+<rect x="4" y="198" width="392" height="124" rx="10" fill="#f6f6f6" stroke="#ddd" stroke-width="1.5"/>
+<circle cx="24" cy="217" r="13" fill="#E07B00"/>
+<text x="24" y="223" font-size="16" text-anchor="middle" font-weight="700" fill="#fff">2</text>
+<text x="44" y="223" font-size="15" font-weight="700">Verstehen (Decode)</text>
+<rect x="12" y="234" width="128" height="80" rx="8" fill="#e3f0e9" stroke="#2f6b4f" stroke-width="2.5"/>
+<rect x="346" y="234" width="44" height="80" rx="6" fill="#c9c3bd" stroke="#888" stroke-width="2"/>
+<text x="368" y="279" font-size="13" text-anchor="middle" font-weight="700">RAM</text>
+<text x="20" y="252" font-size="13" font-weight="700">Befehlsdecoder:</text>
+<text x="20" y="269" font-size="13">„Addition!“</text>
+<text x="20" y="286" font-size="13" font-weight="700">Kontrolleinheit</text>
+<text x="20" y="303" font-size="13">koordiniert</text>
+<line x1="144" y1="250" x2="342" y2="250" stroke="#d0d0d0" stroke-width="3"/>
+<line x1="144" y1="276" x2="342" y2="276" stroke="#d0d0d0" stroke-width="3"/>
+<line x1="144" y1="302" x2="342" y2="302" stroke="#d0d0d0" stroke-width="5"/>
+<rect x="206" y="264" width="76" height="26" rx="13" fill="#fff" stroke="#bbb" stroke-width="1.5"/>
+<text x="244" y="282" font-size="15" text-anchor="middle" font-weight="700" fill="#777">Pause</text>
+<rect x="4" y="332" width="392" height="124" rx="10" fill="#f6f6f6" stroke="#ddd" stroke-width="1.5"/>
+<circle cx="24" cy="351" r="13" fill="#E07B00"/>
+<text x="24" y="357" font-size="16" text-anchor="middle" font-weight="700" fill="#fff">3</text>
+<text x="44" y="357" font-size="15" font-weight="700">Ausführen (Execute)</text>
+<rect x="12" y="368" width="128" height="80" rx="8" fill="#e3f0e9" stroke="#2f6b4f" stroke-width="2.5"/>
+<rect x="346" y="368" width="44" height="80" rx="6" fill="#c9c3bd" stroke="#888" stroke-width="2"/>
+<text x="368" y="413" font-size="13" text-anchor="middle" font-weight="700">RAM</text>
+<text x="20" y="386" font-size="13" font-weight="700">Ausführungs-</text>
+<text x="20" y="403" font-size="13" font-weight="700">einheit, ALU:</text>
+<text x="20" y="422" font-size="15" font-weight="700" fill="#E07B00">5 + 3 = 8</text>
+<line x1="144" y1="384" x2="342" y2="384" stroke="#d0d0d0" stroke-width="3"/>
+<line x1="144" y1="410" x2="342" y2="410" stroke="#d0d0d0" stroke-width="3"/>
+<line x1="144" y1="436" x2="342" y2="436" stroke="#d0d0d0" stroke-width="5"/>
+<rect x="206" y="398" width="76" height="26" rx="13" fill="#fff" stroke="#bbb" stroke-width="1.5"/>
+<text x="244" y="416" font-size="15" text-anchor="middle" font-weight="700" fill="#777">Pause</text>
+<rect x="4" y="466" width="392" height="124" rx="10" fill="#f6f6f6" stroke="#ddd" stroke-width="1.5"/>
+<circle cx="24" cy="485" r="13" fill="#E07B00"/>
+<text x="24" y="491" font-size="16" text-anchor="middle" font-weight="700" fill="#fff">4</text>
+<text x="44" y="491" font-size="15" font-weight="700">Speichern (Write Back)</text>
+<rect x="12" y="502" width="128" height="80" rx="8" fill="#e3f0e9" stroke="#2f6b4f" stroke-width="2.5"/>
+<rect x="346" y="502" width="44" height="80" rx="6" fill="#c9c3bd" stroke="#888" stroke-width="2"/>
+<text x="368" y="547" font-size="13" text-anchor="middle" font-weight="700">RAM</text>
+<text x="20" y="520" font-size="15" font-weight="700" fill="#E07B00">Register: 8</text>
+<text x="20" y="537" font-size="13" font-weight="700">Bussteuereinheit</text>
+<text x="20" y="554" font-size="13">schickt die 8</text>
+<text x="20" y="571" font-size="13">zum RAM</text>
+<line x1="144" y1="518" x2="340" y2="518" stroke="#7b3fa0" stroke-width="3" marker-end="url(#p)"/>
+<text x="150" y="512" font-size="13" font-weight="700" fill="#7b3fa0">Steuerbus: schreiben</text>
+<line x1="144" y1="544" x2="340" y2="544" stroke="#3a6ed8" stroke-width="3" marker-end="url(#b)"/>
+<text x="150" y="538" font-size="13" font-weight="700" fill="#3a6ed8">Adresse: Wohin?</text>
+<line x1="144" y1="570" x2="340" y2="570" stroke="#c62828" stroke-width="5" marker-end="url(#r)"/>
+<text x="150" y="563" font-size="13" font-weight="700" fill="#c62828">Datenbus:</text>
+<rect x="255.0" y="559" width="30" height="22" rx="3" fill="#fffbe6" stroke="#222" stroke-width="1.5"/>
+<text x="270" y="575" font-size="15" text-anchor="middle" font-weight="700">8</text>
+<line x1="14" y1="612" x2="44" y2="612" stroke="#7b3fa0" stroke-width="3"/>
+<text x="50" y="617" font-size="13" font-weight="700" fill="#7b3fa0">Steuerbus</text>
+<line x1="144" y1="612" x2="174" y2="612" stroke="#3a6ed8" stroke-width="3"/>
+<text x="180" y="617" font-size="13" font-weight="700" fill="#3a6ed8">Adressbus</text>
+<line x1="274" y1="612" x2="304" y2="612" stroke="#c62828" stroke-width="5"/>
+<text x="310" y="617" font-size="13" font-weight="700" fill="#c62828">Datenbus</text>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 376" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Warum Leiterbahnen Kurven haben: Zwischen CPU und RAM liegen drei Leiterbahnen. Oben eine lange Bahn mit Umweg, in der Mitte eine kurze gerade Bahn, auf der das Signal zu früh ankäme, unten die kurze Bahn mit Schlangenlinie. Die Kurve ist ein Umweg, damit alle Wege gleich lang sind. Die Signale auf der oberen und unteren Bahn kommen gleichzeitig an.</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker></defs>
+<rect width="400" height="376" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">Warum Leiterbahnen Kurven haben</text>
+
+<!-- Bahn 1: lang (Umweg) -->
+<path d="M76,120 H130 V70 H270 V120 H324" fill="none" stroke="#c9a227" stroke-width="4"/>
+<text x="200" y="62" text-anchor="middle" font-size="13" font-weight="700">lange Bahn</text>
+<!-- Bahn 2: kurz, gerade -->
+<line x1="76" y1="186" x2="324" y2="186" stroke="#9e9e9e" stroke-width="4"/>
+<text x="200" y="176" text-anchor="middle" font-size="13" fill="#c62828">kurz und gerade → käme zu früh an</text>
+<!-- Bahn 3: kurz mit Schlangenlinie -->
+<path d="M76,256 H130 v-16 h10 v16 h10 v-16 h10 v16 h10 v-16 h10 v16 h10 v-16 h10 v16 h10 H324" fill="none" stroke="#c9a227" stroke-width="4"/>
+
+<!-- Signale -->
+<circle cx="312" cy="120" r="6" fill="#D4607A"/>
+<circle cx="312" cy="256" r="6" fill="#D4607A"/>
+<text x="296" y="142" text-anchor="middle" font-size="13" fill="#D4607A" font-weight="700">Signal</text>
+<text x="296" y="278" text-anchor="middle" font-size="13" fill="#D4607A" font-weight="700">Signal</text>
+
+<!-- Chips -->
+<rect x="12" y="90" width="64" height="190" rx="6" fill="#263238"/>
+<text x="44" y="190" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">CPU</text>
+<rect x="324" y="90" width="64" height="190" rx="6" fill="#263238"/>
+<text x="356" y="190" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">RAM</text>
+
+<!-- Beschriftung Kurve -->
+<line x1="170" y1="296" x2="170" y2="262" stroke="#333" stroke-width="1.5" marker-end="url(#a)"/>
+<text x="170" y="312" text-anchor="middle" font-size="13" font-weight="700">Kurve = Umweg,</text>
+<text x="170" y="329" text-anchor="middle" font-size="13">damit alle Wege gleich lang sind</text>
+
+<!-- Zielflagge -->
+<line x1="322" y1="300" x2="322" y2="364" stroke="#333" stroke-width="2.5"/>
+<g><rect x="324" y="300" width="36" height="24" fill="#fff" stroke="#333"/><rect x="324" y="300" width="9" height="8" fill="#333"/><rect x="342" y="300" width="9" height="8" fill="#333"/><rect x="333" y="308" width="9" height="8" fill="#333"/><rect x="351" y="308" width="9" height="8" fill="#333"/><rect x="324" y="316" width="9" height="8" fill="#333"/><rect x="342" y="316" width="9" height="8" fill="#333"/></g>
+<text x="312" y="346" text-anchor="end" font-size="14" font-weight="700" fill="#2e7d32">oben und unten:</text>
+<text x="312" y="364" text-anchor="end" font-size="14" font-weight="700" fill="#2e7d32">kommen gleichzeitig an</text>
+</svg>

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" font-family="system-ui, sans-serif">
+  <title>eSATA: Im aufgeschnittenen PC hängt eine Festplatte mit einem roten SATA-Kabel am Mainboard. Ein zweites Kabel führt vom Mainboard durch die Rückwand nach außen zur eSATA-Buchse. Daran hängt eine externe Festplatte, die eine eigene Stromversorgung braucht (z. B. Netzteil), denn eSATA liefert keinen Strom. Vergleich: eSATA schafft 150 bis 600 MB/s, USB 2.0 nur etwa 60 MB/s. Heute kaum noch genutzt, USB hat gewonnen.</title>
+  <rect width="400" height="500" fill="#fff"/>
+  <text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700" fill="#222">eSATA: SATA nach außen geführt</text>
+
+  <!-- Gehäuse aufgeschnitten -->
+  <rect x="14" y="48" width="216" height="232" rx="6" fill="#fafafa" stroke="#555" stroke-width="2.5"/>
+  <text x="222" y="64" text-anchor="end" font-size="13" fill="#666">hinten</text>
+  <!-- Mainboard -->
+  <rect x="96" y="72" width="124" height="160" fill="#e3f0e6" stroke="#2e8b57" stroke-width="2"/>
+  <text x="158" y="160" text-anchor="middle" font-size="14" font-weight="700" fill="#2e8b57">Mainboard</text>
+  <rect x="104" y="196" width="14" height="10" fill="#d43c3c"/>
+  <rect x="190" y="110" width="14" height="10" fill="#d43c3c"/>
+  <!-- Festplatte innen -->
+  <rect x="24" y="214" width="56" height="44" rx="4" fill="#ddd" stroke="#555" stroke-width="2"/>
+  <circle cx="52" cy="236" r="12" fill="#fff" stroke="#555"/>
+  <circle cx="52" cy="236" r="2.5" fill="#555"/>
+  <!-- SATA-Kabel innen -->
+  <path d="M80,236 C96,236 96,201 104,201" fill="none" stroke="#d43c3c" stroke-width="4"/>
+  <text x="24" y="200" font-size="13" font-weight="700" fill="#d43c3c">SATA</text>
+  <text x="24" y="296" font-size="13" fill="#222">Festplatte innen</text>
+  <!-- Kabel zur Rückwand -->
+  <path d="M204,115 C222,115 214,140 230,140" fill="none" stroke="#d43c3c" stroke-width="4"/>
+  <!-- eSATA-Buchse in der Rückwand -->
+  <rect x="226" y="130" width="12" height="20" fill="#333"/>
+  <text x="244" y="118" font-size="15" font-weight="700" fill="#222">eSATA</text>
+  <!-- Kabel nach außen -->
+  <path d="M238,140 C262,140 262,180 286,180" fill="none" stroke="#333" stroke-width="4"/>
+  <!-- externe Festplatte -->
+  <rect x="286" y="160" width="96" height="58" rx="8" fill="#ddd" stroke="#555" stroke-width="2"/>
+  <circle cx="334" cy="189" r="15" fill="#fff" stroke="#555"/>
+  <circle cx="334" cy="189" r="3" fill="#555"/>
+  <text x="352" y="236" text-anchor="end" font-size="13" fill="#222">externe Platte</text>
+  <!-- eigenes Netzteil -->
+  <path d="M360,218 V258" stroke="#555" stroke-width="3" fill="none"/>
+  <rect x="340" y="258" width="40" height="28" rx="4" fill="#333"/>
+  <path d="M362,262 L352,274 H360 L356,284 L368,270 H360 Z" fill="#f5d76e"/>
+  <text x="246" y="304" font-size="14" font-weight="700" fill="#D4607A">eSATA liefert</text>
+  <text x="246" y="322" font-size="14" font-weight="700" fill="#D4607A">KEINEN Strom</text>
+  <text x="246" y="339" font-size="13" fill="#222">→ eigenes Netzteil</text>
+
+  <!-- Vergleichsbalken -->
+  <line x1="10" y1="356" x2="390" y2="356" stroke="#ddd"/>
+  <text x="14" y="378" font-size="14" fill="#222"><tspan font-weight="700">eSATA</tspan> 150–600 MB/s</text>
+  <rect x="14" y="386" width="75" height="18" fill="#3a6ed8"/>
+  <rect x="89" y="386" width="225" height="18" fill="#3a6ed8" fill-opacity="0.45"/>
+  <text x="14" y="424" font-size="14" fill="#222"><tspan font-weight="700">USB 2.0</tspan> 480 Mbit/s ≈ 60 MB/s</text>
+  <rect x="14" y="432" width="30" height="18" fill="#d43c3c"/>
+
+  <!-- Grabstein -->
+  <path d="M20,492 V476 A10,10 0 0 1 40,476 V492 Z" fill="#7a7a7a"/>
+  <text x="50" y="489" font-size="14" fill="#222">heute kaum noch – USB hat gewonnen</text>
+</svg>

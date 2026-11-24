@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" font-family="system-ui, sans-serif" role="img">
+  <title>Vom Telegrafen zum Lochstreifen: 1. Mit der Morsetaste wird ein Stromkreis kurz oder lang geschlossen, das ergibt einen Buchstaben. 2. Die Nachricht wird in einen Papierstreifen gestanzt, eine Zeile mit 8 Feldern ist ein Zeichen, hier mit Löchern an Stelle 1, 4 und 7. 3. Eine Lesemaschine tastet mit 8 Stiften ab: Bei einem Loch fließt Strom, das ist 1; ohne Loch fließt kein Strom, das ist 0.</title>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker>
+    <marker id="as" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e8590c"/></marker>
+    <marker id="ab" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker>
+    <marker id="ak" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker>
+  </defs>
+  <rect width="400" height="600" fill="#fff"/>
+  <text x="200" y="28" text-anchor="middle" font-size="18" font-weight="700" fill="#222">Vom Telegrafen zum Lochstreifen</text>
+  <rect x="12" y="44" width="376" height="146" rx="10" fill="#eef0f3"/>
+  <text x="24" y="68" text-anchor="start" font-size="16" font-weight="700" fill="#222">1  Telegraf</text>
+  <path d="M70,100 L70,120 M70,132 L70,150 L320,150 L320,138 M320,114 L320,100 L215,100 M168,100 L70,100" fill="none" stroke="#333" stroke-width="2.5"/>
+  <line x1="56" y1="120" x2="84" y2="120" stroke="#333" stroke-width="2"/>
+  <line x1="63" y1="132" x2="77" y2="132" stroke="#333" stroke-width="5"/>
+  <text x="50" y="130" text-anchor="end" font-size="13" font-weight="400" fill="#222">Strom</text>
+  <circle cx="168" cy="100" r="3.5" fill="#333"/><circle cx="215" cy="100" r="4" fill="#333"/>
+  <line x1="215" y1="100" x2="166" y2="86" stroke="#333" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="163" cy="84" r="8" fill="#3a6ed8"/>
+  <text x="228" y="90" text-anchor="start" font-size="13" font-weight="400" fill="#222">Morsetaste</text>
+  <circle cx="320" cy="126" r="12" fill="#ffd43b" stroke="#333" stroke-width="2"/>
+  <path d="M312,118 L328,134 M328,118 L312,134" stroke="#333" stroke-width="1.5"/>
+  <text x="338" y="131" text-anchor="start" font-size="13" font-weight="400" fill="#222">Lampe</text>
+  <text x="200" y="178" text-anchor="middle" font-size="14" font-weight="700" fill="#222">kurz ( · ) oder lang ( — ) = Buchstabe</text>
+  <line x1="200" y1="192" x2="200" y2="210" stroke="#333" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="12" y="214" width="376" height="138" rx="10" fill="#eef0f3"/>
+  <text x="24" y="238" text-anchor="start" font-size="16" font-weight="700" fill="#222">2  Lochstreifen</text>
+  <rect x="112" y="248" width="176" height="96" fill="#f6ecd2" stroke="#7a6a48" stroke-width="1.5"/>
+  <circle cx="145" cy="265" r="6" fill="#555"/>
+  <circle cx="233" cy="265" r="6" fill="#555"/>
+  <circle cx="255" cy="265" r="6" fill="#555"/>
+  <circle cx="123" cy="329" r="6" fill="#555"/>
+  <circle cx="167" cy="329" r="6" fill="#555"/>
+  <circle cx="277" cy="329" r="6" fill="#555"/>
+  <rect x="112" y="285" width="22" height="22" fill="#f6ecd2" stroke="#7a6a48" stroke-width="1.5"/>
+  <circle cx="123.0" cy="296.0" r="6.6" fill="#333"/>
+  <rect x="134" y="285" width="22" height="22" fill="#f6ecd2" stroke="#7a6a48" stroke-width="1.5"/>
+  <rect x="156" y="285" width="22" height="22" fill="#f6ecd2" stroke="#7a6a48" stroke-width="1.5"/>
+  <rect x="178" y="285" width="22" height="22" fill="#f6ecd2" stroke="#7a6a48" stroke-width="1.5"/>
+  <circle cx="189.0" cy="296.0" r="6.6" fill="#333"/>
+  <rect x="200" y="285" width="22" height="22" fill="#f6ecd2" stroke="#7a6a48" stroke-width="1.5"/>
+  <rect x="222" y="285" width="22" height="22" fill="#f6ecd2" stroke="#7a6a48" stroke-width="1.5"/>
+  <rect x="244" y="285" width="22" height="22" fill="#f6ecd2" stroke="#7a6a48" stroke-width="1.5"/>
+  <circle cx="255.0" cy="296.0" r="6.6" fill="#333"/>
+  <rect x="266" y="285" width="22" height="22" fill="#f6ecd2" stroke="#7a6a48" stroke-width="1.5"/>
+  <rect x="112" y="285" width="176" height="22" fill="none" stroke="#e8590c" stroke-width="3"/>
+  <text x="100" y="286" text-anchor="end" font-size="13" font-weight="400" fill="#222">Papier-</text>
+  <text x="100" y="302" text-anchor="end" font-size="13" font-weight="400" fill="#222">streifen</text>
+  <text x="298" y="292" text-anchor="start" font-size="14" font-weight="700" fill="#e8590c">1 Zeile</text>
+  <text x="298" y="310" text-anchor="start" font-size="14" font-weight="700" fill="#e8590c">= 1 Zeichen</text>
+  <line x1="200" y1="354" x2="200" y2="372" stroke="#333" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="12" y="376" width="376" height="212" rx="10" fill="#eef0f3"/>
+  <text x="24" y="400" text-anchor="start" font-size="16" font-weight="700" fill="#222">3  Lesemaschine</text>
+  <line x1="74.0" y1="410" x2="74.0" y2="440" stroke="#6b7280" stroke-width="4" stroke-linecap="round"/>
+  <line x1="110.0" y1="410" x2="110.0" y2="440" stroke="#6b7280" stroke-width="4" stroke-linecap="round"/>
+  <line x1="146.0" y1="410" x2="146.0" y2="440" stroke="#6b7280" stroke-width="4" stroke-linecap="round"/>
+  <line x1="182.0" y1="410" x2="182.0" y2="440" stroke="#6b7280" stroke-width="4" stroke-linecap="round"/>
+  <line x1="218.0" y1="410" x2="218.0" y2="440" stroke="#6b7280" stroke-width="4" stroke-linecap="round"/>
+  <line x1="254.0" y1="410" x2="254.0" y2="440" stroke="#6b7280" stroke-width="4" stroke-linecap="round"/>
+  <line x1="290.0" y1="410" x2="290.0" y2="440" stroke="#6b7280" stroke-width="4" stroke-linecap="round"/>
+  <line x1="326.0" y1="410" x2="326.0" y2="440" stroke="#6b7280" stroke-width="4" stroke-linecap="round"/>
+  <text x="372" y="428" text-anchor="end" font-size="13" font-weight="400" fill="#222">Stifte</text>
+  <rect x="56" y="446" width="36" height="36" fill="#f6ecd2" stroke="#7a6a48" stroke-width="1.5"/>
+  <circle cx="74.0" cy="464.0" r="10.799999999999999" fill="#333"/>
+  <rect x="92" y="446" width="36" height="36" fill="#f6ecd2" stroke="#7a6a48" stroke-width="1.5"/>
+  <rect x="128" y="446" width="36" height="36" fill="#f6ecd2" stroke="#7a6a48" stroke-width="1.5"/>
+  <rect x="164" y="446" width="36" height="36" fill="#f6ecd2" stroke="#7a6a48" stroke-width="1.5"/>
+  <circle cx="182.0" cy="464.0" r="10.799999999999999" fill="#333"/>
+  <rect x="200" y="446" width="36" height="36" fill="#f6ecd2" stroke="#7a6a48" stroke-width="1.5"/>
+  <rect x="236" y="446" width="36" height="36" fill="#f6ecd2" stroke="#7a6a48" stroke-width="1.5"/>
+  <rect x="272" y="446" width="36" height="36" fill="#f6ecd2" stroke="#7a6a48" stroke-width="1.5"/>
+  <circle cx="290.0" cy="464.0" r="10.799999999999999" fill="#333"/>
+  <rect x="308" y="446" width="36" height="36" fill="#f6ecd2" stroke="#7a6a48" stroke-width="1.5"/>
+  <path d="M77.0,488 L67.0,503 L74.0,503 L71.0,516 L82.0,499 L75.0,499 Z" fill="#ffd43b" stroke="#b35c00" stroke-width="1"/>
+  <text x="74.0" y="538" text-anchor="middle" font-size="20" font-weight="700" fill="#e8590c">1</text>
+  <path d="M113.0,488 L103.0,503 L110.0,503 L107.0,516 L118.0,499 L111.0,499 Z" fill="#d0d3d8" stroke="#888" stroke-width="1"/>
+  <line x1="100.0" y1="514" x2="120.0" y2="490" stroke="#555" stroke-width="2.5"/>
+  <text x="110.0" y="538" text-anchor="middle" font-size="20" font-weight="700" fill="#9aa0a6">0</text>
+  <path d="M149.0,488 L139.0,503 L146.0,503 L143.0,516 L154.0,499 L147.0,499 Z" fill="#d0d3d8" stroke="#888" stroke-width="1"/>
+  <line x1="136.0" y1="514" x2="156.0" y2="490" stroke="#555" stroke-width="2.5"/>
+  <text x="146.0" y="538" text-anchor="middle" font-size="20" font-weight="700" fill="#9aa0a6">0</text>
+  <path d="M185.0,488 L175.0,503 L182.0,503 L179.0,516 L190.0,499 L183.0,499 Z" fill="#ffd43b" stroke="#b35c00" stroke-width="1"/>
+  <text x="182.0" y="538" text-anchor="middle" font-size="20" font-weight="700" fill="#e8590c">1</text>
+  <path d="M221.0,488 L211.0,503 L218.0,503 L215.0,516 L226.0,499 L219.0,499 Z" fill="#d0d3d8" stroke="#888" stroke-width="1"/>
+  <line x1="208.0" y1="514" x2="228.0" y2="490" stroke="#555" stroke-width="2.5"/>
+  <text x="218.0" y="538" text-anchor="middle" font-size="20" font-weight="700" fill="#9aa0a6">0</text>
+  <path d="M257.0,488 L247.0,503 L254.0,503 L251.0,516 L262.0,499 L255.0,499 Z" fill="#d0d3d8" stroke="#888" stroke-width="1"/>
+  <line x1="244.0" y1="514" x2="264.0" y2="490" stroke="#555" stroke-width="2.5"/>
+  <text x="254.0" y="538" text-anchor="middle" font-size="20" font-weight="700" fill="#9aa0a6">0</text>
+  <path d="M293.0,488 L283.0,503 L290.0,503 L287.0,516 L298.0,499 L291.0,499 Z" fill="#ffd43b" stroke="#b35c00" stroke-width="1"/>
+  <text x="290.0" y="538" text-anchor="middle" font-size="20" font-weight="700" fill="#e8590c">1</text>
+  <path d="M329.0,488 L319.0,503 L326.0,503 L323.0,516 L334.0,499 L327.0,499 Z" fill="#d0d3d8" stroke="#888" stroke-width="1"/>
+  <line x1="316.0" y1="514" x2="336.0" y2="490" stroke="#555" stroke-width="2.5"/>
+  <text x="326.0" y="538" text-anchor="middle" font-size="20" font-weight="700" fill="#9aa0a6">0</text>
+  <text x="200" y="562" text-anchor="middle" font-size="14" font-weight="700" fill="#e8590c">Loch → Strom fließt = 1</text>
+  <text x="200" y="580" text-anchor="middle" font-size="14" font-weight="400" fill="#444">kein Loch → kein Strom = 0</text>
+
+</svg>

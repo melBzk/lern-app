@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 476" font-family="system-ui, sans-serif" role="img">
+  <title>Auf dem Festplatten-Karton steht 1 TB, das sind 1.000.000.000.000 Byte, weil der Hersteller mit 1000 zählt. Windows teilt dreimal durch 1024: 976.562.500 KiB, etwa 953.674,3 MiB, etwa 931,3 GiB. Die Datenträgerverwaltung zeigt 931 GB. Gleiche Byte-Menge, nur anders gezählt.</title>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker>
+    <marker id="as" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e8590c"/></marker>
+    <marker id="ab" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker>
+    <marker id="ak" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker>
+  </defs>
+  <rect width="400" height="476" fill="#fff"/>
+  <text x="200" y="28" text-anchor="middle" font-size="18" font-weight="700" fill="#222">1 TB auf dem Karton – 931 GB in Windows</text>
+  <path d="M120,62 L140,46 L300,46 L280,62 Z" fill="#e8b57f" stroke="#8a5a2b" stroke-width="2"/>
+  <rect x="120" y="62" width="160" height="72" fill="#d9a066" stroke="#8a5a2b" stroke-width="2"/>
+  <text x="200" y="112" text-anchor="middle" font-size="34" font-weight="700" fill="#3b2410">1 TB</text>
+  <text x="200" y="156" text-anchor="middle" font-size="15" font-weight="700" fill="#222">= 1.000.000.000.000 Byte</text>
+  <text x="200" y="174" text-anchor="middle" font-size="14" font-weight="400" fill="#555">Hersteller zählt mit 1000</text>
+  <line x1="70" y1="186" x2="70" y2="290" stroke="#3a6ed8" stroke-width="3" marker-end="url(#ab)"/>
+  <text x="86" y="212" text-anchor="start" font-size="15" font-weight="700" fill="#3a6ed8">÷ 1024</text>
+  <text x="150" y="212" text-anchor="start" font-size="15" font-weight="400" fill="#222">→ 976.562.500 KiB</text>
+  <text x="86" y="240" text-anchor="start" font-size="15" font-weight="700" fill="#3a6ed8">÷ 1024</text>
+  <text x="150" y="240" text-anchor="start" font-size="15" font-weight="400" fill="#222">→ ≈ 953.674,3 MiB</text>
+  <text x="86" y="268" text-anchor="start" font-size="15" font-weight="700" fill="#3a6ed8">÷ 1024</text>
+  <text x="150" y="268" text-anchor="start" font-size="15" font-weight="400" fill="#222">→ ≈ 931,3 GiB</text>
+  <rect x="40" y="300" width="320" height="96" rx="6" fill="#fff" stroke="#555" stroke-width="2"/>
+  <rect x="40" y="300" width="320" height="26" rx="6" fill="#3a6ed8"/><rect x="40" y="314" width="320" height="12" fill="#3a6ed8"/>
+  <text x="52" y="318" text-anchor="start" font-size="14" font-weight="700" fill="#fff">Datenträgerverwaltung</text>
+  <rect x="60" y="342" width="56" height="38" rx="5" fill="#d0d3d8" stroke="#555"/><circle cx="104" cy="372" r="3" fill="#2b8a3e"/>
+  <text x="240" y="376" text-anchor="middle" font-size="30" font-weight="700" fill="#e8590c">931 GB</text>
+  <rect x="40" y="420" width="320" height="40" rx="14" fill="#fff4ec" stroke="#e8590c" stroke-width="2"/>
+  <path d="M190,421 L200,404 L210,421" fill="#fff4ec" stroke="#e8590c" stroke-width="2" stroke-linejoin="round"/>
+  <line x1="192" y1="421" x2="208" y2="421" stroke="#fff4ec" stroke-width="3"/>
+  <text x="200" y="446" text-anchor="middle" font-size="15" font-weight="700" fill="#222">Gleiche Byte-Menge – nur anders gezählt!</text>
+
+</svg>

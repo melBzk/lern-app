@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 410" font-family="system-ui, sans-serif">
+  <title>FireWire (IEEE 1394): Eine Video-Kamera schickt Videos über ein FireWire-Kabel schnell auf den PC. Maximal 63 Geräte in einer Kette. Zeitstrahl: 1995 führt Apple FireWire ein, dann wird USB schneller, heute stirbt FireWire aus.</title>
+  <defs>
+    <marker id="spitze" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#555"/>
+    </marker>
+  </defs>
+  <rect width="400" height="410" fill="#fff"/>
+  <text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700" fill="#222">FireWire: Video auf den PC</text>
+
+  <text x="210" y="62" text-anchor="middle" font-size="15" font-weight="700" fill="#D4607A">FireWire (IEEE 1394)</text>
+  <text x="210" y="80" text-anchor="middle" font-size="13" fill="#222">Video schnell auf den PC</text>
+
+  <!-- Kamera -->
+  <rect x="14" y="118" width="20" height="28" rx="3" fill="#333"/>
+  <rect x="34" y="106" width="78" height="50" rx="8" fill="#666"/>
+  <rect x="62" y="96" width="34" height="12" rx="2" fill="#999"/>
+  <circle cx="50" cy="131" r="6" fill="#d43c3c"/>
+  <text x="63" y="180" text-anchor="middle" font-size="14" font-weight="700" fill="#222">Video-Kamera</text>
+
+  <!-- Kabel -->
+  <line x1="112" y1="131" x2="318" y2="131" stroke="#555" stroke-width="7"/>
+  <path d="M112,124 H122 A7,7 0 0 1 122,138 H112 Z" fill="#999" stroke="#333"/>
+  <path d="M318,124 H308 A7,7 0 0 0 308,138 H318 Z" fill="#999" stroke="#333"/>
+  <!-- Filmstreifen -->
+  <rect x="170" y="117" width="64" height="28" fill="#222"/>
+  <g fill="#fff">
+    <rect x="174" y="120" width="5" height="4"/><rect x="184" y="120" width="5" height="4"/><rect x="194" y="120" width="5" height="4"/><rect x="204" y="120" width="5" height="4"/><rect x="214" y="120" width="5" height="4"/><rect x="224" y="120" width="5" height="4"/>
+    <rect x="174" y="138" width="5" height="4"/><rect x="184" y="138" width="5" height="4"/><rect x="194" y="138" width="5" height="4"/><rect x="204" y="138" width="5" height="4"/><rect x="214" y="138" width="5" height="4"/><rect x="224" y="138" width="5" height="4"/>
+  </g>
+  <rect x="176" y="126" width="22" height="10" fill="#9cc0ef"/><rect x="206" y="126" width="22" height="10" fill="#9cc0ef"/>
+  <path d="M244,119 L268,131 L244,143 Z" fill="#D4607A"/>
+
+  <!-- PC -->
+  <rect x="318" y="88" width="56" height="84" rx="4" fill="#f4f1ee" stroke="#555" stroke-width="2"/>
+  <line x1="326" y1="100" x2="366" y2="100" stroke="#999" stroke-width="3"/>
+  <line x1="326" y1="110" x2="366" y2="110" stroke="#999" stroke-width="3"/>
+  <circle cx="346" cy="156" r="5" fill="none" stroke="#555" stroke-width="2"/>
+  <text x="346" y="194" text-anchor="middle" font-size="14" font-weight="700" fill="#222">PC</text>
+
+  <!-- Kasten 63 Geräte -->
+  <rect x="110" y="206" width="180" height="32" rx="8" fill="#f4f1ee" stroke="#555"/>
+  <text x="200" y="227" text-anchor="middle" font-size="14" fill="#222"><tspan font-weight="700">max. 63 Geräte</tspan> (Kette)</text>
+
+  <!-- Zeitstrahl -->
+  <line x1="20" y1="300" x2="384" y2="300" stroke="#555" stroke-width="3" marker-end="url(#spitze)"/>
+  <circle cx="64" cy="300" r="7" fill="#fff" stroke="#555" stroke-width="2.5"/>
+  <circle cx="200" cy="300" r="7" fill="#fff" stroke="#555" stroke-width="2.5"/>
+  <circle cx="326" cy="300" r="7" fill="#7a7a7a" stroke="#555" stroke-width="2.5"/>
+  <!-- Grabstein -->
+  <path d="M310,286 V262 A16,16 0 0 1 342,262 V286 Z" fill="#7a7a7a"/>
+  <rect x="304" y="284" width="44" height="6" fill="#555"/>
+  <g font-size="13" text-anchor="middle" fill="#222">
+    <text x="64" y="326" font-weight="700">1995</text>
+    <text x="64" y="343">Apple führt</text>
+    <text x="64" y="360">FireWire ein</text>
+    <text x="200" y="326" font-weight="700">danach</text>
+    <text x="200" y="343">USB wird</text>
+    <text x="200" y="360">schneller</text>
+    <text x="326" y="326" font-weight="700" fill="#D4607A">heute</text>
+    <text x="326" y="343">stirbt aus</text>
+  </g>
+</svg>

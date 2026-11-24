@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Drei Sockel-Arten im Querschnitt: PGA mit Stiften am Prozessor (können verbiegen), LGA mit Federn im Sockel (heute bei Intel üblich), BGA mit kleinen Lotkugeln, meist fest auf die Platine gelötet und nicht tauschbar.</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker><marker id="o" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E07B00"/></marker><marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker><marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker><marker id="p" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7b3fa0"/></marker><marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6b4f"/></marker></defs>
+<rect width="400" height="280" fill="#fff"/>
+<text x="200.0" y="26" font-size="17" text-anchor="middle" font-weight="700" >PGA, LGA, BGA (Seitenansicht)</text>
+<text x="70" y="62" font-size="18" text-anchor="middle" font-weight="700" fill="#E07B00" >PGA</text>
+<rect x="20" y="76" width="100" height="30" rx="3" fill="#4f9a6e" stroke="#2f6b4f" stroke-width="2" />
+<text x="70" y="96" font-size="13" text-anchor="middle" font-weight="700" fill="#fff" >Prozessor</text>
+<rect x="14" y="128" width="112" height="40" rx="3" fill="#d9d9d9" stroke="#888" stroke-width="2" />
+<text x="70" y="158" font-size="13" text-anchor="middle" fill="#555" >Sockel</text>
+<rect x="29" y="128" width="6" height="14" rx="0" fill="#666" stroke="none" stroke-width="0" />
+<line x1="32" y1="106" x2="32" y2="138" stroke="#d4a017" stroke-width="3" />
+<rect x="44" y="128" width="6" height="14" rx="0" fill="#666" stroke="none" stroke-width="0" />
+<line x1="47" y1="106" x2="47" y2="138" stroke="#d4a017" stroke-width="3" />
+<rect x="59" y="128" width="6" height="14" rx="0" fill="#666" stroke="none" stroke-width="0" />
+<line x1="62" y1="106" x2="62" y2="138" stroke="#d4a017" stroke-width="3" />
+<rect x="74" y="128" width="6" height="14" rx="0" fill="#666" stroke="none" stroke-width="0" />
+<line x1="77" y1="106" x2="77" y2="138" stroke="#d4a017" stroke-width="3" />
+<rect x="89" y="128" width="6" height="14" rx="0" fill="#666" stroke="none" stroke-width="0" />
+<line x1="92" y1="106" x2="92" y2="138" stroke="#d4a017" stroke-width="3" />
+<rect x="104" y="128" width="6" height="14" rx="0" fill="#666" stroke="none" stroke-width="0" />
+<line x1="107" y1="106" x2="107" y2="138" stroke="#d4a017" stroke-width="3" />
+<text x="70" y="194" font-size="14" text-anchor="middle" font-weight="700" >Stifte am</text>
+<text x="70" y="212" font-size="14" text-anchor="middle" font-weight="700" >Prozessor</text>
+<text x="70" y="244" font-size="14" text-anchor="middle" fill="#555" >Stifte können</text>
+<text x="70" y="262" font-size="14" text-anchor="middle" fill="#555" >verbiegen</text>
+<text x="200" y="62" font-size="18" text-anchor="middle" font-weight="700" fill="#E07B00" >LGA</text>
+<rect x="150" y="76" width="100" height="30" rx="3" fill="#4f9a6e" stroke="#2f6b4f" stroke-width="2" />
+<text x="200" y="96" font-size="13" text-anchor="middle" font-weight="700" fill="#fff" >Prozessor</text>
+<rect x="144" y="128" width="112" height="40" rx="3" fill="#d9d9d9" stroke="#888" stroke-width="2" />
+<text x="200" y="158" font-size="13" text-anchor="middle" fill="#555" >Sockel</text>
+<rect x="157" y="106" width="10" height="4" rx="0" fill="#d4a017" stroke="none" stroke-width="0" />
+<path d="M162,128 l-4,-5 l8,-4 l-8,-4 l4,-3" fill="none" stroke="#555" stroke-width="1.5" />
+<rect x="172" y="106" width="10" height="4" rx="0" fill="#d4a017" stroke="none" stroke-width="0" />
+<path d="M177,128 l-4,-5 l8,-4 l-8,-4 l4,-3" fill="none" stroke="#555" stroke-width="1.5" />
+<rect x="187" y="106" width="10" height="4" rx="0" fill="#d4a017" stroke="none" stroke-width="0" />
+<path d="M192,128 l-4,-5 l8,-4 l-8,-4 l4,-3" fill="none" stroke="#555" stroke-width="1.5" />
+<rect x="202" y="106" width="10" height="4" rx="0" fill="#d4a017" stroke="none" stroke-width="0" />
+<path d="M207,128 l-4,-5 l8,-4 l-8,-4 l4,-3" fill="none" stroke="#555" stroke-width="1.5" />
+<rect x="217" y="106" width="10" height="4" rx="0" fill="#d4a017" stroke="none" stroke-width="0" />
+<path d="M222,128 l-4,-5 l8,-4 l-8,-4 l4,-3" fill="none" stroke="#555" stroke-width="1.5" />
+<rect x="232" y="106" width="10" height="4" rx="0" fill="#d4a017" stroke="none" stroke-width="0" />
+<path d="M237,128 l-4,-5 l8,-4 l-8,-4 l4,-3" fill="none" stroke="#555" stroke-width="1.5" />
+<text x="200" y="194" font-size="14" text-anchor="middle" font-weight="700" >Federn im</text>
+<text x="200" y="212" font-size="14" text-anchor="middle" font-weight="700" >Sockel</text>
+<text x="200" y="244" font-size="14" text-anchor="middle" fill="#555" >heute bei</text>
+<text x="200" y="262" font-size="14" text-anchor="middle" fill="#555" >Intel üblich</text>
+<text x="330" y="62" font-size="18" text-anchor="middle" font-weight="700" fill="#E07B00" >BGA</text>
+<rect x="280" y="76" width="100" height="30" rx="3" fill="#4f9a6e" stroke="#2f6b4f" stroke-width="2" />
+<text x="330" y="96" font-size="13" text-anchor="middle" font-weight="700" fill="#fff" >Prozessor</text>
+<rect x="274" y="118" width="112" height="40" rx="3" fill="#d9d9d9" stroke="#888" stroke-width="2" />
+<text x="330" y="148" font-size="13" text-anchor="middle" fill="#555" >Platine</text>
+<circle cx="292" cy="113" r="5" fill="#d4a017" stroke="#8a6a00" stroke-width="1" />
+<rect x="287" y="118" width="10" height="3" rx="0" fill="#888" stroke="none" stroke-width="0" />
+<circle cx="307" cy="113" r="5" fill="#d4a017" stroke="#8a6a00" stroke-width="1" />
+<rect x="302" y="118" width="10" height="3" rx="0" fill="#888" stroke="none" stroke-width="0" />
+<circle cx="322" cy="113" r="5" fill="#d4a017" stroke="#8a6a00" stroke-width="1" />
+<rect x="317" y="118" width="10" height="3" rx="0" fill="#888" stroke="none" stroke-width="0" />
+<circle cx="337" cy="113" r="5" fill="#d4a017" stroke="#8a6a00" stroke-width="1" />
+<rect x="332" y="118" width="10" height="3" rx="0" fill="#888" stroke="none" stroke-width="0" />
+<circle cx="352" cy="113" r="5" fill="#d4a017" stroke="#8a6a00" stroke-width="1" />
+<rect x="347" y="118" width="10" height="3" rx="0" fill="#888" stroke="none" stroke-width="0" />
+<circle cx="367" cy="113" r="5" fill="#d4a017" stroke="#8a6a00" stroke-width="1" />
+<rect x="362" y="118" width="10" height="3" rx="0" fill="#888" stroke="none" stroke-width="0" />
+<text x="330" y="194" font-size="14" text-anchor="middle" font-weight="700" >kleine</text>
+<text x="330" y="212" font-size="14" text-anchor="middle" font-weight="700" >Lotkugeln</text>
+<text x="330" y="244" font-size="14" text-anchor="middle" fill="#555" >meist fest</text>
+<text x="330" y="262" font-size="14" text-anchor="middle" fill="#555" >aufgelötet</text>
+<line x1="135" y1="50" x2="135" y2="270" stroke="#ddd" stroke-width="1" />
+<line x1="265" y1="50" x2="265" y2="270" stroke="#ddd" stroke-width="1" />
+</svg>

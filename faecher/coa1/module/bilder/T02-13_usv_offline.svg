@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 450" font-family="-apple-system,'Segoe UI',system-ui,sans-serif">
+  <title>Offline-USV, vereinfachtes Schaltbild: Im Normalbetrieb (grün) wird die 230 V Wechselspannung nur gefiltert und direkt zum PC durchgereicht; nebenbei lädt ein Gleichrichter die Batterie. Bei Stromausfall (rot) liefert die Batterie über den Wechselrichter Strom, und ein Schalter (Relais) schaltet erst dann auf den Ausgang um – das dauert bis zu 10 Millisekunden.</title>
+  <defs>
+    <marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1f9d55"/></marker>
+    <marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d63c3c"/></marker>
+  </defs>
+  <rect width="400" height="450" fill="#fff"/>
+  <text x="200" y="28" text-anchor="middle" font-size="16" font-weight="700">Offline-USV</text>
+  <text x="8" y="68" font-size="15" font-weight="700">230 V <tspan font-size="22" fill="#3a6ed8">~</tspan></text>
+  <path d="M8,100 L48,100" fill="none" stroke="#1f9d55" stroke-width="5" stroke-linejoin="round" marker-end="url(#g)"/>
+  <rect x="50" y="78" width="70" height="44" rx="8" fill="#f3f4f6" stroke="#555" stroke-width="1.5"/>
+  <text x="85.0" y="105.0" text-anchor="middle" font-size="14" font-weight="700">Filter</text>
+  <path d="M120,100 L390,100" fill="none" stroke="#1f9d55" stroke-width="5" stroke-linejoin="round" marker-end="url(#g)"/>
+  <text x="392" y="88" text-anchor="end" font-size="15" font-weight="700">PC</text>
+  <path d="M140,100 L140,168" fill="none" stroke="#1f9d55" stroke-width="5" stroke-linejoin="round" marker-end="url(#g)"/>
+  <rect x="90" y="170" width="100" height="64" rx="8" fill="#f3f4f6" stroke="#555" stroke-width="1.5"/>
+  <text x="140.0" y="189.0" text-anchor="middle" font-size="14" font-weight="700">Gleich-</text>
+  <text x="140.0" y="207.0" text-anchor="middle" font-size="14" font-weight="700">richter</text>
+  <text x="140.0" y="226.0" text-anchor="middle" font-size="17" font-weight="700" fill="#3a6ed8">~ → =</text>
+  <path d="M140,234 L140,288" fill="none" stroke="#1f9d55" stroke-width="5" stroke-linejoin="round" marker-end="url(#g)"/>
+  <rect x="105" y="290" width="70" height="50" rx="8" fill="#f3f4f6" stroke="#555" stroke-width="1.5"/>
+  <rect x="127" y="298" width="26" height="15" rx="2" fill="#fff" stroke="#333" stroke-width="1.5"/><rect x="153" y="302" width="3" height="7" fill="#333"/>
+  <text x="140" y="331" text-anchor="middle" font-size="13" font-weight="700">Batterie</text>
+  <path d="M175,315 L203,315" fill="none" stroke="#d63c3c" stroke-width="5" stroke-linejoin="round" marker-end="url(#r)"/>
+  <rect x="205" y="280" width="90" height="70" rx="8" fill="#f3f4f6" stroke="#555" stroke-width="1.5"/>
+  <text x="250.0" y="302.0" text-anchor="middle" font-size="14" font-weight="700">Wechsel-</text>
+  <text x="250.0" y="320.0" text-anchor="middle" font-size="14" font-weight="700">richter</text>
+  <text x="250.0" y="339.0" text-anchor="middle" font-size="17" font-weight="700" fill="#3a6ed8">= → ~</text>
+  <path d="M295,315 L340,315 L340,232" fill="none" stroke="#d63c3c" stroke-width="5" stroke-linejoin="round" marker-end="url(#r)"/>
+  <rect x="305" y="170" width="72" height="60" rx="8" fill="#fff" stroke="#d63c3c" stroke-width="2"/>
+  <circle cx="322" cy="188" r="3.5" fill="#333"/><circle cx="358" cy="188" r="3.5" fill="#333"/>
+  <line x1="322" y1="188" x2="352" y2="176" stroke="#333" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="341" y="210" text-anchor="middle" font-size="13" font-weight="700">Schalter</text>
+  <text x="341" y="224" text-anchor="middle" font-size="13">(Relais)</text>
+  <path d="M340,170 L340,116 L390,116" fill="none" stroke="#d63c3c" stroke-width="5" stroke-linejoin="round" marker-end="url(#r)"/>
+  <text x="298" y="176" text-anchor="end" font-size="13" fill="#a32020">schaltet erst</text>
+  <text x="298" y="192" text-anchor="end" font-size="13" fill="#a32020">bei Ausfall um</text>
+  <text x="298" y="210" text-anchor="end" font-size="14" font-weight="700" fill="#a32020">bis 10 ms</text>
+  <rect x="10" y="376" width="380" height="62" rx="10" fill="#f8f9fa" stroke="#ddd"/>
+  <line x1="24" y1="397" x2="64" y2="397" stroke="#1f9d55" stroke-width="5"/>
+  <text x="74" y="402" font-size="14"><tspan font-weight="700" fill="#1c6b3c">grün:</tspan> Netz da (Normalbetrieb)</text>
+  <line x1="24" y1="420" x2="64" y2="420" stroke="#d63c3c" stroke-width="5"/>
+  <text x="74" y="425" font-size="14"><tspan font-weight="700" fill="#a32020">rot:</tspan> Stromausfall (Batterie liefert)</text>
+</svg>

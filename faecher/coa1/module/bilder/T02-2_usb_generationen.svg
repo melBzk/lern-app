@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 470" font-family="system-ui, sans-serif">
+  <title>Balkendiagramm der USB-Geschwindigkeiten in Bit pro Sekunde, Balken nicht maßstabsgetreu: USB 1.x 1,5 oder 12 Mbit/s, USB 2.0 480 Mbit/s mit roter Buchse (Farbe wie im Buchbild), USB 3.0 5 Gbit/s, USB 3.1 10 Gbit/s und USB 3.2 20 Gbit/s – diese drei mit blauer Buchse, USB4 40 Gbit/s mit USB-C-Stecker.</title>
+  <rect width="400" height="470" fill="#fff"/>
+  <text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700" fill="#222">USB-Geschwindigkeit</text>
+  <text x="200" y="47" text-anchor="middle" font-size="14" font-weight="700" fill="#D4607A">in Bit pro Sekunde!</text>
+
+  <!-- Achse -->
+  <line x1="62" y1="62" x2="62" y2="412" stroke="#555" stroke-width="2"/>
+
+  <!-- USB 1.x -->
+  <text x="70" y="80" font-size="14" fill="#222"><tspan font-weight="700">USB 1.x</tspan> – 1,5 / 12 Mbit/s</text>
+  <rect x="62" y="86" width="75" height="20" fill="#999"/>
+  <!-- USB 2.0 -->
+  <text x="70" y="136" font-size="14" fill="#222"><tspan font-weight="700">USB 2.0</tspan> – 480 Mbit/s</text>
+  <rect x="62" y="142" width="186" height="20" fill="#d43c3c"/>
+  <!-- USB 3.0 -->
+  <text x="70" y="192" font-size="14" fill="#222"><tspan font-weight="700">USB 3.0</tspan> – 5 Gbit/s</text>
+  <rect x="62" y="198" width="257" height="20" fill="#3a6ed8"/>
+  <!-- USB 3.1 -->
+  <text x="70" y="248" font-size="14" fill="#222"><tspan font-weight="700">USB 3.1</tspan> – 10 Gbit/s</text>
+  <rect x="62" y="254" width="278" height="20" fill="#3a6ed8"/>
+  <!-- USB 3.2 -->
+  <text x="70" y="304" font-size="14" fill="#222"><tspan font-weight="700">USB 3.2</tspan> – 20 Gbit/s</text>
+  <rect x="62" y="310" width="299" height="20" fill="#3a6ed8"/>
+  <!-- USB4 -->
+  <text x="70" y="360" font-size="14" fill="#222"><tspan font-weight="700">USB4</tspan> – 40 Gbit/s</text>
+  <rect x="62" y="366" width="320" height="20" fill="#2e9d5b"/>
+
+  <!-- Buchsen links -->
+  <rect x="12" y="140" width="40" height="18" fill="#fff" stroke="#555" stroke-width="2"/>
+  <rect x="17" y="144" width="30" height="6" fill="#d43c3c"/>
+  <text x="32" y="174" text-anchor="middle" font-size="13" fill="#d43c3c">rot</text>
+
+  <path d="M56,200 H52 V328 H56" fill="none" stroke="#3a6ed8" stroke-width="2"/>
+  <rect x="8" y="252" width="40" height="18" fill="#fff" stroke="#555" stroke-width="2"/>
+  <rect x="13" y="256" width="30" height="6" fill="#3a6ed8"/>
+  <text x="28" y="286" text-anchor="middle" font-size="13" fill="#3a6ed8">blau</text>
+
+  <rect x="10" y="366" width="40" height="16" rx="8" fill="#d0d0d0" stroke="#555" stroke-width="2"/>
+  <rect x="18" y="371" width="24" height="6" rx="2" fill="#fafafa"/>
+  <text x="30" y="400" text-anchor="middle" font-size="13" fill="#2e9d5b">USB-C</text>
+
+  <text x="12" y="436" font-size="13" fill="#666">Balken nicht maßstabsgetreu – sonst wäre</text>
+  <text x="12" y="453" font-size="13" fill="#666">USB 1.x neben USB4 kaum zu sehen.</text>
+</svg>

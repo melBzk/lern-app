@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 424" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Kerbe und Steg beim Arbeitsspeicher: Oben ein RAM-Riegel (hier DDR4) mit goldener Kontaktleiste, darin eine Lücke, die Kerbe. Darunter drei Steckplätze DDR3, DDR4 und DDR5, jeder mit einem Steg an einer anderen Stelle (Positionen schematisch). Nur beim DDR4-Steckplatz passt der Steg zur Kerbe. Ein falscher Riegel passt nicht, RAM ist nicht abwärtskompatibel.</title>
+<defs><marker id="s" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D4607A"/></marker></defs>
+<rect width="400" height="424" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">Kerbe am Riegel, Steg im Steckplatz</text>
+
+<!-- Riegel -->
+<text x="40" y="54" font-size="14" font-weight="700">RAM-Riegel (DDR4)</text>
+<path d="M40,62 H350 V142 H221 V130 H209 V142 H40 Z" fill="#2e7d32"/>
+<g fill="#1a1a1a"><rect x="54" y="72" width="30" height="36"/><rect x="96" y="72" width="30" height="36"/><rect x="138" y="72" width="30" height="36"/><rect x="180" y="72" width="30" height="36"/><rect x="222" y="72" width="30" height="36"/><rect x="264" y="72" width="30" height="36"/><rect x="306" y="72" width="30" height="36"/></g>
+<rect x="48" y="122" width="158" height="16" fill="#c9a227"/><rect x="224" y="122" width="118" height="16" fill="#c9a227"/>
+<line x1="270" y1="170" x2="222" y2="140" stroke="#D4607A" stroke-width="2.5" marker-end="url(#s)"/>
+<text x="276" y="176" font-size="15" font-weight="700" fill="#D4607A">Kerbe</text>
+
+<!-- Steckplätze -->
+<g font-size="14" font-weight="700"><text x="40" y="214">DDR3</text><text x="40" y="274">DDR4</text><text x="40" y="334">DDR5</text></g>
+<g fill="#111"><rect x="40" y="220" width="310" height="22" rx="3"/><rect x="40" y="280" width="310" height="22" rx="3"/><rect x="40" y="340" width="310" height="22" rx="3"/></g>
+<g fill="#bdbdbd"><rect x="145" y="220" width="10" height="22"/><rect x="210" y="280" width="10" height="22"/><rect x="240" y="340" width="10" height="22"/></g>
+<g font-size="13" fill="#555" text-anchor="middle"><text x="150" y="214">Steg</text><text x="215" y="274">Steg</text><text x="245" y="334">Steg</text></g>
+<g fill="none" stroke-width="4" stroke-linecap="round"><path d="M362,224 l14,14 M376,224 l-14,14" stroke="#c62828"/><path d="M360,290 l6,6 l12,-13" stroke="#2e7d32"/><path d="M362,344 l14,14 M376,344 l-14,14" stroke="#c62828"/></g>
+
+<text x="200" y="382" text-anchor="middle" font-size="14" font-weight="700" fill="#c62828">Falscher Riegel passt nicht</text>
+<text x="200" y="399" text-anchor="middle" font-size="14" font-weight="700" fill="#c62828">= nicht abwärtskompatibel</text>
+<text x="390" y="419" text-anchor="end" font-size="13" fill="#555">Positionen schematisch</text>
+</svg>

@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 460" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Prozessor von oben und unten: oben ein Metalldeckel (Heatspreader) über dem kleinen Chip (Die); unten ein Kunststoffträger mit vergoldeten Kontakten (bei PGA Stifte, bei LGA Flächen), dazu Kerben und ein goldenes Dreieck als Einbau-Markierung; auf der Unterseite liegt das Dreieck gespiegelt in der anderen Ecke.</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker><marker id="o" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E07B00"/></marker><marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker><marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker><marker id="p" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7b3fa0"/></marker><marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6b4f"/></marker></defs>
+<rect width="400" height="460" fill="#fff"/>
+<text x="200.0" y="26" font-size="17" text-anchor="middle" font-weight="700" >So sieht ein Prozessor aus</text>
+<text x="20" y="58" font-size="16" font-weight="700" fill="#2f6b4f" >Oberseite</text>
+<rect x="20" y="70" width="150" height="150" rx="6" fill="#4f9a6e" stroke="#2f6b4f" stroke-width="2" />
+<rect x="38" y="88" width="114" height="114" rx="6" fill="#c9ced6" stroke="#7a828c" stroke-width="2" />
+<rect x="77" y="127" width="36" height="36" rx="3" fill="none" stroke="#222" stroke-width="1.5" stroke-dasharray="4 3"/>
+<polygon points="24,216 24,198 42,216" fill="#d4a017"/>
+<line x1="150" y1="100" x2="192" y2="100" stroke="#555" stroke-width="1.5" />
+<circle cx="150" cy="100" r="3" fill="#222" stroke="none" stroke-width="1.5" />
+<text x="198" y="98" font-size="15" font-weight="700" >Metalldeckel</text>
+<text x="198" y="116" font-size="14" >(Heatspreader):</text>
+<text x="198" y="134" font-size="14" >verteilt die Wärme,</text>
+<text x="198" y="152" font-size="14" >schützt den Chip</text>
+<line x1="113" y1="160" x2="192" y2="182" stroke="#555" stroke-width="1.5" />
+<circle cx="113" cy="160" r="3" fill="#222" stroke="none" stroke-width="1.5" />
+<text x="198" y="182" font-size="14" font-weight="700" >darunter: der Chip (Die),</text>
+<text x="198" y="200" font-size="14" >etwa fingernagelgroß</text>
+<line x1="10" y1="245" x2="390" y2="245" stroke="#ddd" stroke-width="1" />
+<text x="20" y="282" font-size="16" font-weight="700" fill="#2f6b4f" >Unterseite</text>
+<rect x="20" y="294" width="150" height="150" rx="6" fill="#4f9a6e" stroke="#2f6b4f" stroke-width="2" />
+<rect x="18" y="324" width="10" height="16" rx="1" fill="#fff" stroke="none" stroke-width="0" />
+<rect x="18" y="398" width="10" height="16" rx="1" fill="#fff" stroke="none" stroke-width="0" />
+<circle cx="42" cy="316" r="3.6" fill="#d4a017" stroke="none" stroke-width="1.5" />
+<circle cx="42" cy="331" r="3.6" fill="#d4a017" stroke="none" stroke-width="1.5" />
+<circle cx="42" cy="346" r="3.6" fill="#d4a017" stroke="none" stroke-width="1.5" />
+<circle cx="42" cy="361" r="3.6" fill="#d4a017" stroke="none" stroke-width="1.5" />
+<circle cx="42" cy="376" r="3.6" fill="#d4a017" stroke="none" stroke-width="1.5" />
+<circle cx="42" cy="391" r="3.6" fill="#d4a017" stroke="none" stroke-width="1.5" />
+<circle cx="42" cy="406" r="3.6" fill="#d4a017" stroke="none" stroke-width="1.5" />
+<circle cx="42" cy="421" r="3.6" fill="#d4a017" stroke="none" stroke-width="1.5" />
+<circle cx="57" cy="316" r="3.6" fill="#d4a017" stroke="none" stroke-width="1.5" />
+<circle cx="57" cy="331" r="3.6" fill="#d4a017" stroke="none" stroke-width="1.5" />
+<circle cx="57" cy="346" r="3.6" fill="#d4a017" stroke="none" stroke-width="1.5" />
+<circle cx="57" cy="361" r="3.6" fill="#d4a017" stroke="none" stroke-width="1.5" />
+<circle cx="57" cy="376" r="3.6" fill="#d4a017" stroke="none" stroke-width="1.5" />
+<circle cx="57" cy="391" r="3.6" fill="#d4a017" stroke="none" stroke-width="1.5" />
+<circle cx="57" cy="406" r="3.6" fill="#d4a017" stroke="none" stroke-width="1.5" />
+<circle cx="57" cy="421" r="3.6" fill="#d4a017" stroke="none" stroke-width="1.5" />
+<circle cx="72" cy="316" r="3.6" fill="#d4a017" stroke="none" stroke-width="1.5" />
+<circle cx="72" cy="331" r="3.6" fill="#d4a017" stroke="none" stroke-width="1.5" />
+<circle cx="72" cy="346" r="3.6" fill="#d4a017" stroke="none" stroke-width="1.5" />
+<circle cx="72" cy="361" r="3.6" fill="#d4a017" stroke="none" stroke-width="1.5" />
+<circle cx="72" cy="376" r="3.6" fill="#d4a017" stroke="none" stroke-width="1.5" />
+<circle cx="72" cy="391" r="3.6" fill="#d4a017" stroke="none" stroke-width="1.5" />
+<circle cx="72" cy="406" r="3.6" fill="#d4a017" stroke="none" stroke-width="1.5" />
+<circle cx="72" cy="421" r="3.6" fill="#d4a017" stroke="none" stroke-width="1.5" />
+<circle cx="87" cy="316" r="3.6" fill="#d4a017" stroke="none" stroke-width="1.5" />
+<circle cx="87" cy="331" r="3.6" fill="#d4a017" stroke="none" stroke-width="1.5" />
+<circle cx="87" cy="346" r="3.6" fill="#d4a017" stroke="none" stroke-width="1.5" />
+<circle cx="87" cy="361" r="3.6" fill="#d4a017" stroke="none" stroke-width="1.5" />
+<circle cx="87" cy="376" r="3.6" fill="#d4a017" stroke="none" stroke-width="1.5" />
+<circle cx="87" cy="391" r="3.6" fill="#d4a017" stroke="none" stroke-width="1.5" />
+<circle cx="87" cy="406" r="3.6" fill="#d4a017" stroke="none" stroke-width="1.5" />
+<circle cx="87" cy="421" r="3.6" fill="#d4a017" stroke="none" stroke-width="1.5" />
+<circle cx="102" cy="316" r="3.6" fill="#d4a017" stroke="none" stroke-width="1.5" />
+<circle cx="102" cy="331" r="3.6" fill="#d4a017" stroke="none" stroke-width="1.5" />
+<circle cx="102" cy="346" r="3.6" fill="#d4a017" stroke="none" stroke-width="1.5" />
+<circle cx="102" cy="361" r="3.6" fill="#d4a017" stroke="none" stroke-width="1.5" />
+<circle cx="102" cy="376" r="3.6" fill="#d4a017" stroke="none" stroke-width="1.5" />
+<circle cx="102" cy="391" r="3.6" fill="#d4a017" stroke="none" stroke-width="1.5" />
+<circle cx="102" cy="406" r="3.6" fill="#d4a017" stroke="none" stroke-width="1.5" />
+<circle cx="102" cy="421" r="3.6" fill="#d4a017" stroke="none" stroke-width="1.5" />
+<circle cx="117" cy="316" r="3.6" fill="#d4a017" stroke="none" stroke-width="1.5" />
+<circle cx="117" cy="331" r="3.6" fill="#d4a017" stroke="none" stroke-width="1.5" />
+<circle cx="117" cy="346" r="3.6" fill="#d4a017" stroke="none" stroke-width="1.5" />
+<circle cx="117" cy="361" r="3.6" fill="#d4a017" stroke="none" stroke-width="1.5" />
+<circle cx="117" cy="376" r="3.6" fill="#d4a017" stroke="none" stroke-width="1.5" />
+<circle cx="117" cy="391" r="3.6" fill="#d4a017" stroke="none" stroke-width="1.5" />
+<circle cx="117" cy="406" r="3.6" fill="#d4a017" stroke="none" stroke-width="1.5" />
+<circle cx="117" cy="421" r="3.6" fill="#d4a017" stroke="none" stroke-width="1.5" />
+<circle cx="132" cy="316" r="3.6" fill="#d4a017" stroke="none" stroke-width="1.5" />
+<circle cx="132" cy="331" r="3.6" fill="#d4a017" stroke="none" stroke-width="1.5" />
+<circle cx="132" cy="346" r="3.6" fill="#d4a017" stroke="none" stroke-width="1.5" />
+<circle cx="132" cy="361" r="3.6" fill="#d4a017" stroke="none" stroke-width="1.5" />
+<circle cx="132" cy="376" r="3.6" fill="#d4a017" stroke="none" stroke-width="1.5" />
+<circle cx="132" cy="391" r="3.6" fill="#d4a017" stroke="none" stroke-width="1.5" />
+<circle cx="132" cy="406" r="3.6" fill="#d4a017" stroke="none" stroke-width="1.5" />
+<circle cx="132" cy="421" r="3.6" fill="#d4a017" stroke="none" stroke-width="1.5" />
+<circle cx="147" cy="316" r="3.6" fill="#d4a017" stroke="none" stroke-width="1.5" />
+<circle cx="147" cy="331" r="3.6" fill="#d4a017" stroke="none" stroke-width="1.5" />
+<circle cx="147" cy="346" r="3.6" fill="#d4a017" stroke="none" stroke-width="1.5" />
+<circle cx="147" cy="361" r="3.6" fill="#d4a017" stroke="none" stroke-width="1.5" />
+<circle cx="147" cy="376" r="3.6" fill="#d4a017" stroke="none" stroke-width="1.5" />
+<circle cx="147" cy="391" r="3.6" fill="#d4a017" stroke="none" stroke-width="1.5" />
+<circle cx="147" cy="406" r="3.6" fill="#d4a017" stroke="none" stroke-width="1.5" />
+<circle cx="147" cy="421" r="3.6" fill="#d4a017" stroke="none" stroke-width="1.5" />
+<polygon points="166,440 166,420 146,440" fill="#d4a017" stroke="#8a6a00" stroke-width="1"/>
+<line x1="166" y1="310" x2="192" y2="310" stroke="#555" stroke-width="1.5" />
+<circle cx="166" cy="310" r="3" fill="#222" stroke="none" stroke-width="1.5" />
+<text x="198" y="315" font-size="14" font-weight="700" >Träger aus Kunststoff</text>
+<line x1="149" y1="361" x2="192" y2="352" stroke="#555" stroke-width="1.5" />
+<circle cx="149" cy="361" r="3" fill="#222" stroke="none" stroke-width="1.5" />
+<text x="198" y="350" font-size="14" font-weight="700" >vergoldete Kontakte</text>
+<text x="198" y="368" font-size="14" >(PGA: Stifte, LGA: Flächen)</text>
+<line x1="158" y1="434" x2="192" y2="412" stroke="#E07B00" stroke-width="1.5" stroke-dasharray="3 3"/>
+<line x1="26" y1="338" x2="192" y2="400" stroke="#E07B00" stroke-width="1.5" stroke-dasharray="3 3"/>
+<text x="198" y="400" font-size="14" font-weight="700" fill="#E07B00" >Kerbe + Dreieck:</text>
+<text x="198" y="418" font-size="14" fill="#E07B00" >so herum gehört</text>
+<text x="198" y="436" font-size="14" fill="#E07B00" >er hinein</text>
+</svg>

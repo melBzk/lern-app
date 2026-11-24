@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" font-family="-apple-system,'Segoe UI',system-ui,sans-serif">
+  <title>CD, DVD und Blu-ray sind gleich groß. In der Lupe sieht man die Datenspur mit Pits (Vertiefungen) und Lands (flache Stellen): bei der CD grob, bei der DVD feiner, bei der Blu-ray sehr fein, gelesen mit blauem Laser. Kapazität: CD 700 MB, DVD 4,7 GB, Blu-ray 25 GB mit einer Schicht. Je feiner die Spuren, desto mehr passt drauf.</title>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker>
+    <clipPath id="l1"><circle cx="70" cy="235" r="50"/></clipPath>
+    <clipPath id="l2"><circle cx="200" cy="235" r="50"/></clipPath>
+    <clipPath id="l3"><circle cx="330" cy="235" r="50"/></clipPath>
+  </defs>
+  <rect width="400" height="500" fill="#fff"/>
+
+  <!-- Namen -->
+  <g font-size="16" font-weight="700" text-anchor="middle">
+    <text x="70" y="26">CD</text><text x="200" y="26">DVD</text><text x="330" y="26">Blu-ray</text>
+  </g>
+  <!-- Scheiben -->
+  <circle cx="70" cy="90" r="50" fill="#d6d9de" stroke="#888" stroke-width="1.5"/>
+  <circle cx="200" cy="90" r="50" fill="#f2c48e" stroke="#b5651d" stroke-width="1.5"/>
+  <circle cx="330" cy="90" r="50" fill="#a9c1ee" stroke="#3a6ed8" stroke-width="1.5"/>
+  <g fill="#fff" stroke="#888"><circle cx="70" cy="90" r="9"/><circle cx="200" cy="90" r="9"/><circle cx="330" cy="90" r="9"/></g>
+  <!-- Lupenverbindung -->
+  <g stroke="#555" stroke-width="1.2" fill="none">
+    <circle cx="70" cy="125" r="6"/><line x1="70" y1="131" x2="70" y2="185"/>
+    <circle cx="200" cy="125" r="6"/><line x1="200" y1="131" x2="200" y2="185"/>
+    <circle cx="330" cy="125" r="6"/><line x1="330" y1="131" x2="330" y2="185"/>
+  </g>
+
+  <!-- Lupe CD: grob -->
+  <circle cx="70" cy="235" r="50" fill="#eef0f3"/>
+  <g clip-path="url(#l1)" fill="#555">
+    <rect x="18" y="212" width="26" height="12" rx="6"/><rect x="58" y="212" width="16" height="12" rx="6"/><rect x="88" y="212" width="30" height="12" rx="6"/>
+    <rect x="10" y="246" width="18" height="12" rx="6"/><rect x="40" y="246" width="34" height="12" rx="6"/><rect x="92" y="246" width="20" height="12" rx="6"/>
+  </g>
+  <circle cx="70" cy="235" r="50" fill="none" stroke="#333" stroke-width="3"/>
+  <!-- Lupe DVD: feiner -->
+  <circle cx="200" cy="235" r="50" fill="#fbeedd"/>
+  <g clip-path="url(#l2)" fill="#7a4310">
+    <rect x="152" y="203" width="14" height="6" rx="3"/><rect x="174" y="203" width="9" height="6" rx="3"/><rect x="192" y="203" width="18" height="6" rx="3"/><rect x="218" y="203" width="10" height="6" rx="3"/><rect x="236" y="203" width="14" height="6" rx="3"/>
+    <rect x="150" y="219" width="10" height="6" rx="3"/><rect x="168" y="219" width="18" height="6" rx="3"/><rect x="194" y="219" width="9" height="6" rx="3"/><rect x="212" y="219" width="16" height="6" rx="3"/><rect x="236" y="219" width="9" height="6" rx="3"/>
+    <rect x="156" y="235" width="16" height="6" rx="3"/><rect x="180" y="235" width="10" height="6" rx="3"/><rect x="198" y="235" width="14" height="6" rx="3"/><rect x="220" y="235" width="18" height="6" rx="3"/>
+    <rect x="150" y="251" width="12" height="6" rx="3"/><rect x="170" y="251" width="16" height="6" rx="3"/><rect x="194" y="251" width="10" height="6" rx="3"/><rect x="212" y="251" width="14" height="6" rx="3"/><rect x="234" y="251" width="12" height="6" rx="3"/>
+    <rect x="160" y="267" width="10" height="6" rx="3"/><rect x="178" y="267" width="18" height="6" rx="3"/><rect x="204" y="267" width="12" height="6" rx="3"/><rect x="224" y="267" width="10" height="6" rx="3"/>
+  </g>
+  <circle cx="200" cy="235" r="50" fill="none" stroke="#333" stroke-width="3"/>
+  <!-- Lupe Blu-ray: sehr fein -->
+  <circle cx="330" cy="235" r="50" fill="#e4ecfb"/>
+  <g clip-path="url(#l3)" stroke="#24489a" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 5 3 6 8 4">
+    <line x1="280" y1="196" x2="380" y2="196"/>
+    <line x1="280" y1="204" x2="380" y2="204" stroke-dashoffset="4"/>
+    <line x1="280" y1="212" x2="380" y2="212" stroke-dashoffset="9"/>
+    <line x1="280" y1="220" x2="380" y2="220" stroke-dashoffset="2"/>
+    <line x1="280" y1="228" x2="380" y2="228" stroke-dashoffset="7"/>
+    <line x1="280" y1="236" x2="380" y2="236" stroke-dashoffset="11"/>
+    <line x1="280" y1="244" x2="380" y2="244" stroke-dashoffset="3"/>
+    <line x1="280" y1="252" x2="380" y2="252" stroke-dashoffset="8"/>
+    <line x1="280" y1="260" x2="380" y2="260" stroke-dashoffset="1"/>
+    <line x1="280" y1="268" x2="380" y2="268" stroke-dashoffset="6"/>
+    <line x1="280" y1="276" x2="380" y2="276" stroke-dashoffset="10"/>
+  </g>
+  <circle cx="330" cy="235" r="50" fill="none" stroke="#333" stroke-width="3"/>
+
+  <!-- Pits / Lands an der CD-Lupe -->
+  <g stroke="#333" stroke-width="1.2">
+    <line x1="31" y1="222" x2="22" y2="300"/>
+    <line x1="83" y1="252" x2="96" y2="330"/>
+  </g>
+  <text x="6" y="314" font-size="13"><tspan font-weight="700">Pit</tspan> = Vertiefung</text>
+  <text x="40" y="344" font-size="13"><tspan font-weight="700">Land</tspan> = flache Stelle</text>
+
+  <!-- blauer Laser unter der Blu-ray-Lupe -->
+  <polygon points="330,286 322,318 338,318" fill="#3a6ed8" opacity="0.45"/>
+  <line x1="330" y1="318" x2="330" y2="286" stroke="#1d4fd6" stroke-width="3"/>
+  <rect x="316" y="318" width="28" height="14" rx="3" fill="#333"/>
+  <text x="330" y="352" text-anchor="middle" font-size="13" font-weight="700" fill="#1d4fd6">blauer Laser</text>
+
+  <!-- Kapazitäten -->
+  <g text-anchor="middle" font-weight="700" font-size="17">
+    <text x="70" y="392">700 MB</text><text x="200" y="392">4,7 GB</text><text x="330" y="392">25 GB</text>
+  </g>
+  <text x="330" y="410" text-anchor="middle" font-size="13" fill="#333">(1 Schicht)</text>
+
+  <!-- Pfeil -->
+  <line x1="40" y1="440" x2="360" y2="440" stroke="#333" stroke-width="2.5" marker-end="url(#a)"/>
+  <text x="200" y="470" text-anchor="middle" font-size="15" font-weight="700">Spuren werden feiner → mehr passt drauf</text>
+  <text x="200" y="490" text-anchor="middle" font-size="13" fill="#666">Lupen-Bild vereinfacht, nicht maßstabsgetreu</text>
+</svg>

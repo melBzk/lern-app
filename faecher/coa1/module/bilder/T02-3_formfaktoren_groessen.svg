@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 440" font-family="system-ui, sans-serif">
+  <title>Mainboard-Formfaktoren im gleichen Maßstab, links unten bündig übereinander: E-ATX 305 × 330 mm (grau, am größten), ATX 305 × 244 mm (blau), microATX 244 × 244 mm (grün), Mini-ITX 170 × 170 mm (orange, am kleinsten). Rechts ein Handy als Größenvergleich. Je kleiner das Board, desto weniger Platz für Steckplätze.</title>
+  <rect width="400" height="440" fill="#fff"/>
+  <text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700" fill="#222">Formfaktoren im gleichen Maßstab</text>
+  <text x="200" y="50" text-anchor="middle" font-size="14" fill="#D4607A" font-weight="700">Je kleiner, desto weniger Platz für Steckplätze</text>
+
+  <!-- Maßstab 0,9 px pro mm, Ecke links unten bei (20,395) -->
+  <rect x="20" y="98" width="274.5" height="297" fill="#e6e6e6" stroke="#777" stroke-width="2"/>
+  <rect x="20" y="175.4" width="274.5" height="219.6" fill="#d6e4fb" stroke="#3a6ed8" stroke-width="2"/>
+  <rect x="20" y="175.4" width="219.6" height="219.6" fill="#d4efd9" stroke="#2e9d5b" stroke-width="2"/>
+  <rect x="20" y="242" width="153" height="153" fill="#fde3c4" stroke="#e08a2e" stroke-width="2.5"/>
+
+  <!-- Beschriftungen -->
+  <text x="30" y="124" font-size="15" font-weight="700" fill="#444">E-ATX</text>
+  <text x="30" y="142" font-size="13" fill="#444">305 × 330 mm</text>
+
+  <text transform="translate(260,285) rotate(-90)" text-anchor="middle" font-size="15" font-weight="700" fill="#2550a8">ATX</text>
+  <text transform="translate(279,285) rotate(-90)" text-anchor="middle" font-size="13" fill="#2550a8" dy="0">305 × 244 mm</text>
+
+  <text x="30" y="200" font-size="15" font-weight="700" fill="#1f7a45">microATX</text>
+  <text x="30" y="218" font-size="13" fill="#1f7a45">244 × 244 mm</text>
+
+  <text x="96" y="314" text-anchor="middle" font-size="15" font-weight="700" fill="#a8590f">Mini-ITX</text>
+  <text x="96" y="332" text-anchor="middle" font-size="13" fill="#a8590f">170 × 170 mm</text>
+
+  <!-- Handy 72 × 150 mm -->
+  <rect x="318" y="260" width="65" height="135" rx="10" fill="#333"/>
+  <rect x="323" y="270" width="55" height="113" rx="4" fill="#9cc0ef"/>
+  <text x="350" y="414" text-anchor="middle" font-size="13" fill="#222">Handy</text>
+  <text x="350" y="430" text-anchor="middle" font-size="13" fill="#666">zum Vergleich</text>
+</svg>

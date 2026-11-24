@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 506" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Startvorgang in fünf Schritten von oben nach unten: 1 Einschalten, die CPU bekommt Strom. 2 UEFI/BIOS startet aus dem Flash-Chip auf dem Mainboard. 3 Hardware und RAM einrichten. 4 Der Bootloader lädt das Betriebssystem von der SSD in den RAM. 5 Ein Programm öffnen: von der SSD in den RAM. Daneben: Die SSD speichert dauerhaft, auch ohne Strom; im RAM liegt nur, was gerade gebraucht wird.</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker><marker id="o" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E07B00"/></marker><marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker><marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker><marker id="p" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7b3fa0"/></marker><marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6b4f"/></marker><marker id="x" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#bbb"/></marker></defs>
+<rect width="400" height="506" fill="#fff"/>
+<text x="200" y="26" font-size="17" text-anchor="middle" font-weight="700">Vom Einschalten bis zum Programm</text>
+<rect x="10" y="42" width="262" height="72" rx="8" fill="#fff" stroke="#222" stroke-width="2"/>
+<circle cx="30" cy="62" r="12" fill="#E07B00"/>
+<text x="30" y="67" font-size="15" text-anchor="middle" font-weight="700" fill="#fff">1</text>
+<rect x="21" y="84" width="18" height="14" rx="3" fill="#555" stroke="#555" stroke-width="1"/>
+<line x1="26" y1="84" x2="26" y2="77" stroke="#555" stroke-width="2.5"/>
+<line x1="34" y1="84" x2="34" y2="77" stroke="#555" stroke-width="2.5"/>
+<path d="M30,98 v8" stroke="#555" stroke-width="3"/>
+<text x="52" y="67" font-size="15" font-weight="700">Einschalten</text>
+<text x="52" y="87" font-size="13">CPU bekommt Strom</text>
+<line x1="141" y1="116" x2="141" y2="134" stroke="#333" stroke-width="4" marker-end="url(#a)"/>
+<rect x="10" y="136" width="262" height="72" rx="8" fill="#fff" stroke="#222" stroke-width="2"/>
+<circle cx="30" cy="156" r="12" fill="#E07B00"/>
+<text x="30" y="161" font-size="15" text-anchor="middle" font-weight="700" fill="#fff">2</text>
+<rect x="21" y="177" width="18" height="18" rx="2" fill="#555" stroke="#555" stroke-width="1"/>
+<line x1="17" y1="181" x2="21" y2="181" stroke="#555" stroke-width="1.5"/>
+<line x1="39" y1="181" x2="43" y2="181" stroke="#555" stroke-width="1.5"/>
+<line x1="17" y1="186" x2="21" y2="186" stroke="#555" stroke-width="1.5"/>
+<line x1="39" y1="186" x2="43" y2="186" stroke="#555" stroke-width="1.5"/>
+<line x1="17" y1="191" x2="21" y2="191" stroke="#555" stroke-width="1.5"/>
+<line x1="39" y1="191" x2="43" y2="191" stroke="#555" stroke-width="1.5"/>
+<text x="52" y="161" font-size="15" font-weight="700">UEFI/BIOS startet</text>
+<text x="52" y="181" font-size="13">aus dem Flash-Chip</text>
+<text x="52" y="199" font-size="13">auf dem Mainboard</text>
+<line x1="141" y1="210" x2="141" y2="228" stroke="#333" stroke-width="4" marker-end="url(#a)"/>
+<rect x="10" y="230" width="262" height="72" rx="8" fill="#fff" stroke="#222" stroke-width="2"/>
+<circle cx="30" cy="250" r="12" fill="#E07B00"/>
+<text x="30" y="255" font-size="15" text-anchor="middle" font-weight="700" fill="#fff">3</text>
+<circle cx="30" cy="280" r="10" fill="none" stroke="#555" stroke-width="6" stroke-dasharray="4 3.85"/>
+<circle cx="30" cy="280" r="8" fill="#555"/>
+<circle cx="30" cy="280" r="3.5" fill="#fff"/>
+<text x="52" y="255" font-size="15" font-weight="700">Hardware einrichten</text>
+<text x="52" y="275" font-size="13">auch den RAM</text>
+<line x1="141" y1="304" x2="141" y2="322" stroke="#333" stroke-width="4" marker-end="url(#a)"/>
+<rect x="10" y="324" width="262" height="72" rx="8" fill="#fff" stroke="#222" stroke-width="2"/>
+<circle cx="30" cy="344" r="12" fill="#E07B00"/>
+<text x="30" y="349" font-size="15" text-anchor="middle" font-weight="700" fill="#fff">4</text>
+<text x="52" y="349" font-size="15" font-weight="700">Bootloader lädt das</text>
+<text x="52" y="367" font-size="13">Betriebssystem:</text>
+<rect x="52" y="373" width="40" height="20" rx="3" fill="#dfe7f5" stroke="#3a6ed8" stroke-width="1.5"/>
+<text x="72" y="388" font-size="13" text-anchor="middle" font-weight="700">SSD</text>
+<line x1="96" y1="383" x2="124" y2="383" stroke="#E07B00" stroke-width="3" marker-end="url(#o)"/>
+<rect x="128" y="373" width="40" height="20" rx="3" fill="#c9c3bd" stroke="#888" stroke-width="1.5"/>
+<text x="148" y="388" font-size="13" text-anchor="middle" font-weight="700">RAM</text>
+<line x1="141" y1="398" x2="141" y2="416" stroke="#333" stroke-width="4" marker-end="url(#a)"/>
+<rect x="10" y="418" width="262" height="72" rx="8" fill="#fff" stroke="#222" stroke-width="2"/>
+<circle cx="30" cy="438" r="12" fill="#E07B00"/>
+<text x="30" y="443" font-size="15" text-anchor="middle" font-weight="700" fill="#fff">5</text>
+<rect x="18" y="458" width="24" height="20" rx="2" fill="#fff" stroke="#555" stroke-width="2"/>
+<rect x="18" y="458" width="24" height="6" fill="#555"/>
+<text x="52" y="443" font-size="15" font-weight="700">Programm öffnen</text>
+<rect x="52" y="456" width="40" height="20" rx="3" fill="#dfe7f5" stroke="#3a6ed8" stroke-width="1.5"/>
+<text x="72" y="471" font-size="13" text-anchor="middle" font-weight="700">SSD</text>
+<line x1="96" y1="466" x2="124" y2="466" stroke="#E07B00" stroke-width="3" marker-end="url(#o)"/>
+<rect x="128" y="456" width="40" height="20" rx="3" fill="#c9c3bd" stroke="#888" stroke-width="1.5"/>
+<text x="148" y="471" font-size="13" text-anchor="middle" font-weight="700">RAM</text>
+<rect x="284" y="230" width="108" height="96" rx="8" fill="#dfe7f5" stroke="#3a6ed8" stroke-width="2"/>
+<text x="338" y="254" font-size="15" text-anchor="middle" font-weight="700">SSD</text>
+<text x="338" y="274" font-size="13" text-anchor="middle">dauerhaft,</text>
+<text x="338" y="291" font-size="13" text-anchor="middle">auch ohne</text>
+<text x="338" y="308" font-size="13" text-anchor="middle">Strom</text>
+<line x1="338" y1="330" x2="338" y2="360" stroke="#E07B00" stroke-width="3" marker-end="url(#o)"/>
+<text x="346" y="350" font-size="13" font-weight="700" fill="#E07B00">laden</text>
+<rect x="284" y="364" width="108" height="96" rx="8" fill="#c9c3bd" stroke="#888" stroke-width="2"/>
+<text x="338" y="388" font-size="15" text-anchor="middle" font-weight="700">RAM</text>
+<text x="338" y="408" font-size="13" text-anchor="middle">nur, was</text>
+<text x="338" y="425" font-size="13" text-anchor="middle">gerade</text>
+<text x="338" y="442" font-size="13" text-anchor="middle">gebraucht wird</text>
+</svg>

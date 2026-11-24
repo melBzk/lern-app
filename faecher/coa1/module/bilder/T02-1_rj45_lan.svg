@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 430" font-family="system-ui, sans-serif">
+  <title>Netzwerk: Oben ein vergrößerter RJ45-Stecker, durchsichtig, mit 8 goldenen Kontakten und Rastnase. Unten links ein dickeres Notebook mit RJ45-Buchse, das Netzwerkkabel führt zum Router (LAN per Kabel). Rechts ein dünnes Tablet ohne Buchse, es verbindet sich per Funk mit dem Router (nur WLAN).</title>
+  <rect width="400" height="430" fill="#fff"/>
+  <text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700" fill="#222">Netzwerk: Kabel oder Funk</text>
+
+  <!-- RJ45-Stecker vergrößert -->
+  <path d="M240,118 L256,72 L262,74 L248,120 Z" fill="#dfeaf5" stroke="#7a9cc0" stroke-width="1.5"/>
+  <rect x="160" y="48" width="82" height="84" rx="4" fill="#dfeaf5" fill-opacity="0.85" stroke="#7a9cc0" stroke-width="2"/>
+  <g fill="#c9a227">
+    <rect x="166" y="52" width="5" height="18"/><rect x="175" y="52" width="5" height="18"/><rect x="184" y="52" width="5" height="18"/><rect x="193" y="52" width="5" height="18"/>
+    <rect x="202" y="52" width="5" height="18"/><rect x="211" y="52" width="5" height="18"/><rect x="220" y="52" width="5" height="18"/><rect x="229" y="52" width="5" height="18"/>
+  </g>
+  <g stroke-width="2">
+    <line x1="168" y1="72" x2="194" y2="132" stroke="#f0932b"/>
+    <line x1="177" y1="72" x2="196" y2="132" stroke="#f5c08a"/>
+    <line x1="186" y1="72" x2="198" y2="132" stroke="#2e9d5b"/>
+    <line x1="195" y1="72" x2="200" y2="132" stroke="#3a6ed8"/>
+    <line x1="204" y1="72" x2="202" y2="132" stroke="#9cc0ef"/>
+    <line x1="213" y1="72" x2="204" y2="132" stroke="#8fd1a6"/>
+    <line x1="222" y1="72" x2="206" y2="132" stroke="#8b5a2b"/>
+    <line x1="231" y1="72" x2="208" y2="132" stroke="#c9a37a"/>
+  </g>
+  <rect x="186" y="132" width="30" height="24" fill="#3a6ed8"/>
+  <text x="152" y="66" text-anchor="end" font-size="15" font-weight="700" fill="#222">RJ45-Stecker</text>
+  <text x="152" y="84" text-anchor="end" font-size="13" fill="#222">8 Kontakte</text>
+  <line x1="155" y1="80" x2="164" y2="66" stroke="#555"/>
+  <text x="268" y="96" font-size="13" fill="#222">Rastnase</text>
+  <line x1="266" y1="92" x2="257" y2="88" stroke="#555"/>
+  <text x="226" y="152" font-size="13" fill="#666">Kabel</text>
+
+  <!-- Notebook links -->
+  <text x="80" y="190" text-anchor="middle" font-size="15" font-weight="700" fill="#3a6ed8">LAN per Kabel</text>
+  <text x="80" y="207" text-anchor="middle" font-size="13" fill="#222">RJ45-Buchse</text>
+  <rect x="30" y="218" width="100" height="62" rx="4" fill="#f4f1ee" stroke="#555" stroke-width="2"/>
+  <rect x="38" y="225" width="84" height="48" fill="#dde6f0"/>
+  <path d="M20,280 H140 L148,300 H12 Z" fill="#d6d6d6" stroke="#555" stroke-width="2"/>
+  <rect x="116" y="284" width="16" height="12" fill="#fff" stroke="#333" stroke-width="1.5"/>
+  <rect x="120" y="292" width="8" height="4" fill="#333"/>
+  <!-- Kabel zum Router -->
+  <path d="M124,296 C124,350 140,384 162,384" fill="none" stroke="#3a6ed8" stroke-width="4"/>
+
+  <!-- Router -->
+  <line x1="174" y1="372" x2="168" y2="346" stroke="#555" stroke-width="3" stroke-linecap="round"/>
+  <line x1="226" y1="372" x2="232" y2="346" stroke="#555" stroke-width="3" stroke-linecap="round"/>
+  <rect x="160" y="370" width="80" height="28" rx="5" fill="#f4f1ee" stroke="#555" stroke-width="2"/>
+  <circle cx="176" cy="384" r="3" fill="#2e9d5b"/><circle cx="188" cy="384" r="3" fill="#2e9d5b"/>
+  <text x="200" y="418" text-anchor="middle" font-size="14" font-weight="700" fill="#222">Router</text>
+
+  <!-- Tablet rechts -->
+  <text x="330" y="190" text-anchor="middle" font-size="15" font-weight="700" fill="#2e9d5b">nur WLAN</text>
+  <text x="330" y="207" text-anchor="middle" font-size="13" fill="#222">dünn, keine Buchse</text>
+  <rect x="292" y="218" width="76" height="104" rx="9" fill="#f4f1ee" stroke="#555" stroke-width="2"/>
+  <rect x="299" y="226" width="62" height="86" rx="3" fill="#dde6f0"/>
+  <!-- Funk -->
+  <line x1="242" y1="370" x2="292" y2="318" stroke="#2e9d5b" stroke-width="2" stroke-dasharray="5 5"/>
+  <g fill="none" stroke="#2e9d5b" stroke-width="3" stroke-linecap="round" transform="translate(260,352) rotate(45)">
+    <path d="M-7,-7 A10,10 0 0 1 7,-7"/>
+    <path d="M-13,-13 A18,18 0 0 1 13,-13"/>
+    <path d="M-19,-19 A27,27 0 0 1 19,-19"/>
+  </g>
+</svg>

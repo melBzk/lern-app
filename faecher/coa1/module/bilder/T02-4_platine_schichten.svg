@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 350" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Platine im Schnitt, vereinfacht: Mehrere Schichten liegen übereinander. Die Trägerschichten sind aus Kunstharz, Fiberglas oder Carbon. Dazwischen liegen dünne Metall-Lagen mit Leiterbahnen aus Kupfer, Silber oder Gold. Oben sitzt ein Chip mit Beinchen.</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker></defs>
+<rect width="400" height="350" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">Platine im Schnitt (vereinfacht)</text>
+
+<!-- Chip -->
+<rect x="110" y="104" width="90" height="30" rx="3" fill="#222"/>
+<text x="155" y="124" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">Chip</text>
+<g stroke="#888" stroke-width="3"><line x1="120" y1="134" x2="120" y2="150"/><line x1="135" y1="134" x2="135" y2="150"/><line x1="150" y1="134" x2="150" y2="150"/><line x1="165" y1="134" x2="165" y2="150"/><line x1="180" y1="134" x2="180" y2="150"/><line x1="192" y1="134" x2="192" y2="150"/></g>
+<text x="214" y="118" font-size="13">Chip mit Beinchen</text>
+
+<!-- Schichten -->
+<rect x="60" y="158" width="190" height="38" fill="#ddd3a0" stroke="#a89b5c"/>
+<rect x="60" y="204" width="190" height="38" fill="#ddd3a0" stroke="#a89b5c"/>
+<rect x="60" y="250" width="190" height="38" fill="#ddd3a0" stroke="#a89b5c"/>
+<g stroke="#c87533" stroke-width="8" stroke-dasharray="24 8"><line x1="60" y1="154" x2="250" y2="154"/><line x1="64" y1="200" x2="250" y2="200"/><line x1="56" y1="246" x2="250" y2="246"/><line x1="66" y1="292" x2="250" y2="292"/></g>
+
+<!-- Metall-Beschriftung -->
+<g stroke="#c87533" stroke-width="1.5"><line x1="262" y1="222" x2="250" y2="154"/><line x1="262" y1="222" x2="250" y2="200"/><line x1="262" y1="222" x2="250" y2="246"/><line x1="262" y1="222" x2="250" y2="292"/></g>
+<text x="268" y="214" font-size="13" font-weight="700" fill="#a0521d">Leiterbahnen aus</text>
+<text x="268" y="231" font-size="13" font-weight="700" fill="#a0521d">Kupfer, Silber,</text>
+<text x="268" y="248" font-size="13" font-weight="700" fill="#a0521d">Gold</text>
+
+<!-- mehrere Schichten -->
+<line x1="40" y1="150" x2="40" y2="296" stroke="#D4607A" stroke-width="2.5" marker-start="url(#a)" marker-end="url(#a)"/>
+<text transform="translate(30,223) rotate(-90)" text-anchor="middle" font-size="13" font-weight="700" fill="#D4607A">mehrere Schichten</text>
+
+<!-- Träger-Beschriftung -->
+<line x1="155" y1="312" x2="155" y2="272" stroke="#333" stroke-width="1.5" marker-end="url(#a)"/>
+<text x="200" y="330" text-anchor="middle" font-size="13"><tspan font-weight="700">Trägerschichten:</tspan> Kunstharz / Fiberglas / Carbon</text>
+</svg>

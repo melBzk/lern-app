@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 420" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Autobahn und Landstraße: Oben verbindet eine breite Autobahn mit sechs Spuren und vielen LKW die Fabrik (CPU), das Lager (RAM) und das Kino (Grafikkarte), der schnelle Bereich mit vielen Spuren. Unten führt eine schmale Landstraße mit einem einzelnen Lieferwagen zu Bäckerei (Festplatte), Post (USB) und Archiv (BIOS), der langsame Bereich mit wenigen Spuren.</title>
+<rect width="400" height="420" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">Autobahn und Landstraße</text>
+
+<text x="200" y="56" text-anchor="middle" font-size="15" font-weight="700" fill="#b45f06">schneller Bereich: viele Spuren</text>
+<!-- Fabrik -->
+<path d="M14,86 l20,-14 v14 l20,-14 v14 l20,-14 v14 l20,-14 v14 l20,-14 v14 z" fill="#b45f06"/>
+<rect x="104" y="62" width="10" height="24" fill="#b45f06"/>
+<rect x="14" y="86" width="112" height="54" fill="#fdebd8" stroke="#b45f06" stroke-width="2"/>
+<text x="70" y="108" text-anchor="middle" font-size="14" font-weight="700">Fabrik</text>
+<text x="70" y="128" text-anchor="middle" font-size="14" font-weight="700" fill="#b45f06">= CPU</text>
+<!-- Lager -->
+<polygon points="144,86 200,68 256,86" fill="#b45f06"/>
+<rect x="144" y="86" width="112" height="54" fill="#fdebd8" stroke="#b45f06" stroke-width="2"/>
+<text x="200" y="108" text-anchor="middle" font-size="14" font-weight="700">Lager</text>
+<text x="200" y="128" text-anchor="middle" font-size="14" font-weight="700" fill="#b45f06">= RAM</text>
+<!-- Kino -->
+<rect x="274" y="74" width="112" height="12" fill="#b45f06"/>
+<rect x="274" y="86" width="112" height="54" fill="#fdebd8" stroke="#b45f06" stroke-width="2"/>
+<text x="330" y="108" text-anchor="middle" font-size="14" font-weight="700">Kino</text>
+<text x="330" y="128" text-anchor="middle" font-size="13" font-weight="700" fill="#b45f06">= Grafikkarte</text>
+<!-- Zufahrten -->
+<g fill="#757575"><rect x="58" y="140" width="24" height="14"/><rect x="188" y="140" width="24" height="14"/><rect x="318" y="140" width="24" height="14"/></g>
+<!-- Autobahn -->
+<rect x="6" y="154" width="388" height="78" fill="#616161"/>
+<g stroke="#fff" stroke-width="1.5" stroke-dasharray="10 8"><line x1="6" y1="167" x2="394" y2="167"/><line x1="6" y1="180" x2="394" y2="180"/><line x1="6" y1="206" x2="394" y2="206"/><line x1="6" y1="219" x2="394" y2="219"/></g>
+<line x1="6" y1="193" x2="394" y2="193" stroke="#fdd835" stroke-width="2"/>
+<g fill="#e8892b">
+<rect x="20" y="157" width="26" height="8" rx="1"/><rect x="120" y="157" width="26" height="8" rx="1"/><rect x="260" y="157" width="26" height="8" rx="1"/>
+<rect x="70" y="170" width="26" height="8" rx="1"/><rect x="200" y="170" width="26" height="8" rx="1"/><rect x="330" y="170" width="26" height="8" rx="1"/>
+<rect x="40" y="183" width="26" height="8" rx="1"/><rect x="170" y="183" width="26" height="8" rx="1"/><rect x="300" y="183" width="26" height="8" rx="1"/>
+<rect x="100" y="196" width="26" height="8" rx="1"/><rect x="230" y="196" width="26" height="8" rx="1"/><rect x="350" y="196" width="26" height="8" rx="1"/>
+<rect x="14" y="209" width="26" height="8" rx="1"/><rect x="150" y="209" width="26" height="8" rx="1"/><rect x="280" y="209" width="26" height="8" rx="1"/>
+<rect x="80" y="222" width="26" height="8" rx="1"/><rect x="210" y="222" width="26" height="8" rx="1"/><rect x="340" y="222" width="26" height="8" rx="1"/>
+</g>
+
+<line x1="10" y1="252" x2="390" y2="252" stroke="#ccc" stroke-dasharray="6 5"/>
+
+<text x="200" y="280" text-anchor="middle" font-size="15" font-weight="700" fill="#3a6ed8">langsamer Bereich: wenige Spuren</text>
+<!-- Häuser -->
+<g fill="#3a6ed8"><polygon points="20,318 70,296 120,318"/><polygon points="150,318 200,296 250,318"/><polygon points="280,318 330,296 380,318"/></g>
+<g fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"><rect x="24" y="318" width="92" height="50"/><rect x="154" y="318" width="92" height="50"/><rect x="284" y="318" width="92" height="50"/></g>
+<g text-anchor="middle" font-size="13" font-weight="700">
+<text x="70" y="338">Bäckerei</text><text x="200" y="338">Post</text><text x="330" y="338">Archiv</text>
+<text x="70" y="358" fill="#3a6ed8">= Festplatte</text><text x="200" y="358" fill="#3a6ed8">= USB</text><text x="330" y="358" fill="#3a6ed8">= BIOS</text>
+</g>
+<g fill="#9e9e9e"><rect x="64" y="368" width="12" height="16"/><rect x="194" y="368" width="12" height="16"/><rect x="324" y="368" width="12" height="16"/></g>
+<!-- Landstraße -->
+<rect x="6" y="384" width="388" height="16" fill="#9e9e9e"/>
+<rect x="120" y="387" width="28" height="10" rx="2" fill="#3a6ed8"/><rect x="148" y="389" width="8" height="8" rx="1" fill="#90caf9"/>
+<text x="200" y="416" text-anchor="middle" font-size="13" fill="#555">ab und zu ein Lieferwagen</text>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 450" font-family="system-ui, sans-serif">
+  <title>Ton-Anschlüsse: Links sechs runde Klinkenbuchsen (analog) in üblichen Farben: rosa Mikrofon, grün Lautsprecher oder Kopfhörer, blau Line-In, orange Subwoofer/Center, schwarz hintere Lautsprecher, grau Seiten-Lautsprecher. Rechts S/PDIF optisch, eine eckige Buchse mit Licht (digital). Unten: Heute läuft Ton oft über USB, zum Beispiel ein USB-Headset.</title>
+  <rect width="400" height="450" fill="#fff"/>
+  <text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700" fill="#222">Ton-Anschlüsse</text>
+
+  <!-- Klinke analog -->
+  <rect x="10" y="44" width="236" height="222" rx="10" fill="#f4f1ee"/>
+  <text x="22" y="68" font-size="15" font-weight="700" fill="#222">Klinke = analog</text>
+  <g>
+    <circle cx="36" cy="92" r="11" fill="#f19cbb" stroke="#555"/><circle cx="36" cy="92" r="4" fill="#222"/>
+    <text x="56" y="97" font-size="13" fill="#222">Mikrofon</text>
+    <circle cx="36" cy="123" r="11" fill="#8cc63f" stroke="#555"/><circle cx="36" cy="123" r="4" fill="#222"/>
+    <text x="56" y="128" font-size="13" fill="#222">Lautsprecher / Kopfhörer</text>
+    <circle cx="36" cy="154" r="11" fill="#5fa8e6" stroke="#555"/><circle cx="36" cy="154" r="4" fill="#222"/>
+    <text x="56" y="159" font-size="13" fill="#222">Line-In</text>
+    <circle cx="36" cy="185" r="11" fill="#f0932b" stroke="#555"/><circle cx="36" cy="185" r="4" fill="#222"/>
+    <text x="56" y="190" font-size="13" fill="#222">Subwoofer / Center</text>
+    <circle cx="36" cy="216" r="11" fill="#222" stroke="#555"/><circle cx="36" cy="216" r="4" fill="#777"/>
+    <text x="56" y="221" font-size="13" fill="#222">hintere Lautsprecher</text>
+    <circle cx="36" cy="247" r="11" fill="#9a9a9a" stroke="#555"/><circle cx="36" cy="247" r="4" fill="#222"/>
+    <text x="56" y="252" font-size="13" fill="#222">Seiten-Lautsprecher</text>
+  </g>
+
+  <!-- S/PDIF optisch -->
+  <rect x="256" y="44" width="134" height="222" rx="10" fill="#eef4ff"/>
+  <text x="323" y="68" text-anchor="middle" font-size="15" font-weight="700" fill="#222">S/PDIF optisch</text>
+  <rect x="295" y="92" width="56" height="50" rx="4" fill="#333"/>
+  <rect x="308" y="102" width="30" height="30" rx="3" fill="#111"/>
+  <circle cx="323" cy="117" r="7" fill="#e03030"/>
+  <circle cx="323" cy="117" r="12" fill="none" stroke="#e03030" stroke-opacity="0.4" stroke-width="3"/>
+  <text x="323" y="172" text-anchor="middle" font-size="14" font-weight="700" fill="#3a6ed8">= digital</text>
+  <text x="323" y="192" text-anchor="middle" font-size="13" fill="#222">Ton als Licht</text>
+  <text x="323" y="210" text-anchor="middle" font-size="13" fill="#222">im Glasfaser-Kabel</text>
+  <text x="323" y="240" text-anchor="middle" font-size="13" fill="#666">kaum noch genutzt</text>
+
+  <text x="14" y="285" font-size="13" fill="#666">Farben: übliche Belegung, nicht bei jedem Board gleich</text>
+
+  <!-- großer Pfeil -->
+  <path d="M185,298 H215 V320 H232 L200,346 L168,320 H185 Z" fill="#D4607A"/>
+
+  <!-- USB-Headset -->
+  <path d="M120,402 A44,44 0 0 1 208,402" fill="none" stroke="#555" stroke-width="7" stroke-linecap="round"/>
+  <rect x="106" y="392" width="24" height="38" rx="9" fill="#666"/>
+  <rect x="198" y="392" width="24" height="38" rx="9" fill="#666"/>
+  <path d="M118,428 C118,444 104,444 104,436" fill="none" stroke="#555" stroke-width="3"/>
+  <path d="M222,420 C260,420 262,404 280,404" fill="none" stroke="#555" stroke-width="3"/>
+  <rect x="280" y="398" width="16" height="12" fill="#555"/>
+  <rect x="296" y="400" width="22" height="8" fill="#ccc" stroke="#555"/>
+  <text x="238" y="370" font-size="15" font-weight="700" fill="#D4607A">heute oft:</text>
+  <text x="238" y="388" font-size="15" font-weight="700" fill="#D4607A">Ton über USB</text>
+  <text x="307" y="428" text-anchor="middle" font-size="13" fill="#222">USB</text>
+</svg>

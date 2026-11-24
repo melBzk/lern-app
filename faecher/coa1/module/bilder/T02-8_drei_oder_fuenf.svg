@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 530" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Zwei Fragen, zwei Antworten: Die CPU besteht aus Steuerwerk, Rechenwerk und Speicher (Unterricht). Der Von-Neumann-Rechner besteht aus Steuerwerk, Rechenwerk, Speicher, Bussystem und Ein-/Ausgabe (Buch, Übung 2.14).</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker><marker id="o" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E07B00"/></marker><marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker><marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker><marker id="p" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7b3fa0"/></marker><marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6b4f"/></marker></defs>
+<rect width="400" height="530" fill="#fff"/>
+<text x="200" y="28" font-size="16" text-anchor="middle" font-weight="700" >Frage: Woraus besteht die CPU?</text>
+<rect x="90" y="44" width="220" height="170" rx="12" fill="#e3f0e9" stroke="#2f6b4f" stroke-width="2.5" />
+<text x="200" y="64" font-size="14" text-anchor="middle" font-weight="700" fill="#2f6b4f" >CPU</text>
+<rect x="104" y="74" width="192" height="38" rx="6" fill="#fff" stroke="#2f6b4f" stroke-width="1.5" />
+<text x="200" y="98" font-size="14" text-anchor="middle" font-weight="700" >Steuerwerk</text>
+<rect x="104" y="120" width="192" height="38" rx="6" fill="#fff" stroke="#2f6b4f" stroke-width="1.5" />
+<text x="200" y="144" font-size="14" text-anchor="middle" font-weight="700" >Rechenwerk</text>
+<rect x="104" y="166" width="192" height="38" rx="6" fill="#fff" stroke="#2f6b4f" stroke-width="1.5" />
+<text x="200" y="190" font-size="14" text-anchor="middle" font-weight="700" >Speicher (Cache, Register)</text>
+<g transform="rotate(-8 352 130)"><rect x="318" y="116" width="72" height="28" rx="4" fill="#fff" stroke="#3a6ed8" stroke-width="2" />
+<text x="354" y="135" font-size="13" text-anchor="middle" font-weight="700" fill="#3a6ed8" >Unterricht</text>
+</g>
+<text x="200" y="272" font-size="44" text-anchor="middle" font-weight="700" fill="#E07B00" >≠</text>
+<text x="200" y="296" font-size="15" text-anchor="middle" font-weight="700" fill="#E07B00" >andere Frage – andere Antwort</text>
+<line x1="20" y1="312" x2="380" y2="312" stroke="#ddd" stroke-width="1" />
+<text x="200" y="340" font-size="16" text-anchor="middle" font-weight="700" >Frage: Woraus besteht der</text>
+<text x="200" y="360" font-size="16" text-anchor="middle" font-weight="700" >Von-Neumann-Rechner?</text>
+<rect x="14" y="376" width="120" height="42" rx="6" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2" />
+<text x="74" y="402" font-size="14" text-anchor="middle" font-weight="700" >Steuerwerk</text>
+<rect x="140" y="376" width="120" height="42" rx="6" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2" />
+<text x="200" y="402" font-size="14" text-anchor="middle" font-weight="700" >Rechenwerk</text>
+<rect x="266" y="376" width="120" height="42" rx="6" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2" />
+<text x="326" y="402" font-size="14" text-anchor="middle" font-weight="700" >Speicher</text>
+<rect x="77" y="426" width="120" height="42" rx="6" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2" />
+<text x="137" y="452" font-size="14" text-anchor="middle" font-weight="700" >Bussystem</text>
+<rect x="203" y="426" width="120" height="42" rx="6" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2" />
+<text x="263" y="452" font-size="14" text-anchor="middle" font-weight="700" >Ein-/Ausgabe</text>
+<g transform="rotate(-6 200 500)"><rect x="118" y="484" width="164" height="30" rx="4" fill="#fff" stroke="#3a6ed8" stroke-width="2" />
+<text x="200" y="504" font-size="14" text-anchor="middle" font-weight="700" fill="#3a6ed8" >Buch / Übung 2.14</text>
+</g>
+</svg>

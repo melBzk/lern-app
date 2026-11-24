@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" font-family="system-ui, sans-serif" role="img">
+  <title>Prüfungsblatt mit der Aufgabe: Eine Datei von 4 GiB wird über 100 MBit/s übertragen. Rechenweg: 4 mal 1.073.741.824 Byte, mal 8 = 34.359.738.368 Bit, geteilt durch 100.000.000 Bit/s, ergibt etwa 343,6 Sekunden, also etwa 5 Minuten 44 Sekunden. Daneben ein Taschenrechner und ein Stift. Hinweis: Datei GiB mit 1024, Leitung immer mit 1000, Byte mal 8 = Bit.</title>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker>
+    <marker id="as" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e8590c"/></marker>
+    <marker id="ab" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker>
+    <marker id="ak" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker>
+  </defs>
+  <rect width="400" height="400" fill="#fff"/>
+  <text x="200" y="28" text-anchor="middle" font-size="18" font-weight="700" fill="#222">Prüfung: Übertragung rechnen</text>
+  <rect x="20" y="48" width="230" height="270" rx="4" fill="#fff" stroke="#555" stroke-width="1.5"/>
+  <text x="36" y="76" text-anchor="start" font-size="15" font-weight="700" fill="#222">Aufgabe</text>
+  <text x="36" y="104" text-anchor="start" font-size="15" font-weight="400" fill="#222">Eine Datei von 4 GiB</text>
+  <text x="36" y="126" text-anchor="start" font-size="15" font-weight="400" fill="#222">wird über 100 MBit/s</text>
+  <text x="36" y="148" text-anchor="start" font-size="15" font-weight="400" fill="#222">übertragen …</text>
+  <line x1="36" y1="184" x2="234" y2="184" stroke="#d0d3d8" stroke-width="1.5"/>
+  <line x1="36" y1="208" x2="234" y2="208" stroke="#d0d3d8" stroke-width="1.5"/>
+  <line x1="36" y1="232" x2="234" y2="232" stroke="#d0d3d8" stroke-width="1.5"/>
+  <line x1="36" y1="256" x2="234" y2="256" stroke="#d0d3d8" stroke-width="1.5"/>
+  <line x1="36" y1="280" x2="234" y2="280" stroke="#d0d3d8" stroke-width="1.5"/>
+  <text x="36" y="179" text-anchor="start" font-size="13" font-weight="400" fill="#3a6ed8">4 · 1.073.741.824 Byte</text>
+  <text x="36" y="203" text-anchor="start" font-size="13" font-weight="400" fill="#3a6ed8">· 8 = 34.359.738.368 Bit</text>
+  <text x="36" y="227" text-anchor="start" font-size="13" font-weight="400" fill="#3a6ed8">÷ 100.000.000 Bit/s</text>
+  <text x="36" y="251" text-anchor="start" font-size="13" font-weight="700" fill="#e8590c">≈ 343,6 s</text>
+  <text x="36" y="275" text-anchor="start" font-size="13" font-weight="700" fill="#e8590c">≈ 5 min 44 s</text>
+  <g transform="rotate(35 238 230)"><rect x="232" y="170" width="12" height="100" rx="2" fill="#ffd43b" stroke="#a07c00"/><path d="M232,270 L238,288 L244,270 Z" fill="#f2c18d" stroke="#a07c00"/></g>
+  <rect x="276" y="118" width="104" height="160" rx="10" fill="#495057"/>
+  <rect x="288" y="130" width="80" height="30" rx="3" fill="#c3e6cb"/>
+  <text x="362" y="151" text-anchor="end" font-size="15" font-weight="700" fill="#1f2937">× 8</text>
+  <rect x="290" y="172" width="22" height="19" rx="3" fill="#dee2e6"/>
+  <rect x="317" y="172" width="22" height="19" rx="3" fill="#dee2e6"/>
+  <rect x="344" y="172" width="22" height="19" rx="3" fill="#dee2e6"/>
+  <rect x="290" y="197" width="22" height="19" rx="3" fill="#dee2e6"/>
+  <rect x="317" y="197" width="22" height="19" rx="3" fill="#dee2e6"/>
+  <rect x="344" y="197" width="22" height="19" rx="3" fill="#dee2e6"/>
+  <rect x="290" y="222" width="22" height="19" rx="3" fill="#dee2e6"/>
+  <rect x="317" y="222" width="22" height="19" rx="3" fill="#dee2e6"/>
+  <rect x="344" y="222" width="22" height="19" rx="3" fill="#dee2e6"/>
+  <rect x="290" y="247" width="22" height="19" rx="3" fill="#dee2e6"/>
+  <rect x="317" y="247" width="22" height="19" rx="3" fill="#dee2e6"/>
+  <rect x="344" y="247" width="22" height="19" rx="3" fill="#dee2e6"/>
+  <rect x="30" y="338" width="340" height="44" rx="14" fill="#fff4ec" stroke="#e8590c" stroke-width="2.5"/>
+  <path d="M310,339 L328,282 L332,339" fill="#fff4ec" stroke="#e8590c" stroke-width="2.5" stroke-linejoin="round"/>
+  <line x1="312" y1="339" x2="330" y2="339" stroke="#fff4ec" stroke-width="4"/>
+  <text x="200" y="366" text-anchor="middle" font-size="17" font-weight="700" fill="#e8590c">Datei 1024 · Leitung 1000 · × 8</text>
+
+</svg>

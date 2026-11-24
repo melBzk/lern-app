@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 290" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Leiterbahnen bilden den Bus: Zwischen den Chips CPU und RAM liegen viele feine Leiterbahnen parallel nebeneinander. Zusammen sind sie ein Bus. Es gibt drei Bus-Arten, mehr dazu in Modul T02-9.</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker></defs>
+<rect width="400" height="290" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">Leiterbahnen bilden den Bus</text>
+
+<text x="200" y="60" text-anchor="middle" font-size="14" font-weight="700" fill="#D4607A">Bus = viele Leiterbahnen nebeneinander</text>
+<path d="M120,84 q0,-8 8,-8 h64 q8,0 8,-8 q0,8 8,8 h64 q8,0 8,8" fill="none" stroke="#D4607A" stroke-width="2.5"/>
+
+<g stroke="#c9a227" stroke-width="2.5">
+<line x1="110" y1="92" x2="290" y2="92"/><line x1="110" y1="103" x2="290" y2="103"/><line x1="110" y1="114" x2="290" y2="114"/><line x1="110" y1="125" x2="290" y2="125"/><line x1="110" y1="136" x2="290" y2="136"/><line x1="110" y1="147" x2="290" y2="147"/><line x1="110" y1="158" x2="290" y2="158"/><line x1="110" y1="169" x2="290" y2="169"/><line x1="110" y1="180" x2="290" y2="180"/><line x1="110" y1="191" x2="290" y2="191"/>
+</g>
+
+<rect x="14" y="80" width="96" height="122" rx="6" fill="#263238"/>
+<text x="62" y="148" text-anchor="middle" font-size="18" font-weight="700" fill="#fff">CPU</text>
+<rect x="290" y="80" width="96" height="122" rx="6" fill="#263238"/>
+<text x="338" y="148" text-anchor="middle" font-size="18" font-weight="700" fill="#fff">RAM</text>
+
+<line x1="200" y1="222" x2="200" y2="196" stroke="#333" stroke-width="1.5" marker-end="url(#a)"/>
+<text x="200" y="238" text-anchor="middle" font-size="13">eine einzelne Leiterbahn</text>
+
+<text x="200" y="274" text-anchor="middle" font-size="13" fill="#555">3 Bus-Arten → Modul T02-9</text>
+</svg>

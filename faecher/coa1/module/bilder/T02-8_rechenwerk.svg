@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 450" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Das Rechenwerk mit drei Fächern: ALU für plus, minus, mal, geteilt, UND, ODER, NICHT und Vergleiche; FPU für Kommazahlen wie 3,75 mal 1,2; Register als kleine Zwischenablage-Fächer mit Zahlen.</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker><marker id="o" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E07B00"/></marker><marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker><marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker><marker id="p" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7b3fa0"/></marker><marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6b4f"/></marker></defs>
+<rect width="400" height="450" fill="#fff"/>
+<text x="200.0" y="26" font-size="17" text-anchor="middle" font-weight="700" >Das Rechenwerk</text>
+<rect x="8" y="40" width="384" height="400" rx="12" fill="#f7f9fd" stroke="#3a6ed8" stroke-width="2.5" />
+<rect x="20" y="52" width="360" height="140" rx="8" fill="#fff" stroke="#3a6ed8" stroke-width="1.5" />
+<text x="34" y="80" font-size="18" font-weight="700" fill="#3a6ed8" >ALU</text>
+<text x="34" y="100" font-size="13" fill="#555" >rechnen,</text>
+<text x="34" y="116" font-size="13" fill="#555" >verknüpfen,</text>
+<text x="34" y="132" font-size="13" fill="#555" >vergleichen</text>
+<text x="250" y="92" font-size="26" text-anchor="middle" font-weight="700" >+   −   ×   ÷</text>
+<text x="250" y="132" font-size="16" text-anchor="middle" font-weight="700" >UND   ODER   NICHT</text>
+<text x="250" y="172" font-size="24" text-anchor="middle" font-weight="700" >=   ≠   &gt;</text>
+<rect x="20" y="204" width="360" height="100" rx="8" fill="#fff" stroke="#3a6ed8" stroke-width="1.5" />
+<text x="34" y="232" font-size="18" font-weight="700" fill="#3a6ed8" >FPU</text>
+<text x="34" y="252" font-size="13" fill="#555" >Komma-</text>
+<text x="34" y="268" font-size="13" fill="#555" >zahlen</text>
+<text x="250" y="266" font-size="30" font-weight="700" text-anchor="middle">3<tspan fill="#E07B00" font-size="40">,</tspan>75 × 1<tspan fill="#E07B00" font-size="40">,</tspan>2</text>
+<text x="250" y="292" font-size="14" text-anchor="middle" font-weight="700" fill="#E07B00" >Kommazahlen</text>
+<rect x="20" y="316" width="360" height="112" rx="8" fill="#fff" stroke="#3a6ed8" stroke-width="1.5" />
+<text x="34" y="344" font-size="18" font-weight="700" fill="#3a6ed8" >Register</text>
+<text x="34" y="364" font-size="13" fill="#555" >Zwischen-</text>
+<text x="34" y="380" font-size="13" fill="#555" >ablage</text>
+<rect x="140" y="336" width="50" height="40" rx="3" fill="#f4f1ee" stroke="#888" stroke-width="1.5" />
+<text x="165" y="362" font-size="18" text-anchor="middle" font-weight="700" >7</text>
+<rect x="157" y="380" width="16" height="5" rx="2" fill="#888" stroke="none" stroke-width="0" />
+<rect x="198" y="336" width="50" height="40" rx="3" fill="#f4f1ee" stroke="#888" stroke-width="1.5" />
+<text x="223" y="362" font-size="18" text-anchor="middle" font-weight="700" >5</text>
+<rect x="215" y="380" width="16" height="5" rx="2" fill="#888" stroke="none" stroke-width="0" />
+<rect x="256" y="336" width="50" height="40" rx="3" fill="#f4f1ee" stroke="#888" stroke-width="1.5" />
+<text x="281" y="362" font-size="18" text-anchor="middle" font-weight="700" >12</text>
+<rect x="273" y="380" width="16" height="5" rx="2" fill="#888" stroke="none" stroke-width="0" />
+<rect x="314" y="336" width="50" height="40" rx="3" fill="#f4f1ee" stroke="#888" stroke-width="1.5" />
+<text x="339" y="362" font-size="18" text-anchor="middle" font-weight="700" >0</text>
+<rect x="331" y="380" width="16" height="5" rx="2" fill="#888" stroke="none" stroke-width="0" />
+<text x="250" y="412" font-size="13" text-anchor="middle" fill="#555" >kleine Fächer für Zwischenergebnisse</text>
+</svg>

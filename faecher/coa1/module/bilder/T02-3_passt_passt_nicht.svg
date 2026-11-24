@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 390" font-family="system-ui, sans-serif">
+  <title>Zwei Szenen im gleichen Maßstab. Links: Ein großes ATX-Board (305 × 244 mm) soll in ein kleines ITX-Gehäuse, es ragt heraus, rotes X: passt nicht. Rechts: Ein kleines Mini-ITX-Board (170 × 170 mm) sitzt in einem großen ATX-Gehäuse (Midi Tower), grüner Haken: passt.</title>
+  <defs>
+    <marker id="sp" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#555"/>
+    </marker>
+  </defs>
+  <rect width="400" height="390" fill="#fff"/>
+  <text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700" fill="#222">Passt das Board ins Gehäuse?</text>
+  <text x="200" y="47" text-anchor="middle" font-size="13" fill="#666">gleicher Maßstab</text>
+  <line x1="200" y1="60" x2="200" y2="370" stroke="#ddd" stroke-width="2"/>
+
+  <!-- Links: ATX in ITX -->
+  <rect x="55" y="118" width="137" height="110" fill="#cfe0fb" stroke="#3a6ed8" stroke-width="2.5"/>
+  <rect x="22" y="148" width="95" height="95" fill="none" stroke="#333" stroke-width="3.5"/>
+  <text x="156" y="160" text-anchor="middle" font-size="15" font-weight="700" fill="#2550a8">ATX</text>
+  <text x="156" y="178" text-anchor="middle" font-size="13" fill="#2550a8">305 × 244</text>
+  <text x="156" y="194" text-anchor="middle" font-size="13" fill="#2550a8">mm</text>
+  <line x1="110" y1="104" x2="78" y2="104" stroke="#555" stroke-width="2" marker-end="url(#sp)"/>
+  <text x="70" y="264" text-anchor="middle" font-size="14" font-weight="700" fill="#222">ITX-Gehäuse</text>
+  <g stroke="#d43c3c" stroke-width="6" stroke-linecap="round">
+    <line x1="82" y1="290" x2="114" y2="322"/><line x1="114" y1="290" x2="82" y2="322"/>
+  </g>
+  <text x="98" y="354" text-anchor="middle" font-size="15" font-weight="700" fill="#d43c3c">passt nicht</text>
+
+  <!-- Rechts: Mini-ITX in ATX-Gehäuse -->
+  <rect x="236" y="92" width="76.5" height="76.5" fill="#fde3c4" stroke="#e08a2e" stroke-width="2.5"/>
+  <text x="274" y="126" text-anchor="middle" font-size="13" font-weight="700" fill="#a8590f">Mini-ITX</text>
+  <text x="274" y="144" text-anchor="middle" font-size="13" fill="#a8590f">170 × 170</text>
+  <text x="274" y="160" text-anchor="middle" font-size="13" fill="#a8590f">mm</text>
+  <rect x="222" y="74" width="160" height="172" rx="4" fill="none" stroke="#333" stroke-width="3.5"/>
+  <text x="302" y="264" text-anchor="middle" font-size="14" font-weight="700" fill="#222">ATX-Gehäuse</text>
+  <text x="302" y="281" text-anchor="middle" font-size="13" fill="#222">(Midi Tower)</text>
+  <path d="M286,306 L298,318 L320,294" fill="none" stroke="#2e9d5b" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="302" y="354" text-anchor="middle" font-size="15" font-weight="700" fill="#2e9d5b">passt</text>
+</svg>

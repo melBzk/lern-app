@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 440" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Stromanschlüsse vom Netzteil: Der lange zweireihige 24-polige ATX-Stecker ist der Hauptstrom fürs Mainboard. Der 4- oder 8-polige Stecker ist Zusatzstrom für die CPU. Der 6- oder 8-polige Stecker ist Zusatzstrom für die Grafikkarte. Alle Kabel kommen vom Netzteil. Polig heißt: so viele Kontakte hat der Stecker.</title>
+<rect width="400" height="440" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">Strom vom Netzteil</text>
+
+<!-- Netzteil -->
+<rect x="8" y="48" width="76" height="370" rx="6" fill="#455a64"/>
+<circle cx="46" cy="96" r="24" fill="#78909c" stroke="#cfd8dc" stroke-width="2"/>
+<g stroke="#cfd8dc" stroke-width="2"><line x1="28" y1="96" x2="64" y2="96"/><line x1="46" y1="78" x2="46" y2="114"/></g>
+<text transform="translate(52,260) rotate(-90)" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">Netzteil</text>
+
+<!-- Kabel -->
+<g fill="none" stroke="#333" stroke-width="5"><path d="M84,88 H120"/><path d="M84,198 H120"/><path d="M84,336 H120"/></g>
+
+<!-- 1: 24-polig -->
+<rect x="120" y="70" width="176" height="36" rx="3" fill="#222"/>
+<g fill="#f5f5f5">
+<rect x="125" y="74" width="10" height="11" rx="2"/><rect x="139" y="74" width="10" height="11" rx="2"/><rect x="153" y="74" width="10" height="11" rx="2"/><rect x="167" y="74" width="10" height="11" rx="2"/><rect x="181" y="74" width="10" height="11" rx="2"/><rect x="195" y="74" width="10" height="11" rx="2"/><rect x="209" y="74" width="10" height="11" rx="2"/><rect x="223" y="74" width="10" height="11" rx="2"/><rect x="237" y="74" width="10" height="11" rx="2"/><rect x="251" y="74" width="10" height="11" rx="2"/><rect x="265" y="74" width="10" height="11" rx="2"/><rect x="279" y="74" width="10" height="11" rx="2"/>
+<rect x="125" y="90" width="10" height="11" rx="2"/><rect x="139" y="90" width="10" height="11" rx="2"/><rect x="153" y="90" width="10" height="11" rx="2"/><rect x="167" y="90" width="10" height="11" rx="2"/><rect x="181" y="90" width="10" height="11" rx="2"/><rect x="195" y="90" width="10" height="11" rx="2"/><rect x="209" y="90" width="10" height="11" rx="2"/><rect x="223" y="90" width="10" height="11" rx="2"/><rect x="237" y="90" width="10" height="11" rx="2"/><rect x="251" y="90" width="10" height="11" rx="2"/><rect x="265" y="90" width="10" height="11" rx="2"/><rect x="279" y="90" width="10" height="11" rx="2"/>
+</g>
+<text x="120" y="128" font-size="15" font-weight="700">24-polig ATX</text>
+<text x="120" y="147" font-size="14" fill="#D4607A" font-weight="700">Hauptstrom fürs Mainboard</text>
+
+<!-- 2: CPU -->
+<rect x="120" y="180" width="30" height="36" rx="3" fill="#222"/>
+<rect x="154" y="180" width="30" height="36" rx="3" fill="#222"/>
+<g fill="#f5f5f5"><rect x="124" y="184" width="10" height="11" rx="2"/><rect x="137" y="184" width="10" height="11" rx="2"/><rect x="124" y="200" width="10" height="11" rx="2"/><rect x="137" y="200" width="10" height="11" rx="2"/><rect x="158" y="184" width="10" height="11" rx="2"/><rect x="171" y="184" width="10" height="11" rx="2"/><rect x="158" y="200" width="10" height="11" rx="2"/><rect x="171" y="200" width="10" height="11" rx="2"/></g>
+<text x="196" y="194" font-size="13">4-polig oder</text>
+<text x="196" y="212" font-size="13">8-polig (2 × 4)</text>
+<text x="120" y="244" font-size="14" fill="#D4607A" font-weight="700">Zusatzstrom für die CPU</text>
+
+<!-- 3: PCIe -->
+<rect x="120" y="318" width="44" height="36" rx="3" fill="#222"/>
+<rect x="168" y="318" width="18" height="36" rx="3" fill="#222"/>
+<g fill="#f5f5f5"><rect x="124" y="322" width="10" height="11" rx="2"/><rect x="137" y="322" width="10" height="11" rx="2"/><rect x="150" y="322" width="10" height="11" rx="2"/><rect x="124" y="338" width="10" height="11" rx="2"/><rect x="137" y="338" width="10" height="11" rx="2"/><rect x="150" y="338" width="10" height="11" rx="2"/><rect x="172" y="322" width="10" height="11" rx="2"/><rect x="172" y="338" width="10" height="11" rx="2"/></g>
+<text x="198" y="332" font-size="13">6-polig oder</text>
+<text x="198" y="350" font-size="13">8-polig</text>
+<text x="120" y="378" font-size="15" font-weight="700">6- oder 8-polig</text>
+<text x="120" y="397" font-size="14" fill="#D4607A" font-weight="700">Zusatzstrom für die Grafikkarte</text>
+<text x="120" y="428" font-size="13" fill="#555">polig = Anzahl der Kontakte</text>
+</svg>

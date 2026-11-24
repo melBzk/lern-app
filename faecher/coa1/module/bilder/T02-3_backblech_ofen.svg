@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 380" font-family="system-ui, sans-serif">
+  <title>Vergleich Backofen und Backbleche: Der Ofen mit Einschubschienen steht für das Gehäuse, die Bleche für Mainboards. Das große Blech passt nicht in den kleinen Ofen (rotes X), das kleine Blech passt (grüner Haken). Formfaktor bedeutet: genormte Blechgröße.</title>
+  <defs>
+    <marker id="spitze" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#555"/>
+    </marker>
+  </defs>
+  <rect width="400" height="380" fill="#fff"/>
+  <text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700" fill="#222">Backblech und Backofen</text>
+
+  <!-- Ofen -->
+  <text x="95" y="62" text-anchor="middle" font-size="15" font-weight="700" fill="#222">Ofen = Gehäuse</text>
+  <rect x="20" y="74" width="150" height="190" rx="8" fill="#e6e6e6" stroke="#555" stroke-width="2.5"/>
+  <rect x="20" y="74" width="150" height="26" rx="8" fill="#cfcfcf" stroke="#555" stroke-width="2.5"/>
+  <circle cx="44" cy="87" r="7" fill="#fff" stroke="#555"/><circle cx="68" cy="87" r="7" fill="#fff" stroke="#555"/>
+  <rect x="34" y="112" width="122" height="138" fill="#3a3a3a"/>
+  <g stroke="#bbb" stroke-width="3">
+    <line x1="34" y1="146" x2="46" y2="146"/><line x1="144" y1="146" x2="156" y2="146"/>
+    <line x1="34" y1="180" x2="46" y2="180"/><line x1="144" y1="180" x2="156" y2="180"/>
+    <line x1="34" y1="214" x2="46" y2="214"/><line x1="144" y1="214" x2="156" y2="214"/>
+  </g>
+  <text x="95" y="134" text-anchor="middle" font-size="13" fill="#fff">Schienen</text>
+  <!-- Innenbreite -->
+  <line x1="36" y1="276" x2="154" y2="276" stroke="#555" stroke-width="1.5"/>
+  <line x1="36" y1="270" x2="36" y2="282" stroke="#555" stroke-width="1.5"/>
+  <line x1="154" y1="270" x2="154" y2="282" stroke="#555" stroke-width="1.5"/>
+  <text x="95" y="296" text-anchor="middle" font-size="13" fill="#555">Innenbreite</text>
+
+  <!-- Bleche -->
+  <text x="295" y="62" text-anchor="middle" font-size="15" font-weight="700" fill="#222">Bleche = Mainboards</text>
+  <!-- groß -->
+  <rect x="200" y="90" width="180" height="22" rx="3" fill="#b9b9b9" stroke="#555" stroke-width="2"/>
+  <g stroke="#d43c3c" stroke-width="5" stroke-linecap="round">
+    <line x1="278" y1="120" x2="302" y2="144"/><line x1="302" y1="120" x2="278" y2="144"/>
+  </g>
+  <text x="290" y="164" text-anchor="middle" font-size="13" fill="#d43c3c">zu groß, passt nicht</text>
+  <!-- mittel -->
+  <rect x="226" y="186" width="130" height="20" rx="3" fill="#b9b9b9" stroke="#555" stroke-width="2"/>
+  <!-- klein -->
+  <rect x="246" y="232" width="92" height="20" rx="3" fill="#b9b9b9" stroke="#555" stroke-width="2"/>
+  <path d="M276,268 L288,280 L308,258" fill="none" stroke="#2e9d5b" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="292" y="300" text-anchor="middle" font-size="13" fill="#2e9d5b">passt</text>
+  <path d="M244,242 C210,242 190,214 160,214" fill="none" stroke="#2e9d5b" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#spitze)"/>
+
+  <!-- Merksatz -->
+  <rect x="20" y="322" width="360" height="40" rx="10" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+  <text x="200" y="348" text-anchor="middle" font-size="15" font-weight="700" fill="#222">Formfaktor = genormte Blechgröße</text>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 410" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Die Knopfzelle: Eine runde silberne Batterie wie in einer Uhr sitzt in einer Halterung auf dem Mainboard. Ist der Stecker gezogen und der PC ohne Strom, bleiben dank Knopfzelle die Uhrzeit und die BIOS-Einstellungen erhalten. Ist die Batterie leer und kein Strom da, gelten wieder die Standardeinstellungen.</title>
+<defs><marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2e7d32"/></marker><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker></defs>
+<rect width="400" height="410" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">Die Knopfzelle</text>
+
+<!-- Board mit Knopfzelle -->
+<rect x="10" y="44" width="200" height="150" rx="6" fill="#2f6b4f"/>
+<circle cx="110" cy="119" r="44" fill="#222"/>
+<circle cx="110" cy="119" r="36" fill="#cfd8dc" stroke="#90a4ae" stroke-width="2"/>
+<circle cx="110" cy="119" r="28" fill="none" stroke="#eceff1" stroke-width="2"/>
+<text x="110" y="128" text-anchor="middle" font-size="24" font-weight="700" fill="#607d8b">+</text>
+<line x1="110" y1="212" x2="110" y2="168" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+<text x="110" y="228" text-anchor="middle" font-size="15" font-weight="700">Knopfzelle</text>
+
+<!-- Stecker gezogen -->
+<rect x="236" y="62" width="40" height="58" rx="6" fill="#fff" stroke="#333" stroke-width="2"/>
+<circle cx="256" cy="82" r="4" fill="#333"/><circle cx="256" cy="100" r="4" fill="#333"/>
+<g stroke="#777" stroke-width="3"><line x1="300" y1="84" x2="312" y2="84"/><line x1="300" y1="98" x2="312" y2="98"/></g>
+<rect x="312" y="74" width="26" height="34" rx="4" fill="#333"/>
+<path d="M338,91 Q370,91 380,120" fill="none" stroke="#333" stroke-width="4"/>
+<path d="M280,54 l60,74 M340,54 l-60,74" stroke="#c62828" stroke-width="4" stroke-linecap="round" opacity="0.85"/>
+<text x="310" y="156" text-anchor="middle" font-size="13">Stecker gezogen:</text>
+<text x="310" y="174" text-anchor="middle" font-size="14" font-weight="700" fill="#c62828">kein Strom</text>
+
+<!-- Pfeile -->
+<g stroke="#2e7d32" stroke-width="3"><line x1="100" y1="240" x2="90" y2="268" marker-end="url(#g)"/><line x1="130" y1="240" x2="262" y2="272" marker-end="url(#g)"/></g>
+
+<!-- Uhr -->
+<circle cx="90" cy="306" r="32" fill="#fff" stroke="#333" stroke-width="3"/>
+<g stroke="#333" stroke-width="3" stroke-linecap="round"><line x1="90" y1="306" x2="90" y2="284"/><line x1="90" y1="306" x2="106" y2="314"/></g>
+<text x="90" y="358" text-anchor="middle" font-size="14" font-weight="700">Uhrzeit</text>
+
+<!-- Zahnrad -->
+<g transform="translate(290,306)" fill="#607d8b">
+<rect x="-6" y="-32" width="12" height="14" rx="2"/>
+<rect x="-6" y="-32" width="12" height="14" rx="2" transform="rotate(45)"/>
+<rect x="-6" y="-32" width="12" height="14" rx="2" transform="rotate(90)"/>
+<rect x="-6" y="-32" width="12" height="14" rx="2" transform="rotate(135)"/>
+<rect x="-6" y="-32" width="12" height="14" rx="2" transform="rotate(180)"/>
+<rect x="-6" y="-32" width="12" height="14" rx="2" transform="rotate(225)"/>
+<rect x="-6" y="-32" width="12" height="14" rx="2" transform="rotate(270)"/>
+<rect x="-6" y="-32" width="12" height="14" rx="2" transform="rotate(315)"/>
+<circle r="22"/><circle r="9" fill="#fff"/>
+</g>
+<text x="290" y="358" text-anchor="middle" font-size="14" font-weight="700">BIOS-Einstellungen</text>
+
+<text x="200" y="382" text-anchor="middle" font-size="15" font-weight="700" fill="#2e7d32">✓ bleiben erhalten</text>
+<text x="200" y="402" text-anchor="middle" font-size="13" fill="#555">Batterie leer + kein Strom → Standardeinstellungen</text>
+</svg>

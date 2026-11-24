@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 560" font-family="-apple-system,'Segoe UI',system-ui,sans-serif">
+  <title>Drei Familien von Speichermedien: magnetisch (Festplatte, Magnetband, Diskette – Magnet dreht oder spult), optisch (CD, DVD, Blu-ray – Laser liest), Flash (SSD, USB-Stick, Speicherkarte – nichts bewegt sich).</title>
+  <rect width="400" height="560" fill="#fff"/>
+  <text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">Drei Familien von Speichermedien</text>
+
+  <!-- ===== Familie 1: magnetisch (blau) ===== -->
+  <g transform="translate(0 42)">
+    <rect x="10" y="0" width="380" height="160" rx="12" fill="#eef3fc" stroke="#3a6ed8" stroke-width="2"/>
+    <path d="M10,12 a12,12 0 0 1 12,-12 h356 a12,12 0 0 1 12,12 v22 h-380 z" fill="#3a6ed8"/>
+    <!-- Hufeisenmagnet -->
+    <path d="M26,8 v10 a8,8 0 0 0 16,0 v-10" fill="none" stroke="#fff" stroke-width="4"/>
+    <text x="54" y="23" font-size="16" font-weight="700" fill="#fff">magnetisch</text>
+    <!-- HDD -->
+    <rect x="50" y="46" width="60" height="50" rx="6" fill="#d9dde3" stroke="#444" stroke-width="1.5"/>
+    <circle cx="74" cy="71" r="18" fill="#9fb3cf" stroke="#3a6ed8" stroke-width="1.5"/>
+    <circle cx="74" cy="71" r="4" fill="#444"/>
+    <line x1="104" y1="90" x2="80" y2="60" stroke="#666" stroke-width="4" stroke-linecap="round"/>
+    <text x="80" y="116" text-anchor="middle" font-size="14" font-weight="700">HDD</text>
+    <!-- Magnetband -->
+    <rect x="166" y="50" width="68" height="44" rx="5" fill="#555"/>
+    <circle cx="186" cy="72" r="12" fill="#c9a36b"/><circle cx="186" cy="72" r="4" fill="#555"/>
+    <circle cx="214" cy="72" r="12" fill="#c9a36b"/><circle cx="214" cy="72" r="4" fill="#555"/>
+    <text x="200" y="116" text-anchor="middle" font-size="14" font-weight="700">Magnetband</text>
+    <!-- Diskette -->
+    <rect x="296" y="46" width="48" height="50" rx="3" fill="#3a3f4a"/>
+    <rect x="308" y="46" width="24" height="16" fill="#c9ccd1"/>
+    <rect x="304" y="72" width="32" height="20" fill="#fff"/>
+    <text x="320" y="116" text-anchor="middle" font-size="14" font-weight="700">Diskette</text>
+    <path d="M10,128 h380 v20 a12,12 0 0 1 -12,12 h-356 a12,12 0 0 1 -12,-12 z" fill="#3a6ed8" opacity="0.15"/>
+    <text x="200" y="150" text-anchor="middle" font-size="15" font-weight="700" fill="#24489a">Magnet dreht oder spult</text>
+  </g>
+
+  <!-- ===== Familie 2: optisch (orange) ===== -->
+  <g transform="translate(0 216)">
+    <rect x="10" y="0" width="380" height="160" rx="12" fill="#fdf2e6" stroke="#d9791f" stroke-width="2"/>
+    <path d="M10,12 a12,12 0 0 1 12,-12 h356 a12,12 0 0 1 12,12 v22 h-380 z" fill="#d9791f"/>
+    <!-- Laser auf Scheibe -->
+    <ellipse cx="34" cy="24" rx="12" ry="4" fill="none" stroke="#fff" stroke-width="2"/>
+    <line x1="42" y1="4" x2="35" y2="22" stroke="#fff" stroke-width="3"/>
+    <text x="54" y="23" font-size="16" font-weight="700" fill="#fff">optisch</text>
+    <g>
+      <circle cx="80" cy="71" r="26" fill="#d6d9de" stroke="#888" stroke-width="1.5"/>
+      <circle cx="80" cy="71" r="6" fill="#fff" stroke="#888"/>
+      <text x="80" y="116" text-anchor="middle" font-size="14" font-weight="700">CD</text>
+      <circle cx="200" cy="71" r="26" fill="#f2c48e" stroke="#b5651d" stroke-width="1.5"/>
+      <circle cx="200" cy="71" r="6" fill="#fff" stroke="#b5651d"/>
+      <text x="200" y="116" text-anchor="middle" font-size="14" font-weight="700">DVD</text>
+      <circle cx="320" cy="71" r="26" fill="#a9c1ee" stroke="#3a6ed8" stroke-width="1.5"/>
+      <circle cx="320" cy="71" r="6" fill="#fff" stroke="#3a6ed8"/>
+      <text x="320" y="116" text-anchor="middle" font-size="14" font-weight="700">Blu-ray</text>
+    </g>
+    <path d="M10,128 h380 v20 a12,12 0 0 1 -12,12 h-356 a12,12 0 0 1 -12,-12 z" fill="#d9791f" opacity="0.15"/>
+    <text x="200" y="150" text-anchor="middle" font-size="15" font-weight="700" fill="#8a4a0f">Laser liest</text>
+  </g>
+
+  <!-- ===== Familie 3: Flash (grün) ===== -->
+  <g transform="translate(0 390)">
+    <rect x="10" y="0" width="380" height="160" rx="12" fill="#eaf6ee" stroke="#2e9e5b" stroke-width="2"/>
+    <path d="M10,12 a12,12 0 0 1 12,-12 h356 a12,12 0 0 1 12,12 v22 h-380 z" fill="#2e9e5b"/>
+    <!-- Mikrochip -->
+    <rect x="27" y="10" width="14" height="14" fill="#fff"/>
+    <path d="M24,13 h3 M24,17 h3 M24,21 h3 M41,13 h3 M41,17 h3 M41,21 h3" stroke="#fff" stroke-width="1.5"/>
+    <text x="54" y="23" font-size="16" font-weight="700" fill="#fff">Flash (Chips)</text>
+    <!-- SSD -->
+    <rect x="46" y="52" width="68" height="40" rx="4" fill="#3a3f4a"/>
+    <rect x="54" y="60" width="14" height="14" fill="#9fd6b4"/>
+    <rect x="73" y="60" width="14" height="14" fill="#9fd6b4"/>
+    <rect x="92" y="60" width="14" height="14" fill="#9fd6b4"/>
+    <text x="80" y="116" text-anchor="middle" font-size="14" font-weight="700">SSD</text>
+    <!-- USB-Stick -->
+    <rect x="170" y="58" width="42" height="28" rx="5" fill="#2e9e5b"/>
+    <rect x="212" y="62" width="20" height="20" fill="#c9ccd1" stroke="#777"/>
+    <rect x="218" y="67" width="5" height="4" fill="#777"/><rect x="218" y="73" width="5" height="4" fill="#777"/>
+    <text x="200" y="116" text-anchor="middle" font-size="14" font-weight="700">USB-Stick</text>
+    <!-- Speicherkarte -->
+    <path d="M304,46 h24 l10,10 v40 h-34 z" fill="#3a3f4a"/>
+    <rect x="309" y="78" width="24" height="12" fill="#fff"/>
+    <text x="320" y="116" text-anchor="middle" font-size="14" font-weight="700">Speicherkarte</text>
+    <path d="M10,128 h380 v20 a12,12 0 0 1 -12,12 h-356 a12,12 0 0 1 -12,-12 z" fill="#2e9e5b" opacity="0.15"/>
+    <text x="200" y="150" text-anchor="middle" font-size="15" font-weight="700" fill="#1c6b3c">nichts bewegt sich</text>
+  </g>
+</svg>

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Das Mainboard verbindet alles: Auf der Hauptplatine sitzen CPU-Sockel, RAM-Steckplätze, Steckplatz für die Grafikkarte und SATA für die Festplatte. Leiterbahnen (der Bus) verbinden sie. Über die externen Anschlüsse am linken Rand kommen Maus, Tastatur, Monitor und USB-Stick dazu.</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker></defs>
+<rect width="400" height="400" fill="#fff"/>
+<text x="200" y="28" text-anchor="middle" font-size="16" font-weight="700">Hauptaufgabe: alles miteinander verbinden</text>
+
+<!-- Mainboard -->
+<rect x="120" y="50" width="270" height="336" rx="10" fill="#e3f0e9" stroke="#2f6b4f" stroke-width="3"/>
+<text x="268" y="76" text-anchor="middle" font-size="15" font-weight="700" fill="#2f6b4f">Mainboard (Hauptplatine)</text>
+
+<!-- externe Anschlüsse -->
+<rect x="120" y="92" width="30" height="280" fill="#b9cfc3" stroke="#2f6b4f" stroke-width="1.5"/>
+<text transform="translate(140,232) rotate(-90)" text-anchor="middle" font-size="13" font-weight="700">externe Anschlüsse</text>
+
+<!-- Leiterbahnen -->
+<g stroke="#b8860b" stroke-width="2" fill="none">
+  <line x1="266" y1="128" x2="292" y2="128"/><line x1="266" y1="140" x2="292" y2="140"/><line x1="266" y1="152" x2="292" y2="152"/>
+  <line x1="208" y1="184" x2="208" y2="246"/><line x1="220" y1="184" x2="220" y2="246"/><line x1="232" y1="184" x2="232" y2="246"/>
+  <path d="M180,170 H164 V344 H270"/>
+  <line x1="150" y1="124" x2="180" y2="124"/><line x1="150" y1="136" x2="180" y2="136"/>
+</g>
+<text x="242" y="220" font-size="14" font-weight="700" fill="#D4607A">Leiterbahnen = Bus</text>
+
+<!-- CPU-Sockel -->
+<rect x="180" y="110" width="86" height="74" rx="4" fill="#fff" stroke="#333" stroke-width="2"/>
+<text x="223" y="143" text-anchor="middle" font-size="14" font-weight="700">CPU-</text>
+<text x="223" y="161" text-anchor="middle" font-size="14" font-weight="700">Sockel</text>
+
+<!-- RAM -->
+<rect x="292" y="96" width="88" height="98" rx="4" fill="#fff" stroke="#333" stroke-width="2"/>
+<g fill="#3a6ed8"><rect x="304" y="106" width="64" height="6"/><rect x="304" y="118" width="64" height="6"/><rect x="304" y="130" width="64" height="6"/><rect x="304" y="142" width="64" height="6"/></g>
+<text x="336" y="168" text-anchor="middle" font-size="13" font-weight="700">RAM-</text>
+<text x="336" y="185" text-anchor="middle" font-size="13" font-weight="700">Steckplätze</text>
+
+<!-- Grafik-Steckplatz -->
+<rect x="176" y="246" width="204" height="46" rx="4" fill="#fff" stroke="#333" stroke-width="2"/>
+<text x="278" y="265" text-anchor="middle" font-size="13" font-weight="700">Steckplatz Grafikkarte</text>
+<rect x="188" y="274" width="180" height="9" fill="#333"/>
+
+<!-- SATA -->
+<rect x="270" y="320" width="110" height="48" rx="4" fill="#fff" stroke="#333" stroke-width="2"/>
+<text x="325" y="340" text-anchor="middle" font-size="13" font-weight="700">SATA</text>
+<text x="325" y="358" text-anchor="middle" font-size="13">(Festplatte)</text>
+
+<!-- Pfeile nach außen -->
+<g stroke="#333" stroke-width="2"><line x1="120" y1="118" x2="90" y2="118" marker-end="url(#a)"/><line x1="120" y1="195" x2="90" y2="195" marker-end="url(#a)"/><line x1="120" y1="267" x2="90" y2="267" marker-end="url(#a)"/><line x1="120" y1="346" x2="90" y2="346" marker-end="url(#a)"/></g>
+
+<!-- Maus -->
+<ellipse cx="47" cy="118" rx="12" ry="17" fill="#fff" stroke="#333" stroke-width="2"/>
+<line x1="47" y1="101" x2="47" y2="113" stroke="#333" stroke-width="1.5"/>
+<text x="47" y="152" text-anchor="middle" font-size="13">Maus</text>
+<!-- Tastatur -->
+<rect x="14" y="182" width="68" height="26" rx="3" fill="#fff" stroke="#333" stroke-width="2"/>
+<g fill="#777"><rect x="19" y="187" width="8" height="7"/><rect x="31" y="187" width="8" height="7"/><rect x="43" y="187" width="8" height="7"/><rect x="55" y="187" width="8" height="7"/><rect x="67" y="187" width="8" height="7"/><rect x="19" y="197" width="8" height="7"/><rect x="31" y="197" width="32" height="7"/><rect x="67" y="197" width="8" height="7"/></g>
+<text x="48" y="228" text-anchor="middle" font-size="13">Tastatur</text>
+<!-- Monitor -->
+<rect x="18" y="246" width="60" height="38" rx="3" fill="#e8f0fe" stroke="#333" stroke-width="2"/>
+<line x1="48" y1="284" x2="48" y2="292" stroke="#333" stroke-width="3"/><line x1="36" y1="293" x2="60" y2="293" stroke="#333" stroke-width="3"/>
+<text x="48" y="312" text-anchor="middle" font-size="13">Monitor</text>
+<!-- USB-Stick -->
+<rect x="20" y="338" width="42" height="16" rx="3" fill="#3a6ed8"/>
+<rect x="62" y="341" width="14" height="10" fill="#d9d9d9" stroke="#555"/>
+<text x="48" y="376" text-anchor="middle" font-size="13">USB-Stick</text>
+</svg>

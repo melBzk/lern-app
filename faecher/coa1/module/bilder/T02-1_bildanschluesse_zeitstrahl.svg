@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 320" font-family="system-ui, sans-serif">
+  <title>Zeitstrahl der Bildschirm-Anschlüsse von links nach rechts: VGA (analog, steinalt), DVI (digital, alt), dann HDMI und DisplayPort nebeneinander (beide digital, aktuell). HDMI und DisplayPort sind zwei parallele Standards, DisplayPort ist kein Nachfolger von HDMI.</title>
+  <defs>
+    <marker id="spitze" viewBox="0 0 10 10" refX="8" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#2e9d5b"/>
+    </marker>
+  </defs>
+  <rect width="400" height="320" fill="#fff"/>
+  <text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700" fill="#222">Bildschirm-Anschlüsse im Zeitstrahl</text>
+
+  <!-- Klammer über HDMI + DP -->
+  <path d="M242,84 V74 H380 V84" fill="none" stroke="#D4607A" stroke-width="2"/>
+  <text x="311" y="64" text-anchor="middle" font-size="13" font-weight="700" fill="#D4607A">zwei parallele Standards</text>
+
+  <!-- VGA: 15 Stifte in 3 Reihen -->
+  <path d="M22,92 H108 L99,132 H31 Z" fill="#3a6ed8" stroke="#2550a8" stroke-width="2"/>
+  <g fill="#fff">
+    <circle cx="41" cy="102" r="2.6"/><circle cx="53" cy="102" r="2.6"/><circle cx="65" cy="102" r="2.6"/><circle cx="77" cy="102" r="2.6"/><circle cx="89" cy="102" r="2.6"/>
+    <circle cx="44" cy="112" r="2.6"/><circle cx="56" cy="112" r="2.6"/><circle cx="68" cy="112" r="2.6"/><circle cx="80" cy="112" r="2.6"/><circle cx="92" cy="112" r="2.6"/>
+    <circle cx="41" cy="122" r="2.6"/><circle cx="53" cy="122" r="2.6"/><circle cx="65" cy="122" r="2.6"/><circle cx="77" cy="122" r="2.6"/><circle cx="89" cy="122" r="2.6"/>
+  </g>
+
+  <!-- DVI: viele Stifte + flaches Kreuz -->
+  <rect x="122" y="94" width="96" height="36" rx="3" fill="#fff" stroke="#555" stroke-width="2"/>
+  <g fill="#555">
+    <rect x="130" y="101" width="5" height="5"/><rect x="138" y="101" width="5" height="5"/><rect x="146" y="101" width="5" height="5"/><rect x="154" y="101" width="5" height="5"/><rect x="162" y="101" width="5" height="5"/><rect x="170" y="101" width="5" height="5"/><rect x="178" y="101" width="5" height="5"/><rect x="186" y="101" width="5" height="5"/>
+    <rect x="130" y="110" width="5" height="5"/><rect x="138" y="110" width="5" height="5"/><rect x="146" y="110" width="5" height="5"/><rect x="154" y="110" width="5" height="5"/><rect x="162" y="110" width="5" height="5"/><rect x="170" y="110" width="5" height="5"/><rect x="178" y="110" width="5" height="5"/><rect x="186" y="110" width="5" height="5"/>
+    <rect x="130" y="119" width="5" height="5"/><rect x="138" y="119" width="5" height="5"/><rect x="146" y="119" width="5" height="5"/><rect x="154" y="119" width="5" height="5"/><rect x="162" y="119" width="5" height="5"/><rect x="170" y="119" width="5" height="5"/><rect x="178" y="119" width="5" height="5"/><rect x="186" y="119" width="5" height="5"/>
+    <rect x="198" y="110" width="14" height="4"/><rect x="203" y="105" width="4" height="14"/>
+  </g>
+
+  <!-- HDMI: beide unteren Ecken abgeschrägt -->
+  <path d="M244,100 H304 V114 L295,124 H253 L244,114 Z" fill="#333"/>
+  <rect x="252" y="106" width="44" height="6" fill="#888"/>
+
+  <!-- DisplayPort: EINE Ecke abgeschrägt -->
+  <path d="M318,100 H378 V124 H330 L318,112 Z" fill="#333"/>
+  <rect x="330" y="107" width="40" height="6" fill="#888"/>
+
+  <!-- Namen -->
+  <g font-size="15" font-weight="700" text-anchor="middle" fill="#222">
+    <text x="65" y="154">VGA</text>
+    <text x="170" y="154">DVI</text>
+    <text x="274" y="154">HDMI</text>
+    <text x="348" y="154">DisplayPort</text>
+  </g>
+  <g font-size="13" text-anchor="middle" font-weight="700">
+    <text x="65" y="172" fill="#777">analog</text>
+    <text x="170" y="172" fill="#2e9d5b">digital</text>
+    <text x="274" y="172" fill="#2e9d5b">digital</text>
+    <text x="348" y="172" fill="#2e9d5b">digital</text>
+  </g>
+
+  <!-- Zeitstrahl -->
+  <line x1="14" y1="200" x2="116" y2="200" stroke="#999" stroke-width="6"/>
+  <line x1="116" y1="200" x2="378" y2="200" stroke="#2e9d5b" stroke-width="6" marker-end="url(#spitze)"/>
+  <g fill="#fff" stroke="#555" stroke-width="2">
+    <circle cx="65" cy="200" r="6"/>
+    <circle cx="170" cy="200" r="6"/>
+  </g>
+  <circle cx="274" cy="200" r="6" fill="#fff" stroke="#555" stroke-width="2"/><circle cx="348" cy="200" r="6" fill="#fff" stroke="#555" stroke-width="2"/>
+  <g font-size="13" text-anchor="middle" fill="#222">
+    <text x="65" y="226">steinalt</text>
+    <text x="170" y="226">alt</text>
+    <text x="311" y="226">aktuell (beide gleichzeitig)</text>
+  </g>
+  <g font-size="14" font-weight="700" text-anchor="middle">
+    <text x="65" y="252" fill="#777">analog</text>
+    <text x="250" y="252" fill="#2e9d5b">digital</text>
+  </g>
+
+  <text x="200" y="296" text-anchor="middle" font-size="13" font-weight="700" fill="#D4607A">DisplayPort ist KEIN Nachfolger von HDMI.</text>
+</svg>

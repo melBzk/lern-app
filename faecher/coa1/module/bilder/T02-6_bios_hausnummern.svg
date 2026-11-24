@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 392" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Der BIOS-Chip vergibt Hausnummern: Ein freundlicher BIOS-Chip mit Klemmbrett fragt beim Einschalten: Wer ist da? Jeder bekommt eine Hausnummer. In einer Straße stehen Häuser: Festplatte Nummer 1, Grafikkarte Nummer 2, Tastatur Nummer 3, Maus Nummer 4. Die Straße davor ist der Adressbus. Die CPU ist kein Haus: Sie ist der Absender und spricht jedes Gerät über seine Nummer an.</title>
+<rect width="400" height="392" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">BIOS vergibt Hausnummern</text>
+
+<!-- BIOS-Figur -->
+<g stroke="#555" stroke-width="3"><line x1="18" y1="104" x2="26" y2="104"/><line x1="18" y1="118" x2="26" y2="118"/><line x1="18" y1="132" x2="26" y2="132"/><line x1="94" y1="104" x2="102" y2="104"/><line x1="94" y1="118" x2="102" y2="118"/><line x1="94" y1="132" x2="102" y2="132"/><line x1="44" y1="150" x2="44" y2="162"/><line x1="76" y1="150" x2="76" y2="162"/></g>
+<rect x="26" y="88" width="68" height="62" rx="8" fill="#263238"/>
+<circle cx="47" cy="106" r="5" fill="#fff"/><circle cx="73" cy="106" r="5" fill="#fff"/>
+<path d="M48,118 Q60,128 72,118" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/>
+<text x="60" y="144" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">BIOS</text>
+<rect x="96" y="120" width="26" height="34" rx="2" fill="#d7ccc8" stroke="#6d4c41" stroke-width="1.5"/>
+<rect x="102" y="116" width="14" height="7" rx="1" fill="#6d4c41"/>
+<g stroke="#6d4c41" stroke-width="1.5"><line x1="100" y1="132" x2="118" y2="132"/><line x1="100" y1="139" x2="118" y2="139"/><line x1="100" y1="146" x2="114" y2="146"/></g>
+
+<!-- Sprechblase -->
+<path d="M140,46 H384 Q392,46 392,54 V104 Q392,112 384,112 H160 L130,128 L144,112 H140 Q132,112 132,104 V54 Q132,46 140,46 Z" fill="#fff" stroke="#333" stroke-width="2"/>
+<text x="262" y="72" text-anchor="middle" font-size="13">Beim Einschalten: Wer ist da?</text>
+<text x="262" y="96" text-anchor="middle" font-size="14" font-weight="700">Jeder bekommt eine Hausnummer!</text>
+
+<!-- Häuser -->
+<g fill="#9e9e9e"><polygon points="8,232 53,200 98,232"/><polygon points="105,232 150,200 195,232"/><polygon points="202,232 247,200 292,232"/><polygon points="299,232 344,200 389,232"/></g>
+<g fill="#f4f1ee" stroke="#555" stroke-width="2"><rect x="12" y="232" width="82" height="68"/><rect x="109" y="232" width="82" height="68"/><rect x="206" y="232" width="82" height="68"/><rect x="303" y="232" width="82" height="68"/></g>
+<g text-anchor="middle" font-size="13" font-weight="700"><text x="53" y="254">Festplatte</text><text x="150" y="254">Grafikkarte</text><text x="247" y="254">Tastatur</text><text x="344" y="254">Maus</text></g>
+<g fill="#D4607A"><rect x="28" y="264" width="50" height="22" rx="4"/><rect x="125" y="264" width="50" height="22" rx="4"/><rect x="222" y="264" width="50" height="22" rx="4"/><rect x="319" y="264" width="50" height="22" rx="4"/></g>
+<g text-anchor="middle" font-size="14" font-weight="700" fill="#fff"><text x="53" y="280">Nr. 1</text><text x="150" y="280">Nr. 2</text><text x="247" y="280">Nr. 3</text><text x="344" y="280">Nr. 4</text></g>
+<g fill="#9e9e9e"><rect x="47" y="300" width="12" height="14"/><rect x="144" y="300" width="12" height="14"/><rect x="241" y="300" width="12" height="14"/><rect x="338" y="300" width="12" height="14"/></g>
+
+<!-- Straße -->
+<rect x="0" y="314" width="400" height="38" fill="#616161"/>
+<line x1="0" y1="333" x2="400" y2="333" stroke="#fff" stroke-width="2" stroke-dasharray="14 10"/>
+<rect x="148" y="322" width="104" height="22" rx="4" fill="#616161"/>
+<text x="200" y="338" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">Adressbus</text>
+
+<text x="200" y="378" text-anchor="middle" font-size="13" fill="#555">Die CPU spricht jedes Gerät über seine Nummer an.</text>
+</svg>

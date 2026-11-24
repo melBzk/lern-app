@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 430" font-family="-apple-system,'Segoe UI',system-ui,sans-serif">
+  <title>Online-USV, vereinfachtes Schaltbild: 230 V Wechselspannung geht in den Gleichrichter (Wechsel- zu Gleichspannung). Im Normalbetrieb (grün) fließt der Strom weiter zum Wechselrichter (Gleich- zu Wechselspannung) und zum PC, ein Abzweig lädt die Batterie. Bei Stromausfall (rot) liefert die Batterie den Strom an den Wechselrichter. Der Strom läuft immer durch den Wechselrichter, deshalb ist keine Umschaltung nötig.</title>
+  <defs>
+    <marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1f9d55"/></marker>
+    <marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d63c3c"/></marker>
+  </defs>
+  <rect width="400" height="430" fill="#fff"/>
+  <text x="200" y="28" text-anchor="middle" font-size="16" font-weight="700">Online-USV: Der Strom läuft</text>
+  <text x="200" y="50" text-anchor="middle" font-size="16" font-weight="700">immer durch den Wechselrichter</text>
+  <text x="8" y="96" font-size="15" font-weight="700">230 V <tspan font-size="22" fill="#3a6ed8">~</tspan></text>
+  <path d="M8,140 L50,140" fill="none" stroke="#1f9d55" stroke-width="5" stroke-linejoin="round" marker-end="url(#g)"/>
+  <rect x="52" y="105" width="110" height="70" rx="8" fill="#f3f4f6" stroke="#555" stroke-width="1.5"/>
+  <text x="107.0" y="127.0" text-anchor="middle" font-size="14" font-weight="700">Gleich-</text>
+  <text x="107.0" y="145.0" text-anchor="middle" font-size="14" font-weight="700">richter</text>
+  <text x="107.0" y="164.0" text-anchor="middle" font-size="17" font-weight="700" fill="#3a6ed8">~ → =</text>
+  <path d="M162,140 L236,140" fill="none" stroke="#1f9d55" stroke-width="5" stroke-linejoin="round" marker-end="url(#g)"/>
+  <path d="M200,140 L200,258" fill="none" stroke="#1f9d55" stroke-width="5" stroke-linejoin="round" marker-end="url(#g)"/>
+  <rect x="238" y="105" width="110" height="70" rx="8" fill="#f3f4f6" stroke="#555" stroke-width="1.5"/>
+  <text x="293.0" y="127.0" text-anchor="middle" font-size="14" font-weight="700">Wechsel-</text>
+  <text x="293.0" y="145.0" text-anchor="middle" font-size="14" font-weight="700">richter</text>
+  <text x="293.0" y="164.0" text-anchor="middle" font-size="17" font-weight="700" fill="#3a6ed8">= → ~</text>
+  <path d="M348,140 L390,140" fill="none" stroke="#1f9d55" stroke-width="5" stroke-linejoin="round" marker-end="url(#g)"/>
+  <text x="392" y="128" text-anchor="end" font-size="15" font-weight="700">PC</text>
+  <rect x="165" y="260" width="70" height="50" rx="8" fill="#f3f4f6" stroke="#555" stroke-width="1.5"/>
+  <rect x="187" y="268" width="26" height="15" rx="2" fill="#fff" stroke="#333" stroke-width="1.5"/><rect x="213" y="272" width="3" height="7" fill="#333"/>
+  <text x="200" y="301" text-anchor="middle" font-size="13" font-weight="700">Batterie</text>
+  <path d="M235,285 L293,285 L293,177" fill="none" stroke="#d63c3c" stroke-width="5" stroke-linejoin="round" marker-end="url(#r)"/>
+  <text x="302" y="236" font-size="13" font-weight="700" fill="#1c6b3c">keine</text>
+  <text x="302" y="253" font-size="13" font-weight="700" fill="#1c6b3c">Umschaltung</text>
+  <text x="140" y="230" text-anchor="end" font-size="13" fill="#1c6b3c">lädt die</text>
+  <text x="140" y="246" text-anchor="end" font-size="13" fill="#1c6b3c">Batterie</text>
+  <rect x="10" y="340" width="380" height="62" rx="10" fill="#f8f9fa" stroke="#ddd"/>
+  <line x1="24" y1="361" x2="64" y2="361" stroke="#1f9d55" stroke-width="5"/>
+  <text x="74" y="366" font-size="14"><tspan font-weight="700" fill="#1c6b3c">grün:</tspan> Netz da (Normalbetrieb)</text>
+  <line x1="24" y1="384" x2="64" y2="384" stroke="#d63c3c" stroke-width="5"/>
+  <text x="74" y="389" font-size="14"><tspan font-weight="700" fill="#a32020">rot:</tspan> Stromausfall (Batterie liefert)</text>
+</svg>

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 540" font-family="system-ui, sans-serif">
+  <title>Daten-Anschlüsse nach außen, sechs Stecker jeweils von vorne und von der Seite: USB-A (flach, rechteckig, am Computer), USB-B (fast quadratisch, oben abgeschrägt, am Drucker oder Gerät), Micro-USB (klein, trapezförmig, ältere Handys), USB-C (klein, oval, beidseitig steckbar, neuer Standard), FireWire 400 (eine Seite rund, stirbt aus) und eSATA (flach, kaum noch genutzt).</title>
+  <defs>
+    <path id="grab" d="M0,18 V7 A7,7 0 0 1 14,7 V18 Z" fill="#7a7a7a"/>
+  </defs>
+  <rect width="400" height="540" fill="#fff"/>
+  <text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700" fill="#222">Daten-Anschlüsse nach außen</text>
+  <text x="200" y="47" text-anchor="middle" font-size="13" fill="#666">je Kachel: links von vorne, rechts von der Seite</text>
+
+  <!-- Kacheln -->
+  <g fill="#f4f1ee">
+    <rect x="10" y="60" width="185" height="150" rx="10"/>
+    <rect x="205" y="60" width="185" height="150" rx="10"/>
+    <rect x="10" y="220" width="185" height="150" rx="10"/>
+    <rect x="10" y="380" width="185" height="150" rx="10"/>
+    <rect x="205" y="380" width="185" height="150" rx="10"/>
+  </g>
+  <rect x="205" y="220" width="185" height="150" rx="10" fill="#eaf6ec" stroke="#2e9d5b" stroke-width="3"/>
+
+  <!-- 1 USB-A -->
+  <rect x="24" y="96" width="70" height="26" rx="2" fill="#d0d0d0" stroke="#555" stroke-width="2"/>
+  <rect x="32" y="101" width="54" height="9" fill="#fafafa" stroke="#888"/>
+  <g transform="translate(112,98)"><rect x="0" y="4" width="30" height="16" fill="#d0d0d0" stroke="#555" stroke-width="1.5"/><rect x="30" y="0" width="30" height="24" rx="3" fill="#555"/><rect x="60" y="9" width="12" height="6" fill="#555"/></g>
+  <text x="24" y="166" font-size="16" font-weight="700" fill="#222">USB-A</text>
+  <text x="24" y="186" font-size="13" fill="#222">am Computer</text>
+
+  <!-- 2 USB-B -->
+  <path d="M232,126 V92 L240,84 H264 L272,92 V126 Z" fill="#d0d0d0" stroke="#555" stroke-width="2"/>
+  <rect x="242" y="96" width="20" height="20" fill="#fafafa" stroke="#888"/>
+  <g transform="translate(300,93)"><rect x="0" y="2" width="24" height="26" fill="#d0d0d0" stroke="#555" stroke-width="1.5"/><rect x="24" y="0" width="30" height="30" rx="3" fill="#555"/><rect x="54" y="12" width="12" height="6" fill="#555"/></g>
+  <text x="219" y="166" font-size="16" font-weight="700" fill="#222">USB-B</text>
+  <text x="219" y="186" font-size="13" fill="#222">am Drucker / Gerät</text>
+
+  <!-- 3 Micro-USB -->
+  <path d="M30,264 H80 V272 L74,280 H36 L30,272 Z" fill="#d0d0d0" stroke="#555" stroke-width="2"/>
+  <rect x="38" y="267" width="34" height="4" fill="#fafafa"/>
+  <g transform="translate(112,262)"><rect x="0" y="5" width="20" height="10" fill="#d0d0d0" stroke="#555" stroke-width="1.5"/><rect x="20" y="0" width="30" height="20" rx="3" fill="#555"/><rect x="50" y="7" width="12" height="6" fill="#555"/></g>
+  <text x="24" y="326" font-size="16" font-weight="700" fill="#222">Micro-USB</text>
+  <text x="24" y="346" font-size="13" fill="#222">ältere Handys</text>
+
+  <!-- 4 USB-C -->
+  <rect x="224" y="261" width="66" height="22" rx="11" fill="#d0d0d0" stroke="#555" stroke-width="2"/>
+  <rect x="238" y="268" width="38" height="8" rx="2" fill="#fafafa" stroke="#888"/>
+  <g transform="translate(306,262)"><rect x="0" y="5" width="20" height="10" rx="5" fill="#d0d0d0" stroke="#555" stroke-width="1.5"/><rect x="20" y="0" width="30" height="20" rx="3" fill="#555"/><rect x="50" y="7" width="12" height="6" fill="#555"/></g>
+  <text x="219" y="326" font-size="16" font-weight="700" fill="#2e9d5b">USB-C</text>
+  <text x="219" y="346" font-size="13" fill="#222">neuer Standard</text>
+  <text x="219" y="362" font-size="13" fill="#222">beidseitig steckbar</text>
+
+  <!-- 5 FireWire 400 -->
+  <path d="M26,418 H70 A13,13 0 0 1 70,444 H26 Z" fill="#d0d0d0" stroke="#555" stroke-width="2"/>
+  <rect x="34" y="425" width="38" height="12" fill="#fafafa" stroke="#888"/>
+  <g transform="translate(112,419)"><rect x="0" y="4" width="22" height="16" fill="#d0d0d0" stroke="#555" stroke-width="1.5"/><rect x="22" y="0" width="30" height="24" rx="3" fill="#555"/><rect x="52" y="9" width="12" height="6" fill="#555"/></g>
+  <text x="24" y="486" font-size="16" font-weight="700" fill="#222">FireWire 400</text>
+  <use href="#grab" x="128" y="472"/>
+  <text x="24" y="506" font-size="13" fill="#222">stirbt aus</text>
+
+  <!-- 6 eSATA -->
+  <path d="M222,424 H292 V436 H286 V440 H228 V436 H222 Z" fill="#d0d0d0" stroke="#555" stroke-width="2"/>
+  <rect x="232" y="428" width="50" height="5" fill="#fafafa"/>
+  <g transform="translate(306,420)"><rect x="0" y="5" width="22" height="12" fill="#d0d0d0" stroke="#555" stroke-width="1.5"/><rect x="22" y="0" width="30" height="22" rx="3" fill="#555"/><rect x="52" y="8" width="12" height="6" fill="#555"/></g>
+  <text x="219" y="486" font-size="16" font-weight="700" fill="#222">eSATA</text>
+  <use href="#grab" x="276" y="472"/>
+  <text x="219" y="506" font-size="13" fill="#222">kaum noch</text>
+</svg>

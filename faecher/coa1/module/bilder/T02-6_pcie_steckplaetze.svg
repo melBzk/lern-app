@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 430" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>PCI-Express-Steckplätze: Im langen Steckplatz PCIe x16 steckt eine Grafikkarte mit zwei Lüftern, oben bekommt sie über ein Kabel Zusatzstrom mit 6 oder 8 Polen. Darunter im kurzen Steckplatz PCIe x1 eine kleine WLAN-Karte, ihr Antennenkabel führt nach außen. Heute haben Mainboards fast nur noch PCIe-Steckplätze.</title>
+<rect width="400" height="430" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">Steckplätze für Erweiterungskarten</text>
+
+<!-- Zusatzstrom -->
+<path d="M305,104 V64 H392" fill="none" stroke="#333" stroke-width="5"/>
+<text x="296" y="80" text-anchor="end" font-size="13" font-weight="700" fill="#D4607A">Zusatzstrom 6-/8-polig</text>
+<text x="392" y="56" text-anchor="end" font-size="13" fill="#555">zum Netzteil</text>
+
+<!-- Grafikkarte -->
+<rect x="44" y="98" width="12" height="128" fill="#9e9e9e"/>
+<rect x="56" y="110" width="274" height="108" rx="4" fill="#37474f"/>
+<rect x="290" y="100" width="30" height="10" fill="#111" stroke="#D4607A" stroke-width="2"/>
+<g><circle cx="128" cy="164" r="38" fill="#90a4ae" stroke="#cfd8dc" stroke-width="2"/><circle cx="252" cy="164" r="38" fill="#90a4ae" stroke="#cfd8dc" stroke-width="2"/></g>
+<g fill="#607d8b"><path d="M128,164 Q112,134 136,130 Z"/><path d="M128,164 Q160,154 162,176 Z"/><path d="M128,164 Q140,196 116,198 Z"/><path d="M128,164 Q96,176 94,152 Z"/><path d="M252,164 Q236,134 260,130 Z"/><path d="M252,164 Q284,154 286,176 Z"/><path d="M252,164 Q264,196 240,198 Z"/><path d="M252,164 Q220,176 218,152 Z"/></g>
+<g fill="#37474f"><circle cx="128" cy="164" r="8"/><circle cx="252" cy="164" r="8"/></g>
+<rect x="70" y="216" width="250" height="8" fill="#c9a227"/>
+
+<!-- Platine -->
+<rect x="0" y="222" width="400" height="150" fill="#2f6b4f"/>
+<rect x="60" y="222" width="270" height="12" rx="2" fill="#111" stroke="#9e9e9e"/>
+<text x="60" y="256" font-size="14" font-weight="700" fill="#fff">PCIe x16 – Grafikkarte</text>
+
+<!-- WLAN-Karte -->
+<rect x="44" y="276" width="10" height="62" fill="#9e9e9e"/>
+<rect x="54" y="280" width="70" height="46" rx="3" fill="#546e7a"/>
+<rect x="70" y="292" width="24" height="18" fill="#263238"/>
+<rect x="60" y="326" width="56" height="12" rx="2" fill="#111" stroke="#9e9e9e"/>
+<path d="M44,300 H14 V262" fill="none" stroke="#111" stroke-width="3"/>
+<circle cx="14" cy="258" r="5" fill="#111"/>
+<text x="136" y="300" font-size="14" font-weight="700" fill="#fff">WLAN-Karte</text>
+<text x="136" y="318" font-size="13" fill="#fff">Antennenkabel nach außen</text>
+<text x="136" y="342" font-size="14" font-weight="700" fill="#fff">PCIe x1</text>
+
+<rect x="10" y="384" width="380" height="40" rx="8" fill="#f4f1ee"/>
+<text x="200" y="402" text-anchor="middle" font-size="13" font-weight="700">Heute: fast nur noch PCIe-Steckplätze</text>
+<text x="200" y="418" text-anchor="middle" font-size="13">vor dem Kauf im Handbuch nachsehen</text>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 372" font-family="system-ui, sans-serif" role="img">
+  <title>Zwei Lochstreifen-Zeilen mit je 8 Feldern. Oben ohne Loch: 00000000 = 0, die kleinste Zahl. Unten alle 8 Felder gelocht: 11111111 = 255, die größte Zahl. Von 0 bis 255 gibt es 256 Möglichkeiten, weil die 0 mitzählt.</title>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker>
+    <marker id="as" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e8590c"/></marker>
+    <marker id="ab" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker>
+    <marker id="ak" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker>
+  </defs>
+  <rect width="400" height="372" fill="#fff"/>
+  <text x="200" y="28" text-anchor="middle" font-size="18" font-weight="700" fill="#222">8 Bit = 256 Möglichkeiten</text>
+  <rect x="72" y="52" width="32" height="32" fill="#f6ecd2" stroke="#7a6a48" stroke-width="1.5"/>
+  <rect x="104" y="52" width="32" height="32" fill="#f6ecd2" stroke="#7a6a48" stroke-width="1.5"/>
+  <rect x="136" y="52" width="32" height="32" fill="#f6ecd2" stroke="#7a6a48" stroke-width="1.5"/>
+  <rect x="168" y="52" width="32" height="32" fill="#f6ecd2" stroke="#7a6a48" stroke-width="1.5"/>
+  <rect x="200" y="52" width="32" height="32" fill="#f6ecd2" stroke="#7a6a48" stroke-width="1.5"/>
+  <rect x="232" y="52" width="32" height="32" fill="#f6ecd2" stroke="#7a6a48" stroke-width="1.5"/>
+  <rect x="264" y="52" width="32" height="32" fill="#f6ecd2" stroke="#7a6a48" stroke-width="1.5"/>
+  <rect x="296" y="52" width="32" height="32" fill="#f6ecd2" stroke="#7a6a48" stroke-width="1.5"/>
+  <text x="200" y="112" text-anchor="middle" font-size="18" font-weight="700" fill="#222">00000000 = 0</text>
+  <text x="200" y="132" text-anchor="middle" font-size="14" font-weight="400" fill="#444">kleinste Zahl: kein Loch</text>
+  <rect x="72" y="152" width="32" height="32" fill="#f6ecd2" stroke="#7a6a48" stroke-width="1.5"/>
+  <circle cx="88.0" cy="168.0" r="9.6" fill="#333"/>
+  <rect x="104" y="152" width="32" height="32" fill="#f6ecd2" stroke="#7a6a48" stroke-width="1.5"/>
+  <circle cx="120.0" cy="168.0" r="9.6" fill="#333"/>
+  <rect x="136" y="152" width="32" height="32" fill="#f6ecd2" stroke="#7a6a48" stroke-width="1.5"/>
+  <circle cx="152.0" cy="168.0" r="9.6" fill="#333"/>
+  <rect x="168" y="152" width="32" height="32" fill="#f6ecd2" stroke="#7a6a48" stroke-width="1.5"/>
+  <circle cx="184.0" cy="168.0" r="9.6" fill="#333"/>
+  <rect x="200" y="152" width="32" height="32" fill="#f6ecd2" stroke="#7a6a48" stroke-width="1.5"/>
+  <circle cx="216.0" cy="168.0" r="9.6" fill="#333"/>
+  <rect x="232" y="152" width="32" height="32" fill="#f6ecd2" stroke="#7a6a48" stroke-width="1.5"/>
+  <circle cx="248.0" cy="168.0" r="9.6" fill="#333"/>
+  <rect x="264" y="152" width="32" height="32" fill="#f6ecd2" stroke="#7a6a48" stroke-width="1.5"/>
+  <circle cx="280.0" cy="168.0" r="9.6" fill="#333"/>
+  <rect x="296" y="152" width="32" height="32" fill="#f6ecd2" stroke="#7a6a48" stroke-width="1.5"/>
+  <circle cx="312.0" cy="168.0" r="9.6" fill="#333"/>
+  <text x="200" y="212" text-anchor="middle" font-size="18" font-weight="700" fill="#222">11111111 = 255</text>
+  <text x="200" y="232" text-anchor="middle" font-size="14" font-weight="400" fill="#444">größte Zahl: alle 8 gelocht</text>
+  <rect x="60" y="252" width="280" height="80" rx="10" fill="#fff4ec" stroke="#e8590c" stroke-width="2.5"/>
+  <text x="200" y="286" text-anchor="middle" font-size="26" font-weight="700" fill="#e8590c">0 … 255</text>
+  <text x="200" y="316" text-anchor="middle" font-size="18" font-weight="700" fill="#e8590c">= 256 Möglichkeiten</text>
+  <text x="200" y="356" text-anchor="middle" font-size="14" font-weight="400" fill="#444">Die 0 zählt mit: 0 bis 255 sind 256 Zahlen.</text>
+
+</svg>

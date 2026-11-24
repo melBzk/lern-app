@@ -277,7 +277,7 @@ Gegliedert nach den **Kapiteln des Buchs** HERDT, *PC-Technik – Grundlagen* (2
 - Beim ATX-Board sind die externen Anschlüsse **auf der Platine aufgelötet** (I/O-Panel) und direkt von außen erreichbar (S. 22).
 - Unterricht: USB wird heute auf **USB-C** vereinheitlicht (für Altgeräte Adapter); Sound früher Klinke („AUX“), heute oft USB; FireWire (Kamera) und eSATA (externe Platten) sind durch USB ersetzt; WLAN-Karten führen ein Antennenkabel nach außen.
 
-> **FALLE:** In der Mitschrift steht „DisplayPort Nachfolger HDMI“. Das stimmt so nicht: **HDMI und DisplayPort sind zwei parallele digitale Standards** (HDMI v. a. für Fernseher, DisplayPort v. a. für PC-Monitore). Abgelöst haben beide den analogen **VGA** und den **DVI**-Anschluss.
+> **FALLE:** Im Unterricht (24.11.) hieß es „DisplayPort ist Nachfolger von HDMI“. Das stimmt nicht: **HDMI und DisplayPort sind zwei parallele digitale Standards** (HDMI v. a. für Fernseher, DisplayPort v. a. für PC-Monitore). Abgelöst haben beide den analogen **VGA** und den **DVI**-Anschluss.
 
 ### Formfaktoren & Gehäuse
 

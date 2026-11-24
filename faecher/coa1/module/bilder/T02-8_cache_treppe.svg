@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 425" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Treppe von oben schmal nach unten breit: Register, L1-, L2- und L3-Cache liegen in der CPU; darunter, über den engen Bus verbunden, der Arbeitsspeicher. Nach oben schneller, aber kleiner; nach unten größer, aber langsamer.</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker><marker id="o" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E07B00"/></marker><marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker><marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker><marker id="p" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7b3fa0"/></marker><marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6b4f"/></marker></defs>
+<rect width="400" height="425" fill="#fff"/>
+<text x="200.0" y="26" font-size="17" text-anchor="middle" font-weight="700" >Je näher am Rechenwerk, desto schneller</text>
+<rect x="62" y="44" width="276" height="236" rx="12" fill="#fdf0e0" stroke="#E07B00" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="330" y="62" font-size="14" text-anchor="end" font-weight="700" fill="#E07B00" >in der CPU</text>
+<rect x="145.0" y="70" width="110" height="44" rx="6" fill="#3a6ed8" stroke="none" stroke-width="0" />
+<text x="200" y="98" font-size="15" text-anchor="middle" font-weight="700" fill="#fff" >Register</text>
+<rect x="120.0" y="122" width="160" height="44" rx="6" fill="#5b86e0" stroke="none" stroke-width="0" />
+<text x="200" y="150" font-size="15" text-anchor="middle" font-weight="700" fill="#fff" >L1-Cache</text>
+<rect x="95.0" y="174" width="210" height="44" rx="6" fill="#7ea0e8" stroke="none" stroke-width="0" />
+<text x="200" y="202" font-size="15" text-anchor="middle" font-weight="700" fill="#fff" >L2-Cache</text>
+<rect x="70.0" y="226" width="260" height="44" rx="6" fill="#a3bcf0" stroke="none" stroke-width="0" />
+<text x="200" y="254" font-size="15" text-anchor="middle" font-weight="700" fill="#222" >L3-Cache</text>
+<path d="M178,284 C178,300 192,300 192,312 L192,326 C192,338 178,338 178,350 L222,350 C222,338 208,338 208,326 L208,312 C208,300 222,300 222,284 Z" fill="#e5e5e5" stroke="#888" stroke-width="1.5" />
+<text x="232" y="324" font-size="14" font-weight="700" fill="#E07B00" >Bus = Engstelle</text>
+<rect x="62" y="352" width="276" height="46" rx="6" fill="#c9c3bd" stroke="none" stroke-width="0" />
+<text x="200" y="381" font-size="15" text-anchor="middle" font-weight="700" >Arbeitsspeicher (RAM)</text>
+<text x="200" y="416" font-size="13" text-anchor="middle" fill="#555" >außerhalb der CPU</text>
+<line x1="24" y1="396" x2="24" y2="72" stroke="#222" stroke-width="2.5" marker-end="url(#a)" />
+<text x="44" y="240" font-size="14" text-anchor="middle" font-weight="700" transform="rotate(-90 44 240)">schneller, aber kleiner</text>
+<line x1="376" y1="72" x2="376" y2="396" stroke="#222" stroke-width="2.5" marker-end="url(#a)" />
+<text x="356" y="240" font-size="14" text-anchor="middle" font-weight="700" transform="rotate(90 356 240)">größer, aber langsamer</text>
+</svg>
