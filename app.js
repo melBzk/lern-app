@@ -441,6 +441,7 @@ function quizView() {
     <div class="card">
       <span class="tag">${FAECHER.length > 1 ? esc(f.name) + " · " : ""}${esc(themaName(Q))}${repeat ? " · Nochmal" : ""}</span>
       ${Q.kontext ? `<div class="kontext">${show(Q, Q.kontext)}</div>` : ""}
+      ${Q.img ? `<img class="qimg" src="${esc(Q.img)}" alt="Bild zur Frage">` : ""}
       <p class="q">${show(Q, Q.q)}</p>
       ${body}
       <div id="fb"></div>

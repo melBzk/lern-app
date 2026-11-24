@@ -785,6 +785,89 @@ const FRAGEN_B = [
     e:"OCR = Optical Character Recognition, oft zusammen mit Scannern genutzt.", s:"Mitschrift" }
 ];
 
+// ---------- Bildfragen (d = Buchkapitel direkt; Bilder: werkzeuge/quizbilder-erzeugen.ps1) ----------
+const B = n => "faecher/coa1/bilder/quiz/" + n + ".svg";
+const FRAGEN_C = [
+  // Kap. 9 · USB-Stecker
+  { d:9, img:B("usb-a"), q:"Welcher USB-Stecker ist das?",
+    o:["USB Typ A","USB Typ B","USB-C","Micro-USB"],
+    e:"Typ A ist flach und rechteckig. Die Typ-A-Buchse sitzt am Computer, die Typ-B-Buchse am Peripheriegerät.", s:"Buch S. 97" },
+  { d:9, img:B("usb-a3"), q:"Ein Typ-A-Stecker ist innen blau. Was zeigt die Farbe meist an?",
+    o:["USB 3.0 (SuperSpeed, 5 Gbit/s)","USB 1.1 (12 Mbit/s)","Der Stecker ist nur zum Laden","Thunderbolt"],
+    e:"USB-3.0-Stecker haben 9 statt 4 Kontakte. Der A-Stecker passt trotzdem auch in alte Buchsen.", s:"Buch S. 95–97 · Farbe Blau: Ergänzung (übliche Kennzeichnung)" },
+  { d:9, img:B("usb-b"), q:"Wo steckt man diesen Stecker typischerweise ein?",
+    o:["Am Peripheriegerät, z. B. Drucker oder externe 3,5″-Festplatte","Am Smartphone","Am Monitor als Bildanschluss","Am Mainboard als Stromanschluss"],
+    e:"Das ist USB Typ B. Typ A gehört an den Computer, Typ B an das Gerät.", s:"Buch S. 97" },
+  { d:9, img:B("usb-b3"), q:"Welcher Stecker ist das?",
+    o:["USB-3.0-Stecker Typ B","USB-2.0-Stecker Typ B","Mini-USB","eSATA"],
+    e:"Erkennbar am zusätzlichen „Aufsatz“ oben. Er passt nur in USB-3.0-B-Buchsen. Für ein USB-3.0-Gerät am USB-2.0-PC braucht man daher ein herkömmliches USB-Kabel.", s:"Buch S. 97" },
+  { d:9, img:B("usb-mini"), q:"Welcher Stecker ist das?",
+    o:["Mini-USB","Micro-USB","USB-C","USB Typ B"],
+    e:"Mini-USB ist höher als Micro-USB und trapezförmig. Beide gibt es für kleine Geräte wie Kameras und Handys, per Adapter sind sie kompatibel.", s:"Buch S. 97" },
+  { d:9, img:B("usb-micro"), q:"Welcher Stecker ist das?",
+    o:["Micro-USB","Mini-USB","USB-C","USB Typ A"],
+    e:"Micro-USB ist sehr flach, die unteren Ecken sind abgeschrägt. Er war lange der Standard bei Android-Handys.", s:"Buch S. 97 · Handy-Beispiel: Ergänzung" },
+  { d:9, img:B("usb-c"), q:"Welcher Stecker ist das?",
+    o:["USB-C","Micro-USB","Mini-USB","USB Typ A"],
+    e:"USB-C ist oval, 24-polig und verdrehsicher. Thunderbolt 3 und USB4 nutzen ebenfalls diesen Stecker.", s:"Buch S. 96–100" },
+  // Kap. 9 · Baum oder Kette
+  { d:9, img:B("struktur-baum"), q:"Geräte werden wie im Bild über Verteiler baumartig angeschlossen. Welche Schnittstelle arbeitet so?",
+    o:["USB","Thunderbolt","eSATA","PS/2"],
+    e:"USB arbeitet mit einer Baumstruktur, die Verteiler heißen Hubs. So lassen sich bis zu 127 Geräte anschließen.", s:"Buch S. 94, 100" },
+  { d:9, img:B("struktur-kette"), q:"Die Geräte hängen hintereinander in einer Kette. Welche Schnittstelle arbeitet so?",
+    o:["Thunderbolt","USB","eSATA","PS/2"],
+    e:"Thunderbolt kennt nur die Kette (Daisy-Chain), laut Buch bis 7 Geräte. Auch FireWire hängt Geräte in einer Kette an, bis 63.", s:"Buch S. 97–99" },
+  // Kap. 10 · RAID
+  { d:10, img:B("raid-a"), q:"Welcher RAID-Level ist hier dargestellt?",
+    o:["RAID 0","RAID 1","RAID 5","RAID 10"],
+    e:"RAID 0 = Striping: Die Blöcke werden abwechselnd auf die Platten verteilt, schnell, aber ohne Ausfallsicherheit.", s:"Buch S. 108" },
+  { d:10, img:B("raid-a"), q:"In diesem RAID fällt Platte 2 aus. Was passiert?",
+    o:["Das ganze RAID-Laufwerk ist unbrauchbar, alle Daten sind weg","Nichts, Platte 1 hat eine Kopie","Die Daten werden aus der Parität berechnet","Nur die Blöcke A2, A4, A6 fehlen, der Rest ist lesbar"],
+    e:"Bei RAID 0 (Striping) ist jede Datei über alle Platten verteilt. Fällt eine Platte aus, ist das gesamte RAID-Laufwerk unbrauchbar.", s:"Buch S. 108" },
+  { d:10, img:B("raid-b"), q:"Welcher RAID-Level ist hier dargestellt?",
+    o:["RAID 1","RAID 0","RAID 5","Kein RAID, sondern ein Backup"],
+    e:"RAID 1 = Spiegelung: Beide Platten enthalten dieselben Daten (Original und Kopie). Eine Platte darf ausfallen. Ein Backup ersetzt das trotzdem nicht.", s:"Buch S. 108" },
+  { d:10, img:B("raid-c"), q:"Welcher RAID-Level ist hier dargestellt? (P = Paritätsdaten)",
+    o:["RAID 5","RAID 0","RAID 1","RAID 10"],
+    e:"RAID 5 = Striping mit Parität: Daten und Parität werden auf mindestens drei Platten verteilt. Fällt eine Platte aus, werden ihre Daten aus der Parität rekonstruiert.", s:"Buch S. 108" },
+  { d:10, img:B("raid-c"), t:"calc", q:"Das RAID im Bild besteht aus drei 1-TB-Platten. Wie viel Speicherplatz ist nutzbar?",
+    a:2, tol:0.01, unit:"TB",
+    e:"Bei RAID 5 geht die Kapazität einer Platte für die Parität drauf: (3 − 1) × 1 TB = 2 TB.", s:"Buch S. 108 · Formel n − 1: Ergänzung" },
+  // Kap. 5 · Speicherhierarchie
+  { d:5, img:B("pyramide-luecke"), q:"Welche Ebene gehört an die Stelle mit dem Fragezeichen?",
+    o:["L3-Cache","L1-Cache","Register","Grafikspeicher"],
+    e:"Reihenfolge von oben: Register → L1 → L2 → L3 → RAM. Der L3-Cache ist der größte Cache und wird von allen Kernen gemeinsam genutzt.", s:"Buch S. 64" },
+  // Kap. 2 · Von Neumann und Bus
+  { d:2, img:B("vonneumann-luecke"), q:"Welche Funktionseinheit der Von-Neumann-Architektur fehlt im Bild?",
+    o:["Steuerwerk","Grafikkarte","Netzteil","Festplatte"],
+    e:"Die vier Funktionseinheiten sind Rechenwerk, Steuerwerk, Speicher und Ein-/Ausgabeeinheit. Rechen- und Steuerwerk sitzen heute gemeinsam in der CPU.", s:"Buch S. 5" },
+  { d:2, img:B("bus-richtung"), q:"Welcher Bus ist mit dem Fragezeichen markiert? Er überträgt in beide Richtungen.",
+    o:["Datenbus","Adressbus","Steuerbus","USB"],
+    e:"Der Datenbus arbeitet bidirektional. Auf Adress- und Steuerbus gehen die Signale nur vom Prozessor aus (unidirektional).", s:"Buch S. 7" },
+  // Kap. 19 · Datensicherung
+  { d:19, img:B("sicherung-a"), q:"Sonntag Vollsicherung, danach jeden Tag eine kleine Sicherung wie im Bild. Welche Sicherungsart ist das?",
+    o:["Inkrementelle Sicherung","Differenzielle Sicherung","Jeden Tag eine Vollsicherung","Spiegelung (RAID 1)"],
+    e:"Jede inkrementelle Sicherung enthält nur das Tagesdelta, weil das Archivbit danach zurückgesetzt wird.", s:"Buch S. 206" },
+  { d:19, img:B("sicherung-a"), q:"Mit dieser Strategie fällt am Samstag die Festplatte aus. Was musst du zurückspielen?",
+    o:["Die Vollsicherung vom Sonntag und alle Sicherungen von Mo bis Fr","Nur die Sicherung vom Freitag","Die Vollsicherung und nur die Sicherung vom Freitag","Nur die Vollsicherung vom Sonntag"],
+    e:"Bei inkrementeller Sicherung braucht man die Normal-Sicherung und alle inkrementellen Sicherungen danach.", s:"Buch S. 206" },
+  { d:19, img:B("sicherung-b"), q:"Die tägliche Sicherung wird jeden Tag größer, wie im Bild. Welche Sicherungsart ist das?",
+    o:["Differenzielle Sicherung","Inkrementelle Sicherung","Jeden Tag eine Vollsicherung","Image-Sicherung"],
+    e:"Bei der differenziellen Sicherung bleibt das Archivbit gesetzt. Jede Sicherung enthält alle Änderungen seit der letzten Vollsicherung. Zum Wiederherstellen braucht man nur die Vollsicherung und die letzte differenzielle.", s:"Buch S. 206" },
+  // Kap. 14 · Startvorgang
+  { d:14, img:B("start-luecke"), q:"Was passiert beim Starten des PCs an der Stelle mit dem Fragezeichen?",
+    o:["POST: Die Hardware wird initialisiert und geprüft","Winlogon: Der Benutzer meldet sich an","Ein BIOS-Update wird eingespielt","Windows wird neu installiert"],
+    e:"POST = Power-On Self-Test. Kritische Fehler (z. B. Mainboard) brechen den Start sofort ab.", s:"Buch S. 147" },
+  // Kap. 17 · IP-Einstellungen
+  { d:17, img:B("ip-luecke"), q:"Wie heißt die mit ??? markierte IP-Einstellung?",
+    o:["Standardgateway","DNS-Server","Subnetzmaske","DHCP-Server"],
+    e:"Ziele außerhalb des eigenen Netzes werden an das Standardgateway geschickt. Im Heimnetz ist das der Router.", s:"Buch S. 184" },
+  // Unterricht · Netzgrößen
+  { d:92, img:B("netz-luecke"), q:"Welches Netzwerk gehört an die Stelle mit dem Fragezeichen?",
+    o:["CAN – Campus Area Network","WLAN","PAN – Personal Area Network","GAN – Global Area Network"],
+    e:"Von klein nach groß: PAN – LAN – CAN – MAN – WAN – GAN. Das CAN umfasst ein Firmengelände. WLAN ist eine Technik, keine Größe.", s:"Mitschrift" }
+];
+
 // =================== Zusammenführen für die App: Themen = Buchkapitel ===================
 // Thema-Nummer = Kapitelnummer im Buch (HERDT, PC-Technik – Grundlagen 2020).
 // 90 und 92 = nur im Unterricht (kein Buchkapitel).
@@ -818,7 +901,8 @@ function zuordnen(Q, erlaubt, alt) {
   return { ...Q, hd: alt, d: erlaubt.includes(k) ? k : erlaubt[0], s: (Q.s || "").replace(/^Einheit \d+ · /, "") };
 }
 const fragen = FRAGEN_A.map(Q => zuordnen(Q, ERLAUBT_A[Q.d], Q.d))
-  .concat(FRAGEN_B.map(Q => zuordnen(Q, ERLAUBT_B[Q.d], Q.d + 100)));
+  .concat(FRAGEN_B.map(Q => zuordnen(Q, ERLAUBT_B[Q.d], Q.d + 100)))
+  .concat(FRAGEN_C.map(Q => ({ ...Q, hd: "bild" + Q.d, key: Q.img + "|" + Q.q })));
 
 const buch = Object.keys(themen).map(Number).filter(d => d < 90);
 registerFach({

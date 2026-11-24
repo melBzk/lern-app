@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" font-family="-apple-system,'Segoe UI',system-ui,sans-serif">
+<rect width="240" height="160" fill="#fff"/>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker></defs>
+<g transform="translate(24 29) scale(1.6)"><rect width="120" height="45" rx="2" fill="#d9d9d9" stroke="#555" stroke-width="2"/><rect x="10" y="8" width="100" height="16" fill="#1f5fd1" stroke="#164aa6"/><g fill="#c9a227"><rect x="20" y="24" width="12" height="5"/><rect x="44" y="24" width="12" height="5"/><rect x="64" y="24" width="12" height="5"/><rect x="88" y="24" width="12" height="5"/></g></g>
+<text x="120" y="150" text-anchor="middle" font-size="12" fill="#666">Stecker, Blick von vorn</text>
+</svg>
+

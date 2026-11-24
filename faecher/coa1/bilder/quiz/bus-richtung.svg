@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 170" font-family="-apple-system,'Segoe UI',system-ui,sans-serif">
+<rect width="400" height="170" fill="#fff"/>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker></defs>
+<rect x="12" y="12" width="90" height="146" rx="10" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<text x="57" y="90" text-anchor="middle" font-size="15" font-weight="700">CPU</text>
+<rect x="298" y="12" width="90" height="146" rx="10" fill="#e3f0e9" stroke="#2f6b4f" stroke-width="2"/>
+<text x="343" y="82" text-anchor="middle" font-size="13" font-weight="700">Speicher,</text>
+<text x="343" y="98" text-anchor="middle" font-size="13" font-weight="700">Geräte</text>
+<line x1="104" y1="44" x2="296" y2="44" stroke="#D4607A" stroke-width="4" marker-start="url(#a)" marker-end="url(#a)"/>
+<text x="200" y="34" text-anchor="middle" font-size="18" font-weight="700" fill="#D4607A">?</text>
+<line x1="104" y1="90" x2="296" y2="90" stroke="#555" stroke-width="2.5" marker-end="url(#a)"/>
+<text x="200" y="82" text-anchor="middle" font-size="12">Adressbus</text>
+<line x1="104" y1="134" x2="296" y2="134" stroke="#555" stroke-width="2.5" marker-end="url(#a)"/>
+<text x="200" y="126" text-anchor="middle" font-size="12">Steuerbus</text>
+</svg>
+

@@ -8,6 +8,10 @@ const FILES = ["./", "index.html", "style.css", "app.js", "manifest.webmanifest"
   "faecher/coa1/fragen.js", "faecher/coa1/wissensbasis.md",
   ...["von-neumann", "speicherpyramide", "usb-stecker", "usb-baum-kette", "raid", "startvorgang", "heimnetz", "datensicherung", "netzgroessen"]
     .map(n => "faecher/coa1/bilder/" + n + ".svg"),
+  ...["usb-a", "usb-a3", "usb-b", "usb-b3", "usb-mini", "usb-micro", "usb-c", "struktur-baum", "struktur-kette",
+      "raid-a", "raid-b", "raid-c", "pyramide-luecke", "vonneumann-luecke", "bus-richtung",
+      "sicherung-a", "sicherung-b", "start-luecke", "ip-luecke", "netz-luecke"]
+    .map(n => "faecher/coa1/bilder/quiz/" + n + ".svg"),
   "faecher/kare/fragen.js", "faecher/kare/wissensbasis.md"];
 
 self.addEventListener("install", e => {
