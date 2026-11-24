@@ -1,11 +1,13 @@
 // Speichert die App fürs Offline-Lernen.
 // Wenn du Fragen änderst: VERSION hochzählen, damit das Handy die neue Fassung lädt.
 // Neues Fach? Dessen Dateien hier ebenfalls eintragen.
-const VERSION = "v10";
+const VERSION = "v11";
 const FILES = ["./", "index.html", "style.css", "app.js", "manifest.webmanifest", "icon-180.png", "icon-192.png", "icon-512.png",
   "faecher/wiso/fragen.js", "faecher/wiso/wissensbasis.md",
   "faecher/ite1/fragen.js", "faecher/ite1/wissensbasis.md",
   "faecher/coa1/fragen.js", "faecher/coa1/wissensbasis.md",
+  ...["von-neumann", "speicherpyramide", "usb-stecker", "usb-baum-kette", "raid", "startvorgang", "heimnetz", "datensicherung", "netzgroessen"]
+    .map(n => "faecher/coa1/bilder/" + n + ".svg"),
   "faecher/kare/fragen.js", "faecher/kare/wissensbasis.md"];
 
 self.addEventListener("install", e => {

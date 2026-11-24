@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" font-family="-apple-system,'Segoe UI',system-ui,sans-serif">
+  <style>
+    .d{font-size:12.5px;font-weight:700;text-anchor:middle}
+    .c{font-size:10.5px;text-anchor:middle}
+    .t{font-size:14px;font-weight:700}
+    .s{font-size:12px}
+  </style>
+  <rect width="400" height="520" fill="#fff"/>
+  <text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">Inkrementell vs. differenziell</text>
+  <text x="200" y="44" text-anchor="middle" font-size="11.5" fill="#666">Strategie aus dem Buch: So Vollsicherung, Mo–Fr täglich</text>
+
+  <!-- Tage: Spalten x = 34, 96, 158, 220, 282, 344 (Breite 56) -->
+  <g class="d">
+    <text x="62" y="70">So</text><text x="124" y="70">Mo</text><text x="186" y="70">Di</text>
+    <text x="248" y="70">Mi</text><text x="310" y="70">Do</text><text x="372" y="70">Fr</text>
+  </g>
+
+  <!-- INKREMENTELL -->
+  <text x="8" y="96" class="t" fill="#3a6ed8">Inkrementell</text>
+  <text x="8" y="112" class="s">sichert nur die Änderungen seit der letzten Sicherung (egal welcher)</text>
+  <rect x="34" y="122" width="56" height="70" rx="6" fill="#555"/>
+  <text x="62" y="162" class="c" fill="#fff" font-weight="700">VOLL</text>
+  <g fill="#a3bcf0" stroke="#3a6ed8">
+    <rect x="96" y="172" width="56" height="20" rx="4"/><rect x="158" y="172" width="56" height="20" rx="4"/>
+    <rect x="220" y="172" width="56" height="20" rx="4"/><rect x="282" y="172" width="56" height="20" rx="4"/>
+    <rect x="344" y="172" width="52" height="20" rx="4"/>
+  </g>
+  <g class="c"><text x="124" y="186">Mo</text><text x="186" y="186">Di</text><text x="248" y="186">Mi</text><text x="310" y="186">Do</text><text x="370" y="186">Fr</text></g>
+  <text x="8" y="214" class="s">✔ jeden Tag klein und schnell · Archivbit wird <tspan font-weight="700">zurückgesetzt</tspan></text>
+  <text x="8" y="232" class="s" fill="#b5423a">✘ Wiederherstellen: Voll + <tspan font-weight="700">ALLE</tspan> Sicherungen Mo, Di, Mi, Do, Fr</text>
+
+  <line x1="8" y1="250" x2="392" y2="250" stroke="#ddd"/>
+
+  <!-- DIFFERENZIELL -->
+  <text x="8" y="276" class="t" fill="#D4607A">Differenziell</text>
+  <text x="8" y="292" class="s">sichert alle Änderungen seit der letzten VOLLsicherung</text>
+  <rect x="34" y="302" width="56" height="110" rx="6" fill="#555"/>
+  <text x="62" y="362" class="c" fill="#fff" font-weight="700">VOLL</text>
+  <g fill="#f2c4cf" stroke="#D4607A">
+    <rect x="96" y="392" width="56" height="20" rx="4"/>
+    <rect x="158" y="372" width="56" height="40" rx="4"/>
+    <rect x="220" y="352" width="56" height="60" rx="4"/>
+    <rect x="282" y="332" width="56" height="80" rx="4"/>
+    <rect x="344" y="312" width="52" height="100" rx="4"/>
+  </g>
+  <g class="c">
+    <text x="124" y="406">Mo</text><text x="186" y="396">Mo–Di</text><text x="248" y="386">Mo–Mi</text>
+    <text x="310" y="376">Mo–Do</text><text x="370" y="366">Mo–Fr</text>
+  </g>
+  <text x="8" y="434" class="s">✘ wird jeden Tag größer · Archivbit <tspan font-weight="700">bleibt gesetzt</tspan></text>
+  <text x="8" y="452" class="s" fill="#2f6b4f">✔ Wiederherstellen: nur Voll + die <tspan font-weight="700">LETZTE</tspan> differenzielle (Fr)</text>
+
+  <rect x="8" y="466" width="384" height="40" rx="8" fill="#f4f1ee"/>
+  <text x="200" y="483" text-anchor="middle" class="s" font-weight="700">Merke: inkrementell = schnell sichern, langsam zurück</text>
+  <text x="200" y="499" text-anchor="middle" class="s" font-weight="700">differenziell = langsamer sichern, schnell zurück</text>
+  <text x="200" y="517" text-anchor="middle" font-size="11" fill="#666">Buch S. 205–207</text>
+</svg>

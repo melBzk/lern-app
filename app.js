@@ -635,6 +635,11 @@ function markdown(md) {
       html += `<h${lvl}>${inline(m[2])}</h${lvl}>`; i++; continue;
     }
     if (/^---+\s*$/.test(line)) { html += "<hr>"; i++; continue; }
+    // Bild: ![Bildunterschrift](faecher/…/bild.svg)
+    if ((m = line.match(/^!\[(.*)\]\(([^)\s]+)\)\s*$/))) {
+      html += `<figure><a href="${esc(m[2])}" target="_blank"><img src="${esc(m[2])}" alt="${esc(m[1])}"></a><figcaption>${inline(m[1])} · antippen zum Vergrößern</figcaption></figure>`;
+      i++; continue;
+    }
     if (line.startsWith("|")) {
       const rows = [];
       while (i < lines.length && lines[i].startsWith("|")) { rows.push(lines[i]); i++; }
@@ -661,7 +666,7 @@ function markdown(md) {
       continue;
     }
     const p = [];
-    while (i < lines.length && lines[i].trim() && !/^(#|\||>|---|\s*([-*]|\d+\.)\s)/.test(lines[i])) { p.push(lines[i]); i++; }
+    while (i < lines.length && lines[i].trim() && !/^(#|\||>|---|!\[|\s*([-*]|\d+\.)\s)/.test(lines[i])) { p.push(lines[i]); i++; }
     html += `<p>${p.map(inline).join("<br>")}</p>`;
   }
   return html;

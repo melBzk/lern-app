@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 430" font-family="-apple-system,'Segoe UI',system-ui,sans-serif">
+  <style>
+    .t{font-size:14px;font-weight:700}
+    .s{font-size:11.5px;fill:#333}
+  </style>
+  <rect width="400" height="430" fill="#fff"/>
+  <text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">Netzwerke nach Ausdehnung</text>
+
+  <!-- ineinanderliegende Flächen, unten links verankert -->
+  <rect x="8"  y="40"  width="384" height="350" rx="16" fill="#eef2fb" stroke="#3a6ed8"/>
+  <rect x="8"  y="96"  width="340" height="294" rx="16" fill="#e1e9fa" stroke="#3a6ed8"/>
+  <rect x="8"  y="152" width="296" height="238" rx="16" fill="#e3f0e9" stroke="#2f6b4f"/>
+  <rect x="8"  y="208" width="252" height="182" rx="16" fill="#d3e8dc" stroke="#2f6b4f"/>
+  <rect x="8"  y="264" width="208" height="126" rx="16" fill="#f6e4e8" stroke="#D4607A"/>
+  <rect x="8"  y="320" width="164" height="70"  rx="16" fill="#efc9d2" stroke="#D4607A"/>
+
+  <text x="18" y="60" class="t">GAN · Global Area Network</text><text x="18" y="76" class="s">weltweit</text>
+  <text x="18" y="116" class="t">WAN · Wide Area Network</text><text x="18" y="132" class="s">Länder, große Entfernungen</text>
+  <text x="18" y="172" class="t">MAN · Metropolitan Area N.</text><text x="18" y="188" class="s">Stadt / Region (z. B. Bäckereikette)</text>
+  <text x="18" y="228" class="t">CAN · Campus Area N.</text><text x="18" y="244" class="s">Firmen-Campus</text>
+  <text x="18" y="284" class="t">LAN · Local Area N.</text><text x="18" y="300" class="s">ein Gebäude</text>
+  <text x="18" y="340" class="t">PAN</text><text x="18" y="356" class="s">ca. 10 m</text><text x="18" y="372" class="s">Bluetooth, NFC, RFID</text>
+
+  <text x="200" y="410" text-anchor="middle" font-size="12" font-weight="700">klein → groß: PAN – LAN – CAN – MAN – WAN – GAN</text>
+  <text x="200" y="426" text-anchor="middle" font-size="11" fill="#666">aus dem Unterricht · WLAN ist eine Technik (Funk), keine Größe</text>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 420" font-family="-apple-system,'Segoe UI',system-ui,sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker>
+  </defs>
+  <rect width="400" height="420" fill="#fff"/>
+  <text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">Speicherhierarchie</text>
+
+  <g transform="translate(-16 0)">
+  <!-- Pyramide: Spitze bei x=170, Ebenen je 46 px hoch -->
+  <polygon points="170,44 194,90 146,90" fill="#3a6ed8"/>
+  <polygon points="146,90 194,90 218,136 122,136" fill="#5b86e0"/>
+  <polygon points="122,136 218,136 242,182 98,182" fill="#7ea0e8"/>
+  <polygon points="98,182 242,182 266,228 74,228" fill="#a3bcf0"/>
+  <polygon points="74,228 266,228 290,274 50,274" fill="#7fbf9a"/>
+  <polygon points="50,274 290,274 314,320 26,320" fill="#c9c3bd"/>
+
+  <text x="170" y="84" text-anchor="middle" font-size="11" font-weight="700" fill="#fff">Reg.</text>
+  <text x="170" y="119" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">L1-Cache</text>
+  <text x="170" y="165" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">L2-Cache</text>
+  <text x="170" y="211" text-anchor="middle" font-size="14" font-weight="700">L3-Cache</text>
+  <text x="170" y="257" text-anchor="middle" font-size="14" font-weight="700">Arbeitsspeicher (RAM)</text>
+  <text x="170" y="303" text-anchor="middle" font-size="14" font-weight="700">SSD / Festplatte</text>
+
+  <!-- Erklärungen rechts -->
+  <g font-size="11.5" fill="#333">
+    <text x="206" y="66">Register: im Kern, Byte</text>
+    <text x="226" y="108">wenige KB, je Kern eigener</text>
+    <text x="226" y="122">Daten- + Befehls-Cache</text>
+    <text x="250" y="154">je Kern eigener oder</text>
+    <text x="250" y="168">gemeinsamer (z. B. 1–6 MB)</text>
+    <text x="274" y="200">mehrere MB, alle Kerne</text>
+    <text x="274" y="214">nutzen ihn gemeinsam</text>
+    <text x="298" y="246">GB · DRAM</text>
+    <text x="298" y="260">flüchtig</text>
+    <text x="322" y="292">TB · bleibt</text>
+    <text x="322" y="306">ohne Strom</text>
+  </g>
+  </g>
+  <text x="14" y="160" font-size="11.5" fill="#3a6ed8" font-weight="700" transform="rotate(-90 14 160)" text-anchor="middle">Cache = SRAM</text>
+  <line x1="22" y1="96" x2="22" y2="226" stroke="#3a6ed8" stroke-width="2"/>
+
+
+  <text x="200" y="342" text-anchor="middle" font-size="12.5" fill="#333">nach oben: schneller · kleiner · teurer je Byte</text>
+  <text x="200" y="364" text-anchor="middle" font-size="12.5" fill="#333">Die CPU sucht Daten der Reihe nach:</text>
+  <text x="200" y="382" text-anchor="middle" font-size="12.5" font-weight="700">L1 → L2 → L3 → erst dann der langsame RAM</text>
+  <text x="200" y="408" text-anchor="middle" font-size="11" fill="#666">Buch S. 55, 63–64 · unterste Stufe (SSD/Festplatte) = Ergänzung</text>
+</svg>

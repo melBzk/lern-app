@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 470" font-family="-apple-system,'Segoe UI',system-ui,sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker>
+  </defs>
+  <style>
+    .t{font-size:14px;font-weight:700}
+    .s{font-size:12px}
+    .m{font-size:12px;font-family:Consolas,Menlo,monospace}
+  </style>
+  <rect width="400" height="470" fill="#fff"/>
+  <text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">Die vier IP-Einstellungen im Heimnetz</text>
+
+  <!-- LAN-Bereich -->
+  <rect x="8" y="40" width="384" height="250" rx="12" fill="#e3f0e9" stroke="#2f6b4f" stroke-dasharray="6 4"/>
+  <text x="18" y="58" font-size="12" font-weight="700" fill="#2f6b4f">Heimnetz (LAN) · private Adressen 192.168.1.x</text>
+
+  <!-- PC -->
+  <rect x="18" y="68" width="230" height="110" rx="10" fill="#fff" stroke="#2f6b4f" stroke-width="2"/>
+  <text x="28" y="88" class="t">PC</text>
+  <text x="28" y="108" class="s">IP-Adresse</text><text x="128" y="108" class="m">192.168.1.20</text>
+  <text x="28" y="126" class="s">Subnetzmaske</text><text x="128" y="126" class="m">255.255.255.0</text>
+  <text x="28" y="144" class="s">Standardgateway</text><text x="128" y="144" class="m">192.168.1.1</text>
+  <text x="28" y="162" class="s">DNS-Server</text><text x="128" y="162" class="m">192.168.1.1</text>
+
+  <text x="258" y="88" class="s" fill="#2f6b4f" font-weight="700">kommt automatisch</text>
+  <text x="258" y="104" class="s" fill="#2f6b4f" font-weight="700">per DHCP vom Router</text>
+  <text x="258" y="126" class="s">kein DHCP erreichbar?</text>
+  <text x="258" y="142" class="s">→ APIPA: 169.254.x.x</text>
+  <text x="258" y="158" class="s">→ meist kein Internet</text>
+
+  <line x1="133" y1="178" x2="133" y2="210" stroke="#555" stroke-width="2" marker-start="url(#a)" marker-end="url(#a)"/>
+
+  <!-- Router -->
+  <rect x="18" y="212" width="364" height="68" rx="10" fill="#fff" stroke="#2f6b4f" stroke-width="2"/>
+  <text x="28" y="232" class="t">Router (z. B. Fritzbox)</text>
+  <text x="300" y="232" class="m" text-anchor="middle">192.168.1.1</text>
+  <text x="28" y="252" class="s">= Standardgateway: Tür aus dem eigenen Netz hinaus</text>
+  <text x="28" y="270" class="s">vergibt Adressen (DHCP) · leitet DNS-Anfragen weiter</text>
+
+  <line x1="200" y1="280" x2="200" y2="318" stroke="#555" stroke-width="2" marker-start="url(#a)" marker-end="url(#a)"/>
+  <text x="208" y="304" class="s" fill="#555">öffentliche IP vom Provider (NAT)</text>
+
+  <!-- Internet -->
+  <rect x="8" y="320" width="384" height="96" rx="12" fill="#e8f0fe" stroke="#3a6ed8"/>
+  <text x="18" y="340" font-size="12" font-weight="700" fill="#3a6ed8">Internet</text>
+  <rect x="18" y="348" width="170" height="58" rx="10" fill="#fff" stroke="#3a6ed8" stroke-width="2"/>
+  <text x="28" y="368" class="t">DNS-Server</text>
+  <text x="28" y="386" class="s">www.herdt.com</text>
+  <text x="28" y="400" class="s">→ IP-Adresse</text>
+  <rect x="210" y="348" width="172" height="58" rx="10" fill="#fff" stroke="#3a6ed8" stroke-width="2"/>
+  <text x="220" y="368" class="t">Webserver</text>
+  <text x="220" y="386" class="s">wird über seine</text>
+  <text x="220" y="400" class="s">IP-Adresse erreicht</text>
+
+  <g class="s">
+    <text x="12" y="436"><tspan font-weight="700">Subnetzmaske</tspan> /24: die ersten 3 Zahlen = Netz, die letzte = Gerät.</text>
+    <text x="12" y="452">Ziele außerhalb des eigenen Netzes gehen ans <tspan font-weight="700">Gateway</tspan>.</text>
+  </g>
+  <text x="200" y="467" text-anchor="middle" font-size="11" fill="#666">Buch S. 184–187 · Beispieladressen</text>
+</svg>

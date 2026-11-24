@@ -141,6 +141,9 @@ details.group[open] summary{padding-bottom:10px;border-bottom:1px solid var(--li
 .md table{border-collapse:collapse;font-size:13.5px;min-width:100%;}
 .md th,.md td{border:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top;}
 .md th{background:var(--bg);}
+.md figure{margin:12px 0;}
+.md figure img{display:block;width:100%;max-width:560px;height:auto;border:1px solid var(--line);border-radius:12px;background:#fff;}
+.md figcaption{font-size:12.5px;color:var(--grey);margin-top:4px;}
 .md code{background:var(--bg);padding:1px 4px;border-radius:4px;}
 .bar{height:6px;background:var(--line);border-radius:3px;overflow:hidden;margin-top:6px;}
 .bar .fill{height:100%;background:var(--rose);border-radius:3px;transition:width .3s;}

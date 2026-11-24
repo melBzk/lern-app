@@ -177,6 +177,8 @@ Gegliedert nach den **Kapiteln des Buchs** HERDT, *PC-Technik – Grundlagen* (2
 - Verarbeitung **streng nacheinander** (sequenziell).
 - Rechen- und Steuerwerk sitzen im PC gemeinsam in der **CPU**; ihre Befehle bilden den **Befehlssatz**.
 
+![Von-Neumann-Architektur: vier Funktionseinheiten und der Systembus (Buch S. 5–7)](faecher/coa1/bilder/von-neumann.svg)
+
 > **FALLE:** **Harvard-Architektur** = getrennte Speicher für Daten und Programme. Von Neumann = **ein** gemeinsamer Speicher. Der Bus ist dort der Flaschenhals.
 
 > **KERN:** Das **Mainboard** verbindet alle Bauteile über Leiterbahnen und verteilt die Spannungen. Sein **Formfaktor** bestimmt, welches Gehäuse und Netzteil passt.
@@ -341,6 +343,8 @@ Gegliedert nach den **Kapiteln des Buchs** HERDT, *PC-Technik – Grundlagen* (2
 
 - Oben: schneller, kleiner, teurer. Die CPU sucht L1 → L2 → L3 → RAM.
 
+![Speicherhierarchie als Pyramide (Buch S. 63–64)](faecher/coa1/bilder/speicherpyramide.svg)
+
 > **FALLE:** Cache = **SRAM**, Arbeitsspeicher = **DRAM** – nicht vertauschen. Flash ist **nicht flüchtig**, RAM schon.
 
 ## 9. Kap. 9 – Externe Schnittstellen (S. 94–100)
@@ -423,6 +427,8 @@ Gegliedert nach den **Kapiteln des Buchs** HERDT, *PC-Technik – Grundlagen* (2
 - **USB-C:** oval, 24-polig, verdrehsicher; für USB 3.1/3.2, Thunderbolt, USB4
 - Alte Stecker passen in USB-3.0-Buchsen. Der neue **USB-3.0-B-Stecker** passt nur in neue Buchsen – ein USB-3.0-Gerät am USB-2.0-PC braucht daher ein herkömmliches USB-Kabel.
 
+![USB-Steckertypen von vorn (Buch S. 96–97)](faecher/coa1/bilder/usb-stecker.svg)
+
 #### USB-Hubs
 - **Aktiver Hub:** eigenes **Netzteil** – für stromhungrige Geräte
 - **Passiver Hub:** Strom nur **vom PC-Anschluss** – reicht für Maus und Tastatur
@@ -438,6 +444,8 @@ Gegliedert nach den **Kapiteln des Buchs** HERDT, *PC-Technik – Grundlagen* (2
 | **USB4** | 40 Gbit/s (Stand Buch 2020; USB4 Version 2.0 seit 2022: 80 Gbit/s) | Hub-Struktur | aus Thunderbolt 3 entstanden + USB-Hubstruktur · kompatibel zu Thunderbolt 3 und USB 3 |
 
 > **FALLE:** **Thunderbolt** kennt nur die **Kette**, **USB/USB4** die **Hub-/Baumstruktur**. FireWire: max. **63** Geräte, Thunderbolt: **7** (laut Buch; Intel nennt 6 je Anschluss plus Host), USB: **127**.
+
+![USB als Baum, Thunderbolt als Kette (Buch S. 94–100)](faecher/coa1/bilder/usb-baum-kette.svg)
 
 > **FALLE:** Mbit/s ≠ MB/s: 480 **Mbit**/s (USB 2.0) sind theoretisch 60 **MB**/s, praktisch nur rund 37–40 MB/s. Kleines b = Bit, großes B = Byte.
 
@@ -470,6 +478,8 @@ Gegliedert nach den **Kapiteln des Buchs** HERDT, *PC-Technik – Grundlagen* (2
 - **RAID 0** Striping: schnell, keine Sicherheit
 - **RAID 1** Spiegelung
 - **RAID 5** Parität, mind. 3 Platten
+
+![RAID 0, 1 und 5 im Vergleich (Buch S. 108)](faecher/coa1/bilder/raid.svg)
 
 ### Bauformen
 
@@ -671,6 +681,8 @@ Dämmmaterial im Gehäuse · Silent-Lüfter, passive Kühlung, lüfterlose Netzt
 4. Plug & Play: Ressourcen verteilen.
 5. **Bootreihenfolge** → Bootloader → Betriebssystem.
 
+![Startvorgang vom Einschalten bis zur Anmeldung (Buch S. 147, 160–162)](faecher/coa1/bilder/startvorgang.svg)
+
 ### BIOS-Einstellungen
 
 - Aufruf: **Entf** oder **F2** · Bootmenü: F8/F11/F12 (je Hersteller) *(Ergänzung)*
@@ -848,6 +860,8 @@ Dämmmaterial im Gehäuse · Silent-Lüfter, passive Kühlung, lüfterlose Netzt
 | **Standardgateway** | Router ins Internet / andere Netze | 192.168.1.1 |
 | **DNS-Server** | übersetzt Namen in IP-Adressen | www.herdt.com → IP |
 
+![Die vier IP-Einstellungen im Heimnetz (Buch S. 184–187)](faecher/coa1/bilder/heimnetz.svg)
+
 ### Netzwerkverbindungen einstellen
 
 | Variante | Bedeutung |
@@ -889,6 +903,8 @@ Dämmmaterial im Gehäuse · Silent-Lüfter, passive Kühlung, lüfterlose Netzt
 | **Differenziell** | Änderungen seit der **letzten Vollsicherung** | **bleibt gesetzt** | Voll + **letzte** differenzielle |
 
 > **MERKE:** Inkrementell = schnell sichern, langsam wiederherstellen. Differenziell = umgekehrt.
+
+![Inkrementelle und differenzielle Sicherung im Wochenplan (Buch S. 205–207)](faecher/coa1/bilder/datensicherung.svg)
 
 ### Strategien
 
@@ -1024,6 +1040,8 @@ Touchscreen (und Headset) sind **Ein- und Ausgabegerät** zugleich.
 | **MAN** | Metropolitan Area Network | Stadt/Region |
 | **WAN** | Wide Area Network | Länder |
 | **GAN** | Global Area Network | weltweit |
+
+![Netzwerke nach Ausdehnung (Unterricht)](faecher/coa1/bilder/netzgroessen.svg)
 
 - **WLAN** ist eine **Technik** (kabelloses LAN per Funk), keine Ausdehnung.
 - **Router** verbindet zwei Netzwerke (z. B. Fritzbox: Heimnetz ↔ Internet).

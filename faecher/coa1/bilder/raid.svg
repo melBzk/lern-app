@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" font-family="-apple-system,'Segoe UI',system-ui,sans-serif">
+  <defs>
+    <g id="disk"><rect width="70" height="104" rx="10" fill="#f4f1ee" stroke="#555" stroke-width="2"/></g>
+  </defs>
+  <rect width="400" height="520" fill="#fff"/>
+  <text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">RAID 0 · RAID 1 · RAID 5</text>
+  <text x="200" y="44" text-anchor="middle" font-size="11.5" fill="#666">Beispiel: Datei aus den Blöcken A1, A2, A3 …</text>
+
+  <style>
+    .blk{font-size:13px;text-anchor:middle;font-weight:700}
+    .t{font-size:14px;font-weight:700}
+    .s{font-size:12px}
+  </style>
+
+  <!-- RAID 0 -->
+  <text x="12" y="72" class="t" fill="#3a6ed8">RAID 0 – Striping</text>
+  <use href="#disk" x="12" y="80"/><use href="#disk" x="92" y="80"/>
+  <g fill="#cfdcf8" stroke="#3a6ed8">
+    <rect x="20" y="88" width="54" height="24" rx="4"/><rect x="100" y="88" width="54" height="24" rx="4"/>
+    <rect x="20" y="118" width="54" height="24" rx="4"/><rect x="100" y="118" width="54" height="24" rx="4"/>
+    <rect x="20" y="148" width="54" height="24" rx="4"/><rect x="100" y="148" width="54" height="24" rx="4"/>
+  </g>
+  <g class="blk"><text x="47" y="105">A1</text><text x="127" y="105">A2</text><text x="47" y="135">A3</text><text x="127" y="135">A4</text><text x="47" y="165">A5</text><text x="127" y="165">A6</text></g>
+  <g class="s">
+    <text x="180" y="96">Blöcke abwechselnd verteilt</text>
+    <text x="180" y="114">mind. 2 Platten · schneller</text>
+    <text x="180" y="132">Platz: alle (2 × 1 TB = 2 TB)</text>
+    <text x="180" y="156" fill="#b5423a" font-weight="700">1 Platte kaputt =</text>
+    <text x="180" y="172" fill="#b5423a" font-weight="700">ALLE Daten weg</text>
+  </g>
+
+  <!-- RAID 1 -->
+  <text x="12" y="218" class="t" fill="#2f6b4f">RAID 1 – Spiegelung (Mirroring)</text>
+  <use href="#disk" x="12" y="226"/><use href="#disk" x="92" y="226"/>
+  <g fill="#cfe6d8" stroke="#2f6b4f">
+    <rect x="20" y="234" width="54" height="24" rx="4"/><rect x="100" y="234" width="54" height="24" rx="4"/>
+    <rect x="20" y="264" width="54" height="24" rx="4"/><rect x="100" y="264" width="54" height="24" rx="4"/>
+    <rect x="20" y="294" width="54" height="24" rx="4"/><rect x="100" y="294" width="54" height="24" rx="4"/>
+  </g>
+  <g class="blk"><text x="47" y="251">A1</text><text x="127" y="251">A1</text><text x="47" y="281">A2</text><text x="127" y="281">A2</text><text x="47" y="311">A3</text><text x="127" y="311">A3</text></g>
+  <g class="s">
+    <text x="180" y="242">beide Platten identisch</text>
+    <text x="180" y="260">mind. 2 Platten · nicht schneller</text>
+    <text x="180" y="278">Platz: 1 Platte (2 × 1 TB = 1 TB)</text>
+    <text x="180" y="302" fill="#2f6b4f" font-weight="700">1 Platte darf ausfallen</text>
+  </g>
+
+  <!-- RAID 5 -->
+  <text x="12" y="364" class="t" fill="#D4607A">RAID 5 – Striping mit Parität</text>
+  <use href="#disk" x="12" y="372"/><use href="#disk" x="92" y="372"/><use href="#disk" x="172" y="372"/>
+  <g stroke="#D4607A">
+    <rect x="20" y="380" width="54" height="24" rx="4" fill="#f6e4e8"/><rect x="100" y="380" width="54" height="24" rx="4" fill="#f6e4e8"/><rect x="180" y="380" width="54" height="24" rx="4" fill="#D4607A"/>
+    <rect x="20" y="410" width="54" height="24" rx="4" fill="#f6e4e8"/><rect x="100" y="410" width="54" height="24" rx="4" fill="#D4607A"/><rect x="180" y="410" width="54" height="24" rx="4" fill="#f6e4e8"/>
+    <rect x="20" y="440" width="54" height="24" rx="4" fill="#D4607A"/><rect x="100" y="440" width="54" height="24" rx="4" fill="#f6e4e8"/><rect x="180" y="440" width="54" height="24" rx="4" fill="#f6e4e8"/>
+  </g>
+  <g class="blk">
+    <text x="47" y="397">A1</text><text x="127" y="397">A2</text><text x="207" y="397" fill="#fff">P</text>
+    <text x="47" y="427">A3</text><text x="127" y="427" fill="#fff">P</text><text x="207" y="427">A4</text>
+    <text x="47" y="457" fill="#fff">P</text><text x="127" y="457">A5</text><text x="207" y="457">A6</text>
+  </g>
+  <g class="s">
+    <text x="258" y="388">P = Parität,</text>
+    <text x="258" y="404">auf alle Platten</text>
+    <text x="258" y="420">verteilt</text>
+    <text x="258" y="440">mind. 3 Platten</text>
+    <text x="258" y="456">Platz: n − 1 Platten</text>
+    <text x="258" y="472">(3 × 1 TB = 2 TB)</text>
+  </g>
+  <text x="12" y="494" class="s" fill="#2f6b4f" font-weight="700">1 Platte darf ausfallen – die Daten werden aus der Parität berechnet.</text>
+  <text x="200" y="514" text-anchor="middle" font-size="12" fill="#b5423a" font-weight="700">RAID ersetzt KEIN Backup! · Buch S. 108</text>
+</svg>

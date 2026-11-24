@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 522" font-family="-apple-system,'Segoe UI',system-ui,sans-serif">
+  <rect width="400" height="522" fill="#fff"/>
+  <text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">USB-Stecker – Blick von vorn</text>
+  <text x="200" y="44" text-anchor="middle" font-size="11.5" fill="#666">ungefähr im gleichen Maßstab (10 px ≈ 1 mm)</text>
+
+  <!-- Typ A (USB 2.0): 12 x 4,5 mm, Zunge oben, 4 Kontakte -->
+  <rect x="24" y="66" width="120" height="45" rx="2" fill="#d9d9d9" stroke="#555" stroke-width="2"/>
+  <rect x="34" y="74" width="100" height="16" fill="#fafafa" stroke="#777"/>
+  <g fill="#c9a227"><rect x="44" y="90" width="12" height="5"/><rect x="68" y="90" width="12" height="5"/><rect x="88" y="90" width="12" height="5"/><rect x="112" y="90" width="12" height="5"/></g>
+  <text x="160" y="80" font-size="14" font-weight="700">Typ A</text>
+  <text x="160" y="97" font-size="12">am Computer · USB 2.0: 4 Kontakte</text>
+
+  <!-- Typ A USB 3.0: blau -->
+  <rect x="24" y="128" width="120" height="45" rx="2" fill="#d9d9d9" stroke="#555" stroke-width="2"/>
+  <rect x="34" y="136" width="100" height="16" fill="#1f5fd1" stroke="#164aa6"/>
+  <g fill="#c9a227"><rect x="44" y="152" width="12" height="5"/><rect x="68" y="152" width="12" height="5"/><rect x="88" y="152" width="12" height="5"/><rect x="112" y="152" width="12" height="5"/></g>
+  <text x="160" y="142" font-size="14" font-weight="700">Typ A · USB 3.0</text>
+  <text x="160" y="159" font-size="12">meist blau · 9 Kontakte · passt</text>
+  <text x="160" y="173" font-size="12">auch in alte Buchsen</text>
+
+  <!-- Typ B: ca. 8 x 7,3 mm, obere Ecken abgeschrägt -->
+  <path d="M24,268 V208 L36,196 H92 L104,208 V268 Z" fill="#d9d9d9" stroke="#555" stroke-width="2"/>
+  <rect x="44" y="214" width="40" height="34" fill="#fafafa" stroke="#777"/>
+  <text x="160" y="222" font-size="14" font-weight="700">Typ B</text>
+  <text x="160" y="239" font-size="12">am Gerät: Drucker, externe</text>
+  <text x="160" y="253" font-size="12">3,5″-Festplatte</text>
+
+  <!-- Typ B USB 3.0: mit Aufsatz -->
+  <path d="M24,368 V312 H38 V292 H90 V312 H104 V368 Z" fill="#d9d9d9" stroke="#555" stroke-width="2"/>
+  <rect x="44" y="318" width="40" height="34" fill="#1f5fd1" stroke="#164aa6"/>
+  <rect x="46" y="298" width="36" height="10" fill="#1f5fd1" stroke="#164aa6"/>
+  <text x="160" y="312" font-size="14" font-weight="700">Typ B · USB 3.0</text>
+  <text x="160" y="329" font-size="12">mit „Aufsatz“ oben · passt NUR</text>
+  <text x="160" y="343" font-size="12">in USB-3.0-B-Buchsen</text>
+
+  <!-- Mini-B: ca. 6,8 x 3 mm, Trapez -->
+  <path d="M24,388 H92 L86,418 H30 Z" fill="#d9d9d9" stroke="#555" stroke-width="2"/>
+  <!-- Micro-B: ca. 6,9 x 1,8 mm, flaches Trapez -->
+  <path d="M110,394 H179 V404 L174,412 H115 L110,404 Z" fill="#d9d9d9" stroke="#555" stroke-width="2"/>
+  <!-- USB-C: 8,4 x 2,6 mm, oval -->
+  <rect x="200" y="390" width="84" height="26" rx="13" fill="#d9d9d9" stroke="#555" stroke-width="2"/>
+  <rect x="214" y="399" width="56" height="8" rx="2" fill="#fafafa" stroke="#777"/>
+
+  <g text-anchor="middle" font-weight="700" font-size="13">
+    <text x="58" y="436">Mini-USB</text>
+    <text x="144" y="436">Micro-USB</text>
+    <text x="242" y="436">USB-C</text>
+  </g>
+  <g font-size="12">
+    <text x="24" y="458"><tspan font-weight="700">Mini/Micro:</tspan> kleine Geräte (Kamera, Handy)</text>
+    <text x="24" y="476"><tspan font-weight="700">USB-C:</tspan> 24-polig, verdrehsicher</text>
+    <text x="24" y="494">USB-C für USB 3.1/3.2, Thunderbolt 3 und USB4</text>
+  </g>
+  <text x="200" y="514" text-anchor="middle" font-size="11" fill="#666">Buch S. 96–97 · mit Adaptern untereinander kompatibel</text>
+</svg>
