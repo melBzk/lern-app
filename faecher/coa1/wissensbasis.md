@@ -176,12 +176,46 @@ Gegliedert nach den **Kapiteln des Buchs** HERDT, *PC-Technik – Grundlagen* (2
 - Verbunden über den **Systembus** = Datenbus (bidirektional) + Adressbus + Steuerbus.
 - Verarbeitung **streng nacheinander** (sequenziell).
 - Rechen- und Steuerwerk sitzen im PC gemeinsam in der **CPU**; ihre Befehle bilden den **Befehlssatz**.
+- **Flaschenhals** ist das Bussystem: Vor und nach jedem Schritt werden dieselben Leitungen genutzt. Abhilfe: Register und Cache-Ebenen, mehrere Kerne (Buch S. 5).
+
+### Kernkomponenten der CPU (Buch S. 6)
+
+| Kürzel | Name | Aufgabe |
+|---|---|---|
+| **IDU** | Instruction Decode Unit | Befehlsdecoder: übersetzt Befehle in **Mikrocode** |
+| **EXU** | Execution Unit | Ausführungseinheit: führt den Mikrocode aus |
+| **COL** | Control Logic | Kontrolleinheit: kontrolliert den Ablauf |
+| **BIL** | Bus Interface Logic | Bussteuereinheit: überwacht und steuert den Bus |
+| **ALU** | Arithmetic Logic Unit | rechnet (+ − × ÷) und verknüpft logisch (UND, ODER, NICHT) |
+| **FPU** | Floating Point Unit | Fließkomma-Berechnungen |
+| **DC** | Data Cache | schneller Zwischenspeicher für **Daten** |
+| **CC** | Code Cache | schneller Zwischenspeicher für **Befehle** |
+
+- **Rechenwerk** = ALU + FPU + **Register** · **Steuerwerk** (= Leitwerk) = die Kontrolleinheiten.
+- Unterricht: CPU-Komponenten = **Steuerwerk, Rechenwerk, Speicher** (Cache/Register).
+
+### Bussystem (Kap. 2.2, Buch S. 7)
+
+| Bus | Richtung | Aufgabe |
+|---|---|---|
+| **Datenbus** | **bidirektional** | transportiert die Daten · Busbreite 8/16/32/**64** Leitungen → 64 Bit = **8 Byte** gleichzeitig |
+| **Adressbus** | unidirektional (von der CPU weg) | spricht eine Baugruppe über ihre **Adresse** an (Unterricht: „wie eine Hausnummer“) |
+| **Steuerbus** | unidirektional (von der CPU weg) | legt fest, ob die Baugruppe **Sender oder Empfänger** ist (Unterricht: „wann“) |
+
+- Leistung des Datenbusses = **Busbreite × Takt**. 1 Hz = 1 Takt pro Sekunde, 1 MHz = 1.000.000 Hz.
 
 ![Von-Neumann-Architektur: vier Funktionseinheiten und der Systembus (Buch S. 5–7)](faecher/coa1/bilder/von-neumann.svg)
 
 > **FALLE:** **Harvard-Architektur** = getrennte Speicher für Daten und Programme. Von Neumann = **ein** gemeinsamer Speicher. Der Bus ist dort der Flaschenhals.
 
 > **KERN:** Das **Mainboard** verbindet alle Bauteile über Leiterbahnen und verteilt die Spannungen. Sein **Formfaktor** bestimmt, welches Gehäuse und Netzteil passt.
+
+### Aufbau moderner Hauptplatinen (Kap. 2.3, Buch S. 8–9)
+
+- **Platine** = Trägerplatte aus Kunstharz, Fiberglas oder Carbon mit **mehreren Schichten Leiterbahnen** aus Kupfer, Silber oder Gold.
+- Früher brauchte jede Funktion eine eigene Steckkarte, heute sind Grafik, Sound, Netzwerk usw. meist **onboard** (oder in der CPU). Onboard-Grafik ist schwächer als eine Grafikkarte.
+- **Aufgaben des Mainboards:** Versorgungsspannungen verteilen · Leiterbahnen für Daten und Steuersignale · Sockel, Steckplätze und Schnittstellen bereitstellen · Standardgeräte (Maus, Tastatur) anschließen.
+- Einbau: ohne Kraft und mechanische Spannung, vorgesehenes Montagematerial, ESD-Schutz (sonst Mikrorisse in der Platine).
 
 ### Komponenten des Mainboards
 
@@ -196,6 +230,37 @@ Gegliedert nach den **Kapiteln des Buchs** HERDT, *PC-Technik – Grundlagen* (2
 | **Stromanschlüsse** | 24-pol. ATX + 4/8-pol. CPU-Strom |
 | **Front-Panel** | Einschalter, Reset, LEDs, Front-USB |
 
+### Prozessorsockel (Buch S. 10)
+
+| Sockeltyp | Kontakte | Hinweis |
+|---|---|---|
+| **PGA** (Pin Grid Array) | **Pins an der CPU**, Löcher im Sockel | Pins verbiegen leicht · bei AMD als **PGA-ZIF** (Zero Insertion Force = ohne Kraft einsetzen), z. B. AM4 |
+| **BGA** (Ball Grid Array) | kleine **Lotperlen** an der CPU | robust, für sehr viele Kontakte |
+| **LGA** (Land Grid Array) | **Kontaktflächen** an der CPU, **Federn im Sockel** | alle aktuellen Intel-Desktop-CPUs, AMD Threadripper |
+
+- Takt der CPU = **Referenztakt × Multiplikator**, z. B. 100 MHz × 44 = **4,4 GHz** (Buch S. 15).
+- Seit ca. 2008 sitzt der **Speichercontroller in der CPU**, seit 2011 auch die übrigen Northbridge-Aufgaben. Einen Front Side Bus gibt es nicht mehr.
+- Intel-Namen: **K** = übertaktbar (freier Multiplikator) · **T** = stromsparend · erste Ziffer(n) = Generation, z. B. i9-**8**950HK = 8. Generation, i9-**10**900K = 10. Generation.
+
+### Chipsatz (Kap. 2.5, Buch S. 11–12)
+
+| Architektur | Aufbau |
+|---|---|
+| **Bridge** (älteste) | **Northbridge** für schnelle Teile (RAM, Grafik), über den **FSB** an der CPU · **Southbridge** für langsame Teile (Laufwerke, USB, Sound …) |
+| **Hub** | Northbridge heißt **MCH** (Memory Controller Hub, mit Grafik: GMCH), Southbridge heißt **ICH** (I/O Controller Hub) |
+| **Erweiterte Hub** | Speicher- und Grafikcontroller **in der CPU**, MCH + ICH in **einem** Chip („Einchip-Chipsatz“) |
+| **PCH** (heute) | **Platform Controller Hub** – modular; der Chipsatz bestimmt Funktionen wie Übertakten (z. B. Intel Z270 ja, B250 nein), Anzahl USB-, SATA-, M.2-Anschlüsse |
+
+- Unterricht: Es gibt immer einen **schnellen Bereich** (CPU, RAM, Grafik = „North“) und einen **langsamen Bereich** (Festplatten, Laufwerke, BIOS = „South“). Wo Daten schnell fließen müssen, gibt es mehr Busleitungen.
+- Der **BIOS-Chip** (S. 19) gehört nicht zum Chipsatz, ist aber unverzichtbar: Das BIOS ist die **erste Software** nach dem Einschalten. Die CPU startet an einer festen Speicherzelle – deshalb muss das BIOS in einem **ROM** liegen (heute Flash, „flashbar“).
+
+### Steckplätze (Kap. 2.9, Buch S. 19–21)
+
+- **RAM-Slots:** ein **Steg** verhindert falsche Module. Für **Dual Channel** zwei Module in die **gleichfarbigen** Slots, am besten als abgestimmtes **Kit** (Unterricht: sonst laufen alle Module nur so schnell wie das langsamste).
+- **PCI** (1995–2003): **paralleler Bus**, alle Karten teilen sich ca. 133 MB/s · **AGP**: Grafik, Punkt-zu-Punkt, seit ca. 2006 veraltet · **ISA**: uralt.
+- **PCIe**: **Punkt-zu-Punkt**; jede Verbindung heißt **Lane**, Slots mit **x1, x4, x8, x16** Lanes. PCIe 3.x ist noch Standard (Buch 2020), x16 ≈ 15,75 GB/s.
+- **SATA** (S. 21): SATA I **150 MB/s** · SATA II **300 MB/s** · SATA III **600 MB/s** – abwärtskompatibel; ausgeschöpft nur von SSDs.
+
 ### Externe Anschlüsse (I/O-Blende)
 
 | Anschluss | Zweck |
@@ -209,6 +274,11 @@ Gegliedert nach den **Kapiteln des Buchs** HERDT, *PC-Technik – Grundlagen* (2
 | **Seriell (RS-232) · Parallel (IEEE 1284) · PS/2** | „Legacy“-Schnittstellen (Buch S. 94) |
 | eSATA · FireWire | veraltet, durch USB/Thunderbolt verdrängt (kein „Legacy“ im Sinne des Buchs) |
 
+- Beim ATX-Board sind die externen Anschlüsse **auf der Platine aufgelötet** (I/O-Panel) und direkt von außen erreichbar (S. 22).
+- Unterricht: USB wird heute auf **USB-C** vereinheitlicht (für Altgeräte Adapter); Sound früher Klinke („AUX“), heute oft USB; FireWire (Kamera) und eSATA (externe Platten) sind durch USB ersetzt; WLAN-Karten führen ein Antennenkabel nach außen.
+
+> **FALLE:** In der Mitschrift steht „DisplayPort Nachfolger HDMI“. Das stimmt so nicht: **HDMI und DisplayPort sind zwei parallele digitale Standards** (HDMI v. a. für Fernseher, DisplayPort v. a. für PC-Monitore). Abgelöst haben beide den analogen **VGA** und den **DVI**-Anschluss.
+
 ### Formfaktoren & Gehäuse
 
 | Formfaktor | Maße | Einsatz |
@@ -218,14 +288,29 @@ Gegliedert nach den **Kapiteln des Buchs** HERDT, *PC-Technik – Grundlagen* (2
 | **microATX** | 244 × 244 mm | Büro-PC |
 | **Mini-ITX** | 170 × 170 mm | Mini-PC, Thin Client |
 
-- Gehäuse: Big-, Midi-, Mini-Tower, Desktop, ITX, **19-Zoll-Rack** (Höhe in HE).
+- Weitere (Buch S. 23): Flex-ATX 229 × 191 mm, Nano-ITX 120 × 120 mm, **BTX** (sollte ATX ablösen, 2007 vom Markt genommen).
+- Der **Formfaktor** legt Maße, Lage der Bauteile und Schnittstellen fest – und damit **Gehäuse und Netzteil**.
+- **ATX** (1996, Nachfolger von Baby-AT): **Zonenmodell** mit genormten Maßen und Befestigungslöchern → jedes ATX-Board passt in jedes ATX-Gehäuse; verpolungssicherer Stromstecker; Temperatur- und Lüfterüberwachung (zu heiß → Abschaltung).
+- **microATX** behält Steckplatz- und Anschlusspositionen von ATX → passt in ATX-Gehäuse; enger, schlechtere Kühlung, weniger Steckplätze.
+
+### Gehäuse (Buch S. 24–25)
+
+| Gehäuse | passende Boards | Einsatz |
+|---|---|---|
+| **Big Tower** | Extended-ATX, ATX | Server, Workstations |
+| **Midi Tower** | microATX, ATX | Bürorechner |
+| **Mini Tower** | microATX, microBTX | Büro-/Schreibtischrechner |
+| **Desktop** (liegend) | microATX, ATX | Schreibtisch, HTPC |
+| **ITX** | Mini-ITX | kleiner Schreibtischrechner |
+| **Rack 19″** | microATX, ATX | Server im Schrank, Höhe in **HE** (Höheneinheiten), ab 1 HE |
 
 > **FALLE:** Ein ATX-Board passt **nicht** in ein Mini-ITX-Gehäuse – umgekehrt passt Mini-ITX meist in ein ATX-Gehäuse.
 
 ### Netzteil (Kap. 2.12)
 
 - Schaltnetzteil: 230 V Wechselspannung → Gleichspannung **3,3 V · 5 V · 12 V**.
-- PEG-Zusatzstecker: 6-polig +75 W, 8-polig +150 W.
+- PEG-Zusatzstecker: 6-polig +75 W, 8-polig +150 W (Unterricht: die Grafikkarte hat einen eigenen Stromanschluss, weil sie viel Strom braucht).
+- **Nie öffnen oder reparieren** – im Netzteil liegen lebensgefährliche Spannungen. Immer komplett tauschen (S. 25).
 
 ### USV (Kap. 2.13)
 
@@ -237,16 +322,19 @@ Gegliedert nach den **Kapiteln des Buchs** HERDT, *PC-Technik – Grundlagen* (2
 
 ### Kernkomponenten der CPU
 
-| Kürzel | Aufgabe |
-|---|---|
-| **IDU** | Befehlsdecoder: Befehl → Mikrocode |
-| **EXU** | Ausführungseinheit |
-| **COL** | Kontrolleinheit (Ablauf) |
-| **BIL** | Bussteuereinheit |
-| **ALU** | Rechnen (+ − × ÷) und Logik (UND, ODER, NICHT) |
-| **FPU** | Fließkomma-Berechnungen |
-| **DC / CC** | Daten- / Befehls-Cache |
-| **Register** | kleinste, schnellste Speicher im Kern |
+- Tabelle IDU, EXU, COL, BIL, ALU, FPU, DC, CC: siehe **Kap. 2** (Buch S. 6). **Register** = kleinste, schnellste Speicher im Kern.
+
+### Fertigung (Buch S. 31)
+
+- Der nackte Mikrochip heißt **Die** (Silizium, Milliarden Transistoren als Schalter). Der Metalldeckel **Heatspreader** verteilt die Wärme und schützt das Die.
+- Kleinere **Strukturbreite** (130 nm → 14 nm → 7 nm) = weniger Spannung und Energie bei gleicher Leistung oder mehr Leistung bei gleichem Verbrauch.
+- Unterricht: Kontaktstifte sind **vergoldet** (leitet gut, rostet nicht); eine Markierung zeigt, wie herum die CPU eingesetzt wird; im Sockel wird sie mit einem Hebel/Bügel fixiert.
+
+### Kerne und Takt (Buch S. 32–33)
+
+- Dual-Core 2 · Triple 3 · Quad 4 · **Hexa 6** · Octa 8 Kerne; über 8 meist nur „Multicore“.
+- Mehr Kerne helfen nur, wenn die **Software parallel arbeitet**. Ein sequenzielles Programm wird nicht schneller. Stärke: mehrere Programme/Threads gleichzeitig.
+- **1 GHz = 1.000 MHz = 1 Milliarde Takte pro Sekunde.** Doppelter Takt bei baugleicher CPU = doppelt so schnell (30 s bei 1 GHz → 15 s bei 2 GHz). Vergleichbar nur innerhalb derselben Familie und Generation.
 
 ### Arbeitsweise (Buch S. 31–32)
 
@@ -260,7 +348,9 @@ Gegliedert nach den **Kapiteln des Buchs** HERDT, *PC-Technik – Grundlagen* (2
 4. ausführen
 5. Ergebnis zurückspeichern
 
-- **Pipelining**: jede Stufe hat eine eigene Funktionseinheit (Eimerkette) · **superskalar**: mehrere Befehle je Takt.
+- Ohne Pipelining braucht jede Stufe einen Takt → **5 Takte pro Befehl** (Von Neumann, nacheinander).
+- **Pipelining**: jede Stufe hat eine eigene Funktionseinheit (Eimerkette) – während Befehl 1 decodiert wird, wird Befehl 2 schon geladen. Weiterhin wird nur **ein** Befehl pro Takt geladen.
+- **Superskalar**: Funktionseinheiten mehrfach vorhanden → **mehrere Befehle pro Takt**. Moderne CPUs kombinieren beides.
 - **Takt** in GHz = Referenztakt × Multiplikator; **Turbo** erhöht kurzzeitig.
 - **Multicore** + **Hyper-Threading/SMT**: „8 Kerne / 16 Threads“.
 - **64-Bit** (AMD64 2003, Intel64 2004) hebt die 4-GB-RAM-Grenze auf; braucht 64-Bit-Treiber.
@@ -293,6 +383,7 @@ Gegliedert nach den **Kapiteln des Buchs** HERDT, *PC-Technik – Grundlagen* (2
 
 - **Luft**: Kühlkörper + Lüfter, Heatpipes; passiv bis ca. 120 W TDP.
 - **Wasser**: sehr starke Systeme, Übertakten (Overclocking).
+- Unterricht: **passiv** = nur Kühlrippen (Alu), der Luftstrom kommt von Gehäuselüftern · **aktiv** = zusätzlich ein Lüfter direkt auf den Kühlrippen. Zwischen CPU und Kühler liegt immer ein Luftpolster (leitet schlecht) → **Wärmeleitpaste**. Wird die CPU zu heiß: Paste prüfen und erneuern (sie trocknet aus), nicht nur die Lüfter hochdrehen.
 - **Stromsparen**: Intel SpeedStep, AMD Cool’n’Quiet.
 
 ## 5. Kap. 5 – Speicher (S. 55–64)
@@ -462,6 +553,28 @@ Gegliedert nach den **Kapiteln des Buchs** HERDT, *PC-Technik – Grundlagen* (2
 | **Offline** | manuell eingelegt, Archiv | Band im Schrank, DVD, externe Platte |
 
 - Nach Technik: **magnetisch** (HDD, Band) · **optisch** (CD, DVD, Blu-ray) · **Flash** (SSD, USB-Stick, SD-Karte).
+- Beispiele Buch: Online = Festplatte, eingesteckter USB-Stick · Nearline = Bandroboter · **Offline = Installations-DVD, Backup-Band** (muss von Hand eingelegt werden).
+- Vergleichskriterien (Buch): Kapazität, Geschwindigkeit, Haltbarkeit, Datensicherheit · Unterricht: **Zuverlässigkeit, Preis, Abrufgeschwindigkeit**.
+
+### Datenträger und typische Größen
+
+| Datenträger | Technik | Kapazität |
+|---|---|---|
+| Diskette (3,5″) | magnetisch | **1,44 MB** (Unterricht; ZIP-Diskette 100–750 MB) – heute bedeutungslos |
+| CD | optisch | **700 MB** (Unterricht) |
+| DVD | optisch | **4,7 GB** einseitig/einlagig (DVD 5) · 8,5 GB zweilagig (DVD 9) · 9,4 GB zweiseitig (DVD 10) · 17 GB zweiseitig + zweilagig (DVD 18) – Buch S. 110 |
+| Blu-ray | optisch, **blauer Laser** | 25 / 50 GB (BD-RE ein-/zweilagig) · gepresst 27 / 54 GB |
+| USB-Stick | Flash | Buch: bis 1 TB · Unterricht: 64 GB – 2 TB |
+| Speicherkarte | Flash | **SD-Karte** ist Standard (SD, SDHC, SDXC; Mini/Micro) · Unterricht: 32 GB – 1 TB |
+| HDD | magnetisch | Unterricht: 512 GB – 8 TB gängig, 20 TB und mehr erhältlich |
+| SSD | Flash | Unterricht: 512 GB – 8 TB |
+| Magnetband | magnetisch | Unterricht: 256 GB – 16 TB, heute für **Datensicherung in Firmen** |
+
+> **HINWEIS:** In der Mitschrift stehen für die DVD 2,4 / 4,7 / 9,5 / 19 GB. Das Buch nennt 4,7 / 8,5 / 9,4 / 17 GB. Sicher ist: **Standard-DVD = 4,7 GB**. Für die Prüfung die Buchwerte lernen.
+
+- **CD/DVD**: Die Daten stecken in **Pits** (Vertiefungen) und **Lands** (Rest der Fläche). DVD-Strukturen sind 7,4-mal kleiner als bei der CD; DVD-Laufwerke lesen auch CDs.
+- **DVD+R/RW** (Multisession, hohe Kompatibilität) · **DVD-R/RW** (für große Videodateien, keine Multisession) · **DVD-RAM** (für PCs). Heutige Brenner können ± beides.
+- **Blu-ray** schlug die HD DVD (2008 eingestellt).
 
 ### Festplatten – Sorten und Funktion
 
@@ -472,6 +585,15 @@ Gegliedert nach den **Kapiteln des Buchs** HERDT, *PC-Technik – Grundlagen* (2
 | **M.2 NVMe** | Flash über PCIe | sehr schnell (mehrere GB/s) |
 | **SSHD** | HDD + kleiner Flash-Cache | eingestellt |
 | **SAS / Enterprise** | seriell, Punkt-zu-Punkt, für Dauerbetrieb | Server, höhere MTBF |
+
+### HDD – Aufbau (Buch S. 102–103)
+
+- Magnetscheiben drehen sich auf der **Spindel**; die **Schreib-/Leseköpfe** am Plattenarm gleiten auf einem **Luftpolster** darüber. Unterricht: Gehäuse luftdicht, teils mit **Helium** gefüllt (weniger Luftwiderstand).
+- **Head Crash**: Schon ein Staubkorn bringt den Kopf in Kontakt mit der Platte → Platte zerstört. Darum ist die HDD versiegelt (Siegel = Garantiesiegel), nie öffnen.
+- **Spur** = Kreis auf einer Plattenseite · **Zylinder** = alle übereinanderliegenden Spuren · **Sektor** = Teil einer Spur, meist **512 Byte**.
+- Kapazität = **Köpfe × Zylinder × Sektoren je Spur × 512 Byte** (Beispiel: 16 × 16.383 × 63 × 512 Byte = 8.063,5 MB ≈ 7,87 GB).
+- Kenngrößen: **Drehzahl** (5.400 / 7.200 / 10.000 / 15.000 U/min – schneller, aber lauter) · **Cache** (512 KB – 256 MB) · **Average Seek Time** = mittlere Zeit, bis die Köpfe positioniert sind (3–12 ms) · Schnittstelle (SATA, SAS, USB …).
+- Hersteller rechnen **1 GB = 1.000.000.000 Byte** statt 2³⁰ = 1.073.741.824 Byte → die Platte wirkt größer (S. 102, siehe Abschnitt 91).
 
 ### RAID (Kap. 10.5)
 
@@ -1008,7 +1130,7 @@ Touchscreen (und Headset) sind **Ein- und Ausgabegerät** zugleich.
 
 ### Binärzahlen
 
-> **HINWEIS:** Kein eigenes Buchkapitel; Bezüge im Buch: S. 7 (64 Bit = 8 Byte), S. 65/70 (Hex-Adressen), S. 78 und 117 (Byte → KB → MB mit 1024), S. 184 (IPv4/IPv6). Nach dem Unterricht abgleichen. **(Unterricht)**
+> **HINWEIS:** Kein eigenes Buchkapitel; Bezüge im Buch: S. 7 (64 Bit = 8 Byte), S. 65/70 (Hex-Adressen), S. 78 und 117 (Byte → KB → MB mit 1024), S. 184 (IPv4/IPv6). Die Mitschrift vom 24.11. enthält dazu bisher nur „64-Bit-System“ und „Geschwindigkeiten in Bit“ – das Umrechnen ist deshalb als Ergänzung markiert. **(Unterricht)**
 
 - **Bit** = 0 oder 1 · **1 Byte = 8 Bit** (Buch S. 7: 64 Bit = 8 Byte)
 - Stellenwerte binär (ein Byte): **128 – 64 – 32 – 16 – 8 – 4 – 2 – 1** *(Ergänzung, nicht aus Buch/Unterricht)*
@@ -1016,9 +1138,22 @@ Touchscreen (und Headset) sind **Ein- und Ausgabegerät** zugleich.
 - **Hexadezimal**: Ziffern 0–9 und A–F · 1 Hex-Ziffer = 4 Bit · 1 Byte = 2 Hex-Ziffern (FF = 255) *(Ergänzung, nicht aus Buch/Unterricht)*
 - Im Buch: I/O-Adressen hexadezimal, z. B. **0220h** (S. 65, Übung S. 70) · IPv6-Adressen hexadezimal (S. 184)
 
+**Binär → dezimal** *(Ergänzung)*: Stellenwerte der Einsen addieren.
+
+| Stellenwert | 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1 |
+|---|---|---|---|---|---|---|---|---|
+| 1010 1010 | 1 | 0 | 1 | 0 | 1 | 0 | 1 | 0 |
+
+→ 128 + 32 + 8 + 2 = **170**
+
+**Dezimal → binär** *(Ergänzung)*: von links den größten passenden Stellenwert abziehen. Beispiel 13 = 8 + 4 + 1 → **1101**. Andere Methode: immer durch 2 teilen und die Reste von unten nach oben lesen.
+
+- Mit **n Bit** gibt es **2ⁿ** verschiedene Werte: 8 Bit → 256 Werte (0 bis **255**), 16 Bit → 65.536.
+- Unterricht: Heute arbeiten CPU und RAM mit **64 Datenleitungen** = 64-Bit-System → 64 Bit = 8 Byte gleichzeitig.
+
 ### Speichergrößen
 
-> **HINWEIS:** Kein eigenes Buchkapitel; Bezüge im Buch: S. 78, S. 95 (Mbit/s vs. MB/s), S. 117 (÷ 8, ÷ 1024, ÷ 1024 → 16,6 MB). Nach dem Unterricht abgleichen. **(Unterricht)**
+> **HINWEIS:** Kein eigenes Buchkapitel; Bezüge im Buch: S. 78, S. 95 (Mbit/s vs. MB/s), S. 117 (÷ 8, ÷ 1024, ÷ 1024 → 16,6 MB). **(Unterricht)**
 
 | System | Umrechnung | Wer nutzt es? |
 |---|---|---|
@@ -1026,8 +1161,10 @@ Touchscreen (und Headset) sind **Ein- und Ausgabegerät** zugleich.
 | **Binär (IEC)** | 1 KiB = 1.024 Byte · 1 MiB = 1.024 KiB · 1 GiB = 1.024 MiB · 1 TiB = 1.024 GiB | Windows zeigt Binärwerte, schreibt aber „GB“ *(Ergänzung, nicht aus Buch/Unterricht)* |
 
 - Folge: Eine 1-TB-Platte zeigt in Windows nur ca. **931 GB** (eigentlich GiB) an. *(Ergänzung, nicht aus Buch/Unterricht)*
-- **Datenraten in Bit** (Mbit/s), **Dateigrößen in Byte** → durch 8 teilen: 480 Mbit/s = 60 MB/s theoretisch (Buch S. 95: praktisch ca. 37 MB/s).
-- Das Buch rechnet mit **1.024** (S. 117: Bit ÷ 8 ÷ 1.024 ÷ 1.024 → 16,6 MB).
+- Buch S. 102 bestätigt: Festplattenhersteller rechnen 1 GB = 1.000.000.000 Byte, in der EDV üblich sind 2³⁰ = 1.073.741.824 Byte.
+- **Datenraten in Bit** (Mbit/s), **Dateigrößen in Byte** → durch 8 teilen: 480 Mbit/s = 60 MB/s theoretisch (Buch S. 95: praktisch ca. 37 MB/s). Unterricht: **„Geschwindigkeiten immer in Bit, nie in Byte.“**
+- Das Buch rechnet mit **1.024** (S. 117: Bit ÷ 8 ÷ 1.024 ÷ 1.024 → 16,6 MB; S. 78: 1.024 × 768 Pixel × 3 Byte = 2.359.296 Byte = **2,25 MB** Grafikspeicher).
+- Rechenweg Größen: Byte ÷ 1.024 = KB ÷ 1.024 = MB ÷ 1.024 = GB (umgekehrt × 1.024). Bit → Byte: ÷ 8.
 
 ## 92. Unterricht – Netzwerkgrößen, Router, Software-Begriffe
 

@@ -347,6 +347,18 @@ function fachView(f) {
       <button class="btn primary" id="mix">${f.name} gemischt üben <small>${ROUND_SIZE} Fragen, Fällige zuerst</small></button>
       ${f.wissensbasis && f.allgemein ? `<button class="btn ghost" id="general">📖 Klausurtipps & Fallen</button>` : ""}
     </div>
+    ${f.bloecke ? `<div class="card">
+      <h2>🗓 Nach Unterrichtstag</h2>
+      <p class="muted">Quiz und Lernzettel zu einem Themenblock aus dem Roten Faden.</p>
+      ${f.bloecke.slice().reverse().map(b => {
+        const i = f.bloecke.indexOf(b), bs = stats(blockFragen(f, b));
+        return `<div class="row" data-b="${i}">
+          <div class="name">${esc(b.name)}${bs.weak ? ' <span class="pill">⚠ üben</span>' : ""}
+            <div class="meta">${esc(b.datum || "")} · ${bs.total} Fragen · ${bs.seen} gesehen · ${bs.mastered} sicher</div>
+            <div class="bar"><div class="fill" style="width:${pct(bs.mastered, bs.total)}%"></div></div>
+          </div><div class="chev">›</div></div>`;
+      }).join("")}
+    </div>` : ""}
     ${f.gruppen ? f.gruppen.map(([name, ds], g) => {
       const gs = stats(list.filter(Q => ds.includes(Q.d)));
       const open = openGroups.has(f.id + g) || gs.weak;
@@ -367,6 +379,42 @@ function fachView(f) {
     startQuiz(f.name + " gemischt", due.concat(rest).slice(0, ROUND_SIZE));
   });
   on("general", () => openNotes(f, f.allgemein, "Klausurtipps & Fallen"));
+  app.querySelectorAll(".row").forEach(el => el.onclick = () =>
+    el.dataset.b ? go(blockView, f, +el.dataset.b) : go(themaView, f, el.dataset.d));
+}
+
+// ---------- Themenblock (Roter Faden) ----------
+const blockFragen = (f, b) => fachFragen(f).filter(Q => b.themen.includes(Q.d));
+
+function blockView(f, i) {
+  const b = f.bloecke[i];
+  const list = blockFragen(f, b);
+  const ts = stats(list);
+  const wrong = list.filter(isWrongLast);
+  const [kurz, ...rest] = b.name.split("·");
+  setTitle(f.name + " · " + kurz.trim() + (b.datum ? " (" + b.datum + ")" : ""), rest.join("·").trim() || kurz.trim());
+  app.innerHTML = `
+    <div class="card">
+      <div class="stats">
+        <div class="stat"><div class="num">${ts.seen}/${ts.total}</div><div class="lbl">gesehen</div></div>
+        <div class="stat hl"><div class="num">${ts.mastered}</div><div class="lbl">sicher</div></div>
+        <div class="stat"><div class="num">${ts.quote === null ? "–" : pct(ts.quote * 100, 100) + "%"}</div><div class="lbl">Trefferquote</div></div>
+      </div>
+      <button class="btn primary" id="quiz">Quiz: 20 Fragen <small>Fehler, Fällige und Neue zuerst, aus allen Themen gemischt</small></button>
+      ${f.wissensbasis ? `<button class="btn ghost" id="notes">📖 Lernzettel zum Block lesen</button>` : ""}
+      <button class="btn dark" id="all">Alle ${ts.total} Fragen üben</button>
+      ${wrong.length ? `<button class="btn dark" id="wrong">Nur Fehler üben <small>${wrong.length} Fragen</small></button>` : ""}
+    </div>
+    <div class="card"><h2>Themen in diesem Block</h2>${themenListe(f, b.themen)}</div>`;
+  on("quiz", () => {
+    // Reihenfolge: zuletzt falsch → fällig → neu → Rest; je Gruppe gemischt
+    const rang = Q => isWrongLast(Q) ? 0 : isDue(Q) ? 1 : isNew(Q) ? 2 : 3;
+    const pick = [0, 1, 2, 3].flatMap(r => shuffle(list.filter(Q => rang(Q) === r))).slice(0, 20);
+    startQuiz(kurz.trim() + " · Quiz", shuffle(pick));
+  });
+  on("notes", () => openNotes(f, b.themen.map(d => (f.kapitel || {})[d]).filter(Boolean), b.name));
+  on("all", () => startQuiz(kurz.trim() + " · alle", shuffle(list)));
+  on("wrong", () => startQuiz(kurz.trim() + " · Fehler", shuffle(wrong)));
   app.querySelectorAll(".row").forEach(el => el.onclick = () => go(themaView, f, el.dataset.d));
 }
 
