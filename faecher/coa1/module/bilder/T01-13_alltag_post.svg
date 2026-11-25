@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 530" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Alltagsvergleich: Wie weit geht deine Nachricht? Sechs Bilder von nah nach weit. Zettel am eigenen Kühlschrank gleich PAN. Hauspost im Bürogebäude gleich LAN. Bote mit dem Fahrrad zwischen den Gebäuden eines Werksgeländes gleich CAN. Kurier-Auto quer durch die Stadt gleich MAN. Lkw auf der Autobahn in eine andere Stadt gleich WAN. Flugzeug rund um die Welt gleich GAN.</title>
+<defs>
+<marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker>
+<g id="rad"><circle r="7" fill="none" stroke="#333" stroke-width="2"/></g>
+</defs>
+<rect width="400" height="530" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">Wie weit geht deine Nachricht?</text>
+
+<!-- Zeilenhintergruende -->
+<g fill="#f3f6fb">
+<rect x="10" y="44" width="340" height="72" rx="8"/>
+<rect x="10" y="122" width="340" height="72" rx="8"/>
+<rect x="10" y="200" width="340" height="72" rx="8"/>
+<rect x="10" y="278" width="340" height="72" rx="8"/>
+<rect x="10" y="356" width="340" height="72" rx="8"/>
+<rect x="10" y="434" width="340" height="72" rx="8"/>
+</g>
+
+<!-- 1 PAN: Zettel am Kuehlschrank -->
+<g transform="translate(16,50)">
+<rect x="30" y="2" width="44" height="58" rx="5" fill="#e8ecf2" stroke="#555" stroke-width="2"/>
+<line x1="30" y1="22" x2="74" y2="22" stroke="#555" stroke-width="2"/>
+<line x1="66" y1="8" x2="66" y2="17" stroke="#555" stroke-width="3"/>
+<line x1="66" y1="28" x2="66" y2="40" stroke="#555" stroke-width="3"/>
+<rect x="38" y="28" width="20" height="18" fill="#ffd84d" stroke="#b8862b" transform="rotate(-6 48 37)"/>
+</g>
+<text x="130" y="76" font-size="18" font-weight="700" fill="#1d3f8a">PAN</text>
+<text x="130" y="98">Zettel für dich selbst</text>
+
+<!-- 2 LAN: Hauspost im Buerogebaeude -->
+<g transform="translate(16,128)">
+<rect x="22" y="2" width="60" height="58" fill="#dfe9fb" stroke="#3a6ed8" stroke-width="2"/>
+<g fill="#fff" stroke="#3a6ed8"><rect x="28" y="8" width="10" height="8"/><rect x="47" y="8" width="10" height="8"/><rect x="66" y="8" width="10" height="8"/></g>
+<rect x="36" y="26" width="32" height="22" fill="#fff" stroke="#333" stroke-width="2"/>
+<path d="M36,26 L52,39 L68,26" fill="none" stroke="#333" stroke-width="2"/>
+</g>
+<text x="130" y="154" font-size="18" font-weight="700" fill="#1d3f8a">LAN</text>
+<text x="130" y="176">Hauspost im Bürogebäude</text>
+
+<!-- 3 CAN: Bote mit Fahrrad zwischen Gebaeuden -->
+<g transform="translate(16,206)">
+<rect x="2" y="16" width="24" height="42" fill="#dfe9fb" stroke="#3a6ed8" stroke-width="2"/>
+<rect x="78" y="22" width="24" height="36" fill="#dfe9fb" stroke="#3a6ed8" stroke-width="2"/>
+<line x1="0" y1="59" x2="104" y2="59" stroke="#2f6b4f" stroke-width="2"/>
+<use href="#rad" x="42" y="49"/><use href="#rad" x="64" y="49"/>
+<path d="M42,49 L50,38 L60,38 L64,49 M50,38 L54,49 L60,38" fill="none" stroke="#c62828" stroke-width="2"/>
+<circle cx="52" cy="22" r="5" fill="#333"/>
+<line x1="52" y1="27" x2="50" y2="38" stroke="#333" stroke-width="3"/>
+</g>
+<text x="130" y="232" font-size="18" font-weight="700" fill="#1d3f8a">CAN</text>
+<text x="130" y="254">Bote auf dem Werksgelände</text>
+
+<!-- 4 MAN: Kurier-Auto in der Stadt -->
+<g transform="translate(16,284)">
+<g fill="#9aa3ad"><rect x="4" y="16" width="16" height="30"/><rect x="22" y="4" width="16" height="42"/><rect x="40" y="20" width="14" height="26"/><rect x="56" y="10" width="18" height="36"/><rect x="76" y="22" width="20" height="24"/></g>
+<rect x="26" y="40" width="44" height="12" rx="3" fill="#E07B00"/>
+<path d="M34,40 l5,-8 h18 l5,8 z" fill="#E07B00"/>
+<circle cx="36" cy="54" r="5" fill="#333"/><circle cx="60" cy="54" r="5" fill="#333"/>
+</g>
+<text x="130" y="310" font-size="18" font-weight="700" fill="#1d3f8a">MAN</text>
+<text x="130" y="332">Kurier quer durch die Stadt</text>
+
+<!-- 5 WAN: Lkw auf der Autobahn -->
+<g transform="translate(16,362)">
+<g fill="#9aa3ad"><rect x="0" y="22" width="8" height="18"/><rect x="9" y="14" width="8" height="26"/><rect x="88" y="18" width="8" height="22"/><rect x="97" y="26" width="8" height="14"/></g>
+<rect x="0" y="52" width="104" height="6" fill="#777"/>
+<line x1="4" y1="55" x2="100" y2="55" stroke="#fff" stroke-width="1.5" stroke-dasharray="6 5"/>
+<rect x="26" y="28" width="36" height="20" fill="#3a6ed8"/>
+<path d="M62,34 h10 l6,7 v7 h-16 z" fill="#1d3f8a"/>
+<circle cx="34" cy="50" r="4.5" fill="#333"/><circle cx="54" cy="50" r="4.5" fill="#333"/><circle cx="72" cy="50" r="4.5" fill="#333"/>
+</g>
+<text x="130" y="388" font-size="18" font-weight="700" fill="#1d3f8a">WAN</text>
+<text x="130" y="410">Lkw in eine andere Stadt</text>
+
+<!-- 6 GAN: Flugzeug um die Erde -->
+<g transform="translate(16,440)">
+<circle cx="52" cy="32" r="24" fill="#9cc3f5" stroke="#3a6ed8" stroke-width="2"/>
+<ellipse cx="52" cy="32" rx="10" ry="24" fill="none" stroke="#3a6ed8" stroke-width="1.2"/>
+<line x1="28" y1="32" x2="76" y2="32" stroke="#3a6ed8" stroke-width="1.2"/>
+<path d="M36,20 q8,-6 14,0 q-4,8 -12,6 z" fill="#2f6b4f"/>
+<path d="M54,36 q10,-2 14,4 q-6,10 -12,8 z" fill="#2f6b4f"/>
+<path d="M18,38 A36,20 0 0 1 86,22" fill="none" stroke="#333" stroke-width="1.5" stroke-dasharray="4 3"/>
+<g transform="translate(86,20) rotate(-20)">
+<ellipse rx="11" ry="3" fill="#333"/>
+<path d="M-2,0 L-7,-10 L-3,-10 L4,0 L-3,10 L-7,10 Z" fill="#333"/>
+<path d="M-9,0 L-12,-5 L-10,-5 L-6,0 Z" fill="#333"/>
+</g>
+</g>
+<text x="130" y="466" font-size="18" font-weight="700" fill="#1d3f8a">GAN</text>
+<text x="130" y="488">Luftpost rund um die Welt</text>
+
+<!-- Pfeil nah -> weit -->
+<line x1="376" y1="54" x2="376" y2="500" stroke="#3a6ed8" stroke-width="3.5" marker-end="url(#ab)"/>
+<text x="388" y="280" text-anchor="middle" font-size="13" font-weight="700" fill="#3a6ed8" transform="rotate(90 388 280)">immer weiter weg</text>
+</svg>

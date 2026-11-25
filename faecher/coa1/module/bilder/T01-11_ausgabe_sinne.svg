@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" font-family="system-ui, sans-serif" role="img">
+  <title>Ausgabe bringt das Ergebnis zum Menschen. In der Mitte der PC mit der Verarbeitung. Vier Pfeile führen zu vier Gruppen: sehen mit Monitor, Beamer und VR-Brille; hören mit Lautsprecher, Kopfhörer und Headset; tasten mit dem Braille-Gerät; bewegen mit dem Roboter. Vom Headset führt ein gestrichelter Pfeil zurück zum PC: Das Mikrofon ist auch Eingabe.</title>
+  <defs>
+    <marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e8590c"/></marker>
+    <marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker>
+  </defs>
+  <rect width="400" height="520" fill="#fff"/>
+  <text x="200" y="30" text-anchor="middle" font-size="17" font-weight="700" fill="#222">Ausgabe = Ergebnis zum Menschen bringen</text>
+
+  <!-- 1 sehen -->
+  <rect x="10" y="48" width="182" height="142" rx="12" fill="#eef4ff" stroke="#3a6ed8" stroke-width="2"/>
+  <path d="M22,76 Q38,62 54,76 Q38,90 22,76 Z" fill="#fff" stroke="#3a6ed8" stroke-width="2.5"/>
+  <circle cx="38" cy="76" r="5" fill="#3a6ed8"/>
+  <text x="64" y="82" font-size="17" font-weight="700" fill="#3a6ed8">sehen</text>
+  <g font-size="15" fill="#222">
+    <text x="26" y="114">• Monitor</text>
+    <text x="26" y="138">• Beamer</text>
+    <text x="26" y="162">• VR-Brille</text>
+  </g>
+
+  <!-- 2 hören -->
+  <rect x="208" y="48" width="182" height="142" rx="12" fill="#eaf6ee" stroke="#1f9d55" stroke-width="2"/>
+  <path d="M232,90 C226,90 225,83 229,80 C233,77 226,62 238,62 C250,62 251,76 245,80 C241,83 243,90 237,92" fill="none" stroke="#1f9d55" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M236,72 C241,72 241,79 236,79" fill="none" stroke="#1f9d55" stroke-width="2" stroke-linecap="round"/>
+  <text x="262" y="82" font-size="17" font-weight="700" fill="#1c6b3c">hören</text>
+  <g font-size="15" fill="#222">
+    <text x="224" y="114">• Lautsprecher</text>
+    <text x="224" y="138">• Kopfhörer</text>
+    <text x="224" y="162">• Headset</text>
+  </g>
+
+  <!-- 3 tasten -->
+  <rect x="10" y="350" width="182" height="112" rx="12" fill="#fff8e6" stroke="#b7791f" stroke-width="2"/>
+  <rect x="30" y="364" width="16" height="28" rx="8" fill="#f2d4b7" stroke="#8a5a00" stroke-width="1.5"/>
+  <rect x="33" y="366" width="10" height="8" rx="3" fill="#fff"/>
+  <circle cx="32" cy="399" r="2.5" fill="#8a5a00"/><circle cx="44" cy="399" r="2.5" fill="#8a5a00"/>
+  <text x="64" y="386" font-size="17" font-weight="700" fill="#8a5a00">tasten</text>
+  <text x="26" y="430" font-size="15" fill="#222">• Braille-Gerät</text>
+
+  <!-- 4 bewegen -->
+  <rect x="208" y="350" width="182" height="112" rx="12" fill="#f3effa" stroke="#6f42c1" stroke-width="2"/>
+  <circle cx="236" cy="378" r="12" fill="none" stroke="#6f42c1" stroke-width="5" stroke-dasharray="4 3.5"/>
+  <circle cx="236" cy="378" r="9" fill="#6f42c1"/>
+  <circle cx="236" cy="378" r="3.5" fill="#fff"/>
+  <text x="262" y="386" font-size="17" font-weight="700" fill="#6f42c1">bewegen</text>
+  <text x="224" y="430" font-size="15" fill="#222">• Roboter</text>
+
+  <!-- Mitte: Verarbeitung -->
+  <rect x="120" y="226" width="160" height="80" rx="10" fill="#f1f3f5" stroke="#555" stroke-width="2"/>
+  <rect x="134" y="238" width="28" height="56" rx="3" fill="#3a3f4a"/>
+  <line x1="139" y1="248" x2="157" y2="248" stroke="#adb5bd" stroke-width="2"/>
+  <line x1="139" y1="255" x2="157" y2="255" stroke="#adb5bd" stroke-width="2"/>
+  <circle cx="148" cy="282" r="3" fill="#1f9d55"/>
+  <text x="222" y="264" text-anchor="middle" font-size="15" font-weight="700" fill="#222">Verarbeitung</text>
+  <text x="222" y="284" text-anchor="middle" font-size="13" fill="#444">(PC)</text>
+
+  <!-- Ausgabe-Pfeile -->
+  <g stroke="#e8590c" stroke-width="3.5" marker-end="url(#ao)">
+    <line x1="150" y1="224" x2="118" y2="196"/>
+    <line x1="250" y1="224" x2="282" y2="196"/>
+    <line x1="150" y1="308" x2="118" y2="344"/>
+    <line x1="250" y1="308" x2="282" y2="344"/>
+  </g>
+
+  <!-- Headset: Mikrofon zurück zum PC -->
+  <path d="M372,192 C372,240 330,262 286,262" fill="none" stroke="#555" stroke-width="2.5" stroke-dasharray="6 4" marker-end="url(#ag)"/>
+  <rect x="368" y="226" width="10" height="16" rx="5" fill="#555"/>
+  <path d="M364,236 Q364,250 373,250 Q382,250 382,236 M373,250 V256" fill="none" stroke="#555" stroke-width="2"/>
+  <text x="292" y="300" font-size="13" fill="#333">Headset:</text>
+  <text x="292" y="318" font-size="14" font-weight="700" fill="#333">auch Eingabe</text>
+
+  <text x="200" y="500" text-anchor="middle" font-size="15" fill="#444">Bild · Ton · Tastpunkte · Bewegung</text>
+</svg>

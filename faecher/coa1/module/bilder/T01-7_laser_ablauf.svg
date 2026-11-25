@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 540" font-family="system-ui, sans-serif">
+  <title>So druckt der Laserdrucker, im Kreis um die Bildtrommel. 1 Die Trommel wird elektrisch geladen. 2 Der Laser entlädt Stellen, so entsteht ein unsichtbares Ladungsbild. 3 Toner haftet an diesen Stellen. 4 Der Toner geht aufs Papier. 5 Druck und Wärme in zwei heißen Walzen machen ihn fest. 6 Die Trommel wird gereinigt, der Rest kommt in den Resttoner-Behälter.</title>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker>
+    <marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d63c3c"/></marker>
+    <g id="n"><circle r="12" fill="#E07B00"/></g>
+  </defs>
+  <rect width="400" height="540" fill="#fff"/>
+  <text x="200" y="24" text-anchor="middle" font-size="17" font-weight="700" fill="#222">Laserdrucker: Xerografie</text>
+
+  <!-- Bildtrommel -->
+  <circle cx="180" cy="190" r="68" fill="#d9dde3" stroke="#555" stroke-width="2.5"/>
+  <text x="180" y="186" text-anchor="middle" font-size="14" font-weight="700" fill="#333">Bild-</text>
+  <text x="180" y="203" text-anchor="middle" font-size="14" font-weight="700" fill="#333">trommel</text>
+  <path d="M133,173 A50,50 0 0 1 227,173" fill="none" stroke="#555" stroke-width="2.5" marker-end="url(#a)"/>
+
+  <!-- 1 laden -->
+  <circle cx="122" cy="132" r="12" fill="#9aa3ae" stroke="#555" stroke-width="2"/>
+  <g font-size="16" font-weight="700" fill="#1c3f80" text-anchor="middle">
+    <text x="146" y="142">+</text><text x="164" y="134">+</text><text x="186" y="133">+</text>
+  </g>
+  <circle cx="28" cy="96" r="12" fill="#E07B00"/><text x="28" y="101" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">1</text>
+  <text x="46" y="101" font-size="14" font-weight="700" fill="#222">laden</text>
+  <line x1="72" y1="104" x2="110" y2="124" stroke="#333" stroke-width="1.5"/>
+
+  <!-- 2 Laser -->
+  <rect x="214" y="44" width="80" height="30" rx="5" fill="#3a3f4a"/>
+  <text x="254" y="64" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">Laser</text>
+  <line x1="226" y1="74" x2="208" y2="122" stroke="#d63c3c" stroke-width="3" marker-end="url(#r)"/>
+  <circle cx="310" cy="59" r="12" fill="#E07B00"/><text x="310" y="64" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">2</text>
+  <text x="328" y="58" font-size="13" fill="#222">entlädt</text>
+  <text x="328" y="74" font-size="13" fill="#222">Stellen</text>
+
+  <!-- 3 Toner -->
+  <rect x="276" y="160" width="76" height="46" rx="6" fill="#3a3f4a"/>
+  <text x="314" y="188" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">Toner</text>
+  <g fill="#111"><circle cx="264" cy="178" r="2.5"/><circle cx="268" cy="188" r="2.5"/><circle cx="264" cy="198" r="2.5"/></g>
+  <g fill="#111"><circle cx="245" cy="206" r="3"/><circle cx="238" cy="224" r="3"/><circle cx="225" cy="240" r="3"/><circle cx="207" cy="251" r="3"/></g>
+  <circle cx="368" cy="168" r="12" fill="#E07B00"/><text x="368" y="173" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">3</text>
+  <text x="314" y="226" text-anchor="middle" font-size="13" fill="#222">haftet</text>
+
+  <!-- 4 Papier -->
+  <rect x="96" y="258" width="290" height="6" fill="#fff" stroke="#333" stroke-width="1.5"/>
+  <line x1="40" y1="261" x2="92" y2="261" stroke="#333" stroke-width="3" marker-end="url(#a)"/>
+  <g fill="#111"><circle cx="232" cy="255" r="2.5"/><circle cx="246" cy="255" r="2.5"/><circle cx="260" cy="255" r="2.5"/><circle cx="274" cy="255" r="2.5"/></g>
+  <circle cx="120" cy="290" r="12" fill="#E07B00"/><text x="120" y="295" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">4</text>
+  <text x="138" y="295" font-size="14" font-weight="700" fill="#222">aufs Papier</text>
+  <text x="40" y="282" font-size="13" fill="#555">Papier</text>
+
+  <!-- 5 Fixieren -->
+  <circle cx="330" cy="245" r="12" fill="#e85d2a"/>
+  <circle cx="330" cy="277" r="12" fill="#e85d2a"/>
+  <path d="M352,242 q5,-5 0,-10 q-5,-5 0,-10 M362,242 q5,-5 0,-10 q-5,-5 0,-10" fill="none" stroke="#d63c3c" stroke-width="2"/>
+  <circle cx="262" cy="312" r="12" fill="#E07B00"/><text x="262" y="317" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">5</text>
+  <text x="280" y="317" font-size="14" font-weight="700" fill="#a32020">Druck + Wärme</text>
+
+  <!-- 6 Reinigen -->
+  <line x1="98" y1="226" x2="116" y2="214" stroke="#333" stroke-width="5" stroke-linecap="round"/>
+  <rect x="28" y="194" width="66" height="56" rx="6" fill="#fff" stroke="#333" stroke-width="2"/>
+  <g fill="#111"><circle cx="44" cy="242" r="2.5"/><circle cx="54" cy="244" r="2.5"/><circle cx="64" cy="242" r="2.5"/><circle cx="76" cy="244" r="2.5"/></g>
+  <text x="61" y="212" text-anchor="middle" font-size="13" fill="#222">Rest-</text>
+  <text x="61" y="227" text-anchor="middle" font-size="13" fill="#222">toner</text>
+  <circle cx="28" cy="164" r="12" fill="#E07B00"/><text x="28" y="169" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">6</text>
+  <text x="46" y="169" font-size="14" font-weight="700" fill="#222">reinigen</text>
+
+  <!-- Liste -->
+  <rect x="8" y="334" width="384" height="198" rx="12" fill="#f3f4f6" stroke="#bbb"/>
+  <g font-size="14" fill="#222">
+    <circle cx="30" cy="358" r="11" fill="#E07B00"/><text x="30" y="363" text-anchor="middle" font-weight="700" fill="#fff">1</text>
+    <text x="50" y="363">Trommel wird elektrisch geladen</text>
+    <circle cx="30" cy="388" r="11" fill="#E07B00"/><text x="30" y="393" text-anchor="middle" font-weight="700" fill="#fff">2</text>
+    <text x="50" y="393">Laser entlädt Stellen → Ladungsbild</text>
+    <circle cx="30" cy="418" r="11" fill="#E07B00"/><text x="30" y="423" text-anchor="middle" font-weight="700" fill="#fff">3</text>
+    <text x="50" y="423">Toner haftet an diesen Stellen</text>
+    <circle cx="30" cy="448" r="11" fill="#E07B00"/><text x="30" y="453" text-anchor="middle" font-weight="700" fill="#fff">4</text>
+    <text x="50" y="453">Toner geht aufs Papier</text>
+    <circle cx="30" cy="478" r="11" fill="#d63c3c"/><text x="30" y="483" text-anchor="middle" font-weight="700" fill="#fff">5</text>
+    <text x="50" y="483" font-weight="700" fill="#a32020">Druck + Wärme machen ihn fest</text>
+    <circle cx="30" cy="508" r="11" fill="#E07B00"/><text x="30" y="513" text-anchor="middle" font-weight="700" fill="#fff">6</text>
+    <text x="50" y="513">Trommel reinigen → Resttoner-Behälter</text>
+  </g>
+</svg>

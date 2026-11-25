@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 470" font-family="system-ui, sans-serif">
+  <title>Kopierer und Scanner im Vergleich. Links der Kopierer: Blatt rein, unten kommt eine Papierkopie heraus. Rechts der Scanner: Blatt rein, statt Papier kommt eine Datei heraus und geht an den Laptop. Unten das Kombigerät: Es kann beides, Papier und Datei.</title>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker>
+    <marker id="o" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E07B00"/></marker>
+    <g id="blatt">
+      <rect x="0" y="0" width="30" height="40" fill="#fff" stroke="#333" stroke-width="2"/>
+      <g stroke="#888" stroke-width="2"><line x1="5" y1="9" x2="25" y2="9"/><line x1="5" y1="17" x2="25" y2="17"/><line x1="5" y1="25" x2="25" y2="25"/><line x1="5" y1="33" x2="18" y2="33"/></g>
+    </g>
+    <g id="datei">
+      <path d="M0,0 h20 l10,10 v30 h-30 z" fill="#fff4e5" stroke="#E07B00" stroke-width="2"/>
+      <path d="M20,0 v10 h10" fill="none" stroke="#E07B00" stroke-width="2"/>
+      <rect x="5" y="16" width="20" height="14" fill="#E07B00"/>
+    </g>
+    <g id="laptop">
+      <rect x="0" y="0" width="54" height="36" rx="3" fill="#3a3f4a"/>
+      <rect x="4" y="4" width="46" height="28" fill="#fff"/>
+      <rect x="-6" y="36" width="66" height="7" rx="3" fill="#555"/>
+    </g>
+    <g id="geraet">
+      <rect x="0" y="0" width="90" height="14" rx="4" fill="#555"/>
+      <rect x="0" y="14" width="90" height="46" rx="6" fill="#3a3f4a"/>
+      <rect x="10" y="26" width="12" height="24" rx="2" fill="#ffd54a"/>
+    </g>
+  </defs>
+  <rect width="400" height="470" fill="#fff"/>
+
+  <!-- Kopierer -->
+  <rect x="8" y="8" width="188" height="268" rx="12" fill="#f3f4f6" stroke="#bbb"/>
+  <text x="102" y="34" text-anchor="middle" font-size="17" font-weight="700" fill="#222">Kopierer</text>
+  <use href="#blatt" x="87" y="46"/>
+  <line x1="102" y1="90" x2="102" y2="112" stroke="#333" stroke-width="3" marker-end="url(#a)"/>
+  <use href="#geraet" x="57" y="116"/>
+  <line x1="102" y1="180" x2="102" y2="202" stroke="#333" stroke-width="3" marker-end="url(#a)"/>
+  <use href="#blatt" x="87" y="206"/>
+  <text x="102" y="266" text-anchor="middle" font-size="14" font-weight="700" fill="#222">Papierkopie</text>
+
+  <!-- Scanner -->
+  <rect x="204" y="8" width="188" height="268" rx="12" fill="#fff4e5" stroke="#E07B00"/>
+  <text x="298" y="34" text-anchor="middle" font-size="17" font-weight="700" fill="#222">Scanner</text>
+  <use href="#blatt" x="283" y="46"/>
+  <line x1="298" y1="90" x2="298" y2="112" stroke="#333" stroke-width="3" marker-end="url(#a)"/>
+  <use href="#geraet" x="253" y="116"/>
+  <line x1="268" y1="180" x2="268" y2="202" stroke="#E07B00" stroke-width="3" marker-end="url(#o)"/>
+  <use href="#datei" x="253" y="206"/>
+  <line x1="288" y1="226" x2="316" y2="226" stroke="#E07B00" stroke-width="3" marker-end="url(#o)"/>
+  <use href="#laptop" x="326" y="204"/>
+  <text x="298" y="266" text-anchor="middle" font-size="14" font-weight="700" fill="#b35f00">Datei an den PC</text>
+
+  <!-- Kombigerät -->
+  <rect x="8" y="290" width="384" height="170" rx="12" fill="#fff" stroke="#333" stroke-width="1.5"/>
+  <text x="200" y="316" text-anchor="middle" font-size="17" font-weight="700" fill="#222">Kombigerät: beides</text>
+  <use href="#geraet" x="155" y="330"/>
+  <path d="M170,394 L110,410" fill="none" stroke="#333" stroke-width="3" marker-end="url(#a)"/>
+  <use href="#blatt" x="70" y="398"/>
+  <text x="85" y="456" text-anchor="middle" font-size="14" fill="#222">Papier</text>
+  <path d="M230,394 L282,410" fill="none" stroke="#E07B00" stroke-width="3" marker-end="url(#o)"/>
+  <use href="#datei" x="288" y="398"/>
+  <text x="303" y="456" text-anchor="middle" font-size="14" fill="#b35f00">Datei</text>
+  <text x="258" y="352" font-size="13" fill="#555">Drucker + Scanner,</text>
+  <text x="258" y="369" font-size="13" fill="#555">oft auch Fax</text>
+</svg>

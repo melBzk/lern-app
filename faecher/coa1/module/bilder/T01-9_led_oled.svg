@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 450" font-family="system-ui, sans-serif">
+  <title>Zwei Querschnitte, vorne ist jeweils oben. Oben ein LCD mit LED-Hintergrundbeleuchtung: hinten eine Reihe LED-Lämpchen, davor die LCD-Schicht und die Farbfilter, das Licht geht nach vorne. Unten OLED: nur eine Schicht, jeder Bildpunkt ist ein eigenes Lämpchen und leuchtet selbst, ohne Hintergrundbeleuchtung und ohne Farbfilter.</title>
+  <defs>
+    <marker id="pl" viewBox="0 0 10 10" refX="8" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#e0a800"/>
+    </marker>
+  </defs>
+  <rect width="400" height="450" fill="#fff"/>
+  <text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700" fill="#222">LCD mit LED-Licht oder OLED?</text>
+  <text x="200" y="46" text-anchor="middle" font-size="13" fill="#555">Querschnitt – oben ist vorne (dein Auge)</text>
+
+  <!-- ===== LCD mit LED ===== -->
+  <rect x="8" y="58" width="384" height="182" rx="10" fill="#f4f6fa"/>
+  <text x="20" y="80" font-size="15" font-weight="700" fill="#222">LCD mit LED-Hintergrundbeleuchtung</text>
+  <!-- Farbfilter -->
+  <g>
+    <rect x="20" y="96" width="30" height="14" fill="#d93a3a"/><rect x="50" y="96" width="30" height="14" fill="#2e9d5b"/><rect x="80" y="96" width="30" height="14" fill="#3a6ed8"/>
+    <rect x="110" y="96" width="30" height="14" fill="#d93a3a"/><rect x="140" y="96" width="30" height="14" fill="#2e9d5b"/><rect x="170" y="96" width="30" height="14" fill="#3a6ed8"/>
+    <rect x="200" y="96" width="30" height="14" fill="#d93a3a"/><rect x="230" y="96" width="30" height="14" fill="#2e9d5b"/>
+  </g>
+  <text x="272" y="108" font-size="14" fill="#222">Farbfilter</text>
+  <!-- LCD-Schicht -->
+  <rect x="20" y="114" width="240" height="22" fill="#e3f0fb" stroke="#7aa6d6" stroke-width="1.5"/>
+  <text x="272" y="130" font-size="14" fill="#222">LCD-Schicht</text>
+  <!-- Licht -->
+  <g stroke="#e0a800" stroke-width="3" marker-end="url(#pl)">
+    <line x1="50" y1="186" x2="50" y2="142"/><line x1="110" y1="186" x2="110" y2="142"/><line x1="170" y1="186" x2="170" y2="142"/><line x1="230" y1="186" x2="230" y2="142"/>
+  </g>
+  <!-- LEDs hinten -->
+  <rect x="20" y="206" width="240" height="20" fill="#ddd" stroke="#999" stroke-width="1"/>
+  <g fill="#ffd54f" stroke="#c79a00" stroke-width="1.5">
+    <circle cx="50" cy="202" r="8"/><circle cx="110" cy="202" r="8"/><circle cx="170" cy="202" r="8"/><circle cx="230" cy="202" r="8"/>
+  </g>
+  <text x="272" y="208" font-size="14" font-weight="700" fill="#222">LEDs hinten</text>
+  <text x="272" y="225" font-size="13" fill="#555">Licht von hinten</text>
+
+  <!-- ===== OLED ===== -->
+  <rect x="8" y="256" width="384" height="182" rx="10" fill="#fff3cd"/>
+  <text x="20" y="278" font-size="15" font-weight="700" fill="#222">OLED</text>
+  <g stroke-width="2">
+    <line x1="35" y1="316" x2="35" y2="300" stroke="#d93a3a"/><line x1="65" y1="316" x2="65" y2="300" stroke="#2e9d5b"/><line x1="95" y1="316" x2="95" y2="300" stroke="#3a6ed8"/>
+    <line x1="125" y1="316" x2="125" y2="300" stroke="#d93a3a"/><line x1="155" y1="316" x2="155" y2="300" stroke="#2e9d5b"/><line x1="185" y1="316" x2="185" y2="300" stroke="#3a6ed8"/>
+    <line x1="215" y1="316" x2="215" y2="300" stroke="#d93a3a"/><line x1="245" y1="316" x2="245" y2="300" stroke="#2e9d5b"/>
+  </g>
+  <g stroke="#fff" stroke-width="2">
+    <rect x="20" y="322" width="30" height="26" fill="#d93a3a"/><rect x="50" y="322" width="30" height="26" fill="#2e9d5b"/><rect x="80" y="322" width="30" height="26" fill="#3a6ed8"/>
+    <rect x="110" y="322" width="30" height="26" fill="#d93a3a"/><rect x="140" y="322" width="30" height="26" fill="#2e9d5b"/><rect x="170" y="322" width="30" height="26" fill="#3a6ed8"/>
+    <rect x="200" y="322" width="30" height="26" fill="#d93a3a"/><rect x="230" y="322" width="30" height="26" fill="#2e9d5b"/>
+  </g>
+  <text x="272" y="332" font-size="14" font-weight="700" fill="#222">jeder Punkt</text>
+  <text x="272" y="350" font-size="14" font-weight="700" fill="#222">leuchtet selbst</text>
+  <text x="20" y="384" font-size="14" fill="#222">✗ keine Hintergrundbeleuchtung</text>
+  <text x="20" y="406" font-size="14" fill="#222">✗ keine Farbfilter</text>
+  <text x="20" y="428" font-size="13" fill="#555">nur eine leuchtende Schicht</text>
+</svg>

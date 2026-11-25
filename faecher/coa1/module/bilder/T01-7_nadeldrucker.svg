@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 440" font-family="system-ui, sans-serif">
+  <title>Nadeldrucker. Oben links ein Druckkopf mit einer senkrechten Reihe von 9 Nadeln; einige Nadeln stoßen durch das Farbband und machen Punkte auf dem Papier. Oben rechts der Buchstabe A aus Punkten in einem Raster: Punktmatrix. Unten ein Formularsatz aus drei Lagen, Original und zwei Durchschläge mit demselben Text, und Endlospapier mit Lochrand.</title>
+  <rect width="400" height="440" fill="#fff"/>
+  <!-- Druckkopf -->
+  <rect x="30" y="42" width="74" height="132" rx="6" fill="#3a3f4a"/>
+  <text x="67" y="104" text-anchor="middle" font-size="13" fill="#fff">Druck-</text>
+  <text x="67" y="120" text-anchor="middle" font-size="13" fill="#fff">kopf</text>
+  <line x1="104" y1="56" x2="128" y2="56" stroke="#888" stroke-width="4" stroke-linecap="round"/><line x1="104" y1="70" x2="128" y2="70" stroke="#888" stroke-width="4" stroke-linecap="round"/><line x1="104" y1="84" x2="150" y2="84" stroke="#333" stroke-width="4" stroke-linecap="round"/><line x1="104" y1="98" x2="150" y2="98" stroke="#333" stroke-width="4" stroke-linecap="round"/><line x1="104" y1="112" x2="150" y2="112" stroke="#333" stroke-width="4" stroke-linecap="round"/><line x1="104" y1="126" x2="128" y2="126" stroke="#888" stroke-width="4" stroke-linecap="round"/><line x1="104" y1="140" x2="150" y2="140" stroke="#333" stroke-width="4" stroke-linecap="round"/><line x1="104" y1="154" x2="150" y2="154" stroke="#333" stroke-width="4" stroke-linecap="round"/><line x1="104" y1="168" x2="128" y2="168" stroke="#888" stroke-width="4" stroke-linecap="round"/>
+  <rect x="140" y="40" width="8" height="136" fill="#111"/>
+  <rect x="152" y="40" width="16" height="136" fill="#fff" stroke="#333" stroke-width="1.5"/>
+  <circle cx="160" cy="84" r="3.5" fill="#111"/><circle cx="160" cy="98" r="3.5" fill="#111"/><circle cx="160" cy="112" r="3.5" fill="#111"/><circle cx="160" cy="140" r="3.5" fill="#111"/><circle cx="160" cy="154" r="3.5" fill="#111"/>
+  <text x="67" y="26" text-anchor="middle" font-size="14" font-weight="700" fill="#222">9 Nadeln</text>
+  <text x="144" y="196" text-anchor="end" font-size="13" fill="#222">Farbband</text>
+  <text x="152" y="212" font-size="13" fill="#222">Papier</text>
+  <line x1="144" y1="184" x2="144" y2="178" stroke="#333"/>
+  <!-- Punktmatrix -->
+  <circle cx="250" cy="56" r="2.5" fill="#ccc"/><circle cx="270" cy="56" r="2.5" fill="#ccc"/><circle cx="290" cy="56" r="7" fill="#222"/><circle cx="310" cy="56" r="2.5" fill="#ccc"/><circle cx="330" cy="56" r="2.5" fill="#ccc"/><circle cx="250" cy="74" r="2.5" fill="#ccc"/><circle cx="270" cy="74" r="7" fill="#222"/><circle cx="290" cy="74" r="2.5" fill="#ccc"/><circle cx="310" cy="74" r="7" fill="#222"/><circle cx="330" cy="74" r="2.5" fill="#ccc"/><circle cx="250" cy="92" r="7" fill="#222"/><circle cx="270" cy="92" r="2.5" fill="#ccc"/><circle cx="290" cy="92" r="2.5" fill="#ccc"/><circle cx="310" cy="92" r="2.5" fill="#ccc"/><circle cx="330" cy="92" r="7" fill="#222"/><circle cx="250" cy="110" r="7" fill="#222"/><circle cx="270" cy="110" r="2.5" fill="#ccc"/><circle cx="290" cy="110" r="2.5" fill="#ccc"/><circle cx="310" cy="110" r="2.5" fill="#ccc"/><circle cx="330" cy="110" r="7" fill="#222"/><circle cx="250" cy="128" r="7" fill="#222"/><circle cx="270" cy="128" r="7" fill="#222"/><circle cx="290" cy="128" r="7" fill="#222"/><circle cx="310" cy="128" r="7" fill="#222"/><circle cx="330" cy="128" r="7" fill="#222"/><circle cx="250" cy="146" r="7" fill="#222"/><circle cx="270" cy="146" r="2.5" fill="#ccc"/><circle cx="290" cy="146" r="2.5" fill="#ccc"/><circle cx="310" cy="146" r="2.5" fill="#ccc"/><circle cx="330" cy="146" r="7" fill="#222"/><circle cx="250" cy="164" r="7" fill="#222"/><circle cx="270" cy="164" r="2.5" fill="#ccc"/><circle cx="290" cy="164" r="2.5" fill="#ccc"/><circle cx="310" cy="164" r="2.5" fill="#ccc"/><circle cx="330" cy="164" r="7" fill="#222"/>
+  <text x="290" y="196" text-anchor="middle" font-size="14" font-weight="700" fill="#222">Punktmatrix</text>
+  <text x="290" y="26" text-anchor="middle" font-size="13" fill="#555">Zeichen aus Punkten</text>
+
+  <!-- Durchschlag -->
+  <rect x="8" y="228" width="384" height="204" rx="12" fill="#fff4e5" stroke="#E07B00"/>
+  <text x="22" y="254" font-size="16" font-weight="700" fill="#b35f00">Durchschlag</text>
+  <rect x="66" y="262" width="110" height="100" fill="#e3f0ff" stroke="#333" stroke-width="1.5"/>
+  <text x="74" y="277" font-size="13" font-weight="700" fill="#222">Rezept</text>
+  <rect x="46" y="282" width="110" height="100" fill="#fff6d6" stroke="#333" stroke-width="1.5"/>
+  <text x="54" y="297" font-size="13" font-weight="700" fill="#222">Rezept</text>
+  <rect x="26" y="302" width="110" height="100" fill="#fff" stroke="#333" stroke-width="1.5"/>
+  <text x="34" y="317" font-size="13" font-weight="700" fill="#222">Rezept</text>
+  <g stroke="#555" stroke-width="2.5"><line x1="34" y1="334" x2="126" y2="334"/><line x1="34" y1="348" x2="126" y2="348"/><line x1="34" y1="362" x2="100" y2="362"/></g>
+  <text x="81" y="424" text-anchor="middle" font-size="13" fill="#222">Original + 2 Kopien</text>
+  <!-- Endlospapier -->
+  <rect x="230" y="268" width="140" height="104" fill="#fff" stroke="#333" stroke-width="1.5"/>
+  <line x1="230" y1="320" x2="370" y2="320" stroke="#333" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <g fill="#fff" stroke="#333"><circle cx="240" cy="278" r="3"/><circle cx="360" cy="278" r="3"/><circle cx="240" cy="294" r="3"/><circle cx="360" cy="294" r="3"/><circle cx="240" cy="310" r="3"/><circle cx="360" cy="310" r="3"/><circle cx="240" cy="326" r="3"/><circle cx="360" cy="326" r="3"/><circle cx="240" cy="342" r="3"/><circle cx="360" cy="342" r="3"/><circle cx="240" cy="358" r="3"/><circle cx="360" cy="358" r="3"/></g>
+  <g stroke="#999" stroke-width="2"><line x1="254" y1="284" x2="344" y2="284"/><line x1="254" y1="298" x2="344" y2="298"/><line x1="254" y1="336" x2="344" y2="336"/><line x1="254" y1="350" x2="320" y2="350"/></g>
+  <text x="300" y="400" text-anchor="middle" font-size="14" font-weight="700" fill="#222">Endlospapier</text>
+  <text x="300" y="418" text-anchor="middle" font-size="13" fill="#555">mit Lochrand</text>
+</svg>

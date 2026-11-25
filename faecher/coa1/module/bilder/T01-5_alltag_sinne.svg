@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 440" font-family="system-ui, sans-serif">
+  <title>Vergleich Mensch und Laptop. Links ein Mensch mit Augen, Ohren und Fingerspitzen. Rechts ein Laptop mit den passenden Eingabegeräten. Gestrichelte Linien verbinden: Augen mit der Webcam, Ohren mit dem Mikrofon, Fingerspitzen mit dem Touchpad. Hinweis unten: Verstehen muss der PC die Daten erst bei der Verarbeitung.</title>
+  <rect width="400" height="440" fill="#fff"/>
+  <text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700" fill="#222">Die Sinne des Computers</text>
+  <text x="90" y="56" text-anchor="middle" font-size="15" font-weight="700" fill="#555">Mensch</text>
+  <text x="310" y="56" text-anchor="middle" font-size="15" font-weight="700" fill="#555">Laptop</text>
+
+  <!-- Mensch -->
+  <path d="M30,330 C30,260 60,232 90,232 C120,232 150,260 150,330 Z" fill="#9db7e8"/>
+  <rect x="80" y="196" width="20" height="40" fill="#f2c9a5"/>
+  <ellipse cx="46" cy="150" rx="8" ry="13" fill="#f2c9a5" stroke="#b57f5a" stroke-width="2"/>
+  <ellipse cx="134" cy="150" rx="8" ry="13" fill="#f2c9a5" stroke="#b57f5a" stroke-width="2"/>
+  <circle cx="90" cy="146" r="44" fill="#f2c9a5" stroke="#b57f5a" stroke-width="2"/>
+  <path d="M48,130 C52,94 128,94 132,130 C120,112 60,112 48,130 Z" fill="#6b4a2f"/>
+  <circle cx="74" cy="140" r="5" fill="#222"/><circle cx="106" cy="140" r="5" fill="#222"/>
+  <path d="M78,168 Q90,176 102,168" fill="none" stroke="#b57f5a" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Arm mit Zeigefinger -->
+  <path d="M130,262 C150,280 156,300 164,306" fill="none" stroke="#9db7e8" stroke-width="20" stroke-linecap="round"/>
+  <circle cx="170" cy="306" r="11" fill="#f2c9a5" stroke="#b57f5a" stroke-width="2"/>
+  <line x1="178" y1="302" x2="194" y2="296" stroke="#b57f5a" stroke-width="8" stroke-linecap="round"/>
+  <line x1="178" y1="302" x2="194" y2="296" stroke="#f2c9a5" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Laptop -->
+  <rect x="236" y="76" width="148" height="112" rx="6" fill="#3a3f4a"/>
+  <rect x="244" y="92" width="132" height="88" fill="#dbe6fb"/>
+  <circle cx="310" cy="84" r="4" fill="#3a6ed8" stroke="#fff"/>
+  <g fill="#999"><circle cx="252" cy="84" r="1.6"/><circle cx="257" cy="84" r="1.6"/><circle cx="262" cy="84" r="1.6"/></g>
+  <path d="M228,188 H392 L384,214 H236 Z" fill="#555"/>
+  <path d="M240,196 H380" stroke="#888" stroke-width="3" stroke-dasharray="6 2"/>
+  <rect x="290" y="202" width="40" height="10" rx="2" fill="#cfd3da" stroke="#fff"/>
+
+  <!-- Verbindungen -->
+  <g stroke-width="2.5" stroke-dasharray="6 4" fill="none">
+    <path d="M112,140 C180,120 250,90 304,86" stroke="#3a6ed8"/>
+    <path d="M142,152 C190,150 230,110 254,90" stroke="#9a6b00"/>
+    <path d="M196,296 C240,290 290,240 308,212" stroke="#1f9d55"/>
+  </g>
+
+  <!-- Beschriftungen Mensch -->
+  <text x="90" y="88" text-anchor="middle" font-size="14" font-weight="700" fill="#1d4fb8">Augen</text>
+  <line x1="90" y1="92" x2="80" y2="132" stroke="#1d4fb8" stroke-width="1.5"/>
+  <text x="16" y="196" font-size="14" font-weight="700" fill="#7a5500">Ohren</text>
+  <line x1="34" y1="184" x2="44" y2="164" stroke="#7a5500" stroke-width="1.5"/>
+  <text x="168" y="340" text-anchor="middle" font-size="14" font-weight="700" fill="#16703d">Fingerspitzen</text>
+
+  <!-- Beschriftungen Laptop -->
+  <text x="336" y="114" text-anchor="middle" font-size="14" font-weight="700" fill="#1d4fb8">Webcam</text>
+  <line x1="326" y1="102" x2="314" y2="89" stroke="#1d4fb8" stroke-width="1.5"/>
+  <text x="252" y="150" font-size="14" font-weight="700" fill="#7a5500">Mikrofon</text>
+  <line x1="262" y1="138" x2="257" y2="89" stroke="#7a5500" stroke-width="1.5"/>
+  <text x="310" y="236" text-anchor="middle" font-size="14" font-weight="700" fill="#16703d">Touchpad</text>
+
+  <!-- Hinweis -->
+  <rect x="20" y="364" width="360" height="62" rx="8" fill="#fff3cd" stroke="#e0a800" stroke-width="2"/>
+  <text x="200" y="389" text-anchor="middle" font-size="14" font-weight="700" fill="#222">Verstehen muss der PC die Daten</text>
+  <text x="200" y="410" text-anchor="middle" font-size="14" font-weight="700" fill="#222">erst bei der Verarbeitung</text>
+</svg>

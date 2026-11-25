@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 470" font-family="system-ui, sans-serif">
+  <title>Thermosublimationsdrucker im Querschnitt. Eine Farbfolie mit Feldern in Gelb, Magenta und Cyan läuft zwischen dem Heizkopf oben und dem Spezialpapier unten. An den heißen Stellen wird die Farbe gasförmig und zieht ins Papier. Darunter: Fotos in höchster Qualität. Teuer, weil die Folie immer ganz abläuft. Unten: Im Unterricht wurden zusätzlich Tassen, T-Shirts und LKW-Planen genannt; laut Buch vor allem Fotos – in der Klausur zuerst Fotodruck nennen.</title>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker>
+    <marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d63c3c"/></marker>
+  </defs>
+  <rect width="400" height="470" fill="#fff"/>
+
+  <text x="200" y="24" text-anchor="middle" font-size="17" font-weight="700" fill="#222">Thermosublimation</text>
+  <!-- Heizkopf -->
+  <rect x="80" y="40" width="200" height="40" rx="6" fill="#3a3f4a"/>
+  <text x="180" y="66" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">Heizkopf</text>
+  <g fill="#ff4d2e"><circle cx="130" cy="82" r="6"/><circle cx="180" cy="82" r="6"/><circle cx="230" cy="82" r="6"/></g>
+  <g fill="#888"><circle cx="105" cy="82" r="4"/><circle cx="155" cy="82" r="4"/><circle cx="205" cy="82" r="4"/><circle cx="255" cy="82" r="4"/></g>
+  <text x="290" y="88" font-size="13" fill="#a32020">heiße Punkte</text>
+
+  <!-- Farbfolie -->
+  <rect x="10" y="94" width="80" height="16" fill="#f2c200"/>
+  <rect x="90" y="94" width="190" height="16" fill="#d6338a"/>
+  <rect x="280" y="94" width="110" height="16" fill="#1fa3c9"/>
+  <text x="50" y="106" text-anchor="middle" font-size="13" font-weight="700" fill="#222">Y</text>
+  <text x="330" y="106" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">C</text>
+  <text x="102" y="106" font-size="13" font-weight="700" fill="#fff">M</text>
+  <line x1="300" y1="126" x2="360" y2="126" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+  <text x="300" y="144" font-size="13" fill="#222">Farbfolie</text>
+
+  <!-- Farbwolken -->
+  <g fill="#d6338a" fill-opacity="0.55">
+    <ellipse cx="130" cy="122" rx="10" ry="6"/><ellipse cx="130" cy="136" rx="7" ry="5"/>
+    <ellipse cx="180" cy="122" rx="10" ry="6"/><ellipse cx="180" cy="136" rx="7" ry="5"/>
+    <ellipse cx="230" cy="122" rx="10" ry="6"/><ellipse cx="230" cy="136" rx="7" ry="5"/>
+  </g>
+  <!-- Spezialpapier -->
+  <rect x="10" y="146" width="280" height="18" fill="#fff" stroke="#333" stroke-width="1.5"/>
+  <g fill="#d6338a"><rect x="118" y="147" width="24" height="10"/><rect x="168" y="147" width="24" height="10"/><rect x="218" y="147" width="24" height="10"/></g>
+  <text x="20" y="184" font-size="13" fill="#222">Spezialpapier</text>
+
+  <!-- Ablauf -->
+  <rect x="10" y="198" width="380" height="40" rx="8" fill="#fff4e5" stroke="#E07B00"/>
+  <text x="200" y="224" text-anchor="middle" font-size="15" font-weight="700" fill="#b35f00">fest → gasförmig → zieht ins Papier</text>
+
+  <!-- Foto -->
+  <rect x="10" y="252" width="185" height="120" rx="12" fill="#eaf6ee" stroke="#1f9d55"/>
+  <rect x="34" y="266" width="76" height="58" fill="#cfe3f7" stroke="#333" stroke-width="2"/>
+  <path d="M34,324 l24,-24 l14,12 l12,-10 l26,22 z" fill="#3a6ed8"/>
+  <circle cx="92" cy="282" r="7" fill="#f2c200"/>
+  <path d="M150,268 l6,13 l14,1 l-11,9 l4,14 l-13,-8 l-13,8 l4,-14 l-11,-9 l14,-1 z" fill="#f2c200" stroke="#b38f00"/>
+  <text x="102" y="346" text-anchor="middle" font-size="13" font-weight="700" fill="#1c6b3c">Fotos in</text>
+  <text x="102" y="362" text-anchor="middle" font-size="13" font-weight="700" fill="#1c6b3c">höchster Qualität</text>
+
+  <!-- Kosten -->
+  <rect x="205" y="252" width="185" height="120" rx="12" fill="#fdecec" stroke="#d63c3c"/>
+  <text x="270" y="312" text-anchor="middle" font-size="44" font-weight="700" fill="#a32020">€</text>
+  <line x1="316" y1="316" x2="316" y2="272" stroke="#d63c3c" stroke-width="5" marker-end="url(#r)"/>
+  <text x="297" y="346" text-anchor="middle" font-size="13" font-weight="700" fill="#a32020">Folie läuft immer</text>
+  <text x="297" y="362" text-anchor="middle" font-size="13" font-weight="700" fill="#a32020">ganz ab → teuer</text>
+
+  <!-- Tasse und T-Shirt -->
+  <rect x="10" y="384" width="380" height="78" rx="12" fill="#fff4e5" stroke="#E07B00"/>
+  <path d="M40,402 h40 v34 q0,8 -8,8 h-24 q-8,0 -8,-8 z" fill="#fff" stroke="#333" stroke-width="2"/>
+  <path d="M80,410 q14,0 14,12 q0,12 -14,12" fill="none" stroke="#333" stroke-width="2"/>
+  <rect x="50" y="414" width="20" height="14" fill="#d6338a" fill-opacity="0.7"/>
+  <path d="M130,400 l16,-6 q8,8 16,0 l16,6 l10,14 l-12,6 l-6,-6 v30 h-32 v-30 l-6,6 l-12,-6 z" fill="#fff" stroke="#333" stroke-width="2" stroke-linejoin="round"/>
+  <rect x="152" y="414" width="20" height="14" fill="#1fa3c9" fill-opacity="0.7"/>
+  <text x="208" y="404" font-size="13" font-weight="700" fill="#b35f00">Unterricht zusätzlich:</text>
+  <text x="208" y="420" font-size="13" fill="#222">Tassen, T-Shirts,</text>
+  <text x="208" y="436" font-size="13" fill="#222">LKW-Planen</text>
+  <text x="208" y="452" font-size="13" font-weight="700" fill="#1c6b3c">Buch: vor allem Fotos</text>
+</svg>

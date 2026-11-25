@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 470" font-family="system-ui, sans-serif">
+  <title>Vergrößertes Raster aus Bildpunkten, den Pixeln. Oben ein Pfeil: Breite 1024 Pixel. Links ein Pfeil: Höhe 768 Pixel. Ein Pixel ist herausgezogen und vergrößert: Es besteht aus drei schmalen Streifen in Rot, Grün und Blau. 1 Pixel gleich 3 Subpixel, R G B.</title>
+  <defs>
+    <marker id="pg" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#333"/>
+    </marker>
+  </defs>
+  <rect width="400" height="470" fill="#fff"/>
+  <text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700" fill="#222">Pixel, Subpixel und Auflösung</text>
+
+  <!-- Breite -->
+  <line x1="100" y1="72" x2="338" y2="72" stroke="#333" stroke-width="2" marker-start="url(#pg)" marker-end="url(#pg)"/>
+  <rect x="149.0" y="60" width="140" height="22" fill="#fff"/>
+  <text x="219.0" y="77" text-anchor="middle" font-size="15" font-weight="700" fill="#222">Breite: 1024 Pixel</text>
+  <!-- Hoehe -->
+  <line x1="78" y1="90" x2="78" y2="260" stroke="#333" stroke-width="2" marker-start="url(#pg)" marker-end="url(#pg)"/>
+  <rect x="67" y="111.0" width="22" height="128" fill="#fff"/>
+  <text x="83" y="175.0" text-anchor="middle" font-size="15" font-weight="700" fill="#222" transform="rotate(-90 83 175.0)">Höhe: 768 Pixel</text>
+
+  <g>
+    <rect x="100" y="90" width="34" height="34" fill="#e8edf5" stroke="#8a9ab5" stroke-width="1.2"/>
+    <rect x="134" y="90" width="34" height="34" fill="#e8edf5" stroke="#8a9ab5" stroke-width="1.2"/>
+    <rect x="168" y="90" width="34" height="34" fill="#e8edf5" stroke="#8a9ab5" stroke-width="1.2"/>
+    <rect x="202" y="90" width="34" height="34" fill="#e8edf5" stroke="#8a9ab5" stroke-width="1.2"/>
+    <rect x="236" y="90" width="34" height="34" fill="#e8edf5" stroke="#8a9ab5" stroke-width="1.2"/>
+    <rect x="270" y="90" width="34" height="34" fill="#e8edf5" stroke="#8a9ab5" stroke-width="1.2"/>
+    <rect x="304" y="90" width="34" height="34" fill="#e8edf5" stroke="#8a9ab5" stroke-width="1.2"/>
+    <rect x="100" y="124" width="34" height="34" fill="#e8edf5" stroke="#8a9ab5" stroke-width="1.2"/>
+    <rect x="134" y="124" width="34" height="34" fill="#e8edf5" stroke="#8a9ab5" stroke-width="1.2"/>
+    <rect x="168" y="124" width="34" height="34" fill="#e8edf5" stroke="#8a9ab5" stroke-width="1.2"/>
+    <rect x="202" y="124" width="34" height="34" fill="#e8edf5" stroke="#8a9ab5" stroke-width="1.2"/>
+    <rect x="236" y="124" width="34" height="34" fill="#e8edf5" stroke="#8a9ab5" stroke-width="1.2"/>
+    <rect x="270" y="124" width="34" height="34" fill="#e8edf5" stroke="#8a9ab5" stroke-width="1.2"/>
+    <rect x="304" y="124" width="34" height="34" fill="#e8edf5" stroke="#8a9ab5" stroke-width="1.2"/>
+    <rect x="100" y="158" width="34" height="34" fill="#e8edf5" stroke="#8a9ab5" stroke-width="1.2"/>
+    <rect x="134" y="158" width="34" height="34" fill="#e8edf5" stroke="#8a9ab5" stroke-width="1.2"/>
+    <rect x="168" y="158" width="34" height="34" fill="#e8edf5" stroke="#8a9ab5" stroke-width="1.2"/>
+    <rect x="202" y="158" width="34" height="34" fill="#e8edf5" stroke="#8a9ab5" stroke-width="1.2"/>
+    <rect x="236" y="158" width="34" height="34" fill="#e8edf5" stroke="#8a9ab5" stroke-width="1.2"/>
+    <rect x="270" y="158" width="34" height="34" fill="#e8edf5" stroke="#8a9ab5" stroke-width="1.2"/>
+    <rect x="304" y="158" width="34" height="34" fill="#e8edf5" stroke="#8a9ab5" stroke-width="1.2"/>
+    <rect x="100" y="192" width="34" height="34" fill="#e8edf5" stroke="#8a9ab5" stroke-width="1.2"/>
+    <rect x="134" y="192" width="34" height="34" fill="#e8edf5" stroke="#8a9ab5" stroke-width="1.2"/>
+    <rect x="168" y="192" width="34" height="34" fill="#e8edf5" stroke="#8a9ab5" stroke-width="1.2"/>
+    <rect x="202" y="192" width="34" height="34" fill="#e8edf5" stroke="#8a9ab5" stroke-width="1.2"/>
+    <rect x="236" y="192" width="34" height="34" fill="#e8edf5" stroke="#8a9ab5" stroke-width="1.2"/>
+    <rect x="270" y="192" width="34" height="34" fill="#e8edf5" stroke="#8a9ab5" stroke-width="1.2"/>
+    <rect x="304" y="192" width="34" height="34" fill="#e8edf5" stroke="#8a9ab5" stroke-width="1.2"/>
+    <rect x="100" y="226" width="34" height="34" fill="#e8edf5" stroke="#8a9ab5" stroke-width="1.2"/>
+    <rect x="134" y="226" width="34" height="34" fill="#e8edf5" stroke="#8a9ab5" stroke-width="1.2"/>
+    <rect x="168" y="226" width="34" height="34" fill="#e8edf5" stroke="#8a9ab5" stroke-width="1.2"/>
+    <rect x="202" y="226" width="34" height="34" fill="#e8edf5" stroke="#8a9ab5" stroke-width="1.2"/>
+    <rect x="236" y="226" width="34" height="34" fill="#e8edf5" stroke="#8a9ab5" stroke-width="1.2"/>
+    <rect x="270" y="226" width="34" height="34" fill="#e8edf5" stroke="#8a9ab5" stroke-width="1.2"/>
+    <rect x="304" y="226" width="34" height="34" fill="#e8edf5" stroke="#8a9ab5" stroke-width="1.2"/>
+  </g>
+  <text x="219.0" y="280" text-anchor="middle" font-size="13" fill="#555">(Ausschnitt, stark vergrößert)</text>
+
+  <!-- herausgezogenes Pixel -->
+  <rect x="202" y="158" width="34" height="34" fill="#fff" stroke="#c62828" stroke-width="3"/>
+  <rect x="205" y="161" width="9" height="28" fill="#d93a3a"/>
+  <rect x="214.5" y="161" width="9" height="28" fill="#2e9d5b"/>
+  <rect x="224" y="161" width="9" height="28" fill="#3a6ed8"/>
+  <line x1="202" y1="192" x2="125" y2="326" stroke="#c62828" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <line x1="236" y1="192" x2="275" y2="326" stroke="#c62828" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <rect x="125" y="326" width="150" height="100" fill="#fff" stroke="#c62828" stroke-width="3"/>
+  <rect x="129" y="330" width="46" height="92" fill="#d93a3a"/>
+  <rect x="177" y="330" width="46" height="92" fill="#2e9d5b"/>
+  <rect x="225" y="330" width="46" height="92" fill="#3a6ed8"/>
+  <text x="152" y="384" text-anchor="middle" font-size="20" font-weight="700" fill="#fff">R</text>
+  <text x="200" y="384" text-anchor="middle" font-size="20" font-weight="700" fill="#fff">G</text>
+  <text x="248" y="384" text-anchor="middle" font-size="20" font-weight="700" fill="#fff">B</text>
+  <text x="200" y="454" text-anchor="middle" font-size="16" font-weight="700" fill="#c62828">1 Pixel = 3 Subpixel: Rot, Grün, Blau</text>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 330" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Bedienen mit Bildern oder mit getippten Befehlen. Links die GUI: ein bunter Bildschirm mit Fenster, Ordner-Symbolen, Papierkorb und Mauszeiger, darunter eine Maus. Rechts die Kommandozeile: ein schwarzer Bildschirm mit einer weißen Textzeile, in die ein Befehl getippt wird, darunter eine Tastatur.</title>
+<defs>
+<g id="ordner"><path d="M0,4 h8 l3,3 h11 v14 h-22 z" fill="#f5c46b" stroke="#b8862b" stroke-width="1.2"/></g>
+</defs>
+<rect width="400" height="330" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="16" font-weight="700">Bedienen mit Bildern</text>
+<text x="200" y="46" text-anchor="middle" font-size="16" font-weight="700">oder mit getippten Befehlen</text>
+
+<!-- GUI -->
+<rect x="12" y="64" width="180" height="130" rx="6" fill="#3a3f4a"/>
+<rect x="18" y="70" width="168" height="118" fill="#5b8fd9"/>
+<use href="#ordner" x="26" y="74"/>
+<use href="#ordner" x="26" y="106"/>
+<!-- Papierkorb -->
+<path d="M28,148 h20 l-2,24 h-16 z" fill="#e5e7eb" stroke="#555" stroke-width="1.2"/>
+<rect x="26" y="144" width="24" height="4" fill="#9aa3ad"/>
+<!-- Fenster -->
+<rect x="68" y="84" width="104" height="70" rx="2" fill="#fff" stroke="#333"/>
+<rect x="68" y="84" width="104" height="11" fill="#1d3f8a"/>
+<g fill="#ddd"><rect x="76" y="102" width="40" height="6"/><rect x="76" y="114" width="80" height="6"/><rect x="76" y="126" width="60" height="6"/></g>
+<!-- Mauszeiger -->
+<path d="M140,140 v24 l6,-6 l5,10 l4,-2 l-5,-10 l8,0 z" fill="#fff" stroke="#000" stroke-width="1.5"/>
+<rect x="92" y="194" width="20" height="10" fill="#555"/><rect x="78" y="204" width="48" height="5" rx="2" fill="#555"/>
+<text x="102" y="236" text-anchor="middle" font-size="19" font-weight="700" fill="#1d3f8a">GUI</text>
+<text x="102" y="256" text-anchor="middle" font-size="13">Bilder anklicken</text>
+<!-- Maus -->
+<rect x="90" y="270" width="24" height="36" rx="12" fill="#e5e7eb" stroke="#555" stroke-width="2"/>
+<line x1="102" y1="270" x2="102" y2="284" stroke="#555" stroke-width="2"/>
+
+<!-- Kommandozeile -->
+<rect x="208" y="64" width="180" height="130" rx="6" fill="#3a3f4a"/>
+<rect x="214" y="70" width="168" height="118" fill="#111"/>
+<text x="222" y="98" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#fff">&gt; Befehl tippen<tspan font-weight="700">_</tspan></text>
+<rect x="288" y="194" width="20" height="10" fill="#555"/><rect x="274" y="204" width="48" height="5" rx="2" fill="#555"/>
+<text x="298" y="236" text-anchor="middle" font-size="19" font-weight="700" fill="#222">Kommandozeile</text>
+<text x="298" y="256" text-anchor="middle" font-size="13">Befehle als Text tippen</text>
+<!-- Tastatur -->
+<rect x="246" y="270" width="104" height="36" rx="4" fill="#e5e7eb" stroke="#555" stroke-width="2"/>
+<g fill="#9aa3ad">
+<rect x="252" y="276" width="10" height="7"/><rect x="265" y="276" width="10" height="7"/><rect x="278" y="276" width="10" height="7"/><rect x="291" y="276" width="10" height="7"/><rect x="304" y="276" width="10" height="7"/><rect x="317" y="276" width="10" height="7"/><rect x="330" y="276" width="14" height="7"/>
+<rect x="252" y="286" width="14" height="7"/><rect x="269" y="286" width="10" height="7"/><rect x="282" y="286" width="10" height="7"/><rect x="295" y="286" width="10" height="7"/><rect x="308" y="286" width="10" height="7"/><rect x="321" y="286" width="23" height="7"/>
+<rect x="270" y="296" width="56" height="6"/>
+</g>
+</svg>

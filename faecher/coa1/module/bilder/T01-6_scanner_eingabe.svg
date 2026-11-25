@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 330" font-family="system-ui, sans-serif">
+  <title>Der Scanner ist ein Eingabegerät. Links eine Papiervorlage mit Foto und Text. Licht tastet sie im Scanner ab. Über ein USB-Kabel kommt sie als Datei scan.jpg in den PC. Oben das EVA-Band: Das Feld E gleich Eingabe steht über dem Scanner und ist hervorgehoben.</title>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker>
+    <marker id="o" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E07B00"/></marker>
+  </defs>
+  <rect width="400" height="330" fill="#fff"/>
+
+  <!-- EVA-Band -->
+  <rect x="130" y="16" width="140" height="40" rx="8" fill="#E07B00"/>
+  <text x="200" y="42" text-anchor="middle" font-size="17" font-weight="700" fill="#fff">E = Eingabe</text>
+  <rect x="280" y="16" width="50" height="40" rx="8" fill="#eceef1" stroke="#bbb"/>
+  <text x="305" y="42" text-anchor="middle" font-size="17" font-weight="700" fill="#888">V</text>
+  <rect x="338" y="16" width="50" height="40" rx="8" fill="#eceef1" stroke="#bbb"/>
+  <text x="363" y="42" text-anchor="middle" font-size="17" font-weight="700" fill="#888">A</text>
+  <line x1="200" y1="58" x2="200" y2="128" stroke="#E07B00" stroke-width="3" stroke-dasharray="6 4" marker-end="url(#o)"/>
+
+  <!-- Papiervorlage -->
+  <rect x="12" y="120" width="72" height="100" fill="#fff" stroke="#333" stroke-width="2"/>
+  <rect x="20" y="128" width="34" height="26" fill="#cfe3f7" stroke="#3a6ed8"/>
+  <path d="M20,154 l10,-12 l8,8 l6,-6 l10,10 z" fill="#3a6ed8"/>
+  <g stroke="#777" stroke-width="3">
+    <line x1="20" y1="166" x2="76" y2="166"/><line x1="20" y1="178" x2="76" y2="178"/>
+    <line x1="20" y1="190" x2="76" y2="190"/><line x1="20" y1="202" x2="60" y2="202"/>
+  </g>
+  <text x="48" y="242" text-anchor="middle" font-size="14" font-weight="700" fill="#222">Papier-</text>
+  <text x="48" y="259" text-anchor="middle" font-size="14" font-weight="700" fill="#222">vorlage</text>
+
+  <!-- Pfeil Licht -->
+  <line x1="88" y1="180" x2="134" y2="180" stroke="#333" stroke-width="3" marker-end="url(#a)"/>
+  <text x="111" y="150" text-anchor="middle" font-size="13" fill="#222">Licht</text>
+  <text x="111" y="166" text-anchor="middle" font-size="13" fill="#222">tastet ab</text>
+
+  <!-- Scanner -->
+  <rect x="140" y="146" width="112" height="12" rx="4" fill="#555"/>
+  <rect x="140" y="160" width="112" height="6" fill="#a9d4f5"/>
+  <rect x="140" y="166" width="112" height="44" rx="6" fill="#3a3f4a"/>
+  <rect x="166" y="170" width="10" height="34" rx="2" fill="#ffd54a"/>
+  <line x1="182" y1="187" x2="204" y2="187" stroke="#ffd54a" stroke-width="2" stroke-dasharray="3 3"/>
+  <text x="196" y="236" text-anchor="middle" font-size="15" font-weight="700" fill="#222">Scanner</text>
+
+  <!-- Pfeil USB -->
+  <line x1="256" y1="188" x2="294" y2="188" stroke="#333" stroke-width="3" marker-end="url(#a)"/>
+  <text x="275" y="158" text-anchor="middle" font-size="13" fill="#222">USB-</text>
+  <text x="275" y="174" text-anchor="middle" font-size="13" fill="#222">Kabel</text>
+
+  <!-- PC-Bildschirm -->
+  <rect x="300" y="132" width="92" height="80" rx="4" fill="#3a3f4a"/>
+  <rect x="306" y="138" width="80" height="62" fill="#fff"/>
+  <rect x="330" y="142" width="32" height="38" fill="#fff" stroke="#333"/>
+  <rect x="334" y="146" width="14" height="10" fill="#cfe3f7" stroke="#3a6ed8" stroke-width="0.8"/>
+  <g stroke="#999" stroke-width="1.5"><line x1="334" y1="162" x2="358" y2="162"/><line x1="334" y1="168" x2="358" y2="168"/><line x1="334" y1="174" x2="352" y2="174"/></g>
+  <text x="346" y="196" text-anchor="middle" font-size="13" font-weight="700" fill="#E07B00">scan.jpg</text>
+  <rect x="334" y="212" width="24" height="10" fill="#555"/>
+  <rect x="322" y="222" width="48" height="5" rx="2" fill="#555"/>
+  <text x="346" y="246" text-anchor="middle" font-size="14" font-weight="700" fill="#222">Datei im PC</text>
+
+  <!-- Fazit -->
+  <rect x="12" y="276" width="376" height="40" rx="8" fill="#fff4e5" stroke="#E07B00"/>
+  <text x="200" y="301" text-anchor="middle" font-size="15" fill="#222">Papier → Daten: der Scanner <tspan font-weight="700">digitalisiert</tspan></text>
+</svg>

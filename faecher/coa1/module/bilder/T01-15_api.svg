@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>API, Programmierschnittstelle. Links eine Wetter-App auf dem Handy, rechts ein Server des Wetterdienstes. Dazwischen steckt ein Stecker in einer Buchse, beschriftet API. Ein Pfeil von der App zum Dienst: Frage, Wetter in Berlin? Ein Pfeil zurück: Antwort, 12 Grad, Regen. Darunter: Programm spricht mit Programm.</title>
+<defs>
+<marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker>
+<marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1f9d55"/></marker>
+</defs>
+<rect width="400" height="300" fill="#fff"/>
+
+<!-- Frage -->
+<text x="200" y="28" text-anchor="middle" font-size="15" font-weight="700" fill="#1d3f8a">Frage: Wetter in Berlin?</text>
+<line x1="96" y1="40" x2="304" y2="40" stroke="#3a6ed8" stroke-width="3.5" marker-end="url(#ab)"/>
+
+<!-- Handy mit Wetter-App -->
+<rect x="20" y="56" width="70" height="128" rx="12" fill="#222"/>
+<rect x="26" y="68" width="58" height="104" fill="#dfe9fb"/>
+<circle cx="46" cy="96" r="10" fill="#ffd84d"/>
+<g fill="#fff" stroke="#9aa3ad"><circle cx="58" cy="104" r="9"/><circle cx="68" cy="100" r="10"/></g>
+<rect x="50" y="102" width="28" height="10" fill="#fff"/>
+<g stroke="#3a6ed8" stroke-width="2"><line x1="52" y1="118" x2="49" y2="126"/><line x1="62" y1="118" x2="59" y2="126"/><line x1="72" y1="118" x2="69" y2="126"/></g>
+<text x="55" y="152" text-anchor="middle" font-size="16" font-weight="700">12 °C</text>
+<text x="55" y="206" text-anchor="middle" font-size="14" font-weight="700">Wetter-App</text>
+
+<!-- Server Wetterdienst -->
+<rect x="310" y="56" width="70" height="128" rx="6" fill="#3a3f4a"/>
+<g fill="#9aa3ad"><rect x="318" y="68" width="54" height="16"/><rect x="318" y="94" width="54" height="16"/><rect x="318" y="120" width="54" height="16"/><rect x="318" y="146" width="54" height="16"/></g>
+<g fill="#1f9d55"><circle cx="364" cy="76" r="3"/><circle cx="364" cy="102" r="3"/><circle cx="364" cy="128" r="3"/><circle cx="364" cy="154" r="3"/></g>
+<text x="345" y="206" text-anchor="middle" font-size="14" font-weight="700">Wetterdienst</text>
+
+<!-- Stecker + Buchse = API -->
+<line x1="90" y1="120" x2="156" y2="120" stroke="#333" stroke-width="4"/>
+<rect x="156" y="102" width="34" height="36" rx="4" fill="#E07B00"/>
+<rect x="190" y="110" width="12" height="5" fill="#777"/>
+<rect x="190" y="125" width="12" height="5" fill="#777"/>
+<rect x="200" y="96" width="40" height="48" rx="4" fill="#555"/>
+<line x1="240" y1="120" x2="310" y2="120" stroke="#333" stroke-width="4"/>
+<text x="198" y="170" text-anchor="middle" font-size="22" font-weight="700" fill="#a85a00">API</text>
+
+<!-- Antwort -->
+<line x1="304" y1="230" x2="96" y2="230" stroke="#1f9d55" stroke-width="3.5" marker-end="url(#ag)"/>
+<text x="200" y="254" text-anchor="middle" font-size="15" font-weight="700" fill="#1c6b3c">Antwort: 12 °C, Regen</text>
+
+<text x="200" y="286" text-anchor="middle" font-size="14">Programm ↔ Programm</text>
+</svg>

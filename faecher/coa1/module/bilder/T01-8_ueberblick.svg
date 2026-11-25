@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 444" font-family="system-ui, sans-serif">
+  <title>Weitere Drucker aus dem Unterricht in drei Gruppen. Schlagen, also mechanisch: Typenrad und Kugelkopf, der Buchstabe schlägt durch ein Farbband. Hitze aufs Papier: der Thermodrucker für Kassenzettel. Schmelzen: der Wachsdrucker mit bunten Wachsblöcken, die zu Tropfen werden, und der 3D-Drucker, der eine Figur Schicht für Schicht aufbaut. Unten: Drucker-Einschränkungen – Banknoten: viele Drucker sperren den Druck; Waffen aus dem 3D-Drucker sind verboten.</title>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker>
+    <marker id="o" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E07B00"/></marker>
+    <marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d63c3c"/></marker>
+  </defs>
+  <rect width="400" height="444" fill="#fff"/>
+
+  <g fill="#f3f4f6" stroke="#bbb"><rect x="8" y="8" width="124" height="356" rx="12"/><rect x="138" y="8" width="124" height="356" rx="12"/><rect x="268" y="8" width="124" height="356" rx="12"/></g>
+  <g text-anchor="middle" font-weight="700" fill="#222" font-size="15">
+    <text x="70" y="32">schlagen</text><text x="200" y="32">Hitze aufs</text><text x="330" y="32">schmelzen</text>
+  </g>
+  <g text-anchor="middle" fill="#555" font-size="13">
+    <text x="70" y="49">(mechanisch)</text><text x="200" y="49">Papier</text>
+  </g>
+  <!-- Spalte 1 -->
+  <circle cx="70" cy="104" r="7.9" fill="#9aa3ae" stroke="#555" stroke-width="2"/>
+  <line x1="70.0" y1="96.1" x2="70.0" y2="68.0" stroke="#777" stroke-width="2"/>
+  <circle cx="70.0" cy="68.0" r="6" fill="#fff" stroke="#333" stroke-width="1.5"/>
+  <line x1="74.7" y1="97.6" x2="91.2" y2="74.9" stroke="#777" stroke-width="2"/>
+  <circle cx="91.2" cy="74.9" r="6" fill="#fff" stroke="#333" stroke-width="1.5"/>
+  <line x1="77.5" y1="101.6" x2="104.2" y2="92.9" stroke="#777" stroke-width="2"/>
+  <circle cx="104.2" cy="92.9" r="6" fill="#fff" stroke="#333" stroke-width="1.5"/>
+  <line x1="77.5" y1="106.4" x2="104.2" y2="115.1" stroke="#777" stroke-width="2"/>
+  <circle cx="104.2" cy="115.1" r="6" fill="#fff" stroke="#333" stroke-width="1.5"/>
+  <line x1="74.7" y1="110.4" x2="91.2" y2="133.1" stroke="#777" stroke-width="2"/>
+  <circle cx="91.2" cy="133.1" r="6" fill="#fff" stroke="#333" stroke-width="1.5"/>
+  <line x1="70.0" y1="111.9" x2="70.0" y2="140.0" stroke="#777" stroke-width="2"/>
+  <circle cx="70.0" cy="140.0" r="6" fill="#fff" stroke="#333" stroke-width="1.5"/>
+  <line x1="65.3" y1="110.4" x2="48.8" y2="133.1" stroke="#777" stroke-width="2"/>
+  <circle cx="48.8" cy="133.1" r="6" fill="#fff" stroke="#333" stroke-width="1.5"/>
+  <line x1="62.5" y1="106.4" x2="35.8" y2="115.1" stroke="#777" stroke-width="2"/>
+  <circle cx="35.8" cy="115.1" r="6" fill="#fff" stroke="#333" stroke-width="1.5"/>
+  <line x1="62.5" y1="101.6" x2="35.8" y2="92.9" stroke="#777" stroke-width="2"/>
+  <circle cx="35.8" cy="92.9" r="6" fill="#fff" stroke="#333" stroke-width="1.5"/>
+  <line x1="65.3" y1="97.6" x2="48.8" y2="74.9" stroke="#777" stroke-width="2"/>
+  <circle cx="48.8" cy="74.9" r="6" fill="#fff" stroke="#333" stroke-width="1.5"/>
+  <text x="70" y="160" text-anchor="middle" font-size="13" font-weight="700" fill="#222">Typenrad</text>
+  <defs><radialGradient id="bg70206" cx="0.35" cy="0.3" r="0.8"><stop offset="0" stop-color="#f4f5f7"/><stop offset="1" stop-color="#8a929c"/></radialGradient></defs><circle cx="70" cy="206" r="26" fill="url(#bg70206)" stroke="#555" stroke-width="2"/>
+  <g font-size="13" font-weight="700" fill="#333" text-anchor="middle"><text x="62" y="200">A</text><text x="80" y="204">B</text><text x="66" y="220">C</text></g>
+  <text x="70" y="250" text-anchor="middle" font-size="13" font-weight="700" fill="#222">Kugelkopf</text>
+  <rect x="24" y="292" width="92" height="8" fill="#111"/>
+  <rect x="24" y="302" width="92" height="12" fill="#fff" stroke="#333"/>
+  <rect x="56" y="266" width="28" height="14" rx="2" fill="#555"/>
+  <rect x="67" y="280" width="6" height="12" fill="#555"/>
+  <text x="70" y="334" text-anchor="middle" font-size="13" fill="#222">Farbband</text>
+  <text x="70" y="350" text-anchor="middle" font-size="13" fill="#222">+ Schlag</text>
+  <!-- Spalte 2 -->
+  <path d="M176,72 h48 v48 h-48 z" fill="#fff" stroke="#333" stroke-width="1.5"/>
+  <g stroke="#999" stroke-width="2"><line x1="182" y1="82" x2="218" y2="82"/><line x1="182" y1="92" x2="212" y2="92"/><line x1="182" y1="102" x2="218" y2="102"/><line x1="182" y1="112" x2="206" y2="112"/></g>
+  <rect x="160" y="120" width="80" height="54" rx="8" fill="#3a3f4a"/>
+  <circle cx="200" cy="147" r="16" fill="#fff" stroke="#999" stroke-width="2"/>
+  <circle cx="200" cy="147" r="5" fill="#999"/>
+  <path transform="translate(200,236) scale(1.3)" d="M0,0 c-12,0 -16,-12 -10,-22 c2,6 6,8 8,6 c-4,-10 2,-20 10,-26 c-2,10 8,14 8,24 c0,10 -6,18 -16,18 z" fill="#e85d2a"/><path transform="translate(200,236) scale(1.3)" d="M0,-2 c-5,0 -7,-6 -4,-11 c1,3 3,4 4,3 c-1,-5 2,-9 5,-11 c0,5 4,7 4,11 c0,5 -4,8 -9,8 z" fill="#ffd54a"/>
+  <text x="200" y="270" text-anchor="middle" font-size="13" font-weight="700" fill="#222">Thermodrucker</text>
+  <text x="200" y="286" text-anchor="middle" font-size="13" fill="#222">(Kassenzettel)</text>
+  <!-- Spalte 3 -->
+  <rect x="286" y="68" width="14" height="34" rx="2" fill="#1fa3c9"/><rect x="304" y="68" width="14" height="34" rx="2" fill="#d6338a"/><rect x="322" y="68" width="14" height="34" rx="2" fill="#f2c200"/>
+  <line x1="342" y1="85" x2="360" y2="85" stroke="#333" stroke-width="2.5" marker-end="url(#a)"/>
+  <path d="M372,76 q-6,9 0,14 q6,-5 0,-14 z" fill="#d6338a"/><path d="M372,94 q-6,9 0,14 q6,-5 0,-14 z" fill="#1fa3c9"/>
+  <text x="330" y="128" text-anchor="middle" font-size="13" font-weight="700" fill="#222">Wachsdrucker</text>
+  <path d="M316,176 h28 l-8,14 h-12 z" fill="#555"/>
+  <path d="M326,190 h8 l-4,8 z" fill="#555"/>
+  <path transform="translate(356,196) scale(0.7)" d="M0,0 c-12,0 -16,-12 -10,-22 c2,6 6,8 8,6 c-4,-10 2,-20 10,-26 c-2,10 8,14 8,24 c0,10 -6,18 -16,18 z" fill="#e85d2a"/><path transform="translate(356,196) scale(0.7)" d="M0,-2 c-5,0 -7,-6 -4,-11 c1,3 3,4 4,3 c-1,-5 2,-9 5,-11 c0,5 4,7 4,11 c0,5 -4,8 -9,8 z" fill="#ffd54a"/>
+  <rect x="314" y="236" width="32" height="12" fill="#7fb3e8" stroke="#3a6ed8"/>
+  <rect x="318" y="224" width="24" height="12" fill="#7fb3e8" stroke="#3a6ed8"/>
+  <rect x="322" y="212" width="16" height="12" fill="#7fb3e8" stroke="#3a6ed8"/>
+  <rect x="300" y="248" width="60" height="8" fill="#555"/>
+  <text x="330" y="280" text-anchor="middle" font-size="13" font-weight="700" fill="#222">3D-Drucker</text>
+  <text x="330" y="296" text-anchor="middle" font-size="13" fill="#222">Schicht für</text>
+  <text x="330" y="312" text-anchor="middle" font-size="13" fill="#222">Schicht</text>
+  <!-- Fußzeile -->
+  <rect x="8" y="374" width="384" height="62" rx="10" fill="#fdecec" stroke="#d63c3c" stroke-width="2"/>
+  <text x="200" y="398" text-anchor="middle" font-size="14" font-weight="700" fill="#a32020">Drucker-Einschränkungen:</text>
+  <text x="200" y="422" text-anchor="middle" font-size="14" fill="#a32020">Banknoten: viele sperren · Waffen: verboten</text>
+</svg>

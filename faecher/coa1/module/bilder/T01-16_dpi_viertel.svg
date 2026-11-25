@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 420" font-family="system-ui, sans-serif" role="img">
+  <title>Drei gleich große Quadrate mit Punkteraster. Links dicht: 1200 dpi, etwa 16,60 MiB. Mitte in jeder Richtung halb so dicht: 600 dpi, etwa 4,15 MiB. Rechts noch einmal halb so dicht: 300 dpi, etwa 1,04 MiB. Von Quadrat zu Quadrat wird der Speicher durch 4 geteilt. Darunter ein Quadrat in 4 gleiche Teile geteilt, ein Viertel farbig: halbe dpi heißt halbe Breite mal halbe Höhe, also ein Viertel Speicher.</title>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker>
+    <pattern id="d1" x="14" y="70" width="6.75" height="6.75" patternUnits="userSpaceOnUse"><circle cx="3.375" cy="3.375" r="2" fill="#222"/></pattern>
+    <pattern id="d2" x="146" y="70" width="13.5" height="13.5" patternUnits="userSpaceOnUse"><circle cx="6.75" cy="6.75" r="4" fill="#222"/></pattern>
+    <pattern id="d3" x="278" y="70" width="27" height="27" patternUnits="userSpaceOnUse"><circle cx="13.5" cy="13.5" r="8" fill="#222"/></pattern>
+  </defs>
+  <rect width="400" height="420" fill="#fff"/>
+  <text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700" fill="#222">Halbe dpi = ein Viertel Speicher</text>
+
+  <path d="M70,66 Q136,34 196,64" fill="none" stroke="#3a6ed8" stroke-width="2.5" marker-end="url(#a)"/>
+  <text x="133" y="48" text-anchor="middle" font-size="14" font-weight="700" fill="#3a6ed8">÷ 4</text>
+  <path d="M202,66 Q268,34 328,64" fill="none" stroke="#3a6ed8" stroke-width="2.5" marker-end="url(#a)"/>
+  <text x="265" y="48" text-anchor="middle" font-size="14" font-weight="700" fill="#3a6ed8">÷ 4</text>
+
+  <rect x="14" y="70" width="108" height="108" fill="url(#d1)" stroke="#555" stroke-width="2"/>
+  <rect x="146" y="70" width="108" height="108" fill="url(#d2)" stroke="#555" stroke-width="2"/>
+  <rect x="278" y="70" width="108" height="108" fill="url(#d3)" stroke="#555" stroke-width="2"/>
+
+  <g text-anchor="middle" fill="#222">
+    <text x="68" y="200" font-size="15" font-weight="700">1200 dpi</text>
+    <text x="68" y="220" font-size="14">≈ 16,60 MiB</text>
+    <text x="200" y="200" font-size="15" font-weight="700">600 dpi</text>
+    <text x="200" y="220" font-size="14">≈ 4,15 MiB</text>
+    <text x="332" y="200" font-size="15" font-weight="700">300 dpi</text>
+    <text x="332" y="220" font-size="14">≈ 1,04 MiB</text>
+  </g>
+
+  <line x1="10" y1="240" x2="390" y2="240" stroke="#dee2e6" stroke-width="1.5"/>
+
+  <!-- Viertel -->
+  <text x="72" y="268" text-anchor="middle" font-size="13" font-weight="700" fill="#222">½ breit</text>
+  <rect x="40" y="276" width="130" height="130" fill="#fff" stroke="#333" stroke-width="2"/>
+  <rect x="40" y="276" width="65" height="65" fill="#e8590c"/>
+  <line x1="105" y1="276" x2="105" y2="406" stroke="#333" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <line x1="40" y1="341" x2="170" y2="341" stroke="#333" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="28" y="308" text-anchor="middle" font-size="13" font-weight="700" fill="#222" transform="rotate(-90 28 308)">½ hoch</text>
+  <text x="190" y="320" font-size="18" font-weight="700" fill="#222">halbe dpi</text>
+  <text x="190" y="346" font-size="18" font-weight="700" fill="#e8590c">→ ¼ Speicher</text>
+  <text x="190" y="376" font-size="14" fill="#333">½ breit × ½ hoch = ¼</text>
+</svg>

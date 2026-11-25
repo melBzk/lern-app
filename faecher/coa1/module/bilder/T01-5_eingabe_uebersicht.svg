@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 540" font-family="system-ui, sans-serif">
+  <title>Weitere Eingabegeräte rund um den PC. In der Mitte der PC mit einem großen E für Eingabe: Daten hinein. Von außen zeigen grüne Pfeile zum PC: links Touchscreen (Smartphone), Touchpad (Laptop), Grafiktablett mit Stift, Joystick als Controller, Kartenleser mit SD-Karte; rechts RFID-Karte, Fingerabdruck als Biosensor, Webcam, Mikrofon, Headset. Touchscreen und Headset haben zusätzlich einen rosa Pfeil zurück nach außen: auch Ausgabe.</title>
+  <defs>
+    <marker id="mg" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#1f9d55"/></marker>
+    <marker id="mp" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#D4607A"/></marker>
+    <g id="i-phone"><rect x="-12" y="-20" width="24" height="40" rx="4" fill="#3a3f4a"/><rect x="-9" y="-16" width="18" height="30" fill="#dbe6fb"/><circle cx="2" cy="2" r="4" fill="#f2c9a5" stroke="#b57f5a"/></g>
+    <g id="i-laptop"><rect x="-20" y="-18" width="40" height="25" rx="2" fill="#3a3f4a"/><rect x="-17" y="-15" width="34" height="19" fill="#dbe6fb"/><path d="M-24,8 H24 L29,17 H-29 Z" fill="#555"/><rect x="-6" y="10" width="12" height="5" fill="#cfd3da"/></g>
+    <g id="i-tablett"><rect x="-24" y="-10" width="44" height="28" rx="3" fill="#3a3f4a"/><rect x="-20" y="-6" width="36" height="20" fill="#eef1f5"/><path d="M-16,8 C-10,-2 -4,12 4,2" fill="none" stroke="#3a6ed8" stroke-width="2"/><line x1="18" y1="-20" x2="5" y2="1" stroke="#555" stroke-width="4" stroke-linecap="round"/></g>
+    <g id="i-joy"><ellipse cx="0" cy="12" rx="20" ry="7" fill="#3a3f4a"/><line x1="0" y1="10" x2="4" y2="-10" stroke="#555" stroke-width="5" stroke-linecap="round"/><circle cx="5" cy="-13" r="6" fill="#d63c3c"/></g>
+    <g id="i-leser"><path d="M-8,-20 H4 L8,-16 V0 H-8 Z" fill="#3a6ed8"/><rect x="-20" y="-4" width="40" height="18" rx="3" fill="#3a3f4a"/><rect x="-10" y="-2" width="20" height="3" fill="#999"/></g>
+    <g id="i-rfid"><rect x="-24" y="-14" width="34" height="26" rx="3" fill="#fde7b0" stroke="#9a6b00" stroke-width="1.5"/><rect x="-18" y="-6" width="9" height="8" rx="1" fill="#e0a800"/><g fill="none" stroke="#3a6ed8" stroke-width="2" stroke-linecap="round"><path d="M14,-6 A8,8 0 0 1 14,6"/><path d="M19,-10 A14,14 0 0 1 19,10"/></g></g>
+    <g id="i-finger" fill="none" stroke="#555" stroke-width="2" stroke-linecap="round"><path d="M-14,10 C-16,-12 14,-14 14,2"/><path d="M-8,14 C-12,-6 8,-8 8,4"/><path d="M-2,16 C-4,0 3,-2 3,8"/><path d="M-18,0 C-14,-22 18,-20 18,0"/></g>
+    <g id="i-cam"><circle cx="0" cy="-6" r="13" fill="#3a3f4a"/><circle cx="0" cy="-6" r="6" fill="#3a6ed8"/><line x1="0" y1="7" x2="0" y2="14" stroke="#555" stroke-width="3"/><rect x="-10" y="14" width="20" height="4" rx="2" fill="#555"/></g>
+    <g id="i-mic"><rect x="-7" y="-20" width="14" height="24" rx="7" fill="#3a3f4a"/><path d="M-12,-4 A12,12 0 0 0 12,-4" fill="none" stroke="#555" stroke-width="2.5"/><line x1="0" y1="8" x2="0" y2="15" stroke="#555" stroke-width="2.5"/><rect x="-9" y="15" width="18" height="4" rx="2" fill="#555"/></g>
+    <g id="i-headset"><path d="M-17,4 C-17,-24 17,-24 17,4" fill="none" stroke="#3a3f4a" stroke-width="4"/><rect x="-22" y="0" width="10" height="16" rx="4" fill="#3a3f4a"/><rect x="12" y="0" width="10" height="16" rx="4" fill="#3a3f4a"/><path d="M-17,14 C-14,22 -6,22 -2,20" fill="none" stroke="#555" stroke-width="2.5"/><circle cx="-1" cy="20" r="3" fill="#555"/></g>
+  </defs>
+  <rect width="400" height="540" fill="#fff"/>
+  <text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700" fill="#222">Noch mehr Wege in den PC</text>
+
+  <!-- Pfeile hinein -->
+  <g stroke="#1f9d55" stroke-width="3" fill="none" marker-end="url(#mg)">
+    <path d="M92,74 L148,236"/>
+    <path d="M92,168 L148,256"/>
+    <path d="M92,262 L148,278"/>
+    <path d="M92,356 L148,300"/>
+    <path d="M92,450 L148,322"/>
+    <path d="M308,74 L252,236"/>
+    <path d="M308,168 L252,256"/>
+    <path d="M308,262 L252,278"/>
+    <path d="M308,356 L252,300"/>
+    <path d="M308,450 L252,322"/>
+  </g>
+  <!-- Pfeile heraus -->
+  <g stroke="#D4607A" stroke-width="3" fill="none" marker-end="url(#mp)">
+    <path d="M176,226 C170,150 130,90 94,58"/>
+    <path d="M224,336 C230,410 270,460 306,476"/>
+  </g>
+  <text x="166" y="142" font-size="13" font-weight="700" fill="#b03a58">auch</text>
+  <text x="166" y="158" font-size="13" font-weight="700" fill="#b03a58">Ausgabe</text>
+  <text x="234" y="414" text-anchor="end" font-size="13" font-weight="700" fill="#b03a58">auch</text>
+  <text x="234" y="430" text-anchor="end" font-size="13" font-weight="700" fill="#b03a58">Ausgabe</text>
+
+  <!-- PC -->
+  <rect x="146" y="226" width="108" height="110" rx="10" fill="#eaf6ee" stroke="#1f9d55" stroke-width="3"/>
+  <text x="200" y="246" text-anchor="middle" font-size="13" fill="#555">PC</text>
+  <text x="200" y="298" text-anchor="middle" font-size="52" font-weight="700" fill="#1f9d55">E</text>
+  <text x="200" y="322" text-anchor="middle" font-size="14" font-weight="700" fill="#16703d">Daten hinein</text>
+
+  <!-- links -->
+  <use href="#i-phone" x="52" y="66"/>
+  <text x="52" y="104" text-anchor="middle" font-size="13" font-weight="700" fill="#222">Touchscreen</text>
+  <use href="#i-laptop" x="52" y="160"/>
+  <text x="52" y="198" text-anchor="middle" font-size="13" font-weight="700" fill="#222">Touchpad</text>
+  <use href="#i-tablett" x="52" y="254"/>
+  <text x="52" y="292" text-anchor="middle" font-size="13" font-weight="700" fill="#222">Grafiktablett</text>
+  <use href="#i-joy" x="52" y="346"/>
+  <text x="52" y="384" text-anchor="middle" font-size="13" font-weight="700" fill="#222">Joystick</text>
+  <text x="52" y="399" text-anchor="middle" font-size="13" fill="#222">(Controller)</text>
+  <use href="#i-leser" x="52" y="444"/>
+  <text x="52" y="478" text-anchor="middle" font-size="13" font-weight="700" fill="#222">Kartenleser</text>
+  <text x="52" y="493" text-anchor="middle" font-size="13" fill="#222">(SD-Karte)</text>
+
+  <!-- rechts -->
+  <use href="#i-rfid" x="350" y="66"/>
+  <text x="348" y="104" text-anchor="middle" font-size="13" font-weight="700" fill="#222">RFID-Karte</text>
+  <use href="#i-finger" x="348" y="160"/>
+  <text x="348" y="198" text-anchor="middle" font-size="13" font-weight="700" fill="#222">Fingerabdruck</text>
+  <text x="348" y="213" text-anchor="middle" font-size="13" fill="#222">(Biosensor)</text>
+  <use href="#i-cam" x="348" y="258"/>
+  <text x="348" y="292" text-anchor="middle" font-size="13" font-weight="700" fill="#222">Webcam</text>
+  <use href="#i-mic" x="348" y="350"/>
+  <text x="348" y="384" text-anchor="middle" font-size="13" font-weight="700" fill="#222">Mikrofon</text>
+  <use href="#i-headset" x="348" y="446"/>
+  <text x="348" y="484" text-anchor="middle" font-size="13" font-weight="700" fill="#222">Headset</text>
+
+  <text x="200" y="526" text-anchor="middle" font-size="14" font-weight="700" fill="#16703d">Alle bringen Daten in den PC: das E in EVA</text>
+</svg>

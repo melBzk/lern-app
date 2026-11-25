@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 330" font-family="system-ui, sans-serif" role="img">
+  <title>Ein Bild ist ein Raster aus Kästchen: 8 Spalten breit und 6 Zeilen hoch. Einige Kästchen sind schwarz und bilden einen Smiley. Breite gleich 8 Punkte, Höhe gleich 6 Punkte. 8 mal 6 gleich 48 Bildpunkte. Eine Lupe zeigt ein einzelnes Kästchen: 1 Bildpunkt gleich 1 Pixel.</title>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker>
+    <pattern id="g" x="60" y="84" width="30" height="30" patternUnits="userSpaceOnUse"><rect width="30" height="30" fill="#fff" stroke="#adb5bd" stroke-width="1"/></pattern>
+  </defs>
+  <rect width="400" height="330" fill="#fff"/>
+
+  <!-- Maße -->
+  <text x="180" y="54" text-anchor="middle" font-size="15" font-weight="700" fill="#222">Breite = 8 Punkte</text>
+  <line x1="60" y1="68" x2="300" y2="68" stroke="#333" stroke-width="2.5" marker-start="url(#a)" marker-end="url(#a)"/>
+  <line x1="44" y1="84" x2="44" y2="264" stroke="#333" stroke-width="2.5" marker-start="url(#a)" marker-end="url(#a)"/>
+  <text x="28" y="174" text-anchor="middle" font-size="15" font-weight="700" fill="#222" transform="rotate(-90 28 174)">Höhe = 6 Punkte</text>
+
+  <!-- Raster -->
+  <rect x="60" y="84" width="240" height="180" fill="url(#g)" stroke="#555" stroke-width="2"/>
+  <g fill="#222">
+    <rect x="120" y="114" width="30" height="30"/>
+    <rect x="210" y="114" width="30" height="30"/>
+    <rect x="90" y="174" width="30" height="30"/>
+    <rect x="240" y="174" width="30" height="30"/>
+    <rect x="120" y="204" width="30" height="30"/>
+    <rect x="150" y="204" width="30" height="30"/>
+    <rect x="180" y="204" width="30" height="30"/>
+    <rect x="210" y="204" width="30" height="30"/>
+  </g>
+  <rect x="210" y="114" width="30" height="30" fill="none" stroke="#e8590c" stroke-width="3"/>
+
+  <!-- Lupe -->
+  <line x1="240" y1="129" x2="309" y2="150" stroke="#e8590c" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <line x1="370" y1="186" x2="390" y2="206" stroke="#333" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="345" cy="160" r="36" fill="#fff" stroke="#333" stroke-width="4"/>
+  <rect x="327" y="142" width="36" height="36" fill="#222"/>
+  <text x="340" y="232" text-anchor="middle" font-size="14" font-weight="700" fill="#222">1 Bildpunkt</text>
+  <text x="340" y="250" text-anchor="middle" font-size="14" font-weight="700" fill="#222">= 1 Pixel</text>
+
+  <text x="200" y="310" text-anchor="middle" font-size="22" font-weight="700" fill="#222">8 × 6 = <tspan fill="#e8590c">48</tspan> Bildpunkte</text>
+</svg>

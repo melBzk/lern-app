@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 470" font-family="system-ui, sans-serif">
+  <title>RFID: erkannt per Funk. Eine Bürotür mit einem kleinen Lesegerät daneben. Eine Hand hält einen Schlüsselanhänger mit RFID-Chip in die Nähe. Funkwellen gehen zwischen Chip und Lesegerät hin und her, die Tür öffnet sich. Darunter drei Beispiele, wo RFID-Chips stecken: Zugangschip, Karte und Etikett auf einer Verpackung.</title>
+  <defs>
+    <marker id="mg" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#1f9d55"/></marker>
+    <g id="chip"><path d="M-14,-10 C-14,-22 14,-22 14,-10 V12 C14,22 -14,22 -14,12 Z" fill="#3a6ed8"/><circle cx="0" cy="-12" r="4" fill="#fff"/><rect x="-6" y="0" width="12" height="9" rx="1" fill="#e0a800"/></g>
+  </defs>
+  <rect width="400" height="470" fill="#fff"/>
+  <text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700" fill="#222">RFID: erkannt per Funk</text>
+
+  <!-- Wand + Tür -->
+  <rect x="8" y="40" width="384" height="250" rx="10" fill="#f3f4f6"/>
+  <rect x="40" y="60" width="130" height="220" fill="#e5e7eb" stroke="#555" stroke-width="2"/>
+  <!-- offene Türblatt-Andeutung -->
+  <path d="M40,60 L96,76 V266 L40,280 Z" fill="#c9b8a6" stroke="#8a7a60" stroke-width="2"/>
+  <circle cx="88" cy="172" r="4" fill="#555"/>
+  <path d="M150,180 C140,140 120,120 104,116" fill="none" stroke="#1f9d55" stroke-width="4" marker-end="url(#mg)"/>
+  <text x="128" y="214" text-anchor="middle" font-size="14" font-weight="700" fill="#16703d">Tür öffnet</text>
+  <text x="128" y="231" text-anchor="middle" font-size="14" font-weight="700" fill="#16703d">sich</text>
+
+  <!-- Lesegerät -->
+  <rect x="190" y="140" width="34" height="50" rx="5" fill="#3a3f4a"/>
+  <circle cx="207" cy="160" r="8" fill="none" stroke="#9db7e8" stroke-width="2"/>
+  <circle cx="207" cy="180" r="3" fill="#1f9d55"/>
+  <text x="207" y="216" text-anchor="middle" font-size="14" font-weight="700" fill="#222">Lesegerät</text>
+
+  <!-- Funk -->
+  <g fill="none" stroke="#3a6ed8" stroke-width="3" stroke-linecap="round">
+    <path d="M234,155 A14,14 0 0 1 234,175"/>
+    <path d="M242,148 A24,24 0 0 1 242,182"/>
+    <path d="M286,148 A24,24 0 0 0 286,182"/>
+    <path d="M294,155 A14,14 0 0 0 294,175"/>
+  </g>
+  <text x="264" y="134" text-anchor="middle" font-size="13" font-weight="700" fill="#1d4fb8">Funk</text>
+
+  <!-- Hand mit Chip -->
+  <line x1="390" y1="236" x2="340" y2="190" stroke="#b57f5a" stroke-width="26" stroke-linecap="round"/>
+  <line x1="390" y1="236" x2="340" y2="190" stroke="#f2c9a5" stroke-width="22" stroke-linecap="round"/>
+  <use href="#chip" x="318" y="165"/>
+  <ellipse cx="336" cy="184" rx="15" ry="11" fill="#f2c9a5" stroke="#b57f5a" stroke-width="2"/>
+  <text x="330" y="98" text-anchor="middle" font-size="14" font-weight="700" fill="#222">RFID-Chip</text>
+  <text x="330" y="115" text-anchor="middle" font-size="13" fill="#555">(Schlüsselanhänger)</text>
+  <text x="290" y="272" text-anchor="middle" font-size="13" fill="#555">ohne Stecken, ohne Berühren</text>
+
+  <!-- Beispiele -->
+  <text x="200" y="320" text-anchor="middle" font-size="15" font-weight="700" fill="#222">Hier steckt RFID drin:</text>
+  <use href="#chip" x="70" y="372"/>
+  <text x="70" y="420" text-anchor="middle" font-size="14" font-weight="700" fill="#222">Zugangschip</text>
+  <rect x="160" y="350" width="76" height="48" rx="5" fill="#fde7b0" stroke="#9a6b00" stroke-width="2"/>
+  <rect x="170" y="364" width="16" height="13" rx="2" fill="#e0a800" stroke="#9a6b00"/>
+  <text x="198" y="420" text-anchor="middle" font-size="14" font-weight="700" fill="#222">Karte</text>
+  <path d="M290,356 L306,346 H360 L344,356 Z" fill="#e0c79e" stroke="#8a7a60" stroke-width="1.5"/>
+  <path d="M290,356 H344 V400 H290 Z" fill="#d9b98a" stroke="#8a7a60" stroke-width="1.5"/>
+  <path d="M344,356 L360,346 V390 L344,400 Z" fill="#c4a272" stroke="#8a7a60" stroke-width="1.5"/>
+  <rect x="300" y="368" width="34" height="20" rx="2" fill="#fff" stroke="#555"/>
+  <rect x="304" y="373" width="10" height="10" fill="#e0a800"/>
+  <text x="325" y="420" text-anchor="middle" font-size="14" font-weight="700" fill="#222">Etikett auf</text>
+  <text x="325" y="437" text-anchor="middle" font-size="14" font-weight="700" fill="#222">Verpackung</text>
+  <text x="200" y="460" text-anchor="middle" font-size="13" fill="#555">RFID = Radio-Frequency Identification</text>
+</svg>

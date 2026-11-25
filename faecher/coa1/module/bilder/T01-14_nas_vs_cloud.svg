@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>NAS und Cloud im Vergleich. Links NAS: Im eigenen Haus, im eigenen Netz, steht ein NAS-Kasten, mit dem Laptop, Handy und PC verbunden sind. Es steht bei dir. Rechts Cloud: Vom kleinen Haus geht ein Pfeil durch die Wolke Internet zum großen Rechenzentrum des Anbieters, zum Beispiel OneDrive, Google Drive oder Dropbox. Sie steht beim Anbieter. Beide erreichst du über ein Netzwerk.</title>
+<defs>
+<marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker>
+</defs>
+<rect width="400" height="500" fill="#fff"/>
+<line x1="200" y1="10" x2="200" y2="450" stroke="#ccc" stroke-width="1.5"/>
+<text x="100" y="30" text-anchor="middle" font-size="19" font-weight="700">NAS</text>
+<text x="300" y="30" text-anchor="middle" font-size="19" font-weight="700">Cloud</text>
+
+<!-- NAS: Haus mit eigenem Netz -->
+<path d="M14,118 L100,58 L186,118 Z" fill="#9aa3ad"/>
+<rect x="18" y="118" width="164" height="270" fill="#eef4fd" stroke="#3a6ed8" stroke-width="2"/>
+<text x="100" y="142" text-anchor="middle" font-size="14" font-weight="700" fill="#1d3f8a">eigenes Netz</text>
+<g stroke="#3a6ed8" stroke-width="3">
+<line x1="56" y1="196" x2="86" y2="236"/>
+<line x1="146" y1="196" x2="116" y2="236"/>
+<line x1="100" y1="290" x2="100" y2="318"/>
+</g>
+<!-- Laptop -->
+<rect x="36" y="164" width="40" height="26" rx="2" fill="#3a3f4a"/><rect x="40" y="168" width="32" height="18" fill="#dfe9fb"/><path d="M30,190 h52 l-4,6 h-44 z" fill="#555"/>
+<!-- Handy -->
+<rect x="135" y="160" width="22" height="38" rx="4" fill="#222"/><rect x="138" y="165" width="16" height="27" fill="#9cc3f5"/>
+<!-- NAS-Kasten -->
+<rect x="70" y="234" width="60" height="56" rx="5" fill="#3a3f4a"/>
+<text x="100" y="256" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">NAS</text>
+<g stroke="#9aa3ad" stroke-width="3"><line x1="78" y1="268" x2="122" y2="268"/><line x1="78" y1="278" x2="122" y2="278"/></g>
+<!-- PC -->
+<rect x="74" y="318" width="52" height="34" rx="3" fill="#3a3f4a"/><rect x="78" y="322" width="44" height="26" fill="#dfe9fb"/><rect x="95" y="352" width="10" height="7" fill="#555"/><rect x="86" y="359" width="28" height="4" rx="2" fill="#555"/>
+
+<text x="100" y="424" text-anchor="middle" font-size="17" font-weight="700" fill="#1c6b3c">steht bei dir</text>
+
+<!-- Cloud: kleines Haus -->
+<path d="M272,68 L300,48 L328,68 Z" fill="#9aa3ad"/>
+<rect x="276" y="68" width="48" height="34" fill="#eef4fd" stroke="#3a6ed8" stroke-width="2"/>
+<rect x="288" y="76" width="24" height="16" rx="1" fill="#3a3f4a"/>
+<text x="334" y="92" font-size="13">Zuhause</text>
+<line x1="300" y1="104" x2="300" y2="136" stroke="#3a6ed8" stroke-width="3.5" marker-end="url(#ab)"/>
+<!-- Wolke -->
+<g fill="#dfe9fb">
+<circle cx="268" cy="168" r="22"/><circle cx="300" cy="156" r="28"/><circle cx="334" cy="170" r="20"/>
+<rect x="250" y="168" width="100" height="24" rx="12"/>
+</g>
+<text x="300" y="178" text-anchor="middle" font-size="15" font-weight="700" fill="#1d3f8a">Internet</text>
+<line x1="300" y1="194" x2="300" y2="226" stroke="#3a6ed8" stroke-width="3.5" marker-end="url(#ab)"/>
+<!-- Rechenzentrum -->
+<rect x="222" y="230" width="156" height="96" rx="4" fill="#e5e7eb" stroke="#555" stroke-width="2"/>
+<g transform="translate(234,242)">
+<rect x="0" y="0" width="36" height="72" rx="2" fill="#3a3f4a"/><rect x="48" y="0" width="36" height="72" rx="2" fill="#3a3f4a"/><rect x="96" y="0" width="36" height="72" rx="2" fill="#3a3f4a"/>
+<g fill="#9aa3ad"><rect x="5" y="8" width="26" height="8"/><rect x="5" y="24" width="26" height="8"/><rect x="5" y="40" width="26" height="8"/><rect x="5" y="56" width="26" height="8"/><rect x="53" y="8" width="26" height="8"/><rect x="53" y="24" width="26" height="8"/><rect x="53" y="40" width="26" height="8"/><rect x="53" y="56" width="26" height="8"/><rect x="101" y="8" width="26" height="8"/><rect x="101" y="24" width="26" height="8"/><rect x="101" y="40" width="26" height="8"/><rect x="101" y="56" width="26" height="8"/></g>
+</g>
+<text x="300" y="346" text-anchor="middle" font-size="14" font-weight="700">Rechenzentrum</text>
+<text x="300" y="363" text-anchor="middle" font-size="14" font-weight="700">des Anbieters</text>
+<text x="300" y="382" text-anchor="middle" font-size="13" fill="#555">z. B. OneDrive,</text>
+<text x="300" y="398" text-anchor="middle" font-size="13" fill="#555">Google Drive, Dropbox</text>
+
+<text x="300" y="424" text-anchor="middle" font-size="17" font-weight="700" fill="#a85a00">steht beim Anbieter</text>
+
+<rect x="20" y="452" width="360" height="34" rx="8" fill="#f3f6fb"/>
+<text x="200" y="474" text-anchor="middle" font-size="14">Beide erreichst du über ein Netzwerk.</text>
+</svg>

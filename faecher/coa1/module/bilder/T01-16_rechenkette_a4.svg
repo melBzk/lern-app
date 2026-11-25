@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 450" font-family="system-ui, sans-serif" role="img">
+  <title>Rechenkette A4 mit 1200 dpi, Schwarz-Weiß, 1 Punkt gleich 1 Bit. Breite: 8,27 Zoll mal 1200 gleich 9.924. Höhe: 11,69 Zoll mal 1200 gleich 14.028. Beide malgenommen: 139.213.872 Bit. Geteilt durch 8: 17.401.734 Byte. Geteilt durch 1024: etwa 16.993,88 KiB. Geteilt durch 1024: etwa 16,60 MiB.</title>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker>
+  </defs>
+  <rect width="400" height="450" fill="#fff"/>
+  <text x="200" y="28" text-anchor="middle" font-size="18" font-weight="700" fill="#222">A4 · 1200 dpi · Schwarz-Weiß</text>
+  <text x="200" y="50" text-anchor="middle" font-size="14" fill="#444">1 Punkt = 1 Bit (Schwarz-Weiß)</text>
+
+  <rect x="10" y="64" width="185" height="68" rx="8" fill="#dbe6fb" stroke="#9fb3dc" stroke-width="1.5"/>
+  <text x="102" y="84" text-anchor="middle" font-size="13" fill="#444">Breite</text>
+  <text x="102" y="103" text-anchor="middle" font-size="15" font-weight="700" fill="#222">8,27 Zoll × 1200</text>
+  <text x="102" y="123" text-anchor="middle" font-size="15" font-weight="700" fill="#222">= 9 924</text>
+  <rect x="205" y="64" width="185" height="68" rx="8" fill="#dbe6fb" stroke="#9fb3dc" stroke-width="1.5"/>
+  <text x="298" y="84" text-anchor="middle" font-size="13" fill="#444">Höhe</text>
+  <text x="298" y="103" text-anchor="middle" font-size="15" font-weight="700" fill="#222">11,69 Zoll × 1200</text>
+  <text x="298" y="123" text-anchor="middle" font-size="15" font-weight="700" fill="#222">= 14 028</text>
+
+  <line x1="102" y1="134" x2="170" y2="166" stroke="#333" stroke-width="2.5" marker-end="url(#a)"/>
+  <line x1="298" y1="134" x2="230" y2="166" stroke="#333" stroke-width="2.5" marker-end="url(#a)"/>
+  <text x="200" y="156" text-anchor="middle" font-size="18" font-weight="700" fill="#3a6ed8">×</text>
+
+  <rect x="40" y="170" width="320" height="50" rx="8" fill="#dbe6fb" stroke="#9fb3dc" stroke-width="1.5"/>
+  <text x="200" y="189" text-anchor="middle" font-size="14" fill="#333">9 924 × 14 028</text>
+  <text x="200" y="210" text-anchor="middle" font-size="16" font-weight="700" fill="#222">= 139 213 872 Bit</text>
+
+  <line x1="200" y1="222" x2="200" y2="246" stroke="#333" stroke-width="2.5" marker-end="url(#a)"/>
+  <text x="212" y="240" font-size="15" font-weight="700" fill="#3a6ed8">÷ 8</text>
+  <rect x="40" y="248" width="320" height="40" rx="8" fill="#dbe6fb" stroke="#9fb3dc" stroke-width="1.5"/>
+  <text x="200" y="274" text-anchor="middle" font-size="16" font-weight="700" fill="#222">17 401 734 Byte</text>
+
+  <line x1="200" y1="290" x2="200" y2="314" stroke="#333" stroke-width="2.5" marker-end="url(#a)"/>
+  <text x="212" y="308" font-size="15" font-weight="700" fill="#3a6ed8">÷ 1024</text>
+  <rect x="40" y="316" width="320" height="40" rx="8" fill="#dbe6fb" stroke="#9fb3dc" stroke-width="1.5"/>
+  <text x="200" y="342" text-anchor="middle" font-size="16" font-weight="700" fill="#222">≈ 16 993,88 KiB</text>
+
+  <line x1="200" y1="358" x2="200" y2="382" stroke="#333" stroke-width="2.5" marker-end="url(#a)"/>
+  <text x="212" y="376" font-size="15" font-weight="700" fill="#3a6ed8">÷ 1024</text>
+  <rect x="40" y="384" width="320" height="50" rx="8" fill="#ebfbee" stroke="#2b8a3e" stroke-width="2.5"/>
+  <text x="200" y="416" text-anchor="middle" font-size="21" font-weight="700" fill="#2b8a3e">≈ 16,60 MiB</text>
+</svg>

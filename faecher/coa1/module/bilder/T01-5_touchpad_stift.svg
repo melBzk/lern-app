@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" font-family="system-ui, sans-serif">
+  <title>Zwei Felder. Oben ein aufgeklappter Laptop, ein Finger liegt auf dem Touchpad unter der Tastatur und bewegt den Mauszeiger: Touchpad, Finger statt Maus. Unten ein flaches Grafiktablett auf dem Tisch, eine Hand zeichnet mit einem Stift eine Linie; dieselbe Linie erscheint auf dem Monitor dahinter: Grafiktablett, Stift zeichnet, Linie erscheint am Bildschirm.</title>
+  <defs>
+    <marker id="mg" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#1f9d55"/></marker>
+    <path id="zeiger" d="M0,0 V18 L5,13 L9,21 L12,19 L8,12 H14 Z" fill="#fff" stroke="#222" stroke-width="1.5" stroke-linejoin="round"/>
+  </defs>
+  <rect width="400" height="500" fill="#fff"/>
+  <text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700" fill="#222">Touchpad und Stift</text>
+
+  <!-- ===== Touchpad ===== -->
+  <rect x="8" y="40" width="384" height="218" rx="10" fill="#eaf6ee"/>
+  <text x="22" y="64" font-size="16" font-weight="700" fill="#16703d">Touchpad: Finger statt Maus</text>
+  <!-- Bildschirm -->
+  <rect x="100" y="76" width="200" height="104" rx="6" fill="#3a3f4a"/>
+  <rect x="108" y="84" width="184" height="88" fill="#dbe6fb"/>
+  <use href="#zeiger" x="214" y="112"/>
+  <!-- Basis -->
+  <path d="M96,180 H304 L336,240 H64 Z" fill="#cfd3da" stroke="#555" stroke-width="2"/>
+  <g fill="#fff" stroke="#999">
+    <path d="M104,188 H296 L304,204 H96 Z"/>
+  </g>
+  <path d="M110,196 H290" stroke="#999" stroke-width="1" stroke-dasharray="8 3"/>
+  <rect x="166" y="210" width="68" height="24" rx="3" fill="#eef1f5" stroke="#555" stroke-width="2"/>
+  <!-- Finger -->
+  <line x1="290" y1="244" x2="208" y2="224" stroke="#b57f5a" stroke-width="18" stroke-linecap="round"/>
+  <line x1="290" y1="244" x2="208" y2="224" stroke="#f2c9a5" stroke-width="14" stroke-linecap="round"/>
+  <path d="M180,222 H198" stroke="#1f9d55" stroke-width="3" marker-start="url(#mg)"/>
+  <text x="120" y="252" text-anchor="middle" font-size="13" font-weight="700" fill="#222">Touchpad</text>
+  <line x1="140" y1="240" x2="168" y2="232" stroke="#555" stroke-width="1.5"/>
+
+  <!-- ===== Grafiktablett ===== -->
+  <rect x="8" y="266" width="384" height="226" rx="10" fill="#e8f0fe"/>
+  <text x="22" y="290" font-size="16" font-weight="700" fill="#1d4fb8">Grafiktablett:</text>
+  <text x="22" y="309" font-size="14" fill="#222">Stift zeichnet, Linie erscheint am Bildschirm</text>
+  <!-- Monitor -->
+  <rect x="230" y="320" width="146" height="94" rx="5" fill="#3a3f4a"/>
+  <rect x="237" y="327" width="132" height="80" fill="#fff"/>
+  <path d="M250,390 C270,340 300,400 325,350 S355,360 360,345" fill="none" stroke="#3a6ed8" stroke-width="3.5" stroke-linecap="round"/>
+  <rect x="296" y="414" width="14" height="12" fill="#555"/><rect x="280" y="426" width="46" height="5" rx="2" fill="#555"/>
+  <text x="303" y="450" text-anchor="middle" font-size="13" font-weight="700" fill="#222">Monitor</text>
+  <!-- Tablett (flach, schräg von oben) -->
+  <path d="M30,470 L60,370 H210 L190,470 Z" fill="#3a3f4a"/>
+  <path d="M44,460 L68,380 H200 L182,460 Z" fill="#eef1f5"/>
+  <path d="M66,440 C86,390 116,450 140,400 S170,410 176,396" fill="none" stroke="#3a6ed8" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- Stift + Hand -->
+  <line x1="214" y1="352" x2="178" y2="394" stroke="#555" stroke-width="7" stroke-linecap="round"/>
+  <ellipse cx="222" cy="352" rx="16" ry="12" fill="#f2c9a5" stroke="#b57f5a" stroke-width="2"/>
+  <text x="118" y="486" text-anchor="middle" font-size="13" font-weight="700" fill="#222">Tablett + Stift</text>
+  <!-- gleiche Linie -->
+  <path d="M190,400 C210,420 230,400 246,388" fill="none" stroke="#1f9d55" stroke-width="2.5" stroke-dasharray="5 4" marker-end="url(#mg)"/>
+</svg>

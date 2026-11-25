@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 470" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Startkette des PCs in vier Schritten von oben nach unten. 1: Einschalten. 2: Das BIOS startet, es steckt im ROM, einem nicht flüchtigen Chip auf dem Mainboard. 3: Das Betriebssystem wird vom Massenspeicher (SSD oder Festplatte) geladen. 4: Die GUI erscheint auf dem Bildschirm.</title>
+<defs>
+<marker id="ad" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker>
+<g id="nr"><circle r="14" fill="#3a6ed8"/></g>
+</defs>
+<rect width="400" height="470" fill="#fff"/>
+
+<!-- 1 Einschalten -->
+<rect x="48" y="10" width="342" height="90" rx="10" fill="#f7f7f7" stroke="#bbb" stroke-width="1.5"/>
+<use href="#nr" x="24" y="55"/><text x="24" y="60" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">1</text>
+<circle cx="104" cy="55" r="24" fill="#fff" stroke="#333" stroke-width="2"/>
+<path d="M94,46 a14,14 0 1 0 20,0" fill="none" stroke="#1f9d55" stroke-width="4" stroke-linecap="round"/>
+<line x1="104" y1="38" x2="104" y2="56" stroke="#1f9d55" stroke-width="4" stroke-linecap="round"/>
+<text x="156" y="61" font-size="17" font-weight="700">Einschalten</text>
+<line x1="220" y1="100" x2="220" y2="124" stroke="#333" stroke-width="3" marker-end="url(#ad)"/>
+
+<!-- 2 BIOS -->
+<rect x="48" y="126" width="342" height="90" rx="10" fill="#fff4e5" stroke="#E07B00" stroke-width="2.5"/>
+<use href="#nr" x="24" y="171"/><text x="24" y="176" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">2</text>
+<rect x="66" y="140" width="76" height="62" rx="3" fill="#2f6b4f"/>
+<g stroke="#d4a017" stroke-width="1.5"><line x1="70" y1="150" x2="138" y2="150"/><line x1="70" y1="194" x2="138" y2="194"/></g>
+<g stroke="#bbb" stroke-width="2"><line x1="90" y1="158" x2="90" y2="186"/><line x1="96" y1="158" x2="96" y2="186"/><line x1="102" y1="158" x2="102" y2="186"/><line x1="108" y1="158" x2="108" y2="186"/><line x1="114" y1="158" x2="114" y2="186"/><line x1="120" y1="158" x2="120" y2="186"/></g>
+<rect x="86" y="160" width="38" height="24" rx="2" fill="#222"/>
+<text x="105" y="177" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ROM</text>
+<text x="156" y="158" font-size="17" font-weight="700">BIOS startet</text>
+<text x="156" y="180" font-size="14">im ROM auf dem Mainboard</text>
+<text x="156" y="200" font-size="14">nicht flüchtig</text>
+<line x1="220" y1="216" x2="220" y2="240" stroke="#333" stroke-width="3" marker-end="url(#ad)"/>
+
+<!-- 3 Betriebssystem -->
+<rect x="48" y="242" width="342" height="90" rx="10" fill="#f7f7f7" stroke="#bbb" stroke-width="1.5"/>
+<use href="#nr" x="24" y="287"/><text x="24" y="292" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">3</text>
+<rect x="64" y="258" width="80" height="58" rx="5" fill="#9aa3ad" stroke="#555" stroke-width="2"/>
+<circle cx="90" cy="287" r="19" fill="#c8ced6" stroke="#555"/>
+<circle cx="90" cy="287" r="4" fill="#555"/>
+<rect x="112" y="268" width="26" height="22" rx="2" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<rect x="112" y="268" width="26" height="6" fill="#3a6ed8"/>
+<text x="156" y="282" font-size="17" font-weight="700">Betriebssystem</text>
+<text x="156" y="304" font-size="14">wird geladen</text>
+<line x1="220" y1="332" x2="220" y2="356" stroke="#333" stroke-width="3" marker-end="url(#ad)"/>
+
+<!-- 4 GUI -->
+<rect x="48" y="358" width="342" height="90" rx="10" fill="#f7f7f7" stroke="#bbb" stroke-width="1.5"/>
+<use href="#nr" x="24" y="403"/><text x="24" y="408" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">4</text>
+<rect x="62" y="370" width="84" height="56" rx="3" fill="#3a3f4a"/>
+<rect x="66" y="374" width="76" height="48" fill="#5b8fd9"/>
+<path d="M70,378 h6 l2,2 h6 v8 h-14 z" fill="#f5c46b"/>
+<path d="M70,394 h6 l2,2 h6 v8 h-14 z" fill="#f5c46b"/>
+<rect x="94" y="382" width="42" height="30" fill="#fff" stroke="#333"/>
+<rect x="94" y="382" width="42" height="6" fill="#1d3f8a"/>
+<rect x="98" y="426" width="12" height="8" fill="#555"/>
+<text x="156" y="398" font-size="17" font-weight="700">GUI erscheint</text>
+<text x="156" y="420" font-size="14">Fenster und Symbole</text>
+</svg>

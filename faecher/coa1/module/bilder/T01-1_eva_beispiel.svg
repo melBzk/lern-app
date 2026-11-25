@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 516" font-family="system-ui, sans-serif" role="img">
+<title>Comic in drei Schritten: 1 Eingabe, du tippst 2 + 3 auf der Tastatur. 2 Verarbeitung, der Prozessor-Chip rechnet 2 + 3 = 5. 3 Ausgabe, der Monitor zeigt groß die 5.</title>
+
+<rect width="400" height="516" fill="#fff"/>
+<text x="200" y="28" font-size="17" text-anchor="middle" font-weight="700" fill="#222">Du rechnest 2 + 3</text>
+<rect x="10" y="46" width="380" height="130" rx="12" fill="#e3f0e9" stroke="#2f6b4f" stroke-width="2.5"/>
+<circle cx="36" cy="76" r="13" fill="#2f6b4f" stroke="none" stroke-width="2"/><text x="36" y="81" font-size="15" text-anchor="middle" font-weight="700" fill="#fff">1</text>
+<text x="58" y="82" font-size="17" text-anchor="start" font-weight="700" fill="#2f6b4f">Eingabe</text>
+<rect x="10" y="210" width="380" height="130" rx="12" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2.5"/>
+<circle cx="36" cy="240" r="13" fill="#3a6ed8" stroke="none" stroke-width="2"/><text x="36" y="245" font-size="15" text-anchor="middle" font-weight="700" fill="#fff">2</text>
+<text x="58" y="246" font-size="17" text-anchor="start" font-weight="700" fill="#3a6ed8">Verarbeitung</text>
+<rect x="10" y="374" width="380" height="130" rx="12" fill="#fdf0e0" stroke="#E07B00" stroke-width="2.5"/>
+<circle cx="36" cy="404" r="13" fill="#E07B00" stroke="none" stroke-width="2"/><text x="36" y="409" font-size="15" text-anchor="middle" font-weight="700" fill="#fff">3</text>
+<text x="58" y="410" font-size="17" text-anchor="start" font-weight="700" fill="#a85400">Ausgabe</text>
+<rect x="215.0" y="118.0" width="110" height="44" rx="4" fill="#fff" stroke="#333" stroke-width="1.5"/><rect x="220.0" y="123.0" width="14.7" height="6" rx="1" fill="#ccc" stroke="none" stroke-width="0"/><rect x="236.7" y="123.0" width="14.7" height="6" rx="1" fill="#ccc" stroke="none" stroke-width="0"/><rect x="253.3" y="123.0" width="14.7" height="6" rx="1" fill="#ccc" stroke="none" stroke-width="0"/><rect x="270.0" y="123.0" width="14.7" height="6" rx="1" fill="#ccc" stroke="none" stroke-width="0"/><rect x="286.7" y="123.0" width="14.7" height="6" rx="1" fill="#ccc" stroke="none" stroke-width="0"/><rect x="303.3" y="123.0" width="14.7" height="6" rx="1" fill="#ccc" stroke="none" stroke-width="0"/><rect x="220.0" y="131.0" width="14.7" height="6" rx="1" fill="#ccc" stroke="none" stroke-width="0"/><rect x="236.7" y="131.0" width="14.7" height="6" rx="1" fill="#ccc" stroke="none" stroke-width="0"/><rect x="253.3" y="131.0" width="14.7" height="6" rx="1" fill="#ccc" stroke="none" stroke-width="0"/><rect x="270.0" y="131.0" width="14.7" height="6" rx="1" fill="#ccc" stroke="none" stroke-width="0"/><rect x="286.7" y="131.0" width="14.7" height="6" rx="1" fill="#ccc" stroke="none" stroke-width="0"/><rect x="303.3" y="131.0" width="14.7" height="6" rx="1" fill="#ccc" stroke="none" stroke-width="0"/><rect x="236.66666666666666" y="140.0" width="64.7" height="5" rx="1" fill="#ccc" stroke="none" stroke-width="0"/>
+<rect x="222" y="62" width="96" height="34" rx="6" fill="#fff" stroke="#2f6b4f" stroke-width="2"/>
+<text x="270" y="86" font-size="20" text-anchor="middle" font-weight="700" fill="#222">2 + 3</text>
+<rect x="276" y="104" width="14" height="30" rx="7" fill="#f0c9a0" stroke="#a0704a" stroke-width="1.5"/>
+<text x="36" y="140" font-size="14" text-anchor="start" fill="#222">Du tippst</text>
+<text x="36" y="158" font-size="14" text-anchor="start" fill="#222">auf der Tastatur.</text>
+<line x1="65.0" y1="260.0" x2="65.0" y2="266.0" stroke="#555" stroke-width="2"/><line x1="65.0" y1="310.0" x2="65.0" y2="316.0" stroke="#555" stroke-width="2"/><line x1="52.0" y1="273.0" x2="58.0" y2="273.0" stroke="#555" stroke-width="2"/><line x1="102.0" y1="273.0" x2="108.0" y2="273.0" stroke="#555" stroke-width="2"/><line x1="75.0" y1="260.0" x2="75.0" y2="266.0" stroke="#555" stroke-width="2"/><line x1="75.0" y1="310.0" x2="75.0" y2="316.0" stroke="#555" stroke-width="2"/><line x1="52.0" y1="283.0" x2="58.0" y2="283.0" stroke="#555" stroke-width="2"/><line x1="102.0" y1="283.0" x2="108.0" y2="283.0" stroke="#555" stroke-width="2"/><line x1="85.0" y1="260.0" x2="85.0" y2="266.0" stroke="#555" stroke-width="2"/><line x1="85.0" y1="310.0" x2="85.0" y2="316.0" stroke="#555" stroke-width="2"/><line x1="52.0" y1="293.0" x2="58.0" y2="293.0" stroke="#555" stroke-width="2"/><line x1="102.0" y1="293.0" x2="108.0" y2="293.0" stroke="#555" stroke-width="2"/><line x1="95.0" y1="260.0" x2="95.0" y2="266.0" stroke="#555" stroke-width="2"/><line x1="95.0" y1="310.0" x2="95.0" y2="316.0" stroke="#555" stroke-width="2"/><line x1="52.0" y1="303.0" x2="58.0" y2="303.0" stroke="#555" stroke-width="2"/><line x1="102.0" y1="303.0" x2="108.0" y2="303.0" stroke="#555" stroke-width="2"/><rect x="58.0" y="266.0" width="44" height="44" rx="3" fill="#3a6ed8" stroke="#1f3f80" stroke-width="1.5"/><text x="80" y="292.68" font-size="13" text-anchor="middle" font-weight="700" fill="#fff">CPU</text>
+<circle cx="122" cy="284" r="4" fill="#fff" stroke="#3a6ed8" stroke-width="1.5"/>
+<circle cx="140" cy="278" r="6" fill="#fff" stroke="#3a6ed8" stroke-width="1.5"/>
+<circle cx="162" cy="274" r="8" fill="#fff" stroke="#3a6ed8" stroke-width="1.5"/>
+<ellipse cx="284" cy="276" rx="98" ry="32" fill="#fff" stroke="#3a6ed8" stroke-width="2"/>
+<text x="284" y="284" font-size="22" text-anchor="middle" font-weight="700" fill="#222">2 + 3 = 5</text>
+<text x="36" y="330" font-size="14" text-anchor="start" fill="#222">Die CPU rechnet.</text>
+<rect x="210.0" y="402.0" width="120" height="76" rx="3" fill="#333" stroke="#333" stroke-width="1.5"/><rect x="214.0" y="406.0" width="112" height="68" rx="1" fill="#fff" stroke="none" stroke-width="0"/><rect x="266" y="478.0" width="8" height="7" rx="0" fill="#333" stroke="none" stroke-width="0"/><rect x="254" y="485.0" width="32" height="4" rx="2" fill="#333" stroke="none" stroke-width="0"/><text x="270" y="455.84" font-size="44" text-anchor="middle" font-weight="700" fill="#222">5</text>
+<text x="36" y="470" font-size="14" text-anchor="start" fill="#222">Der Monitor</text>
+<text x="36" y="488" font-size="14" text-anchor="start" fill="#222">zeigt das Ergebnis.</text>
+<line x1="200" y1="178" x2="200.0" y2="190.0" stroke="#333" stroke-width="5"/><polygon points="200,208 189.0,188.0 211.0,188.0" fill="#333"/>
+<line x1="200" y1="342" x2="200.0" y2="354.0" stroke="#333" stroke-width="5"/><polygon points="200,372 189.0,352.0 211.0,352.0" fill="#333"/>
+</svg>

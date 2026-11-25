@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 380" font-family="system-ui, sans-serif">
+  <title>Zwei Querschnitte durch einen Flachbettscanner. Links normales Blatt: Lampe und Scaneinheit liegen unter der Glasplatte, das Licht wird vom Papier zurückgeworfen. Rechts Dia oder Negativ: Die Lampe sitzt oben im Deckel, das Licht geht durch den Film hindurch nach unten zur Scaneinheit. Das ist die Durchlichteinheit, sie leuchtet von hinten. Gute Scanner rechnen ein Negativ in ein Positivbild um.</title>
+  <defs>
+    <marker id="y" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E07B00"/></marker>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker>
+  </defs>
+  <rect width="400" height="380" fill="#fff"/>
+
+  <!-- links: normales Blatt -->
+  <rect x="8" y="8" width="188" height="270" rx="12" fill="#f3f4f6" stroke="#bbb"/>
+  <text x="102" y="34" text-anchor="middle" font-size="16" font-weight="700" fill="#222">normales Blatt</text>
+  <text x="102" y="84" text-anchor="middle" font-size="13" fill="#555">Deckel</text>
+  <rect x="24" y="92" width="156" height="14" rx="4" fill="#555"/>
+  <rect x="40" y="106" width="124" height="6" fill="#fff" stroke="#333" stroke-width="1.5"/>
+  <rect x="24" y="112" width="156" height="5" fill="#a9d4f5"/>
+  <rect x="24" y="117" width="156" height="96" rx="6" fill="#fff" stroke="#3a3f4a" stroke-width="3"/>
+  <circle cx="60" cy="186" r="11" fill="#ffd54a" stroke="#b38f00" stroke-width="2"/>
+  <rect x="126" y="176" width="34" height="20" rx="3" fill="#3a3f4a"/>
+  <line x1="66" y1="174" x2="96" y2="124" stroke="#E07B00" stroke-width="3" marker-end="url(#y)"/>
+  <line x1="104" y1="124" x2="136" y2="170" stroke="#E07B00" stroke-width="3" marker-end="url(#y)"/>
+  <text x="60" y="230" text-anchor="middle" font-size="13" fill="#222">Lampe</text>
+  <text x="143" y="230" text-anchor="middle" font-size="13" fill="#222">Scaneinheit</text>
+  <text x="102" y="260" text-anchor="middle" font-size="13" font-weight="700" fill="#222">Papier wirft Licht zurück</text>
+
+  <!-- rechts: Dia / Negativ -->
+  <rect x="204" y="8" width="188" height="270" rx="12" fill="#fff4e5" stroke="#E07B00"/>
+  <text x="298" y="34" text-anchor="middle" font-size="16" font-weight="700" fill="#222">Dia oder Negativ</text>
+  <rect x="220" y="52" width="156" height="40" rx="5" fill="#555"/>
+  <circle cx="340" cy="72" r="11" fill="#ffd54a" stroke="#b38f00" stroke-width="2"/>
+  <text x="228" y="68" font-size="13" fill="#fff">Lampe</text>
+  <text x="228" y="84" font-size="13" fill="#fff">im Deckel</text>
+  <!-- Filmstreifen -->
+  <rect x="276" y="106" width="104" height="12" fill="#c98a4b" stroke="#7a4a1c"/>
+  <g fill="#fff"><rect x="280" y="107" width="5" height="3"/><rect x="292" y="107" width="5" height="3"/><rect x="304" y="107" width="5" height="3"/><rect x="316" y="107" width="5" height="3"/><rect x="328" y="107" width="5" height="3"/><rect x="340" y="107" width="5" height="3"/><rect x="352" y="107" width="5" height="3"/><rect x="364" y="107" width="5" height="3"/></g>
+  <text x="266" y="117" text-anchor="end" font-size="13" fill="#222">Film</text>
+  <rect x="220" y="118" width="156" height="5" fill="#a9d4f5"/>
+  <rect x="220" y="123" width="156" height="90" rx="6" fill="#fff" stroke="#3a3f4a" stroke-width="3"/>
+  <rect x="323" y="176" width="34" height="20" rx="3" fill="#3a3f4a"/>
+  <line x1="340" y1="86" x2="340" y2="170" stroke="#E07B00" stroke-width="4" marker-end="url(#y)"/>
+  <text x="340" y="230" text-anchor="middle" font-size="13" fill="#222">Scaneinheit</text>
+  <text x="298" y="252" text-anchor="middle" font-size="13" font-weight="700" fill="#b35f00">Durchlichteinheit:</text>
+  <text x="298" y="268" text-anchor="middle" font-size="13" font-weight="700" fill="#b35f00">Licht von hinten</text>
+
+  <!-- Negativ -> Positiv -->
+  <rect x="8" y="290" width="384" height="82" rx="12" fill="#fff" stroke="#bbb"/>
+  <rect x="64" y="300" width="70" height="52" fill="#3a3530"/>
+  <path d="M64,352 l22,-22 l14,12 l10,-8 l24,18 z" fill="#d9c9a8"/>
+  <circle cx="114" cy="316" r="8" fill="#4a5fb0"/>
+  <line x1="148" y1="326" x2="246" y2="326" stroke="#333" stroke-width="3" marker-end="url(#a)"/>
+  <text x="197" y="316" text-anchor="middle" font-size="13" fill="#222">umrechnen</text>
+  <rect x="260" y="300" width="70" height="52" fill="#cfe3f7"/>
+  <path d="M260,352 l22,-22 l14,12 l10,-8 l24,18 z" fill="#3a6ed8"/>
+  <circle cx="310" cy="316" r="8" fill="#ffd54a"/>
+  <text x="99" y="366" text-anchor="middle" font-size="13" fill="#222">Negativ</text>
+  <text x="295" y="366" text-anchor="middle" font-size="13" fill="#222">Positivbild</text>
+</svg>

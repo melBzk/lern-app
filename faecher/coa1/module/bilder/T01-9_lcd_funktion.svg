@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 440" font-family="system-ui, sans-serif">
+  <title>So macht ein LCD hell und dunkel. Das Licht läuft von unten nach oben: Hintergrundbeleuchtung, Filter 1, Flüssigkristalle, Filter 2 (um 90 Grad gedreht), Bildpunkt. Links ohne Spannung: Die Kristalle liegen gedreht wie eine Spirale und drehen das Licht um 90 Grad, es kommt durch Filter 2, heller Bildpunkt. Rechts mit Spannung: Die Kristalle stehen gerade und drehen nicht, Filter 2 schluckt das Licht, dunkler Bildpunkt. Unten: Die Polarisationsfilter lassen nur Licht mit einer bestimmten Schwingungsrichtung durch.</title>
+  <defs>
+    <marker id="pl" viewBox="0 0 10 10" refX="8" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#e0a800"/>
+    </marker>
+  </defs>
+  <rect width="400" height="440" fill="#fff"/>
+  <text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700" fill="#222">So macht ein LCD hell und dunkel</text>
+  <text x="200" y="46" text-anchor="middle" font-size="13" fill="#555">Das Licht läuft von unten nach oben.</text>
+
+  <!-- Spaltenkoepfe -->
+  <text x="150" y="68" text-anchor="middle" font-size="15" font-weight="700" fill="#222">ohne Spannung</text>
+  <text x="330" y="68" text-anchor="middle" font-size="15" font-weight="700" fill="#222">mit Spannung</text>
+  <line x1="240" y1="58" x2="240" y2="410" stroke="#ddd" stroke-width="1"/>
+
+  <!-- Schichtnamen links -->
+  <g font-size="14" fill="#222" text-anchor="end">
+    <text x="100" y="116">Bildpunkt</text>
+    <text x="100" y="178">Filter 2</text>
+    <text x="100" y="246">Flüssig-</text>
+    <text x="100" y="262">kristalle</text>
+    <text x="100" y="333">Filter 1</text>
+    <text x="100" y="383">Hintergrund-</text>
+    <text x="100" y="399">beleuchtung</text>
+  </g>
+  <text x="100" y="194" text-anchor="end" font-size="13" fill="#c62828">um 90° gedreht</text>
+
+  <!-- Lichtstrahlen (hinter den Schichten) -->
+  <line x1="150" y1="370" x2="150" y2="132" stroke="#e0a800" stroke-width="5" marker-end="url(#pl)"/>
+  <line x1="330" y1="370" x2="330" y2="190" stroke="#e0a800" stroke-width="5" marker-end="url(#pl)"/>
+  <!-- ===== linke Spalte ===== -->
+  <!-- Lampe -->
+  <rect x="110" y="372" width="80" height="26" rx="4" fill="#ffd54f" stroke="#c79a00" stroke-width="2"/>
+  <!-- Filter 1: senkrechte Linien -->
+  <rect x="110" y="320" width="80" height="18" fill="#eef1f5" fill-opacity="0.75" stroke="#555" stroke-width="1.5"/>
+  <g stroke="#555" stroke-width="1.5">
+    <line x1="120" y1="320" x2="120" y2="338"/><line x1="130" y1="320" x2="130" y2="338"/><line x1="140" y1="320" x2="140" y2="338"/><line x1="160" y1="320" x2="160" y2="338"/><line x1="170" y1="320" x2="170" y2="338"/><line x1="180" y1="320" x2="180" y2="338"/>
+  </g>
+  <!-- Kristallschicht -->
+  <rect x="110" y="208" width="80" height="84" rx="4" fill="#e3f0fb" fill-opacity="0.75" stroke="#7aa6d6" stroke-width="1.5"/>
+  <g fill="#3a6ed8">
+    <ellipse cx="128" cy="282" rx="12" ry="4" transform="rotate(90 128 282)"/><ellipse cx="172" cy="282" rx="12" ry="4" transform="rotate(90 172 282)"/>
+    <ellipse cx="128" cy="260" rx="12" ry="4" transform="rotate(60 128 260)"/><ellipse cx="172" cy="260" rx="12" ry="4" transform="rotate(60 172 260)"/>
+    <ellipse cx="128" cy="238" rx="12" ry="4" transform="rotate(30 128 238)"/><ellipse cx="172" cy="238" rx="12" ry="4" transform="rotate(30 172 238)"/>
+    <ellipse cx="128" cy="218" rx="12" ry="4"/><ellipse cx="172" cy="218" rx="12" ry="4"/>
+  </g>
+  <text x="150" y="309" text-anchor="middle" font-size="13" font-weight="700" fill="#3a6ed8" stroke="#fff" stroke-width="4" paint-order="stroke">dreht um 90°</text>
+  <!-- Filter 2: waagerechte Linien -->
+  <rect x="110" y="166" width="80" height="18" fill="#eef1f5" fill-opacity="0.75" stroke="#555" stroke-width="1.5"/>
+  <g stroke="#555" stroke-width="1.5">
+    <line x1="110" y1="171" x2="190" y2="171"/><line x1="110" y1="175" x2="190" y2="175"/><line x1="110" y1="179" x2="190" y2="179"/>
+  </g>
+  <!-- Licht -->
+  <!-- Ergebnis hell -->
+  <rect x="132" y="96" width="36" height="30" fill="#fff" stroke="#222" stroke-width="2"/>
+  <g stroke="#e0a800" stroke-width="2">
+    <line x1="126" y1="104" x2="116" y2="100"/><line x1="174" y1="104" x2="184" y2="100"/><line x1="126" y1="118" x2="116" y2="122"/><line x1="174" y1="118" x2="184" y2="122"/>
+  </g>
+  <text x="150" y="90" text-anchor="middle" font-size="15" font-weight="700" fill="#2e9d5b">heller Bildpunkt</text>
+
+  <!-- ===== rechte Spalte ===== -->
+  <rect x="290" y="372" width="80" height="26" rx="4" fill="#ffd54f" stroke="#c79a00" stroke-width="2"/>
+  <rect x="290" y="320" width="80" height="18" fill="#eef1f5" fill-opacity="0.75" stroke="#555" stroke-width="1.5"/>
+  <g stroke="#555" stroke-width="1.5">
+    <line x1="300" y1="320" x2="300" y2="338"/><line x1="310" y1="320" x2="310" y2="338"/><line x1="320" y1="320" x2="320" y2="338"/><line x1="340" y1="320" x2="340" y2="338"/><line x1="350" y1="320" x2="350" y2="338"/><line x1="360" y1="320" x2="360" y2="338"/>
+  </g>
+  <rect x="290" y="208" width="80" height="84" rx="4" fill="#e3f0fb" fill-opacity="0.75" stroke="#7aa6d6" stroke-width="1.5"/>
+  <g fill="#3a6ed8">
+    <ellipse cx="308" cy="282" rx="12" ry="4" transform="rotate(90 308 282)"/><ellipse cx="352" cy="282" rx="12" ry="4" transform="rotate(90 352 282)"/>
+    <ellipse cx="308" cy="260" rx="12" ry="4" transform="rotate(90 308 260)"/><ellipse cx="352" cy="260" rx="12" ry="4" transform="rotate(90 352 260)"/>
+    <ellipse cx="308" cy="238" rx="12" ry="4" transform="rotate(90 308 238)"/><ellipse cx="352" cy="238" rx="12" ry="4" transform="rotate(90 352 238)"/>
+    <ellipse cx="308" cy="218" rx="12" ry="4" transform="rotate(90 308 218)"/><ellipse cx="352" cy="218" rx="12" ry="4" transform="rotate(90 352 218)"/>
+  </g>
+  <text x="330" y="309" text-anchor="middle" font-size="13" font-weight="700" fill="#3a6ed8" stroke="#fff" stroke-width="4" paint-order="stroke">steht gerade</text>
+  <!-- Batterie -->
+  <line x1="370" y1="232" x2="384" y2="232" stroke="#222" stroke-width="1.5"/>
+  <line x1="370" y1="268" x2="384" y2="268" stroke="#222" stroke-width="1.5"/>
+  <rect x="377" y="236" width="14" height="28" rx="2" fill="#2e9d5b" stroke="#1d6b3c" stroke-width="1.5"/>
+  <rect x="381" y="232" width="6" height="4" fill="#1d6b3c"/>
+  <text x="384" y="255" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">+</text>
+  <!-- Filter 2 -->
+  <rect x="290" y="166" width="80" height="18" fill="#eef1f5" fill-opacity="0.75" stroke="#555" stroke-width="1.5"/>
+  <g stroke="#555" stroke-width="1.5">
+    <line x1="290" y1="171" x2="370" y2="171"/><line x1="290" y1="175" x2="370" y2="175"/><line x1="290" y1="179" x2="370" y2="179"/>
+  </g>
+  <!-- Licht endet -->
+  <g stroke="#c62828" stroke-width="4" stroke-linecap="round">
+    <line x1="318" y1="163" x2="342" y2="187"/><line x1="342" y1="163" x2="318" y2="187"/>
+  </g>
+  <!-- Ergebnis dunkel -->
+  <rect x="312" y="96" width="36" height="30" fill="#111" stroke="#222" stroke-width="2"/>
+  <text x="330" y="90" text-anchor="middle" font-size="15" font-weight="700" fill="#222">dunkler Bildpunkt</text>
+
+  <text x="200" y="420" text-anchor="middle" font-size="12" fill="#555">Polarisationsfilter: Sie lassen nur Licht mit einer</text>
+  <text x="200" y="435" text-anchor="middle" font-size="12" fill="#555">bestimmten Schwingungsrichtung durch.</text>
+</svg>

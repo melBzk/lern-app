@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480" font-family="system-ui, sans-serif">
+  <title>Vier Drucker und wie die Farbe aufs Papier kommt. 1 Nadeldrucker: Nadeln stoßen durch ein Farbband und machen Punkte, laut; gut für Durchschläge. 2 Laserdrucker: Laser und Trommel, Tonerpulver, das Papier läuft durch zwei heiße Walzen, Druck und Wärme; fürs Büro. 3 Tintenstrahldrucker: Düsen schießen feine Tröpfchen aufs Papier; Farbdruck. 4 Thermosublimation: Ein Heizkopf erhitzt eine Farbfolie, die Farbe zieht ins Papier; für Fotos.</title>
+  <defs>
+    <marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="10" markerHeight="10" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d63c3c"/></marker>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="10" markerHeight="10" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker>
+  </defs>
+  <rect width="400" height="480" fill="#fff"/>
+  <g fill="#f3f4f6" stroke="#bbb">
+    <rect x="8" y="8" width="188" height="228" rx="12"/><rect x="204" y="8" width="188" height="228" rx="12"/>
+    <rect x="8" y="244" width="188" height="228" rx="12"/><rect x="204" y="244" width="188" height="228" rx="12"/>
+  </g>
+
+  <!-- 1 Nadeldrucker -->
+  <circle cx="28" cy="30" r="11" fill="#E07B00"/><text x="28" y="35" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">1</text>
+  <text x="46" y="36" font-size="15" font-weight="700" fill="#222">Nadeldrucker</text>
+  <rect x="50" y="52" width="70" height="40" rx="5" fill="#3a3f4a"/>
+  <g stroke="#555" stroke-width="3"><line x1="60" y1="92" x2="60" y2="108"/><line x1="76" y1="92" x2="76" y2="108"/><line x1="108" y1="92" x2="108" y2="108"/></g>
+  <g stroke="#333" stroke-width="3"><line x1="92" y1="92" x2="92" y2="130"/><line x1="68" y1="92" x2="68" y2="130"/><line x1="100" y1="92" x2="100" y2="130"/></g>
+  <rect x="36" y="114" width="98" height="8" fill="#111"/>
+  <text x="140" y="122" font-size="13" fill="#222">Farbband</text>
+  <rect x="28" y="132" width="140" height="10" fill="#fff" stroke="#333" stroke-width="1.5"/>
+  <g fill="#111"><circle cx="68" cy="137" r="3"/><circle cx="92" cy="137" r="3"/><circle cx="100" cy="137" r="3"/></g>
+  <text x="140" y="80" font-size="13" fill="#222">Nadeln</text>
+  <!-- Lautsprecher -->
+  <path d="M40,160 h8 l10,-8 v24 l-10,-8 h-8 z" fill="#333"/>
+  <path d="M64,158 q6,6 0,12 M70,153 q11,11 0,22" fill="none" stroke="#333" stroke-width="2"/>
+  <text x="80" y="170" font-size="13" fill="#222">laut</text>
+  <rect x="38" y="194" width="128" height="28" rx="14" fill="#fff" stroke="#E07B00" stroke-width="2"/>
+  <text x="102" y="213" text-anchor="middle" font-size="14" font-weight="700" fill="#b35f00">Durchschläge</text>
+
+  <!-- 2 Laserdrucker -->
+  <circle cx="224" cy="30" r="11" fill="#E07B00"/><text x="224" y="35" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">2</text>
+  <text x="242" y="36" font-size="15" font-weight="700" fill="#222">Laserdrucker</text>
+  <circle cx="264" cy="92" r="28" fill="#d9dde3" stroke="#555" stroke-width="2"/>
+  <text x="264" y="97" text-anchor="middle" font-size="13" fill="#333">Trommel</text>
+  <line x1="350" y1="52" x2="284" y2="74" stroke="#d63c3c" stroke-width="3" marker-end="url(#r)"/>
+  <text x="352" y="70" text-anchor="middle" font-size="13" fill="#a32020">Laser</text>
+  <g fill="#111"><circle cx="290" cy="100" r="2.5"/><circle cx="287" cy="108" r="2.5"/><circle cx="282" cy="114" r="2.5"/></g>
+  <text x="304" y="110" font-size="13" fill="#222">Toner</text>
+  <rect x="216" y="120" width="164" height="6" fill="#fff" stroke="#333" stroke-width="1.5"/>
+  <g fill="#111"><circle cx="300" cy="118" r="2.5"/><circle cx="308" cy="118" r="2.5"/></g>
+  <circle cx="350" cy="109" r="10" fill="#e85d2a"/><circle cx="350" cy="137" r="10" fill="#e85d2a"/>
+  <path d="M342,90 q4,-5 0,-10 M350,90 q4,-5 0,-10 M358,90 q4,-5 0,-10" fill="none" stroke="#d63c3c" stroke-width="2"/>
+  <line x1="226" y1="134" x2="256" y2="134" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+  <text x="298" y="170" text-anchor="middle" font-size="14" font-weight="700" fill="#a32020">Druck + Wärme</text>
+  <rect x="234" y="194" width="128" height="28" rx="14" fill="#fff" stroke="#E07B00" stroke-width="2"/>
+  <text x="298" y="213" text-anchor="middle" font-size="14" font-weight="700" fill="#b35f00">Büro</text>
+
+  <!-- 3 Tintenstrahldrucker -->
+  <circle cx="28" cy="266" r="11" fill="#E07B00"/><text x="28" y="271" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">3</text>
+  <text x="46" y="272" font-size="15" font-weight="700" fill="#222">Tintenstrahl</text>
+  <rect x="50" y="288" width="80" height="40" rx="5" fill="#3a3f4a"/>
+  <text x="90" y="313" text-anchor="middle" font-size="13" fill="#fff">Druckkopf</text>
+  <g fill="#222"><rect x="56" y="328" width="8" height="5"/><rect x="74" y="328" width="8" height="5"/><rect x="92" y="328" width="8" height="5"/><rect x="110" y="328" width="8" height="5"/></g>
+  <g><circle cx="60" cy="344" r="3" fill="#1fa3c9"/><circle cx="60" cy="358" r="3" fill="#1fa3c9"/>
+    <circle cx="78" cy="348" r="3" fill="#d6338a"/><circle cx="78" cy="362" r="3" fill="#d6338a"/>
+    <circle cx="96" cy="342" r="3" fill="#f2c200"/><circle cx="96" cy="356" r="3" fill="#f2c200"/>
+    <circle cx="114" cy="346" r="3" fill="#111"/><circle cx="114" cy="360" r="3" fill="#111"/></g>
+  <text x="132" y="352" font-size="13" fill="#222">Düsen,</text>
+  <text x="132" y="368" font-size="13" fill="#222">Tröpfchen</text>
+  <rect x="28" y="376" width="140" height="10" fill="#fff" stroke="#333" stroke-width="1.5"/>
+  <rect x="38" y="430" width="128" height="28" rx="14" fill="#fff" stroke="#E07B00" stroke-width="2"/>
+  <text x="102" y="449" text-anchor="middle" font-size="14" font-weight="700" fill="#b35f00">Farbdruck</text>
+
+  <!-- 4 Thermosublimation -->
+  <circle cx="224" cy="266" r="11" fill="#E07B00"/><text x="224" y="271" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">4</text>
+  <text x="242" y="272" font-size="15" font-weight="700" fill="#222">Thermosublimation</text>
+  <rect x="236" y="290" width="104" height="28" rx="5" fill="#3a3f4a"/>
+  <text x="288" y="309" text-anchor="middle" font-size="13" fill="#fff">Heizkopf</text>
+  <g fill="#ff4d2e"><circle cx="272" cy="320" r="4"/><circle cx="306" cy="320" r="4"/></g>
+  <rect x="222" y="326" width="28" height="10" fill="#f2c200"/><rect x="250" y="326" width="80" height="10" fill="#d6338a"/><rect x="330" y="326" width="44" height="10" fill="#1fa3c9"/>
+  <text x="352" y="316" font-size="13" fill="#222">Folie</text>
+  <g fill="#d6338a" fill-opacity="0.6"><ellipse cx="272" cy="346" rx="8" ry="5"/><ellipse cx="272" cy="358" rx="6" ry="4"/><ellipse cx="306" cy="346" rx="8" ry="5"/><ellipse cx="306" cy="358" rx="6" ry="4"/></g>
+  <rect x="222" y="366" width="152" height="10" fill="#fff" stroke="#333" stroke-width="1.5"/>
+  <text x="298" y="398" text-anchor="middle" font-size="13" fill="#222">Farbe zieht ins Papier</text>
+  <rect x="234" y="430" width="128" height="28" rx="14" fill="#fff" stroke="#E07B00" stroke-width="2"/>
+  <text x="298" y="449" text-anchor="middle" font-size="14" font-weight="700" fill="#b35f00">Fotos</text>
+</svg>

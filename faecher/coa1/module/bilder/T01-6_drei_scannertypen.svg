@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 564" font-family="system-ui, sans-serif">
+  <title>Die drei Scannertypen untereinander. 1 Handscanner: von Hand über das Blatt geführt; breite Blätter nur in mehreren Streifen (im Bild zwei), die die Software zusammensetzen muss. 2 Einzugsscanner: zieht ein einzelnes Blatt ein und führt es an der feststehenden Scaneinheit vorbei; keine Bücher. 3 Flachbettscanner: Das Buch liegt mit der Schrift nach unten auf der Glasplatte, die Scaneinheit fährt darunter entlang; oben am Deckel ein ADF für Papierstapel.</title>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker>
+    <marker id="o" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E07B00"/></marker>
+  </defs>
+  <rect width="400" height="564" fill="#fff"/>
+
+  <!-- ===== 1 Handscanner ===== -->
+  <rect x="8" y="8" width="384" height="164" rx="12" fill="#f3f4f6" stroke="#bbb"/>
+  <circle cx="30" cy="34" r="12" fill="#E07B00"/>
+  <text x="30" y="39" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">1</text>
+  <text x="50" y="40" font-size="16" font-weight="700" fill="#222">Handscanner</text>
+  <text x="20" y="70" font-size="13" fill="#222">von Hand über</text>
+  <text x="20" y="86" font-size="13" fill="#222">das Blatt führen</text>
+  <!-- Blatt in zwei Streifen -->
+  <rect x="160" y="30" width="222" height="128" fill="#fff" stroke="#333" stroke-width="2"/>
+  <line x1="271" y1="30" x2="271" y2="158" stroke="#d63c3c" stroke-width="2" stroke-dasharray="5 4"/>
+  <g stroke="#999" stroke-width="2.5">
+    <line x1="168" y1="62" x2="262" y2="62"/><line x1="280" y1="60" x2="374" y2="60"/>
+    <line x1="168" y1="80" x2="262" y2="80"/><line x1="280" y1="78" x2="374" y2="78"/>
+    <line x1="168" y1="98" x2="262" y2="98"/><line x1="280" y1="96" x2="374" y2="96"/>
+    <line x1="168" y1="116" x2="262" y2="116"/><line x1="280" y1="114" x2="374" y2="114"/>
+  </g>
+  <!-- Handscanner auf linkem Streifen -->
+  <rect x="164" y="34" width="102" height="18" rx="6" fill="#3a3f4a"/>
+  <rect x="200" y="22" width="30" height="14" rx="5" fill="#555"/>
+  <line x1="215" y1="56" x2="215" y2="150" stroke="#333" stroke-width="2.5" marker-end="url(#a)"/>
+  <!-- Naht -->
+  <circle cx="271" cy="134" r="14" fill="#d63c3c"/>
+  <text x="271" y="140" text-anchor="middle" font-size="17" font-weight="700" fill="#fff">?</text>
+  <text x="20" y="128" font-size="13" font-weight="700" fill="#a32020">Streifen</text>
+  <text x="20" y="144" font-size="13" font-weight="700" fill="#a32020">zusammensetzen</text>
+  <line x1="126" y1="138" x2="254" y2="136" stroke="#d63c3c" stroke-width="1.5" stroke-dasharray="4 3"/>
+
+  <!-- ===== 2 Einzugsscanner ===== -->
+  <rect x="8" y="182" width="384" height="164" rx="12" fill="#f3f4f6" stroke="#bbb"/>
+  <circle cx="30" cy="208" r="12" fill="#E07B00"/>
+  <text x="30" y="213" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">2</text>
+  <text x="50" y="214" font-size="16" font-weight="700" fill="#222">Einzugsscanner</text>
+  <text x="20" y="244" font-size="13" fill="#222">zieht das Blatt ein,</text>
+  <text x="20" y="260" font-size="13" fill="#222">wenig Platz</text>
+  <!-- Blatt oben -->
+  <rect x="196" y="196" width="40" height="40" fill="#fff" stroke="#333" stroke-width="2" transform="rotate(-12 216 216)"/>
+  <!-- Gerät -->
+  <rect x="170" y="250" width="110" height="60" rx="8" fill="#3a3f4a"/>
+  <rect x="222" y="268" width="10" height="34" rx="2" fill="#ffd54a"/>
+  <!-- Papierweg -->
+  <path d="M212,236 C212,262 212,262 236,278 C252,288 260,300 262,322" fill="none" stroke="#E07B00" stroke-width="3" stroke-dasharray="6 4" marker-end="url(#o)"/>
+  <text x="150" y="332" font-size="13" fill="#222">Scaneinheit steht still</text>
+  <line x1="227" y1="318" x2="227" y2="306" stroke="#333" stroke-width="1.5"/>
+  <!-- durchgestrichenes Buch -->
+  <path d="M310,250 q20,-8 34,0 v44 q-14,-8 -34,0 z" fill="#cfe3f7" stroke="#3a6ed8" stroke-width="2"/>
+  <path d="M344,250 q14,-8 34,0 v44 q-20,-8 -34,0 z" fill="#cfe3f7" stroke="#3a6ed8" stroke-width="2"/>
+  <line x1="304" y1="240" x2="384" y2="306" stroke="#d63c3c" stroke-width="5" stroke-linecap="round"/>
+  <line x1="384" y1="240" x2="304" y2="306" stroke="#d63c3c" stroke-width="5" stroke-linecap="round"/>
+  <text x="344" y="332" text-anchor="middle" font-size="13" font-weight="700" fill="#a32020">keine Bücher</text>
+
+  <!-- ===== 3 Flachbettscanner ===== -->
+  <rect x="8" y="356" width="384" height="200" rx="12" fill="#fff4e5" stroke="#E07B00"/>
+  <circle cx="30" cy="382" r="12" fill="#E07B00"/>
+  <text x="30" y="387" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">3</text>
+  <text x="50" y="388" font-size="16" font-weight="700" fill="#222">Flachbettscanner</text>
+  <text x="20" y="418" font-size="13" fill="#222">auch Bücher,</text>
+  <text x="20" y="434" font-size="13" fill="#222">braucht viel Platz</text>
+  <!-- Deckel offen mit ADF -->
+  <g transform="rotate(-8 200 484)">
+    <rect x="192" y="414" width="16" height="70" rx="3" fill="#555"/>
+    <rect x="186" y="398" width="64" height="24" rx="4" fill="#3a3f4a"/>
+    <g stroke="#fff" stroke-width="2"><line x1="194" y1="404" x2="242" y2="404"/><line x1="194" y1="410" x2="242" y2="410"/><line x1="194" y1="416" x2="242" y2="416"/></g>
+  </g>
+  <text x="222" y="462" font-size="13" fill="#555">Deckel</text>
+  <text x="272" y="410" font-size="14" font-weight="700" fill="#222">ADF</text>
+  <text x="272" y="426" font-size="13" fill="#555">Stapel-Einzug</text>
+  <line x1="268" y1="406" x2="252" y2="406" stroke="#333" stroke-width="1.5"/>
+  <!-- Buch mit Schrift nach unten -->
+  <path d="M272,484 L308,454 L344,484 z" fill="#cfe3f7" stroke="#3a6ed8" stroke-width="2"/>
+  <text x="308" y="476" text-anchor="middle" font-size="13" fill="#1c3f80">Buch</text>
+  <!-- Glas und Gehäuse -->
+  <rect x="190" y="484" width="196" height="6" fill="#a9d4f5"/>
+  <rect x="190" y="490" width="196" height="50" rx="6" fill="#3a3f4a"/>
+  <rect x="226" y="496" width="10" height="38" rx="2" fill="#ffd54a"/>
+  <line x1="242" y1="515" x2="350" y2="515" stroke="#ffd54a" stroke-width="3" marker-end="url(#o)"/>
+  <text x="20" y="490" font-size="13" fill="#222">Glasplatte</text>
+  <line x1="88" y1="486" x2="188" y2="487" stroke="#333" stroke-width="1.5"/>
+  <text x="20" y="522" font-size="13" fill="#222">Scaneinheit fährt</text>
+  <text x="20" y="538" font-size="13" fill="#222">unter dem Glas</text>
+</svg>

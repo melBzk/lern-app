@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>WLAN-Reichweite. Ein Access Point sendet Funk. Ein Laptop nah dran hat vollen Empfang (vier Balken, grünes Häkchen). Ein Handy hinter einer Wand hat halben Empfang (zwei Balken). Ein Tablet weit weg hinter zwei Wänden hat nur einen Balken und ein rotes Ausrufezeichen. Unten ist ein PC per Kabel am Access Point angeschlossen: Kabel gleich stabil.</title>
+<defs>
+<g id="b4"><rect x="0" y="12" width="6" height="6"/><rect x="9" y="8" width="6" height="10"/><rect x="18" y="4" width="6" height="14"/><rect x="27" y="0" width="6" height="18"/></g>
+</defs>
+<rect width="400" height="400" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">WLAN: weiter weg + Wände = langsamer</text>
+
+<!-- Access Point -->
+<line x1="48" y1="140" x2="42" y2="112" stroke="#333" stroke-width="3"/>
+<line x1="82" y1="140" x2="88" y2="112" stroke="#333" stroke-width="3"/>
+<rect x="34" y="138" width="62" height="28" rx="6" fill="#3a3f4a"/>
+<g fill="#1f9d55"><circle cx="48" cy="152" r="2.5"/><circle cx="58" cy="152" r="2.5"/><circle cx="68" cy="152" r="2.5"/></g>
+<text x="65" y="98" text-anchor="middle" font-size="13" font-weight="700">Access Point</text>
+<g fill="none" stroke="#E07B00" stroke-width="3" stroke-linecap="round">
+<path d="M104,136 a20,20 0 0 1 0,32"/>
+<path d="M112,128 a32,32 0 0 1 0,48"/>
+</g>
+
+<!-- Laptop: nah -->
+<rect x="128" y="132" width="44" height="30" rx="2" fill="#3a3f4a"/><rect x="132" y="136" width="36" height="22" fill="#dfe9fb"/><path d="M122,162 h56 l-4,7 h-48 z" fill="#555"/>
+<use href="#b4" x="133" y="104" fill="#1f9d55"/>
+<circle cx="150" cy="194" r="11" fill="#1f9d55"/>
+<path d="M144,194 l4,4 l8,-8" fill="none" stroke="#fff" stroke-width="2.5"/>
+<text x="150" y="226" text-anchor="middle" font-size="13">nah dran</text>
+
+<!-- Wand 1 -->
+<rect x="190" y="80" width="10" height="130" fill="#b9b0a5"/>
+
+<!-- Handy: 1 Wand -->
+<rect x="222" y="128" width="22" height="38" rx="4" fill="#222"/><rect x="225" y="133" width="16" height="27" fill="#9cc3f5"/>
+<use href="#b4" x="216" y="104" fill="#ddd"/>
+<g fill="#E07B00"><rect x="216" y="116" width="6" height="6"/><rect x="225" y="112" width="6" height="10"/></g>
+<text x="233" y="226" text-anchor="middle" font-size="13">1 Wand</text>
+
+<!-- Wand 2 und 3 -->
+<rect x="266" y="80" width="10" height="130" fill="#b9b0a5"/>
+<rect x="284" y="80" width="10" height="130" fill="#b9b0a5"/>
+
+<!-- Tablet: 2 Waende -->
+<rect x="316" y="124" width="40" height="52" rx="5" fill="#222"/><rect x="320" y="129" width="32" height="42" fill="#9cc3f5"/>
+<use href="#b4" x="320" y="98" fill="#ddd"/>
+<rect x="320" y="110" width="6" height="6" fill="#c62828"/>
+<circle cx="336" cy="194" r="11" fill="#c62828"/>
+<rect x="334.5" y="187" width="3" height="9" fill="#fff"/><rect x="334.5" y="198" width="3" height="3" fill="#fff"/>
+<text x="336" y="226" text-anchor="middle" font-size="13">2 Wände</text>
+
+<!-- Kabel = stabil -->
+<line x1="10" y1="252" x2="390" y2="252" stroke="#ccc" stroke-width="1.5"/>
+<path d="M65,166 V300" stroke="#333" stroke-width="5" fill="none"/>
+<rect x="38" y="300" width="54" height="38" rx="3" fill="#3a3f4a"/><rect x="42" y="304" width="46" height="30" fill="#dfe9fb"/><rect x="59" y="338" width="12" height="8" fill="#555"/><rect x="48" y="346" width="34" height="4" rx="2" fill="#555"/>
+<text x="65" y="372" text-anchor="middle" font-size="13">PC</text>
+<circle cx="124" cy="314" r="13" fill="#1f9d55"/>
+<path d="M117,314 l5,5 l9,-9" fill="none" stroke="#fff" stroke-width="3"/>
+<text x="146" y="320" font-size="18" font-weight="700" fill="#1c6b3c">Kabel = stabil</text>
+<text x="146" y="342" font-size="13">PC per Netzwerkkabel</text>
+</svg>

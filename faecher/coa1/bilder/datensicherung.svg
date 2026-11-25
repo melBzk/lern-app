@@ -17,7 +17,7 @@
 
   <!-- INKREMENTELL -->
   <text x="8" y="96" class="t" fill="#3a6ed8">Inkrementell</text>
-  <text x="8" y="112" class="s">sichert nur die Änderungen seit der letzten Sicherung (egal welcher)</text>
+  <text x="8" y="112" class="s">nur Änderungen seit der letzten Voll- oder inkrementellen Sicherung</text>
   <rect x="34" y="122" width="56" height="70" rx="6" fill="#555"/>
   <text x="62" y="162" class="c" fill="#fff" font-weight="700">VOLL</text>
   <g fill="#a3bcf0" stroke="#3a6ed8">

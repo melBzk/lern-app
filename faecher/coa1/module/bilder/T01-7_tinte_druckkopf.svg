@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480" font-family="system-ui, sans-serif">
+  <title>Zwei Druckkopf-Systeme beim Tintenstrahldrucker. Links: Der Druckkopf steckt in der Patrone und wird beim Wechsel mit getauscht. Rechts: Der Druckkopf bleibt im Gerät, darauf vier einzelne Tanks K, C, M, Y; nur der leere Tank wird getauscht. Unten ein vergrößerter Druckkopf: Aus den Düsen fliegen feine Tröpfchen, eine Düse ist mit eingetrockneter Tinte verklebt, weil der Drucker selten benutzt wurde.</title>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker>
+  </defs>
+  <rect width="400" height="480" fill="#fff"/>
+
+  <!-- links: Kopf in der Patrone -->
+  <rect x="8" y="8" width="188" height="236" rx="12" fill="#f3f4f6" stroke="#bbb"/>
+  <text x="102" y="32" text-anchor="middle" font-size="15" font-weight="700" fill="#222">Druckkopf</text>
+  <text x="102" y="50" text-anchor="middle" font-size="15" font-weight="700" fill="#222">in der Patrone</text>
+  <rect x="62" y="96" width="80" height="80" rx="6" fill="#fff" stroke="#333" stroke-width="2"/>
+  <rect x="64" y="130" width="76" height="44" fill="#1fa3c9" fill-opacity="0.35"/>
+  <text x="102" y="122" text-anchor="middle" font-size="13" fill="#222">Patrone</text>
+  <rect x="62" y="176" width="80" height="16" fill="#3a3f4a"/>
+  <g fill="#fff"><rect x="72" y="186" width="6" height="4"/><rect x="86" y="186" width="6" height="4"/><rect x="100" y="186" width="6" height="4"/><rect x="114" y="186" width="6" height="4"/><rect x="128" y="186" width="6" height="4"/></g>
+  <line x1="46" y1="184" x2="60" y2="184" stroke="#333" stroke-width="1.5"/>
+  <text x="14" y="189" font-size="13" fill="#222">Kopf</text>
+  <line x1="102" y1="90" x2="102" y2="62" stroke="#E07B00" stroke-width="3" marker-end="url(#a)"/>
+  <text x="102" y="214" text-anchor="middle" font-size="13" font-weight="700" fill="#b35f00">wird mit getauscht</text>
+  <text x="102" y="232" text-anchor="middle" font-size="13" fill="#222">Patrone + Kopf zusammen</text>
+
+  <!-- rechts: Kopf bleibt im Gerät -->
+  <rect x="204" y="8" width="188" height="236" rx="12" fill="#eaf6ee" stroke="#1f9d55"/>
+  <text x="298" y="32" text-anchor="middle" font-size="15" font-weight="700" fill="#222">Druckkopf</text>
+  <text x="298" y="50" text-anchor="middle" font-size="15" font-weight="700" fill="#222">bleibt im Gerät</text>
+  <!-- Tanks -->
+  <rect x="226" y="120" width="30" height="56" rx="3" fill="#222"/>
+  <text x="241" y="152" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">K</text>
+  <rect x="262" y="78" width="30" height="56" rx="3" fill="#fff" stroke="#1fa3c9" stroke-width="2.5"/>
+  <rect x="264" y="124" width="26" height="8" fill="#1fa3c9"/>
+  <text x="277" y="110" text-anchor="middle" font-size="14" font-weight="700" fill="#1fa3c9">C</text>
+  <rect x="298" y="120" width="30" height="56" rx="3" fill="#d6338a"/>
+  <text x="313" y="152" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">M</text>
+  <rect x="334" y="120" width="30" height="56" rx="3" fill="#f2c200"/>
+  <text x="349" y="152" text-anchor="middle" font-size="14" font-weight="700" fill="#222">Y</text>
+  <line x1="277" y1="74" x2="277" y2="62" stroke="#1f9d55" stroke-width="3" marker-end="url(#a)"/>
+  <rect x="220" y="176" width="150" height="16" fill="#3a3f4a"/>
+  <text x="295" y="189" text-anchor="middle" font-size="13" fill="#fff">fester Kopf</text>
+  <text x="298" y="214" text-anchor="middle" font-size="13" font-weight="700" fill="#1c6b3c">nur der leere Tank</text>
+  <text x="298" y="232" text-anchor="middle" font-size="13" fill="#222">sparsamer</text>
+
+  <!-- unten: Düsen -->
+  <rect x="8" y="254" width="384" height="218" rx="12" fill="#fff" stroke="#bbb"/>
+  <text x="22" y="280" font-size="15" font-weight="700" fill="#222">Druckkopf vergrößert</text>
+  <rect x="40" y="296" width="320" height="40" rx="5" fill="#3a3f4a"/>
+  <g fill="#111"><rect x="64" y="336" width="20" height="10"/><rect x="124" y="336" width="20" height="10"/><rect x="184" y="336" width="20" height="10"/><rect x="304" y="336" width="20" height="10"/></g>
+  <rect x="244" y="336" width="20" height="10" fill="#111"/>
+  <!-- Tröpfchen -->
+  <g fill="#1fa3c9">
+    <circle cx="74" cy="360" r="4"/><circle cx="74" cy="380" r="4"/><circle cx="74" cy="400" r="4"/>
+    <circle cx="134" cy="364" r="4"/><circle cx="134" cy="384" r="4"/><circle cx="134" cy="404" r="4"/>
+    <circle cx="194" cy="358" r="4"/><circle cx="194" cy="378" r="4"/><circle cx="194" cy="398" r="4"/>
+    <circle cx="314" cy="362" r="4"/><circle cx="314" cy="382" r="4"/><circle cx="314" cy="402" r="4"/>
+  </g>
+  <!-- verklebte Düse -->
+  <ellipse cx="254" cy="348" rx="12" ry="7" fill="#7a4a1c"/>
+  <path d="M242,364 l24,24 M266,364 l-24,24" stroke="#d63c3c" stroke-width="5" stroke-linecap="round"/>
+  <rect x="30" y="414" width="340" height="8" fill="#fff" stroke="#333" stroke-width="1.5"/>
+  <text x="60" y="320" font-size="13" fill="#fff">Düsen</text>
+  <text x="200" y="448" text-anchor="middle" font-size="14" font-weight="700" fill="#a32020">selten benutzt → Düse verklebt</text>
+  <text x="200" y="466" text-anchor="middle" font-size="13" fill="#222">feine Tröpfchen fliegen aufs Papier</text>
+</svg>

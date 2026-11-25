@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 350" font-family="system-ui, sans-serif" role="img">
+  <title>Beamer von der Seite. Im Gehäuse sitzt eine helle Lampe, sie ist ein Verschleißteil und hält nur begrenzt. Davor sitzt die Linse. Ein Lichtkegel wirft das Bild auf eine Leinwand an der Wand. Ein Kabel verbindet den Beamer mit dem Laptop.</title>
+  <rect width="400" height="350" fill="#fff"/>
+  <text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700" fill="#222">Bild wird an die Wand geworfen</text>
+  <text x="200" y="46" text-anchor="middle" font-size="15" fill="#444">(projiziert)</text>
+
+  <!-- Lichtkegel -->
+  <polygon points="146,172 146,188 300,284 380,300 380,70 300,86" fill="#fff3bf"/>
+
+  <!-- Leinwand -->
+  <polygon points="300,86 380,70 380,300 300,284" fill="#fffdf5" stroke="#555" stroke-width="2"/>
+  <line x1="312" y1="102" x2="368" y2="90.8" stroke="#3a6ed8" stroke-width="5" stroke-linecap="round"/>
+  <line x1="312" y1="122" x2="368" y2="110.8" stroke="#adb5bd" stroke-width="3" stroke-linecap="round"/>
+  <line x1="312" y1="138" x2="350" y2="130.4" stroke="#adb5bd" stroke-width="3" stroke-linecap="round"/>
+  <polygon points="316,260 328,257.6 328,217.6 316,220" fill="#3a6ed8"/>
+  <polygon points="336,256 348,253.6 348,193.6 336,196" fill="#e8590c"/>
+  <polygon points="356,252 368,249.6 368,219.6 356,222" fill="#3a6ed8"/>
+  <text x="340" y="326" text-anchor="middle" font-size="14" font-weight="700" fill="#222">Leinwand</text>
+
+  <!-- Beamer -->
+  <rect x="20" y="150" width="122" height="60" rx="10" fill="#3a3f4a"/>
+  <rect x="32" y="210" width="12" height="6" fill="#555"/><rect x="118" y="210" width="12" height="6" fill="#555"/>
+  <g stroke="#ffd43b" stroke-width="2.5" stroke-linecap="round">
+    <line x1="62" y1="158" x2="62" y2="154"/><line x1="62" y1="202" x2="62" y2="206"/>
+    <line x1="40" y1="180" x2="36" y2="180"/><line x1="84" y1="180" x2="88" y2="180"/>
+  </g>
+  <circle cx="62" cy="180" r="15" fill="#ffd43b" stroke="#f59f00" stroke-width="2"/>
+  <ellipse cx="143" cy="180" rx="6" ry="14" fill="#a5d8ff" stroke="#1c7ed6" stroke-width="2"/>
+
+  <!-- Beschriftung Lampe -->
+  <text x="20" y="104" font-size="15" font-weight="700" fill="#e8590c">Lampe = Verschleißteil</text>
+  <text x="20" y="123" font-size="13" fill="#444">hält nur begrenzt, dann tauschen</text>
+  <line x1="62" y1="130" x2="62" y2="163" stroke="#e8590c" stroke-width="2"/>
+  <text x="152" y="232" font-size="13" fill="#222">Linse</text>
+
+  <!-- Kabel und Laptop -->
+  <path d="M84,216 C84,240 79,244 79,262" fill="none" stroke="#555" stroke-width="3"/>
+  <text x="92" y="246" font-size="13" fill="#444">Kabel</text>
+  <rect x="44" y="262" width="70" height="44" rx="3" fill="#3a3f4a"/>
+  <rect x="49" y="267" width="60" height="34" fill="#dfe8f6"/>
+  <polygon points="34,306 124,306 132,314 26,314" fill="#555"/>
+  <text x="79" y="336" text-anchor="middle" font-size="14" font-weight="700" fill="#222">Laptop</text>
+</svg>

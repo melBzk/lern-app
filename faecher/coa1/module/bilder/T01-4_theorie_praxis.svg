@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 540" font-family="system-ui, sans-serif">
+  <title>Zwei Tachos. Oben ein Auto-Tacho: Die Skala geht bis 200 Kilometer pro Stunde, laut Prospekt; die Nadel steht bei 80 Kilometer pro Stunde, im Alltag. Unten ein Tacho für WLAN: Die Skala geht bis 600 Megabit pro Sekunde, theoretisch; die Nadel steht bei etwa 240 Megabit pro Sekunde, praktisch. Darunter: Herstellerangabe gleich Höchstwert unter Idealbedingungen.</title>
+  <rect width="400" height="540" fill="#fff"/>
+  <text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700" fill="#222">Theoretisch und praktisch</text>
+
+  <!-- ===== Auto ===== -->
+  <rect x="8" y="40" width="384" height="214" rx="10" fill="#f3f4f6"/>
+  <text x="378" y="64" text-anchor="end" font-size="16" font-weight="700" fill="#222">Auto</text>
+  <path d="M90,190 A110,110 0 0 1 310,190" fill="none" stroke="#d6d9de" stroke-width="16"/>
+  <path d="M90,190 A110,110 0 0 1 166,85.4" fill="none" stroke="#D4607A" stroke-width="16"/>
+  <line x1="200" y1="190" x2="170.6" y2="99.6" stroke="#3a3f4a" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="200" cy="190" r="9" fill="#3a3f4a"/>
+  <text x="90" y="212" text-anchor="middle" font-size="13" fill="#555">0</text>
+  <text x="310" y="212" text-anchor="middle" font-size="13" fill="#555">200</text>
+  <text x="152" y="70" text-anchor="middle" font-size="15" font-weight="700" fill="#b03a58">80</text>
+  <text x="200" y="234" text-anchor="middle" font-size="14" font-weight="700" fill="#b03a58">Nadel: 80 km/h – im Alltag</text>
+  <text x="200" y="250" text-anchor="middle" font-size="13" fill="#555">Skala bis 200 km/h – laut Prospekt</text>
+
+  <!-- ===== WLAN ===== -->
+  <rect x="8" y="266" width="384" height="214" rx="10" fill="#e8f0fe"/>
+  <text x="378" y="290" text-anchor="end" font-size="16" font-weight="700" fill="#1d4fb8">WLAN (Funk-Netz)</text>
+  <path d="M90,416 A110,110 0 0 1 310,416" fill="none" stroke="#c9d6ee" stroke-width="16"/>
+  <path d="M90,416 A110,110 0 0 1 166,311.4" fill="none" stroke="#D4607A" stroke-width="16"/>
+  <line x1="200" y1="416" x2="170.6" y2="325.6" stroke="#3a3f4a" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="200" cy="416" r="9" fill="#3a3f4a"/>
+  <text x="90" y="438" text-anchor="middle" font-size="13" fill="#555">0</text>
+  <text x="310" y="438" text-anchor="middle" font-size="13" fill="#555">600</text>
+  <text x="148" y="296" text-anchor="middle" font-size="15" font-weight="700" fill="#b03a58">240</text>
+  <text x="200" y="460" text-anchor="middle" font-size="14" font-weight="700" fill="#b03a58">Nadel: ca. 240 Mbit/s – praktisch</text>
+  <text x="200" y="476" text-anchor="middle" font-size="13" fill="#555">Skala bis 600 Mbit/s – theoretisch</text>
+
+  <!-- Merksatz -->
+  <rect x="20" y="490" width="360" height="44" rx="8" fill="#fff3cd" stroke="#e0a800" stroke-width="2"/>
+  <text x="200" y="509" text-anchor="middle" font-size="14" font-weight="700" fill="#222">Herstellerangabe = Höchstwert</text>
+  <text x="200" y="526" text-anchor="middle" font-size="13" fill="#222">unter Idealbedingungen</text>
+</svg>

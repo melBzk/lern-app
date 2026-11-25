@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 512" font-family="system-ui, sans-serif" role="img">
+  <title>Spickzettel Prüfzeichen, als schlichte Textschilder. CE: EU-Regeln zur EMV, Geräte stören sich nicht. GS: geprüfte Sicherheit, freiwillig. TCO: Monitor, flimmerfrei, Stand-by höchstens 15 Watt. ISO 9241: Mensch und Maschine, ergonomische Bildschirmarbeit. Energy Star: Computer schaltet automatisch in den Stand-by, höchstens 30 Watt. Unten zwei Balken: Monitor mit TCO 15 Watt, Computer mit Energy Star 30 Watt, doppelt so lang.</title>
+  <rect width="400" height="512" fill="#fff"/>
+  <text x="200" y="28" text-anchor="middle" font-size="18" font-weight="700" fill="#222">Spickzettel: Prüfzeichen</text>
+
+  <g>
+    <rect x="10" y="46" width="380" height="54" rx="8" fill="#f8f9fa" stroke="#dee2e6"/>
+    <rect x="10" y="108" width="380" height="54" rx="8" fill="#f8f9fa" stroke="#dee2e6"/>
+    <rect x="10" y="170" width="380" height="54" rx="8" fill="#f8f9fa" stroke="#dee2e6"/>
+    <rect x="10" y="232" width="380" height="54" rx="8" fill="#f8f9fa" stroke="#dee2e6"/>
+    <rect x="10" y="294" width="380" height="54" rx="8" fill="#f8f9fa" stroke="#dee2e6"/>
+  </g>
+  <g fill="#fff" stroke="#222" stroke-width="1.5">
+    <rect x="20" y="58" width="92" height="30" rx="4"/>
+    <rect x="20" y="120" width="92" height="30" rx="4"/>
+    <rect x="20" y="182" width="92" height="30" rx="4"/>
+    <rect x="20" y="244" width="92" height="30" rx="4"/>
+    <rect x="20" y="306" width="92" height="30" rx="4"/>
+  </g>
+  <g font-size="14" font-weight="700" fill="#222" text-anchor="middle">
+    <text x="66" y="78">CE</text>
+    <text x="66" y="140">GS</text>
+    <text x="66" y="202">TCO</text>
+    <text x="66" y="264">ISO 9241</text>
+    <text x="66" y="326">Energy Star</text>
+  </g>
+  <g fill="#222">
+    <text x="124" y="69" font-size="15" font-weight="700">EU-Regeln zur EMV</text>
+    <text x="124" y="89" font-size="13" fill="#444">Geräte stören sich nicht</text>
+    <text x="124" y="131" font-size="15" font-weight="700">geprüfte Sicherheit</text>
+    <text x="124" y="151" font-size="13" fill="#444">freiwillig</text>
+    <text x="124" y="193" font-size="15" font-weight="700">Monitor: flimmerfrei</text>
+    <text x="124" y="213" font-size="13" fill="#444">Stand-by höchstens <tspan font-size="15" font-weight="700" fill="#e8590c">15 W</tspan></text>
+    <text x="124" y="255" font-size="15" font-weight="700">Mensch – Maschine</text>
+    <text x="124" y="275" font-size="13" fill="#444">ergonomische Bildschirmarbeit</text>
+    <text x="124" y="317" font-size="15" font-weight="700">Computer: automatisch Stand-by</text>
+    <text x="124" y="337" font-size="13" fill="#444">Stand-by höchstens <tspan font-size="15" font-weight="700" fill="#e8590c">30 W</tspan></text>
+  </g>
+
+  <!-- Balken -->
+  <text x="20" y="384" font-size="15" font-weight="700" fill="#222">Stand-by höchstens:</text>
+  <text x="20" y="410" font-size="14" fill="#222">Monitor (TCO)</text>
+  <rect x="20" y="418" width="120" height="22" rx="3" fill="#3a6ed8"/>
+  <text x="150" y="435" font-size="16" font-weight="700" fill="#e8590c">15 W</text>
+  <text x="20" y="466" font-size="14" fill="#222">Computer (Energy Star)</text>
+  <rect x="20" y="474" width="240" height="22" rx="3" fill="#3a6ed8"/>
+  <text x="270" y="491" font-size="16" font-weight="700" fill="#e8590c">30 W</text>
+</svg>

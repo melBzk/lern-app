@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>OCR, Texterkennung, in drei Schritten von oben nach unten. 1: Ein Papierbrief liegt auf dem Scanner. 2: Heraus kommt eine Bilddatei. Die Buchstaben bestehen nur aus vielen kleinen Bildpunkten, es ist nur ein Bild. 3: Die OCR-Software, dargestellt mit einer Lupe, erkennt die Buchstaben. Heraus kommt bearbeitbarer Text in einem Textprogramm mit Cursor.</title>
+<defs>
+<marker id="ad" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker>
+<marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E07B00"/></marker>
+</defs>
+<rect width="400" height="520" fill="#fff"/>
+
+<!-- 1 Scanner mit Brief -->
+<circle cx="22" cy="70" r="14" fill="#3a6ed8"/><text x="22" y="75" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">1</text>
+<rect x="44" y="16" width="176" height="112" rx="10" fill="#3a3f4a"/>
+<rect x="56" y="28" width="152" height="88" rx="3" fill="#c8e0f5"/>
+<rect x="88" y="32" width="88" height="80" fill="#fff" stroke="#999"/>
+<g stroke="#555" stroke-width="2"><line x1="96" y1="46" x2="140" y2="46"/><line x1="96" y1="58" x2="168" y2="58"/><line x1="96" y1="68" x2="164" y2="68"/><line x1="96" y1="78" x2="168" y2="78"/><line x1="96" y1="88" x2="150" y2="88"/></g>
+<text x="240" y="64" font-size="17" font-weight="700">Brief scannen</text>
+<text x="240" y="86" font-size="14">Scanner</text>
+<line x1="132" y1="132" x2="132" y2="178" stroke="#333" stroke-width="3.5" marker-end="url(#ad)"/>
+
+<!-- 2 Bild aus Pixeln -->
+<circle cx="22" cy="240" r="14" fill="#3a6ed8"/><text x="22" y="245" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">2</text>
+<rect x="44" y="184" width="176" height="112" rx="4" fill="#fff" stroke="#333" stroke-width="2"/>
+<rect x="44" y="184" width="176" height="18" rx="4" fill="#9aa3ad"/>
+<text x="54" y="198" font-size="12" fill="#fff" font-weight="700">brief.jpg</text>
+<g fill="#222"><rect x="52" y="226" width="4.4" height="4.4"/><rect x="72" y="226" width="4.4" height="4.4"/><rect x="52" y="231" width="4.4" height="4.4"/><rect x="72" y="231" width="4.4" height="4.4"/><rect x="52" y="236" width="4.4" height="4.4"/><rect x="72" y="236" width="4.4" height="4.4"/><rect x="52" y="241" width="4.4" height="4.4"/><rect x="57" y="241" width="4.4" height="4.4"/><rect x="62" y="241" width="4.4" height="4.4"/><rect x="67" y="241" width="4.4" height="4.4"/><rect x="72" y="241" width="4.4" height="4.4"/><rect x="52" y="246" width="4.4" height="4.4"/><rect x="72" y="246" width="4.4" height="4.4"/><rect x="52" y="251" width="4.4" height="4.4"/><rect x="72" y="251" width="4.4" height="4.4"/><rect x="52" y="256" width="4.4" height="4.4"/><rect x="72" y="256" width="4.4" height="4.4"/><rect x="87" y="236" width="4.4" height="4.4"/><rect x="92" y="236" width="4.4" height="4.4"/><rect x="97" y="236" width="4.4" height="4.4"/><rect x="102" y="241" width="4.4" height="4.4"/><rect x="87" y="246" width="4.4" height="4.4"/><rect x="92" y="246" width="4.4" height="4.4"/><rect x="97" y="246" width="4.4" height="4.4"/><rect x="102" y="246" width="4.4" height="4.4"/><rect x="82" y="251" width="4.4" height="4.4"/><rect x="102" y="251" width="4.4" height="4.4"/><rect x="87" y="256" width="4.4" height="4.4"/><rect x="92" y="256" width="4.4" height="4.4"/><rect x="97" y="256" width="4.4" height="4.4"/><rect x="102" y="256" width="4.4" height="4.4"/><rect x="117" y="226" width="4.4" height="4.4"/><rect x="122" y="226" width="4.4" height="4.4"/><rect x="122" y="231" width="4.4" height="4.4"/><rect x="122" y="236" width="4.4" height="4.4"/><rect x="122" y="241" width="4.4" height="4.4"/><rect x="122" y="246" width="4.4" height="4.4"/><rect x="122" y="251" width="4.4" height="4.4"/><rect x="117" y="256" width="4.4" height="4.4"/><rect x="122" y="256" width="4.4" height="4.4"/><rect x="127" y="256" width="4.4" height="4.4"/><rect x="147" y="226" width="4.4" height="4.4"/><rect x="152" y="226" width="4.4" height="4.4"/><rect x="152" y="231" width="4.4" height="4.4"/><rect x="152" y="236" width="4.4" height="4.4"/><rect x="152" y="241" width="4.4" height="4.4"/><rect x="152" y="246" width="4.4" height="4.4"/><rect x="152" y="251" width="4.4" height="4.4"/><rect x="147" y="256" width="4.4" height="4.4"/><rect x="152" y="256" width="4.4" height="4.4"/><rect x="157" y="256" width="4.4" height="4.4"/><rect x="177" y="236" width="4.4" height="4.4"/><rect x="182" y="236" width="4.4" height="4.4"/><rect x="187" y="236" width="4.4" height="4.4"/><rect x="172" y="241" width="4.4" height="4.4"/><rect x="192" y="241" width="4.4" height="4.4"/><rect x="172" y="246" width="4.4" height="4.4"/><rect x="192" y="246" width="4.4" height="4.4"/><rect x="172" y="251" width="4.4" height="4.4"/><rect x="192" y="251" width="4.4" height="4.4"/><rect x="177" y="256" width="4.4" height="4.4"/><rect x="182" y="256" width="4.4" height="4.4"/><rect x="187" y="256" width="4.4" height="4.4"/></g>
+<text x="240" y="234" font-size="17" font-weight="700" fill="#a32020">nur ein Bild</text>
+<text x="240" y="256" font-size="14">Buchstaben sind</text>
+<text x="240" y="274" font-size="14">nur Bildpunkte</text>
+
+<!-- OCR -->
+<line x1="132" y1="300" x2="132" y2="356" stroke="#E07B00" stroke-width="4" marker-end="url(#ao)"/>
+<circle cx="182" cy="322" r="14" fill="#fff" stroke="#E07B00" stroke-width="4"/>
+<line x1="192" y1="332" x2="204" y2="344" stroke="#E07B00" stroke-width="6" stroke-linecap="round"/>
+<text x="216" y="330" font-size="20" font-weight="700" fill="#a85a00">OCR</text>
+<text x="216" y="354" font-size="14" fill="#a85a00">erkennt Buchstaben</text>
+
+<!-- 3 Text -->
+<circle cx="22" cy="420" r="14" fill="#3a6ed8"/><text x="22" y="425" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">3</text>
+<rect x="44" y="364" width="176" height="112" rx="4" fill="#fff" stroke="#333" stroke-width="2"/>
+<rect x="44" y="364" width="176" height="18" rx="4" fill="#3a6ed8"/>
+<text x="54" y="378" font-size="12" fill="#fff" font-weight="700">Textprogramm</text>
+<text x="56" y="428" font-size="30" font-family="Georgia, 'Times New Roman', serif">Hallo<tspan fill="#3a6ed8" font-family="system-ui, sans-serif" font-weight="400">|</tspan></text>
+<text x="240" y="414" font-size="17" font-weight="700" fill="#1c6b3c">bearbeitbarer</text>
+<text x="240" y="436" font-size="17" font-weight="700" fill="#1c6b3c">Text</text>
+<text x="240" y="458" font-size="14">ändern, durchsuchen</text>
+</svg>

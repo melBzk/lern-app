@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 390" font-family="system-ui, sans-serif">
+  <title>Flachbildschirm von vorne. Ein roter Pfeil läuft schräg von der linken unteren Ecke zur rechten oberen Ecke der Bildfläche: Diagonale gleich 24 Zoll. Darunter ein Lineal: 1 Zoll gleich 2,54 Zentimeter, also 24 Zoll ungefähr 61 Zentimeter. Gemessen wird nicht die Breite und nicht die Höhe.</title>
+  <defs>
+    <marker id="pr" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#c62828"/>
+    </marker>
+  </defs>
+  <rect width="400" height="390" fill="#fff"/>
+  <text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700" fill="#222">Größe = Diagonale in Zoll</text>
+
+  <!-- Monitor -->
+  <rect x="36" y="46" width="328" height="190" rx="8" fill="#333"/>
+  <rect x="46" y="56" width="308" height="170" fill="#dfe8f6"/>
+  <rect x="190" y="236" width="20" height="22" fill="#555"/>
+  <rect x="150" y="256" width="100" height="8" rx="3" fill="#555"/>
+
+  <!-- Diagonale -->
+  <line x1="50" y1="222" x2="350" y2="60" stroke="#c62828" stroke-width="4" marker-start="url(#pr)" marker-end="url(#pr)"/>
+  <rect x="112" y="124" width="176" height="30" rx="6" fill="#fff" stroke="#c62828" stroke-width="2"/>
+  <text x="200" y="145" text-anchor="middle" font-size="16" font-weight="700" fill="#c62828">Diagonale = 24 Zoll</text>
+  <text x="200" y="210" text-anchor="middle" font-size="13" fill="#555">von Ecke zu Ecke</text>
+
+  <!-- Lineal -->
+  <text x="200" y="294" text-anchor="middle" font-size="15" font-weight="700" fill="#222">1 Zoll = 2,54 cm</text>
+  <rect x="60" y="304" width="280" height="30" fill="#f6e7b0" stroke="#a08a3a" stroke-width="1.5"/>
+  <g stroke="#6b5b20" stroke-width="1.5">
+    <line x1="80" y1="304" x2="80" y2="320"/>
+    <line x1="134" y1="304" x2="134" y2="314"/>
+    <line x1="188" y1="304" x2="188" y2="320"/>
+    <line x1="242" y1="304" x2="242" y2="314"/>
+    <line x1="296" y1="304" x2="296" y2="320"/>
+  </g>
+  <text x="80" y="331" text-anchor="middle" font-size="13" fill="#222">0</text>
+  <text x="188" y="331" text-anchor="middle" font-size="13" fill="#222">1</text>
+  <text x="296" y="331" text-anchor="middle" font-size="13" fill="#222">2</text>
+  <text x="352" y="324" font-size="13" fill="#222">Zoll</text>
+
+  <text x="200" y="366" text-anchor="middle" font-size="15" fill="#222">24 Zoll ≈ <tspan font-weight="700">61 cm</tspan></text>
+</svg>

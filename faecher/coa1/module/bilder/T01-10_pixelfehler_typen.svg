@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 440" font-family="system-ui, sans-serif">
+  <title>Drei Typen von Pixelfehlern, jeweils stark vergrößert. Fehlertyp 1: In einem dunklen Bild leuchtet ein Pixel immer hell. Fehlertyp 2: In einem weißen Bild bleibt ein Pixel immer dunkel. Bei Typ 1 und 2 ist das ganze Pixel kaputt. Fehlertyp 3: Nur ein Subpixel ist defekt, hier leuchtet der rote Streifen ständig. Genauso kann ein Subpixel ständig grün oder blau leuchten oder dunkel bleiben.</title>
+  <rect width="400" height="440" fill="#fff"/>
+  <text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700" fill="#222">Drei Typen von Pixelfehlern</text>
+
+  <rect x="8" y="44" width="384" height="120" rx="10" fill="#eef0f3"/>
+  <rect x="24" y="56" width="24" height="24" fill="#1a1a1a" stroke="#555" stroke-width="1.5"/>
+  <rect x="48" y="56" width="24" height="24" fill="#1a1a1a" stroke="#555" stroke-width="1.5"/>
+  <rect x="72" y="56" width="24" height="24" fill="#1a1a1a" stroke="#555" stroke-width="1.5"/>
+  <rect x="96" y="56" width="24" height="24" fill="#1a1a1a" stroke="#555" stroke-width="1.5"/>
+  <rect x="120" y="56" width="24" height="24" fill="#1a1a1a" stroke="#555" stroke-width="1.5"/>
+  <rect x="24" y="80" width="24" height="24" fill="#1a1a1a" stroke="#555" stroke-width="1.5"/>
+  <rect x="48" y="80" width="24" height="24" fill="#1a1a1a" stroke="#555" stroke-width="1.5"/>
+  <rect x="72" y="80" width="24" height="24" fill="#ffffff" stroke="#555" stroke-width="1.5"/>
+  <rect x="96" y="80" width="24" height="24" fill="#1a1a1a" stroke="#555" stroke-width="1.5"/>
+  <rect x="120" y="80" width="24" height="24" fill="#1a1a1a" stroke="#555" stroke-width="1.5"/>
+  <rect x="24" y="104" width="24" height="24" fill="#1a1a1a" stroke="#555" stroke-width="1.5"/>
+  <rect x="48" y="104" width="24" height="24" fill="#1a1a1a" stroke="#555" stroke-width="1.5"/>
+  <rect x="72" y="104" width="24" height="24" fill="#1a1a1a" stroke="#555" stroke-width="1.5"/>
+  <rect x="96" y="104" width="24" height="24" fill="#1a1a1a" stroke="#555" stroke-width="1.5"/>
+  <rect x="120" y="104" width="24" height="24" fill="#1a1a1a" stroke="#555" stroke-width="1.5"/>
+  <rect x="24" y="128" width="24" height="24" fill="#1a1a1a" stroke="#555" stroke-width="1.5"/>
+  <rect x="48" y="128" width="24" height="24" fill="#1a1a1a" stroke="#555" stroke-width="1.5"/>
+  <rect x="72" y="128" width="24" height="24" fill="#1a1a1a" stroke="#555" stroke-width="1.5"/>
+  <rect x="96" y="128" width="24" height="24" fill="#1a1a1a" stroke="#555" stroke-width="1.5"/>
+  <rect x="120" y="128" width="24" height="24" fill="#1a1a1a" stroke="#555" stroke-width="1.5"/>
+  <circle cx="84.0" cy="92.0" r="22.8" fill="none" stroke="#c62828" stroke-width="3"/>
+  <text x="166" y="84" font-size="16" font-weight="700" fill="#222">Fehlertyp 1</text>
+  <text x="166" y="106" font-size="15" fill="#222">immer <tspan font-weight="700">hell</tspan></text>
+  <text x="166" y="128" font-size="13" fill="#555">ganzes Pixel kaputt</text>
+
+  <rect x="8" y="174" width="384" height="120" rx="10" fill="#eef0f3"/>
+  <rect x="24" y="186" width="24" height="24" fill="#ffffff" stroke="#bbb" stroke-width="1.5"/>
+  <rect x="48" y="186" width="24" height="24" fill="#ffffff" stroke="#bbb" stroke-width="1.5"/>
+  <rect x="72" y="186" width="24" height="24" fill="#ffffff" stroke="#bbb" stroke-width="1.5"/>
+  <rect x="96" y="186" width="24" height="24" fill="#ffffff" stroke="#bbb" stroke-width="1.5"/>
+  <rect x="120" y="186" width="24" height="24" fill="#ffffff" stroke="#bbb" stroke-width="1.5"/>
+  <rect x="24" y="210" width="24" height="24" fill="#ffffff" stroke="#bbb" stroke-width="1.5"/>
+  <rect x="48" y="210" width="24" height="24" fill="#ffffff" stroke="#bbb" stroke-width="1.5"/>
+  <rect x="72" y="210" width="24" height="24" fill="#111111" stroke="#bbb" stroke-width="1.5"/>
+  <rect x="96" y="210" width="24" height="24" fill="#ffffff" stroke="#bbb" stroke-width="1.5"/>
+  <rect x="120" y="210" width="24" height="24" fill="#ffffff" stroke="#bbb" stroke-width="1.5"/>
+  <rect x="24" y="234" width="24" height="24" fill="#ffffff" stroke="#bbb" stroke-width="1.5"/>
+  <rect x="48" y="234" width="24" height="24" fill="#ffffff" stroke="#bbb" stroke-width="1.5"/>
+  <rect x="72" y="234" width="24" height="24" fill="#ffffff" stroke="#bbb" stroke-width="1.5"/>
+  <rect x="96" y="234" width="24" height="24" fill="#ffffff" stroke="#bbb" stroke-width="1.5"/>
+  <rect x="120" y="234" width="24" height="24" fill="#ffffff" stroke="#bbb" stroke-width="1.5"/>
+  <rect x="24" y="258" width="24" height="24" fill="#ffffff" stroke="#bbb" stroke-width="1.5"/>
+  <rect x="48" y="258" width="24" height="24" fill="#ffffff" stroke="#bbb" stroke-width="1.5"/>
+  <rect x="72" y="258" width="24" height="24" fill="#ffffff" stroke="#bbb" stroke-width="1.5"/>
+  <rect x="96" y="258" width="24" height="24" fill="#ffffff" stroke="#bbb" stroke-width="1.5"/>
+  <rect x="120" y="258" width="24" height="24" fill="#ffffff" stroke="#bbb" stroke-width="1.5"/>
+  <circle cx="84.0" cy="222.0" r="22.8" fill="none" stroke="#c62828" stroke-width="3"/>
+  <text x="166" y="214" font-size="16" font-weight="700" fill="#222">Fehlertyp 2</text>
+  <text x="166" y="236" font-size="15" fill="#222">immer <tspan font-weight="700">dunkel</tspan></text>
+  <text x="166" y="258" font-size="13" fill="#555">ganzes Pixel kaputt</text>
+
+  <rect x="8" y="304" width="384" height="128" rx="10" fill="#eef0f3"/>
+  <rect x="24" y="318" width="33" height="33" fill="#1a1a1a" stroke="#555" stroke-width="1.5"/>
+  <rect x="26.0" y="321" width="8.8" height="27" fill="#4a1c1c"/>
+  <rect x="35.7" y="321" width="8.8" height="27" fill="#1c3a26"/>
+  <rect x="45.4" y="321" width="8.8" height="27" fill="#1c2a4a"/>
+  <rect x="57" y="318" width="33" height="33" fill="#1a1a1a" stroke="#555" stroke-width="1.5"/>
+  <rect x="59.0" y="321" width="8.8" height="27" fill="#4a1c1c"/>
+  <rect x="68.7" y="321" width="8.8" height="27" fill="#1c3a26"/>
+  <rect x="78.4" y="321" width="8.8" height="27" fill="#1c2a4a"/>
+  <rect x="90" y="318" width="33" height="33" fill="#1a1a1a" stroke="#555" stroke-width="1.5"/>
+  <rect x="92.0" y="321" width="8.8" height="27" fill="#4a1c1c"/>
+  <rect x="101.7" y="321" width="8.8" height="27" fill="#1c3a26"/>
+  <rect x="111.4" y="321" width="8.8" height="27" fill="#1c2a4a"/>
+  <rect x="123" y="318" width="33" height="33" fill="#1a1a1a" stroke="#555" stroke-width="1.5"/>
+  <rect x="125.0" y="321" width="8.8" height="27" fill="#4a1c1c"/>
+  <rect x="134.7" y="321" width="8.8" height="27" fill="#1c3a26"/>
+  <rect x="144.4" y="321" width="8.8" height="27" fill="#1c2a4a"/>
+  <rect x="24" y="351" width="33" height="33" fill="#1a1a1a" stroke="#555" stroke-width="1.5"/>
+  <rect x="26.0" y="354" width="8.8" height="27" fill="#4a1c1c"/>
+  <rect x="35.7" y="354" width="8.8" height="27" fill="#1c3a26"/>
+  <rect x="45.4" y="354" width="8.8" height="27" fill="#1c2a4a"/>
+  <rect x="57" y="351" width="33" height="33" fill="#1a1a1a" stroke="#555" stroke-width="1.5"/>
+  <rect x="59.0" y="354" width="8.8" height="27" fill="#ff3030"/>
+  <rect x="68.7" y="354" width="8.8" height="27" fill="#1c3a26"/>
+  <rect x="78.4" y="354" width="8.8" height="27" fill="#1c2a4a"/>
+  <rect x="90" y="351" width="33" height="33" fill="#1a1a1a" stroke="#555" stroke-width="1.5"/>
+  <rect x="92.0" y="354" width="8.8" height="27" fill="#4a1c1c"/>
+  <rect x="101.7" y="354" width="8.8" height="27" fill="#1c3a26"/>
+  <rect x="111.4" y="354" width="8.8" height="27" fill="#1c2a4a"/>
+  <rect x="123" y="351" width="33" height="33" fill="#1a1a1a" stroke="#555" stroke-width="1.5"/>
+  <rect x="125.0" y="354" width="8.8" height="27" fill="#4a1c1c"/>
+  <rect x="134.7" y="354" width="8.8" height="27" fill="#1c3a26"/>
+  <rect x="144.4" y="354" width="8.8" height="27" fill="#1c2a4a"/>
+  <rect x="24" y="384" width="33" height="33" fill="#1a1a1a" stroke="#555" stroke-width="1.5"/>
+  <rect x="26.0" y="387" width="8.8" height="27" fill="#4a1c1c"/>
+  <rect x="35.7" y="387" width="8.8" height="27" fill="#1c3a26"/>
+  <rect x="45.4" y="387" width="8.8" height="27" fill="#1c2a4a"/>
+  <rect x="57" y="384" width="33" height="33" fill="#1a1a1a" stroke="#555" stroke-width="1.5"/>
+  <rect x="59.0" y="387" width="8.8" height="27" fill="#4a1c1c"/>
+  <rect x="68.7" y="387" width="8.8" height="27" fill="#1c3a26"/>
+  <rect x="78.4" y="387" width="8.8" height="27" fill="#1c2a4a"/>
+  <rect x="90" y="384" width="33" height="33" fill="#1a1a1a" stroke="#555" stroke-width="1.5"/>
+  <rect x="92.0" y="387" width="8.8" height="27" fill="#4a1c1c"/>
+  <rect x="101.7" y="387" width="8.8" height="27" fill="#1c3a26"/>
+  <rect x="111.4" y="387" width="8.8" height="27" fill="#1c2a4a"/>
+  <rect x="123" y="384" width="33" height="33" fill="#1a1a1a" stroke="#555" stroke-width="1.5"/>
+  <rect x="125.0" y="387" width="8.8" height="27" fill="#4a1c1c"/>
+  <rect x="134.7" y="387" width="8.8" height="27" fill="#1c3a26"/>
+  <rect x="144.4" y="387" width="8.8" height="27" fill="#1c2a4a"/>
+  <circle cx="73.5" cy="367.5" r="29.7" fill="none" stroke="#c62828" stroke-width="3"/>
+  <text x="166" y="338" font-size="16" font-weight="700" fill="#222">Fehlertyp 3</text>
+  <text x="166" y="360" font-size="15" font-weight="700" fill="#222">nur ein Subpixel</text>
+  <text x="166" y="382" font-size="13" fill="#555">leuchtet ständig rot, grün</text>
+  <text x="166" y="399" font-size="13" fill="#555">oder blau – oder bleibt</text>
+  <text x="166" y="416" font-size="13" fill="#555">bei einer Farbe dunkel</text>
+</svg>

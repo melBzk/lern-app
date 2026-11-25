@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 390" font-family="system-ui, sans-serif" role="img">
+  <title>Links ein Kopfhörer: Ein Pfeil führt vom PC zum Ohr, Ausgabe Ton. Der Kopfhörer ist nur Ausgabe. Rechts ein Headset mit Mikrofonbügel: Ein Pfeil führt vom PC zum Ohr, Ausgabe Ton, und ein zweiter Pfeil vom Mund zum PC, Eingabe Stimme. Das Headset ist Ein- und Ausgabe.</title>
+  <defs>
+    <marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e8590c"/></marker>
+    <marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker>
+    <g id="kopf">
+      <circle cx="0" cy="0" r="36" fill="#f2d4b7" stroke="#555" stroke-width="2"/>
+      <circle cx="-12" cy="-8" r="3" fill="#333"/><circle cx="12" cy="-8" r="3" fill="#333"/>
+      <path d="M-10,14 q10,7 20,0" fill="none" stroke="#333" stroke-width="2" stroke-linecap="round"/>
+      <path d="M-46,0 A46 52 0 0 1 46,0" fill="none" stroke="#3a3f4a" stroke-width="6"/>
+      <rect x="-54" y="-18" width="14" height="36" rx="5" fill="#3a3f4a"/>
+      <rect x="40" y="-18" width="14" height="36" rx="5" fill="#3a3f4a"/>
+    </g>
+    <g id="pc">
+      <rect x="-30" y="0" width="60" height="40" rx="3" fill="#3a3f4a"/>
+      <rect x="-25" y="5" width="50" height="30" fill="#dfe8f6"/>
+      <text x="0" y="25" text-anchor="middle" font-size="13" font-weight="700" fill="#333">PC</text>
+      <rect x="-6" y="40" width="12" height="8" fill="#555"/>
+      <rect x="-16" y="48" width="32" height="4" fill="#555"/>
+    </g>
+  </defs>
+  <rect width="400" height="390" fill="#fff"/>
+  <line x1="200" y1="20" x2="200" y2="340" stroke="#dee2e6" stroke-width="2"/>
+
+  <!-- Kopfhörer -->
+  <text x="92" y="34" text-anchor="middle" font-size="17" font-weight="700" fill="#222">Kopfhörer</text>
+  <use href="#kopf" x="92" y="140"/>
+  <use href="#pc" x="92" y="250"/>
+  <line x1="114" y1="248" x2="138" y2="166" stroke="#e8590c" stroke-width="3" marker-end="url(#ao)"/>
+  <text x="136" y="212" font-size="13" font-weight="700" fill="#e8590c">Ausgabe:</text>
+  <text x="136" y="228" font-size="13" font-weight="700" fill="#e8590c">Ton</text>
+  <text x="92" y="346" text-anchor="middle" font-size="16" font-weight="700" fill="#222">nur Ausgabe</text>
+
+  <!-- Headset -->
+  <text x="300" y="34" text-anchor="middle" font-size="17" font-weight="700" fill="#222">Headset</text>
+  <use href="#kopf" x="300" y="140"/>
+  <path d="M253,158 Q256,182 284,172" fill="none" stroke="#3a3f4a" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="287" cy="171" r="6" fill="#3a3f4a"/>
+  <use href="#pc" x="300" y="250"/>
+  <line x1="322" y1="248" x2="346" y2="166" stroke="#e8590c" stroke-width="3" marker-end="url(#ao)"/>
+  <text x="338" y="212" font-size="13" font-weight="700" fill="#e8590c">Ausgabe:</text>
+  <text x="338" y="228" font-size="13" font-weight="700" fill="#e8590c">Ton</text>
+  <line x1="284" y1="182" x2="280" y2="246" stroke="#3a6ed8" stroke-width="3" marker-end="url(#ab)"/>
+  <text x="272" y="212" text-anchor="end" font-size="13" font-weight="700" fill="#3a6ed8">Eingabe:</text>
+  <text x="272" y="228" text-anchor="end" font-size="13" font-weight="700" fill="#3a6ed8">Stimme</text>
+  <text x="300" y="346" text-anchor="middle" font-size="16" font-weight="700" fill="#222">Ein- und Ausgabe</text>
+  <text x="300" y="368" text-anchor="middle" font-size="13" fill="#444">Kopfhörer + Mikrofon</text>
+</svg>

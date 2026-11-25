@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 470" font-family="system-ui, sans-serif" role="img">
+  <title>ABS als EVA-Kette in drei Kästen. 1 Eingabe: Ein Sensor am Rad merkt, dass es blockiert. 2 Verarbeitung: Das Steuergerät im Auto rechnet. 3 Ausgabe: Die Bremse löst kurz. Darunter ein Schweißroboter-Arm an einer Autokarosserie: Ausgabe gleich Bewegung.</title>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker>
+    <marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e8590c"/></marker>
+  </defs>
+  <rect width="400" height="470" fill="#fff"/>
+  <text x="200" y="28" text-anchor="middle" font-size="18" font-weight="700" fill="#222">ABS: das EVA-Prinzip im Auto</text>
+
+  <!-- Kasten 1 -->
+  <rect x="6" y="46" width="116" height="180" rx="10" fill="#eef4ff" stroke="#3a6ed8" stroke-width="2"/>
+  <text x="64" y="70" text-anchor="middle" font-size="15" font-weight="700" fill="#3a6ed8">1 Eingabe</text>
+  <circle cx="58" cy="118" r="30" fill="#343a40"/>
+  <circle cx="58" cy="118" r="16" fill="#adb5bd"/>
+  <circle cx="58" cy="118" r="5" fill="#555"/>
+  <rect x="90" y="96" width="12" height="20" rx="2" fill="#3a6ed8"/>
+  <path d="M106,100 q6,6 0,12" fill="none" stroke="#3a6ed8" stroke-width="2"/>
+  <g font-size="13" fill="#222" text-anchor="middle">
+    <text x="64" y="174">Sensor am Rad</text>
+    <text x="64" y="192">merkt</text>
+    <text x="64" y="210">Blockieren</text>
+  </g>
+
+  <line x1="122" y1="136" x2="140" y2="136" stroke="#333" stroke-width="2.5" marker-end="url(#a)"/>
+
+  <!-- Kasten 2 -->
+  <rect x="142" y="46" width="116" height="180" rx="10" fill="#f1f3f5" stroke="#555" stroke-width="2"/>
+  <text x="200" y="70" text-anchor="middle" font-size="14" font-weight="700" fill="#333">2 Verarbeitung</text>
+  <g stroke="#555" stroke-width="2.5">
+    <line x1="168" y1="102" x2="232" y2="102"/><line x1="168" y1="114" x2="232" y2="114"/>
+    <line x1="168" y1="126" x2="232" y2="126"/><line x1="168" y1="138" x2="232" y2="138"/>
+  </g>
+  <rect x="176" y="94" width="48" height="50" rx="4" fill="#343a40"/>
+  <circle cx="184" cy="102" r="2.5" fill="#adb5bd"/>
+  <g font-size="13" fill="#222" text-anchor="middle">
+    <text x="200" y="174">Steuergerät</text>
+    <text x="200" y="192">im Auto</text>
+    <text x="200" y="210">rechnet</text>
+  </g>
+
+  <line x1="258" y1="136" x2="276" y2="136" stroke="#333" stroke-width="2.5" marker-end="url(#a)"/>
+
+  <!-- Kasten 3 -->
+  <rect x="278" y="46" width="116" height="180" rx="10" fill="#fff4ec" stroke="#e8590c" stroke-width="2.5"/>
+  <text x="336" y="70" text-anchor="middle" font-size="15" font-weight="700" fill="#e8590c">3 Ausgabe</text>
+  <circle cx="330" cy="122" r="26" fill="#ced4da" stroke="#555" stroke-width="2"/>
+  <circle cx="330" cy="122" r="8" fill="#868e96"/>
+  <g fill="#868e96"><circle cx="330" cy="104" r="2.5"/><circle cx="348" cy="122" r="2.5"/><circle cx="330" cy="140" r="2.5"/><circle cx="312" cy="122" r="2.5"/></g>
+  <rect x="350" y="104" width="14" height="36" rx="4" fill="#495057"/>
+  <path d="M306,92 A34 34 0 0 1 352,90" fill="none" stroke="#e8590c" stroke-width="3" marker-end="url(#ao)"/>
+  <g font-size="13" fill="#222" text-anchor="middle">
+    <text x="336" y="174">Bremse</text>
+    <text x="336" y="192" font-weight="700">löst kurz</text>
+  </g>
+
+  <!-- Schweißroboter -->
+  <line x1="20" y1="246" x2="380" y2="246" stroke="#dee2e6" stroke-width="1.5"/>
+  <text x="20" y="274" font-size="15" font-weight="700" fill="#222">Schweißroboter</text>
+  <text x="230" y="300" font-size="16" font-weight="700" fill="#e8590c">Ausgabe = Bewegung</text>
+  <line x1="10" y1="436" x2="390" y2="436" stroke="#adb5bd" stroke-width="2"/>
+  <!-- Karosserie -->
+  <path d="M150,420 L160,382 L210,360 L290,360 L330,385 L382,392 L386,420 Z" fill="#dee2e6" stroke="#555" stroke-width="2"/>
+  <circle cx="192" cy="422" r="14" fill="#343a40"/><circle cx="340" cy="422" r="14" fill="#343a40"/>
+  <text x="270" y="460" text-anchor="middle" font-size="13" fill="#444">Autokarosserie</text>
+  <!-- Arm -->
+  <rect x="40" y="420" width="60" height="16" rx="3" fill="#555"/>
+  <line x1="70" y1="420" x2="90" y2="330" stroke="#495057" stroke-width="12" stroke-linecap="round"/>
+  <line x1="90" y1="330" x2="168" y2="346" stroke="#495057" stroke-width="10" stroke-linecap="round"/>
+  <line x1="168" y1="346" x2="190" y2="370" stroke="#495057" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="70" cy="418" r="9" fill="#868e96"/><circle cx="90" cy="330" r="9" fill="#868e96"/><circle cx="168" cy="346" r="7" fill="#868e96"/>
+  <g stroke="#f59f00" stroke-width="2" stroke-linecap="round">
+    <line x1="194" y1="374" x2="202" y2="368"/><line x1="194" y1="374" x2="204" y2="378"/><line x1="194" y1="374" x2="196" y2="384"/>
+  </g>
+  <path d="M58,312 A40 40 0 0 1 128,300" fill="none" stroke="#e8590c" stroke-width="3" marker-end="url(#ao)"/>
+</svg>

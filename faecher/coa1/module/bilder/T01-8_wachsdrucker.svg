@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 396" font-family="system-ui, sans-serif">
+  <title>Tintenstrahldrucker und Wachsdrucker im Vergleich. Links: Ein Tank mit flüssiger Tinte, der Druckkopf schießt Tröpfchen aufs Papier. Rechts: Feste bunte Wachsblöcke, eine Heizung schmilzt sie, flüssige Wachströpfchen werden aufs Papier gespritzt. Also: fest, geschmolzen, aufgespritzt.</title>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker>
+    <marker id="o" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E07B00"/></marker>
+    <marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d63c3c"/></marker>
+  </defs>
+  <rect width="400" height="396" fill="#fff"/>
+
+  <!-- links Tinte -->
+  <rect x="8" y="8" width="188" height="330" rx="12" fill="#f3f4f6" stroke="#bbb"/>
+  <text x="102" y="34" text-anchor="middle" font-size="16" font-weight="700" fill="#222">Tintenstrahl</text>
+  <rect x="62" y="56" width="80" height="62" rx="5" fill="#fff" stroke="#333" stroke-width="2"/>
+  <path d="M64,82 q10,-6 20,0 t20,0 t20,0 t16,0 v34 h-76 z" fill="#1fa3c9"/>
+  <text x="102" y="76" text-anchor="middle" font-size="13" fill="#222">Tank</text>
+  <text x="102" y="138" text-anchor="middle" font-size="13" fill="#222">flüssige Tinte</text>
+  <line x1="102" y1="146" x2="102" y2="176" stroke="#333" stroke-width="3" marker-end="url(#a)"/>
+  <rect x="62" y="180" width="80" height="26" rx="4" fill="#3a3f4a"/>
+  <text x="102" y="198" text-anchor="middle" font-size="13" fill="#fff">Druckkopf</text>
+  <g fill="#1fa3c9"><circle cx="82" cy="222" r="4"/><circle cx="82" cy="240" r="4"/><circle cx="102" cy="226" r="4"/><circle cx="102" cy="244" r="4"/><circle cx="122" cy="220" r="4"/><circle cx="122" cy="238" r="4"/></g>
+  <rect x="30" y="258" width="144" height="10" fill="#fff" stroke="#333" stroke-width="1.5"/>
+  <text x="102" y="296" text-anchor="middle" font-size="13" fill="#222">Tröpfchen</text>
+  <text x="102" y="312" text-anchor="middle" font-size="13" fill="#222">aufs Papier</text>
+
+  <!-- rechts Wachs -->
+  <rect x="204" y="8" width="188" height="330" rx="12" fill="#fff4e5" stroke="#E07B00"/>
+  <text x="298" y="34" text-anchor="middle" font-size="16" font-weight="700" fill="#222">Wachsdrucker</text>
+  <g>
+    <rect x="248" y="58" width="20" height="56" rx="3" fill="#1fa3c9"/><rect x="272" y="58" width="20" height="56" rx="3" fill="#d6338a"/>
+    <rect x="296" y="58" width="20" height="56" rx="3" fill="#f2c200"/><rect x="320" y="58" width="20" height="56" rx="3" fill="#222"/>
+  </g>
+  <text x="298" y="138" text-anchor="middle" font-size="13" font-weight="700" fill="#b35f00">1 fest</text>
+  <line x1="298" y1="146" x2="298" y2="176" stroke="#333" stroke-width="3" marker-end="url(#a)"/>
+  <rect x="258" y="180" width="80" height="26" rx="4" fill="#3a3f4a"/>
+  <path transform="translate(244,206) scale(0.8)" d="M0,0 c-12,0 -16,-12 -10,-22 c2,6 6,8 8,6 c-4,-10 2,-20 10,-26 c-2,10 8,14 8,24 c0,10 -6,18 -16,18 z" fill="#e85d2a"/><path transform="translate(244,206) scale(0.8)" d="M0,-2 c-5,0 -7,-6 -4,-11 c1,3 3,4 4,3 c-1,-5 2,-9 5,-11 c0,5 4,7 4,11 c0,5 -4,8 -9,8 z" fill="#ffd54a"/>
+  <text x="298" y="198" text-anchor="middle" font-size="13" fill="#fff">Heizung</text>
+  <g><path d="M278,218 q-5,8 0,12 q5,-4 0,-12 z" fill="#d6338a"/><path d="M278,236 q-5,8 0,12 q5,-4 0,-12 z" fill="#d6338a"/>
+     <path d="M298,220 q-5,8 0,12 q5,-4 0,-12 z" fill="#1fa3c9"/><path d="M298,238 q-5,8 0,12 q5,-4 0,-12 z" fill="#1fa3c9"/>
+     <path d="M318,216 q-5,8 0,12 q5,-4 0,-12 z" fill="#f2c200"/><path d="M318,234 q-5,8 0,12 q5,-4 0,-12 z" fill="#f2c200"/></g>
+  <rect x="226" y="258" width="144" height="10" fill="#fff" stroke="#333" stroke-width="1.5"/>
+  <text x="298" y="296" text-anchor="middle" font-size="13" font-weight="700" fill="#b35f00">2 geschmolzen</text>
+  <text x="298" y="312" text-anchor="middle" font-size="13" font-weight="700" fill="#b35f00">3 aufgespritzt</text>
+
+  <rect x="8" y="348" width="384" height="40" rx="8" fill="#fff" stroke="#E07B00" stroke-width="2"/>
+  <text x="200" y="374" text-anchor="middle" font-size="15" font-weight="700" fill="#b35f00">fest → geschmolzen → aufgespritzt</text>
+</svg>

@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 470" font-family="system-ui, sans-serif">
+  <title>Derselbe Buchstabe A auf einem LCD. Links in der nativen Auflösung: scharf und glatt, ein Bildpunkt gleich ein Pixel. Rechts bei kleinerer Auflösung, auf den ganzen Bildschirm hochgezogen: grobe Treppenstufen und klotzige Pixelblöcke. Darunter die zweite Möglichkeit: Das Bild bleibt klein, rundherum ein schwarzer Rand.</title>
+  <rect width="400" height="470" fill="#fff"/>
+  <text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700" fill="#222">Die native Auflösung</text>
+
+  <!-- links scharf -->
+  <rect x="20" y="48" width="170" height="170" rx="6" fill="#f4f6fa" stroke="#2e9d5b" stroke-width="3"/>
+  <g>
+    <polygon points="92.0,68.0 118.0,68.0 73.8,198.0 47.8,198.0" fill="#222"/>
+    <polygon points="92.0,68.0 118.0,68.0 162.2,198.0 136.2,198.0" fill="#222"/>
+    <polygon points="68.6,143.4 141.4,143.4 141.4,164.2 68.6,164.2" fill="#222"/>
+  </g>
+  <text x="105" y="242" text-anchor="middle" font-size="15" font-weight="700" fill="#2e9d5b">native Auflösung</text>
+  <text x="105" y="260" text-anchor="middle" font-size="13" fill="#222">1 Bildpunkt = 1 Pixel</text>
+  <text x="105" y="277" text-anchor="middle" font-size="13" fill="#222">scharf und glatt</text>
+
+  <!-- rechts Pixelbloecke -->
+  <rect x="210" y="48" width="170" height="170" rx="6" fill="#f4f6fa" stroke="#E07B00" stroke-width="3"/>
+  <g>
+    <rect x="273.33" y="68.00" width="14.74" height="14.74" fill="#222"/>
+    <rect x="287.78" y="68.00" width="14.74" height="14.74" fill="#222"/>
+    <rect x="302.22" y="68.00" width="14.74" height="14.74" fill="#222"/>
+    <rect x="273.33" y="82.44" width="14.74" height="14.74" fill="#222"/>
+    <rect x="287.78" y="82.44" width="14.74" height="14.74" fill="#222"/>
+    <rect x="302.22" y="82.44" width="14.74" height="14.74" fill="#222"/>
+    <rect x="273.33" y="96.89" width="14.74" height="14.74" fill="#222"/>
+    <rect x="287.78" y="96.89" width="14.74" height="14.74" fill="#222"/>
+    <rect x="302.22" y="96.89" width="14.74" height="14.74" fill="#222"/>
+    <rect x="258.89" y="111.33" width="14.74" height="14.74" fill="#222"/>
+    <rect x="273.33" y="111.33" width="14.74" height="14.74" fill="#222"/>
+    <rect x="302.22" y="111.33" width="14.74" height="14.74" fill="#222"/>
+    <rect x="316.67" y="111.33" width="14.74" height="14.74" fill="#222"/>
+    <rect x="258.89" y="125.78" width="14.74" height="14.74" fill="#222"/>
+    <rect x="273.33" y="125.78" width="14.74" height="14.74" fill="#222"/>
+    <rect x="302.22" y="125.78" width="14.74" height="14.74" fill="#222"/>
+    <rect x="316.67" y="125.78" width="14.74" height="14.74" fill="#222"/>
+    <rect x="258.89" y="140.22" width="14.74" height="14.74" fill="#222"/>
+    <rect x="273.33" y="140.22" width="14.74" height="14.74" fill="#222"/>
+    <rect x="287.78" y="140.22" width="14.74" height="14.74" fill="#222"/>
+    <rect x="302.22" y="140.22" width="14.74" height="14.74" fill="#222"/>
+    <rect x="316.67" y="140.22" width="14.74" height="14.74" fill="#222"/>
+    <rect x="244.44" y="154.67" width="14.74" height="14.74" fill="#222"/>
+    <rect x="258.89" y="154.67" width="14.74" height="14.74" fill="#222"/>
+    <rect x="273.33" y="154.67" width="14.74" height="14.74" fill="#222"/>
+    <rect x="287.78" y="154.67" width="14.74" height="14.74" fill="#222"/>
+    <rect x="302.22" y="154.67" width="14.74" height="14.74" fill="#222"/>
+    <rect x="316.67" y="154.67" width="14.74" height="14.74" fill="#222"/>
+    <rect x="331.11" y="154.67" width="14.74" height="14.74" fill="#222"/>
+    <rect x="244.44" y="169.11" width="14.74" height="14.74" fill="#222"/>
+    <rect x="258.89" y="169.11" width="14.74" height="14.74" fill="#222"/>
+    <rect x="316.67" y="169.11" width="14.74" height="14.74" fill="#222"/>
+    <rect x="331.11" y="169.11" width="14.74" height="14.74" fill="#222"/>
+    <rect x="244.44" y="183.56" width="14.74" height="14.74" fill="#222"/>
+    <rect x="258.89" y="183.56" width="14.74" height="14.74" fill="#222"/>
+    <rect x="316.67" y="183.56" width="14.74" height="14.74" fill="#222"/>
+    <rect x="331.11" y="183.56" width="14.74" height="14.74" fill="#222"/>
+  </g>
+  <g stroke="#c8ccd4" stroke-width="1">
+    <line x1="244.4" y1="68" x2="244.4" y2="198"/>
+    <line x1="230" y1="82.4" x2="360" y2="82.4"/>
+    <line x1="258.9" y1="68" x2="258.9" y2="198"/>
+    <line x1="230" y1="96.9" x2="360" y2="96.9"/>
+    <line x1="273.3" y1="68" x2="273.3" y2="198"/>
+    <line x1="230" y1="111.3" x2="360" y2="111.3"/>
+    <line x1="287.8" y1="68" x2="287.8" y2="198"/>
+    <line x1="230" y1="125.8" x2="360" y2="125.8"/>
+    <line x1="302.2" y1="68" x2="302.2" y2="198"/>
+    <line x1="230" y1="140.2" x2="360" y2="140.2"/>
+    <line x1="316.7" y1="68" x2="316.7" y2="198"/>
+    <line x1="230" y1="154.7" x2="360" y2="154.7"/>
+    <line x1="331.1" y1="68" x2="331.1" y2="198"/>
+    <line x1="230" y1="169.1" x2="360" y2="169.1"/>
+    <line x1="345.6" y1="68" x2="345.6" y2="198"/>
+    <line x1="230" y1="183.6" x2="360" y2="183.6"/>
+  </g>
+  <text x="295" y="242" text-anchor="middle" font-size="15" font-weight="700" fill="#E07B00">kleinere Auflösung</text>
+  <text x="295" y="260" text-anchor="middle" font-size="13" fill="#222">hochgezogen:</text>
+  <text x="295" y="277" text-anchor="middle" font-size="13" fill="#222">Pixelblöcke</text>
+
+  <line x1="10" y1="298" x2="390" y2="298" stroke="#ddd" stroke-width="1"/>
+
+  <!-- oder: Bild bleibt klein -->
+  <rect x="30" y="318" width="190" height="118" rx="6" fill="#333"/>
+  <rect x="38" y="326" width="174" height="102" fill="#000"/>
+  <rect x="85" y="352" width="80" height="50" fill="#f4f6fa"/>
+  <g>
+    <polygon points="125.0,357.0 133.0,357.0 119.4,397.0 111.4,397.0" fill="#222"/>
+    <polygon points="125.0,357.0 133.0,357.0 146.6,397.0 138.6,397.0" fill="#222"/>
+    <polygon points="117.8,380.2 140.2,380.2 140.2,386.6 117.8,386.6" fill="#222"/>
+  </g>
+  <rect x="115" y="436" width="20" height="12" fill="#555"/>
+  <rect x="95" y="446" width="60" height="6" rx="2" fill="#555"/>
+  <text x="234" y="350" font-size="15" font-weight="700" fill="#E07B00">kleinere Auflösung</text>
+  <text x="234" y="370" font-size="15" font-weight="700" fill="#E07B00">oder:</text>
+  <text x="234" y="392" font-size="14" fill="#222">Bild bleibt klein,</text>
+  <text x="234" y="410" font-size="14" fill="#222">schwarzer Rand</text>
+</svg>

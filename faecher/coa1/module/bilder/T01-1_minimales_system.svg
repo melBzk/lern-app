@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 380" font-family="system-ui, sans-serif" role="img">
+<title>Der kleinste Computer besteht aus CPU (Prozessor) und RAM (Arbeitsspeicher). Pfeil vom RAM zur CPU: die CPU holt Befehle und Daten. Pfeil von der CPU zum RAM: sie schreibt Ergebnisse zurück. Darunter grau und gestrichelt Tastatur und Monitor: angeschlossen, aber nicht im Kern.</title>
+
+<rect width="400" height="380" fill="#fff"/>
+<text x="200" y="30" font-size="17" text-anchor="middle" font-weight="700" fill="#c62828">kleinster Computer</text>
+<path d="M20,58 Q20,44 40,44 H180 Q200,44 200,34 Q200,44 220,44 H360 Q380,44 380,58" fill="none" stroke="#c62828" stroke-width="2.5"/>
+<rect x="20" y="76" width="130" height="120" rx="12" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2.5"/>
+<text x="85" y="128" font-size="20" text-anchor="middle" font-weight="700" fill="#3a6ed8">CPU</text>
+<text x="85" y="150" font-size="14" text-anchor="middle" fill="#222">(Prozessor)</text>
+<rect x="250" y="76" width="130" height="120" rx="12" fill="#f3e8fa" stroke="#7b3fa0" stroke-width="2.5"/>
+<text x="315" y="128" font-size="20" text-anchor="middle" font-weight="700" fill="#7b3fa0">RAM</text>
+<text x="315" y="150" font-size="14" text-anchor="middle" fill="#222">(Arbeits-</text>
+<text x="315" y="168" font-size="14" text-anchor="middle" fill="#222">speicher)</text>
+<line x1="248" y1="120" x2="162.0" y2="120.0" stroke="#7b3fa0" stroke-width="3"/><polygon points="152,120 164.0,114.0 164.0,126.0" fill="#7b3fa0"/>
+<text x="200" y="94" font-size="13" text-anchor="middle" fill="#222">holt Befehle</text>
+<text x="200" y="110" font-size="13" text-anchor="middle" fill="#222">und Daten</text>
+<line x1="152" y1="156" x2="238.0" y2="156.0" stroke="#3a6ed8" stroke-width="3"/><polygon points="248,156 236.0,162.0 236.0,150.0" fill="#3a6ed8"/>
+<text x="200" y="176" font-size="13" text-anchor="middle" fill="#222">schreibt</text>
+<text x="200" y="192" font-size="13" text-anchor="middle" fill="#222">Ergebnisse</text>
+<text x="200" y="208" font-size="13" text-anchor="middle" fill="#222">zurück</text>
+<rect x="10" y="240" width="380" height="130" rx="12" fill="#fafafa" stroke="#999" stroke-width="2" stroke-dasharray="7 5"/>
+<rect x="40.0" y="292.0" width="90" height="36" rx="4" fill="#fff" stroke="#333" stroke-width="1.5"/><rect x="45.0" y="297.0" width="11.3" height="6" rx="1" fill="#ccc" stroke="none" stroke-width="0"/><rect x="58.3" y="297.0" width="11.3" height="6" rx="1" fill="#ccc" stroke="none" stroke-width="0"/><rect x="71.7" y="297.0" width="11.3" height="6" rx="1" fill="#ccc" stroke="none" stroke-width="0"/><rect x="85.0" y="297.0" width="11.3" height="6" rx="1" fill="#ccc" stroke="none" stroke-width="0"/><rect x="98.3" y="297.0" width="11.3" height="6" rx="1" fill="#ccc" stroke="none" stroke-width="0"/><rect x="111.7" y="297.0" width="11.3" height="6" rx="1" fill="#ccc" stroke="none" stroke-width="0"/><rect x="45.0" y="305.0" width="11.3" height="6" rx="1" fill="#ccc" stroke="none" stroke-width="0"/><rect x="58.3" y="305.0" width="11.3" height="6" rx="1" fill="#ccc" stroke="none" stroke-width="0"/><rect x="71.7" y="305.0" width="11.3" height="6" rx="1" fill="#ccc" stroke="none" stroke-width="0"/><rect x="85.0" y="305.0" width="11.3" height="6" rx="1" fill="#ccc" stroke="none" stroke-width="0"/><rect x="98.3" y="305.0" width="11.3" height="6" rx="1" fill="#ccc" stroke="none" stroke-width="0"/><rect x="111.7" y="305.0" width="11.3" height="6" rx="1" fill="#ccc" stroke="none" stroke-width="0"/><rect x="58.333333333333336" y="314.0" width="51.3" height="5" rx="1" fill="#ccc" stroke="none" stroke-width="0"/>
+<text x="85" y="350" font-size="13" text-anchor="middle" fill="#555">Tastatur</text>
+<rect x="275.0" y="279.0" width="80" height="50" rx="3" fill="#333" stroke="#333" stroke-width="1.5"/><rect x="279.0" y="283.0" width="72" height="42" rx="1" fill="#e8f0fe" stroke="none" stroke-width="0"/><rect x="311" y="329.0" width="8" height="7" rx="0" fill="#333" stroke="none" stroke-width="0"/><rect x="299" y="336.0" width="32" height="4" rx="2" fill="#333" stroke="none" stroke-width="0"/>
+<text x="315" y="356" font-size="13" text-anchor="middle" fill="#555">Monitor</text>
+<text x="200" y="296" font-size="14" text-anchor="middle" fill="#555">angeschlossen,</text>
+<text x="200" y="314" font-size="14" text-anchor="middle" font-weight="700" fill="#555">nicht im Kern</text>
+</svg>

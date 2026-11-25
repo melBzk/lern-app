@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 530" font-family="system-ui, sans-serif">
+  <title>Vergleich Maus und Trackball von oben. Oben die Maus: Das ganze Gerät wird über den Tisch geschoben, der Arm bewegt sich mit. Unten der Trackball: Das Gerät steht fest, die Kugel liegt oben, nur der Daumen dreht die Kugel. Der Arm bleibt ruhig, und der Trackball braucht wenig Platz.</title>
+  <defs>
+    <marker id="pr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#555"/>
+    </marker>
+    <marker id="pg" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#1f9d55"/>
+    </marker>
+    <g id="mausarm">
+      <line x1="0" y1="40" x2="0" y2="112" stroke="#b57f5a" stroke-width="34" stroke-linecap="round"/>
+      <line x1="0" y1="40" x2="0" y2="112" stroke="#f2c9a5" stroke-width="30" stroke-linecap="round"/>
+      <rect x="-24" y="-34" width="48" height="70" rx="24" fill="#3a3f4a"/>
+      <ellipse cx="0" cy="14" rx="22" ry="26" fill="#f2c9a5" stroke="#b57f5a" stroke-width="2"/>
+    </g>
+  </defs>
+  <rect width="400" height="530" fill="#fff"/>
+  <text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700" fill="#222">Maus oder Trackball?</text>
+
+  <!-- ===== Maus ===== -->
+  <rect x="8" y="40" width="384" height="236" rx="10" fill="#f3f4f6"/>
+  <text x="22" y="64" font-size="16" font-weight="700" fill="#222">Maus: Arm bewegt sich</text>
+  <g opacity="0.25">
+    <use href="#mausarm" x="90" y="150"/>
+    <use href="#mausarm" x="290" y="150"/>
+  </g>
+  <use href="#mausarm" x="190" y="150"/>
+  <line x1="150" y1="104" x2="64" y2="104" stroke="#555" stroke-width="5" marker-end="url(#pr)"/>
+  <line x1="230" y1="104" x2="316" y2="104" stroke="#555" stroke-width="5" marker-end="url(#pr)"/>
+  <text x="378" y="64" text-anchor="end" font-size="13" fill="#222">ganzes Gerät</text>
+  <text x="378" y="80" text-anchor="end" font-size="13" fill="#222">wird geschoben</text>
+
+  <g transform="translate(0,20)">
+  <!-- ===== Trackball ===== -->
+  <rect x="8" y="268" width="384" height="234" rx="10" fill="#eaf6ee"/>
+  <text x="22" y="292" font-size="16" font-weight="700" fill="#16703d">Trackball: nur Finger bewegen sich</text>
+  <!-- Gerät -->
+  <rect x="150" y="314" width="100" height="94" rx="30" fill="#3a3f4a"/>
+  <circle cx="212" cy="352" r="26" fill="#3a6ed8" stroke="#1d4fb8" stroke-width="2"/>
+  <ellipse cx="204" cy="343" rx="8" ry="5" fill="#9db7e8"/>
+  <!-- Drehpfeil -->
+  <path d="M184,322 A36,36 0 0 1 244,330" fill="none" stroke="#1f9d55" stroke-width="4" marker-end="url(#pg)"/>
+  <!-- Arm und Hand, ruhig -->
+  <line x1="180" y1="420" x2="176" y2="500" stroke="#b57f5a" stroke-width="34" stroke-linecap="round"/>
+  <line x1="180" y1="420" x2="176" y2="500" stroke="#f2c9a5" stroke-width="30" stroke-linecap="round"/>
+  <ellipse cx="190" cy="402" rx="30" ry="22" fill="#f2c9a5" stroke="#b57f5a" stroke-width="2"/>
+  <!-- Daumen -->
+  <line x1="178" y1="390" x2="196" y2="364" stroke="#b57f5a" stroke-width="15" stroke-linecap="round"/>
+  <line x1="178" y1="390" x2="196" y2="364" stroke="#f2c9a5" stroke-width="11" stroke-linecap="round"/>
+
+  <text x="60" y="340" text-anchor="middle" font-size="14" font-weight="700" fill="#222">Kugel oben,</text>
+  <text x="60" y="357" text-anchor="middle" font-size="14" font-weight="700" fill="#222">Daumen dreht</text>
+  <line x1="108" y1="346" x2="184" y2="350" stroke="#555" stroke-width="1.5"/>
+  <text x="318" y="340" text-anchor="middle" font-size="14" font-weight="700" fill="#222">Gerät steht</text>
+  <text x="318" y="357" text-anchor="middle" font-size="14" font-weight="700" fill="#222">fest</text>
+  <text x="318" y="398" text-anchor="middle" font-size="14" font-weight="700" fill="#16703d">braucht</text>
+  <text x="318" y="415" text-anchor="middle" font-size="14" font-weight="700" fill="#16703d">wenig Platz</text>
+  <text x="60" y="462" text-anchor="middle" font-size="14" font-weight="700" fill="#16703d">Arm bleibt</text>
+  <text x="60" y="479" text-anchor="middle" font-size="14" font-weight="700" fill="#16703d">ruhig</text>
+</g>
+</svg>

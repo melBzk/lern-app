@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 296" font-family="system-ui, sans-serif">
+  <title>Drucker-Einschränkungen. Links ein Drucker, aus dem ein Geldschein kommen will, darüber ein rotes Verbotszeichen: keine Banknoten – viele Drucker erkennen Geldscheine und sperren den Druck. Rechts ein 3D-Drucker mit einer angedeuteten Pistolen-Form, darüber ein rotes Verbotszeichen: Waffen sind verboten – das regelt das Gesetz, eine technische Sperre ist nicht üblich.</title>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker>
+    <marker id="o" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E07B00"/></marker>
+    <marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d63c3c"/></marker>
+  </defs>
+  <rect width="400" height="296" fill="#fff"/>
+
+  <text x="200" y="24" text-anchor="middle" font-size="17" font-weight="700" fill="#222">Drucker-Einschränkungen</text>
+  <!-- links: Drucker mit Geldschein -->
+  <rect x="8" y="38" width="188" height="250" rx="12" fill="#fdecec" stroke="#d63c3c"/>
+  <rect x="42" y="120" width="120" height="50" rx="8" fill="#3a3f4a"/>
+  <rect x="58" y="110" width="88" height="12" fill="#fff" stroke="#333"/>
+  <rect x="62" y="166" width="80" height="44" rx="3" fill="#b9dfc4" stroke="#1f9d55" stroke-width="2"/>
+  <circle cx="102" cy="188" r="12" fill="none" stroke="#1f9d55" stroke-width="2"/>
+  <text x="102" y="193" text-anchor="middle" font-size="13" font-weight="700" fill="#1c6b3c">50</text>
+  <circle cx="102" cy="160" r="74" fill="none" stroke="#d63c3c" stroke-width="8"/><line x1="49.7" y1="107.7" x2="154.3" y2="212.3" stroke="#d63c3c" stroke-width="8"/>
+  <text x="102" y="256" text-anchor="middle" font-size="16" font-weight="700" fill="#a32020">keine Banknoten</text>
+  <text x="102" y="276" text-anchor="middle" font-size="13" fill="#222">viele Drucker sperren</text>
+  <!-- rechts: 3D-Drucker mit Pistole -->
+  <rect x="204" y="38" width="188" height="250" rx="12" fill="#fdecec" stroke="#d63c3c"/>
+  <rect x="236" y="100" width="6" height="110" fill="#9aa3ae"/><rect x="354" y="100" width="6" height="110" fill="#9aa3ae"/>
+  <rect x="236" y="100" width="124" height="8" fill="#9aa3ae"/>
+  <rect x="290" y="108" width="16" height="22" fill="#3a3f4a"/>
+  <path d="M256,150 h86 v20 h-50 q-2,10 -12,10 l-6,24 h-24 l8,-34 h-2 z" fill="#555"/><path d="M292,170 q0,14 -14,14" fill="none" stroke="#555" stroke-width="3"/>
+  <rect x="246" y="206" width="104" height="8" fill="#555"/>
+  <circle cx="298" cy="160" r="74" fill="none" stroke="#d63c3c" stroke-width="8"/><line x1="245.7" y1="107.7" x2="350.3" y2="212.3" stroke="#d63c3c" stroke-width="8"/>
+  <text x="298" y="256" text-anchor="middle" font-size="16" font-weight="700" fill="#a32020">Waffen: verboten</text>
+  <text x="298" y="276" text-anchor="middle" font-size="13" fill="#222">Gesetz statt Sperre</text>
+</svg>

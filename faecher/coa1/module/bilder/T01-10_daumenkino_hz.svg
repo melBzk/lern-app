@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 420" font-family="system-ui, sans-serif">
+  <title>Oben ein Daumenkino: Der Daumen blättert schnell durch die Seiten, auf jeder Seite steht ein Strichmännchen in leicht veränderter Haltung. 60 Seiten pro Sekunde entsprechen 60 Hertz. Unten ein Monitor mit einem Mauszeiger, der sich bewegt: Der Monitor zeigt 60 neue Bilder pro Sekunde.</title>
+  <defs>
+    <marker id="pb" viewBox="0 0 10 10" refX="8" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#3a6ed8"/>
+    </marker>
+    <marker id="pg" viewBox="0 0 10 10" refX="8" refY="5" markerUnits="userSpaceOnUse" markerWidth="10" markerHeight="10" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#777"/>
+    </marker>
+  </defs>
+  <rect width="400" height="420" fill="#fff"/>
+  <text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700" fill="#222">Viele Bilder pro Sekunde</text>
+
+  <g transform="translate(14,0)">
+  <!-- Daumenkino: hintere Seiten aufgefaechert -->
+  <g stroke="#999" stroke-width="1.5" fill="#fff">
+    <g transform="rotate(-24 30 180)"><rect x="30" y="90" width="130" height="90" rx="2"/></g>
+    <g transform="rotate(-16 30 180)"><rect x="30" y="90" width="130" height="90" rx="2"/></g>
+  </g>
+  <g transform="rotate(-8 30 180)">
+    <rect x="30" y="90" width="130" height="90" rx="2" fill="#fff" stroke="#999" stroke-width="1.5"/>
+    <g stroke="#bbb" stroke-width="3" fill="none" stroke-linecap="round">
+      <circle cx="100" cy="112" r="8"/>
+      <line x1="100" y1="120" x2="100" y2="146"/>
+      <line x1="100" y1="128" x2="88" y2="138"/><line x1="100" y1="128" x2="112" y2="136"/>
+      <line x1="100" y1="146" x2="92" y2="168"/><line x1="100" y1="146" x2="108" y2="168"/>
+    </g>
+  </g>
+  <rect x="30" y="90" width="130" height="90" rx="2" fill="#fff" stroke="#666" stroke-width="2"/>
+  <g stroke="#222" stroke-width="3" fill="none" stroke-linecap="round">
+    <circle cx="96" cy="112" r="8"/>
+    <line x1="96" y1="120" x2="96" y2="146"/>
+    <line x1="96" y1="128" x2="80" y2="134"/><line x1="96" y1="128" x2="112" y2="122"/>
+    <line x1="96" y1="146" x2="82" y2="168"/><line x1="96" y1="146" x2="112" y2="168"/>
+  </g>
+  <!-- Daumen -->
+  <ellipse cx="164" cy="168" rx="20" ry="11" transform="rotate(-35 164 168)" fill="#f2c9a0" stroke="#b5835a" stroke-width="1.5"/>
+  <path d="M176,112 Q192,132 182,150" fill="none" stroke="#777" stroke-width="2" marker-end="url(#pg)"/>
+  </g>
+
+  <text x="212" y="96" font-size="16" font-weight="700" fill="#222">Daumenkino</text>
+  <text x="212" y="120" font-size="14" fill="#222">60 Seiten pro Sekunde</text>
+  <text x="212" y="148" font-size="20" font-weight="700" fill="#c62828">= 60 Hz</text>
+
+  <!-- Pfeil -->
+  <line x1="200" y1="196" x2="200" y2="234" stroke="#3a6ed8" stroke-width="3.5" marker-end="url(#pb)"/>
+  <text x="212" y="220" font-size="14" font-weight="700" fill="#3a6ed8">genauso</text>
+
+  <!-- Monitor -->
+  <rect x="20" y="250" width="172" height="110" rx="6" fill="#333"/>
+  <rect x="28" y="258" width="156" height="94" fill="#dfe8f6"/>
+  <rect x="96" y="360" width="20" height="14" fill="#555"/>
+  <rect x="76" y="372" width="60" height="6" rx="2" fill="#555"/>
+  <path d="M50,334 Q95,310 140,282" fill="none" stroke="#3a6ed8" stroke-width="1.5" stroke-dasharray="3 4"/>
+  <path d="M50,322 v18 l4,-4 l3,7 l3,-1 l-3,-7 h6 Z" fill="#fff" stroke="#222" stroke-width="1" opacity="0.35"/>
+  <path d="M95,300 v18 l4,-4 l3,7 l3,-1 l-3,-7 h6 Z" fill="#fff" stroke="#222" stroke-width="1" opacity="0.6"/>
+  <path d="M140,272 v18 l4,-4 l3,7 l3,-1 l-3,-7 h6 Z" fill="#fff" stroke="#222" stroke-width="1.3"/>
+  <text x="70" y="346" font-size="13" fill="#555">Bild 1</text>
+  <text x="104" y="330" font-size="13" fill="#555">Bild 2</text>
+  <text x="150" y="304" font-size="13" fill="#555">3</text>
+
+  <text x="212" y="290" font-size="16" font-weight="700" fill="#222">Monitor</text>
+  <text x="212" y="314" font-size="14" fill="#222">60 neue Bilder</text>
+  <text x="212" y="332" font-size="14" fill="#222">pro Sekunde</text>
+  <text x="212" y="360" font-size="20" font-weight="700" fill="#c62828">= 60 Hz</text>
+
+  <text x="200" y="406" text-anchor="middle" font-size="14" fill="#222">Nur so siehst du den Mauszeiger wandern.</text>
+</svg>

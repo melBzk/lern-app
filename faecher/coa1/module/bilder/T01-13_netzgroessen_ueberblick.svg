@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 545" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Netze nach Ausdehnung als ineinander liegende Kreise: innen der kleinste, außen der größte. Von innen nach außen: PAN rund um eine Person, ca. 10 m; LAN ein Gebäude; CAN ein Firmengelände; MAN eine Stadt oder Region; WAN weite Entfernungen; GAN weltweit. Unten die Reihenfolge von klein nach groß: PAN, LAN, CAN, MAN, WAN, GAN.</title>
+<defs><marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker></defs>
+<rect width="400" height="545" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">Sechs Netzgrößen</text>
+<circle cx="200" cy="274" r="196" fill="#dbe7fb" stroke="#3a6ed8" stroke-width="2"/>
+<circle cx="200" cy="302" r="168" fill="#eef4fd" stroke="#3a6ed8" stroke-width="2"/>
+<circle cx="200" cy="334" r="136" fill="#dbe7fb" stroke="#3a6ed8" stroke-width="2"/>
+<circle cx="200" cy="368" r="102" fill="#eef4fd" stroke="#3a6ed8" stroke-width="2"/>
+<circle cx="200" cy="402" r="68" fill="#dbe7fb" stroke="#3a6ed8" stroke-width="2"/>
+<circle cx="200" cy="434" r="36" fill="#fde3c3" stroke="#E07B00" stroke-width="2"/>
+<text x="200" y="432" text-anchor="middle" font-size="16" font-weight="700" fill="#a85a00">PAN</text>
+<text x="200" y="449" text-anchor="middle" font-size="13">ca. 10 m</text>
+<text x="200" y="355" text-anchor="middle" font-size="16" font-weight="700" fill="#1d3f8a">LAN</text>
+<text x="200" y="372" text-anchor="middle" font-size="13">ein Gebäude</text>
+<g transform="translate(150.7,426.8) scale(0.93)"><path d="M-11,-1 L0,-11 L11,-1 Z" fill="#c62828"/><rect x="-8" y="-1" width="16" height="12" fill="#fff" stroke="#333" stroke-width="1.5"/><rect x="-2" y="4" width="4" height="7" fill="#333"/></g>
+<g transform="translate(249.3,426.8) scale(0.93)"><path d="M-11,-1 L0,-11 L11,-1 Z" fill="#c62828"/><rect x="-8" y="-1" width="16" height="12" fill="#fff" stroke="#333" stroke-width="1.5"/><rect x="-2" y="4" width="4" height="7" fill="#333"/></g>
+<text x="200" y="287" text-anchor="middle" font-size="16" font-weight="700" fill="#1d3f8a">CAN</text>
+<text x="200" y="304" text-anchor="middle" font-size="13">Firmengelände</text>
+<g transform="translate(120.6,364.6) scale(1.25)"><rect x="-13" y="-4" width="8" height="14" fill="#fff" stroke="#333" stroke-width="1.5"/><rect x="-4" y="-10" width="8" height="20" fill="#fff" stroke="#333" stroke-width="1.5"/><rect x="5" y="-1" width="8" height="11" fill="#fff" stroke="#333" stroke-width="1.5"/><line x1="-14" y1="10" x2="14" y2="10" stroke="#2f6b4f" stroke-width="2"/></g>
+<g transform="translate(279.4,364.6) scale(1.25)"><rect x="-13" y="-4" width="8" height="14" fill="#fff" stroke="#333" stroke-width="1.5"/><rect x="-4" y="-10" width="8" height="20" fill="#fff" stroke="#333" stroke-width="1.5"/><rect x="5" y="-1" width="8" height="11" fill="#fff" stroke="#333" stroke-width="1.5"/><line x1="-14" y1="10" x2="14" y2="10" stroke="#2f6b4f" stroke-width="2"/></g>
+<text x="200" y="219" text-anchor="middle" font-size="16" font-weight="700" fill="#1d3f8a">MAN</text>
+<text x="200" y="236" text-anchor="middle" font-size="13">Stadt/Region</text>
+<g transform="translate(98.2,296.6) scale(1.25)"><rect x="-14" y="-2" width="6" height="12" fill="#555"/><rect x="-8" y="-10" width="6" height="20" fill="#555"/><rect x="-1" y="-4" width="6" height="14" fill="#555"/><rect x="5" y="-12" width="6" height="22" fill="#555"/></g>
+<g transform="translate(301.8,296.6) scale(1.25)"><rect x="-14" y="-2" width="6" height="12" fill="#555"/><rect x="-8" y="-10" width="6" height="20" fill="#555"/><rect x="-1" y="-4" width="6" height="14" fill="#555"/><rect x="5" y="-12" width="6" height="22" fill="#555"/></g>
+<text x="200" y="155" text-anchor="middle" font-size="16" font-weight="700" fill="#1d3f8a">WAN</text>
+<text x="200" y="172" text-anchor="middle" font-size="13">weite Entfernungen</text>
+<g transform="translate(83.0,226.8) scale(1.25)"><path d="M-12,-8 L-4,-11 L4,-8 L12,-11 L12,9 L4,12 L-4,9 L-12,12 Z" fill="#e6efe0" stroke="#2f6b4f" stroke-width="1.5"/><circle cx="-6" cy="-2" r="2.5" fill="#c62828"/><circle cx="6" cy="4" r="2.5" fill="#c62828"/><line x1="-6" y1="-2" x2="6" y2="4" stroke="#c62828" stroke-width="1.5"/></g>
+<g transform="translate(317.0,226.8) scale(1.25)"><path d="M-12,-8 L-4,-11 L4,-8 L12,-11 L12,9 L4,12 L-4,9 L-12,12 Z" fill="#e6efe0" stroke="#2f6b4f" stroke-width="1.5"/><circle cx="-6" cy="-2" r="2.5" fill="#c62828"/><circle cx="6" cy="4" r="2.5" fill="#c62828"/><line x1="-6" y1="-2" x2="6" y2="4" stroke="#c62828" stroke-width="1.5"/></g>
+<text x="200" y="99" text-anchor="middle" font-size="16" font-weight="700" fill="#1d3f8a">GAN</text>
+<text x="200" y="116" text-anchor="middle" font-size="13">weltweit</text>
+<g transform="translate(76.3,159.2) scale(1.25)"><circle r="11" fill="#9cc3f5" stroke="#3a6ed8" stroke-width="1.5"/><ellipse rx="5" ry="11" fill="none" stroke="#3a6ed8" stroke-width="1.2"/><line x1="-11" x2="11" stroke="#3a6ed8" stroke-width="1.2"/><path d="M-7,-6 q4,-3 7,0 q-2,4 -6,3 z" fill="#2f6b4f"/><path d="M2,2 q5,-1 7,2 q-3,5 -6,4 z" fill="#2f6b4f"/></g>
+<g transform="translate(323.7,159.2) scale(1.25)"><circle r="11" fill="#9cc3f5" stroke="#3a6ed8" stroke-width="1.5"/><ellipse rx="5" ry="11" fill="none" stroke="#3a6ed8" stroke-width="1.2"/><line x1="-11" x2="11" stroke="#3a6ed8" stroke-width="1.2"/><path d="M-7,-6 q4,-3 7,0 q-2,4 -6,3 z" fill="#2f6b4f"/><path d="M2,2 q5,-1 7,2 q-3,5 -6,4 z" fill="#2f6b4f"/></g>
+<line x1="30" y1="495" x2="370" y2="495" stroke="#3a6ed8" stroke-width="3.5" marker-end="url(#ab)"/>
+<text x="30" y="485" font-size="13" font-weight="700" fill="#3a6ed8">klein</text>
+<text x="370" y="485" text-anchor="end" font-size="13" font-weight="700" fill="#3a6ed8">groß</text>
+<text x="200" y="525" text-anchor="middle" font-size="16" font-weight="700">PAN – LAN – CAN – MAN – WAN – GAN</text>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 450" font-family="system-ui, sans-serif">
+  <title>Touchscreen gleich Ein- und Ausgabegerät. Ein großes Smartphone. Ein blauer Pfeil geht vom Bildschirm zum Auge: Ausgabe, du siehst das Bild. Ein Finger tippt auf ein Symbol, ein grüner Pfeil geht vom Finger in das Gerät: Eingabe, du tippst.</title>
+  <defs>
+    <marker id="mb" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#3a6ed8"/></marker>
+    <marker id="mg" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#1f9d55"/></marker>
+  </defs>
+  <rect width="400" height="450" fill="#fff"/>
+  <text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700" fill="#222">Touchscreen = Ein- und Ausgabegerät</text>
+
+  <!-- Smartphone -->
+  <rect x="70" y="56" width="150" height="300" rx="22" fill="#3a3f4a"/>
+  <rect x="80" y="76" width="130" height="260" rx="6" fill="#dbe6fb"/>
+  <g>
+    <rect x="94" y="94" width="30" height="30" rx="7" fill="#3a6ed8"/><rect x="130" y="94" width="30" height="30" rx="7" fill="#1f9d55"/><rect x="166" y="94" width="30" height="30" rx="7" fill="#e0a800"/>
+    <rect x="94" y="136" width="30" height="30" rx="7" fill="#D4607A"/><rect x="130" y="136" width="30" height="30" rx="7" fill="#8e5cc4"/><rect x="166" y="136" width="30" height="30" rx="7" fill="#6aa8e0"/>
+    <rect x="94" y="178" width="30" height="30" rx="7" fill="#999"/><rect x="130" y="178" width="30" height="30" rx="7" fill="#3a6ed8"/><rect x="166" y="178" width="30" height="30" rx="7" fill="#1f9d55"/>
+  </g>
+  <rect x="130" y="262" width="30" height="30" rx="7" fill="#e0a800"/>
+  <!-- Tipp-Kreise -->
+  <circle cx="145" cy="277" r="22" fill="none" stroke="#1f9d55" stroke-width="2.5"/>
+  <circle cx="145" cy="277" r="31" fill="none" stroke="#1f9d55" stroke-width="1.5" stroke-opacity="0.6"/>
+
+  <!-- Auge -->
+  <path d="M300,110 Q340,80 380,110 Q340,140 300,110 Z" fill="#fff" stroke="#333" stroke-width="2.5"/>
+  <circle cx="340" cy="110" r="11" fill="#3a6ed8"/><circle cx="340" cy="110" r="5" fill="#222"/>
+  <line x1="214" y1="140" x2="292" y2="114" stroke="#3a6ed8" stroke-width="5" marker-end="url(#mb)"/>
+  <text x="340" y="160" text-anchor="middle" font-size="15" font-weight="700" fill="#1d4fb8">Ausgabe:</text>
+  <text x="314" y="180" text-anchor="middle" font-size="14" fill="#222">du siehst das Bild</text>
+
+  <!-- Finger -->
+  <line x1="380" y1="350" x2="160" y2="286" stroke="#b57f5a" stroke-width="28" stroke-linecap="round"/>
+  <line x1="380" y1="350" x2="160" y2="286" stroke="#f2c9a5" stroke-width="24" stroke-linecap="round"/>
+  <path d="M162,280 q-5,6 2,12" fill="none" stroke="#e8b48f" stroke-width="2"/>
+  <line x1="240" y1="250" x2="172" y2="268" stroke="#1f9d55" stroke-width="5" marker-end="url(#mg)"/>
+  <text x="300" y="232" text-anchor="middle" font-size="15" font-weight="700" fill="#16703d">Eingabe:</text>
+  <text x="300" y="252" text-anchor="middle" font-size="14" fill="#222">du tippst</text>
+
+  <rect x="20" y="380" width="360" height="56" rx="8" fill="#fff3cd" stroke="#e0a800" stroke-width="2"/>
+  <text x="200" y="403" text-anchor="middle" font-size="14" font-weight="700" fill="#222">Ein Gerät, zwei Rollen:</text>
+  <text x="200" y="424" text-anchor="middle" font-size="14" fill="#222">Bild zeigen (Ausgabe) + Tippen erkennen (Eingabe)</text>
+</svg>

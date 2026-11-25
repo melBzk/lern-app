@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" font-family="system-ui, sans-serif">
+  <title>Zwei Wege ohne Kabel. Oben Bluetooth: Ein Laptop mit eingebautem Bluetooth funkt mit einer Bluetooth-Maus, schnurlos. In der Mitte Funkempfänger: Ein kleiner USB-Stick, der Dongle, steckt im PC und funkt nur mit der passenden Maus aus derselben Packung. Unten: Dongle und Bluetooth-Maus verstehen sich nicht, durchgestrichener Pfeil, nicht kompatibel.</title>
+  <defs>
+    <g id="bt"><circle r="12" fill="#3a6ed8"/><path d="M-5,-6 L5,5 L0,10 V-10 L5,-5 L-5,6" fill="none" stroke="#fff" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/></g>
+    <g id="maus"><rect x="-15" y="-22" width="30" height="44" rx="15" fill="#fff" stroke="#333" stroke-width="2"/><line x1="0" y1="-22" x2="0" y2="-4" stroke="#333" stroke-width="2"/></g>
+    <g id="wellen" fill="none" stroke="#3a6ed8" stroke-width="3" stroke-linecap="round">
+      <path d="M0,-7 A9,9 0 0 1 0,7"/><path d="M7,-13 A16,16 0 0 1 7,13"/><path d="M14,-19 A24,24 0 0 1 14,19"/>
+    </g>
+    <g id="dongle"><rect x="0" y="-7" width="14" height="14" fill="#cfd3da" stroke="#555"/><rect x="14" y="-9" width="22" height="18" rx="3" fill="#e0a800" stroke="#9a6b00"/></g>
+  </defs>
+  <rect width="400" height="500" fill="#fff"/>
+  <text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700" fill="#222">Ohne Kabel: zwei verschiedene Wege</text>
+
+  <!-- Bluetooth -->
+  <rect x="8" y="40" width="384" height="150" rx="10" fill="#e8f0fe"/>
+  <text x="22" y="64" font-size="16" font-weight="700" fill="#1d4fb8">Bluetooth: schnurlos</text>
+  <!-- Laptop -->
+  <rect x="40" y="82" width="110" height="70" rx="5" fill="#3a3f4a"/>
+  <rect x="47" y="89" width="96" height="56" fill="#dbe6fb"/>
+  <path d="M28,152 H162 L170,164 H20 Z" fill="#555"/>
+  <use href="#bt" x="95" y="117"/>
+  <text x="95" y="182" text-anchor="middle" font-size="13" fill="#222">Bluetooth eingebaut</text>
+  <use href="#wellen" transform="translate(200,120) rotate(180)"/>
+  <use href="#wellen" transform="translate(240,120)"/>
+  <use href="#maus" x="310" y="124"/>
+  <use href="#bt" x="340" y="96" transform="scale(1)"/>
+  <text x="310" y="170" text-anchor="middle" font-size="13" fill="#222">Bluetooth-Maus</text>
+
+  <!-- Funkempfänger -->
+  <rect x="8" y="202" width="384" height="150" rx="10" fill="#fdf3d6"/>
+  <text x="22" y="226" font-size="16" font-weight="700" fill="#7a5500">Funkempfänger: gehört zur Maus</text>
+  <!-- PC -->
+  <rect x="40" y="244" width="70" height="90" rx="5" fill="#3a3f4a"/>
+  <text x="75" y="294" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">PC</text>
+  <use href="#dongle" x="110" y="280"/>
+  <text x="128" y="306" text-anchor="middle" font-size="13" font-weight="700" fill="#7a5500">Dongle</text>
+  <use href="#wellen" transform="translate(196,282) rotate(180)"/>
+  <use href="#wellen" transform="translate(236,282)"/>
+  <use href="#maus" x="310" y="280"/>
+  <rect x="262" y="238" width="96" height="108" rx="8" fill="none" stroke="#e0a800" stroke-width="2" stroke-dasharray="5 4"/>
+  <text x="310" y="334" text-anchor="middle" font-size="13" font-weight="700" fill="#7a5500">gleiche Packung</text>
+
+  <!-- Nicht kompatibel -->
+  <rect x="8" y="364" width="384" height="128" rx="10" fill="#fdecec"/>
+  <text x="22" y="388" font-size="16" font-weight="700" fill="#a32020">Dongle + Bluetooth-Maus?</text>
+  <use href="#dongle" x="40" y="436"/>
+  <text x="58" y="466" text-anchor="middle" font-size="13" fill="#222">Dongle</text>
+  <line x1="96" y1="436" x2="270" y2="436" stroke="#999" stroke-width="4" stroke-dasharray="8 6"/>
+  <path d="M262,428 L276,436 L262,444" fill="none" stroke="#999" stroke-width="4"/>
+  <circle cx="183" cy="436" r="16" fill="#d63c3c"/>
+  <path d="M176,429 l14,14 M190,429 l-14,14" stroke="#fff" stroke-width="3.5" stroke-linecap="round"/>
+  <text x="183" y="474" text-anchor="middle" font-size="15" font-weight="700" fill="#a32020">nicht kompatibel</text>
+  <use href="#maus" x="310" y="440"/>
+  <use href="#bt" x="340" y="412"/>
+</svg>

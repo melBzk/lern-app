@@ -188,6 +188,7 @@ Beides sind Modelle (nie rein verwirklicht). **Wirtschaftsordnung** = Art, wie e
 - **Unterbeschäftigung** = höhere ALQ und **weniger offene Stellen als Arbeitslose** (≠ Vollbeschäftigung). Vollbeschäftigung „≤ rund 2 %“ ist der Wert aus Folie und Quizzen (Lehrbuchgröße, keine gesetzliche Festlegung).
 - **Außenwirtschaftliches Gleichgewicht** laut Buch: mittelfristig ausgeglichene **Zahlungsbilanz**; Praxis: Außenbeitrag/Leistungsbilanzsaldo.
 - Grenzen des Wachstums: begrenzte Rohstoffe/Energie, schrumpfende Bevölkerung, Umweltbelastung.
+- **Devisen** = Zahlungsmittel in ausländischer Währung, z. B. Guthaben in Dollar 〔💡〕.
 - **Exportüberschuss bei Vollbeschäftigung → importierte Inflation** (Devisen rein, Geldmenge steigt). Importüberschuss: Devisen schrumpfen, **bremst den Preisauftrieb**, gefährdet aber Jobs.
 - VPI = Preise eines **Warenkorbs**. 0 % Arbeitslosigkeit ist unrealistisch (Wechsel-/Sucharbeitslosigkeit). „Angemessenes“ Wachstum ist eine **politische** Entscheidung.
 - **3 Formeln der Woche:** Arbeitslosenquote, Inflationsrate, Wirtschaftswachstum (= Änderungsrate des **realen** BIP).
@@ -206,7 +207,7 @@ Beides sind Modelle (nie rein verwirklicht). **Wirtschaftsordnung** = Art, wie e
 
 ## 4. Magisches Sechseck & Zielbeziehungen (Tag 4)
 
-- Sechseck = 4 quantitative (**kurzfristige**) StabG-Ziele + 2 **qualitative** (nicht im StabG, langfristig, nicht in einer Zahl festlegbar):
+- Sechseck = 4 quantitative (**kurzfristige**) StabG-Ziele + 2 **qualitative** (nicht im StabG, langfristig, nicht in einer Zahl festlegbar) 〔🎯 Tag 4 Folie 4 mit Sprechernotiz (nach Buch S. 173: „quantitativ … und kurzfristig“ bzw. „qualitativ … langfristig“) · Notiz Folie 5〕:
   5. **Sozial verträgliche/gerechte Einkommens- und Vermögensverteilung**
   6. **Erhaltung der natürlichen Lebensgrundlagen** (Umweltschutz)
 - **Einkommensverteilung:** Ziel = Einkommen/Vermögen gleichmäßiger auf Arbeitnehmer und Selbstständige/Vermögensbesitzer verteilen (z. B. höhere Lohnquote). Staat nur begrenzt wirksam wegen **Tarifautonomie**. Maßnahmen: gesetzlicher **Mindestlohn (13,90 € seit 01.01.2026; 14,60 € ab 01.01.2027; 12,82 € galt 2025)**, Kombilohn, Investivlohn, **Sparförderung**, **Steuerprogression** (hohe Einkommen überproportional hoch, niedrige gering/gar nicht besteuert → Umverteilung).
@@ -238,7 +239,11 @@ Beides sind Modelle (nie rein verwirklicht). **Wirtschaftsordnung** = Art, wie e
 | Boom | hohe Auslastung, Engpässe | ALO sinkt, kräftige Löhne, Fachkräftemangel | **hohe Inflation(sgefahr)**, Zinsen steigen |
 | Abschwung | Aufträge sinken, **Lager steigen** | **ALO steigt** | Preisanstieg lässt nach, pessimistisch |
 
-- Ursachen: Nachfrage, Zinsen (sinkend belebt), Außenbeitrag, Erwartungen, Politik – meist mehrere.
+- **Ursachen von Auf- und Abschwung** 〔🎯 Tag 6 Folie 6 · Buch S. 153–154〕:
+  - **Nachfrage:** steigende oder sinkende Konsum- und Investitionsnachfrage von Haushalten, Unternehmen und Staat
+  - **Geld und Ausland:** sinkende Zinsen beleben, steigende bremsen; steigender Außenbeitrag (Export > Import) belebt
+  - **Stimmung und Politik:** optimistische oder pessimistische Erwartungen; politische Ereignisse (Kriege, Friedensschlüsse)
+  - Merke: Es gibt nicht *die eine* Ursache – meist wirken mehrere Auslöser zusammen.
 - **Indikatoren:** Früh = zeigen die **kommenden Monate**; Präsenz = **augenblicklicher Stand**; Spät = Lage **mit Verzögerung**.
   - **Früh:** Auftragseingänge, Baugenehmigungen, **ifo-Geschäftsklima**, Konsumklima, Aktienkurse
   - **Präsenz:** **Kapazitätsauslastung**, BIP, Kurzarbeit, Lagerbestände
@@ -255,16 +260,18 @@ Beides sind Modelle (nie rein verwirklicht). **Wirtschaftsordnung** = Art, wie e
 
 ## 6. Geldpolitik der EZB (Tag 7)
 
-- **Vertrag von Maastricht** – Grundlage der Währungsunion. Folie: „1992 trat der Vertrag in Kraft“. Allgemein belegt: unterzeichnet 07.02.1992, in Kraft 01.11.1993. → Bei einer Klausurfrage dazu bei der Dozentin nachfragen. Euro 1999 Buchgeld (EZB übernimmt Geldpolitik), 2002 Bargeld. **Konvergenzkriterien (laut Folie):** Inflation ≤ 1,5 %-Punkte über den 3 stabilsten; **Defizit ≤ 3 %**, **Schulden ≤ 60 %** der Wirtschaftsleistung; langfristiger Zins ≤ 2 %-Punkte über den 3 preisstabilsten. Ergänzend (nicht auf der Folie): Wechselkursstabilität – mindestens 2 Jahre im WKM II ohne Abwertung.
+- **Vertrag von Maastricht** – Grundlage der Währungsunion. Folie: „1992 trat der Vertrag in Kraft“. Allgemein belegt: unterzeichnet 07.02.1992, in Kraft 01.11.1993 〔💡〕. ⚠ Die Folie verwechselt Unterzeichnung und Inkrafttreten – richtig ist: 1992 unterzeichnet, 1993 in Kraft. (Keine Quizfrage fragt danach.) Euro 1999 Buchgeld (EZB übernimmt Geldpolitik), 2002 Bargeld. **Konvergenzkriterien (laut Folie):** Inflation ≤ 1,5 %-Punkte über den 3 stabilsten; **Defizit ≤ 3 %**, **Schulden ≤ 60 %** der Wirtschaftsleistung; langfristiger Zins ≤ 2 %-Punkte über den 3 preisstabilsten. Ergänzend (nicht auf der Folie): Wechselkursstabilität – mindestens 2 Jahre im WKM II ohne Abwertung.
 - **Euroraum: 21 Länder** – zuletzt Kroatien (2023), **Bulgarien (01.01.2026)**. Nicht dabei u. a. Dänemark, Schweden, Polen, Tschechien, Ungarn, Rumänien.
 - **EZB** Frankfurt, errichtet Juni 1998, zuständig seit 01.01.1999.
   - **EZB-Rat** (Direktorium + Präsidenten der NZBen der Euro-Länder) **legt Geldpolitik fest** (beschließt Leitzinsen).
   - **Direktorium** (Präsident/-in, Vize, 4 weitere) **führt aus**, verwaltet Währungsreserven.
-  - **Erweiterter Rat** = EZB-Rat + Zentralbankpräsidenten der EU-Länder ohne Euro (beratend).
+  - **Erweiterter Rat** = EZB-Rat + Zentralbankpräsidenten der EU-Länder ohne Euro (beratend). 〔🎯 Tag 7 Folie 5〕
+    > ⚠ **Abweichung:** Die Folie vereinfacht. Laut Satzung des ESZB/der EZB (Art. 44 Abs. 2) besteht der Erweiterte Rat aus Präsident/-in und Vizepräsident/-in der EZB sowie den Präsidenten **aller** nationalen Zentralbanken der EU; die vier übrigen Direktoriumsmitglieder dürfen teilnehmen, haben aber kein Stimmrecht 〔💡〕. **Für die Klausur gilt:** die Folienfassung („EZB-Rat + Zentralbankpräsidenten der EU-Länder ohne Euro“).
 - **EZB-Rat = oberstes Gremium.** **ESZB** = EZB + NZBen **aller 27 EU-Länder**; **Eurosystem** = EZB + NZBen der **Euro-Länder**. **Bundesbank** setzt EZB-Beschlüsse in DE um.
 - **Unabhängigkeit (Art. 130 AEUV):** institutionell (keine Weisungen von Regierungen/EU-Organen), personell (Direktorium 8 Jahre, Absetzung nur durch EuGH), operativ (entscheidet selbst). **Verbot der Staatsfinanzierung**: Das Eurosystem darf keine öffentlichen Haushalte finanzieren, weil Regierungen kurzfristig an billigem Geld interessiert wären und so die Preisstabilität gefährden würden.
 - **Vorrangiges Ziel: Preisstabilität = 2 % auf mittlere Sicht, symmetrisch, gemessen am HVPI** (seit 2021, bestätigt 2025; Buch veraltet „unter, aber nahe 2 %“). **Symmetrisch** = Abweichungen nach oben **und** unten von 2 % sind gleich unerwünscht (zu niedrige Inflation ist genauso schlecht wie zu hohe). Analyse: wirtschaftliche + monetäre/finanzielle (Buch: Zwei-Säulen-Strategie).
-- **Leitzinsen (Stand 16.09.2026):** Einlagefazilität **2,50 %** (Banken legen über Nacht an; Untergrenze; steuert seit 2024 die Geldmarktzinsen) · Hauptrefinanzierungssatz **2,65 %** (klassischer Leitzins, 1 Woche gegen Sicherheiten) · Spitzenrefinanzierungsfazilität **2,90 %** (über Nacht leihen; **Obergrenze** Tagesgeldzins). 2026 zweimal +0,25 (17.06. und 16.09.).
+- **Leitzinsen (Stand 16.09.2026):** Einlagefazilität **2,50 %** (Banken legen über Nacht an; Untergrenze des Zinskorridors 〔💡, nicht auf der Folie〕; steuert seit 2024 die Geldmarktzinsen) · Hauptrefinanzierungssatz **2,65 %** (klassischer Leitzins, 1 Woche gegen Sicherheiten) · Spitzenrefinanzierungsfazilität **2,90 %** (über Nacht leihen; **Obergrenze** Tagesgeldzins). 2026 zweimal +0,25 (17.06. und 16.09.).
+- **Fachwörter:** **Fazilität** = eine Möglichkeit, die Banken jederzeit von sich aus nutzen können (Geld über Nacht anlegen oder leihen) 〔💡〕. **Kontokorrentkredit** = Kreditrahmen auf dem Geschäftskonto, den ein Unternehmen je nach Bedarf in Anspruch nimmt 〔💡〕.
 - **Instrumente:** Hauptrefinanzierungsgeschäft (wöchentlich, 1 Woche, Pensionsgeschäft oder Pfand), ständige Fazilitäten, **Mindestreserve 1 % (seit 2012; seit 09/2023 unverzinst)**, Wertpapierankäufe. **Leitzinsen = bedeutendstes Instrument.**
 - **Expansiv (belebt, Abschwung):** Zinssenkung, Mehrzuteilung, Anleihekäufe, billigere Spitzenrefi. **Restriktiv (bremst, Boom):** Zinserhöhung (auch Einlagesatz), Minderzuteilung, höhere Mindestreserve, **Anleihen verkaufen**.
 - Mindestreserve: Banken halten 1 % **bestimmter Einlagen** bei der Zentralbank. Die EZB legt **keine Steuern** fest (das ist Fiskalpolitik).

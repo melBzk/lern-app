@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 440" font-family="system-ui, sans-serif">
+  <title>Optische Maus von der Seite im Schnitt. Unten in der Maus leuchtet eine kleine Lichtquelle schräg auf den Tisch. Ein Sensor daneben fotografiert die Tischfläche und erkennt so die Bewegung. Ein Pfeil führt vom Sensor zu: Bewegungsdaten an den PC, per Kabel oder Funk. Oben an der Maus das Mausrad und die Seitentasten. Hinweis: Eine Lasermaus ist noch präziser; es gibt keine Kugel mehr, nur die Gleitflächen musst du putzen.</title>
+  <defs>
+    <marker id="pb" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#3a6ed8"/>
+    </marker>
+  </defs>
+  <rect width="400" height="440" fill="#fff"/>
+  <text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700" fill="#222">Optische Maus von der Seite</text>
+
+  <!-- Ziel -->
+  <rect x="90" y="40" width="220" height="52" rx="8" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+  <text x="200" y="61" text-anchor="middle" font-size="15" font-weight="700" fill="#1d4fb8">Bewegungsdaten an den PC</text>
+  <text x="200" y="81" text-anchor="middle" font-size="13" fill="#222">(per Kabel oder Funk)</text>
+
+  <!-- Maus -->
+  <path d="M60,280 L60,250 C60,180 120,140 200,140 C290,140 340,190 340,255 L340,280 Z" fill="#f3f4f6" stroke="#555" stroke-width="2.5"/>
+  <rect x="80" y="276" width="30" height="5" rx="2" fill="#555"/>
+  <rect x="290" y="276" width="30" height="5" rx="2" fill="#555"/>
+  <!-- Mausrad -->
+  <circle cx="116" cy="158" r="12" fill="#555"/>
+  <path d="M60,250 C60,180 120,140 200,140" fill="none" stroke="#555" stroke-width="2.5"/>
+  <!-- Seitentasten -->
+  <ellipse cx="268" cy="212" rx="13" ry="7" fill="#999" stroke="#555"/>
+  <ellipse cx="300" cy="212" rx="13" ry="7" fill="#999" stroke="#555"/>
+
+  <!-- Tisch -->
+  <rect x="10" y="281" width="380" height="14" fill="#d9c7a8"/>
+
+  <!-- Licht -->
+  <circle cx="150" cy="266" r="7" fill="#d63c3c"/>
+  <line x1="156" y1="271" x2="194" y2="281" stroke="#d63c3c" stroke-width="3" stroke-dasharray="5 3"/>
+  <line x1="196" y1="281" x2="214" y2="267" stroke="#d63c3c" stroke-width="3" stroke-dasharray="5 3"/>
+  <text x="150" y="252" text-anchor="middle" font-size="14" font-weight="700" fill="#a32020">Licht</text>
+  <!-- Sensor -->
+  <rect x="204" y="250" width="42" height="17" rx="3" fill="#3a3f4a"/>
+  <circle cx="216" cy="263" r="3" fill="#9db7e8"/>
+  <text x="252" y="264" font-size="14" font-weight="700" fill="#222">Sensor</text>
+  <line x1="225" y1="248" x2="225" y2="96" stroke="#3a6ed8" stroke-width="4" marker-end="url(#pb)"/>
+
+  <!-- Beschriftung Mausrad / Seitentasten -->
+  <text x="70" y="124" text-anchor="middle" font-size="14" font-weight="700" fill="#222">Mausrad</text>
+  <line x1="84" y1="130" x2="106" y2="148" stroke="#555" stroke-width="1.5"/>
+  <text x="330" y="124" text-anchor="middle" font-size="14" font-weight="700" fill="#222">Seitentasten</text>
+  <line x1="316" y1="130" x2="292" y2="204" stroke="#555" stroke-width="1.5"/>
+
+  <!-- Unter dem Tisch -->
+  <text x="200" y="320" text-anchor="middle" font-size="14" font-weight="700" fill="#222">Der Sensor „fotografiert“ den Tisch</text>
+  <text x="200" y="339" text-anchor="middle" font-size="13" fill="#222">und erkennt so die Bewegung</text>
+
+  <!-- Hinweis -->
+  <rect x="30" y="360" width="340" height="62" rx="8" fill="#fff3cd" stroke="#e0a800" stroke-width="2"/>
+  <text x="200" y="384" text-anchor="middle" font-size="15" font-weight="700" fill="#D4607A">Lasermaus: noch präziser</text>
+  <text x="200" y="406" text-anchor="middle" font-size="13" fill="#222">Keine Kugel mehr – nur die Gleitflächen putzen</text>
+</svg>

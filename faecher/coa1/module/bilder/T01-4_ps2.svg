@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 430" font-family="system-ui, sans-serif">
+  <title>PS/2 in drei Feldern. Erstens ältere PCs: zwei runde Buchsen, grün für die Maus und lila für die Tastatur. Zweitens heute oft nur eine Kombi-Buchse, halb grün und halb lila. Drittens der Y-Adapter: Ein Stecker kommt in die Kombi-Buchse, er teilt sich in zwei Enden für Maus und Tastatur.</title>
+  <defs>
+    <g id="loch">
+      <circle cx="-9" cy="-7" r="2.6" fill="#222"/><circle cx="9" cy="-7" r="2.6" fill="#222"/>
+      <circle cx="-12" cy="3" r="2.6" fill="#222"/><circle cx="12" cy="3" r="2.6" fill="#222"/>
+      <circle cx="-6" cy="10" r="2.6" fill="#222"/><circle cx="6" cy="10" r="2.6" fill="#222"/>
+      <rect x="-3.5" y="-4" width="7" height="7" fill="#222" fill-opacity="0.35"/>
+    </g>
+    <g id="mausicon">
+      <rect x="-12" y="-17" width="24" height="34" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+      <line x1="0" y1="-17" x2="0" y2="-3" stroke="#333" stroke-width="2"/>
+    </g>
+    <g id="tasticon">
+      <rect x="-26" y="-14" width="52" height="28" rx="3" fill="#fff" stroke="#333" stroke-width="2"/>
+      <g fill="#333">
+        <rect x="-20" y="-9" width="6" height="5"/><rect x="-11" y="-9" width="6" height="5"/><rect x="-2" y="-9" width="6" height="5"/><rect x="7" y="-9" width="6" height="5"/><rect x="16" y="-9" width="4" height="5"/>
+        <rect x="-20" y="-1" width="6" height="5"/><rect x="-11" y="-1" width="6" height="5"/><rect x="-2" y="-1" width="6" height="5"/><rect x="7" y="-1" width="6" height="5"/><rect x="16" y="-1" width="4" height="5"/>
+        <rect x="-11" y="7" width="22" height="3"/>
+      </g>
+    </g>
+  </defs>
+  <rect width="400" height="430" fill="#fff"/>
+  <text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700" fill="#222">PS/2: grün = Maus, lila = Tastatur</text>
+
+  <!-- Feld 1 -->
+  <rect x="8" y="40" width="384" height="170" rx="10" fill="#f3f4f6"/>
+  <text x="22" y="64" font-size="15" font-weight="700" fill="#222">1  Ältere PCs: zwei Buchsen</text>
+  <circle cx="120" cy="114" r="28" fill="#3fa34d" stroke="#2d7a38" stroke-width="3"/>
+  <use href="#loch" x="120" y="114"/>
+  <circle cx="280" cy="114" r="28" fill="#8e5cc4" stroke="#6b4196" stroke-width="3"/>
+  <use href="#loch" x="280" y="114"/>
+  <use href="#mausicon" x="60" y="114"/>
+  <use href="#tasticon" x="345" y="114"/>
+  <text x="120" y="172" text-anchor="middle" font-size="16" font-weight="700" fill="#2d7a38">Maus</text>
+  <text x="280" y="172" text-anchor="middle" font-size="16" font-weight="700" fill="#6b4196">Tastatur</text>
+  <text x="200" y="198" text-anchor="middle" font-size="13" fill="#555">nach dem Einstecken: Neustart (kein Hot-Plugging)</text>
+
+  <!-- Feld 2 -->
+  <rect x="8" y="222" width="140" height="200" rx="10" fill="#f3f4f6"/>
+  <text x="22" y="246" font-size="15" font-weight="700" fill="#222">2  Heute oft:</text>
+  <path d="M78,282 A30,30 0 0 0 78,342 Z" fill="#3fa34d"/>
+  <path d="M78,282 A30,30 0 0 1 78,342 Z" fill="#8e5cc4"/>
+  <circle cx="78" cy="312" r="30" fill="none" stroke="#555" stroke-width="3"/>
+  <use href="#loch" x="78" y="312"/>
+  <text x="78" y="370" text-anchor="middle" font-size="15" font-weight="700" fill="#222">Kombi-</text>
+  <text x="78" y="388" text-anchor="middle" font-size="15" font-weight="700" fill="#222">Buchse</text>
+  <text x="78" y="408" text-anchor="middle" font-size="13" fill="#555">(nur eine)</text>
+
+  <!-- Feld 3 -->
+  <rect x="158" y="222" width="234" height="200" rx="10" fill="#f3f4f6"/>
+  <text x="172" y="246" font-size="15" font-weight="700" fill="#222">3  Y-Adapter</text>
+  <path d="M186,300 A16,16 0 0 0 186,332 Z" fill="#3fa34d"/>
+  <path d="M186,300 A16,16 0 0 1 186,332 Z" fill="#8e5cc4"/>
+  <circle cx="186" cy="316" r="16" fill="none" stroke="#555" stroke-width="2"/>
+  <text x="186" y="356" text-anchor="middle" font-size="13" fill="#222">in die</text>
+  <text x="186" y="372" text-anchor="middle" font-size="13" fill="#222">Kombi-</text>
+  <text x="186" y="388" text-anchor="middle" font-size="13" fill="#222">Buchse</text>
+  <path d="M202,316 H236" stroke="#555" stroke-width="5" fill="none"/>
+  <path d="M236,316 C262,316 266,282 296,282" stroke="#555" stroke-width="5" fill="none"/>
+  <path d="M236,316 C262,316 266,350 296,350" stroke="#555" stroke-width="5" fill="none"/>
+  <circle cx="306" cy="282" r="12" fill="#3fa34d" stroke="#2d7a38" stroke-width="2"/>
+  <circle cx="306" cy="350" r="12" fill="#8e5cc4" stroke="#6b4196" stroke-width="2"/>
+  <use href="#mausicon" x="348" y="282"/>
+  <use href="#tasticon" x="352" y="388"/>
+  <line x1="318" y1="350" x2="340" y2="372" stroke="#555" stroke-width="2"/>
+</svg>

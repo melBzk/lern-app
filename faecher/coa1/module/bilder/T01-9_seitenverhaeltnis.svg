@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 560" font-family="system-ui, sans-serif">
+  <title>Vier Bildschirmformate, alle gleich hoch, unterschiedlich breit: 4:3 (früher, wegen der Röhre), 16:10, 16:9 (wie im Kino) und 21:9 Ultrawide. Darunter ein gewölbter 21:9-Bildschirm von oben gesehen: Ein Auge davor, gleich lange Pfeile zur Mitte und zu den Rändern. Curved: Die Ränder sind gleich weit weg wie die Mitte.</title>
+  <defs>
+    <marker id="po" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#E07B00"/>
+    </marker>
+  </defs>
+  <rect width="400" height="560" fill="#fff"/>
+  <text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700" fill="#222">Seitenverhältnis = Breite : Höhe</text>
+
+  <!-- gleich hoch: 60 -->
+  <g stroke="#3a6ed8" stroke-width="2.5" fill="#dfe8f6">
+    <rect x="20" y="50" width="80" height="60" rx="3"/>
+    <rect x="20" y="126" width="96" height="60" rx="3"/>
+    <rect x="20" y="202" width="107" height="60" rx="3"/>
+    <rect x="20" y="278" width="140" height="60" rx="3"/>
+  </g>
+  <rect x="20" y="50" width="80" height="60" rx="3" fill="none" stroke="#999" stroke-width="2.5" stroke-dasharray="6 4"/>
+
+  <text x="180" y="78" font-size="17" font-weight="700" fill="#222">4:3</text>
+  <text x="180" y="98" font-size="14" fill="#555">früher, wegen der Röhre</text>
+  <text x="180" y="162" font-size="17" font-weight="700" fill="#222">16:10</text>
+  <text x="180" y="230" font-size="17" font-weight="700" fill="#222">16:9</text>
+  <text x="180" y="250" font-size="14" fill="#555">wie im Kino</text>
+  <text x="180" y="306" font-size="17" font-weight="700" fill="#222">21:9</text>
+  <text x="180" y="326" font-size="14" fill="#555">Ultrawide</text>
+
+  <line x1="10" y1="356" x2="390" y2="356" stroke="#ddd" stroke-width="1"/>
+
+  <!-- Curved von oben -->
+  <text x="200" y="380" text-anchor="middle" font-size="15" font-weight="700" fill="#222">21:9 Curved, von oben gesehen</text>
+  <path d="M108,447 A120,120 0 0 1 292,447" fill="none" stroke="#3a6ed8" stroke-width="7" stroke-linecap="round"/>
+  <text x="300" y="420" font-size="13" fill="#555">gewölbt</text>
+  <!-- Pfeile vom Auge (200,524), Länge bis kurz vor den Bogen -->
+  <g stroke="#E07B00" stroke-width="2.5" marker-end="url(#po)">
+    <line x1="200" y1="508" x2="200" y2="414"/>
+    <line x1="188" y1="512" x2="116" y2="456"/>
+    <line x1="212" y1="512" x2="284" y2="456"/>
+  </g>
+  <!-- Auge -->
+  <path d="M182,524 Q200,508 218,524 Q200,540 182,524 Z" fill="#fff" stroke="#222" stroke-width="2"/>
+  <circle cx="200" cy="524" r="5" fill="#222"/>
+  <text x="200" y="552" text-anchor="middle" font-size="14" font-weight="700" fill="#E07B00">Ränder gleich weit weg wie die Mitte</text>
+</svg>

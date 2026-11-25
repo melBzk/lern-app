@@ -8,90 +8,92 @@
 // a = Nummer der richtigen Antwort (ab 1)
 const MC = [
  {sit:"Situation zur 1. bis 5. Aufgabe", unit:"Unit 1", text:"Sie beginnen Ihre Ausbildung in einem IT-Unternehmen und lernen die Firma, ihre Abteilungen und verschiedene Unternehmensarten kennen."},
- {q:"What is a <b>subsidiary</b>?", o:["A company that is owned by a larger parent company","The main office of a company","A company that is run by a family","A department that handles legal issues","A new company without any customers"], a:1, ex:"subsidiary = Tochtergesellschaft. Die Hauptverwaltung heißt head office bzw. headquarters."},
- {q:"Which description fits a <b>start-up</b>?", o:["A company with formalized processes and long-term strategic goals","A company operating in many countries with global infrastructure","A new, agile company that usually can't survive without outside investment","A company owned by the government","A company that only sells hardware"], a:3, ex:"Start-ups sind agil und schnell, aber oft auf Investoren angewiesen. Formalisierte Prozesse kennzeichnen große Unternehmen, globale Infrastruktur multinationale Konzerne. (Stoff der revised-Ausgabe, in den Unterrichtsnotizen nicht belegt.)"},
- {q:"What does <b>SaaS</b> mean?", o:["Security and Antivirus Service","Software as a Service – software that runs in the cloud and is rented by subscription","Storage and Archive System","Server as a Station","Software and Support Standard"], a:2, ex:"SaaS: Man mietet die Software (Abo) und nutzt sie über das Internet, statt sie lokal zu installieren."},
- {q:"Which department <i>makes sure that software meets technical standards</i>?", o:["Human Resources","Sales &amp; Marketing","Legal Department","Quality Assurance","Customer Service"], a:4, ex:"QA = Qualitätssicherung. HR = Personal, R&amp;D = Forschung und Entwicklung."},
- {type:"match", q:"Ordnen Sie die Abteilung der Aufgabe zu!", ref:"<b>Abteilungen:</b> 1. Human Resources · 2. Research &amp; Development · 3. Customer Service", rows:["recruits and trains new employees","creates innovative new products","answers customer questions and complaints","handles staff relations and benefits"], a:[1,2,3,1], ex:"HR kümmert sich um Personal (Einstellung, Schulung, Zusatzleistungen). R&amp;D entwickelt neue Produkte. Customer Service betreut Kundenanfragen."},
+ {q:"What is a <b>subsidiary</b>?", o:["A company that is owned by a larger parent company","The main office of a company","A company that is run by a family","A department that handles legal issues","A new company without any customers"], a:1, ex:"subsidiary = Tochtergesellschaft. Die Hauptverwaltung heißt head office bzw. headquarters.", lv:1, s:"Buch 2018 S. 8 (Toolbox) · Vokabelheft"},
+ {q:"Which description fits a <b>start-up</b>?", o:["A company with formalized processes and long-term strategic goals","A company operating in many countries with global infrastructure","A new, agile company that usually can't survive without outside investment","A company owned by the government","A company that only sells hardware"], a:3, ex:"Start-ups sind agil und schnell, aber oft auf Investoren angewiesen. Formalisierte Prozesse kennzeichnen große Unternehmen, globale Infrastruktur multinationale Konzerne. (Stoff der revised-Ausgabe, in den Unterrichtsnotizen nicht belegt.)", lv:2, s:"revised-Ausgabe Unit 1 (Types of companies), im Unterricht nicht belegt"},
+ {q:"What does <b>SaaS</b> mean?", o:["Security and Antivirus Service","Software as a Service – software that runs in the cloud and is rented by subscription","Storage and Archive System","Server as a Station","Software and Support Standard"], a:2, ex:"SaaS: Man mietet die Software (Abo) und nutzt sie über das Internet, statt sie lokal zu installieren.", lv:1, s:"revised-Ausgabe Unit 1 Part A, im Unterricht nicht belegt"},
+ {q:"Which department <i>makes sure that software meets technical standards</i>?", o:["Human Resources","Sales &amp; Marketing","Legal Department","Quality Assurance","Customer Service"], a:4, ex:"QA = Qualitätssicherung. HR = Personal, R&amp;D = Forschung und Entwicklung.", lv:1, s:"Buch 2018 S. 8–9 (Abteilungen)"},
+ {type:"match", q:"Ordnen Sie die Abteilung der Aufgabe zu!", ref:"<b>Abteilungen:</b> 1. Human Resources · 2. Research &amp; Development · 3. Customer Service", rows:["recruits and trains new employees","creates innovative new products","answers customer questions and complaints","handles staff relations and benefits"], a:[1,2,3,1], ex:"HR kümmert sich um Personal (Einstellung, Schulung, Zusatzleistungen). R&amp;D entwickelt neue Produkte. Customer Service betreut Kundenanfragen.", lv:2, s:"Buch 2018 S. 8–9 (Abteilungen)"},
 
  {sit:"Situation zur 6. bis 12. Aufgabe", unit:"Unit 2", text:"Sie arbeiten in einem Softwareprojekt. Sie lernen die IT-Rollen im Team kennen und besprechen Arbeitsmodelle mit der Personalabteilung."},
- {q:"What does a <b>software tester</b> mainly do?", o:["Writes the marketing plan","Creates test scenarios and test data and finds bugs before users do","Delivers the project on time and on budget","Designs the company logo","Negotiates contracts with customers"], a:2, ex:"Der Tester prüft die Software gegen die requirements. Für Termine und Budget ist der Project Manager zuständig."},
- {q:"What is a <b>deliverable</b>?", o:["A delivery truck","A result or product that has to be handed over in a project","A software error","A meeting with the customer","A type of contract"], a:2, ex:"deliverable = Liefergegenstand, z. B. ein fertiges Modell, ein Testplan oder ein Bericht."},
- {q:"What does <b>KPI</b> stand for?", o:["Key Performance Indicator – a figure used to measure success","Keyboard Port Interface","Known Problem Index","Key Project Investment","Kernel Process Information"], a:1, ex:"Mit KPIs wie Umsatz oder Anzahl neuer Kunden misst man den Erfolg."},
- {q:"A <b>vulnerability</b> in an information system is …", o:["a backup copy","a weakness that attackers could use","a new feature","a fast network connection","a user manual"], a:2, ex:"vulnerability = Schwachstelle. Ein breach ist dagegen ein erfolgreicher Angriff oder ein Datenleck."},
- {q:"What does it mean to <b>deploy</b> software?", o:["To delete it","To write the code for it","To install it and make it available for use","To test it on paper","To sell it to a competitor"], a:3, ex:"deploy = bereitstellen, in Betrieb nehmen (z. B. in die production environment)."},
- {q:"What is a <b>compressed work week</b>?", o:["Working only from home","Working full-time hours on fewer days","Being paid only for results","Working part-time","Choosing any working hours without core time"], a:2, ex:"Ein Beispiel ist vier Tage à 10 Stunden. ROWE bedeutet: Es zählt nur das Ergebnis. Flexible hours bedeutet: freie Zeiteinteilung mit Kernzeit. (Stoff der revised-Ausgabe, in den Unterrichtsnotizen nicht belegt.)"},
- {q:"Complete: <i>„We get too ___ emails, and we spend too ___ time answering them.“</i>", o:["much – many","many – much","a lot – many","few – much","much – much"], a:2, ex:"emails sind zählbar → many. time ist unzählbar → much."},
+ {q:"What does a <b>software tester</b> mainly do?", o:["Writes the marketing plan","Creates test scenarios and test data and finds bugs before users do","Delivers the project on time and on budget","Designs the company logo","Negotiates contracts with customers"], a:2, ex:"Der Tester prüft die Software gegen die requirements. Für Termine und Budget ist der Project Manager zuständig.", lv:1, s:"Buch 2018 S. 17 (Job profiles)"},
+ {q:"What is a <b>deliverable</b>?", o:["A delivery truck","A result or product that has to be handed over in a project","A software error","A meeting with the customer","A type of contract"], a:2, ex:"deliverable = Liefergegenstand, z. B. ein fertiges Modell, ein Testplan oder ein Bericht.", lv:1, s:"revised-Ausgabe Unit 2 Part A"},
+ {q:"What does <b>KPI</b> stand for?", o:["Key Performance Indicator – a figure used to measure success","Keyboard Port Interface","Known Problem Index","Key Project Investment","Kernel Process Information"], a:1, ex:"Mit KPIs wie Umsatz oder Anzahl neuer Kunden misst man den Erfolg.", lv:1, s:"revised-Ausgabe Unit 2 Part A (Product Manager) · Mitschrift Unit 7"},
+ {q:"A <b>vulnerability</b> in an information system is …", o:["a backup copy","a weakness that attackers could use","a new feature","a fast network connection","a user manual"], a:2, ex:"vulnerability = Schwachstelle. Ein breach ist dagegen ein erfolgreicher Angriff oder ein Datenleck.", lv:1, s:"revised-Ausgabe Unit 2 Part A (Security Engineer)"},
+ {q:"What does it mean to <b>deploy</b> software?", o:["To delete it","To write the code for it","To install it and make it available for use","To test it on paper","To sell it to a competitor"], a:3, ex:"deploy = bereitstellen, in Betrieb nehmen (z. B. in die production environment).", lv:1, s:"Buch 2018 S. 40 (Toolbox) · revised-Ausgabe Unit 2"},
+ {q:"What is a <b>compressed work week</b>?", o:["Working only from home","Working full-time hours on fewer days","Being paid only for results","Working part-time","Choosing any working hours without core time"], a:2, ex:"Ein Beispiel ist vier Tage à 10 Stunden. ROWE bedeutet: Es zählt nur das Ergebnis. Flexible hours bedeutet: freie Zeiteinteilung mit Kernzeit. (Stoff der revised-Ausgabe, in den Unterrichtsnotizen nicht belegt.)", lv:2, s:"revised-Ausgabe Unit 2 (Working conditions), im Unterricht nicht belegt"},
+ {q:"Complete: <i>„We get too ___ emails, and we spend too ___ time answering them.“</i>", o:["much – many","many – much","a lot – many","few – much","much – much"], a:2, ex:"emails sind zählbar → many. time ist unzählbar → much.", lv:3, s:"Buch 2018 S. 166 (Grammar: much, many) · Unit 2"},
 
  {sit:"Situation zur 13. bis 21. Aufgabe", unit:"Unit 3", text:"Sie arbeiten im IT-Support. Sie erklären neuen Kolleginnen und Kollegen Benutzeroberflächen, Hardware und Software-Einstellungen."},
- {q:"What is a <b>GUI</b>?", o:["A programming language","A graphical user interface that lets users control a computer with windows, icons and menus","A type of cable","A security protocol","A hard disk"], a:2, ex:"GUI = Graphical User Interface (grafische Benutzeroberfläche). Das Gegenteil ist eine Kommandozeile, bei der man Befehle eintippt."},
- {q:"Which GUI element lets you select <b>exactly one</b> option from a set of options?", o:["Check box","Text field","Radio button","Button","Search bar"], a:3, ex:"radio button = genau eine Option. check box = an/aus. drop-down = Auswahl aus einer versteckten Liste."},
- {q:"How do you <b>zoom in</b> on a smartphone?", o:["Pinch two fingers together","Spread two fingers apart","Swipe left","Press and hold","Two-finger tap"], a:2, ex:"spread = zoom in, pinch = zoom out."},
- {q:"What is <b>RAM</b>?", o:["Permanent storage for files","The temporary working memory of a computer","A type of monitor","A network cable","The graphics card"], a:2, ex:"RAM = Arbeitsspeicher, flüchtig (die Daten sind beim Ausschalten weg). Dauerhaft gespeichert wird auf SSD oder HDD."},
- {q:"What is the main advantage of an <b>SSD</b> compared to an HDD?", o:["It is always cheaper per GB","It is faster because it has no moving parts","It has spinning disks","It can only store music","It needs no power"], a:2, ex:"SSD = Solid-State-Drive (Flash-Speicher). Eine HDD hat rotierende Magnetscheiben und ist langsamer."},
- {q:"What is a <b>docking station</b> used for?", o:["To charge only smartphones","To connect a laptop with one cable to monitors, keyboard, mouse and power","To print documents","To cool the processor","To store backups in the cloud"], a:2, ex:"Laptop per USB-C anschließen, Monitore per HDMI/DisplayPort ans Dock."},
- {q:"What does it mean to <b>pair</b> a wireless headset?", o:["To buy two headsets","To connect it wirelessly (e.g. via Bluetooth) with a device","To clean it","To set the volume","To update the firmware"], a:2, ex:"pair = koppeln."},
- {q:"What is <b>bandwidth</b>?", o:["The width of a monitor","The amount of data that can be transferred per second","The length of a network cable","The number of users in a meeting","The size of a hard drive"], a:2, ex:"Wenn Video standardmäßig aus ist, spart man Bandbreite."},
- {q:"Complete: <i>„If we ___ file sharing, we ___ the security risk.“</i>", o:["will disable – reduce","disable – will reduce","disabled – will reduce","disable – reduced","would disable – will reduce"], a:2, ex:"Conditional 1: If + simple present, will + Infinitiv. Im if-Satz steht kein will."},
+ {q:"What is a <b>GUI</b>?", o:["A programming language","A graphical user interface that lets users control a computer with windows, icons and menus","A type of cable","A security protocol","A hard disk"], a:2, ex:"GUI = Graphical User Interface (grafische Benutzeroberfläche). Das Gegenteil ist eine Kommandozeile, bei der man Befehle eintippt.", lv:1, s:"Buch 2018 S. 36 (Unit 4 Foundation: GUIs)"},
+ {q:"Which GUI element lets you select <b>exactly one</b> option from a set of options?", o:["Check box","Text field","Radio button","Button","Search bar"], a:3, ex:"radio button = genau eine Option. check box = an/aus. drop-down = Auswahl aus einer versteckten Liste.", lv:1, s:"Buch 2018 S. 41 (Software configuration)"},
+ {q:"How do you <b>zoom in</b> on a smartphone?", o:["Pinch two fingers together","Spread two fingers apart","Swipe left","Press and hold","Two-finger tap"], a:2, ex:"spread = zoom in, pinch = zoom out.", lv:1, s:"Buch 2018 S. 37 (Gesten)"},
+ {q:"What is <b>RAM</b>?", o:["Permanent storage for files","The temporary working memory of a computer","A type of monitor","A network cable","The graphics card"], a:2, ex:"RAM = Arbeitsspeicher, flüchtig (die Daten sind beim Ausschalten weg). Dauerhaft gespeichert wird auf SSD oder HDD.", lv:1, s:"Buch 2018 S. 26–27 (Hardware components)"},
+ {q:"What is the main advantage of an <b>SSD</b> compared to an HDD?", o:["It is always cheaper per GB","It is faster because it has no moving parts","It has spinning disks","It can only store music","It needs no power"], a:2, ex:"SSD = Solid-State-Drive (Flash-Speicher). Eine HDD hat rotierende Magnetscheiben und ist langsamer.", lv:2, s:"revised-Ausgabe Unit 3 · Vokabelheft"},
+ {q:"What is a <b>docking station</b> used for?", o:["To charge only smartphones","To connect a laptop with one cable to monitors, keyboard, mouse and power","To print documents","To cool the processor","To store backups in the cloud"], a:2, ex:"Laptop per USB-C anschließen, Monitore per HDMI/DisplayPort ans Dock.", lv:1, s:"revised-Ausgabe Unit 3 Part A (Hardware set-ups)"},
+ {q:"What does it mean to <b>pair</b> a wireless headset?", o:["To buy two headsets","To connect it wirelessly (e.g. via Bluetooth) with a device","To clean it","To set the volume","To update the firmware"], a:2, ex:"pair = koppeln.", lv:1, s:"revised-Ausgabe Unit 3 Part A (Hardware set-ups)"},
+ {q:"What is <b>bandwidth</b>?", o:["The width of a monitor","The amount of data that can be transferred per second","The length of a network cable","The number of users in a meeting","The size of a hard drive"], a:2, ex:"Wenn Video standardmäßig aus ist, spart man Bandbreite.", lv:1, s:"Buch 2018 S. 72 (Toolbox) · revised-Ausgabe Unit 3 Part B"},
+ {q:"Complete: <i>„If we ___ file sharing, we ___ the security risk.“</i>", o:["will disable – reduce","disable – will reduce","disabled – will reduce","disable – reduced","would disable – will reduce"], a:2, ex:"Conditional 1: If + simple present, will + Infinitiv. Im if-Satz steht kein will.", lv:3, s:"Buch 2018 S. 164 (Conditional sentences) · revised-Ausgabe Unit 3 Part B"},
 
  {sit:"Situation zur 22. bis 32. Aufgabe", unit:"Unit 4", text:"Sie arbeiten in einem Agile-Team an einer App. Später planen Sie das WLAN für ein neues Büro und helfen bei der Entscheidung zwischen Cloud und eigener Infrastruktur."},
- {q:"Which statement describes <b>Agile</b> software development?", o:["The plan is fixed upfront and phases follow one after another.","Teams work in short iterative cycles (sprints) and get feedback continuously.","The project manager assigns every task and teams work in silos.","Customer feedback is only collected at the end.","Changes are not allowed once the project has started."], a:2, ex:"Alle anderen Antworten beschreiben traditionelle Projekte (z. B. Wasserfall)."},
- {q:"What is a <b>blocker</b> in a stand-up meeting?", o:["A team member who talks too much","A problem that is stopping progress","A firewall","A finished task","A new feature"], a:2, ex:"Die drei Stand-up-Fragen: What did I do yesterday? What will I do today? Are there any blockers?"},
- {q:"What is the <b>backend</b> of a software program?", o:["The part the user sees, like buttons and menus","The part the user doesn't see, like the logic, server and database","The last page of the manual","The keyboard and mouse","The design draft of an interface"], a:2, ex:"frontend = Benutzeroberfläche, backend = unsichtbare Logik und Daten. Ein wireframe ist ein UI-Entwurf."},
- {q:"What is an <b>API</b>?", o:["A type of monitor","An interface that allows two software programs to communicate and exchange data","A virus scanner","A wireless access point","A project plan"], a:2, ex:"API = Application Programming Interface (Programmierschnittstelle). Beispiel: Ein Online-Shop spricht über eine API mit dem Zahlungsdienst."},
- {q:"What is a <b>token</b> in software?", o:["A coin for the coffee machine","A small piece of data used to identify a user","A large database","A type of chart","A wireless router"], a:2, ex:"Läuft ein authorization token zu früh ab, wird der Nutzer abgemeldet."},
- {q:"What does an <b>access point</b> do?", o:["It prints documents","It lets wireless devices connect to a wired network by broadcasting a Wi-Fi signal","It stores backups","It measures room temperature","It encrypts emails"], a:2, ex:"AP = WLAN-Zugangspunkt. Die SSID ist der Name des WLANs."},
- {q:"What is <b>latency</b>?", o:["The amount of data per second","The time it takes for data to travel from source to destination","The name of a Wi-Fi network","An area without signal","The price of a router"], a:2, ex:"latency = Verzögerung. Bandbreite (bandwidth) ist dagegen die Datenmenge pro Sekunde."},
- {q:"What is a <b>dead zone</b> in a wireless network?", o:["An area with no Wi-Fi signal","A crashed server","A deleted file","A network with too many users","A secure password zone"], a:1, ex:"dead zone = Funkloch. Mehr access points verbessern die coverage (Abdeckung)."},
- {q:"What does <b>on-premise</b> infrastructure mean?", o:["Servers rented from a cloud provider","The company's own servers and hardware on its own premises","Software on a smartphone","A temporary network","Data stored only on paper"], a:2, ex:"on-premise = lokal, im eigenen Haus. Gegenteil: cloud computing über einen Drittanbieter."},
- {q:"What is the main purpose of the <b>GDPR</b>?", o:["To make cloud services cheaper","To protect the privacy and rights of individuals regarding their personal data","To set standards for Wi-Fi speed","To control international trade","To regulate working hours"], a:2, ex:"GDPR = DSGVO. Sie regelt das Sammeln, Verarbeiten und Speichern personenbezogener Daten und gilt für alle, die in der EU tätig sind oder Daten von EU-Bürgern verarbeiten."},
- {q:"Complete: <i>„___ the higher costs, the cloud is a good option for us.“</i>", o:["Although","Even though","Despite","Unless","However"], a:3, ex:"Nach despite steht ein Nomen oder eine -ing-Form. Nach although/even though steht ein ganzer Satz: Although the costs are higher, …"},
+ {q:"Which statement describes <b>Agile</b> software development?", o:["The plan is fixed upfront and phases follow one after another.","Teams work in short iterative cycles (sprints) and get feedback continuously.","The project manager assigns every task and teams work in silos.","Customer feedback is only collected at the end.","Changes are not allowed once the project has started."], a:2, ex:"Alle anderen Antworten beschreiben traditionelle Projekte (z. B. Wasserfall).", lv:2, s:"Mitschrift Unit 4 (Agile, Stand-up)"},
+ {q:"What is a <b>blocker</b> in a stand-up meeting?", o:["A team member who talks too much","A problem that is stopping progress","A firewall","A finished task","A new feature"], a:2, ex:"Die drei Stand-up-Fragen: What did I do yesterday? What will I do today? Are there any blockers?", lv:1, s:"Mitschrift Unit 4 (Stand-up)"},
+ {q:"What is the <b>backend</b> of a software program?", o:["The part the user sees, like buttons and menus","The part the user doesn't see, like the logic, server and database","The last page of the manual","The keyboard and mouse","The design draft of an interface"], a:2, ex:"frontend = Benutzeroberfläche, backend = unsichtbare Logik und Daten. Ein wireframe ist ein UI-Entwurf.", lv:1, s:"Mitschrift Unit 4"},
+ {q:"What is an <b>API</b>?", o:["A type of monitor","An interface that allows two software programs to communicate and exchange data","A virus scanner","A wireless access point","A project plan"], a:2, ex:"API = Application Programming Interface (Programmierschnittstelle). Beispiel: Ein Online-Shop spricht über eine API mit dem Zahlungsdienst.", lv:1, s:"Mitschrift Unit 4"},
+ {q:"What is a <b>token</b> in software?", o:["A coin for the coffee machine","A small piece of data used to identify a user","A large database","A type of chart","A wireless router"], a:2, ex:"Läuft ein authorization token zu früh ab, wird der Nutzer abgemeldet.", lv:1, s:"Mitschrift Unit 4"},
+ {q:"What does an <b>access point</b> do?", o:["It prints documents","It lets wireless devices connect to a wired network by broadcasting a Wi-Fi signal","It stores backups","It measures room temperature","It encrypts emails"], a:2, ex:"AP = WLAN-Zugangspunkt. Die SSID ist der Name des WLANs.", lv:1, s:"Buch 2018 S. 72–74 · Mitschrift Unit 4"},
+ {q:"What is <b>latency</b>?", o:["The amount of data per second","The time it takes for data to travel from source to destination","The name of a Wi-Fi network","An area without signal","The price of a router"], a:2, ex:"latency = Verzögerung. Bandbreite (bandwidth) ist dagegen die Datenmenge pro Sekunde.", lv:1, s:"Vokabelheft · revised-Ausgabe Unit 4 Part A"},
+ {q:"What is a <b>dead zone</b> in a wireless network?", o:["An area with no Wi-Fi signal","A crashed server","A deleted file","A network with too many users","A secure password zone"], a:1, ex:"dead zone = Funkloch. Mehr access points verbessern die coverage (Abdeckung).", lv:1, s:"revised-Ausgabe Unit 4 Part A · Buch 2018 S. 73 (coverage gap)"},
+ {q:"What does <b>on-premise</b> infrastructure mean?", o:["Servers rented from a cloud provider","The company's own servers and hardware on its own premises","Software on a smartphone","A temporary network","Data stored only on paper"], a:2, ex:"on-premise = lokal, im eigenen Haus. Gegenteil: cloud computing über einen Drittanbieter.", lv:1, s:"Vokabelheft · revised-Ausgabe Unit 4 Part B"},
+ {q:"What is the main purpose of the <b>GDPR</b>?", o:["To make cloud services cheaper","To protect the privacy and rights of individuals regarding their personal data","To set standards for Wi-Fi speed","To control international trade","To regulate working hours"], a:2, ex:"GDPR = DSGVO. Sie regelt das Sammeln, Verarbeiten und Speichern personenbezogener Daten und gilt für alle, die in der EU tätig sind oder Daten von EU-Bürgern verarbeiten.", lv:2, s:"Mitschrift Unit 4 (GDPR)"},
+ {q:"Complete: <i>„___ the higher costs, the cloud is a good option for us.“</i>", o:["Although","Even though","Despite","Unless","However"], a:3, ex:"Nach despite steht ein Nomen oder eine -ing-Form. Nach although/even though steht ein ganzer Satz: Although the costs are higher, …", lv:3, s:"Buch 2018 S. 76–77 (Local or cloud?) · Unit 4 Part B"},
 
  {sit:"Situation zur 33. bis 39. Aufgabe", unit:"Unit 7", text:"Sie arbeiten im Kundensupport eines Softwareanbieters für ERP-Systeme. Sie bearbeiten Tickets und erklären Kunden ihr Dashboard."},
- {q:"What is an <b>ERP system</b>?", o:["A program for editing photos","Software that manages and integrates business processes like finance, HR, production, sales and inventory in one central system","A type of network cable","A social media platform","An antivirus program"], a:2, ex:"ERP = Enterprise Resource Planning. CRM = Kundenbeziehungen, SCM = Lieferkette."},
- {q:"What is a <b>CRM</b> system used for?", o:["Managing customer data, contacts, leads and sales","Cooling servers","Writing source code","Managing Wi-Fi access points","Editing videos"], a:1, ex:"CRM = Customer Relationship Management."},
- {q:"In a support ticket, what does <b>severity</b> describe?", o:["How fast the problem must be fixed","How bad the problem is","Who reported the problem","The date of the ticket","The cost of the solution"], a:2, ex:"Severity = wie schlimm. Priority = wie dringend."},
- {q:"A ticket has the status <b>backlog</b>. What does that mean?", o:["It has been fixed","It has been logged but is not yet scheduled","It was deleted","It is being worked on right now","It was sent to the customer"], a:2, ex:"Weitere Status: open, in progress, pending, on hold, closed. „deferred“ (verschoben) ist dagegen ein Wert im Feld Resolution, ebenso fixed oder incomplete."},
- {q:"Which chart is best to show <b>parts of a whole</b> (percentages)?", o:["Line chart","Pie chart","Funnel chart","Map chart","Numeric card"], a:2, ex:"pie chart = Anteile, line chart = Trend über Zeit, bar chart = Vergleich."},
- {q:"What is a <b>sandbox</b> environment?", o:["A playground for children","A safe test environment where updates are tested before deployment","The main production server","A cloud storage folder","A backup tape"], a:2, ex:"Gehört zu den Preventative measures im Incident Report: Updates erst in der Sandbox testen."},
- {q:"Which phrase do you use to <b>confirm a customer's symptoms</b>?", o:["You can resolve this by …","Just to confirm, are you experiencing …?","Alternatively, you can try …","If this does not work, you might also consider …","Typical signs include …"], a:2, ex:"Ablauf einer FAQ: issue → symptoms → confirm → solution → alternative."},
+ {q:"What is an <b>ERP system</b>?", o:["A program for editing photos","Software that manages and integrates business processes like finance, HR, production, sales and inventory in one central system","A type of network cable","A social media platform","An antivirus program"], a:2, ex:"ERP = Enterprise Resource Planning. CRM = Kundenbeziehungen, SCM = Lieferkette.", lv:1, s:"Mitschrift Unit 7"},
+ {q:"What is a <b>CRM</b> system used for?", o:["Managing customer data, contacts, leads and sales","Cooling servers","Writing source code","Managing Wi-Fi access points","Editing videos"], a:1, ex:"CRM = Customer Relationship Management.", lv:1, s:"Mitschrift Unit 7"},
+ {q:"In a support ticket, what does <b>severity</b> describe?", o:["How fast the problem must be fixed","How bad the problem is","Who reported the problem","The date of the ticket","The cost of the solution"], a:2, ex:"Severity = wie schlimm. Priority = wie dringend.", lv:2, s:"Mitschrift Unit 7 (Ticketing)"},
+ {q:"A ticket has the status <b>backlog</b>. What does that mean?", o:["It has been fixed","It has been logged but is not yet scheduled","It was deleted","It is being worked on right now","It was sent to the customer"], a:2, ex:"Weitere Status: open, in progress, pending, on hold, closed. „deferred“ (verschoben) ist dagegen ein Wert im Feld Resolution, ebenso fixed oder incomplete.", lv:2, s:"Mitschrift Unit 7 (Ticketing)"},
+ {q:"Which chart is best to show <b>parts of a whole</b> (percentages)?", o:["Line chart","Pie chart","Funnel chart","Map chart","Numeric card"], a:2, ex:"pie chart = Anteile, line chart = Trend über Zeit, bar chart = Vergleich.", lv:2, s:"revised-Ausgabe Unit 7 Part A (Dashboard)"},
+ {q:"What is a <b>sandbox</b> environment?", o:["A playground for children","A safe test environment where updates are tested before deployment","The main production server","A cloud storage folder","A backup tape"], a:2, ex:"Gehört zu den Preventative measures im Incident Report: Updates erst in der Sandbox testen.", lv:2, s:"Mitschrift Unit 7 (Incident Report)"},
+ {q:"Which phrase do you use to <b>confirm a customer's symptoms</b>?", o:["You can resolve this by …","Just to confirm, are you experiencing …?","Alternatively, you can try …","If this does not work, you might also consider …","Typical signs include …"], a:2, ex:"Ablauf einer FAQ: issue → symptoms → confirm → solution → alternative.", lv:2, s:"revised-Ausgabe Unit 7 Part B (FAQ)"},
 
- {sit:"Situation zur 40. bis 45. Aufgabe", unit:"Unit 11", text:"Sie arbeiten bei einer Beratungsfirma für Digitalisierung und erklären Kunden Begriffe rund um digitale Transformation und das Internet der Dinge."},
- {q:"What is <b>digitalization</b> (of a country)?", o:["Printing all documents","Integrating digital technologies into society, economy and government","Buying new computers for one office","Replacing all workers with robots","Using social media only"], a:2, ex:"Ziele: bessere öffentliche Dienste, Wachstum, Effizienz, Innovation."},
- {q:"What does <b>IoT</b> stand for?", o:["Internet of Things – devices with sensors that collect and share data","Integration of Technology","Input/Output Terminal","International Online Trade","Internet over Telephone"], a:1, ex:"Beispiele: smart thermostat, smartwatch, vernetzte Rauchmelder."},
- {q:"What does <b>interoperability</b> mean?", o:["Working without a computer","The ability of different systems to work together and exchange data","A type of surgery","Very fast internet","Working from home"], a:2, ex:"Gemeinsame Standards sorgen für Interoperabilität."},
- {q:"What is the <b>digital divide</b>?", o:["A broken network cable","The gap between people with and without access to technology or digital skills","Dividing a hard drive into parts","A new smartphone model","The border between two countries"], a:2, ex:"Ein Risiko der Digitalisierung, z. B. für ältere Menschen oder ländliche Regionen."},
- {q:"What is a <b>blockchain</b>?", o:["A chain for locking a laptop","A secure, shared digital record of transactions that is very hard to change","A type of firewall","A slow internet connection","A list of blocked websites"], a:2, ex:"Einsatz z. B. zur Prüfung der Echtheit von Dokumenten oder für Zahlungen."},
- {q:"IoT devices collect a lot of raw data. What is the <b>first step</b> to make this data useful?", o:["Data interpretation","Data cleaning – removing errors and handling missing values","Deleting all data","Printing the data","Selling the data"], a:2, ex:"Die Reihenfolge lautet: data cleaning → data structuring → data interpretation."}
+ // Achtung: Stoff der revised-Ausgabe (Unit 11 Digitalization). Laut Rotem Faden war am 19.11. Unit 11 „Problems and complaints“ (Buch 2018) dran – Fragen dazu siehe U11 unten.
+ {sit:"Situation zur 40. bis 45. Aufgabe", unit:"Unit 11 rev", text:"Sie arbeiten bei einer Beratungsfirma für Digitalisierung und erklären Kunden Begriffe rund um digitale Transformation und das Internet der Dinge. (Stoff der revised-Ausgabe, im Unterricht nicht belegt.)"},
+ {q:"What is <b>digitalization</b> (of a country)?", o:["Printing all documents","Integrating digital technologies into society, economy and government","Buying new computers for one office","Replacing all workers with robots","Using social media only"], a:2, ex:"Ziele: bessere öffentliche Dienste, Wachstum, Effizienz, Innovation.", lv:1, s:"revised-Ausgabe Unit 11 Foundation, im Unterricht nicht belegt"},
+ {q:"What does <b>IoT</b> stand for?", o:["Internet of Things – devices with sensors that collect and share data","Integration of Technology","Input/Output Terminal","International Online Trade","Internet over Telephone"], a:1, ex:"Beispiele: smart thermostat, smartwatch, vernetzte Rauchmelder.", lv:1, s:"revised-Ausgabe Unit 11 Part B, im Unterricht nicht belegt"},
+ {q:"What does <b>interoperability</b> mean?", o:["Working without a computer","The ability of different systems to work together and exchange data","A type of surgery","Very fast internet","Working from home"], a:2, ex:"Gemeinsame Standards sorgen für Interoperabilität.", lv:1, s:"revised-Ausgabe Unit 11 Foundation, im Unterricht nicht belegt"},
+ {q:"What is the <b>digital divide</b>?", o:["A broken network cable","The gap between people with and without access to technology or digital skills","Dividing a hard drive into parts","A new smartphone model","The border between two countries"], a:2, ex:"Ein Risiko der Digitalisierung, z. B. für ältere Menschen oder ländliche Regionen.", lv:1, s:"revised-Ausgabe Unit 11 Part A, im Unterricht nicht belegt"},
+ {q:"What is a <b>blockchain</b>?", o:["A chain for locking a laptop","A secure, shared digital record of transactions that is very hard to change","A type of firewall","A slow internet connection","A list of blocked websites"], a:2, ex:"Einsatz z. B. zur Prüfung der Echtheit von Dokumenten oder für Zahlungen.", lv:1, s:"revised-Ausgabe Unit 11 Part A, im Unterricht nicht belegt"},
+ {q:"IoT devices collect a lot of raw data. What is the <b>first step</b> to make this data useful?", o:["Data interpretation","Data cleaning – removing errors and handling missing values","Deleting all data","Printing the data","Selling the data"], a:2, ex:"Die Reihenfolge lautet: data cleaning → data structuring → data interpretation.", lv:2, s:"revised-Ausgabe Unit 11 Part B, im Unterricht nicht belegt"}
 ];
 
-// ---------- Klausur-Trainer (Forms-Quiz) ----------
+// ---------- Klausur-Trainer (Forms-Quiz aus dem Unterricht, Klausurquiz 19.11.) ----------
 // type: single | multi | text,  a = richtige Nummer(n) ab 1
+// key = alter Fragetext, damit der Lernstand bei geänderter Formulierung erhalten bleibt
+// Entfernt (Dubletten zu Übungsklausur Thema 3): „What is a GUI?“ und „What is RAM?“
+const TQ = "Klausurquiz (Unterricht 19.11.)";
 const TRAINER = [
- {type:"single", pts:4, q:"What does <b>CPU</b> stand for?", o:["Computer Personal Unit","Central Processing Unit","Core Performance Utility","Communication Performance Unit"], a:[2],
+ {type:"single", pts:4, lv:1, s:TQ+" · Buch 2018 S. 26", q:"What does <b>CPU</b> stand for?", o:["Computer Personal Unit","Central Processing Unit","Core Performance Utility","Communication Performance Unit"], a:[2],
   ex:"CPU = Central Processing Unit (Prozessor). Hinweis: Im Forms-Quiz stand die Antwort „Central Process Unit“ – gemeint ist die korrekte Langform „Central Processing Unit“."},
- {type:"single", pts:4, q:"What is a <b>„GUI“</b>?", o:["General User Interaction","Graphical User Interface","General Utility Interface","Global Utility Integration"], a:[2],
-  ex:"GUI = Graphical User Interface, die grafische Benutzeroberfläche mit Fenstern, Symbolen und Menüs."},
- {type:"text", pts:4, q:"Which component in a PC is responsible for sending the video signal to the monitor? (one or 2 words)", accept:["gpu","graphics card","video card","graphics card gpu","graphic card","graphics card (gpu)"],
-  ex:"Richtige Antworten laut Quiz: GPU, Graphics Card, Video Card (deutsch: Grafikkarte)."},
- {type:"single", pts:4, q:"What is a <b>motherboard</b> in a computer?", o:["It is the mother of which all boards are copied","It is the mainboard for the CPU and to connect all peripherals","In a computer, there is no motherboard"], a:[2],
-  ex:"Motherboard = Hauptplatine (Mainboard). Auf ihr sitzen CPU und RAM, an sie werden alle Komponenten angeschlossen."},
- {type:"single", pts:4, q:"In networking, what does <b>„LAN“</b> mean?", o:["Local Area Network","Large Access Node","Logical Application Network","Linked Access Net"], a:[1],
+ {type:"text", pts:4, lv:1, s:TQ+" · Buch 2018 S. 26, S. 75", q:"Which component in a PC is responsible for sending the video signal to the monitor? (one or 2 words)",
+  accept:["gpu","graphics card","video card","graphics card gpu","graphic card","graphics card (gpu)","graphics adapter","graphic adapter","display adapter","video adapter","graphics processing unit","graphical processing unit","graphics processor","video graphics card"],
+  ex:"Richtige Antworten laut Quiz: GPU, Graphics Card, Video Card (deutsch: Grafikkarte). Ebenfalls richtig: graphics/display/video adapter, graphics processing unit."},
+ {type:"single", pts:4, lv:1, s:TQ+" · Buch 2018 S. 26–27", key:"What is a <b>motherboard</b> in a computer?", q:"What is the <b>motherboard</b> in a computer?",
+  o:["The device that stores all files permanently","The main circuit board that holds the CPU and connects all components","The fan that cools the processor","The metal case around all components"], a:[2],
+  ex:"Motherboard = Hauptplatine (Mainboard). Auf ihr sitzen CPU und RAM, an sie werden alle Komponenten angeschlossen. Dauerhaft speichert die Festplatte/SSD, der Lüfter kühlt, das Gehäuse (case) umschließt alles."},
+ {type:"single", pts:4, lv:1, s:TQ, q:"In networking, what does <b>„LAN“</b> mean?", o:["Local Area Network","Large Access Node","Logical Application Network","Linked Access Net"], a:[1],
   ex:"LAN = Local Area Network, ein lokales Netzwerk (z. B. im Büro). Zum Vergleich: WAN = Wide Area Network, WLAN = Wireless LAN."},
- {type:"single", pts:4, q:"Which device <b>connects multiple networks</b> together?", o:["Switch","Router","Hub","Mouse"], a:[2],
-  ex:"Ein Router verbindet Netzwerke, z. B. das Büronetz mit dem Internet. Ein Switch verbindet Geräte innerhalb eines Netzwerks."},
- {type:"single", pts:4, q:"Which of these is an example of <b>cloud storage</b>?", o:["Dropbox","BIOS","RAM","SSD"], a:[1],
+ {type:"single", pts:4, lv:1, s:TQ, q:"Which device <b>connects multiple networks</b> together?", o:["Switch","Router","Hub","Network interface card"], a:[2],
+  ex:"Ein Router verbindet Netzwerke, z. B. das Büronetz mit dem Internet. Ein Switch und ein Hub verbinden Geräte innerhalb eines Netzwerks. Die Netzwerkkarte (network interface card) verbindet einen einzelnen Computer mit dem Netz."},
+ {type:"single", pts:4, lv:1, s:TQ+" · Buch 2018 S. 15 (cloud storage)", q:"Which of these is an example of <b>cloud storage</b>?", o:["Dropbox","BIOS","RAM","SSD"], a:[1],
   ex:"Dropbox speichert Dateien online beim Anbieter. BIOS ist Firmware, RAM der Arbeitsspeicher, die SSD ein lokaler Datenträger."},
- {type:"single", pts:4, q:"What is <b>RAM</b>?", o:["Read any Monday","Random Access Memory","Rules are must!"], a:[2],
-  ex:"RAM = Random Access Memory, der Arbeitsspeicher (flüchtig)."},
- {type:"single", pts:4, q:"What does <b>„HTTP“</b> stand for?", o:["HyperText Transfer Protocol","High Transfer Text Protocol","Hyper Transfer Text Process","High Transmission Transfer Protocol"], a:[1],
+ {type:"single", pts:4, lv:1, s:TQ, q:"What does <b>„HTTP“</b> stand for?", o:["HyperText Transfer Protocol","High Transfer Text Protocol","Hyper Transfer Text Process","High Transmission Transfer Protocol"], a:[1],
   ex:"HTTP = HyperText Transfer Protocol, das Protokoll für Webseiten. HTTPS ist die verschlüsselte Variante."},
- {type:"multi", pts:8, q:"Wie sagt man für <b>„Vertrauen“</b>?", hint:"Wählen Sie 2 Optionen aus.", o:["Concierge","Confidence","Concerned","Conspiracy","Trust"], a:[2,5],
+ {type:"multi", pts:8, lv:1, s:TQ, key:"Wie sagt man für <b>„Vertrauen“</b>?", q:"Was heißt <b>„Vertrauen“</b> auf Englisch?", hint:"Wählen Sie 2 Optionen aus.", o:["Concierge","Confidence","Concerned","Conspiracy","Trust"], a:[2,5],
   ex:"Vertrauen = trust / confidence. Concierge = Portier, concerned = besorgt, conspiracy = Verschwörung."},
- {type:"multi", pts:4, q:"What is part of a <b>GUI</b> (Graphical User Interface)? Click all matching items.", o:["desktop","hard disk","menu bar","icon","RAM","minimize/maximize/close buttons","Peter, Paul and Mary"], a:[1,3,4,6],
-  ex:"Zur GUI gehören die sichtbaren Elemente: desktop, menu bar, icons, minimize/maximize/close buttons. Hard disk und RAM sind Hardware."},
- {type:"single", pts:4, q:"Fill in the blank: <i>„Please ___ the file before sending it.“</i>", o:["compress","eat","forget","shout"], a:[1],
-  ex:"compress = komprimieren (z. B. als ZIP), damit die Datei kleiner wird. Die falschen Optionen sind ergänzt, im Original war nur „compress“ zu sehen."}
+ {type:"multi", pts:4, lv:2, s:TQ+" · Buch 2018 S. 36", q:"What is part of a <b>GUI</b> (Graphical User Interface)? Click all matching items.", o:["desktop","hard disk","menu bar","icon","RAM","minimize/maximize/close buttons","processor (CPU)"], a:[1,3,4,6],
+  ex:"Zur GUI gehören die sichtbaren Elemente: desktop, menu bar, icons, minimize/maximize/close buttons. Hard disk, RAM und CPU sind Hardware."},
+ {type:"single", pts:4, lv:2, s:TQ+" · Buch 2018 S. 38 (uncompressed)", q:"Fill in the blank: <i>„Please ___ the file before sending it.“</i>", o:["compress","reboot","unplug","uninstall"], a:[1],
+  ex:"compress = komprimieren (z. B. als ZIP), damit die Datei kleiner wird. reboot (neu starten) und unplug (Stecker ziehen) passen zu Geräten, uninstall (deinstallieren) zu Programmen – nicht zu einer Datei. Die falschen Optionen sind ergänzt, im Original war nur „compress“ zu sehen."}
 ];
 
 // ---------- Vokabeln: [Englisch, Deutsch, Unit] ----------
@@ -102,7 +104,7 @@ const VOC = [
  ["to report to sb","jdm unterstellt sein","Unit 1"],
  ["to liaise with sb","mit jdm zusammenarbeiten, sich abstimmen","Unit 1"],
  ["to contribute","beitragen","Unit 1"],
- ["Chief Executive Officer (CEO)","Geschäftsführer/in, Vorstandsvorsitzende/r","Unit 1"],
+ ["Chief Executive Officer (CEO)","Vorstandsvorsitzende/r, Geschäftsführer/in","Unit 1","Buch 2018 S. 10 · Unit word list"],
  ["apprentice","Auszubildende/r, Lehrling","Unit 1"],
  ["apprenticeship","Ausbildung, Lehre","Unit 1"],
  ["vocational training","Berufsausbildung","Unit 1"],
@@ -111,7 +113,7 @@ const VOC = [
  ["family business","Familienunternehmen","Unit 1"],
  ["subsidiary","Tochtergesellschaft","Unit 1"],
  ["induction","Einführung (neuer Mitarbeiter)","Unit 1"],
- ["Chairman of the Board","Vorstandsvorsitzende/r","Unit 1"],
+ ["Chairman of the Board","Vorsitzende/r des Aufsichtsrats","Unit 1","Buch 2018 S. 6 · Unit word list (chairman – Vorsitzende/r, board – Aufsichtsrat) · Vokabelheft"],
  ["to found","gründen","Unit 1"],
  ["factory","Fabrik, Werk","Unit 1"],
  ["connector","Steckverbinder","Unit 1"],
@@ -168,6 +170,10 @@ const VOC = [
  ["notice period","Kündigungsfrist","Unit 2"],
  ["resignation","Kündigung (durch Arbeitnehmer)","Unit 2"],
  ["remuneration","Vergütung","Unit 2"],
+ ["sick leave","Krankentage","Unit 2","Buch 2018 S. 16 (Working conditions)"],
+ ["unpaid leave","unbezahlter Urlaub","Unit 2","Buch 2018 S. 16 (Working conditions)"],
+ ["to work remotely","von zu Hause aus / ortsungebunden arbeiten","Unit 2","Buch 2018 S. 16 (Working conditions)"],
+ ["permission","Genehmigung, Erlaubnis","Unit 2","Buch 2018 S. 16 (Working conditions)"],
  // Unit 3 – Computer software and hardware
  ["transmitter","Sender","Unit 3"],
  ["graphical user interface (GUI)","grafische Benutzeroberfläche","Unit 3"],
@@ -206,6 +212,12 @@ const VOC = [
  ["to enforce","durchsetzen, erzwingen","Unit 3"],
  ["outcome","Ergebnis","Unit 3"],
  ["accessibility","Barrierefreiheit","Unit 3"],
+ ["privilege","Berechtigung (z. B. Administratorrechte)","Unit 3","Buch 2018 S. 38 (Software installation, Toolbox)"],
+ ["extension package","Erweiterungspaket","Unit 3","Buch 2018 S. 38 (Software installation, Toolbox)"],
+ ["to verify","überprüfen","Unit 3","Buch 2018 S. 38 (Software installation, Toolbox)"],
+ ["security flaw","Sicherheitslücke","Unit 3","Buch 2018 S. 40 (Software installation, Toolbox)"],
+ ["to release (software)","freigeben, veröffentlichen","Unit 3","Buch 2018 S. 40 (Software installation, Toolbox)"],
+ ["success rate","Erfolgsquote","Unit 3","Buch 2018 S. 40 (Software installation, Toolbox)"],
  // Unit 4 – Internal communication
  ["iterative","iterativ, wiederholend","Unit 4"],
  ["adaptive","anpassungsfähig","Unit 4"],
@@ -224,9 +236,9 @@ const VOC = [
  ["network load","Netzwerklast","Unit 4"],
  ["reliability","Zuverlässigkeit","Unit 4"],
  ["dead zone","Funkloch","Unit 4"],
- ["coverage gap","Lücke in der Netzabdeckung","Unit 4"],
+ ["coverage gap","Lücke in der Netzabdeckung","Unit 4","Buch 2018 S. 73 (Toolbox)"],
  ["draft","Entwurf","Unit 4"],
- ["measurement unit","Messgerät","Unit 4"],
+ ["(Wi-Fi strength) measurement unit","Messgerät (für die WLAN-Signalstärke)","Unit 4","Buch 2018 S. 73 (Toolbox; Vokabelheft übersetzt abweichend)"],
  ["consequence","Folge","Unit 4"],
  ["to justify","rechtfertigen, begründen","Unit 4"],
  ["bulk discount","Mengenrabatt","Unit 4"],
@@ -282,37 +294,294 @@ const VOC = [
  ["posted","gebucht","Unit 7"],
  ["to unlock","entsperren","Unit 7"],
  ["duplicate entry","doppelter Eintrag","Unit 7"],
- // Unit 11 – Digitalization
- ["to foster innovation","Innovation fördern","Unit 11"],
- ["competitiveness","Wettbewerbsfähigkeit","Unit 11"],
- ["policy-making","politische Entscheidungsfindung","Unit 11"],
- ["to keep pace with sth","mit etw. Schritt halten","Unit 11"],
- ["broadband","Breitband","Unit 11"],
- ["workforce","Arbeitskräfte, Belegschaft","Unit 11"],
- ["entrepreneurship","Unternehmertum","Unit 11"],
- ["state-of-the-art","hochmodern","Unit 11"],
- ["permit","Genehmigung","Unit 11"],
- ["skills shortage","Fachkräftemangel","Unit 11"],
- ["submission","Einreichung","Unit 11"],
- ["validation","Gültigkeitsprüfung","Unit 11"],
- ["to hinder","behindern","Unit 11"],
- ["authority","Behörde","Unit 11"],
- ["authenticity","Echtheit","Unit 11"],
- ["bottleneck","Engpass","Unit 11"],
- ["to struggle with sth","mit etw. zu kämpfen haben","Unit 11"],
- ["digital divide","digitale Kluft","Unit 11"],
- ["insurance premium","Versicherungsprämie","Unit 11"],
- ["claim","Schadensfall, Versicherungsanspruch","Unit 11"],
- ["tangible benefits","greifbare Vorteile","Unit 11"],
- ["to acquire","erwerben, anschaffen","Unit 11"],
- ["sophisticated algorithms","ausgefeilte Algorithmen","Unit 11"],
- ["volunteer","Freiwillige/r","Unit 11"],
- ["construction site","Baustelle","Unit 11"]
+ // Unit 11 (revised-Ausgabe) – Digitalization: im Unterricht nicht belegt, laut Rotem Faden war „Problems and complaints“ dran (siehe unten)
+ ["to foster innovation","Innovation fördern","Unit 11 rev"],
+ ["competitiveness","Wettbewerbsfähigkeit","Unit 11 rev"],
+ ["policy-making","politische Entscheidungsfindung","Unit 11 rev"],
+ ["to keep pace with sth","mit etw. Schritt halten","Unit 11 rev"],
+ ["broadband","Breitband","Unit 11 rev"],
+ ["workforce","Arbeitskräfte, Belegschaft","Unit 11 rev"],
+ ["entrepreneurship","Unternehmertum","Unit 11 rev"],
+ ["state-of-the-art","hochmodern","Unit 11 rev"],
+ ["permit","Genehmigung","Unit 11 rev"],
+ ["skills shortage","Fachkräftemangel","Unit 11 rev"],
+ ["submission","Einreichung","Unit 11 rev"],
+ ["validation","Gültigkeitsprüfung","Unit 11 rev"],
+ ["to hinder","behindern","Unit 11 rev"],
+ ["authority","Behörde","Unit 11 rev"],
+ ["authenticity","Echtheit","Unit 11 rev"],
+ ["bottleneck","Engpass","Unit 11 rev"],
+ ["to struggle with sth","mit etw. zu kämpfen haben","Unit 11 rev"],
+ ["digital divide","digitale Kluft","Unit 11 rev"],
+ ["insurance premium","Versicherungsprämie","Unit 11 rev"],
+ ["claim","Schadensfall, Versicherungsanspruch","Unit 11 rev"],
+ ["tangible benefits","greifbare Vorteile","Unit 11 rev"],
+ ["to acquire","erwerben, anschaffen","Unit 11 rev"],
+ ["sophisticated algorithms","ausgefeilte Algorithmen","Unit 11 rev"],
+ ["volunteer","Freiwillige/r","Unit 11 rev"],
+ ["construction site","Baustelle","Unit 11 rev"],
+ // Unit 11 – Problems and complaints (Buch 2018 S. 112–121, laut Rotem Faden am 19.11.; Übersetzungen aus der Unit word list S. 207–209)
+ ["complaint","Beschwerde, Reklamation","Unit 11","Buch 2018 S. 114"],
+ ["sustainability","Nachhaltigkeit","Unit 11","Buch 2018 S. 112 (Toolbox)"],
+ ["consumption","Verbrauch","Unit 11","Buch 2018 S. 112 (Toolbox)"],
+ ["pollution","(Umwelt-)Verschmutzung","Unit 11","Buch 2018 S. 112 (Toolbox)"],
+ ["waste","Abfall, Müll","Unit 11","Buch 2018 S. 112 (Toolbox)"],
+ ["toxic","giftig","Unit 11","Buch 2018 S. 112 (Toolbox)"],
+ ["carbon footprint","CO2-Fußabdruck","Unit 11","Buch 2018 S. 113"],
+ ["greenhouse gas","Treibhausgas","Unit 11","Buch 2018 S. 113"],
+ ["refund","Erstattung","Unit 11","Buch 2018 S. 114"],
+ ["to demand sth","etw verlangen, fordern","Unit 11","Buch 2018 S. 114"],
+ ["in full","vollständig","Unit 11","Buch 2018 S. 114"],
+ ["impolite","unhöflich","Unit 11","Buch 2018 S. 115"],
+ ["fraud","Betrug","Unit 11","Buch 2018 S. 115 (Toolbox)"],
+ ["to investigate sth","etw untersuchen, in einer Sache ermitteln","Unit 11","Buch 2018 S. 115 (Toolbox)"],
+ ["to compromise sth (data)","etw gefährden, (Daten) unberechtigt nutzen","Unit 11","Buch 2018 S. 115 (Toolbox)"],
+ ["to resolve sth","etw klären, lösen","Unit 11","Buch 2018 S. 115 (Toolbox)"],
+ ["to apologize","sich entschuldigen","Unit 11","Buch 2018 S. 115"],
+ ["to regret sth","etw bedauern","Unit 11","Buch 2018 S. 115"],
+ ["patience","Geduld","Unit 11","Buch 2018 S. 115"],
+ ["to assure sb that …","jdm etw versichern, zusichern","Unit 11","Buch 2018 S. 115"],
+ ["inconvenience","Unannehmlichkeit(en)","Unit 11","Buch 2018 S. 115 (Sprachkasten) · Useful phrases S. 160"],
+ ["confusing","verwirrend","Unit 11","Buch 2018 S. 116"],
+ ["to expire","(Gültigkeit) ablaufen","Unit 11","Buch 2018 S. 116"],
+ ["billing details","Rechnungsdaten","Unit 11","Buch 2018 S. 116"],
+ ["dispute","Auseinandersetzung, Streit","Unit 11","Buch 2018 S. 117"],
+ ["consulting fee","Beratungshonorar","Unit 11","Buch 2018 S. 117"],
+ ["subtotal","Zwischensumme","Unit 11","Buch 2018 S. 117–118"],
+ ["deposit","Anzahlung","Unit 11","Buch 2018 S. 117–118"],
+ ["delivery charge","Zustellgebühr","Unit 11","Buch 2018 S. 117–118"],
+ ["VAT (value added tax)","Mehrwertsteuer","Unit 11","Buch 2018 S. 117–118 · Langform: Ergänzung"],
+ ["in advance","im Voraus","Unit 11","Buch 2018 S. 117"],
+ ["misunderstanding","Missverständnis","Unit 11","Buch 2018 S. 118"],
+ ["to rectify","korrigieren, (Fehler) beheben","Unit 11","Buch 2018 S. 118"],
+ ["to waive sth","auf etw verzichten","Unit 11","Buch 2018 S. 118"],
+ ["typing error","Tippfehler","Unit 11","Buch 2018 S. 118"],
+ ["superior","Vorgesetzte/r","Unit 11","Buch 2018 S. 120"],
+ ["consignment","Warensendung","Unit 11","Buch 2018 S. 120"],
+ ["to fulfil an order","eine Bestellung ausführen, einen Auftrag abwickeln","Unit 11","Buch 2018 S. 120"],
+ ["scratched","verkratzt","Unit 11","Buch 2018 S. 120"],
+ ["dented","verbeult","Unit 11","Buch 2018 S. 120"]
+];
+
+// Synonym- bzw. Verwechslungsgruppen: Wörter einer Gruppe erscheinen NIE gegenseitig als falsche Antwort
+// (sonst gäbe es zwei richtige Antworten, z. B. „Funkloch“ = dead zone ≈ coverage gap).
+const NICHT_ZUSAMMEN = [
+  ["Chief Executive Officer (CEO)", "Chairman of the Board"],
+  ["to liaise with sb", "collaboration"],
+  ["to supervise", "to be in charge of"],
+  ["apprenticeship", "vocational training", "apprentice"],
+  ["overload", "fatigue"],
+  ["base salary", "remuneration", "benefits"],
+  ["dead zone", "coverage gap"],
+  ["to bear in mind", "to factor in"],
+  ["to impede sth", "hurdle"],
+  ["deferred", "on hold", "pending", "backlog"],
+  ["to resolve sth", "to rectify"],
+  ["to apologize", "to regret sth"],
+  ["to investigate sth", "to compromise sth (data)"],
+  ["deposit", "in advance"],
+  ["dispute", "misunderstanding", "complaint"],
+  ["pollution", "waste", "toxic"],
+  ["carbon footprint", "greenhouse gas"]
 ];
 
 
+// ---------- Ergänzungen (direkt im App-Format: o[0] = richtige Antwort; t:"text" = Texteingabe mit accept-Liste) ----------
+// lv = Stufe (1 Kennen, 2 Verstehen, 3 Anwenden), s = Fundstelle (öffentlich: keine Namen, keine Pfade)
+// Apostroph: Das iPhone tippt ’ statt ' – apo() nimmt automatisch beide Schreibweisen an.
+const apo = list => [...new Set(list.flatMap(a => [a, a.replace(/'/g, "’")]))];
+const B = "Buch 2018";
+const K_U11A = "Sie arbeiten im Kundenservice einer Firma für Online-Kurse. Ein Kunde beschwert sich: Sein Konto wurde gehackt und seine Kreditkarte mit drei teuren Kursen belastet. Zuerst üben Sie, wie man sich höflich beschwert, dann antworten Sie dem Kunden.";
+const K_U11B = "Ihre Firma hat Hardware und Möbel bestellt. Die Rechnung des Lieferanten enthält Fehler. Sie klären das schriftlich und am Telefon.";
+const K_U11C = "Sie arbeiten bei einem Hersteller von Medizintechnik und nehmen telefonische Beschwerden an.";
+const EXTRA = [
+  // ===== Unit 2 (Buch 2018) · Working conditions und Modalverben =====
+  { d:2, lv:1, s:B+" S. 16 · Transkript Track 7 S. 169", kontext:"Erster Arbeitstag bei einer Personalvermittlung. Die Personalabteilung erklärt die Arbeitsbedingungen.",
+    q:"How many days of paid <b>annual leave</b> do the new employees get?", o:["20 days","10 days","6 days","25 days"],
+    e:"20 Tage bezahlter Jahresurlaub. 10 = bezahlte Krankentage (sick leave), 6 Wochen Urlaub darf man ansparen, dazu 2 Wochen unbezahlter Urlaub (unpaid leave)." },
+  { d:2, lv:1, s:B+" S. 16 · Transkript Track 7 S. 169",
+    q:"Flexible hours with <b>core time</b>: Between which times do employees <b>have to</b> be working?", o:["between 10 a.m. and 3 p.m.","between 8 a.m. and 8 p.m.","between 9 a.m. and 5 p.m.","between 10 a.m. and 8 p.m."],
+    e:"Kernzeit 10–15 Uhr. Nach 20 Uhr (8 p.m.) darf man ohne Erlaubnis nicht im Büro sein." },
+  { d:2, lv:2, s:B+" S. 16 (Expressing permission and obligation)",
+    q:"Which sentence expresses a <b>prohibition</b> (Verbot)?", o:["You must not wear shorts.","You don't have to be in the office every day.","You may take up to an hour for lunch.","You have to wear neat clothing."],
+    e:"must not / mustn't = Verbot. don't have to = keine Pflicht. may = Erlaubnis. have to = Pflicht." },
+  { d:2, lv:2, s:B+" S. 16 · Grammar S. 167 (Modals)",
+    q:"What is the difference between <b>mustn't</b> and <b>don't have to</b>?", o:["mustn't = es ist verboten · don't have to = es ist nicht nötig","Both mean: it is not allowed.","mustn't = es ist nicht nötig · don't have to = es ist verboten","Both mean: it is necessary."],
+    e:"Typische Falle: „You mustn't come“ = du darfst nicht kommen. „You don't have to come“ = du musst nicht kommen (kannst aber). Das deutsche „muss nicht“ heißt also don't have to." },
+  { d:2, lv:3, t:"text", s:B+" S. 16 · Grammar S. 167", q:"Ergänze (Verbot): <i>„You ___ wear shorts in the office.“</i>",
+    accept: apo(["must not","mustn't","may not","are not allowed to","aren't allowed to","cannot","can't"]), loesung:"must not / mustn't",
+    e:"Verbot: must not (mustn't). Ebenfalls möglich: may not, are not allowed to, can't." },
+  { d:2, lv:3, t:"text", s:B+" S. 16 · Grammar S. 167", q:"Ergänze (keine Pflicht – man muss nicht, darf aber): <i>„You ___ be in the office every day.“</i>",
+    accept: apo(["don't have to","do not have to","don't need to","do not need to","needn't","need not"]), loesung:"don't have to",
+    e:"Keine Pflicht: don't have to (auch: needn't / don't need to). Nicht mustn't – das wäre ein Verbot!" },
+  { d:2, lv:3, t:"text", s:B+" S. 16 · Grammar S. 167", q:"Ergänze (Erlaubnis): <i>„You ___ take up to one hour for lunch.“</i>",
+    accept: apo(["may","can","are allowed to"]), loesung:"may",
+    e:"Erlaubnis: may (förmlich) oder can. Ersatzform: be allowed to." },
+  { d:2, lv:3, t:"text", s:B+" S. 16 · Grammar S. 167", q:"Ergänze (Pflicht): <i>„Your clothes ___ be neat.“</i>",
+    accept: apo(["have to","must","need to"]), loesung:"have to / must",
+    e:"Pflicht: must oder have to. Im Hörtext heißt es „your clothes have to be neat“." },
+
+  // ===== Unit 3 (roter Faden 4) · Part A Software installation (Buch 2018 S. 38–40) =====
+  { d:3, lv:1, s:B+" S. 38 (Pre-installation steps)", kontext:"Sie arbeiten im Release-Management-Team eines Telekommunikationsunternehmens und installieren ein Erweiterungspaket in einer Cloud-Umgebung.",
+    q:"What must you check <b>before</b> you install the extension package?", o:["that you have sufficient privilege (administrative level) and enough available space","that the package is visible in the 'Active extensions' menu","that the installation files have been deleted","that users can see the extended menu options"],
+    e:"Vorher (pre-installation): Berechtigung (privilege) und freien Speicherplatz prüfen, URL eingeben. Die anderen drei Punkte sind Prüfungen nach der Installation (post-installation)." },
+  { d:3, lv:2, s:B+" S. 38 (Post-installation steps)",
+    q:"How do you confirm that the package <b>installed successfully</b>?", o:["Check that it is visible in the 'Active extensions' menu.","Check that a green tick appears next to the URL.","Check that you have at least 600 MB available.","Enter the URL from the licence confirmation email."],
+    e:"Erfolgreich installiert = in „Active extensions“ sichtbar. Der grüne Haken zeigt nur, dass die URL gültig ist; 600 MB und URL eingeben gehören zur Vorbereitung." },
+  { d:3, lv:3, s:B+" S. 39–40 (Patch deployment report)",
+    q:"A patch was deployed to 213 users. It installed successfully for 127 users and failed for 86. What is the <b>failure rate</b> (rounded)?", o:["about 40 %","about 60 %","about 86 %","about 14 %"],
+    e:"86 von 213 = 0,404 → etwa 40 % failure rate. Die success rate ist 127 von 213 ≈ 60 %." },
+  { d:3, lv:2, s:B+" S. 40 (Talking about cause, Toolbox)",
+    q:"<i>„56 did not start <b>because</b> users delayed the installation.“</i> Which phrase can replace <b>because</b>?", o:["as a result of users delaying","in spite of users delaying","unless users delayed","although users delayed"],
+    e:"Ursache nennen: because / as / due to / as a result of. despite/although drücken einen Gegensatz aus, unless eine Bedingung. to delay = verschieben." },
+  { d:3, lv:1, t:"text", s:B+" S. 38 (Toolbox)", q:"Wie heißt <b>Berechtigung</b> (z. B. Administratorrechte für eine Installation) auf Englisch?",
+    accept:["privilege","privileges","permission","permissions","access rights","rights","admin rights","administrator rights","administrative rights","admin privileges","administrator privileges","administrative privileges","access privileges","authorization","authorisation"], loesung:"privilege",
+    e:"Im Buch: „Make sure you have sufficient privilege to perform the installation.“ Auch permission(s) ist richtig." },
+  { d:3, lv:1, t:"text", s:B+" S. 40 (Toolbox)", q:"Wie heißt <b>Sicherheitslücke</b> auf Englisch?",
+    accept:["security flaw","vulnerability","security vulnerability","security hole","security gap","flaw","security loophole","loophole"], loesung:"security flaw",
+    e:"security flaw = Sicherheitslücke (Buch). Ähnlich: vulnerability = Schwachstelle." },
+
+  // ===== Unit 11 · Problems and complaints (Buch 2018 S. 112–121, laut Rotem Faden 19.11.) =====
+  { d:11, lv:2, s:B+" S. 112 (Foundation: Technology and the environment)",
+    q:"Which of these is a <b>negative</b> impact of IT on the environment?", o:["pollution through old computers and electronic waste","email and online payments reduce the use of paper","experts can share research from anywhere","a better understanding of medical problems"],
+    e:"Negativ: Verbrauch (consumption), Abfall (waste), Gesundheitsgefahren, Störung der Ökologie. Positiv: papierlos (paperless), Forschung, Nachhaltigkeit." },
+  { d:11, lv:2, s:B+" S. 113 · Transkript Track 37 S. 180–181",
+    q:"According to the presentation, what makes the CO2 footprint of an email <b>much bigger</b>?", o:["an attachment that is forwarded or stored","a short subject line","sending it in the morning","writing it in English"],
+    e:"Eine normale E-Mail ≈ 4 g CO2, mit 1-MB-Anhang ≈ 19 g, weitergeleitet oder abgelegt bis ≈ 50 g." },
+  { d:11, lv:1, s:B+" S. 114 (Making a complaint)", kontext:K_U11A,
+    q:"Which sentence is a <b>polite</b> complaint?", o:["I would appreciate it if you could refund the amount.","I demand a full refund!","You'd better refund me immediately!","I'm telling you to give me my money back ASAP."],
+    e:"Höflich beschweren: I would appreciate it if you'd … / Can I ask that you … / I request that … / I'm sorry to say this but … – statt Befehle und Drohungen." },
+  { d:11, lv:3, s:B+" S. 114 (Making a complaint)", kontext:K_U11A,
+    q:"Make this more polite: <i>„You'd better get back to me by the end of the day.“</i>", o:["Can I ask that you get back to me by the end of the day?","Get back to me by the end of the day!","I demand that you get back to me today.","You must get back to me by the end of the day."],
+    e:"„Can I ask that you …“ ist eine höfliche Bitte aus dem Sprachkasten. Die anderen Sätze sind Befehle." },
+  { d:11, lv:3, s:B+" S. 114 (Making a complaint)", kontext:K_U11A,
+    q:"Make this more polite: <i>„You have a big problem with your customer account security.“</i>", o:["There could be a problem with the customer account security.","Your security is a fail!","You've got major problems with your security!","Your security has failed completely."],
+    e:"„There could be a problem with …“ formuliert vorsichtig statt anklagend." },
+  { d:11, lv:1, s:B+" S. 115 (Replying to a complaint)", kontext:K_U11A,
+    q:"You <b>reply</b> to the complaint. Which phrase is an apology?", o:["I would like to apologize for the upset this has caused you.","I demand that you contact your bank.","You'd better be patient.","I'm not happy about your email."],
+    e:"Auf eine Beschwerde antworten: I'm very sorry to hear (that) … / I would like to apologize for … / We regret any inconvenience (that) … / Please be assured (that) …" },
+  { d:11, lv:2, s:B+" S. 115 · Unit word list S. 208", kontext:K_U11A,
+    q:"What does <i>„Please bear with us in the meantime.“</i> mean?", o:["Bitte haben Sie in der Zwischenzeit etwas Geduld.","Bitte rufen Sie uns in der Zwischenzeit an.","Bitte schicken Sie uns in der Zwischenzeit Ihre Kreditkarte.","Bitte bezahlen Sie in der Zwischenzeit die Rechnung."],
+    e:"Please bear with us = Bitte haben Sie etwas Geduld. Typischer Satz in einer Antwort auf eine Beschwerde." },
+  { d:11, lv:2, s:B+" S. 115 (Antwort-E-Mail)", kontext:K_U11A,
+    q:"The credit card details may have been <b>compromised</b>. What does customer service recommend?", o:["to contact the credit card provider","to delete the account","to book the courses again","to pay the amount twice"],
+    e:"to compromise sth = (Daten) gefährden, unberechtigt nutzen. Die Firma gibt den Fall an ihr Team für Betrugsermittlung (fraud investigation team) weiter und meldet sich innerhalb von 24 Stunden." },
+  { d:11, lv:1, s:B+" S. 118 (Pointing out mistakes)", kontext:K_U11B,
+    q:"Which sentence uses the <b>passive</b> to point out a mistake politely?", o:["The discount was left off.","You left off the discount.","Your colleague forgot the discount.","Somebody left off the discount."],
+    e:"Mit dem Passiv nennt man den Fehler, ohne jemanden zu beschuldigen: A few mistakes have been made. / The discount was left off. (Grammar: Passive forms S. 164)" },
+  { d:11, lv:2, s:B+" S. 118 · Transkript Track 38 S. 181", kontext:K_U11B,
+    q:"The supplier says: <i>„I'm happy to <b>waive</b> the delivery charge.“</i> What does that mean?", o:["You don't have to pay the delivery charge.","The delivery charge will be doubled.","The delivery will be late.","You must pay the delivery charge in advance."],
+    e:"to waive sth = auf etw verzichten. Der Lieferant streicht die Zustellgebühr, weil es die erste Bestellung ist und Fehler passiert sind." },
+  { d:11, lv:2, s:B+" S. 118 · Transkript Track 38 S. 181", kontext:K_U11B,
+    q:"Which sentence asks the supplier politely to <b>correct</b> the invoice?", o:["I'd be grateful if you could rectify these mistakes quickly.","Correct the invoice now!","You made mistakes again.","I'm telling you to fix this ASAP."],
+    e:"to rectify = korrigieren, (Fehler) beheben. „I'd be grateful if you could …“ = Ich wäre Ihnen dankbar, wenn Sie …" },
+  { d:11, lv:1, s:B+" S. 120 (Dealing with complaints on the telephone)", kontext:K_U11C,
+    q:"Which phrase is for <b>asking for information</b>?", o:["Could you give me the order number, please?","I'm sorry to hear that.","Is there anything else I can do for you today?","We're prepared to replace the goods at our expense."],
+    e:"Asking for information: Could you tell me what it's about? / Could you give me the order number? Die anderen: Apologizing, Ending the call, Action." },
+  { d:11, lv:1, s:B+" S. 120 (Dealing with complaints on the telephone)", kontext:K_U11C,
+    q:"Which phrase is for <b>ending the call</b>?", o:["Thank you for your call. Once again, I'm sorry that there was a problem.","Could you tell me what it's about, please?","Just a moment while I write that down.","Could you give me the order number, please?"],
+    e:"Ending the call: Thank you for your call … / Is there anything else I can do for you today?" },
+  { d:11, lv:2, s:B+" S. 120 (Tipp)", kontext:K_U11C,
+    q:"What does the book recommend at the <b>start</b> of a complaint call?", o:["Give your name clearly and write down the name of the person you are speaking to.","Ask for a refund immediately.","Only give the order number, not your name.","Speak as fast as possible to save time."],
+    e:"Tipp im Buch: Namen deutlich nennen, den Namen des Gesprächspartners sofort notieren und bei Bedarf die Schreibweise prüfen." },
+  { d:11, lv:3, s:B+" S. 120 · Transkript Track 39/40 S. 181–182", kontext:K_U11C,
+    q:"A customer calls: both X-ray machines he ordered arrived damaged. What is the best <b>first</b> reaction?", o:["Oh, I'm sorry to hear that. Could you give me the order number, please?","What's the problem?","I can't do anything at the moment.","I'll get it sorted after lunch."],
+    e:"Erst Mitgefühl zeigen (I'm sorry to hear that), dann Informationen erfragen. Die anderen Sätze stammen aus dem unhöflichen ersten Telefonat im Hörtext." },
+  { d:11, lv:1, t:"text", s:B+" S. 114", q:"Wie heißt <b>Beschwerde</b> auf Englisch?",
+    accept:["complaint","a complaint","complaints"], e:"complaint = Beschwerde, Reklamation. to complain = sich beschweren." },
+  { d:11, lv:1, t:"text", s:B+" S. 115", q:"Wie heißt <b>sich entschuldigen</b> auf Englisch?",
+    accept:["apologize","to apologize","apologise","to apologise","say sorry","to say sorry"], loesung:"to apologize",
+    e:"to apologize (BE auch apologise). I would like to apologize for …" },
+  { d:11, lv:1, t:"text", s:B+" S. 114", q:"Wie heißt <b>Erstattung</b> (Geld zurück) auf Englisch?",
+    accept:["refund","a refund","full refund","reimbursement","repayment"], loesung:"refund",
+    e:"refund = Erstattung; to refund = (Kosten) erstatten. „I demand a full refund!“ wäre unhöflich." },
+  { d:11, lv:1, t:"text", s:B+" S. 117–118", q:"Wie heißt <b>Anzahlung</b> auf Englisch?",
+    accept:["deposit","deposit payment","down payment","advance payment"], loesung:"deposit",
+    e:"Auf der Rechnung im Buch: Eine Anzahlung von 25 % (deposit payment) ist im Voraus (in advance) fällig." },
+  { d:11, lv:2, t:"text", s:B+" S. 115 · Useful phrases S. 160", q:"Ergänze (Unannehmlichkeit): <i>„We regret any ___ that this has caused you.“</i>",
+    accept:["inconvenience","inconveniences"], loesung:"inconvenience",
+    e:"We regret any inconvenience (that) … = Wir bedauern die Unannehmlichkeiten …" },
+  { d:11, lv:2, t:"text", s:B+" S. 114 (Sprachkasten)", q:"Ergänze (zu schätzen wissen): <i>„I would ___ it if you could rectify these mistakes.“</i>",
+    accept:["appreciate"], e:"I would appreciate it if you'd … = Ich wäre Ihnen dankbar, wenn Sie …" },
+
+  // ===== Grammatik · Lückensätze (Texteingabe) =====
+  { d:96, lv:3, t:"text", s:B+" Grammar S. 166 (much, many) · Unit 2", q:"much oder many? <i>„How ___ emails do you get every day?“</i>",
+    accept:["many"], e:"emails sind zählbar (Plural) → many." },
+  { d:96, lv:3, t:"text", s:B+" Grammar S. 166 (much, many) · Unit 2", q:"much oder many? <i>„We waste too ___ time on meetings.“</i>",
+    accept:["much"], e:"time ist unzählbar → much. Nach too, so, as, very und how stehen much/many." },
+  { d:96, lv:3, t:"text", s:B+" S. 73 · Grammar S. 164 (Conditional sentences)", q:"Ergänze mit <b>einem</b> Wort (= if … not): <i>„___ we install a dual-band network, employee productivity will suffer.“</i>",
+    accept:["unless"], loesung:"Unless", e:"unless = if … not: If we don't install a dual-band network, productivity will suffer." },
+  { d:96, lv:3, t:"text", s:B+" Grammar S. 164 (Conditional sentences, Type 1)", q:"Conditional 1: <i>„If you click on 'Next', you ___ (receive) a notification message.“</i>",
+    accept: apo(["will receive","'ll receive","you'll receive","you will receive"]), loesung:"will receive",
+    e:"If + simple present, Hauptsatz will + Infinitiv. Im if-Satz steht kein will." },
+  { d:96, lv:3, t:"text", s:"Lernübersicht Kap. 3 (Conditional 1) · "+B+" Grammar S. 164", q:"Conditional 1: <i>„If we ___ (disable) file sharing, we will reduce the security risk.“</i>",
+    accept:["disable"], e:"Im if-Satz steht das simple present: If we disable … (nicht: will disable)." },
+  { d:96, lv:3, t:"text", s:B+" S. 77 (Local or cloud?)", q:"despite oder although? <i>„___ being great in theory, previous solutions have not worked.“</i>",
+    accept:["despite","in spite of"], loesung:"Despite",
+    e:"Nach despite / in spite of folgt ein Nomen oder eine -ing-Form (being). Nach although folgt ein ganzer Satz." },
+  { d:96, lv:3, t:"text", s:B+" S. 76 (Local or cloud?)", q:"despite oder although? <i>„___ there are many security concerns, the cloud is a good option for us.“</i>",
+    accept:["although","even though","though"], loesung:"Although",
+    e:"Nach although / even though folgt ein ganzer Satz mit Subjekt und Verb (there are …)." },
+  { d:96, lv:3, t:"text", s:B+" S. 76–77 · Lernübersicht Kap. 5", q:"despite oder although? <i>„We chose the cloud ___ the higher costs.“</i>",
+    accept:["despite","in spite of"], loesung:"despite", e:"the higher costs ist ein Nomen → despite (in spite of)." },
+  { d:96, lv:3, t:"text", s:"Lernübersicht Kap. 5 (revised Unit 4 Part B) · Ergänzung", q:"Question tag: <i>„The cloud is cheaper, ___ it?“</i>",
+    accept: apo(["isn't","isnt"]), loesung:"isn't",
+    e:"Bejahter Satz → verneinter Anhang mit demselben Hilfsverb: is → isn't it?" },
+  { d:96, lv:3, t:"text", s:"Lernübersicht Kap. 5 (revised Unit 4 Part B) · Ergänzung", q:"Question tag: <i>„We should test the update first, ___ we?“</i>",
+    accept: apo(["shouldn't","shouldnt"]), loesung:"shouldn't",
+    e:"Das Hilfsverb should wird im Anhang verneint: shouldn't we?" },
+  { d:96, lv:3, t:"text", s:"Lernübersicht Kap. 5 (revised Unit 4 Part B) · Ergänzung", q:"Question tag: <i>„You don't work on Fridays, ___ you?“</i>",
+    accept:["do"], e:"Verneinter Satz → bejahter Anhang: don't → do you?" },
+  { d:96, lv:3, t:"text", s:B+" Grammar S. 164 (Passive forms)", q:"Passiv (Vergangenheit): <i>„The new router ___ (install) on Tuesday morning.“</i>",
+    accept:["was installed"], e:"Passiv = be + 3. Verbform. Vergangenheit: was installed." },
+  { d:96, lv:3, t:"text", s:B+" Grammar S. 164 (Passive forms)", q:"Passiv (Zukunft): <i>„The software will ___ (install) by the company.“</i>",
+    accept:["be installed"], e:"will + be + 3. Verbform: will be installed. „von“ heißt im Passiv by." },
+  { d:96, lv:3, t:"text", s:B+" S. 118 (Pointing out mistakes) · Grammar S. 164", q:"Passiv (Present perfect): <i>„A few mistakes have ___ (make) on the invoice.“</i>",
+    accept:["been made"], e:"have + been + 3. Verbform: have been made. Das Passiv klingt sachlich und beschuldigt niemanden direkt." },
+
+  // ===== Übersetzen Deutsch → Englisch (Texteingabe) =====
+  { d:97, lv:1, t:"text", s:B+" S. 8–9 · Vokabelheft", q:"Wie heißt <b>Personalabteilung</b> auf Englisch?",
+    accept:["human resources","hr","human resources department","hr department","personnel department","personnel"], loesung:"Human Resources (HR)", e:"Human Resources (HR) = Personalabteilung." },
+  { d:97, lv:1, t:"text", s:B+" S. 8 (Toolbox) · Vokabelheft", q:"Wie heißt <b>Tochtergesellschaft</b> auf Englisch?",
+    accept:["subsidiary","subsidiary company"], e:"subsidiary = Tochtergesellschaft, Tochterfirma." },
+  { d:97, lv:1, t:"text", s:"revised-Ausgabe Unit 2", q:"Wie heißt <b>Schwachstelle</b> (in einem IT-System) auf Englisch?",
+    accept:["vulnerability","vulnerabilities","weakness","security flaw","weak point","weak spot"], loesung:"vulnerability", e:"vulnerability = Schwachstelle. breach = Sicherheitsverletzung (erfolgreicher Angriff, Datenleck)." },
+  { d:97, lv:1, t:"text", s:"revised-Ausgabe Unit 2 (Working conditions)", q:"Wie heißt <b>Kündigungsfrist</b> auf Englisch?",
+    accept:["notice period","period of notice","notice"], loesung:"notice period", e:"notice period = Kündigungsfrist. resignation = Kündigung durch den Arbeitnehmer." },
+  { d:97, lv:1, t:"text", s:B+" S. 16 · Unit word list", q:"Wie heißt <b>Jahresurlaub</b> auf Englisch?",
+    accept:["annual leave","paid annual leave","annual holiday","annual holidays","annual vacation","holiday entitlement","annual leave entitlement","vacation"], loesung:"annual leave", e:"annual leave = Jahresurlaub, sick leave = Krankentage, unpaid leave = unbezahlter Urlaub." },
+  { d:97, lv:1, t:"text", s:"revised-Ausgabe Unit 2 · "+B+" S. 16", q:"Wie heißt <b>Kernarbeitszeit</b> auf Englisch?",
+    accept:["core working hours","core hours","core time","core working time"], loesung:"core working hours", e:"core working hours = Kernarbeitszeit (im Buch 2018: 10 a.m. bis 3 p.m.)." },
+  { d:97, lv:1, t:"text", s:B+" S. 26–27", q:"Wie heißt <b>Hauptplatine</b> auf Englisch?",
+    accept:["motherboard","mainboard","main board","system board","logic board"], loesung:"motherboard", e:"motherboard (auch mainboard) = Hauptplatine." },
+  { d:97, lv:1, t:"text", s:B+" S. 72 (Toolbox) · revised-Ausgabe Unit 3", q:"Wie heißt <b>Bandbreite</b> auf Englisch?",
+    accept:["bandwidth"], e:"bandwidth = Bandbreite (Datenmenge pro Sekunde). latency = Verzögerung." },
+  { d:97, lv:1, t:"text", s:"revised-Ausgabe Unit 3 (Hardware set-ups)", q:"Wie heißt <b>Zugangsdaten</b> (Benutzername und Passwort) auf Englisch?",
+    accept:["credentials","login credentials","login details","login data","log-in details","access data","access credentials","user credentials","login information"], loesung:"credentials", e:"credentials = Zugangsdaten, z. B. company credentials." },
+  { d:97, lv:1, t:"text", s:"revised-Ausgabe Unit 4 · "+B+" S. 73", q:"Wie heißt <b>Funkloch</b> (im WLAN) auf Englisch?",
+    accept:["dead zone","dead spot","coverage gap","dead area"], loesung:"dead zone", e:"dead zone = Funkloch; coverage gap = Lücke in der Netzabdeckung (fast gleichbedeutend)." },
+  { d:97, lv:1, t:"text", s:"Mitschrift Unit 7 (Ticketing)", q:"Wie heißt <b>Schweregrad</b> (eines Fehlers im Ticket) auf Englisch?",
+    accept:["severity","severity level"], loesung:"severity", e:"severity = wie schlimm; priority = wie dringend." },
+  { d:97, lv:1, t:"text", s:B+" S. 117 · Vokabelheft", q:"Wie heißt <b>Rechnung</b> (vom Lieferanten) auf Englisch?",
+    accept:["invoice","bill","an invoice"], loesung:"invoice", e:"invoice = Rechnung. quotation = Angebot, purchase order = Bestellung." },
+  { d:97, lv:1, t:"text", s:B+" S. 40 (Toolbox) · revised-Ausgabe Unit 2", q:"Wie heißt <b>bereitstellen, in Betrieb nehmen</b> (Software) auf Englisch?",
+    accept:["deploy","to deploy","roll out","to roll out","rollout"], loesung:"to deploy", e:"to deploy = bereitstellen. to release = freigeben, veröffentlichen." }
+];
+
 // =================== Umwandlung für die App ===================
-const UNIT = { "Unit 1": 1, "Unit 2": 2, "Unit 3": 3, "Unit 4": 4, "Unit 7": 7, "Unit 11": 11 };
+// Unit 11 rev = revised-Ausgabe (Digitalization), eigenes Thema 111; hd:11 erhält den bisherigen Lernstand
+const UNIT = { "Unit 1": 1, "Unit 2": 2, "Unit 3": 3, "Unit 4": 4, "Unit 7": 7, "Unit 11": 11, "Unit 11 rev": 111 };
+const HD = { 111: 11 };
+const UNIT_NAME = { "Unit 11": "Unit 11 (Problems and complaints)", "Unit 11 rev": "Unit 11 revised (Digitalization)" };
+const VOC_S = {
+  "Unit 1": "Vokabelheft · Buch 2018 Unit 1",
+  "Unit 2": "Vokabelheft · Buch 2018 Unit 2 bzw. revised-Ausgabe",
+  "Unit 3": "Vokabelheft · Unterricht (revised-Ausgabe Unit 3)",
+  "Unit 4": "Vokabelheft · Mitschrift Unit 4 (revised-Ausgabe)",
+  "Unit 7": "Vokabelheft · Mitschrift Unit 7 (revised-Ausgabe)",
+  "Unit 11 rev": "revised-Ausgabe Unit 11, im Unterricht nicht belegt",
+  "Unit 11": "Buch 2018 Unit 11"
+};
 const TRAINER_D = 90, VOKABEL_D = 95;
 const fragen = [];
 const plain = s => s.replace(/<[^>]+>/g, "");
@@ -322,37 +591,44 @@ const pick = (arr, n) => arr.slice().sort(() => Math.random() - .5).slice(0, n);
 let sit = null;
 MC.forEach(it => {
   if (it.sit) { sit = it; return; }
-  const d = UNIT[sit.unit];
+  const d = UNIT[sit.unit], hd = HD[d], lv = it.lv, s = it.s;
   if (it.type === "match") {
     // "<b>Abteilungen:</b> 1. HR · 2. R&D · 3. CS"  →  ["HR", "R&D", "CS"]
     const labels = plain(it.ref).split("·").map(s => s.replace(/^.*?\d+\.\s*/, "").trim());
     it.rows.forEach((row, r) => {
       const right = labels[it.a[r] - 1];
-      fragen.push({ d, kontext: sit.text, q: `${it.q}<br><i>„${row}“</i>`,
+      fragen.push({ d, hd, lv, s, kontext: sit.text, q: `${it.q}<br><i>„${row}“</i>`,
         o: [right, ...labels.filter(l => l !== right)], e: it.ex });
     });
     return;
   }
-  fragen.push({ d, kontext: sit.text, q: it.q,
+  fragen.push({ d, hd, lv, s, kontext: sit.text, q: it.q,
     o: [it.o[it.a - 1], ...it.o.filter((_, i) => i !== it.a - 1)], e: it.ex });
 });
 
 // Klausur-Trainer
 TRAINER.forEach(it => {
-  const base = { d: TRAINER_D, q: it.q + (it.hint ? ` <span class="hint">(${it.hint})</span>` : ""), e: it.ex };
+  const base = { d: TRAINER_D, lv: it.lv, s: it.s, key: it.key, q: it.q + (it.hint ? ` <span class="hint">(${it.hint})</span>` : ""), e: it.ex };
   if (it.type === "text") fragen.push({ ...base, t: "text", accept: it.accept });
   else if (it.type === "multi") fragen.push({ ...base, t: "multi", o: it.o, k: it.a.map(n => n - 1) });
   else fragen.push({ ...base, o: [it.o[it.a[0] - 1], ...it.o.filter((_, i) => i !== it.a[0] - 1)] });
 });
 
-// Vokabeln: Richtung wird bei jedem Start zufällig gewählt (Englisch→Deutsch oder umgekehrt)
-VOC.forEach(([en, de, unit]) => {
-  const same = VOC.filter(v => v[2] === unit && v[0] !== en);
+// Ergänzungen
+EXTRA.forEach(Q => fragen.push(Q));
+
+// Vokabeln: Richtung wird bei jedem Start zufällig gewählt (Englisch→Deutsch oder umgekehrt).
+// Falsche Antworten kommen aus derselben Unit, aber nie aus derselben NICHT_ZUSAMMEN-Gruppe.
+const gruppe = en => NICHT_ZUSAMMEN.filter(g => g.includes(en)).flat();
+VOC.forEach(([en, de, unit, quelle]) => {
+  const tabu = gruppe(en);
+  const same = VOC.filter(v => v[2] === unit && v[0] !== en && !tabu.includes(v[0]));
   const wrong = pick(same, 3);
   const toDe = Math.random() < .5;
+  const u = UNIT_NAME[unit] || unit, s = quelle || VOC_S[unit];
   fragen.push(toDe
-    ? { d: VOKABEL_D, key: en, q: `Was heißt <b>${en}</b> auf Deutsch?`, o: [de, ...wrong.map(v => v[1])], e: `${en} = ${de} · ${unit}` }
-    : { d: VOKABEL_D, key: en, q: `Wie heißt <b>${de}</b> auf Englisch?`, o: [en, ...wrong.map(v => v[0])], e: `${de} = ${en} · ${unit}` });
+    ? { d: VOKABEL_D, lv: 1, s, key: en, q: `Was heißt <b>${en}</b> auf Deutsch?`, o: [de, ...wrong.map(v => v[1])], e: `${en} = ${de} · ${u}` }
+    : { d: VOKABEL_D, lv: 1, s, key: en, q: `Wie heißt <b>${de}</b> auf Englisch?`, o: [en, ...wrong.map(v => v[0])], e: `${de} = ${en} · ${u}` });
 });
 
 registerFach({
@@ -363,18 +639,21 @@ registerFach({
   html: true, // Fragen enthalten <b>/<i>
   themen: {
     1: "Unit 1 · My company",
-    2: "Unit 2 · My workplace",
-    3: "Unit 3 · Software & hardware (roter Faden: 3 + 4)",
+    2: "Unit 2 · My workplace (inkl. Working conditions, Modalverben)",
+    3: "Unit 3 · Software & hardware (roter Faden: 3 + 4, inkl. Software installation)",
     4: "Unit 4 · Internal communication (roter Faden: 7)",
     7: "Unit 7 · Dealing with customers (roter Faden: 6)",
-    11: "Unit 11 · Digitalization (roter Faden: 11, inhaltlich abweichend)",
+    11: "Unit 11 · Problems and complaints (roter Faden: 11, Buch 2018)",
+    111: "Unit 11 revised · Digitalization (im Unterricht nicht belegt)",
     [TRAINER_D]: "Klausur-Trainer · Forms-Quiz",
-    [VOKABEL_D]: "Vokabeln · alle Units"
+    [VOKABEL_D]: "Vokabeln · alle Units",
+    96: "Grammatik · Lückensätze (Texteingabe)",
+    97: "Übersetzen Deutsch → Englisch (Texteingabe)"
   },
   fragen,
   wissensbasis: "faecher/ite1/wissensbasis.md",
   // Kapitel der Lernübersicht (## Nummer) je Thema
-  kapitel: { 1: "1", 2: "2", 3: "3", 7: "4", 4: "5", 11: "6", [TRAINER_D]: "3" },
+  kapitel: { 1: "1", 2: "2", 3: "3", 7: "4", 4: "5", 11: "6", 111: "6", [TRAINER_D]: "11", [VOKABEL_D]: "12", 96: "7", 97: "12" },
   allgemein: ["0", "7", "8"]
 });
 })();

@@ -13,6 +13,11 @@ const L = ["A", "B", "C", "D", "E", "F"];
 
 const FAECHER = [];
 const ALL = []; // alle Fragen aller Fächer
+// Fach, das gerade im Unterricht läuft (steht auf der Startseite oben). Bei Fachwechsel hier ändern.
+const AKTUELL = ["coa1"];
+// Ältere Fragen, deren Inhalt jetzt in geprüften Lernkarten steckt, tragen archiv:true.
+// Sie kommen nicht mehr in „Heute lernen“, gemischte Runden oder Block-Quizze, bleiben aber unter „Archiv“ übbar.
+const aktiv = Q => !Q.archiv;
 
 function registerFach(f) {
   f.fragen.forEach(Q => {
@@ -171,7 +176,8 @@ function stats(list) {
   };
 }
 const themaFragen = (f, d) => ALL.filter(Q => Q.fach === f.id && Q.d === +d);
-const fachFragen = f => ALL.filter(Q => Q.fach === f.id);
+const fachFragen = f => ALL.filter(Q => Q.fach === f.id && aktiv(Q));
+const archivFragen = f => ALL.filter(Q => Q.fach === f.id && Q.archiv);
 
 // ---------- Navigation ----------
 const history = [];
@@ -197,12 +203,24 @@ function setTitle(top, title) { eyebrow.textContent = top; heading.textContent =
 // ---------- Startseite ----------
 function homeView() {
   setTitle("Umschulung", "Lern-App");
-  const due = ALL.filter(isDue);
-  const fresh = ALL.filter(isNew);
-  const weakQ = ALL.filter(isWrongLast);
-  const s = stats(ALL);
-  const nm = naechstesModul();
-  const hyper = ALL.filter(isHyper);
+  const AKT = ALL.filter(aktiv);
+  const due = AKT.filter(isDue);
+  const weakQ = AKT.filter(isWrongLast);
+  const s = stats(AKT);
+  const nm = naechstesModul(AKTUELL.find(id => naechstesModul(id))) || naechstesModul();
+  const hyper = AKT.filter(isHyper);
+  const fachRow = f => {
+    const st = stats(fachFragen(f));
+    return `<div class="row fach" data-f="${f.id}">
+      <div class="badge">${esc(f.name.slice(0, 4))}</div>
+      <div class="name"><b>${esc(f.name)}</b> <span class="meta">${esc(f.langname || "")}</span>
+        <div class="meta">${Object.keys(f.themen).length} Themen · ${st.total} Fragen${st.due ? ` · <span class="hl">${st.due} fällig</span>` : ""}</div>
+        <div class="bar"><div class="fill" style="width:${pct(st.mastered, st.total)}%"></div></div>
+      </div><div class="chev">›</div></div>`;
+  };
+  const laufend = FAECHER.filter(f => AKTUELL.includes(f.id));
+  const fertig = FAECHER.filter(f => !AKTUELL.includes(f.id));
+  const fs = stats(fertig.flatMap(fachFragen));
 
   const weakTopics = [];
   FAECHER.forEach(f => Object.keys(f.themen).forEach(d => {
@@ -232,24 +250,15 @@ function homeView() {
         <div class="name">${esc(f.themen[d])}<div class="meta">${f.name} · ${pct(stats(themaFragen(f, d)).quote * 100, 100)}% richtig</div></div><div class="chev">›</div></div>`).join("")}
     </div>` : ""}
 
-    ${bereiche().map(([b, fs]) => {
-      const bs = stats(fs.flatMap(fachFragen));
-      return `<div class="card">
-        <div class="bereich-head">
-          <h2>${esc(b)}</h2>
-          <span class="meta">${fs.length} Module · ${pct(bs.mastered, bs.total)}% sicher</span>
-        </div>
-        ${fs.map(f => {
-          const st = stats(fachFragen(f));
-          return `<div class="row fach" data-f="${f.id}">
-            <div class="badge">${esc(f.name.slice(0, 4))}</div>
-            <div class="name"><b>${esc(f.name)}</b> <span class="meta">${esc(f.langname || "")}</span>
-              <div class="meta">${Object.keys(f.themen).length} Themen · ${st.total} Fragen${st.due ? ` · <span class="hl">${st.due} fällig</span>` : ""}</div>
-              <div class="bar"><div class="fill" style="width:${pct(st.mastered, st.total)}%"></div></div>
-            </div><div class="chev">›</div></div>`;
-        }).join("")}
-      </div>`;
-    }).join("")}
+    ${laufend.length ? `<div class="card">
+      <div class="bereich-head"><h2>▶ Läuft gerade</h2><span class="meta">Unterricht</span></div>
+      ${laufend.map(fachRow).join("")}
+    </div>` : ""}
+
+    ${fertig.length ? `<div class="card">
+      <div class="bereich-head"><h2>✓ Abgeschlossen · wiederholen</h2><span class="meta">${fertig.length} Fächer · ${pct(fs.mastered, fs.total)}% sicher</span></div>
+      ${fertig.map(fachRow).join("")}
+    </div>` : ""}
 
     <div class="card">
       <h2>📖 Wissensbasis</h2>
@@ -257,16 +266,17 @@ function homeView() {
       <button class="btn dark" id="wissen">Wissensbasis öffnen</button>
     </div>
 
-    <div class="card">
-      <h2>So funktioniert's</h2>
+    <details class="card group einstellungen">
+      <summary><div class="name"><b>ℹ️ So funktioniert's · ⚙️ Einstellungen</b></div><div class="chev">›</div></summary>
       <p class="muted">1. <b>Lernkarten lesen</b> (ein Thema, ca. 10 Min.) – danach gleich das Quiz dazu.<br>
       2. <b>Jeden Tag „Heute lernen“</b> – kurz und regelmäßig wirkt am stärksten.<br>
       Jede Frage liegt in einem von 5 Fächern der Lernkartei. Richtig und sicher → ein Fach weiter (1, 2, 4, 8, 16 Tage). Richtig, aber unsicher → morgen nochmal. Falsch → zurück in Fach 1 und in derselben Runde wieder, bis es sitzt. Ab Fach 4 gilt eine Frage als „sicher“.</p>
+      <div class="boxes">${[1, 2, 3, 4, 5].map(b => `<div class="b"><span>${AKT.filter(Q => card(Q)?.box === b).length}</span>Fach ${b}</div>`).join("")}</div>
       <label class="schalter"><input type="checkbox" id="pref-sicher" ${state.prefs.sicherheit ? "checked" : ""}> Vor der Auflösung fragen: „Wie sicher bist du?“</label>
       <label class="schalter"><input type="checkbox" id="pref-quellen" ${state.prefs.quellen ? "checked" : ""}> In Lernkarten Quellen anzeigen</label>
-      <div class="boxes">${[1, 2, 3, 4, 5].map(b => `<div class="b"><span>${ALL.filter(Q => card(Q)?.box === b).length}</span>Fach ${b}</div>`).join("")}</div>
+      <p class="muted klein" style="margin-top:22px">Gefahrenzone – löscht alles, was du gelernt hast:</p>
       <button class="btn ghost small danger" id="reset">Fortschritt zurücksetzen</button>
-    </div>`;
+    </details>`;
 
   on("wissen", () => go(wissenView));
   app.querySelectorAll(".zeitwahl button").forEach(b => b.onclick = () => {
@@ -375,13 +385,14 @@ async function kapitelView(f) {
 function heuteRunde(n) {
   const liste = [];
   const add = qs => qs.forEach(Q => { if (liste.length < n && !liste.includes(Q)) liste.push(Q); });
-  add(shuffle(ALL.filter(isHyper)));
-  add(shuffle(ALL.filter(isWrongLast)));
-  add(ALL.filter(isDue).sort((a, b) => card(a).box - card(b).box));
+  const AKT = ALL.filter(aktiv);
+  add(shuffle(AKT.filter(isHyper)));
+  add(shuffle(AKT.filter(isWrongLast)));
+  add(AKT.filter(isDue).sort((a, b) => card(a).box - card(b).box));
   const neuHeute = Object.values(state.cards).filter(c => c.first === today()).length;
   const platz = Math.max(0, Math.min(n - liste.length, 2 * ROUND_SIZE - neuHeute));
   // neue Fragen: zuerst aus gelesenen Lernmodulen, dann abwechselnd aus den Fächern (Thema für Thema)
-  const ausModulen = MODULE.filter(gelesen).flatMap(m => modulFragen(m).filter(isNew));
+  const ausModulen = MODULE.filter(gelesen).flatMap(m => modulFragen(m).filter(Q => isNew(Q) && aktiv(Q)));
   const queues = FAECHER.map(f => fachFragen(f).filter(Q => isNew(Q) && neuErlaubt(Q) && !ausModulen.includes(Q)));
   const neu = ausModulen.slice(0, platz);
   for (let k = 0; neu.length < platz && queues.some(q => q.length); k++) {
@@ -413,29 +424,11 @@ function fachView(f) {
   setTitle(f.langname || "", f.name);
   const list = fachFragen(f);
   const fs = stats(list);
-  app.innerHTML = `
-    <div class="card">
-      <div class="stats">
-        <div class="stat"><div class="num">${fs.seen}/${fs.total}</div><div class="lbl">gesehen</div></div>
-        <div class="stat hl"><div class="num">${fs.mastered}</div><div class="lbl">sicher</div></div>
-        <div class="stat"><div class="num">${fs.quote === null ? "–" : pct(fs.quote * 100, 100) + "%"}</div><div class="lbl">Trefferquote</div></div>
-      </div>
-      <button class="btn primary" id="mix">${f.name} gemischt üben <small>${ROUND_SIZE} Fragen, Fällige zuerst</small></button>
-      ${f.wissensbasis && f.allgemein ? `<button class="btn ghost" id="general">📖 Klausurtipps & Fallen</button>` : ""}
-    </div>
-    ${f.bloecke ? `<div class="card">
-      <h2>🗓 Nach Unterrichtstag</h2>
-      <p class="muted">Quiz und Lernzettel zu einem Themenblock aus dem Roten Faden.</p>
-      ${f.bloecke.slice().reverse().map(b => {
-        const i = f.bloecke.indexOf(b), bs = stats(blockFragen(f, b));
-        return `<div class="row" data-b="${i}">
-          <div class="name">${esc(b.name)}${bs.weak ? ' <span class="pill">⚠ üben</span>' : ""}
-            <div class="meta">${esc(b.datum || "")} · ${bs.total} Fragen · ${bs.seen} gesehen · ${bs.mastered} sicher</div>
-            <div class="bar"><div class="fill" style="width:${pct(bs.mastered, bs.total)}%"></div></div>
-          </div><div class="chev">›</div></div>`;
-      }).join("")}
-    </div>` : ""}
-    ${f.gruppen ? f.gruppen.map(([name, ds], g) => {
+  const nm = naechstesModul(f.id);
+  // Gruppen, die ganz in einem Unterrichtstag stecken, nicht doppelt zeigen
+  const gruppen = (f.gruppen || []).filter(([, ds]) => !(f.bloecke || []).some(b => ds.every(d => b.themen.includes(d))));
+  const archivDs = [...new Set(archivFragen(f).map(Q => Q.d))].filter(d => f.themen[d] !== undefined);
+  const gruppenHtml = gruppen.map(([name, ds], g) => {
       const gs = stats(list.filter(Q => ds.includes(Q.d)));
       const open = openGroups.has(f.id + g) || gs.weak;
       return `<details class="card group" data-g="${f.id + g}" ${open ? "open" : ""}>
@@ -445,14 +438,48 @@ function fachView(f) {
         </div><div class="chev">›</div></summary>
         ${themenListe(f, ds)}
       </details>`;
-    }).join("") : `<div class="card"><h2>Themen</h2>${themenListe(f, Object.keys(f.themen))}</div>`}`;
+    }).join("");
+  app.innerHTML = `
+    <div class="card">
+      <div class="stats">
+        <div class="stat"><div class="num">${fs.seen}/${fs.total}</div><div class="lbl">gesehen</div></div>
+        <div class="stat hl"><div class="num">${fs.mastered}</div><div class="lbl">sicher</div></div>
+        <div class="stat"><div class="num">${fs.quote === null ? "–" : pct(fs.quote * 100, 100) + "%"}</div><div class="lbl">Trefferquote</div></div>
+      </div>
+      ${nm ? modulKnopf(nm, "next-modul").replace("Lernkarten lesen", "Nächstes Thema: " + esc(nm.titel)) : ""}
+      <button class="btn ${nm ? "dark" : "primary"}" id="mix">${f.name} gemischt üben <small>${ROUND_SIZE} Fragen: Fehler und Fällige zuerst, Neue nur aus gelesenen Themen</small></button>
+      ${f.wissensbasis && f.allgemein ? `<button class="btn ghost" id="general">📖 Klausurtipps & Fallen</button>` : ""}
+    </div>
+    ${f.bloecke ? `<div class="card">
+      <h2>🗓 Nach Unterrichtstag</h2>
+      <p class="muted">Hier geht's lang: Lernkarten und Quiz zu jedem Unterrichtstag, der neueste oben.</p>
+      ${f.bloecke.slice().reverse().map(b => {
+        const i = f.bloecke.indexOf(b), bs = stats(blockFragen(f, b));
+        return `<div class="row" data-b="${i}">
+          <div class="name">${esc(b.name)}${bs.weak ? ' <span class="pill">⚠ üben</span>' : ""}
+            <div class="meta">${esc(b.datum || "")} · ${bs.total} Fragen · ${bs.seen} gesehen · ${bs.mastered} sicher</div>
+            <div class="bar"><div class="fill" style="width:${pct(bs.mastered, bs.total)}%"></div></div>
+          </div><div class="chev">›</div></div>`;
+      }).join("")}
+    </div>` : ""}
+    ${f.bloecke && (gruppen.length || archivDs.length) ? `<h3 class="abschnitt">Weitere Wege zum Üben</h3>` : ""}
+    ${f.gruppen ? gruppenHtml : `<div class="card"><h2>Themen</h2>${themenListe(f, Object.keys(f.themen))}</div>`}
+    ${archivDs.length ? `<details class="card group" data-g="${f.id}-archiv" ${openGroups.has(f.id + "-archiv") ? "open" : ""}>
+      <summary><div class="name"><b>🗄 Archiv: ältere Fragen</b>
+        <div class="meta">${archivFragen(f).length} Fragen, deren Inhalt jetzt in den Lernkarten steckt · nicht mehr in „Heute lernen“</div>
+      </div><div class="chev">›</div></summary>
+      ${themenListe(f, archivDs)}
+    </details>` : ""}`;
   app.querySelectorAll("details.group").forEach(el => el.ontoggle = () => {
     el.open ? openGroups.add(el.dataset.g) : openGroups.delete(el.dataset.g);
   });
+  on("next-modul", () => go(kartenView, nm));
   on("mix", () => {
-    const due = shuffle(list.filter(isDue));
-    const rest = shuffle(list.filter(Q => !isDue(Q)));
-    startQuiz(f.name + " gemischt", due.concat(rest).slice(0, ROUND_SIZE));
+    // gleiche Regel wie „Heute lernen“: Fehler → fällig → neu (nur aus gelesenen Themen) → Rest
+    const rang = Q => isWrongLast(Q) ? 0 : isDue(Q) ? 1 : isNew(Q) ? (neuErlaubt(Q) ? 2 : 9) : 3;
+    const pick = [0, 1, 2, 3].flatMap(r => shuffle(list.filter(Q => rang(Q) === r))).slice(0, ROUND_SIZE);
+    if (pick.length) startQuiz(f.name + " gemischt", shuffle(pick));
+    else alert("Noch keine Fragen frei – lies zuerst das nächste Thema in den Lernkarten.");
   });
   on("general", () => openNotes(f, f.allgemein, "Klausurtipps & Fallen"));
   app.querySelectorAll(".row").forEach(el => el.onclick = () =>
@@ -479,7 +506,7 @@ function blockView(f, i) {
         <div class="stat"><div class="num">${ts.quote === null ? "–" : pct(ts.quote * 100, 100) + "%"}</div><div class="lbl">Trefferquote</div></div>
       </div>
       ${blockModule.length ? (naechstes ? modulKnopf(naechstes, "karten").replace("Lernkarten lesen", "Lernkarten der Reihe nach") : `<button class="btn ghost" id="karten">🃏 Lernkarten <small>alle ${blockModule.length} Themen gelesen ✓ – nochmal von vorn</small></button>`) : ""}
-      <button class="btn ${naechstes ? "dark" : "primary"}" id="quiz">Quiz: 20 Fragen <small>Fehler, Fällige und Neue zuerst, aus allen Themen gemischt</small></button>
+      <button class="btn ${naechstes ? "dark" : "primary"}" id="quiz">Quiz: 20 Fragen <small>Fehler und Fällige zuerst, Neue aus gelesenen Themen</small></button>
       ${f.wissensbasis && b.themen.some(d => (f.kapitel || {})[d]) ? `<button class="btn ghost" id="notes">📖 Lernzettel zum Block lesen</button>` : ""}
       <button class="btn dark" id="all">Alle ${ts.total} Fragen üben</button>
       ${wrong.length ? `<button class="btn dark" id="wrong">Nur Fehler üben <small>${wrong.length} Fragen</small></button>` : ""}
@@ -487,9 +514,11 @@ function blockView(f, i) {
     <div class="card"><h2>Themen in diesem Block</h2>${themenListe(f, b.themen)}</div>`;
   on("quiz", () => {
     // Reihenfolge: zuletzt falsch → fällig → neu → Rest; je Gruppe gemischt
-    const rang = Q => isWrongLast(Q) ? 0 : isDue(Q) ? 1 : isNew(Q) ? 2 : 3;
+    // neue Fragen nur aus Themen, deren Lernkarten schon gelesen sind
+    const rang = Q => isWrongLast(Q) ? 0 : isDue(Q) ? 1 : isNew(Q) ? (neuErlaubt(Q) ? 2 : 9) : 3;
     const pick = [0, 1, 2, 3].flatMap(r => shuffle(list.filter(Q => rang(Q) === r))).slice(0, 20);
-    startQuiz(kurz.trim() + " · Quiz", shuffle(pick));
+    if (pick.length) startQuiz(kurz.trim() + " · Quiz", shuffle(pick));
+    else alert("Lies zuerst die Lernkarten dieses Tages – danach gibt es hier Fragen dazu.");
   });
   on("notes", () => openNotes(f, b.themen.map(d => (f.kapitel || {})[d]).filter(Boolean), b.name));
   on("karten", () => go(kartenView, naechstes || blockModule[0]));
@@ -565,11 +594,11 @@ function kartenView(m) {
         <button class="btn ghost" id="zurueck">Zur Übersicht</button>
         ${state.prefs.quellen ? `<div class="quellenliste"><b>Quellen dieses Themas</b>${Object.entries(m.quellen || {}).map(([k, v]) => `<div>${esc(k)} = ${esc(v)}</div>`).join("")}</div>` : ""}
       </div>` : ""}
-      <div class="kartennav">
+      <label class="schalter"><input type="checkbox" id="qz" ${state.prefs.quellen ? "checked" : ""}> Quellen anzeigen (wo steht das?)</label>
+      <div class="kartennav fixbar">
         <button class="btn ghost" id="vor" ${i === 0 ? "disabled" : ""}>‹ Zurück</button>
         <button class="btn ${letzte ? "ghost" : "primary"}" id="weiter" ${letzte ? "disabled" : ""}>Weiter ›</button>
-      </div>
-      <label class="schalter"><input type="checkbox" id="qz" ${state.prefs.quellen ? "checked" : ""}> Quellen anzeigen (wo steht das?)</label>`;
+      </div>`;
     window.scrollTo(0, 0);
     if (letzte && !r.fertig) { r.fertig = today(); save(); }
     on("vor", () => { if (i > 0) { i--; zeige(); } });
@@ -666,7 +695,7 @@ function quizView() {
       <div id="conf"></div>
       <div id="fb"></div>
     </div>
-    <button class="btn dark" id="next" hidden>Weiter</button>`;
+    <div class="fixbar" id="nextbar" hidden><button class="btn dark" id="next">Weiter ›</button></div>`;
 
   if (Q.t === "calc") {
     const inp = document.getElementById("inp");
@@ -766,8 +795,10 @@ function answer(Q, ok, conf) {
   on("read", () => mod ? openModul(mod, Q) : openNotes(f, [f.kapitel[Q.d]], themaName(Q), Q));
 
   const n = document.getElementById("next");
-  n.hidden = false;
+  document.getElementById("nextbar").hidden = false;
   n.onclick = () => { S.i++; render(); };
+  // Rückmeldung sichtbar machen (die Weiter-Leiste bleibt unten fest)
+  fb.scrollIntoView({ block: "nearest", behavior: "smooth" });
 }
 
 function resultView() {

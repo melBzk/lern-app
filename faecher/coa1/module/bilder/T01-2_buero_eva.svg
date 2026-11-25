@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 436" font-family="system-ui, sans-serif" role="img">
+<title>Ein Büro von vorn. Links der Korb Posteingang: Eingabe. In der Mitte die Sachbearbeiterin am Schreibtisch: Verarbeitung. Rechts der Korb Postausgang: Ausgabe. Hinten Aktenschrank und Telefonleitung: Sonstiges.</title>
+
+<rect width="400" height="436" fill="#fff"/>
+<text x="200" y="26" font-size="17" text-anchor="middle" font-weight="700" fill="#222">Das Büro</text>
+<rect x="0" y="40" width="400" height="210" rx="0" fill="#f8f9fa" stroke="none" stroke-width="0"/>
+<line x1="0" y1="250" x2="400" y2="250" stroke="#ccc" stroke-width="1.5"/>
+<rect x="24" y="96" width="80" height="154" rx="3" fill="#d0d4d9" stroke="#555" stroke-width="2"/>
+<rect x="30" y="104" width="68" height="40" rx="2" fill="#e9ecef" stroke="#555" stroke-width="1.5"/>
+<rect x="54" y="120" width="20" height="6" rx="2" fill="#555" stroke="none" stroke-width="0"/>
+<rect x="30" y="152" width="68" height="40" rx="2" fill="#e9ecef" stroke="#555" stroke-width="1.5"/>
+<rect x="54" y="168" width="20" height="6" rx="2" fill="#555" stroke="none" stroke-width="0"/>
+<rect x="30" y="200" width="68" height="40" rx="2" fill="#e9ecef" stroke="#555" stroke-width="1.5"/>
+<rect x="54" y="216" width="20" height="6" rx="2" fill="#555" stroke="none" stroke-width="0"/>
+<text x="64" y="86" font-size="13" text-anchor="middle" fill="#444">Aktenschrank</text>
+<line x1="340" y1="40" x2="340" y2="150" stroke="#555" stroke-width="3"/>
+<rect x="330" y="150" width="20" height="22" rx="3" fill="#fff" stroke="#555" stroke-width="1.5"/>
+<path d="M340,172 Q340,196 318,200" fill="none" stroke="#555" stroke-width="2"/>
+<rect x="290" y="200" width="64" height="10" rx="2" fill="#555" stroke="none" stroke-width="0"/>
+<rect x="284" y="210" width="76" height="28" rx="6" fill="#6b7280" stroke="#333" stroke-width="1.5"/>
+<path d="M290,198 Q322,184 354,198" fill="none" stroke="#333" stroke-width="7"/>
+<text x="296" y="86" font-size="13" text-anchor="middle" fill="#444">Telefonleitung</text>
+<rect x="140" y="112" width="110" height="30" rx="8" fill="#f1f3f5" stroke="#777" stroke-width="2"/>
+<text x="195" y="132" font-size="14" text-anchor="middle" font-weight="700" fill="#444">Sonstiges</text>
+<line x1="140" y1="127" x2="106" y2="150" stroke="#777" stroke-width="1.5"/>
+<line x1="250" y1="127" x2="328" y2="160" stroke="#777" stroke-width="1.5"/>
+<circle cx="200" cy="216" r="18" fill="#f0c9a0" stroke="none" stroke-width="2"/>
+<path d="M164,300 Q164,240 200,238 Q236,240 236,300 Z" fill="#7ea0e8" stroke="none" stroke-width="0"/>
+<rect x="124" y="300" width="152" height="12" rx="2" fill="#b08455" stroke="#7a5230" stroke-width="1.5"/>
+<rect x="132" y="312" width="10" height="68" rx="0" fill="#7a5230" stroke="none" stroke-width="0"/>
+<rect x="258" y="312" width="10" height="68" rx="0" fill="#7a5230" stroke="none" stroke-width="0"/>
+<rect x="180" y="286" width="34" height="14" rx="1" fill="#fff" stroke="#555" stroke-width="1.5"/>
+<rect x="206" y="280" width="30" height="20" rx="1" fill="#fff" stroke="#555" stroke-width="1.5"/>
+<line x1="212" y1="287" x2="230" y2="287" stroke="#999" stroke-width="1.5"/>
+<text x="200" y="336" font-size="13" text-anchor="middle" fill="#444">Sachbearbeitung</text>
+<rect x="24" y="288" width="26" height="20" rx="1" fill="#fff" stroke="#555" stroke-width="1.5"/>
+<rect x="54" y="284" width="26" height="24" rx="1" fill="#fff" stroke="#555" stroke-width="1.5"/>
+<path d="M14,300 H98 L90,336 H22 Z" fill="#c8a26a" stroke="#7a5230" stroke-width="2"/>
+<rect x="18" y="336" width="76" height="8" rx="1" fill="#b08455" stroke="none" stroke-width="0"/>
+<line x1="26" y1="344" x2="26" y2="380" stroke="#7a5230" stroke-width="4"/>
+<line x1="86" y1="344" x2="86" y2="380" stroke="#7a5230" stroke-width="4"/>
+<text x="56" y="274" font-size="14" text-anchor="middle" font-weight="700" fill="#222">Posteingang</text>
+<rect x="312" y="288" width="26" height="20" rx="1" fill="#fff" stroke="#555" stroke-width="1.5"/>
+<rect x="342" y="284" width="26" height="24" rx="1" fill="#fff" stroke="#555" stroke-width="1.5"/>
+<path d="M302,300 H386 L378,336 H310 Z" fill="#c8a26a" stroke="#7a5230" stroke-width="2"/>
+<rect x="306" y="336" width="76" height="8" rx="1" fill="#b08455" stroke="none" stroke-width="0"/>
+<line x1="314" y1="344" x2="314" y2="380" stroke="#7a5230" stroke-width="4"/>
+<line x1="374" y1="344" x2="374" y2="380" stroke="#7a5230" stroke-width="4"/>
+<text x="344" y="274" font-size="14" text-anchor="middle" font-weight="700" fill="#222">Postausgang</text>
+<line x1="100" y1="316" x2="116.0" y2="316.0" stroke="#333" stroke-width="2.5"/><polygon points="126,316 114.0,322.0 114.0,310.0" fill="#333"/>
+<line x1="276" y1="316" x2="292.0" y2="316.0" stroke="#333" stroke-width="2.5"/><polygon points="302,316 290.0,322.0 290.0,310.0" fill="#333"/>
+<line x1="0" y1="380" x2="400" y2="380" stroke="#999" stroke-width="2"/>
+<rect x="10.0" y="394" width="92" height="30" rx="8" fill="#e3f0e9" stroke="#2f6b4f" stroke-width="2"/>
+<text x="56" y="414" font-size="15" text-anchor="middle" font-weight="700" fill="#2f6b4f">Eingabe</text>
+<rect x="138.0" y="394" width="124" height="30" rx="8" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<text x="200" y="414" font-size="15" text-anchor="middle" font-weight="700" fill="#3a6ed8">Verarbeitung</text>
+<rect x="298.0" y="394" width="92" height="30" rx="8" fill="#fdf0e0" stroke="#E07B00" stroke-width="2"/>
+<text x="344" y="414" font-size="15" text-anchor="middle" font-weight="700" fill="#a85400">Ausgabe</text>
+</svg>

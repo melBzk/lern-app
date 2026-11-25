@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 450" font-family="system-ui, sans-serif">
+  <title>Controller sind Spiel-Eingabegeräte. Oben links ein Joystick, also ein Steuerknüppel auf einem Sockel mit Feuerknopf. Oben rechts ein Gamepad mit Steuerkreuz und Knöpfen. Von beiden führt ein Pfeil nach unten zum PC-Bildschirm, auf dem in einem Flugsimulator ein Flugzeug fliegt. Pfeilbeschriftung: Bewegung plus Knopfdruck gleich Eingabe.</title>
+  <defs>
+    <marker id="o" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E07B00"/></marker>
+  </defs>
+  <rect width="400" height="450" fill="#fff"/>
+
+  <!-- Ueberschrift -->
+  <rect x="12" y="12" width="376" height="40" rx="8" fill="#fff4e5" stroke="#E07B00"/>
+  <text x="200" y="38" text-anchor="middle" font-size="17" font-weight="700" fill="#222">Controller = Spiel-Eingabegerät</text>
+
+  <!-- Joystick -->
+  <rect x="45" y="168" width="110" height="30" rx="8" fill="#3a3f4a"/>
+  <circle cx="135" cy="183" r="6" fill="#E07B00"/>
+  <ellipse cx="100" cy="170" rx="20" ry="6" fill="#555"/>
+  <line x1="100" y1="168" x2="92" y2="108" stroke="#555" stroke-width="8" stroke-linecap="round"/>
+  <rect x="78" y="76" width="26" height="48" rx="12" fill="#3a3f4a" transform="rotate(-8 91 100)"/>
+  <circle cx="88" cy="82" r="5" fill="#E07B00"/>
+  <text x="100" y="224" text-anchor="middle" font-size="15" font-weight="700" fill="#222">Joystick</text>
+  <text x="100" y="242" text-anchor="middle" font-size="13" fill="#222">(Steuerknüppel)</text>
+
+  <!-- Gamepad -->
+  <path d="M240,120 Q300,108 360,120 Q382,124 384,150 L386,178 Q386,196 370,196 Q358,196 348,180 L252,180 Q242,196 230,196 Q214,196 214,178 L216,150 Q218,124 240,120 z" fill="#3a3f4a"/>
+  <rect x="244" y="140" width="30" height="10" rx="2" fill="#fff"/>
+  <rect x="254" y="130" width="10" height="30" rx="2" fill="#fff"/>
+  <circle cx="345" cy="133" r="6" fill="#E07B00"/>
+  <circle cx="345" cy="157" r="6" fill="#E07B00"/>
+  <circle cx="333" cy="145" r="6" fill="#E07B00"/>
+  <circle cx="357" cy="145" r="6" fill="#E07B00"/>
+  <text x="300" y="224" text-anchor="middle" font-size="15" font-weight="700" fill="#222">Gamepad</text>
+
+  <!-- Pfeile -->
+  <line x1="100" y1="252" x2="160" y2="316" stroke="#E07B00" stroke-width="3" marker-end="url(#o)"/>
+  <line x1="300" y1="252" x2="240" y2="316" stroke="#E07B00" stroke-width="3" marker-end="url(#o)"/>
+  <text x="200" y="268" text-anchor="middle" font-size="14" font-weight="700" fill="#E07B00">Bewegung + Knopfdruck</text>
+  <text x="200" y="286" text-anchor="middle" font-size="14" font-weight="700" fill="#E07B00">= Eingabe</text>
+
+  <!-- Monitor -->
+  <rect x="120" y="322" width="160" height="90" rx="4" fill="#3a3f4a"/>
+  <rect x="127" y="329" width="146" height="76" fill="#cfe3f7"/>
+  <rect x="127" y="389" width="146" height="16" fill="#7cb46a"/>
+  <g transform="translate(200 360) rotate(-12)" fill="#fff" stroke="#333" stroke-width="1.5">
+    <path d="M-30,0 Q-30,-5 -24,-5 L22,-5 Q32,-4 34,0 Q32,4 22,5 L-24,5 Q-30,5 -30,0 z"/>
+    <path d="M-4,-4 L-12,-24 L-4,-24 L10,-4 z"/>
+    <path d="M-4,4 L-12,24 L-4,24 L10,4 z"/>
+    <path d="M-28,-4 L-32,-14 L-26,-14 L-20,-4 z"/>
+  </g>
+  <rect x="190" y="412" width="20" height="10" fill="#555"/>
+  <rect x="176" y="422" width="48" height="5" rx="2" fill="#555"/>
+  <text x="200" y="444" text-anchor="middle" font-size="14" font-weight="700" fill="#222">PC: Flugsimulator</text>
+</svg>

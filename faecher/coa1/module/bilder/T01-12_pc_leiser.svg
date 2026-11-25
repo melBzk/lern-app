@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 490" font-family="system-ui, sans-serif" role="img">
+  <title>Offenes PC-Gehäuse von der Seite mit sechs Nummern. 1 Dämmmatte innen an der Gehäusewand. 2 Lüfter mit dem Schild Silent. 3 Gummipuffer unter dem Laufwerk. 4 Festplatte mit Schieberegler leise oder schnell, das ist Acoustic Management. 5 ein großer Lüfter, der langsam dreht. 6 Wasserkühlung mit Schläuchen am Prozessor. Fertige leise PCs heißen Silent-PC.</title>
+  <defs>
+    <pattern id="h" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#e6d5c3"/><line x1="0" y1="0" x2="0" y2="8" stroke="#a1887f" stroke-width="3"/>
+    </pattern>
+    <g id="nr"><circle cx="0" cy="0" r="11" fill="#e8590c"/></g>
+  </defs>
+  <rect width="400" height="490" fill="#fff"/>
+  <text x="200" y="28" text-anchor="middle" font-size="18" font-weight="700" fill="#222">So wird der PC leiser</text>
+
+  <!-- Gehäuse -->
+  <rect x="16" y="46" width="220" height="410" rx="8" fill="#f8f9fa" stroke="#343a40" stroke-width="3"/>
+  <!-- 1 Dämmmatte -->
+  <rect x="22" y="52" width="208" height="12" fill="url(#h)"/>
+  <rect x="22" y="52" width="12" height="398" fill="url(#h)"/>
+  <!-- Mainboard -->
+  <rect x="40" y="96" width="104" height="160" rx="3" fill="#ebfbee" stroke="#2b8a3e" stroke-width="1.5"/>
+  <!-- 6 Wasserkühlung -->
+  <rect x="44" y="70" width="100" height="14" rx="3" fill="#1c7ed6"/>
+  <path d="M88,154 C88,120 70,110 70,84 M104,154 C104,120 118,110 118,84" fill="none" stroke="#4dabf7" stroke-width="5"/>
+  <rect x="78" y="154" width="36" height="36" rx="4" fill="#1c7ed6"/>
+  <text x="96" y="208" text-anchor="middle" font-size="13" fill="#222">CPU</text>
+  <!-- 2 Silent-Lüfter -->
+  <rect x="166" y="106" width="48" height="48" rx="4" fill="#495057"/>
+  <circle cx="190" cy="130" r="19" fill="#343a40"/>
+  <g fill="#868e96">
+    <ellipse cx="190" cy="120" rx="5" ry="9"/>
+    <ellipse cx="181" cy="135" rx="5" ry="9" transform="rotate(120 181 135)"/>
+    <ellipse cx="199" cy="135" rx="5" ry="9" transform="rotate(240 199 135)"/>
+  </g>
+  <circle cx="190" cy="130" r="5" fill="#adb5bd"/>
+  <rect x="164" y="158" width="52" height="18" rx="3" fill="#fff" stroke="#222" stroke-width="1.5"/>
+  <text x="190" y="172" text-anchor="middle" font-size="13" font-weight="700" fill="#222">Silent</text>
+  <!-- 3 Laufwerk mit Gummipuffern -->
+  <rect x="150" y="206" width="76" height="26" rx="2" fill="#adb5bd" stroke="#555" stroke-width="1.5"/>
+  <text x="188" y="224" text-anchor="middle" font-size="13" fill="#222">Laufwerk</text>
+  <ellipse cx="164" cy="237" rx="8" ry="4.5" fill="#222"/>
+  <ellipse cx="212" cy="237" rx="8" ry="4.5" fill="#222"/>
+  <!-- 4 Festplatte mit Regler -->
+  <rect x="120" y="278" width="100" height="40" rx="4" fill="#868e96" stroke="#555" stroke-width="1.5"/>
+  <circle cx="146" cy="298" r="14" fill="#ced4da"/>
+  <circle cx="146" cy="298" r="3" fill="#555"/>
+  <line x1="200" y1="286" x2="152" y2="300" stroke="#343a40" stroke-width="3" stroke-linecap="round"/>
+  <line x1="126" y1="338" x2="218" y2="338" stroke="#555" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="138" cy="338" r="7" fill="#e8590c"/>
+  <text x="120" y="358" font-size="13" fill="#222">leise</text>
+  <text x="224" y="358" text-anchor="end" font-size="13" fill="#222">schnell</text>
+  <!-- 5 großer Lüfter -->
+  <rect x="112" y="374" width="76" height="76" rx="5" fill="#495057"/>
+  <circle cx="150" cy="412" r="33" fill="#343a40"/>
+  <g fill="#868e96">
+    <ellipse cx="150" cy="394" rx="8" ry="15"/>
+    <ellipse cx="135" cy="421" rx="8" ry="15" transform="rotate(120 135 421)"/>
+    <ellipse cx="165" cy="421" rx="8" ry="15" transform="rotate(240 165 421)"/>
+  </g>
+  <circle cx="150" cy="412" r="7" fill="#adb5bd"/>
+
+  <!-- Hinweislinien -->
+  <g stroke="#868e96" stroke-width="1.5">
+    <line x1="230" y1="58" x2="244" y2="70"/>
+    <line x1="214" y1="130" x2="244" y2="130"/>
+    <line x1="114" y1="180" x2="244" y2="190"/>
+    <line x1="220" y1="237" x2="244" y2="236"/>
+    <line x1="220" y1="300" x2="244" y2="300"/>
+    <line x1="188" y1="412" x2="244" y2="412"/>
+  </g>
+  <!-- Nummern und Texte -->
+  <g font-size="14" font-weight="700" fill="#fff" text-anchor="middle">
+    <use href="#nr" x="256" y="70"/><text x="256" y="75">1</text>
+    <use href="#nr" x="256" y="130"/><text x="256" y="135">2</text>
+    <use href="#nr" x="256" y="190"/><text x="256" y="195">6</text>
+    <use href="#nr" x="256" y="236"/><text x="256" y="241">3</text>
+    <use href="#nr" x="256" y="300"/><text x="256" y="305">4</text>
+    <use href="#nr" x="256" y="412"/><text x="256" y="417">5</text>
+  </g>
+  <g fill="#222">
+    <text x="272" y="75" font-size="14" font-weight="700">Dämmmatte</text>
+    <text x="272" y="92" font-size="13" fill="#444">innen an der Wand</text>
+    <text x="272" y="135" font-size="14" font-weight="700">Silent-Lüfter</text>
+    <text x="272" y="195" font-size="14" font-weight="700">Wasserkühlung</text>
+    <text x="272" y="212" font-size="13" fill="#444">am Prozessor</text>
+    <text x="272" y="241" font-size="14" font-weight="700">Gummipuffer</text>
+    <text x="272" y="258" font-size="13" fill="#444">unterm Laufwerk</text>
+    <text x="272" y="305" font-size="14" font-weight="700">Acoustic</text>
+    <text x="272" y="322" font-size="14" font-weight="700">Management</text>
+    <text x="272" y="339" font-size="13" fill="#e8590c">leise ↔ schnell</text>
+    <text x="272" y="417" font-size="14" font-weight="700">großer Lüfter</text>
+    <text x="272" y="434" font-size="13" fill="#444">dreht langsam</text>
+  </g>
+  <text x="200" y="480" text-anchor="middle" font-size="14" fill="#444">Fertig leise kaufen: „Silent-PC“</text>
+</svg>

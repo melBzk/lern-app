@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 404" font-family="system-ui, sans-serif" role="img">
+<title>Vergleich Küche und Rezept: Links die Küche mit Herd, Topf und Messer, sie steht für die Hardware, also alles zum Anfassen. Rechts ein Rezeptzettel mit drei Schritten (1. Wasser kochen, 2. Nudeln rein, 3. abgießen), er steht für die Software, die Anleitung. Ein Doppelpfeil dazwischen: Hardware und Software brauchen einander.</title>
+
+<rect width="400" height="404" fill="#fff"/>
+<text x="200" y="28" font-size="17" text-anchor="middle" font-weight="700" fill="#222">Küche und Rezept</text>
+<rect x="8" y="44" width="184" height="286" rx="12" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<text x="100" y="70" font-size="17" text-anchor="middle" font-weight="700" fill="#3a6ed8">Hardware</text>
+<text x="100" y="90" font-size="14" text-anchor="middle" fill="#222">= zum Anfassen</text>
+<rect x="30" y="190" width="140" height="110" rx="4" fill="#fff" stroke="#333" stroke-width="2"/>
+<rect x="30" y="190" width="140" height="18" rx="4" fill="#dfe3e8" stroke="#333" stroke-width="2"/>
+<circle cx="60" cy="199" r="4" fill="#333" stroke="none" stroke-width="2"/>
+<circle cx="80" cy="199" r="4" fill="#333" stroke="none" stroke-width="2"/>
+<rect x="52" y="222" width="96" height="60" rx="3" fill="#f1f3f5" stroke="#555" stroke-width="1.5"/>
+<line x1="64" y1="232" x2="136" y2="232" stroke="#555" stroke-width="2"/>
+<rect x="58" y="150" width="84" height="40" rx="4" fill="#9aa0a6" stroke="#333" stroke-width="2"/>
+<line x1="50" y1="156" x2="58" y2="156" stroke="#333" stroke-width="3"/>
+<line x1="142" y1="156" x2="150" y2="156" stroke="#333" stroke-width="3"/>
+<line x1="58" y1="148" x2="142" y2="148" stroke="#333" stroke-width="3"/>
+<path d="M36,128 L96,128 L86,118 L36,118 Z" fill="#d0d4d9" stroke="#333" stroke-width="1.5"/>
+<rect x="96" y="119" width="34" height="9" rx="2" fill="#7a5230" stroke="#333" stroke-width="1"/>
+<text x="160" y="126" font-size="13" text-anchor="middle" fill="#444">Messer</text>
+<text x="100" y="318" font-size="13" text-anchor="middle" fill="#444">Herd</text>
+<text x="166" y="172" font-size="13" text-anchor="middle" fill="#444">Topf</text>
+<rect x="208" y="44" width="184" height="286" rx="12" fill="#e3f0e9" stroke="#2f6b4f" stroke-width="2"/>
+<text x="300" y="70" font-size="17" text-anchor="middle" font-weight="700" fill="#2f6b4f">Software</text>
+<text x="300" y="90" font-size="14" text-anchor="middle" fill="#222">= die Anleitung</text>
+<path d="M222,112 H366 L378,124 V312 H222 Z" fill="#fffbe6" stroke="#7a6a48" stroke-width="2"/>
+<text x="300" y="140" font-size="15" text-anchor="middle" font-weight="700" fill="#222">Rezept</text>
+<text x="232" y="180" font-size="14" text-anchor="start" fill="#222">1. Wasser kochen</text>
+<text x="232" y="220" font-size="14" text-anchor="start" fill="#222">2. Nudeln rein</text>
+<text x="232" y="260" font-size="14" text-anchor="start" fill="#222">3. abgießen</text>
+<line x1="110.0" y1="360.0" x2="290.0" y2="360.0" stroke="#333" stroke-width="3"/><polygon points="300,360 288.0,366.0 288.0,354.0" fill="#333"/><polygon points="100,360 112.0,354.0 112.0,366.0" fill="#333"/>
+<text x="200" y="388" font-size="15" text-anchor="middle" font-weight="700" fill="#c62828">brauchen einander</text>
+</svg>

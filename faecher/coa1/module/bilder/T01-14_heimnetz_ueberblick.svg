@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 680" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Ein Heimnetz auf einen Blick. Oben die Wolke Internet, darin das Rechenzentrum eines Cloud-Anbieters. Darunter der Provider. Vom Provider führt eine Leitung aus Kupfer oder Glasfaser zur Fritzbox. Die Fritzbox enthält vier Teile: Modem, Router, Switch und WLAN-Access-Point. Darunter das Heimnetz (LAN): PC, NAS und Drucker per Kabel, Laptop und Handy per Funk. Ganz unten, abgetrennt, ein Gast-Handy: Es kommt nur ins Internet, nicht an Drucker und NAS.</title>
+<defs>
+<marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1f9d55"/></marker>
+<marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker>
+<g id="handy"><rect x="-11" y="0" width="22" height="38" rx="4" fill="#222"/><rect x="-8" y="5" width="16" height="27" fill="#9cc3f5"/></g>
+</defs>
+<rect width="400" height="680" fill="#fff"/>
+
+<!-- Internet-Wolke -->
+<g fill="#dfe9fb">
+<circle cx="130" cy="76" r="38"/><circle cx="190" cy="56" r="46"/><circle cx="256" cy="70" r="40"/><circle cx="300" cy="92" r="26"/><circle cx="96" cy="96" r="24"/>
+<rect x="96" y="80" width="204" height="38"/>
+</g>
+<text x="150" y="80" text-anchor="middle" font-size="17" font-weight="700" fill="#1d3f8a">Internet</text>
+<!-- Rechenzentrum -->
+<g transform="translate(240,40)">
+<rect x="0" y="0" width="34" height="44" rx="2" fill="#3a3f4a"/>
+<g fill="#9aa3ad"><rect x="4" y="5" width="26" height="7"/><rect x="4" y="18" width="26" height="7"/><rect x="4" y="31" width="26" height="7"/></g>
+<g fill="#1f9d55"><circle cx="26" cy="8.5" r="2"/><circle cx="26" cy="21.5" r="2"/><circle cx="26" cy="34.5" r="2"/></g>
+</g>
+<text x="257" y="104" text-anchor="middle" font-size="13">Cloud-Anbieter</text>
+
+<!-- Provider -->
+<line x1="200" y1="118" x2="200" y2="146" stroke="#333" stroke-width="3"/>
+<rect x="176" y="146" width="48" height="36" fill="#e5e7eb" stroke="#555" stroke-width="2"/>
+<g fill="#9aa3ad"><rect x="182" y="152" width="10" height="8"/><rect x="208" y="152" width="10" height="8"/><rect x="182" y="166" width="10" height="8"/><rect x="208" y="166" width="10" height="8"/></g>
+<text x="234" y="170" font-size="14" font-weight="700">Provider</text>
+<!-- Leitung -->
+<line x1="200" y1="182" x2="200" y2="232" stroke="#a0662a" stroke-width="5"/>
+<text x="212" y="212" font-size="13">Kupfer oder Glasfaser</text>
+
+<!-- Fritzbox -->
+<rect x="56" y="232" width="288" height="110" rx="10" fill="#3a3f4a"/>
+<text x="200" y="254" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">Fritzbox</text>
+<g fill="#fff"><rect x="66" y="264" width="132" height="32" rx="4"/><rect x="202" y="264" width="132" height="32" rx="4"/><rect x="66" y="300" width="132" height="32" rx="4"/><rect x="202" y="300" width="132" height="32" rx="4"/></g>
+<g font-size="14" font-weight="700" text-anchor="middle">
+<text x="132" y="285">Modem</text>
+<text x="268" y="285">Router</text>
+<text x="132" y="321">Switch</text>
+<text x="268" y="321" font-size="13">WLAN-Access-Point</text>
+</g>
+
+<!-- Heimnetz -->
+<rect x="30" y="378" width="360" height="152" rx="12" fill="#eef4fd" stroke="#3a6ed8" stroke-width="2"/>
+<text x="378" y="520" text-anchor="end" font-size="15" font-weight="700" fill="#1d3f8a">Heimnetz (LAN)</text>
+<!-- Kabel vom Switch -->
+<g stroke="#333" stroke-width="3" fill="none">
+<line x1="96" y1="342" x2="68" y2="412"/>
+<line x1="132" y1="342" x2="136" y2="412"/>
+<line x1="168" y1="342" x2="204" y2="412"/>
+</g>
+<!-- Funk vom Access Point -->
+<g stroke="#E07B00" stroke-width="3" fill="none" stroke-dasharray="5 4">
+<line x1="260" y1="342" x2="272" y2="410"/>
+<line x1="300" y1="342" x2="346" y2="410"/>
+</g>
+<!-- PC -->
+<rect x="44" y="414" width="48" height="34" rx="3" fill="#3a3f4a"/><rect x="48" y="418" width="40" height="26" fill="#dfe9fb"/><rect x="63" y="448" width="10" height="7" fill="#555"/><rect x="54" y="455" width="28" height="4" fill="#555"/>
+<text x="68" y="480" text-anchor="middle" font-weight="700">PC</text>
+<!-- NAS -->
+<rect x="118" y="412" width="36" height="46" rx="4" fill="#3a3f4a"/>
+<g stroke="#9aa3ad" stroke-width="3"><line x1="124" y1="422" x2="148" y2="422"/><line x1="124" y1="432" x2="148" y2="432"/><line x1="124" y1="442" x2="148" y2="442"/></g>
+<circle cx="146" cy="452" r="2.5" fill="#1f9d55"/>
+<text x="136" y="480" text-anchor="middle" font-weight="700">NAS</text>
+<!-- Drucker -->
+<rect x="192" y="412" width="24" height="10" fill="#fff" stroke="#333"/>
+<rect x="184" y="421" width="40" height="24" rx="3" fill="#3a3f4a"/>
+<rect x="192" y="440" width="24" height="14" fill="#fff" stroke="#333"/>
+<text x="204" y="480" text-anchor="middle" font-weight="700">Drucker</text>
+<!-- Laptop -->
+<rect x="252" y="414" width="40" height="28" rx="2" fill="#3a3f4a"/><rect x="256" y="418" width="32" height="20" fill="#dfe9fb"/><path d="M246,442 h52 l-4,7 h-44 z" fill="#555"/>
+<text x="272" y="480" text-anchor="middle" font-weight="700">Laptop</text>
+<!-- Handy -->
+<use href="#handy" x="346" y="414"/>
+<text x="346" y="480" text-anchor="middle" font-weight="700">Handy</text>
+<text x="30" y="368" font-size="13">Kabel</text>
+<text x="226" y="368" text-anchor="middle" font-size="13" fill="#a85a00" font-weight="700">WLAN</text>
+
+<!-- Gastnetz -->
+<line x1="10" y1="556" x2="390" y2="556" stroke="#555" stroke-width="2" stroke-dasharray="8 6"/>
+<use href="#handy" x="60" y="590"/>
+<path d="M76,590 a10,10 0 0 1 10,-10 M76,582 a18,18 0 0 1 18,-18" fill="none" stroke="#E07B00" stroke-width="2.5"/>
+<text x="60" y="650" text-anchor="middle" font-size="15" font-weight="700">Gast</text>
+<!-- nur Internet -->
+<path d="M48,598 H16 V98 H66" fill="none" stroke="#1f9d55" stroke-width="3.5" marker-end="url(#ag)"/>
+<text x="150" y="584" font-size="15" font-weight="700">Gastnetz:</text>
+<text x="150" y="608" font-size="15" font-weight="700" fill="#1c6b3c">nur ins Internet</text>
+<!-- kein Zugriff -->
+<line x1="86" y1="604" x2="128" y2="566" stroke="#c62828" stroke-width="3.5" marker-end="url(#ar)"/>
+<path d="M98,576 l16,16 M114,576 l-16,16" stroke="#c62828" stroke-width="4"/>
+<text x="150" y="632" font-size="15" font-weight="700" fill="#a32020">nicht an Drucker und NAS</text>
+</svg>

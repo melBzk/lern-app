@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 462" font-family="system-ui, sans-serif" role="img">
+  <title>Spickzettel Rechnen mit Bildpunkten. Pixel gleich Breite mal Höhe. 1 Zoll gleich 2,54 cm. Punkte einer Druckseite gleich Zoll mal dpi in der Breite mal Zoll mal dpi in der Höhe. Treppe abwärts: Bit geteilt durch 8 ergibt Byte, geteilt durch 1024 ergibt KiB, geteilt durch 1024 ergibt MiB. Merkzeile: A4, 1200 dpi, Schwarz-Weiß, etwa 16,6 MiB.</title>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker>
+    <pattern id="gr" x="26" y="62" width="11" height="11" patternUnits="userSpaceOnUse"><rect width="11" height="11" fill="#fff" stroke="#555" stroke-width="1"/></pattern>
+    <pattern id="pt" x="34" y="168" width="6" height="6" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="1.4" fill="#222"/></pattern>
+  </defs>
+  <rect width="400" height="462" fill="#fff"/>
+  <text x="200" y="28" text-anchor="middle" font-size="18" font-weight="700" fill="#222">Spickzettel: Bildpunkte</text>
+  <rect x="10" y="44" width="380" height="340" rx="12" fill="#eef4ff" stroke="#3a6ed8" stroke-width="2"/>
+
+  <!-- Zeile 1 -->
+  <rect x="26" y="62" width="44" height="33" fill="url(#gr)" stroke="#555" stroke-width="1.5"/>
+  <rect x="37" y="73" width="11" height="11" fill="#222"/>
+  <text x="88" y="85" font-size="17" font-weight="700" fill="#222">Pixel = Breite × Höhe</text>
+
+  <!-- Zeile 2 -->
+  <rect x="22" y="124" width="52" height="18" fill="#f6e7b0" stroke="#a08a3a" stroke-width="1.5"/>
+  <g stroke="#6b5b20" stroke-width="1.5"><line x1="28" y1="124" x2="28" y2="133"/><line x1="40" y1="124" x2="40" y2="130"/><line x1="52" y1="124" x2="52" y2="133"/><line x1="64" y1="124" x2="64" y2="130"/></g>
+  <text x="88" y="140" font-size="17" font-weight="700" fill="#222">1 Zoll = 2,54 cm</text>
+
+  <!-- Zeile 3 -->
+  <rect x="34" y="168" width="30" height="42" fill="url(#pt)" stroke="#555" stroke-width="1.5"/>
+  <text x="88" y="184" font-size="16" font-weight="700" fill="#222">Punkte =</text>
+  <text x="88" y="206" font-size="15" font-weight="700" fill="#222">(Zoll × dpi) × (Zoll × dpi)</text>
+
+  <!-- Zeile 4: Treppe -->
+  <line x1="24" y1="228" x2="376" y2="228" stroke="#c5d4f2" stroke-width="1.5"/>
+  <g font-size="16" font-weight="700" fill="#222" text-anchor="middle">
+    <rect x="24" y="244" width="70" height="30" rx="6" fill="#fff" stroke="#3a6ed8" stroke-width="2"/><text x="59" y="265">Bit</text>
+    <rect x="112" y="276" width="70" height="30" rx="6" fill="#fff" stroke="#3a6ed8" stroke-width="2"/><text x="147" y="297">Byte</text>
+    <rect x="200" y="308" width="70" height="30" rx="6" fill="#fff" stroke="#3a6ed8" stroke-width="2"/><text x="235" y="329">KiB</text>
+    <rect x="288" y="340" width="80" height="30" rx="6" fill="#fff" stroke="#3a6ed8" stroke-width="2"/><text x="328" y="361">MiB</text>
+  </g>
+  <g fill="none" stroke="#3a6ed8" stroke-width="2.5" marker-end="url(#a)">
+    <path d="M94,259 H130 V272"/>
+    <path d="M182,291 H218 V304"/>
+    <path d="M270,323 H306 V336"/>
+  </g>
+  <g font-size="14" font-weight="700" fill="#3a6ed8">
+    <text x="104" y="252">÷ 8</text>
+    <text x="192" y="284">÷ 1024</text>
+    <text x="280" y="316">÷ 1024</text>
+  </g>
+
+  <rect x="10" y="398" width="380" height="50" rx="10" fill="#fff4ec" stroke="#e8590c" stroke-width="2.5"/>
+  <text x="200" y="429" text-anchor="middle" font-size="17" font-weight="700" fill="#222">A4 · 1200 dpi · S/W <tspan fill="#e8590c">≈ 16,6 MiB</tspan></text>
+</svg>

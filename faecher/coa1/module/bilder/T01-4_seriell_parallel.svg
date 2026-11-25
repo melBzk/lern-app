@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 420" font-family="system-ui, sans-serif">
+  <title>Seriell gegen parallel. Oben seriell: eine einzige Leitung vom Gerät zum PC, die Daten 1, 0, 1, 1 fahren hintereinander wie Autos auf einer einspurigen Straße. Beispiele PS/2 und USB. Unten parallel: vier Leitungen nebeneinander, auf jeder fährt gleichzeitig ein Datenstück, wie auf einer vierspurigen Straße.</title>
+  <defs>
+    <marker id="pf" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="10" markerHeight="10" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker>
+  </defs>
+  <rect width="400" height="420" fill="#fff"/>
+  <text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700" fill="#222">Seriell oder parallel?</text>
+
+  <!-- seriell -->
+  <rect x="8" y="40" width="384" height="160" rx="10" fill="#e8f0fe"/>
+  <text x="22" y="64" font-size="16" font-weight="700" fill="#1d4fb8">seriell = nacheinander</text>
+  <text x="22" y="84" font-size="13" fill="#555">eine Leitung, ein Datenstück nach dem anderen</text>
+  <rect x="22" y="104" width="54" height="44" rx="6" fill="#fff" stroke="#333" stroke-width="2"/>
+  <text x="49" y="131" text-anchor="middle" font-size="13" font-weight="700" fill="#222">Gerät</text>
+  <rect x="324" y="104" width="54" height="44" rx="6" fill="#3a3f4a"/>
+  <text x="351" y="131" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">PC</text>
+  <line x1="78" y1="126" x2="320" y2="126" stroke="#555" stroke-width="3" marker-end="url(#pf)"/>
+  <g font-size="15" font-weight="700" text-anchor="middle">
+    <rect x="110" y="114" width="26" height="24" rx="4" fill="#3a6ed8"/><text x="123" y="131" fill="#fff">1</text>
+    <rect x="160" y="114" width="26" height="24" rx="4" fill="#3a6ed8"/><text x="173" y="131" fill="#fff">0</text>
+    <rect x="210" y="114" width="26" height="24" rx="4" fill="#3a6ed8"/><text x="223" y="131" fill="#fff">1</text>
+    <rect x="260" y="114" width="26" height="24" rx="4" fill="#3a6ed8"/><text x="273" y="131" fill="#fff">1</text>
+  </g>
+  <rect x="22" y="160" width="200" height="26" rx="13" fill="#fff" stroke="#3a6ed8" stroke-width="2"/>
+  <text x="122" y="178" text-anchor="middle" font-size="14" font-weight="700" fill="#1d4fb8">Beispiele: PS/2, USB</text>
+
+  <!-- parallel -->
+  <rect x="8" y="214" width="384" height="196" rx="10" fill="#f3f4f6"/>
+  <text x="22" y="238" font-size="16" font-weight="700" fill="#555">parallel = nebeneinander</text>
+  <text x="22" y="258" font-size="13" fill="#555">mehrere Leitungen, gleichzeitig</text>
+  <rect x="22" y="274" width="54" height="116" rx="6" fill="#fff" stroke="#333" stroke-width="2"/>
+  <text x="49" y="337" text-anchor="middle" font-size="13" font-weight="700" fill="#222">Gerät</text>
+  <rect x="324" y="274" width="54" height="116" rx="6" fill="#3a3f4a"/>
+  <text x="351" y="337" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">PC</text>
+  <g stroke="#555" stroke-width="3">
+    <line x1="78" y1="290" x2="320" y2="290" marker-end="url(#pf)"/>
+    <line x1="78" y1="318" x2="320" y2="318" marker-end="url(#pf)"/>
+    <line x1="78" y1="346" x2="320" y2="346" marker-end="url(#pf)"/>
+    <line x1="78" y1="374" x2="320" y2="374" marker-end="url(#pf)"/>
+  </g>
+  <g font-size="13" font-weight="700" text-anchor="middle">
+    <rect x="190" y="280" width="22" height="20" rx="4" fill="#888"/><text x="201" y="295" fill="#fff">1</text>
+    <rect x="190" y="308" width="22" height="20" rx="4" fill="#888"/><text x="201" y="323" fill="#fff">0</text>
+    <rect x="190" y="336" width="22" height="20" rx="4" fill="#888"/><text x="201" y="351" fill="#fff">1</text>
+    <rect x="190" y="364" width="22" height="20" rx="4" fill="#888"/><text x="201" y="379" fill="#fff">1</text>
+  </g>
+</svg>

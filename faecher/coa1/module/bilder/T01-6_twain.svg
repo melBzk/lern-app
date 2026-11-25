@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 420" font-family="system-ui, sans-serif">
+  <title>TWAIN ist die Standard-Treiberschnittstelle für Scanner. Links drei Programme: Bildbearbeitung, Office, Scan-App. Rechts drei Scanner der Marken A, B und C. Alle sind mit dem Verbinder TWAIN in der Mitte verbunden, also kann jedes Programm jeden Scanner nutzen. Darunter: Ohne TWAIN ist ein Scanner nur mit der mitgelieferten Hersteller-Software verbunden.</title>
+  <defs>
+    <g id="fenster">
+      <rect x="0" y="0" width="112" height="46" rx="5" fill="#fff" stroke="#333" stroke-width="2"/>
+      <rect x="0" y="0" width="112" height="12" rx="5" fill="#3a6ed8"/>
+      <rect x="0" y="7" width="112" height="5" fill="#3a6ed8"/>
+    </g>
+    <g id="scanner">
+      <rect x="0" y="0" width="80" height="8" rx="3" fill="#555"/>
+      <rect x="0" y="9" width="80" height="4" fill="#a9d4f5"/>
+      <rect x="0" y="13" width="80" height="26" rx="5" fill="#3a3f4a"/>
+      <rect x="10" y="17" width="7" height="18" rx="2" fill="#ffd54a"/>
+    </g>
+  </defs>
+  <rect width="400" height="420" fill="#fff"/>
+  <text x="200" y="26" text-anchor="middle" font-size="16" font-weight="700" fill="#222">Jedes Programm mit jedem Scanner</text>
+
+  <!-- Linien -->
+  <g stroke="#E07B00" stroke-width="3" fill="none">
+    <line x1="122" y1="77" x2="168" y2="130"/><line x1="122" y1="147" x2="168" y2="147"/><line x1="122" y1="217" x2="168" y2="164"/>
+    <line x1="232" y1="130" x2="296" y2="74"/><line x1="232" y1="147" x2="296" y2="144"/><line x1="232" y1="164" x2="296" y2="214"/>
+  </g>
+  <!-- Programme -->
+  <use href="#fenster" x="10" y="54"/>
+  <text x="66" y="90" text-anchor="middle" font-size="13" fill="#222">Bildbearbeitung</text>
+  <use href="#fenster" x="10" y="124"/>
+  <text x="66" y="160" text-anchor="middle" font-size="13" fill="#222">Office</text>
+  <use href="#fenster" x="10" y="194"/>
+  <text x="66" y="230" text-anchor="middle" font-size="13" fill="#222">Scan-App</text>
+  <text x="66" y="262" text-anchor="middle" font-size="14" font-weight="700" fill="#222">Programme</text>
+
+  <!-- TWAIN -->
+  <rect x="166" y="104" width="68" height="86" rx="10" fill="#E07B00"/>
+  <text x="200" y="153" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">TWAIN</text>
+  <text x="200" y="212" text-anchor="middle" font-size="13" fill="#b35f00">Standard-</text>
+  <text x="200" y="228" text-anchor="middle" font-size="13" fill="#b35f00">Treiber-</text>
+  <text x="200" y="244" text-anchor="middle" font-size="13" fill="#b35f00">schnittstelle</text>
+
+  <!-- Scanner -->
+  <use href="#scanner" x="300" y="54"/>
+  <text x="340" y="112" text-anchor="middle" font-size="13" fill="#222">Marke A</text>
+  <use href="#scanner" x="300" y="124"/>
+  <text x="340" y="182" text-anchor="middle" font-size="13" fill="#222">Marke B</text>
+  <use href="#scanner" x="300" y="194"/>
+  <text x="340" y="252" text-anchor="middle" font-size="13" fill="#222">Marke C</text>
+
+  <!-- ohne TWAIN -->
+  <rect x="8" y="280" width="384" height="132" rx="12" fill="#f3f4f6" stroke="#bbb"/>
+  <text x="22" y="306" font-size="15" font-weight="700" fill="#a32020">ohne TWAIN</text>
+  <use href="#scanner" x="30" y="326"/>
+  <line x1="114" y1="345" x2="210" y2="345" stroke="#555" stroke-width="3"/>
+  <use href="#fenster" x="214" y="322"/>
+  <text x="270" y="358" text-anchor="middle" font-size="13" fill="#222">Hersteller-Software</text>
+  <text x="200" y="398" text-anchor="middle" font-size="13" fill="#222">an die mitgelieferte Software gebunden</text>
+</svg>

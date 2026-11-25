@@ -1,6 +1,6 @@
 # COA1 – Wissensbasis
 
-Gegliedert nach den **Kapiteln des Buchs** HERDT, *PC-Technik – Grundlagen* (2020): Die Nummer vor jedem Abschnitt ist die Kapitelnummer im Buch (Seitenzahlen = PDF-Seiten). Kapitel, die im Kurs nicht drankommen (4, 6, 7, 8, 12, 18, 20), fehlen. Inhalte aus dem Unterricht ohne Buchkapitel stehen am Ende (90–92) und sind mit **(Unterricht)** markiert. Als 
+Gegliedert nach den **Kapiteln des Buchs** HERDT, *PC-Technik – Grundlagen* (2020): Die Nummer vor jedem Abschnitt ist die Kapitelnummer im Buch (Seitenzahlen = PDF-Seiten). Kapitel, die im Kurs nicht drankommen (4, 6, 7, 8, 12, 18, 20), fehlen. Inhalte aus dem Unterricht ohne Buchkapitel stehen am Ende (90–92) und sind mit **(Unterricht)** markiert.
 
 ## 0. Prüfungsfallen & Selbstcheck – Kapitel 2–21
 
@@ -92,8 +92,8 @@ Gegliedert nach den **Kapiteln des Buchs** HERDT, *PC-Technik – Grundlagen* (2
 
 ### Vorläufig ergänzte Themen (nach dem Unterricht abgleichen)
 
-- Abschnitt 91: Binärzahlen und Speichergrößen – kein eigenes Buchkapitel, vorläufig ergänzt **(Unterricht)**
-- Kap. 16: Windows 11 im Grafikmodus installieren – Buch zeigt nur Windows 10, vorläufig ergänzt **(Unterricht)**
+- Kap. 16: Windows 11 im Grafikmodus installieren – Buch zeigt nur Windows 10, vorläufig ergänzt *(Ergänzung)*
+- Abgeglichen: Abschnitt 91 (Binärzahlen und Speichergrößen) mit dem Unterricht vom 24.11. – siehe Lernmodule „Binärzahlen“ und „Speichergrößen“.
 
 ## 1. Prüfungsfallen & Selbstcheck – Kapitel 9 und 11
 
@@ -134,7 +134,7 @@ Gegliedert nach den **Kapiteln des Buchs** HERDT, *PC-Technik – Grundlagen* (2
 | Passiver Hub = externe Stromversorgung | **Aktiver** Hub hat das eigene Netzteil; der passive bekommt Strom nur vom USB-Anschluss (S. 97). |
 | Ein Pixel = 3 Punkte (rot, gelb, blau) | Subpixel sind **Rot, Grün, Blau** (RGB). Drucker mischen dagegen mit Cyan, Magenta, Gelb, Schwarz (CMYK). |
 | Tintendrucker-Farben: schwarz, gelb, blau, rot | Fachbegriffe: **Cyan** (Blau), **Magenta** (Rot), **Gelb**, **Schwarz** (S. 117). |
-| Laserdrucker: schnell, nicht die beste Qualität | Das Buch nennt hohe Druckqualität (≥ 1.200 dpi); nur echter Fotodruck geht nicht (S. 117). |
+| Laserdrucker: schnell, nicht die beste Qualität | Das Buch nennt hohe Druckqualität (≥ 1.200 dpi); nur echter Fotodruck geht nicht (S. 117). ⚠ Achtung: Im Unterricht hieß es „nicht so die beste Qualität“. Für die Klausur: Laserdrucker = schnell, leise, hohe Druckqualität für Text und Grafik; für **Fotos** ist ein Tintenstrahldrucker besser (S. 117). |
 | PAN: Bluetooth, RFID, EFC | gemeint ist vermutlich **NFC** (Near Field Communication). |
 | Cloud = Festplatte übers Netzwerk (z. B. NAS) | Ein **NAS** steht im eigenen Netz; die **Cloud** ist Speicher bei einem Anbieter im Internet. Beides ist Speicher übers Netzwerk. |
 | Maus: früher Laser/mit Kugel, heute LED | Früher **Kugel** (mechanisch); heute **optisch** – mit LED **oder Laser** (Laser = präziser, S. 114). |
@@ -164,7 +164,9 @@ Gegliedert nach den **Kapiteln des Buchs** HERDT, *PC-Technik – Grundlagen* (2
 | **Verarbeitung** | CPU rechnet mit Daten aus dem Arbeitsspeicher. | CPU, RAM |
 | **Ausgabe** | Ergebnis wird sichtbar oder gespeichert. | Monitor, Drucker, Lautsprecher |
 
-### Von-Neumann-Architektur – vier Funktionseinheiten
+### Von-Neumann-Architektur – vier Funktionseinheiten + Bussystem
+
+> **MERKE:** **Vier Funktionseinheiten + Bussystem = fünf Bestandteile.** Das Buch (S. 5) zählt vier Funktionseinheiten und nennt das Bussystem als „weitere wichtige Komponente“. Fragt die Klausur nach den Teilen des **Von-Neumann-Rechners**, nenne alle fünf; fragt sie nach der **CPU**, sind es drei (Steuerwerk, Rechenwerk, Speicher = Register und Cache – siehe Lernmodul „Kernkomponenten der CPU“).
 
 | Einheit | Aufgabe |
 |---|---|
@@ -173,7 +175,7 @@ Gegliedert nach den **Kapiteln des Buchs** HERDT, *PC-Technik – Grundlagen* (2
 | **Speicher** | **ein** gemeinsamer Speicher für Daten **und** Programme |
 | **Ein-/Ausgabe** | Verbindung zur Außenwelt |
 
-- Verbunden über den **Systembus** = Datenbus (bidirektional) + Adressbus + Steuerbus.
+- Verbunden über den **Systembus** (= Bussystem, der fünfte Bestandteil) = Datenbus (bidirektional) + Adressbus + Steuerbus.
 - Verarbeitung **streng nacheinander** (sequenziell).
 - Rechen- und Steuerwerk sitzen im PC gemeinsam in der **CPU**; ihre Befehle bilden den **Befehlssatz**.
 - **Flaschenhals** ist das Bussystem: Vor und nach jedem Schritt werden dieselben Leitungen genutzt. Abhilfe: Register und Cache-Ebenen, mehrere Kerne (Buch S. 5).
@@ -235,11 +237,11 @@ Gegliedert nach den **Kapiteln des Buchs** HERDT, *PC-Technik – Grundlagen* (2
 | Sockeltyp | Kontakte | Hinweis |
 |---|---|---|
 | **PGA** (Pin Grid Array) | **Pins an der CPU**, Löcher im Sockel | Pins verbiegen leicht · bei AMD als **PGA-ZIF** (Zero Insertion Force = ohne Kraft einsetzen), z. B. AM4 |
-| **BGA** (Ball Grid Array) | kleine **Lotperlen** an der CPU | robust, für sehr viele Kontakte |
+| **BGA** (Ball Grid Array) | kleine **Lotperlen** an der CPU | robust, für sehr viele Kontakte · meist **fest aufgelötet, nicht tauschbar** (z. B. Laptops) *(Ergänzung)* |
 | **LGA** (Land Grid Array) | **Kontaktflächen** an der CPU, **Federn im Sockel** | alle aktuellen Intel-Desktop-CPUs, AMD Threadripper |
 
 - Takt der CPU = **Referenztakt × Multiplikator**, z. B. 100 MHz × 44 = **4,4 GHz** (Buch S. 15).
-- Seit ca. 2008 sitzt der **Speichercontroller in der CPU**, seit 2011 auch die übrigen Northbridge-Aufgaben. Einen Front Side Bus gibt es nicht mehr.
+- Seit ca. 2008 sitzt der **Speichercontroller in der CPU**; seit 2011 enthalten **die meisten** CPUs auch die übrigen Northbridge-Funktionen (Buch S. 10). Einen Front Side Bus gibt es nicht mehr.
 - Intel-Namen: **K** = übertaktbar (freier Multiplikator) · **T** = stromsparend · erste Ziffer(n) = Generation, z. B. i9-**8**950HK = 8. Generation, i9-**10**900K = 10. Generation.
 
 ### Chipsatz (Kap. 2.5, Buch S. 11–12)
@@ -386,6 +388,26 @@ Gegliedert nach den **Kapiteln des Buchs** HERDT, *PC-Technik – Grundlagen* (2
 - Unterricht: **passiv** = nur Kühlrippen (Alu), der Luftstrom kommt von Gehäuselüftern · **aktiv** = zusätzlich ein Lüfter direkt auf den Kühlrippen. Zwischen CPU und Kühler liegt immer ein Luftpolster (leitet schlecht) → **Wärmeleitpaste**. Wird die CPU zu heiß: Paste prüfen und erneuern (sie trocknet aus), nicht nur die Lüfter hochdrehen.
 - **Stromsparen**: Intel SpeedStep, AMD Cool’n’Quiet.
 
+### CPU einbauen
+
+> **HINWEIS:** Dieser Ablauf stand früher unter Kap. 13. Das Buch beschreibt den CPU-Einbau nicht als eigene Anleitung; belegt sind nur einzelne Schritte (Quelle jeweils in Klammern). Alles ohne Quelle ist *(Ergänzung)*. Ausführlich: Lernmodul „Mikroprozessor“.
+
+1. **Netzstecker ziehen**, **ESD-Schutz** (Buch S. 136–137).
+2. Sockelhebel öffnen, CPU **ohne Kraft** einsetzen – Markierung bzw. Kerbe an CPU und Sockel zeigt die Richtung (Buch S. 10; Unterricht 24.11.).
+3. Hebel bzw. Klammern schließen – sie fixieren die CPU (Buch S. 10; Unterricht 24.11.).
+4. **Wärmeleitpaste** (oder Wärmeleitpad) zwischen CPU und Kühler – sie gleicht Unebenheiten aus (Buch S. 46). Dünn auftragen, Kühler gleichmäßig über Kreuz festschrauben *(Ergänzung)*.
+5. Lüfter an **CPU_FAN**, 4/8-pol. CPU-Stromstecker anschließen *(Ergänzung)*.
+6. Starten, im BIOS prüfen: CPU erkannt, Temperatur plausibel *(Ergänzung; Temperaturüberwachung: Buch S. 24)*.
+
+| Symptom | Mögliche Ursache | Maßnahme |
+|---|---|---|
+| **Kein Bild, startet nicht** | CPU nicht unterstützt, BIOS zu alt, CPU-Strom fehlt | Support List prüfen, BIOS-Update, Stecker prüfen *(Ergänzung)* |
+| **Pieptöne beim Start** | POST hat einen Hardwarefehler gefunden | Bedeutung im Handbuch nachschlagen – die Codes sind je BIOS-Hersteller verschieden (Buch S. 139) |
+| **Abschalten unter Last** | Überhitzung | Paste, Kühlersitz, Lüfter prüfen (Buch S. 24: Abschalten bei Überhitzung; S. 46: Wärmeleitpaste); Temperatur im BIOS ansehen *(Ergänzung)* |
+| **„CPU Fan Error“** | Lüfter falsch angeschlossen oder defekt | an CPU_FAN anschließen, Lüfter tauschen *(Ergänzung)* |
+| **Langsam** | Thermal Throttling, Energiesparplan | Kühlung und Energieoptionen prüfen *(Ergänzung)* |
+| **Verbogene Pins** | falsch eingesetzt | vorsichtig richten oder Teil tauschen (verbogener Kontakt → Fehlfunktion: Buch S. 10) |
+
 ## 5. Kap. 5 – Speicher (S. 55–64)
 
 > **KERN:** Programme werden zum Ausführen in den **RAM** geladen: Zugriff in **Nanosekunden** statt Millisekunden (Festplatte). RAM ist **flüchtig** – ohne Strom sind die Daten weg.
@@ -515,7 +537,7 @@ Gegliedert nach den **Kapiteln des Buchs** HERDT, *PC-Technik – Grundlagen* (2
 #### Stecker
 - **Typ A** = am Computer · **Typ B** = am Gerät (Drucker, 3,5″-Festplatte)
 - **Mini-USB** und **Micro-USB** für kleine Geräte; per Adapter kompatibel
-- **USB-C:** oval, 24-polig, verdrehsicher; für USB 3.1/3.2, Thunderbolt, USB4
+- **USB-C:** oval, 24-polig, verdrehsicher; für USB 3.1/3.2, Thunderbolt (Buch S. 98: Thunderbolt über USB-C; S. 99: Stecker anfangs = Mini-DisplayPort · Zuordnung USB-C ab **Thunderbolt 3**, TB1/TB2 Mini-DisplayPort: *Ergänzung*), USB4
 - Alte Stecker passen in USB-3.0-Buchsen. Der neue **USB-3.0-B-Stecker** passt nur in neue Buchsen – ein USB-3.0-Gerät am USB-2.0-PC braucht daher ein herkömmliches USB-Kabel.
 
 ![USB-Steckertypen von vorn (Buch S. 96–97)](faecher/coa1/bilder/usb-stecker.svg)
@@ -542,7 +564,7 @@ Gegliedert nach den **Kapiteln des Buchs** HERDT, *PC-Technik – Grundlagen* (2
 
 ## 10. Kap. 10 – Massenspeicher (S. 101–111)
 
-> **KERN:** Massenspeicher halten Daten **dauerhaft**. Beim Einschalten prüft das BIOS/UEFI die Hardware (**POST**) und startet dann von einem bootfähigen Laufwerk.
+> **KERN:** Massenspeicher halten Daten **dauerhaft**, auch ohne Strom. Die wichtigsten: **HDD** (rotierende Magnetscheiben), **SSD** (Flash, keine Mechanik) und **M.2 NVMe** (Flash direkt am PCIe-Bus).
 
 ### Einteilung von Speichermedien
 
@@ -584,13 +606,13 @@ Gegliedert nach den **Kapiteln des Buchs** HERDT, *PC-Technik – Grundlagen* (2
 | **SATA-SSD** | NAND-Flash, keine Mechanik | schnell, leise, robust · max. ca. 550 MB/s (SATA 3 = 600 MB/s) |
 | **M.2 NVMe** | Flash über PCIe | sehr schnell (mehrere GB/s) |
 | **SSHD** | HDD + kleiner Flash-Cache | eingestellt |
-| **SAS / Enterprise** | seriell, Punkt-zu-Punkt, für Dauerbetrieb | Server, höhere MTBF |
+| **SAS / Enterprise** | seriell, Punkt-zu-Punkt, für Server | MTBF von SATA- und SAS-Platten laut Buch ähnlich – manche SATA-Hersteller rechnen aber nur mit 8–12 h Betrieb am Tag. Für ausfallsichere Server: **Enterprise-Modelle**, die vom Hersteller für den **Dauerbetrieb** freigegeben sind (S. 104) |
 
 ### HDD – Aufbau (Buch S. 102–103)
 
-- Magnetscheiben drehen sich auf der **Spindel**; die **Schreib-/Leseköpfe** am Plattenarm gleiten auf einem **Luftpolster** darüber. Unterricht: Gehäuse luftdicht, teils mit **Helium** gefüllt (weniger Luftwiderstand).
+- Magnetscheiben drehen sich auf der **Spindel**; die **Schreib-/Leseköpfe** am Plattenarm gleiten auf einem **Luftpolster** darüber (Buch S. 103). Unterricht: Gehäuse luftdicht, teils mit **Helium** gefüllt (weniger Luftwiderstand) – dort schwebt der Kopf entsprechend auf einem Heliumpolster *(Ergänzung)*.
 - **Head Crash**: Schon ein Staubkorn bringt den Kopf in Kontakt mit der Platte → Platte zerstört. Darum ist die HDD versiegelt (Siegel = Garantiesiegel), nie öffnen.
-- **Spur** = Kreis auf einer Plattenseite · **Zylinder** = alle übereinanderliegenden Spuren · **Sektor** = Teil einer Spur, meist **512 Byte**.
+- **Spur** = Kreis auf einer Plattenseite · **Zylinder** = alle übereinanderliegenden Spuren · **Sektor** = Teil einer Spur, laut Buch meist **512 Byte** (neuere Platten oft 4.096 Byte, „Advanced Format“ – *Ergänzung*).
 - Kapazität = **Köpfe × Zylinder × Sektoren je Spur × 512 Byte** (Beispiel: 16 × 16.383 × 63 × 512 Byte = 8.063,5 MB ≈ 7,87 GB).
 - Kenngrößen: **Drehzahl** (5.400 / 7.200 / 10.000 / 15.000 U/min – schneller, aber lauter) · **Cache** (512 KB – 256 MB) · **Average Seek Time** = mittlere Zeit, bis die Köpfe positioniert sind (3–12 ms) · Schnittstelle (SATA, SAS, USB …).
 - Hersteller rechnen **1 GB = 1.000.000.000 Byte** statt 2³⁰ = 1.073.741.824 Byte → die Platte wirkt größer (S. 102, siehe Abschnitt 91).
@@ -766,38 +788,75 @@ Dämmmaterial im Gehäuse · Silent-Lüfter, passive Kühlung, lüfterlose Netzt
 
 ## 13. Kap. 13 – PC montieren (S. 136–145)
 
-> **KERN:** Eine CPU passt nur, wenn **Sockel** und **Chipsatz/BIOS-Version** des Mainboards sie unterstützen. Beim Einbau entscheiden ESD-Schutz, Ausrichtung und Wärmeleitpaste.
+> **KERN:** Vor jeder Arbeit am offenen PC: **Netzstecker ziehen**, Konfiguration **dokumentieren**, **Backup** machen und **ESD-Schutz** sicherstellen (S. 136–137). Nach einer Reparatur folgt die Prüfung nach **DIN VDE 0701-0702** (S. 138–139). RAM, Grafikkarte, Festplatte und optisches Laufwerk werden nach festen Schritten eingebaut (S. 140–145). Den CPU-Einbau findest du unter Kap. 3.
 
-### Einbau Schritt für Schritt
+### 13.1 PC öffnen und schließen (S. 136–138)
 
-1. Konfiguration dokumentieren, **Netzstecker ziehen**, Einschalter drücken (Restspannung).
-2. **ESD-Schutz**: Erdungsarmband und Matte, sonst Heizkörper anfassen.
-3. Sockelhebel öffnen, CPU **ohne Kraft** einsetzen – Dreieck auf Markierung.
-4. Hebel schließen.
-5. **Wärmeleitpaste** dünn auftragen, Kühler über Kreuz festschrauben.
-6. Lüfter an **CPU_FAN**, 4/8-pol. CPU-Strom stecken.
-7. Starten, im BIOS prüfen: CPU erkannt, Temperatur plausibel.
+- **Arbeitsplatz:** genug Platz, rutschsichere Unterlage; ideal ist ein Labortisch oder eine Werkbank.
+- **Netzstecker ziehen** – die Spannungen am Netzteil sind lebensgefährlich. **Garantiesiegel** beachten: Manche Hersteller verweigern sonst die Garantie.
+- **Dokumentieren:** aktuelle Konfiguration und Lage der Kabel aufschreiben oder fotografieren; vorher ein **Backup** aller Daten. Auch alle Arbeiten dokumentieren (hilft Kollegen, macht die Abrechnung nachvollziehbar).
+- **Werkzeug:** Schraubendreher (Flach- und Kreuzschlitz), Akkuschrauber mit Drehmomentbegrenzung, Kombi- und Flachzange, Pinzette, Plastikboxen für Schrauben, Taschenlampe, Lupe.
+- **Öffnen:** Kabellage dokumentieren, Netzstecker und alle Kabel ab. Standardgehäuse sind meist mit 4 bzw. 6 Schrauben an der Rückwand verschlossen, manche mit Clips. Schrauben in die Box legen.
+- **Schließen:** Sind alle Kabel wieder dran, liegt nichts mehr im PC? Keine Kabel einklemmen; das Gehäuse soll ohne großen Druck einrasten. Kabel anschließen, **Netzstecker zuletzt**, dann Funktionstest.
 
-> **FALLE:** ESD-Schäden sind oft **unsichtbar** – ein Bauteil kann später ausfallen. Nylon-Kleidung erzeugt über 20.000 V.
+### ESD-Schutz (S. 137)
 
-> **MERKE:** Prüfung nach Reparatur (DIN VDE 0701-0702, Stand Buch S. 138–139): **Sichtprüfung · Messung · Funktionskontrolle**. Seit 2021: DIN EN 50678 (VDE 0701) und DIN EN 50699 (VDE 0702), die drei Teilprüfungen bleiben (Ergänzung, nicht aus Buch/Unterricht).
+- **ESD** (Electrostatic Discharge) = elektrostatische Entladung. Kleidung aus Nylon kann weit über **20.000 V** erzeugen; schon ca. **10 V** können einen Chip zerstören. Für Menschen ist das ungefährlich (sehr wenig Strom).
+- **Schutz:** geerdetes **Armband** und geerdete **Arbeitsmatte**, Schuhe mit Erdungskeil – zumindest vorher einen **Heizkörper berühren**.
+- Bauteile in **antistatischen Tüten** lagern; ausgebaute Teile auf eine geerdete Matte legen. Steckkarten an der **Metallhalterung**, Platinen nur an den **Kanten** anfassen. Platinen nie auf Metall (z. B. Alufolie) legen – eingebaute Akkus könnten kurzschließen.
 
-### Probleme und Fehlerbehebung
+> **FALLE:** ESD-Schäden sind oft **unsichtbar** – ein Bauteil kann sofort oder erst später ausfallen; manche Fehler treten nur ab und zu auf.
 
-| Symptom | Mögliche Ursache | Maßnahme |
+### 13.2 Sicherheitstechnische Prüfung (S. 138–139)
+
+- Pflicht: Prüfung nach Änderung oder Reparatur (VDE 0701) und Wiederholungsprüfung (VDE 0702); seit 2008 zusammengefasst als **VDE 0701-0702**. Zweck: Abnutzung und Schäden rechtzeitig finden, Haftung bei Unfällen vermeiden.
+- **Sichtprüfung:** Isolierungen, Kabel, Netzteil ansehen; kein Werkzeug im Gehäuse vergessen.
+- **Messung:** beim PC vor allem Schutzleiter- und Isolationswiderstand.
+- **Funktionsprüfung:** beim PC in der Regel erledigt, wenn er ins Betriebssystem bootet. Der **POST** meldet Hardwarefehler mit **Pieptönen** – die Codes sind je BIOS-Hersteller verschieden.
+
+> **MERKE:** Prüfung nach Reparatur (DIN VDE 0701-0702, Stand Buch S. 138–139): **Sichtprüfung · Messung · Funktionskontrolle**. Bestanden nur, wenn **alle** Teilprüfungen bestanden sind. Seit 2021: DIN EN 50678 (VDE 0701) und DIN EN 50699 (VDE 0702), die drei Teilprüfungen bleiben (Ergänzung, nicht aus Buch/Unterricht).
+
+### 13.3 Arbeitsspeicher aufrüsten (S. 140)
+
+1. ESD-Schutz, PC öffnen, RAM-Steckplätze suchen. Störende Kabel darf man kurz abziehen (später wieder anstecken!).
+2. Die beiden Halterungen am Steckplatz seitlich herunterklappen.
+3. Modul **gerade von oben** einsetzen. Es passt nur in **einer** Richtung: Nocken im Steckplatz und Kerbe im Modul müssen zusammenpassen. **Keine Gewalt.**
+4. Mit leichtem Druck hineinschieben – die Halterungen klappen von selbst zu.
+5. Probelauf: keine ungewöhnlichen Pieptöne; die neue Speichergröße wird angezeigt.
+
+### 13.4 Grafikkarte aus- und einbauen (S. 141)
+
+- Nötig, wenn die Onboard-Grafik nicht reicht, bei einem Neubau oder wenn die alte Karte veraltet oder defekt ist.
+- ESD-Schutz, PC aus, Netzkabel ab, öffnen. **PCIe-x16-Steckplatz** suchen; bei mehreren den mit den meisten Lanes (meist blau).
+- Alte Karte: Schraube bzw. Verriegelung lösen, vorsichtig herausziehen.
+- Neue Karte langsam und senkrecht einsetzen – **nicht zu viel Druck aufs Mainboard** (feine Risse beschädigen die Platine). Festschrauben; die Verriegelung rastet hörbar ein. Freie Gehäuseöffnungen abdecken (Staub).
+- Falls nötig **Zusatzstrom** anschließen. Onboard-Grafik evtl. im BIOS abschalten. Nach dem Start die **Treiber** installieren.
+
+### 13.5 Festplatte einbauen (S. 142–144)
+
+| | SATA | IDE (Ultra-DMA) |
 |---|---|---|
-| **Kein Bild, startet nicht** | CPU nicht unterstützt, BIOS zu alt, CPU-Strom fehlt | Support List prüfen, BIOS-Update, Stecker prüfen |
-| **Pieptöne beim Start** | POST-Fehler | Beep-Code im Mainboard-Handbuch nachschlagen |
-| **Abschalten unter Last** | Überhitzung | Paste, Kühlersitz, Lüfter prüfen; Temperatur im BIOS |
-| **„CPU Fan Error“** | Lüfter falsch angeschlossen oder defekt | an CPU_FAN anschließen, Lüfter tauschen |
-| **Langsam** | Thermal Throttling, Energiesparplan | Kühlung und Energieoptionen prüfen |
-| **Verbogene Pins** | falsch eingesetzt | vorsichtig richten oder Teil tauschen |
+| **Datenkabel** | seriell, 7 Leitungen; Stecker passt nur in einer Richtung | 80-adriges Flachbandkabel mit 40-poligen Steckern, nur noch Altbestand · blau = Mainboard, schwarz = Master, grau = Slave |
+| **Tempo** | SATA 1: 150 · SATA 2: 300 · SATA 3: 600 MByte/s | – |
+| **Strom** | SATA-Stromstecker | Molex-Stecker (bei Mangel Y-Adapter) |
+| **Einbau** | Datenkabel Mainboard ↔ Platte, Strom anstecken | Jumper (Master/Slave) prüfen · Datenkabel mit **roter Markierung an Pin 1** |
+
+- Vorbereiten: PC aus, Netzstecker ziehen, ESD-Schutz, öffnen, keine Kabel versehentlich lösen. Platte in ein 3,5″-Fach schrauben (2,5″-Platte oder SSD per **Einbaurahmen**).
+- Danach im **BIOS prüfen**, ob die Platte erkannt wird.
+- **M.2 / NVMe** (S. 144): Der Steckplatz hängt direkt am **PCIe-Bus** – deutlich schneller als eine 2,5″-SSD. Die SSD wird mit einer kleinen **M.2-Schraube** fixiert; die Position steht im Handbuch (evtl. unter einer Steckkarte). **Achtung:** Manche Boards schalten dann SATA-Anschlüsse ab – vorher ins Handbuch schauen. Ohne M.2-Steckplatz geht ein PCIe-Adapter.
+
+### 13.6 Optisches Laufwerk einbauen (S. 145)
+
+- ESD-Schutz, PC aus, Kabel ab, öffnen; Blende eines **5,25″-Fachs** entfernen (dahinter evtl. ein Blech).
+- Brenner brauchen beim Brennen mehr Strom – reicht das **Netzteil**, auch mit weiteren Platten und starker Grafikkarte?
+- Jumper nur bei IDE (Master/Slave) bzw. SCSI (ID, Terminierung); **SATA/SAS brauchen keine Jumper**.
+- Festschrauben, Daten- und Stromkabel anstecken (Pin 1 = rote Markierung), schließen, im **BIOS prüfen**.
 
 ## 14. Kap. 14 – Startvorgang des Computers (S. 146–165)
 
 ### Startvorgang des Computers
 
-1. Strom an → CPU startet an fester Adresse im **BIOS-ROM**.
+1. Strom an → die CPU startet das BIOS/UEFI aus dem **Flash-Speicher** auf dem Mainboard (Buch S. 146: EPROM/Flash-ROM).
 2. **POST** (Power-On Self-Test): Hardware prüfen; kritischer Fehler = Abbruch, Pieptöne.
 3. Einstellungen aus dem **CMOS** laden (Knopfzelle).
 4. Plug & Play: Ressourcen verteilen.
@@ -931,7 +990,7 @@ Dämmmaterial im Gehäuse · Silent-Lüfter, passive Kühlung, lüfterlose Netzt
 
 ### Windows 11 im Grafikmodus installieren
 
-> **HINWEIS:** **Nicht im Buch** (dort Windows 10, S. 180–181). Alles in diesem Abschnitt ist *(Ergänzung, nicht aus Buch/Unterricht)* – nach dem Unterricht abgleichen. **(Unterricht)**
+> **HINWEIS:** **Nicht im Buch** (dort Windows 10, S. 180–181). Alles in diesem Abschnitt ist *(Ergänzung, nicht aus Buch/Unterricht)* – nach dem Unterricht abgleichen.
 
 | Mindestanforderung Windows 11 | Wert |
 |---|---|
@@ -943,7 +1002,7 @@ Dämmmaterial im Gehäuse · Silent-Lüfter, passive Kühlung, lüfterlose Netzt
 | **Grafik** | DirectX-12-fähig |
 
 - Ablauf wie bei Windows 10 (Buch S. 180–181): Start, Product Key, Lizenz, Benutzerdefiniert/Upgrade, Partition, Grundlagen, Konto, Dienste.
-- Unterschied: Windows 11 **Home** verlangt bei der Einrichtung Internet und ein **Microsoft-Konto**.
+- Unterschied: Bei der Einrichtung verlangt Windows 11 **Home** Internet und ein **Microsoft-Konto**; bei privater Einrichtung gilt das inzwischen meist auch für **Pro**. Microsoft ändert diese Regeln mit Updates – im Zweifel aktuelle Angaben prüfen *(Ergänzung)*.
 - Kompatibilität prüfen mit der App **„PC-Integritätsprüfung“**.
 
 ### Ablauf laut Buch (Windows 10)
@@ -1130,15 +1189,15 @@ Touchscreen (und Headset) sind **Ein- und Ausgabegerät** zugleich.
 
 ### Binärzahlen
 
-> **HINWEIS:** Kein eigenes Buchkapitel; Bezüge im Buch: S. 7 (64 Bit = 8 Byte), S. 65/70 (Hex-Adressen), S. 78 und 117 (Byte → KB → MB mit 1024), S. 184 (IPv4/IPv6). Die Mitschrift vom 24.11. enthält dazu bisher nur „64-Bit-System“ und „Geschwindigkeiten in Bit“ – das Umrechnen ist deshalb als Ergänzung markiert. **(Unterricht)**
+> **HINWEIS:** Kein eigenes Buchkapitel; Bezüge im Buch: S. 7 (64 Bit = 8 Byte), S. 65/70 (Hex-Adressen), S. 78 und 117 (Byte → KB → MB mit 1024), S. 184 (IPv4/IPv6). Stellenwerte, Umrechnen, 2ⁿ und Hex (0–9, A–F) kamen im Unterricht vom 24.11. dran (Lernmodul „Binärzahlen“). **(Unterricht 24.11.)**
 
 - **Bit** = 0 oder 1 · **1 Byte = 8 Bit** (Buch S. 7: 64 Bit = 8 Byte)
-- Stellenwerte binär (ein Byte): **128 – 64 – 32 – 16 – 8 – 4 – 2 – 1** *(Ergänzung, nicht aus Buch/Unterricht)*
-- Beispiel: 1100 0000 (binär) = 128 + 64 = **192** (dezimal) – erstes Oktett von 192.168.… *(Ergänzung, nicht aus Buch/Unterricht)*
-- **Hexadezimal**: Ziffern 0–9 und A–F · 1 Hex-Ziffer = 4 Bit · 1 Byte = 2 Hex-Ziffern (FF = 255) *(Ergänzung, nicht aus Buch/Unterricht)*
+- Stellenwerte binär (ein Byte): **128 – 64 – 32 – 16 – 8 – 4 – 2 – 1** · 1111 1111 = **255** *(Unterricht 24.11.)*
+- Beispiel: 1100 0000 (binär) = 128 + 64 = **192** (dezimal) – erstes Oktett von 192.168.… *(Rechenweg: Unterricht 24.11.; Beispiel 192: Ergänzung)*
+- **Hexadezimal**: Ziffern 0–9 und A–F (A = 10 … F = 15) *(Unterricht 24.11.)* · 16 dezimal = **10** hex · 1 Hex-Ziffer = 4 Bit · 1 Byte = 2 Hex-Ziffern (FF = 255) *(Ergänzung)*
 - Im Buch: I/O-Adressen hexadezimal, z. B. **0220h** (S. 65, Übung S. 70) · IPv6-Adressen hexadezimal (S. 184)
 
-**Binär → dezimal** *(Ergänzung)*: Stellenwerte der Einsen addieren.
+**Binär → dezimal** *(Unterricht 24.11.)*: Stellenwerte der Einsen addieren.
 
 | Stellenwert | 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1 |
 |---|---|---|---|---|---|---|---|---|
@@ -1146,25 +1205,40 @@ Touchscreen (und Headset) sind **Ein- und Ausgabegerät** zugleich.
 
 → 128 + 32 + 8 + 2 = **170**
 
-**Dezimal → binär** *(Ergänzung)*: von links den größten passenden Stellenwert abziehen. Beispiel 13 = 8 + 4 + 1 → **1101**. Andere Methode: immer durch 2 teilen und die Reste von unten nach oben lesen.
+> ⚠ **Achtung, Fehler im Unterricht:** Für 1001 0010 stand in Excel **145** – richtig ist 128 + 16 + 2 = **146**.
 
-- Mit **n Bit** gibt es **2ⁿ** verschiedene Werte: 8 Bit → 256 Werte (0 bis **255**), 16 Bit → 65.536.
+> ⚠ **Achtung, Fehler im Unterricht:** Mündlich hieß es, 16 sei „A0“ (hex) – richtig ist **10** hex (1 × 16 + 0).
+
+**Dezimal → binär** *(Unterricht 24.11.)*: von links den größten passenden Stellenwert abziehen. Beispiel 13 = 8 + 4 + 1 → **1101**. Andere Methode *(Ergänzung)*: immer durch 2 teilen und die Reste von unten nach oben lesen.
+
+- Mit **n Bit** gibt es **2ⁿ** verschiedene Werte: 8 Bit → 256 Werte (0 bis **255**) *(Unterricht 24.11.)* · 16 Bit → 65.536 *(Ergänzung)*.
 - Unterricht: Heute arbeiten CPU und RAM mit **64 Datenleitungen** = 64-Bit-System → 64 Bit = 8 Byte gleichzeitig.
 
 ### Speichergrößen
 
-> **HINWEIS:** Kein eigenes Buchkapitel; Bezüge im Buch: S. 78, S. 95 (Mbit/s vs. MB/s), S. 117 (÷ 8, ÷ 1024, ÷ 1024 → 16,6 MB). **(Unterricht)**
+> **HINWEIS:** Kein eigenes Buchkapitel; Bezüge im Buch: S. 78, S. 95 (Mbit/s vs. MB/s), S. 102 (Hersteller-GB), S. 117 (÷ 8, ÷ 1024, ÷ 1024 → 16,6 MB). Im Unterricht vom 24.11. ausführlich behandelt (Lernmodul „Speichergrößen – 1000 oder 1024“). **(Unterricht 24.11.)**
 
 | System | Umrechnung | Wer nutzt es? |
 |---|---|---|
-| **Dezimal (SI)** | 1 kB = 1.000 Byte · 1 MB = 1.000 kB · 1 GB = 1.000 MB · 1 TB = 1.000 GB | Festplattenhersteller *(Ergänzung, nicht aus Buch/Unterricht)* |
-| **Binär (IEC)** | 1 KiB = 1.024 Byte · 1 MiB = 1.024 KiB · 1 GiB = 1.024 MiB · 1 TiB = 1.024 GiB | Windows zeigt Binärwerte, schreibt aber „GB“ *(Ergänzung, nicht aus Buch/Unterricht)* |
+| **Dezimal (SI)** | 1 kB = 1.000 Byte · 1 MB = 1.000 kB · 1 GB = 1.000 MB · 1 TB = 1.000 GB | Festplattenhersteller (Buch S. 102; Unterricht 24.11.) · Name „SI“: *Ergänzung* |
+| **Binär (IEC)** | 1 KiB = 1.024 Byte · 1 MiB = 1.024 KiB · 1 GiB = 1.024 MiB · 1 TiB = 1.024 GiB | EDV/Windows: zeigt Binärwerte, schreibt aber „GB“ (Unterricht 24.11.: an der Tafel 1 KibiB, 1 MibiB) · Name „IEC“: *Ergänzung* |
 
-- Folge: Eine 1-TB-Platte zeigt in Windows nur ca. **931 GB** (eigentlich GiB) an. *(Ergänzung, nicht aus Buch/Unterricht)*
+- Folge: Eine 1-TB-Platte zeigt in Windows nur ca. **931 GB** (eigentlich GiB) an: 10¹² Byte ÷ 1.024³ ≈ 931 *(Unterricht 24.11.; Buch S. 102)*.
 - Buch S. 102 bestätigt: Festplattenhersteller rechnen 1 GB = 1.000.000.000 Byte, in der EDV üblich sind 2³⁰ = 1.073.741.824 Byte.
 - **Datenraten in Bit** (Mbit/s), **Dateigrößen in Byte** → durch 8 teilen: 480 Mbit/s = 60 MB/s theoretisch (Buch S. 95: praktisch ca. 37 MB/s). Unterricht: **„Geschwindigkeiten immer in Bit, nie in Byte.“**
 - Das Buch rechnet mit **1.024** (S. 117: Bit ÷ 8 ÷ 1.024 ÷ 1.024 → 16,6 MB; S. 78: 1.024 × 768 Pixel × 3 Byte = 2.359.296 Byte = **2,25 MB** Grafikspeicher).
 - Rechenweg Größen: Byte ÷ 1.024 = KB ÷ 1.024 = MB ÷ 1.024 = GB (umgekehrt × 1.024). Bit → Byte: ÷ 8.
+- **Welche Zahl wann?**
+  - **Datenraten (Mbit/s, Gbit/s): immer mit 1.000** rechnen *(Buch S. 95: 5 GBit/s = 625 MB/s; im Unterricht wurde dagegen mit 1.024 gerechnet – siehe ⚠ unten)*. Beispiel: 1.000 Mbit/s ÷ 8 = **125 MB/s**.
+  - **Dateigröße mit GiB/MiB:** 1.024. **Steht nur „GB“:** Herstellerangabe → 1.000 (Buch S. 102), EDV-/Windows-Rechnung → 1.024 (Unterricht 24.11.) – die Aufgabe sagt, wer rechnet. Schreib in der Klausur dazu, womit du rechnest *(Ergänzung)*.
+  - Beispiel: 4 GiB über 100 Mbit/s → 4 × 1.073.741.824 Byte × 8 ÷ 100.000.000 Bit/s ≈ **343,6 s** (bei 4 GB nach Hersteller: 320 s).
+- Reihenfolge der Vorsätze: Kilo · Mega · Giga · Tera · Peta · Exa · **Zetta · Yotta** *(Unterricht 24.11.)*.
+
+> ⚠ **Achtung, Fehler im Unterricht:** An der Tafel stand für 1.000 Mbit/s **128 MB/s** (= 1.024 ÷ 8). Datenraten rechnet man aber mit 1.000 → **Für die Klausur: 125 MB/s.**
+
+> ⚠ **Achtung, Fehler im Unterricht:** An der Tafel waren **Zetta und Yotta vertauscht** – richtig: Zetta (ZB) kommt vor Yotta (YB).
+
+> ⚠ **Achtung:** Im Unterricht hieß es „1 GB = 1.024 MB“ – das ist die EDV-Rechnung; nach Norm heißt sie 1 **GiB** = 1.024 MiB. Für die Klausur: Rechenbasis dazuschreiben.
 
 ## 92. Unterricht – Netzwerkgrößen, Router, Software-Begriffe
 

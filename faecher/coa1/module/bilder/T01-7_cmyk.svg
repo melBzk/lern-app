@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" font-family="system-ui, sans-serif">
+  <title>CMYK, die vier Druckfarben: C Cyan, ein Blauton; M Magenta, ein Pinkrot; Y Yellow, Gelb; K Key, die Schlüsselfarbe Schwarz (im Buch: Black). Zwei Wege zu Schwarz: Nur CMY mischt Schwarz aus drei Farben, es bekommt einen Braun- oder Grünstich und kostet Farbe für drei Punkte. CMYK hat einen eigenen schwarzen Tank und ergibt sattes Schwarz. Unten Dithering: Ein orangefarbenes Feld besteht vergrößert aus vielen kleinen gelben und magentafarbenen Punkten.</title>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker>
+    <pattern id="dith" width="12" height="12" patternUnits="userSpaceOnUse">
+      <rect width="12" height="12" fill="#fff"/>
+      <circle cx="3" cy="3" r="2.6" fill="#f2c200"/><circle cx="9" cy="3" r="2.6" fill="#d6338a"/>
+      <circle cx="3" cy="9" r="2.6" fill="#d6338a"/><circle cx="9" cy="9" r="2.6" fill="#f2c200"/>
+    </pattern>
+  </defs>
+  <rect width="400" height="520" fill="#fff"/>
+
+  <!-- vier Farben -->
+  <g>
+    <circle cx="52" cy="46" r="28" fill="#1fa3c9"/><text x="52" y="53" text-anchor="middle" font-size="20" font-weight="700" fill="#fff">C</text>
+    <circle cx="150" cy="46" r="28" fill="#d6338a"/><text x="150" y="53" text-anchor="middle" font-size="20" font-weight="700" fill="#fff">M</text>
+    <circle cx="248" cy="46" r="28" fill="#f2c200"/><text x="248" y="53" text-anchor="middle" font-size="20" font-weight="700" fill="#222">Y</text>
+    <circle cx="346" cy="46" r="28" fill="#111"/><text x="346" y="53" text-anchor="middle" font-size="20" font-weight="700" fill="#fff">K</text>
+  </g>
+  <g font-size="14" text-anchor="middle" fill="#222">
+    <text x="52" y="94" font-weight="700">Cyan</text><text x="52" y="110" font-size="13">ein Blauton</text>
+    <text x="150" y="94" font-weight="700">Magenta</text><text x="150" y="110" font-size="13">ein Pinkrot</text>
+    <text x="248" y="94" font-weight="700">Yellow</text><text x="248" y="110" font-size="13">Gelb</text>
+    <text x="346" y="94" font-weight="700">Key</text><text x="346" y="110" font-size="13">= Schwarz</text>
+  </g>
+
+  <!-- nur CMY -->
+  <rect x="8" y="128" width="188" height="200" rx="12" fill="#fdecec" stroke="#d63c3c"/>
+  <text x="102" y="154" text-anchor="middle" font-size="16" font-weight="700" fill="#a32020">nur CMY</text>
+  <circle cx="40" cy="190" r="13" fill="#1fa3c9"/><text x="64" y="196" text-anchor="middle" font-size="16" font-weight="700" fill="#222">+</text>
+  <circle cx="88" cy="190" r="13" fill="#d6338a"/><text x="112" y="196" text-anchor="middle" font-size="16" font-weight="700" fill="#222">+</text>
+  <circle cx="136" cy="190" r="13" fill="#f2c200"/>
+  <line x1="102" y1="210" x2="102" y2="226" stroke="#333" stroke-width="3" marker-end="url(#a)"/>
+  <circle cx="102" cy="250" r="18" fill="#3b2b1c"/>
+  <text x="102" y="290" text-anchor="middle" font-size="13" font-weight="700" fill="#a32020">Braun- oder Grünstich</text>
+  <text x="102" y="308" text-anchor="middle" font-size="13" fill="#222">Farbe für 3 Punkte</text>
+
+  <!-- CMYK -->
+  <rect x="204" y="128" width="188" height="200" rx="12" fill="#eaf6ee" stroke="#1f9d55"/>
+  <text x="298" y="154" text-anchor="middle" font-size="16" font-weight="700" fill="#1c6b3c">CMYK</text>
+  <rect x="284" y="172" width="28" height="36" rx="3" fill="#111"/>
+  <text x="298" y="196" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">K</text>
+  <line x1="298" y1="210" x2="298" y2="226" stroke="#333" stroke-width="3" marker-end="url(#a)"/>
+  <circle cx="298" cy="250" r="18" fill="#000"/>
+  <path d="M330,250 l8,9 l16,-20" fill="none" stroke="#1f9d55" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="298" y="290" text-anchor="middle" font-size="13" font-weight="700" fill="#1c6b3c">sattes Schwarz</text>
+  <text x="298" y="308" text-anchor="middle" font-size="13" fill="#222">eigener schwarzer Tank</text>
+
+  <!-- Dithering -->
+  <rect x="8" y="340" width="384" height="172" rx="12" fill="#fff" stroke="#bbb"/>
+  <text x="22" y="366" font-size="16" font-weight="700" fill="#222">Dithering</text>
+  <rect x="30" y="384" width="80" height="80" fill="#f28a1e"/>
+  <text x="70" y="484" text-anchor="middle" font-size="13" fill="#222">Orange</text>
+  <line x1="120" y1="424" x2="176" y2="424" stroke="#333" stroke-width="3" marker-end="url(#a)"/>
+  <text x="148" y="414" text-anchor="middle" font-size="13" fill="#222">Lupe</text>
+  <rect x="186" y="378" width="96" height="96" fill="url(#dith)" stroke="#333" stroke-width="1.5"/>
+  <text x="292" y="408" font-size="13" fill="#222">Gelb +</text>
+  <text x="292" y="424" font-size="13" fill="#222">Magenta</text>
+  <text x="200" y="500" text-anchor="middle" font-size="14" font-weight="700" fill="#222">Zwischentöne aus Punkten</text>
+</svg>

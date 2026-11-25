@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" font-family="system-ui, sans-serif" role="img">
+<title>Verarbeitung im Gehäuse: Blick auf das Mainboard, die große Platine. Darauf der Kühler mit Lüfter, darunter sitzt die CPU. Daneben zwei RAM-Riegel. Darunter eine eingesteckte Grafikkarte mit GPU. Unten zwei kleine Chips: ROM mit dem BIOS und der Sound-Chip auf dem Mainboard.</title>
+
+<rect width="400" height="500" fill="#fff"/>
+<rect x="4" y="4" width="392" height="492" rx="14" fill="#fff" stroke="#3a6ed8" stroke-width="3"/>
+<text x="200" y="34" font-size="17" text-anchor="middle" font-weight="700" fill="#3a6ed8">Verarbeitung = im Gehäuse</text>
+<rect x="24" y="52" width="352" height="424" rx="6" fill="#d8ecd9" stroke="#2f6b4f" stroke-width="2.5"/>
+<text x="110" y="80" font-size="14" text-anchor="middle" font-weight="700" fill="#222">Kühler + Lüfter</text>
+<rect x="48" y="90" width="124" height="124" rx="6" fill="#c9ced6" stroke="#333" stroke-width="2"/>
+<circle cx="110" cy="152" r="50" fill="#555" stroke="#222" stroke-width="2"/>
+<circle cx="110" cy="152" r="12" fill="#999" stroke="#222" stroke-width="1.5"/>
+<path d="M110,140 Q132,112 148,134" fill="none" stroke="#aaa" stroke-width="3"/>
+<path d="M122,152 Q150,174 128,190" fill="none" stroke="#aaa" stroke-width="3"/>
+<path d="M110,164 Q88,192 72,170" fill="none" stroke="#aaa" stroke-width="3"/>
+<path d="M98,152 Q70,130 92,114" fill="none" stroke="#aaa" stroke-width="3"/>
+<text x="110" y="234" font-size="14" text-anchor="middle" font-weight="700" fill="#3a6ed8">darunter: CPU</text>
+<rect x="204" y="88" width="14" height="140" rx="2" fill="#f3e8fa" stroke="#7b3fa0" stroke-width="1.5"/>
+<rect x="207" y="96" width="8" height="18" rx="1" fill="#333" stroke="none" stroke-width="0"/>
+<rect x="207" y="122" width="8" height="18" rx="1" fill="#333" stroke="none" stroke-width="0"/>
+<rect x="207" y="148" width="8" height="18" rx="1" fill="#333" stroke="none" stroke-width="0"/>
+<rect x="207" y="174" width="8" height="18" rx="1" fill="#333" stroke="none" stroke-width="0"/>
+<rect x="207" y="200" width="8" height="18" rx="1" fill="#333" stroke="none" stroke-width="0"/>
+<rect x="226" y="88" width="14" height="140" rx="2" fill="#f3e8fa" stroke="#7b3fa0" stroke-width="1.5"/>
+<rect x="229" y="96" width="8" height="18" rx="1" fill="#333" stroke="none" stroke-width="0"/>
+<rect x="229" y="122" width="8" height="18" rx="1" fill="#333" stroke="none" stroke-width="0"/>
+<rect x="229" y="148" width="8" height="18" rx="1" fill="#333" stroke="none" stroke-width="0"/>
+<rect x="229" y="174" width="8" height="18" rx="1" fill="#333" stroke="none" stroke-width="0"/>
+<rect x="229" y="200" width="8" height="18" rx="1" fill="#333" stroke="none" stroke-width="0"/>
+<text x="250" y="162" font-size="16" text-anchor="start" font-weight="700" fill="#7b3fa0">RAM</text>
+<rect x="40" y="280" width="320" height="10" rx="2" fill="#333" stroke="none" stroke-width="0"/>
+<rect x="40" y="256" width="300" height="44" rx="4" fill="#4a4a4a" stroke="#222" stroke-width="2"/>
+<line x1="60" y1="302" x2="300" y2="302" stroke="#c9a227" stroke-width="4"/>
+<rect x="340" y="250" width="12" height="56" rx="1" fill="#aaa" stroke="#555" stroke-width="1.5"/>
+<text x="190" y="284" font-size="15" text-anchor="middle" font-weight="700" fill="#fff">Grafikkarte (GPU)</text>
+<line x1="71.0" y1="332.0" x2="71.0" y2="338.0" stroke="#555" stroke-width="2"/><line x1="71.0" y1="366.0" x2="71.0" y2="372.0" stroke="#555" stroke-width="2"/><line x1="58.0" y1="345.0" x2="64.0" y2="345.0" stroke="#555" stroke-width="2"/><line x1="92.0" y1="345.0" x2="98.0" y2="345.0" stroke="#555" stroke-width="2"/><line x1="75.7" y1="332.0" x2="75.7" y2="338.0" stroke="#555" stroke-width="2"/><line x1="75.7" y1="366.0" x2="75.7" y2="372.0" stroke="#555" stroke-width="2"/><line x1="58.0" y1="349.7" x2="64.0" y2="349.7" stroke="#555" stroke-width="2"/><line x1="92.0" y1="349.7" x2="98.0" y2="349.7" stroke="#555" stroke-width="2"/><line x1="80.3" y1="332.0" x2="80.3" y2="338.0" stroke="#555" stroke-width="2"/><line x1="80.3" y1="366.0" x2="80.3" y2="372.0" stroke="#555" stroke-width="2"/><line x1="58.0" y1="354.3" x2="64.0" y2="354.3" stroke="#555" stroke-width="2"/><line x1="92.0" y1="354.3" x2="98.0" y2="354.3" stroke="#555" stroke-width="2"/><line x1="85.0" y1="332.0" x2="85.0" y2="338.0" stroke="#555" stroke-width="2"/><line x1="85.0" y1="366.0" x2="85.0" y2="372.0" stroke="#555" stroke-width="2"/><line x1="58.0" y1="359.0" x2="64.0" y2="359.0" stroke="#555" stroke-width="2"/><line x1="92.0" y1="359.0" x2="98.0" y2="359.0" stroke="#555" stroke-width="2"/><rect x="64.0" y="338.0" width="28" height="28" rx="3" fill="#444" stroke="#222" stroke-width="1.5"/>
+<text x="108" y="357" font-size="14" text-anchor="start" font-weight="700" fill="#222">ROM (BIOS)</text>
+<line x1="71.0" y1="392.0" x2="71.0" y2="398.0" stroke="#555" stroke-width="2"/><line x1="71.0" y1="426.0" x2="71.0" y2="432.0" stroke="#555" stroke-width="2"/><line x1="58.0" y1="405.0" x2="64.0" y2="405.0" stroke="#555" stroke-width="2"/><line x1="92.0" y1="405.0" x2="98.0" y2="405.0" stroke="#555" stroke-width="2"/><line x1="75.7" y1="392.0" x2="75.7" y2="398.0" stroke="#555" stroke-width="2"/><line x1="75.7" y1="426.0" x2="75.7" y2="432.0" stroke="#555" stroke-width="2"/><line x1="58.0" y1="409.7" x2="64.0" y2="409.7" stroke="#555" stroke-width="2"/><line x1="92.0" y1="409.7" x2="98.0" y2="409.7" stroke="#555" stroke-width="2"/><line x1="80.3" y1="392.0" x2="80.3" y2="398.0" stroke="#555" stroke-width="2"/><line x1="80.3" y1="426.0" x2="80.3" y2="432.0" stroke="#555" stroke-width="2"/><line x1="58.0" y1="414.3" x2="64.0" y2="414.3" stroke="#555" stroke-width="2"/><line x1="92.0" y1="414.3" x2="98.0" y2="414.3" stroke="#555" stroke-width="2"/><line x1="85.0" y1="392.0" x2="85.0" y2="398.0" stroke="#555" stroke-width="2"/><line x1="85.0" y1="426.0" x2="85.0" y2="432.0" stroke="#555" stroke-width="2"/><line x1="58.0" y1="419.0" x2="64.0" y2="419.0" stroke="#555" stroke-width="2"/><line x1="92.0" y1="419.0" x2="98.0" y2="419.0" stroke="#555" stroke-width="2"/><rect x="64.0" y="398.0" width="28" height="28" rx="3" fill="#444" stroke="#222" stroke-width="1.5"/>
+<text x="108" y="417" font-size="14" text-anchor="start" font-weight="700" fill="#222">Sound (auf dem Mainboard)</text>
+<text x="362" y="464" font-size="16" text-anchor="end" font-weight="700" fill="#2f6b4f">Mainboard</text>
+</svg>
