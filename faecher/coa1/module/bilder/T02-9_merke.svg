@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" font-family="system-ui, sans-serif" fill="#222">
+<title>Merkbild: 1. Systembus = Datenbus (Daten, beide Richtungen), Adressbus (welches Gerät) und Steuerbus (wer wann, lesen oder schreiben); Adress- und Steuerbus nur von der CPU weg. 2. 64 Leitungen = 64 Bit = 8 Byte gleichzeitig; 1 GHz = 1 Milliarde Takte pro Sekunde. 3. Seriell: eine Leitung, lange Wege wie USB; parallel: viele Leitungen, kurze Wege CPU und RAM. 4. Jeder Befehl: Holen, Verstehen, Ausführen, Speichern. 5. Start: UEFI/BIOS, Hardware und RAM einrichten, Bootloader lädt Betriebssystem von SSD in RAM. 6. Interrupt: Gerät meldet sich, CPU unterbricht kurz und macht weiter.</title>
+<defs>
+<marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="10" markerHeight="10" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker>
+<marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="10" markerHeight="10" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker>
+<marker id="p" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="10" markerHeight="10" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7b3fa0"/></marker>
+<marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="10" markerHeight="10" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker>
+</defs>
+<rect width="400" height="520" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">Das Wichtigste auf einen Blick</text>
+<!-- 1 Systembus -->
+<rect x="10" y="40" width="380" height="118" rx="10" fill="#f4f1ee"/>
+<text x="22" y="62" font-size="15" font-weight="700">Systembus</text>
+<rect x="22" y="72" width="44" height="76" rx="6" fill="#e3f0e9" stroke="#2f6b4f" stroke-width="2"/>
+<text x="44" y="115" text-anchor="middle" font-size="13" font-weight="700" fill="#2f6b4f">CPU</text>
+<line x1="70" y1="86" x2="140" y2="86" stroke="#c62828" stroke-width="5" marker-start="url(#r)" marker-end="url(#r)"/>
+<text x="150" y="91" font-size="14"><tspan font-weight="700" fill="#c62828">Datenbus</tspan> – die Daten</text>
+<line x1="70" y1="112" x2="140" y2="112" stroke="#3a6ed8" stroke-width="3" marker-end="url(#b)"/>
+<text x="150" y="117" font-size="14"><tspan font-weight="700" fill="#3a6ed8">Adressbus</tspan> – welches Gerät?</text>
+<line x1="70" y1="138" x2="140" y2="138" stroke="#7b3fa0" stroke-width="3" marker-end="url(#p)"/>
+<text x="150" y="143" font-size="14"><tspan font-weight="700" fill="#7b3fa0">Steuerbus</tspan> – wer wann?</text>
+<!-- 2 Zahlen -->
+<rect x="10" y="166" width="185" height="70" rx="10" fill="#fdecea"/>
+<text x="102" y="192" text-anchor="middle" font-size="14" font-weight="700">64 Leitungen</text>
+<text x="102" y="214" text-anchor="middle" font-size="14">= 64 Bit = 8 Byte</text>
+<text x="102" y="230" text-anchor="middle" font-size="13" fill="#555">gleichzeitig</text>
+<rect x="205" y="166" width="185" height="70" rx="10" fill="#fdf0e0"/>
+<text x="297" y="192" text-anchor="middle" font-size="14" font-weight="700">1 Hz = 1 Takt/s</text>
+<text x="297" y="214" text-anchor="middle" font-size="14">1 GHz = 1 Milliarde</text>
+<!-- 3 seriell parallel -->
+<rect x="10" y="244" width="185" height="76" rx="10" fill="#f4f1ee"/>
+<text x="22" y="264" font-size="14" font-weight="700">seriell: 1 Leitung</text>
+<line x1="22" y1="276" x2="180" y2="276" stroke="#555" stroke-width="2"/>
+<text x="22" y="304" font-size="13">lange Wege (USB)</text>
+<rect x="205" y="244" width="185" height="76" rx="10" fill="#f4f1ee"/>
+<text x="217" y="264" font-size="14" font-weight="700">parallel: viele</text>
+<g stroke="#555" stroke-width="2"><line x1="217" y1="274" x2="375" y2="274"/><line x1="217" y1="280" x2="375" y2="280"/><line x1="217" y1="286" x2="375" y2="286"/></g>
+<text x="217" y="308" font-size="13">kurze Wege (CPU ↔ RAM)</text>
+<!-- 4 Befehl -->
+<rect x="10" y="328" width="380" height="58" rx="10" fill="#e8f0fe"/>
+<text x="22" y="348" font-size="14" font-weight="700">Jeder Befehl:</text>
+<g font-size="14" font-weight="700" text-anchor="middle">
+<rect x="18" y="356" width="78" height="24" rx="5" fill="#fff"/><text x="57" y="373">Holen</text>
+<rect x="110" y="356" width="84" height="24" rx="5" fill="#fff"/><text x="152" y="373">Verstehen</text>
+<rect x="206" y="356" width="84" height="24" rx="5" fill="#fff"/><text x="248" y="373">Ausführen</text>
+<rect x="304" y="356" width="82" height="24" rx="5" fill="#fff"/><text x="345" y="373">Speichern</text>
+</g>
+<g stroke="#333" stroke-width="2"><line x1="97" y1="368" x2="108" y2="368" marker-end="url(#a)"/><line x1="195" y1="368" x2="204" y2="368" marker-end="url(#a)"/><line x1="291" y1="368" x2="302" y2="368" marker-end="url(#a)"/></g>
+<!-- 5 Start -->
+<rect x="10" y="394" width="380" height="58" rx="10" fill="#f4f1ee"/>
+<text x="22" y="416" font-size="14" font-weight="700">Start:</text>
+<text x="70" y="416" font-size="14">UEFI/BIOS → Hardware + RAM</text>
+<text x="22" y="440" font-size="14">→ Bootloader: Betriebssystem SSD → RAM</text>
+<!-- 6 Interrupt -->
+<rect x="10" y="460" width="380" height="52" rx="10" fill="#fdf0e0" stroke="#E07B00" stroke-width="2"/>
+<text x="22" y="482" font-size="14" font-weight="700" fill="#E07B00">Interrupt:</text>
+<text x="100" y="482" font-size="14">Gerät meldet sich sofort,</text>
+<text x="22" y="502" font-size="14">CPU unterbricht kurz, macht dann weiter</text>
+</svg>

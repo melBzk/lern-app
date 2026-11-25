@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 560" font-family="system-ui, sans-serif">
+  <title>So läuft ein Benchmark-Test. 1: Drei Prozessoren CPU 1, CPU 2 und CPU 3 werden nacheinander in denselben Testrechner eingebaut. Der Testrechner hat schnelle, hochwertige Teile, oben ist ein leerer Prozessorsockel. 2: Auf dem Bildschirm läuft jedes Mal das gleiche Testprogramm. 3: Eine Ergebnisliste zeigt für CPU 1, CPU 2 und CPU 3 jeweils die Punkte. Unten zwei Arten von Tests: synthetisch mit 3DMark für Spiele und PCMark für die Gesamtleistung, oder mit eigener Anwendung, bei der man die Zeit misst, zum Beispiel beim Komprimieren eines Videos.</title>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker>
+  </defs>
+  <rect width="400" height="560" fill="#fff"/>
+  <text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700" fill="#222">So läuft ein Benchmark-Test</text>
+
+  <!-- 1 CPUs -->
+  <circle cx="22" cy="58" r="12" fill="#3a6ed8"/><text x="22" y="63" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">1</text>
+  <text x="42" y="63" font-size="14" font-weight="700" fill="#222">nacheinander einbauen</text>
+  <g font-size="13" font-weight="700" text-anchor="middle" fill="#222">
+    <rect x="30" y="76" width="56" height="40" rx="4" fill="#f3f4f6" stroke="#555" stroke-width="2"/><text x="58" y="101">CPU 1</text>
+    <rect x="96" y="76" width="56" height="40" rx="4" fill="#f3f4f6" stroke="#555" stroke-width="2"/><text x="124" y="101">CPU 2</text>
+    <rect x="162" y="76" width="56" height="40" rx="4" fill="#f3f4f6" stroke="#555" stroke-width="2"/><text x="190" y="101">CPU 3</text>
+  </g>
+  <line x1="124" y1="120" x2="124" y2="150" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+
+  <!-- Testrechner -->
+  <rect x="20" y="154" width="208" height="150" rx="10" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2.5"/>
+  <rect x="94" y="166" width="60" height="44" rx="4" fill="#fff" stroke="#555" stroke-width="2" stroke-dasharray="5 4"/>
+  <text x="124" y="226" text-anchor="middle" font-size="13" fill="#555">leerer Sockel</text>
+  <text x="124" y="256" text-anchor="middle" font-size="14" font-weight="700" fill="#222">Testrechner:</text>
+  <text x="124" y="275" text-anchor="middle" font-size="14" fill="#222">schnelle, hoch-</text>
+  <text x="124" y="293" text-anchor="middle" font-size="14" fill="#222">wertige Teile</text>
+
+  <!-- 2 Bildschirm -->
+  <line x1="230" y1="214" x2="252" y2="214" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+  <circle cx="320" cy="152" r="12" fill="#3a6ed8"/><text x="320" y="157" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">2</text>
+  <rect x="256" y="172" width="132" height="84" rx="6" fill="#222"/>
+  <rect x="263" y="179" width="118" height="70" rx="3" fill="#fff"/>
+  <text x="322" y="209" text-anchor="middle" font-size="14" font-weight="700" fill="#222">gleiches</text>
+  <text x="322" y="228" text-anchor="middle" font-size="14" font-weight="700" fill="#222">Testprogramm</text>
+  <rect x="312" y="256" width="20" height="12" fill="#555"/>
+  <rect x="294" y="268" width="56" height="6" rx="2" fill="#555"/>
+
+  <!-- 3 Ergebnisliste -->
+  <line x1="322" y1="278" x2="322" y2="318" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+  <circle cx="22" cy="340" r="12" fill="#3a6ed8"/><text x="22" y="345" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">3</text>
+  <text x="42" y="345" font-size="14" font-weight="700" fill="#222">Ergebnisliste</text>
+  <rect x="150" y="322" width="238" height="92" rx="8" fill="#fff" stroke="#3a6ed8" stroke-width="2.5"/>
+  <g font-size="15" fill="#222">
+    <text x="166" y="348">CPU 1: … Punkte</text>
+    <text x="166" y="372">CPU 2: … Punkte</text>
+    <text x="166" y="396">CPU 3: … Punkte</text>
+  </g>
+
+  <!-- zwei Arten -->
+  <text x="200" y="444" text-anchor="middle" font-size="15" font-weight="700" fill="#222">Zwei Arten von Tests</text>
+  <rect x="12" y="454" width="183" height="96" rx="10" fill="#f3f4f6" stroke="#555" stroke-width="1.5"/>
+  <text x="24" y="476" font-size="14" font-weight="700" fill="#3a6ed8">synthetisch:</text>
+  <text x="24" y="497" font-size="14" fill="#222">3DMark (Spiele)</text>
+  <text x="24" y="517" font-size="14" fill="#222">PCMark</text>
+  <text x="24" y="537" font-size="14" fill="#222">(Gesamtleistung)</text>
+  <rect x="205" y="454" width="183" height="96" rx="10" fill="#f3f4f6" stroke="#555" stroke-width="1.5"/>
+  <text x="217" y="476" font-size="14" font-weight="700" fill="#3a6ed8">eigene Anwendung:</text>
+  <text x="217" y="497" font-size="14" fill="#222">Zeit messen, z. B.</text>
+  <text x="217" y="517" font-size="14" fill="#222">Video</text>
+  <text x="217" y="537" font-size="14" fill="#222">komprimieren</text>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 440" font-family="system-ui, sans-serif" fill="#222">
+<title>Vier Verwechslungs-Paare nebeneinander: Steuerwerk sagt, was und wann passiert, gegenüber Rechenwerk führt die Rechnung aus. ALU für Grundrechenarten, Logik und Vergleiche gegenüber FPU für Kommazahlen. Register als winziges Fach im Rechenwerk gegenüber Cache als Zwischenspeicher in Stufen L1 bis L3. Cache in der CPU, sehr schnell und klein, gegenüber Arbeitsspeicher außerhalb, über den Bus, groß.</title>
+<rect width="400" height="440" fill="#fff"/>
+<text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700">4 Paare, die man verwechselt</text>
+<g fill="#f4f1ee"><rect x="10" y="42" width="380" height="92" rx="10"/><rect x="10" y="142" width="380" height="92" rx="10"/><rect x="10" y="242" width="380" height="92" rx="10"/><rect x="10" y="342" width="380" height="92" rx="10"/></g>
+<g fill="#fff" stroke-width="2">
+<rect x="20" y="52" width="164" height="72" rx="8" stroke="#D4607A"/><rect x="216" y="52" width="164" height="72" rx="8" stroke="#3a6ed8"/>
+<rect x="20" y="152" width="164" height="72" rx="8" stroke="#3a6ed8"/><rect x="216" y="152" width="164" height="72" rx="8" stroke="#3a6ed8"/>
+<rect x="20" y="252" width="164" height="72" rx="8" stroke="#777"/><rect x="216" y="252" width="164" height="72" rx="8" stroke="#2e9d5b"/>
+<rect x="20" y="352" width="164" height="72" rx="8" stroke="#2e9d5b"/><rect x="216" y="352" width="164" height="72" rx="8" stroke="#555"/>
+</g>
+<g font-size="18" font-weight="700" fill="#D4607A" text-anchor="middle"><text x="200" y="94">↔</text><text x="200" y="194">↔</text><text x="200" y="294">↔</text><text x="200" y="394">↔</text></g>
+<g text-anchor="middle">
+<text x="102" y="78" font-size="15" font-weight="700">Steuerwerk</text><text x="102" y="98" font-size="13">sagt, was passiert</text><text x="102" y="115" font-size="13">und wann</text>
+<text x="298" y="78" font-size="15" font-weight="700">Rechenwerk</text><text x="298" y="98" font-size="13">führt die Rechnung</text><text x="298" y="115" font-size="13">aus</text>
+<text x="102" y="178" font-size="15" font-weight="700">ALU</text><text x="102" y="198" font-size="13">Grundrechenarten,</text><text x="102" y="215" font-size="13">Logik, Vergleiche</text>
+<text x="298" y="178" font-size="15" font-weight="700">FPU</text><text x="298" y="206" font-size="13">Kommazahlen</text>
+<text x="102" y="278" font-size="15" font-weight="700">Register</text><text x="102" y="298" font-size="13">winziges Fach direkt</text><text x="102" y="315" font-size="13">im Rechenwerk</text>
+<text x="298" y="278" font-size="15" font-weight="700">Cache</text><text x="298" y="298" font-size="13">Zwischenspeicher</text><text x="298" y="315" font-size="13">in Stufen L1–L3</text>
+<text x="102" y="378" font-size="15" font-weight="700">Cache</text><text x="102" y="398" font-size="13">in der CPU,</text><text x="102" y="415" font-size="13">sehr schnell, klein</text>
+<text x="298" y="378" font-size="15" font-weight="700">Arbeitsspeicher</text><text x="298" y="398" font-size="13">außerhalb, über Bus,</text><text x="298" y="415" font-size="13">groß</text>
+</g>
+</svg>

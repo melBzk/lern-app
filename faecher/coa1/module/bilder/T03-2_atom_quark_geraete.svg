@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 470" font-family="system-ui, sans-serif" role="img">
+  <title>Wo Atom und Quark stecken. Atom: Tablet, NAS (Netzwerkspeicher) und Multimedia-Box am Fernseher; Atom ist mit 1,1 bis 1,6 GHz niedriger getaktet als ein Core i9 mit 3,7 GHz. Quark für IoT-Geräte: eine Tür, die sich per Funkchip öffnet, und ein vernetzter Sensor mit Funkwellen.</title>
+  <rect width="400" height="470" fill="#fff"/>
+  <text x="200" y="28" text-anchor="middle" font-size="18" font-weight="700" fill="#222">Atom und Quark: klein und sparsam</text>
+
+  <!-- Gruppe Atom -->
+  <rect x="8" y="42" width="384" height="232" rx="12" fill="#f5f8ff" stroke="#3a6ed8" stroke-width="2"/>
+  <text x="22" y="66" font-size="17" font-weight="700" fill="#3a6ed8">Atom</text>
+
+  <!-- Tablet -->
+  <rect x="30" y="78" width="52" height="70" rx="6" fill="#fff" stroke="#333" stroke-width="2.5"/>
+  <rect x="36" y="86" width="40" height="52" fill="#cfdcf7"/>
+  <circle cx="56" cy="143" r="2" fill="#333"/>
+  <text x="56" y="172" text-anchor="middle" font-size="14" font-weight="700" fill="#222">Tablet</text>
+
+  <!-- NAS -->
+  <rect x="168" y="84" width="64" height="64" rx="5" fill="#9aa3ad" stroke="#5f6770" stroke-width="2"/>
+  <rect x="176" y="94" width="22" height="46" rx="2" fill="#c9ced6" stroke="#5f6770" stroke-width="1.5"/>
+  <rect x="202" y="94" width="22" height="46" rx="2" fill="#c9ced6" stroke="#5f6770" stroke-width="1.5"/>
+  <circle cx="187" cy="133" r="2.5" fill="#2f9e44"/><circle cx="213" cy="133" r="2.5" fill="#2f9e44"/>
+  <text x="200" y="172" text-anchor="middle" font-size="14" font-weight="700" fill="#222">NAS =</text>
+  <text x="200" y="190" text-anchor="middle" font-size="14" fill="#222">Netzwerkspeicher</text>
+
+  <!-- Multimedia-Box am Fernseher -->
+  <rect x="296" y="78" width="80" height="50" rx="3" fill="#333"/>
+  <rect x="301" y="83" width="70" height="40" fill="#cfdcf7"/>
+  <rect x="314" y="134" width="44" height="12" rx="3" fill="#555"/>
+  <circle cx="350" cy="140" r="2" fill="#2f9e44"/>
+  <text x="336" y="172" text-anchor="middle" font-size="14" font-weight="700" fill="#222">Multimedia-Box</text>
+  <text x="336" y="190" text-anchor="middle" font-size="14" fill="#222">am Fernseher</text>
+
+  <!-- Takt -->
+  <text x="22" y="224" font-size="14" font-weight="700" fill="#3a6ed8">Atom</text>
+  <rect x="104" y="210" width="80" height="20" rx="4" fill="#3a6ed8"/>
+  <text x="192" y="225" font-size="15" font-weight="700" fill="#3a6ed8">1,1–1,6 GHz</text>
+  <text x="22" y="258" font-size="14" fill="#777">Core i9</text>
+  <rect x="104" y="244" width="186" height="20" rx="4" fill="#c4c9d0"/>
+  <text x="298" y="259" font-size="15" fill="#777">3,7 GHz</text>
+
+  <!-- Gruppe Quark -->
+  <rect x="8" y="290" width="384" height="170" rx="12" fill="#f3faf5" stroke="#2f9e44" stroke-width="2"/>
+  <text x="22" y="314" font-size="17" font-weight="700" fill="#2f9e44">Quark / IoT</text>
+
+  <!-- Tür mit Funkchip -->
+  <rect x="50" y="326" width="58" height="84" rx="3" fill="#c98a4a" stroke="#7a5022" stroke-width="2"/>
+  <circle cx="98" cy="370" r="3.5" fill="#333"/>
+  <rect x="120" y="366" width="16" height="24" rx="3" fill="#2f9e44"/>
+  <path d="M116,360 a10,10 0 0 0 -6,-8 M114,352 a18,18 0 0 0 -10,-12" fill="none" stroke="#2f9e44" stroke-width="2"/>
+  <text x="96" y="430" text-anchor="middle" font-size="14" font-weight="700" fill="#222">Tür öffnet</text>
+  <text x="96" y="448" text-anchor="middle" font-size="14" fill="#222">per Funkchip</text>
+
+  <!-- Sensor -->
+  <rect x="270" y="358" width="40" height="40" rx="6" fill="#fff" stroke="#333" stroke-width="2.5"/>
+  <circle cx="290" cy="378" r="8" fill="#2f9e44"/>
+  <path d="M318,368 a12,12 0 0 1 0,20 M326,360 a22,22 0 0 1 0,36 M334,352 a32,32 0 0 1 0,52" fill="none" stroke="#2f9e44" stroke-width="2.5"/>
+  <text x="300" y="430" text-anchor="middle" font-size="14" font-weight="700" fill="#222">vernetzter</text>
+  <text x="300" y="448" text-anchor="middle" font-size="14" fill="#222">Sensor</text>
+</svg>

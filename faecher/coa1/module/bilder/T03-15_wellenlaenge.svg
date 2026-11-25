@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 370" font-family="system-ui, sans-serif" fill="#222" role="img">
+<title>Zwei Lichtwellen untereinander, nicht maßstäblich. Oben eine weite Welle: längere Wellenlänge, DUV, die ältere Technik; daneben ein Chipausschnitt mit groben Linien. Unten eine sehr enge Welle: 13,5 Nanometer, EUV; daneben ein Chipausschnitt mit sehr feinen Linien. Hinweis unten: Wellenlänge ist nicht gleich Strukturbreite, zum Beispiel 10 nm in CPU-Z.</title>
+<rect width="400" height="370" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">Kürzere Welle, feinere Linien</text>
+<text x="330" y="62" text-anchor="middle" font-size="13" fill="#555">Linien</text>
+<text x="330" y="78" text-anchor="middle" font-size="13" fill="#555">auf dem Chip</text>
+
+<!-- DUV -->
+<text x="20" y="62" font-size="15" font-weight="700">längere Wellenlänge</text>
+<text x="20" y="80" font-size="13" fill="#555">(DUV, älter)</text>
+<path d="M20,118 q19,-36 38,0 t38,0 t38,0 t38,0 t38,0 t38,0" stroke="#9aa5b1" stroke-width="4" fill="none"/>
+<rect x="280" y="90" width="100" height="56" fill="#cfd6dd" stroke="#555" stroke-width="1.5"/>
+<path d="M286,90h12v56h-12z M310,90h12v56h-12z M334,90h12v56h-12z M358,90h12v56h-12z" fill="#5b6470"/>
+<text x="330" y="164" text-anchor="middle" font-size="13">grob</text>
+
+<!-- EUV -->
+<text x="20" y="182" font-size="15" font-weight="700" fill="#7b3fc4">13,5 nm – EUV</text>
+<path d="M20,228 q2.5,-14 5,0 t5,0 t5,0 t5,0 t5,0 t5,0 t5,0 t5,0 t5,0 t5,0 t5,0 t5,0 t5,0 t5,0 t5,0 t5,0 t5,0 t5,0 t5,0 t5,0 t5,0 t5,0 t5,0 t5,0 t5,0 t5,0 t5,0 t5,0 t5,0 t5,0 t5,0 t5,0 t5,0 t5,0 t5,0 t5,0 t5,0 t5,0 t5,0 t5,0 t5,0 t5,0 t5,0 t5,0 t5,0 t5,0 " stroke="#7b3fc4" stroke-width="2.5" fill="none"/>
+<rect x="280" y="196" width="100" height="56" fill="#cfd6dd" stroke="#555" stroke-width="1.5"/>
+<path d="M284,196h3v56h-3z M290,196h3v56h-3z M296,196h3v56h-3z M302,196h3v56h-3z M308,196h3v56h-3z M314,196h3v56h-3z M320,196h3v56h-3z M326,196h3v56h-3z M332,196h3v56h-3z M338,196h3v56h-3z M344,196h3v56h-3z M350,196h3v56h-3z M356,196h3v56h-3z M362,196h3v56h-3z M368,196h3v56h-3z M374,196h3v56h-3z" fill="#7b3fc4"/>
+<text x="330" y="270" text-anchor="middle" font-size="13" font-weight="700" fill="#7b3fc4">sehr fein</text>
+<text x="20" y="270" font-size="13" fill="#555">nicht maßstäblich</text>
+
+<!-- Hinweis -->
+<rect x="10" y="290" width="380" height="66" rx="10" fill="#fff4e0" stroke="#E07B00" stroke-width="2"/>
+<text x="200" y="316" text-anchor="middle" font-size="16" font-weight="700">Wellenlänge ≠ Strukturbreite</text>
+<text x="200" y="340" text-anchor="middle" font-size="14">(z. B. „10 nm“ in CPU-Z ist etwas anderes)</text>
+</svg>

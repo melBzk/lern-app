@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 454" font-family="system-ui, sans-serif" font-size="14" fill="#222" role="img">
+<title>Zwei Scanner mit ausgedachten Zahlen: A optisch 1200 dpi, interpoliert 19.200 dpi; B optisch 2400 dpi, interpoliert 9600 dpi. Schritt 1: interpolierte Werte streichen (rot durchgestrichen). Schritt 2: optische Werte als Balken vergleichen – B mit 2400 dpi ist doppelt so lang, B erkennt mehr echte Details. Schritt 3: beim Scannen höchstens die optische Auflösung einstellen, bei A also 1200 dpi; mehr ergibt nur größere Dateien.</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker><marker id="o" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E07B00"/></marker><marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6b4f"/></marker><marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker><marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker></defs>
+<rect width="400" height="454" fill="#fff"/>
+<text x="200" y="28" font-size="17" text-anchor="middle" font-weight="700" fill="#222">Zwei Scanner vergleichen</text>
+<text x="200" y="50" font-size="13" text-anchor="middle" fill="#555">Zahlen ausgedacht</text>
+<rect x="10" y="62" width="185" height="92" rx="12" fill="#fff" stroke="#bbb" stroke-width="2.5"/>
+<text x="102" y="86" font-size="15" text-anchor="middle" font-weight="700" fill="#222">Scanner A</text>
+<text x="24" y="112" font-size="13" fill="#444">optisch:</text><text x="181" y="112" font-size="14" text-anchor="end" font-weight="700" fill="#3a6ed8">1200 dpi</text>
+<text x="24" y="138" font-size="13" fill="#999">interpoliert:</text><text x="181" y="138" font-size="14" text-anchor="end" font-weight="700" fill="#999">19.200 dpi</text>
+<line x1="106" y1="133" x2="184" y2="133" stroke="#c62828" stroke-width="3"/>
+<rect x="205" y="62" width="185" height="92" rx="12" fill="#fff" stroke="#bbb" stroke-width="2.5"/>
+<text x="297" y="86" font-size="15" text-anchor="middle" font-weight="700" fill="#222">Scanner B</text>
+<text x="219" y="112" font-size="13" fill="#444">optisch:</text><text x="376" y="112" font-size="14" text-anchor="end" font-weight="700" fill="#3a6ed8">2400 dpi</text>
+<text x="219" y="138" font-size="13" fill="#999">interpoliert:</text><text x="376" y="138" font-size="14" text-anchor="end" font-weight="700" fill="#999">9600 dpi</text>
+<line x1="301" y1="133" x2="379" y2="133" stroke="#c62828" stroke-width="3"/>
+<circle cx="26" cy="184" r="13" fill="#E07B00" stroke="none" stroke-width="0"/><text x="26" y="189" font-size="15" text-anchor="middle" font-weight="700" fill="#fff">1</text>
+<text x="48" y="190" font-size="15" font-weight="700" fill="#222">interpolierte Werte streichen</text>
+<circle cx="26" cy="222" r="13" fill="#E07B00" stroke="none" stroke-width="0"/><text x="26" y="227" font-size="15" text-anchor="middle" font-weight="700" fill="#fff">2</text>
+<text x="48" y="228" font-size="15" font-weight="700" fill="#222">optische Werte vergleichen</text>
+<text x="24" y="262" font-size="15" font-weight="700" fill="#222">A</text>
+<rect x="48" y="248" width="150" height="22" rx="3" fill="#3a6ed8" stroke="none" stroke-width="0"/><text x="206" y="265" font-size="14" font-weight="700" fill="#3a6ed8">1200 dpi</text>
+<text x="24" y="294" font-size="15" font-weight="700" fill="#222">B</text>
+<rect x="48" y="280" width="300" height="22" rx="3" fill="#3a6ed8" stroke="none" stroke-width="0"/><text x="198" y="297" font-size="14" text-anchor="middle" font-weight="700" fill="#fff">2400 dpi</text>
+<circle cx="370" cy="291" r="12" fill="#2f9e44" stroke="none" stroke-width="0"/><path d="M365,291 l4,4 l7,-8" fill="none" stroke="#fff" stroke-width="2.6"/>
+<text x="200" y="326" font-size="15" text-anchor="middle" font-weight="700" fill="#2f6b4f">Scanner B erkennt mehr echte Details</text>
+<circle cx="26" cy="362" r="13" fill="#E07B00" stroke="none" stroke-width="0"/><text x="26" y="367" font-size="15" text-anchor="middle" font-weight="700" fill="#fff">3</text>
+<text x="48" y="368" font-size="15" font-weight="700" fill="#222">beim Scannen höchstens optisch:</text>
+<rect x="10" y="382" width="380" height="60" rx="12" fill="#fdf0e0" stroke="#E07B00" stroke-width="2.5"/>
+<text x="200" y="406" font-size="14" text-anchor="middle" font-weight="700" fill="#a85400">bei A also 1200 dpi einstellen</text>
+<text x="200" y="428" font-size="14" text-anchor="middle" font-weight="700" fill="#a85400">mehr = nur größere Dateien</text>
+</svg>

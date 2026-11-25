@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Wasserkühlung als Kreislauf im Gehäuse (Beispiel-Reihenfolge; die Pumpe ist eine Ergänzung, nicht aus dem Buch). Kühles, blaues Wasser kommt aus dem Radiator oben, die Pumpe treibt es an. Es fließt durch den Kühlblock auf der CPU, dann durch Chipsatz und Grafikprozessor und wird dabei warm (rot). Das warme Wasser fließt zurück in den Radiator; dort kühlt ein Lüfter es wieder ab. Unten dünne Luftpfeile: Ein Luftstrom im Gehäuse ist trotzdem nötig, für Festplatte und Speicher.</title>
+<defs>
+<marker id="r" viewBox="0 0 10 10" refX="5" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker>
+<marker id="b" viewBox="0 0 10 10" refX="5" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker>
+<marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="10" markerHeight="10" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#777"/></marker>
+</defs>
+<rect width="400" height="520" fill="#fff"/>
+<text x="200" y="26" font-size="17" text-anchor="middle" font-weight="700">Wasserkühlung – der Kreislauf</text>
+<rect x="10" y="44" width="380" height="460" rx="6" fill="#fafafa" stroke="#555" stroke-width="2.5"/>
+
+<!-- Radiator oben -->
+<rect x="70" y="56" width="240" height="28" rx="3" fill="#9aa5b1"/>
+<path d="M80,58 L80,82 M92,58 L92,82 M104,58 L104,82 M116,58 L116,82 M128,58 L128,82 M140,58 L140,82 M152,58 L152,82 M164,58 L164,82 M176,58 L176,82 M188,58 L188,82 M200,58 L200,82 M212,58 L212,82 M224,58 L224,82 M236,58 L236,82 M248,58 L248,82 M260,58 L260,82 M272,58 L272,82 M284,58 L284,82 M296,58 L296,82" stroke="#fff" stroke-width="2"/>
+<rect x="110" y="84" width="60" height="16" rx="3" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<rect x="210" y="84" width="60" height="16" rx="3" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<text x="190" y="120" text-anchor="middle" font-weight="700">Radiator mit Lüfter</text>
+<text x="190" y="138" text-anchor="middle" font-size="13" font-weight="700" fill="#3a6ed8">Wasser wird wieder kühl</text>
+
+<!-- Schläuche blau: Radiator -> Pumpe -> CPU -->
+<path d="M70,70 L40,70 L40,300" fill="none" stroke="#3a6ed8" stroke-width="7" stroke-linejoin="round"/>
+<path d="M40,190 L40,191" stroke="#3a6ed8" stroke-width="7" marker-end="url(#b)"/>
+<path d="M104,318 L124,318 L124,196 L150,196" fill="none" stroke="#3a6ed8" stroke-width="7" stroke-linejoin="round"/>
+<path d="M124,262 L124,261" stroke="#3a6ed8" stroke-width="7" marker-end="url(#b)"/>
+<!-- Schläuche rot: CPU -> Chipsatz -> GPU -> Radiator -->
+<path d="M210,196 L240,196 L240,256" fill="none" stroke="#c62828" stroke-width="7" stroke-linejoin="round"/>
+<path d="M240,230 L240,231" stroke="#c62828" stroke-width="7" marker-end="url(#r)"/>
+<path d="M240,296 L240,346" fill="none" stroke="#c62828" stroke-width="7"/>
+<path d="M240,322 L240,323" stroke="#c62828" stroke-width="7" marker-end="url(#r)"/>
+<path d="M330,362 L350,362 L350,70 L310,70" fill="none" stroke="#c62828" stroke-width="7" stroke-linejoin="round"/>
+<path d="M350,220 L350,219" stroke="#c62828" stroke-width="7" marker-end="url(#r)"/>
+
+<!-- Pumpe -->
+<rect x="20" y="298" width="84" height="40" rx="6" fill="#fff" stroke="#222" stroke-width="2.5"/>
+<text x="62" y="323" text-anchor="middle" font-weight="700">Pumpe</text>
+<text x="20" y="358" font-size="13">treibt das</text>
+<text x="20" y="374" font-size="13">Wasser an</text>
+
+<!-- CPU-Kühlblock -->
+<rect x="150" y="174" width="60" height="44" rx="5" fill="#555"/>
+<text x="180" y="201" text-anchor="middle" font-weight="700" fill="#fff">CPU</text>
+<text x="180" y="166" text-anchor="middle" font-size="13" font-weight="700">Kühlblock auf</text>
+<!-- Chipsatz -->
+<rect x="204" y="256" width="72" height="40" rx="4" fill="#555"/>
+<text x="240" y="281" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">Chipsatz</text>
+<!-- GPU -->
+<rect x="150" y="346" width="180" height="32" rx="4" fill="#555"/>
+<text x="240" y="367" text-anchor="middle" font-weight="700" fill="#fff">Grafikprozessor</text>
+<text x="198" y="272" text-anchor="end" font-size="13" font-weight="700" fill="#c62828">Wasser</text>
+<text x="198" y="288" text-anchor="end" font-size="13" font-weight="700" fill="#c62828">wird warm</text>
+
+<!-- Luftstrom trotzdem -->
+<line x1="22" y1="406" x2="378" y2="406" stroke="#777" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#g)"/>
+<line x1="22" y1="426" x2="378" y2="426" stroke="#777" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#g)"/>
+<text x="200" y="458" text-anchor="middle" font-weight="700">Luftstrom trotzdem nötig:</text>
+<text x="200" y="478" text-anchor="middle">für Festplatte, Speicher</text>
+<text x="380" y="497" text-anchor="end" font-size="13" fill="#666">Beispiel-Reihenfolge; Pumpe: Ergänzung</text>
+</svg>

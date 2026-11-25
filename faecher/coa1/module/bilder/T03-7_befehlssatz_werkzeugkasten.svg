@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 440" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Befehlssatz = alle Befehle, die eine CPU versteht. Links ein großer, voller Werkzeugkasten: CISC – viele Befehle, darunter ein Multitool mit Schild 1 Befehl = komplexe Aufgabe. Rechts ein kleiner Kasten: RISC – wenige Befehle, nur vier gleich große Werkzeuge: laden, rechnen, vergleichen, speichern. Ein Doppelpfeil zwischen beiden: heute Mischform.</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker><marker id="o" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E07B00"/></marker><marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6b4f"/></marker><marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker></defs>
+<rect width="400" height="440" fill="#fff"/>
+<text x="200" y="28" font-size="18" text-anchor="middle" font-weight="700">Befehlssatz</text>
+<text x="200" y="50" font-size="15" text-anchor="middle">= alle Befehle, die eine CPU versteht</text>
+<text x="115" y="84" font-size="15" text-anchor="middle" font-weight="700" fill="#3a6ed8">CISC – viele Befehle</text>
+<rect x="85" y="88" width="60" height="16" rx="7" fill="none" stroke="#3a6ed8" stroke-width="4"/>
+<rect x="10" y="100" width="210" height="260" rx="10" fill="#eaf1fc" stroke="#3a6ed8" stroke-width="2.5"/>
+<rect x="24" y="118" width="18" height="11" rx="3" fill="#3a6ed8" stroke="none" stroke-width="0"/><rect x="42" y="122" width="28" height="3" rx="0" fill="#666" stroke="none" stroke-width="0"/>
+<circle cx="98" cy="124" r="8" fill="#777"/><rect x="91" y="121" width="7" height="6" rx="0" fill="#eaf1fc" stroke="none" stroke-width="0"/><rect x="102" y="121" width="34" height="6" rx="3" fill="#777" stroke="none" stroke-width="0"/>
+<rect x="156" y="122" width="34" height="5" rx="0" fill="#a0703c" stroke="none" stroke-width="0"/><rect x="190" y="116" width="11" height="17" rx="2" fill="#555" stroke="none" stroke-width="0"/>
+<path d="M24,149 L48,157 L70,152 M24,161 L48,151 L70,156" stroke="#c62828" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+<rect x="90" y="152" width="34" height="5" rx="0" fill="#a0703c" stroke="none" stroke-width="0"/><rect x="124" y="146" width="11" height="17" rx="2" fill="#2f6b4f" stroke="none" stroke-width="0"/>
+<rect x="156" y="148" width="18" height="11" rx="3" fill="#7b3fa0" stroke="none" stroke-width="0"/><rect x="174" y="152" width="28" height="3" rx="0" fill="#666" stroke="none" stroke-width="0"/>
+<path d="M24,179 L48,187 L70,182 M24,191 L48,181 L70,186" stroke="#3a6ed8" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+<circle cx="98" cy="184" r="8" fill="#777"/><rect x="91" y="181" width="7" height="6" rx="0" fill="#eaf1fc" stroke="none" stroke-width="0"/><rect x="102" y="181" width="34" height="6" rx="3" fill="#777" stroke="none" stroke-width="0"/>
+<circle cx="164" cy="184" r="8" fill="#555"/><rect x="157" y="181" width="7" height="6" rx="0" fill="#eaf1fc" stroke="none" stroke-width="0"/><rect x="168" y="181" width="34" height="6" rx="3" fill="#555" stroke="none" stroke-width="0"/>
+<path d="M24,209 L48,217 L70,212 M24,221 L48,211 L70,216" stroke="#c62828" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+<rect x="90" y="208" width="18" height="11" rx="3" fill="#2f6b4f" stroke="none" stroke-width="0"/><rect x="108" y="212" width="28" height="3" rx="0" fill="#666" stroke="none" stroke-width="0"/>
+<rect x="156" y="212" width="34" height="5" rx="0" fill="#a0703c" stroke="none" stroke-width="0"/><rect x="190" y="206" width="11" height="17" rx="2" fill="#7b3fa0" stroke="none" stroke-width="0"/>
+<rect x="44" y="266" width="42" height="6" rx="2" fill="#999" stroke="none" stroke-width="0" transform="rotate(20 86 269)"/>
+<rect x="44" y="266" width="42" height="6" rx="2" fill="#999" stroke="none" stroke-width="0" transform="rotate(40 86 269)"/>
+<rect x="144" y="266" width="42" height="6" rx="2" fill="#999" stroke="none" stroke-width="0" transform="rotate(-20 144 269)"/>
+<rect x="144" y="266" width="42" height="6" rx="2" fill="#999" stroke="none" stroke-width="0" transform="rotate(-40 144 269)"/>
+<rect x="70" y="262" width="90" height="22" rx="11" fill="#E07B00" stroke="#a85a00" stroke-width="2"/>
+<rect x="28" y="300" width="174" height="50" rx="6" fill="#fff" stroke="#E07B00" stroke-width="2.5"/>
+<text x="115" y="321" font-size="14" text-anchor="middle" font-weight="700">1 Befehl =</text>
+<text x="115" y="341" font-size="14" text-anchor="middle" font-weight="700">komplexe Aufgabe</text>
+<text x="315" y="164" font-size="14" text-anchor="middle" font-weight="700" fill="#2f6b4f">RISC – wenige Befehle</text>
+<rect x="290" y="168" width="50" height="16" rx="7" fill="none" stroke="#2f6b4f" stroke-width="4"/>
+<rect x="240" y="180" width="150" height="180" rx="10" fill="#e3f0e9" stroke="#2f6b4f" stroke-width="2.5"/>
+<rect x="252" y="196" width="126" height="30" rx="6" fill="#fff" stroke="#2f6b4f" stroke-width="1.5"/>
+<rect x="260" y="204" width="14" height="14" rx="2" fill="#2f6b4f" stroke="none" stroke-width="0"/>
+<text x="326" y="216" font-size="14" text-anchor="middle" font-weight="700">laden</text>
+<rect x="252" y="236" width="126" height="30" rx="6" fill="#fff" stroke="#2f6b4f" stroke-width="1.5"/>
+<rect x="260" y="244" width="14" height="14" rx="2" fill="#2f6b4f" stroke="none" stroke-width="0"/>
+<text x="326" y="256" font-size="14" text-anchor="middle" font-weight="700">rechnen</text>
+<rect x="252" y="276" width="126" height="30" rx="6" fill="#fff" stroke="#2f6b4f" stroke-width="1.5"/>
+<rect x="260" y="284" width="14" height="14" rx="2" fill="#2f6b4f" stroke="none" stroke-width="0"/>
+<text x="326" y="296" font-size="14" text-anchor="middle" font-weight="700">vergleichen</text>
+<rect x="252" y="316" width="126" height="30" rx="6" fill="#fff" stroke="#2f6b4f" stroke-width="1.5"/>
+<rect x="260" y="324" width="14" height="14" rx="2" fill="#2f6b4f" stroke="none" stroke-width="0"/>
+<text x="326" y="336" font-size="14" text-anchor="middle" font-weight="700">speichern</text>
+<line x1="122" y1="392" x2="308" y2="392" stroke="#E07B00" stroke-width="3" marker-end="url(#o)" marker-start="url(#o)"/>
+<text x="215" y="424" font-size="16" text-anchor="middle" font-weight="700" fill="#E07B00">heute: Mischform</text>
+</svg>

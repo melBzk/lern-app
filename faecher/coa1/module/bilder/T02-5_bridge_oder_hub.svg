@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 420" font-family="system-ui, sans-serif" fill="#222">
+<title>Eselsbrücke Bridge oder Hub: Großes M bei MCH steht für Memory, also Speicher, also schneller Bereich – früher hieß dieser Chip Northbridge. Großes I bei ICH steht für Input/Output, also Geräte, also langsamer Bereich – früher Southbridge. Unten: Nur die Hub-Architektur hat zusätzlich einen I/O-Chip für ältere Ein-/Ausgabe-Anschlüsse. Das Prinzip mit zwei Bereichen ist bei beiden gleich.</title>
+<rect width="400" height="420" fill="#fff"/>
+<text x="200" y="30" text-anchor="middle" font-size="17" font-weight="700">Eselsbrücke: M und I</text>
+<!-- M -->
+<rect x="10" y="46" width="380" height="120" rx="10" fill="#fbe3e8"/>
+<text x="54" y="128" text-anchor="middle" font-size="64" font-weight="700" fill="#D4607A">M</text>
+<text x="100" y="80" font-size="16" font-weight="700"><tspan fill="#D4607A">M</tspan>CH = <tspan fill="#D4607A">M</tspan>emory</text>
+<text x="100" y="104" font-size="15">= Speicher = <tspan font-weight="700">schnell</tspan></text>
+<text x="100" y="132" font-size="13" fill="#666">früher: Northbridge</text>
+<text x="100" y="152" font-size="13" fill="#666">mit Grafik: GMCH</text>
+<!-- I -->
+<rect x="10" y="176" width="380" height="110" rx="10" fill="#e3ecfb"/>
+<text x="54" y="256" text-anchor="middle" font-size="64" font-weight="700" fill="#3a6ed8">I</text>
+<text x="100" y="210" font-size="16" font-weight="700"><tspan fill="#3a6ed8">I</tspan>CH = <tspan fill="#3a6ed8">I</tspan>nput/Output</text>
+<text x="100" y="234" font-size="15">= Geräte = <tspan font-weight="700">langsam</tspan></text>
+<text x="100" y="262" font-size="13" fill="#666">früher: Southbridge</text>
+<!-- Extra -->
+<rect x="10" y="296" width="380" height="66" rx="10" fill="#f4f1ee"/>
+<rect x="22" y="312" width="42" height="34" fill="#333"/>
+<text x="43" y="334" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">I/O</text>
+<text x="76" y="326" font-size="15" font-weight="700">nur bei Hub: Extra-I/O-Chip</text>
+<text x="76" y="346" font-size="13">für ältere Ein-/Ausgabe-Anschlüsse</text>
+<text x="200" y="396" text-anchor="middle" font-size="15" font-weight="700" fill="#D4607A">Prinzip gleich: zwei Bereiche</text>
+</svg>

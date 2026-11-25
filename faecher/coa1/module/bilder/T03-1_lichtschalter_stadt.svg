@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 450" font-family="system-ui, sans-serif" fill="#222" role="img">
+<title>Die Lichtschalter-Stadt: Oben ein Fingernagel, auf dem ein dichtes Raster aus winzigen Schaltern liegt, manche an (gelb, 1), manche aus (grau, 0) – Milliarden auf der Fläche eines Fingernagels. Unten: wo der Vergleich hinkt. Links Lichtschalter: ein Finger drückt, der Schalter bewegt sich. Rechts Transistor: ein elektrisches Signal schaltet, nichts bewegt sich, viel schneller.</title>
+<rect width="400" height="450" fill="#fff"/>
+<text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700">Die Lichtschalter-Stadt</text>
+<path d="M60,60 Q140,40 220,60 L220,190 Q140,210 60,190 Z" fill="#f6dccd" stroke="#b07a5c" stroke-width="2"/>
+<g id="r">
+<rect x="74" y="70" width="14" height="14" rx="2" fill="#ffd43b" stroke="#555"/><rect x="92" y="70" width="14" height="14" rx="2" fill="#9aa3ad" stroke="#555"/><rect x="110" y="70" width="14" height="14" rx="2" fill="#ffd43b" stroke="#555"/><rect x="128" y="70" width="14" height="14" rx="2" fill="#ffd43b" stroke="#555"/><rect x="146" y="70" width="14" height="14" rx="2" fill="#9aa3ad" stroke="#555"/><rect x="164" y="70" width="14" height="14" rx="2" fill="#ffd43b" stroke="#555"/><rect x="182" y="70" width="14" height="14" rx="2" fill="#9aa3ad" stroke="#555"/>
+</g>
+<use xlink:href="#r" href="#r" y="20"/><use xlink:href="#r" href="#r" y="40"/><use xlink:href="#r" href="#r" y="60"/><use xlink:href="#r" href="#r" y="80"/><use xlink:href="#r" href="#r" y="100"/>
+<rect x="236" y="90" width="16" height="16" rx="2" fill="#ffd43b" stroke="#555"/><text x="260" y="104" font-size="14" font-weight="700" fill="#8a6a00">an = 1</text>
+<rect x="236" y="126" width="16" height="16" rx="2" fill="#9aa3ad" stroke="#555"/><text x="260" y="140" font-size="14" font-weight="700" fill="#555">aus = 0</text>
+<text x="200" y="232" text-anchor="middle" font-size="15" font-weight="700">Milliarden Schalter auf einem Fingernagel</text>
+<text x="200" y="272" text-anchor="middle" font-size="15" font-weight="700" fill="#c62828">Wo der Vergleich hinkt</text>
+<rect x="10" y="286" width="184" height="154" rx="10" fill="#f4f5f7" stroke="#9aa3ad" stroke-width="1.5"/>
+<text x="102" y="310" text-anchor="middle" font-size="15" font-weight="700">Lichtschalter</text>
+<rect x="80" y="322" width="44" height="58" rx="6" fill="#fff" stroke="#555" stroke-width="2"/><rect x="92" y="332" width="20" height="38" rx="3" fill="#e9ecef" stroke="#555"/><rect x="92" y="332" width="20" height="19" rx="3" fill="#9aa3ad"/>
+<path d="M150,330 q-14,-4 -30,8" stroke="#b07a5c" stroke-width="8" fill="none" stroke-linecap="round"/>
+<text x="102" y="404" text-anchor="middle" font-size="14">Finger drückt,</text>
+<text x="102" y="424" text-anchor="middle" font-size="14">Schalter bewegt sich</text>
+<rect x="206" y="286" width="184" height="154" rx="10" fill="#fffbe6" stroke="#e0b000" stroke-width="2"/>
+<text x="298" y="310" text-anchor="middle" font-size="15" font-weight="700">Transistor</text>
+<path d="M304,320 L286,352 H300 L290,380 L318,342 H304 L316,320 Z" fill="#f2c200" stroke="#8a6a00" stroke-width="1.5"/>
+<text x="298" y="404" text-anchor="middle" font-size="14">Signal schaltet, nichts</text>
+<text x="298" y="424" text-anchor="middle" font-size="14">bewegt sich – viel schneller</text>
+</svg>

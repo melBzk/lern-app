@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 286" font-family="system-ui, sans-serif" font-size="14" fill="#222" role="img">
+<title>Eine Tastatur mit fünf orangen programmierbaren Extratasten oben, jede mit Fragezeichen: Sie tun nichts. Die normalen grauen Tasten darunter funktionieren: Tippen klappt.</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker><marker id="o" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E07B00"/></marker><marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6b4f"/></marker><marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker><marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker></defs>
+<rect width="400" height="286" fill="#fff"/>
+<text x="200" y="28" font-size="17" text-anchor="middle" font-weight="700" fill="#222">Neue Tastatur – halb tot?</text>
+<rect x="20" y="60" width="360" height="120" rx="10" fill="#fff" stroke="#333" stroke-width="2"/>
+<rect x="46" y="72" width="52" height="22" rx="4" fill="#ffd8a8" stroke="#E07B00" stroke-width="2"/>
+<circle cx="72" cy="83" r="9" fill="#E07B00" stroke="none" stroke-width="0"/><text x="72" y="89" font-size="17" text-anchor="middle" font-weight="700" fill="#fff">?</text>
+<rect x="110" y="72" width="52" height="22" rx="4" fill="#ffd8a8" stroke="#E07B00" stroke-width="2"/>
+<circle cx="136" cy="83" r="9" fill="#E07B00" stroke="none" stroke-width="0"/><text x="136" y="89" font-size="17" text-anchor="middle" font-weight="700" fill="#fff">?</text>
+<rect x="174" y="72" width="52" height="22" rx="4" fill="#ffd8a8" stroke="#E07B00" stroke-width="2"/>
+<circle cx="200" cy="83" r="9" fill="#E07B00" stroke="none" stroke-width="0"/><text x="200" y="89" font-size="17" text-anchor="middle" font-weight="700" fill="#fff">?</text>
+<rect x="238" y="72" width="52" height="22" rx="4" fill="#ffd8a8" stroke="#E07B00" stroke-width="2"/>
+<circle cx="264" cy="83" r="9" fill="#E07B00" stroke="none" stroke-width="0"/><text x="264" y="89" font-size="17" text-anchor="middle" font-weight="700" fill="#fff">?</text>
+<rect x="302" y="72" width="52" height="22" rx="4" fill="#ffd8a8" stroke="#E07B00" stroke-width="2"/>
+<circle cx="328" cy="83" r="9" fill="#E07B00" stroke="none" stroke-width="0"/><text x="328" y="89" font-size="17" text-anchor="middle" font-weight="700" fill="#fff">?</text>
+<rect x="36.0" y="106" width="23" height="15" rx="2" fill="#dfe3e8" stroke="#999" stroke-width="1"/>
+<rect x="63.5" y="106" width="23" height="15" rx="2" fill="#dfe3e8" stroke="#999" stroke-width="1"/>
+<rect x="91.0" y="106" width="23" height="15" rx="2" fill="#dfe3e8" stroke="#999" stroke-width="1"/>
+<rect x="118.5" y="106" width="23" height="15" rx="2" fill="#dfe3e8" stroke="#999" stroke-width="1"/>
+<rect x="146.0" y="106" width="23" height="15" rx="2" fill="#dfe3e8" stroke="#999" stroke-width="1"/>
+<rect x="173.5" y="106" width="23" height="15" rx="2" fill="#dfe3e8" stroke="#999" stroke-width="1"/>
+<rect x="201.0" y="106" width="23" height="15" rx="2" fill="#dfe3e8" stroke="#999" stroke-width="1"/>
+<rect x="228.5" y="106" width="23" height="15" rx="2" fill="#dfe3e8" stroke="#999" stroke-width="1"/>
+<rect x="256.0" y="106" width="23" height="15" rx="2" fill="#dfe3e8" stroke="#999" stroke-width="1"/>
+<rect x="283.5" y="106" width="23" height="15" rx="2" fill="#dfe3e8" stroke="#999" stroke-width="1"/>
+<rect x="311.0" y="106" width="23" height="15" rx="2" fill="#dfe3e8" stroke="#999" stroke-width="1"/>
+<rect x="338.5" y="106" width="23" height="15" rx="2" fill="#dfe3e8" stroke="#999" stroke-width="1"/>
+<rect x="36.0" y="126" width="23" height="15" rx="2" fill="#dfe3e8" stroke="#999" stroke-width="1"/>
+<rect x="63.5" y="126" width="23" height="15" rx="2" fill="#dfe3e8" stroke="#999" stroke-width="1"/>
+<rect x="91.0" y="126" width="23" height="15" rx="2" fill="#dfe3e8" stroke="#999" stroke-width="1"/>
+<rect x="118.5" y="126" width="23" height="15" rx="2" fill="#dfe3e8" stroke="#999" stroke-width="1"/>
+<rect x="146.0" y="126" width="23" height="15" rx="2" fill="#dfe3e8" stroke="#999" stroke-width="1"/>
+<rect x="173.5" y="126" width="23" height="15" rx="2" fill="#dfe3e8" stroke="#999" stroke-width="1"/>
+<rect x="201.0" y="126" width="23" height="15" rx="2" fill="#dfe3e8" stroke="#999" stroke-width="1"/>
+<rect x="228.5" y="126" width="23" height="15" rx="2" fill="#dfe3e8" stroke="#999" stroke-width="1"/>
+<rect x="256.0" y="126" width="23" height="15" rx="2" fill="#dfe3e8" stroke="#999" stroke-width="1"/>
+<rect x="283.5" y="126" width="23" height="15" rx="2" fill="#dfe3e8" stroke="#999" stroke-width="1"/>
+<rect x="311.0" y="126" width="23" height="15" rx="2" fill="#dfe3e8" stroke="#999" stroke-width="1"/>
+<rect x="338.5" y="126" width="23" height="15" rx="2" fill="#dfe3e8" stroke="#999" stroke-width="1"/>
+<rect x="36.0" y="146" width="23" height="15" rx="2" fill="#dfe3e8" stroke="#999" stroke-width="1"/>
+<rect x="63.5" y="146" width="23" height="15" rx="2" fill="#dfe3e8" stroke="#999" stroke-width="1"/>
+<rect x="91.0" y="146" width="23" height="15" rx="2" fill="#dfe3e8" stroke="#999" stroke-width="1"/>
+<rect x="118.5" y="146" width="23" height="15" rx="2" fill="#dfe3e8" stroke="#999" stroke-width="1"/>
+<rect x="146.0" y="146" width="23" height="15" rx="2" fill="#dfe3e8" stroke="#999" stroke-width="1"/>
+<rect x="173.5" y="146" width="23" height="15" rx="2" fill="#dfe3e8" stroke="#999" stroke-width="1"/>
+<rect x="201.0" y="146" width="23" height="15" rx="2" fill="#dfe3e8" stroke="#999" stroke-width="1"/>
+<rect x="228.5" y="146" width="23" height="15" rx="2" fill="#dfe3e8" stroke="#999" stroke-width="1"/>
+<rect x="256.0" y="146" width="23" height="15" rx="2" fill="#dfe3e8" stroke="#999" stroke-width="1"/>
+<rect x="283.5" y="146" width="23" height="15" rx="2" fill="#dfe3e8" stroke="#999" stroke-width="1"/>
+<rect x="311.0" y="146" width="23" height="15" rx="2" fill="#dfe3e8" stroke="#999" stroke-width="1"/>
+<rect x="338.5" y="146" width="23" height="15" rx="2" fill="#dfe3e8" stroke="#999" stroke-width="1"/>
+<text x="200" y="214" font-size="15" text-anchor="middle" font-weight="700" fill="#a85400">5 programmierbare Extratasten:</text>
+<text x="200" y="234" font-size="15" text-anchor="middle" font-weight="700" fill="#c62828">tun nichts</text>
+<text x="200" y="268" font-size="15" text-anchor="middle" font-weight="700" fill="#2f6b4f">normale Tasten: Tippen klappt</text>
+<circle cx="76" cy="263" r="10" fill="#2f9e44" stroke="none" stroke-width="0"/><path d="M71,263 l4,4 l7,-8" fill="none" stroke="#fff" stroke-width="2.6"/>
+</svg>

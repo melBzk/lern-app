@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" font-family="system-ui, sans-serif" fill="#222" role="img">
+<title>Thread und Multi-Threading. Oben früher: ein Prozessor mit einem Kern bearbeitet einen Thread zur gleichen Zeit, die anderen warten. Mitte Multi-Threading: Ein Programm ist in die Threads A, B und C aufgeteilt; A läuft auf Kern 1, B auf Kern 2, und auf Kern 2 läuft C zusätzlich mit, also mehrere Threads auf einem Kern. Unten: Es profitieren angepasste Programme wie Bild- und Videobearbeitung und PC-Spiele; das Betriebssystem muss mitmachen, Windows seit XP.</title>
+<rect width="400" height="500" fill="#fff"/>
+<text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700">Thread und Multi-Threading</text>
+<rect x="10" y="44" width="380" height="122" rx="10" fill="#f4f5f7"/>
+<text x="24" y="68" font-size="15" font-weight="700" fill="#555">Früher: 1 Kern, 1 Thread zur Zeit</text>
+<rect x="250" y="84" width="70" height="60" rx="6" fill="#9aa3ad"/><text x="285" y="119" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">Kern</text>
+<path d="M30,114 q20,-14 40,0 t40,0 t40,0 t40,0 t60,0" stroke="#E07B00" stroke-width="4" fill="none"/>
+<path d="M30,140 q20,-10 40,0 t40,0" stroke="#c9ced4" stroke-width="3" fill="none"/><text x="120" y="146" font-size="13" fill="#555">wartet …</text>
+<rect x="10" y="176" width="380" height="200" rx="10" fill="#fff4e0" stroke="#E07B00" stroke-width="2"/>
+<text x="24" y="200" font-size="15" font-weight="700" fill="#c25e00">Multi-Threading: gleichzeitig</text>
+<rect x="24" y="214" width="76" height="140" rx="8" fill="#fff" stroke="#555" stroke-width="2"/>
+<text x="62" y="278" text-anchor="middle" font-size="14" font-weight="700">Pro-</text><text x="62" y="296" text-anchor="middle" font-size="14" font-weight="700">gramm</text>
+<path d="M100,236 q20,-12 40,0 t40,0 t40,0 t30,0" stroke="#E07B00" stroke-width="4" fill="none"/><text x="120" y="226" font-size="13" font-weight="700" fill="#c25e00">A</text>
+<path d="M100,286 q20,-12 40,0 t40,0 t40,0 t30,0" stroke="#3a6ed8" stroke-width="4" fill="none"/><text x="120" y="276" font-size="13" font-weight="700" fill="#3a6ed8">B</text>
+<path d="M100,330 q20,-12 40,0 t40,0 t40,0 t30,-24" stroke="#7b3fc4" stroke-width="4" fill="none"/><text x="120" y="350" font-size="13" font-weight="700" fill="#7b3fc4">C</text>
+<rect x="290" y="210" width="86" height="50" rx="6" fill="#5b6470"/><text x="333" y="241" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">Kern 1</text>
+<rect x="290" y="270" width="86" height="64" rx="6" fill="#5b6470"/><text x="333" y="296" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">Kern 2</text>
+<text x="333" y="320" text-anchor="middle" font-size="13" fill="#fff">B + C</text>
+<text x="200" y="408" text-anchor="middle" font-size="15" font-weight="700">profitieren: Bild-/Videobearbeitung, Spiele</text>
+<text x="200" y="440" text-anchor="middle" font-size="15">Betriebssystem muss mitmachen</text>
+<text x="200" y="462" text-anchor="middle" font-size="14" fill="#555">(Windows seit XP)</text>
+</svg>

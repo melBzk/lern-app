@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 340" font-family="system-ui, sans-serif" font-size="14" fill="#222">
+<title>Zwei Beispiele für ein LAN, jeweils ein Gebäude. Links ein Bürogebäude mit zwei PCs und einem Drucker, verbunden. Rechts ein Wohnhaus, das Heimnetz, mit Laptop, Handy und Drucker, verbunden. Unten: Ein LAN ist auf ein Gebäude beschränkt.</title>
+<defs>
+<g id="pc"><rect x="-14" y="0" width="28" height="20" rx="2" fill="#3a3f4a"/><rect x="-11" y="3" width="22" height="14" fill="#dfe9fb"/><rect x="-3" y="20" width="6" height="5" fill="#555"/></g>
+<g id="dr"><rect x="-10" y="-6" width="20" height="8" fill="#fff" stroke="#333"/><rect x="-16" y="1" width="32" height="18" rx="3" fill="#3a3f4a"/><rect x="-10" y="15" width="20" height="10" fill="#fff" stroke="#333"/></g>
+</defs>
+<rect width="400" height="340" fill="#fff"/>
+<text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700" fill="#1d3f8a">LAN = ein Gebäude</text>
+<!-- Buero -->
+<rect x="15" y="60" width="175" height="200" fill="#eef4fd" stroke="#3a6ed8" stroke-width="2.5"/>
+<rect x="15" y="48" width="175" height="12" fill="#9aa3ad"/>
+<text x="102" y="86" text-anchor="middle" font-weight="700">Bürogebäude</text>
+<g fill="#c9d6ea"><rect x="35" y="100" width="22" height="18"/><rect x="72" y="100" width="22" height="18"/><rect x="110" y="100" width="22" height="18"/><rect x="148" y="100" width="22" height="18"/></g>
+<use href="#pc" x="50" y="150"/>
+<use href="#pc" x="102" y="150"/>
+<use href="#dr" x="155" y="152"/>
+<g stroke="#3a6ed8" stroke-width="3"><line x1="40" y1="200" x2="165" y2="200"/><line x1="50" y1="175" x2="50" y2="200"/><line x1="102" y1="175" x2="102" y2="200"/><line x1="155" y1="177" x2="155" y2="200"/></g>
+<text x="102" y="235" text-anchor="middle" font-size="13">PCs + Drucker</text>
+<!-- Haus -->
+<path d="M210,110 L297,50 L385,110 Z" fill="#c62828"/>
+<rect x="210" y="110" width="175" height="150" fill="#eef4fd" stroke="#3a6ed8" stroke-width="2.5"/>
+<text x="297" y="100" text-anchor="middle" font-weight="700" fill="#fff">Zuhause</text>
+<rect x="226" y="148" width="34" height="22" rx="2" fill="#3a3f4a"/><rect x="229" y="151" width="28" height="16" fill="#dfe9fb"/><path d="M220,170 H266 L262,176 H224 Z" fill="#555"/>
+<rect x="288" y="144" width="18" height="32" rx="3" fill="#3a3f4a"/><rect x="291" y="148" width="12" height="22" fill="#dfe9fb"/>
+<use href="#dr" x="350" y="152"/>
+<g stroke="#3a6ed8" stroke-width="3"><line x1="243" y1="200" x2="350" y2="200"/><line x1="243" y1="177" x2="243" y2="200"/><line x1="297" y1="177" x2="297" y2="200"/><line x1="350" y1="177" x2="350" y2="200"/></g>
+<text x="297" y="235" text-anchor="middle" font-size="13">Laptop, Handy, Drucker</text>
+<rect x="30" y="285" width="340" height="38" rx="8" fill="#fde3c3" stroke="#E07B00" stroke-width="2"/>
+<text x="200" y="309" text-anchor="middle" font-size="15" font-weight="700" fill="#a85a00">beschränkt auf 1 Gebäude</text>
+</svg>

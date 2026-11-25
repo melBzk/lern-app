@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 542" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Rechenweg 4 Befehle, Zeitplan mit Takt 1 bis 8. Nur Pipeline: Befehl 1 bis 4 starten nacheinander in Takt 1, 2, 3, 4; fertig nach 5 plus 3 gleich 8 Takten. Superskalar mit doppelten Einheiten: Befehl 1 und 2 starten in Takt 1, Befehl 3 und 4 in Takt 2; fertig nach 6 Takten. Ohne Pipeline wären es 4 mal 5 gleich 20 Takte. Idealfall.</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker><marker id="o" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E07B00"/></marker><marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6b4f"/></marker><marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker><marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker></defs>
+<rect width="400" height="542" fill="#fff"/>
+<text x="200" y="26" font-size="17" text-anchor="middle" font-weight="700">4 Befehle: einfach oder doppelt</text>
+<rect x="6" y="40" width="388" height="210" rx="10" fill="#f6f6f6" stroke="#ddd" stroke-width="1.5"/>
+<text x="16" y="62" font-size="15" font-weight="700">nur Pipeline: 1 neuer Befehl pro Takt</text>
+<text x="16" y="86" font-size="13" font-weight="700" fill="#555">Takt</text>
+<text x="85.0" y="86" font-size="13" text-anchor="middle" font-weight="700" fill="#555">1</text>
+<text x="115.0" y="86" font-size="13" text-anchor="middle" font-weight="700" fill="#555">2</text>
+<text x="145.0" y="86" font-size="13" text-anchor="middle" font-weight="700" fill="#555">3</text>
+<text x="175.0" y="86" font-size="13" text-anchor="middle" font-weight="700" fill="#555">4</text>
+<text x="205.0" y="86" font-size="13" text-anchor="middle" font-weight="700" fill="#555">5</text>
+<text x="235.0" y="86" font-size="13" text-anchor="middle" font-weight="700" fill="#555">6</text>
+<text x="265.0" y="86" font-size="13" text-anchor="middle" font-weight="700" fill="#555">7</text>
+<text x="295.0" y="86" font-size="13" text-anchor="middle" font-weight="700" fill="#555">8</text>
+<text x="16" y="111" font-size="13" font-weight="700" fill="#3a6ed8">B1</text>
+<rect x="71" y="94" width="28" height="24" rx="3" fill="#dbe6fb" stroke="#3a6ed8" stroke-width="1.8"/>
+<rect x="101" y="94" width="28" height="24" rx="3" fill="#dbe6fb" stroke="#3a6ed8" stroke-width="1.8"/>
+<rect x="131" y="94" width="28" height="24" rx="3" fill="#dbe6fb" stroke="#3a6ed8" stroke-width="1.8"/>
+<rect x="161" y="94" width="28" height="24" rx="3" fill="#dbe6fb" stroke="#3a6ed8" stroke-width="1.8"/>
+<rect x="191" y="94" width="28" height="24" rx="3" fill="#dbe6fb" stroke="#3a6ed8" stroke-width="1.8"/>
+<text x="16" y="139" font-size="13" font-weight="700" fill="#E07B00">B2</text>
+<rect x="101" y="122" width="28" height="24" rx="3" fill="#fdebd3" stroke="#E07B00" stroke-width="1.8"/>
+<rect x="131" y="122" width="28" height="24" rx="3" fill="#fdebd3" stroke="#E07B00" stroke-width="1.8"/>
+<rect x="161" y="122" width="28" height="24" rx="3" fill="#fdebd3" stroke="#E07B00" stroke-width="1.8"/>
+<rect x="191" y="122" width="28" height="24" rx="3" fill="#fdebd3" stroke="#E07B00" stroke-width="1.8"/>
+<rect x="221" y="122" width="28" height="24" rx="3" fill="#fdebd3" stroke="#E07B00" stroke-width="1.8"/>
+<text x="16" y="167" font-size="13" font-weight="700" fill="#2f6b4f">B3</text>
+<rect x="131" y="150" width="28" height="24" rx="3" fill="#dcefe4" stroke="#2f6b4f" stroke-width="1.8"/>
+<rect x="161" y="150" width="28" height="24" rx="3" fill="#dcefe4" stroke="#2f6b4f" stroke-width="1.8"/>
+<rect x="191" y="150" width="28" height="24" rx="3" fill="#dcefe4" stroke="#2f6b4f" stroke-width="1.8"/>
+<rect x="221" y="150" width="28" height="24" rx="3" fill="#dcefe4" stroke="#2f6b4f" stroke-width="1.8"/>
+<rect x="251" y="150" width="28" height="24" rx="3" fill="#dcefe4" stroke="#2f6b4f" stroke-width="1.8"/>
+<text x="16" y="195" font-size="13" font-weight="700" fill="#7b3fa0">B4</text>
+<rect x="161" y="178" width="28" height="24" rx="3" fill="#ece0f5" stroke="#7b3fa0" stroke-width="1.8"/>
+<rect x="191" y="178" width="28" height="24" rx="3" fill="#ece0f5" stroke="#7b3fa0" stroke-width="1.8"/>
+<rect x="221" y="178" width="28" height="24" rx="3" fill="#ece0f5" stroke="#7b3fa0" stroke-width="1.8"/>
+<rect x="251" y="178" width="28" height="24" rx="3" fill="#ece0f5" stroke="#7b3fa0" stroke-width="1.8"/>
+<rect x="281" y="178" width="28" height="24" rx="3" fill="#ece0f5" stroke="#7b3fa0" stroke-width="1.8"/>
+<text x="200" y="234" font-size="16" text-anchor="middle" font-weight="700" fill="#c62828">5 + 3 = 8 Takte</text>
+<rect x="6" y="262" width="388" height="210" rx="10" fill="#f6f6f6" stroke="#ddd" stroke-width="1.5"/>
+<text x="16" y="284" font-size="15" font-weight="700">superskalar, Einheiten doppelt</text>
+<text x="16" y="308" font-size="13" font-weight="700" fill="#555">Takt</text>
+<text x="85.0" y="308" font-size="13" text-anchor="middle" font-weight="700" fill="#555">1</text>
+<text x="115.0" y="308" font-size="13" text-anchor="middle" font-weight="700" fill="#555">2</text>
+<text x="145.0" y="308" font-size="13" text-anchor="middle" font-weight="700" fill="#555">3</text>
+<text x="175.0" y="308" font-size="13" text-anchor="middle" font-weight="700" fill="#555">4</text>
+<text x="205.0" y="308" font-size="13" text-anchor="middle" font-weight="700" fill="#555">5</text>
+<text x="235.0" y="308" font-size="13" text-anchor="middle" font-weight="700" fill="#555">6</text>
+<text x="16" y="333" font-size="13" font-weight="700" fill="#3a6ed8">B1</text>
+<rect x="71" y="316" width="28" height="24" rx="3" fill="#dbe6fb" stroke="#3a6ed8" stroke-width="1.8"/>
+<rect x="101" y="316" width="28" height="24" rx="3" fill="#dbe6fb" stroke="#3a6ed8" stroke-width="1.8"/>
+<rect x="131" y="316" width="28" height="24" rx="3" fill="#dbe6fb" stroke="#3a6ed8" stroke-width="1.8"/>
+<rect x="161" y="316" width="28" height="24" rx="3" fill="#dbe6fb" stroke="#3a6ed8" stroke-width="1.8"/>
+<rect x="191" y="316" width="28" height="24" rx="3" fill="#dbe6fb" stroke="#3a6ed8" stroke-width="1.8"/>
+<text x="16" y="361" font-size="13" font-weight="700" fill="#E07B00">B2</text>
+<rect x="71" y="344" width="28" height="24" rx="3" fill="#fdebd3" stroke="#E07B00" stroke-width="1.8"/>
+<rect x="101" y="344" width="28" height="24" rx="3" fill="#fdebd3" stroke="#E07B00" stroke-width="1.8"/>
+<rect x="131" y="344" width="28" height="24" rx="3" fill="#fdebd3" stroke="#E07B00" stroke-width="1.8"/>
+<rect x="161" y="344" width="28" height="24" rx="3" fill="#fdebd3" stroke="#E07B00" stroke-width="1.8"/>
+<rect x="191" y="344" width="28" height="24" rx="3" fill="#fdebd3" stroke="#E07B00" stroke-width="1.8"/>
+<text x="16" y="389" font-size="13" font-weight="700" fill="#2f6b4f">B3</text>
+<rect x="101" y="372" width="28" height="24" rx="3" fill="#dcefe4" stroke="#2f6b4f" stroke-width="1.8"/>
+<rect x="131" y="372" width="28" height="24" rx="3" fill="#dcefe4" stroke="#2f6b4f" stroke-width="1.8"/>
+<rect x="161" y="372" width="28" height="24" rx="3" fill="#dcefe4" stroke="#2f6b4f" stroke-width="1.8"/>
+<rect x="191" y="372" width="28" height="24" rx="3" fill="#dcefe4" stroke="#2f6b4f" stroke-width="1.8"/>
+<rect x="221" y="372" width="28" height="24" rx="3" fill="#dcefe4" stroke="#2f6b4f" stroke-width="1.8"/>
+<text x="16" y="417" font-size="13" font-weight="700" fill="#7b3fa0">B4</text>
+<rect x="101" y="400" width="28" height="24" rx="3" fill="#ece0f5" stroke="#7b3fa0" stroke-width="1.8"/>
+<rect x="131" y="400" width="28" height="24" rx="3" fill="#ece0f5" stroke="#7b3fa0" stroke-width="1.8"/>
+<rect x="161" y="400" width="28" height="24" rx="3" fill="#ece0f5" stroke="#7b3fa0" stroke-width="1.8"/>
+<rect x="191" y="400" width="28" height="24" rx="3" fill="#ece0f5" stroke="#7b3fa0" stroke-width="1.8"/>
+<rect x="221" y="400" width="28" height="24" rx="3" fill="#ece0f5" stroke="#7b3fa0" stroke-width="1.8"/>
+<text x="200" y="456" font-size="16" text-anchor="middle" font-weight="700" fill="#2f6b4f">6 Takte</text>
+<text x="200" y="508" font-size="13" text-anchor="middle" fill="#444">ohne Pipeline wären es 4 × 5 = 20 Takte</text>
+<text x="200" y="528" font-size="13" text-anchor="middle" fill="#444">1 Kästchen = 1 Phase = 1 Takt · Idealfall</text>
+</svg>

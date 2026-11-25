@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 494" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Beispiel: Eine Zahl im Speicher um 5 erhöhen. Links CISC: ein einziger Befehl ADD [Speicher], 5; innen versteckt zerlegt in Mikrocode-Schritte holen, rechnen, zurückschreiben. Rechts RISC: drei einfache Befehle 1. LOAD Register ← Speicher, 2. ADD Register + 5, 3. STORE Speicher ← Register, jeder fest verdrahtet. Unten: gleiches Ergebnis, die Zahl ist um 5 größer.</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker><marker id="o" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E07B00"/></marker><marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6b4f"/></marker><marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker></defs>
+<rect width="400" height="494" fill="#fff"/>
+<text x="200" y="28" font-size="17" text-anchor="middle" font-weight="700">Zahl im Speicher um 5 erhöhen</text>
+<line x1="200" y1="46" x2="200" y2="390" stroke="#ccc" stroke-width="2" stroke-dasharray="5 4"/>
+<text x="102" y="64" font-size="17" text-anchor="middle" font-weight="700" fill="#3a6ed8">CISC</text>
+<text x="102" y="84" font-size="13" text-anchor="middle" fill="#444">1 Befehl</text>
+<rect x="14" y="98" width="176" height="64" rx="4" fill="#fffbe6" stroke="#7a6a48" stroke-width="2"/>
+<text x="102" y="136" font-size="15" text-anchor="middle" font-weight="700">ADD [Speicher], 5</text>
+<line x1="102" y1="166" x2="102" y2="194" stroke="#333" stroke-width="2.5" marker-end="url(#a)"/>
+<rect x="22" y="198" width="160" height="170" rx="8" fill="#f1f3f5" stroke="#888" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="102" y="220" font-size="13" text-anchor="middle" fill="#555">innen versteckt:</text>
+<rect x="38" y="232" width="128" height="30" rx="4" fill="#dee2e6" stroke="#888" stroke-width="1.5"/>
+<text x="102" y="252" font-size="14" text-anchor="middle">holen</text>
+<line x1="102" y1="263" x2="102" y2="277" stroke="#555" stroke-width="2" marker-end="url(#a)"/>
+<rect x="38" y="278" width="128" height="30" rx="4" fill="#dee2e6" stroke="#888" stroke-width="1.5"/>
+<text x="102" y="298" font-size="14" text-anchor="middle">rechnen</text>
+<line x1="102" y1="309" x2="102" y2="323" stroke="#555" stroke-width="2" marker-end="url(#a)"/>
+<rect x="38" y="324" width="128" height="30" rx="4" fill="#dee2e6" stroke="#888" stroke-width="1.5"/>
+<text x="102" y="344" font-size="14" text-anchor="middle">zurückschreiben</text>
+<text x="102" y="386" font-size="13" text-anchor="middle" fill="#555">(Mikrocode)</text>
+<text x="300" y="64" font-size="17" text-anchor="middle" font-weight="700" fill="#2f6b4f">RISC</text>
+<text x="300" y="84" font-size="13" text-anchor="middle" fill="#444">3 Befehle</text>
+<rect x="212" y="98" width="176" height="54" rx="4" fill="#fffbe6" stroke="#7a6a48" stroke-width="2"/>
+<text x="222" y="120" font-size="14" font-weight="700">1. LOAD</text>
+<text x="222" y="141" font-size="14">Register ← Speicher</text>
+<rect x="212" y="166" width="176" height="54" rx="4" fill="#fffbe6" stroke="#7a6a48" stroke-width="2"/>
+<text x="222" y="188" font-size="14" font-weight="700">2. ADD</text>
+<text x="222" y="209" font-size="14">Register + 5</text>
+<rect x="212" y="234" width="176" height="54" rx="4" fill="#fffbe6" stroke="#7a6a48" stroke-width="2"/>
+<text x="222" y="256" font-size="14" font-weight="700">3. STORE</text>
+<text x="222" y="277" font-size="14">Speicher ← Register</text>
+<text x="300" y="322" font-size="13" text-anchor="middle" fill="#555">jeder fest verdrahtet,</text>
+<text x="300" y="340" font-size="13" text-anchor="middle" fill="#555">läuft sofort</text>
+<path d="M14,404 V416 H386 V404" fill="none" stroke="#E07B00" stroke-width="3"/>
+<line x1="200" y1="416" x2="200" y2="432" stroke="#E07B00" stroke-width="3"/>
+<text x="200" y="456" font-size="17" text-anchor="middle" font-weight="700" fill="#E07B00">gleiches Ergebnis</text>
+<text x="200" y="478" font-size="14" text-anchor="middle">Die Zahl ist um 5 größer.</text>
+</svg>

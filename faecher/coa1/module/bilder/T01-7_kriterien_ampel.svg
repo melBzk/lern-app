@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 448" font-family="system-ui, sans-serif" role="img">
+  <title>Die Kriterien-Tabelle als Ampel. Grün mit Plus heißt gut für dich, Orange mit o heißt mittel, Rot mit Minus heißt schlecht; doppelt heißt sehr. Spalten: Kaufpreis, Kosten pro Seite, Tempo, Lärm, Qualität Schwarz-Weiß, Qualität Foto. Nadeldrucker: Kauf hoch, pro Seite sehr gering, langsam, laut, Schwarz-Weiß niedrig, kein Foto. Laser: Kauf niedrig, pro Seite gering, schnell, leise, Schwarz-Weiß sehr gut, kein Foto. Farblaser: Kauf mittel bis sehr hoch, pro Seite gering bis mittel, Tempo mittel, Lärm gering bis mittel, Schwarz-Weiß sehr gut, Foto mittel. Tintenstrahl: Kauf niedrig, pro Seite hoch, mittel bis schnell, leise, Schwarz-Weiß gut, Foto gut. Thermosublimation: Kauf hoch, pro Seite sehr hoch, langsam, leise, Schwarz-Weiß mittel, Foto sehr gut. Merke: Kaufpreis und Kosten pro Seite immer trennen.</title>
+  <rect width="400" height="448" fill="#fff"/>
+  <text x="200" y="24" text-anchor="middle" font-size="17" font-weight="700" fill="#222">Welcher Drucker passt?</text>
+  <rect x="20" y="36" width="22" height="20" rx="3" fill="#1f9d55"/><text x="31" y="51" font-size="15" font-weight="700" text-anchor="middle" fill="#fff">+</text><text x="48" y="51" font-size="13" fill="#222">gut</text>
+  <rect x="86" y="36" width="22" height="20" rx="3" fill="#f0a020"/><text x="97" y="51" font-size="15" font-weight="700" text-anchor="middle" fill="#222">o</text><text x="114" y="51" font-size="13" fill="#222">mittel</text>
+  <rect x="172" y="36" width="22" height="20" rx="3" fill="#d63c3c"/><text x="183" y="51" font-size="15" font-weight="700" text-anchor="middle" fill="#fff">–</text><text x="200" y="51" font-size="13" fill="#222">schlecht</text>
+  <text x="276" y="51" font-size="13" fill="#222">doppelt = sehr</text>
+
+  <!-- Gruppenkoepfe -->
+  <g font-size="13" font-weight="700" fill="#b35f00" text-anchor="middle"><text x="145" y="80">Kosten</text><text x="243" y="80">Tempo, Lärm</text><text x="341" y="80">Qualität</text></g>
+  <g stroke="#E07B00" stroke-width="2"><line x1="98" y1="86" x2="192" y2="86"/><line x1="196" y1="86" x2="290" y2="86"/><line x1="294" y1="86" x2="388" y2="86"/></g>
+  <g font-size="13" fill="#333" text-anchor="middle"><text x="120" y="104">Kauf</text><text x="169" y="104">Seite</text><text x="218" y="104">Tempo</text><text x="267" y="104">Lärm</text><text x="316" y="104">S/W</text><text x="365" y="104">Foto</text></g>
+
+  <!-- Zeilen: x-Spalten 96,145,194,243,292,341 Breite 47 -->
+  <g font-size="14" font-weight="700" fill="#222"><text x="6" y="140">Nadel</text><text x="6" y="192">Laser</text><text x="6" y="244">Farblaser</text><text x="6" y="296">Tinte</text><text x="6" y="342">Thermo-</text><text x="6" y="358" font-weight="400" font-size="13">sublimation</text></g>
+
+  <!-- Nadel y=114 -->
+  <rect x="96" y="114" width="47" height="42" rx="4" fill="#d63c3c"/><text x="119" y="141" font-size="15" font-weight="700" text-anchor="middle" fill="#fff">–</text>
+  <rect x="145" y="114" width="47" height="42" rx="4" fill="#1f9d55"/><text x="168" y="141" font-size="15" font-weight="700" text-anchor="middle" fill="#fff">++</text>
+  <rect x="194" y="114" width="47" height="42" rx="4" fill="#d63c3c"/><text x="217" y="141" font-size="15" font-weight="700" text-anchor="middle" fill="#fff">–</text>
+  <rect x="243" y="114" width="47" height="42" rx="4" fill="#d63c3c"/><text x="266" y="141" font-size="15" font-weight="700" text-anchor="middle" fill="#fff">–</text>
+  <rect x="292" y="114" width="47" height="42" rx="4" fill="#d63c3c"/><text x="315" y="141" font-size="15" font-weight="700" text-anchor="middle" fill="#fff">–</text>
+  <rect x="341" y="114" width="47" height="42" rx="4" fill="#e5e7eb"/><text x="364" y="140" text-anchor="middle" font-size="13" fill="#555">kein</text>
+
+  <!-- Laser y=166 -->
+  <rect x="96" y="166" width="47" height="42" rx="4" fill="#1f9d55"/><text x="119" y="193" font-size="15" font-weight="700" text-anchor="middle" fill="#fff">+</text>
+  <rect x="145" y="166" width="47" height="42" rx="4" fill="#1f9d55"/><text x="168" y="193" font-size="15" font-weight="700" text-anchor="middle" fill="#fff">+</text>
+  <rect x="194" y="166" width="47" height="42" rx="4" fill="#1f9d55"/><text x="217" y="193" font-size="15" font-weight="700" text-anchor="middle" fill="#fff">+</text>
+  <rect x="243" y="166" width="47" height="42" rx="4" fill="#1f9d55"/><text x="266" y="193" font-size="15" font-weight="700" text-anchor="middle" fill="#fff">+</text>
+  <rect x="292" y="166" width="47" height="42" rx="4" fill="#1f9d55"/><text x="315" y="193" font-size="15" font-weight="700" text-anchor="middle" fill="#fff">++</text>
+  <rect x="341" y="166" width="47" height="42" rx="4" fill="#e5e7eb"/><text x="364" y="192" text-anchor="middle" font-size="13" fill="#555">kein</text>
+
+  <!-- Farblaser y=218 (geteilte Zellen = Spanne) -->
+  <rect x="96" y="218" width="23" height="42" fill="#f0a020"/><rect x="120" y="218" width="23" height="42" fill="#d63c3c"/><text x="107" y="245" font-size="15" font-weight="700" text-anchor="middle" fill="#222">o</text><text x="131" y="245" font-weight="700" text-anchor="middle" fill="#fff" font-size="13">– –</text>
+  <rect x="145" y="218" width="23" height="42" fill="#1f9d55"/><rect x="169" y="218" width="23" height="42" fill="#f0a020"/><text x="156" y="245" font-size="15" font-weight="700" text-anchor="middle" fill="#fff">+</text><text x="180" y="245" font-size="15" font-weight="700" text-anchor="middle" fill="#222">o</text>
+  <rect x="194" y="218" width="47" height="42" rx="4" fill="#f0a020"/><text x="217" y="245" font-size="15" font-weight="700" text-anchor="middle" fill="#222">o</text>
+  <rect x="243" y="218" width="23" height="42" fill="#1f9d55"/><rect x="267" y="218" width="23" height="42" fill="#f0a020"/><text x="254" y="245" font-size="15" font-weight="700" text-anchor="middle" fill="#fff">+</text><text x="278" y="245" font-size="15" font-weight="700" text-anchor="middle" fill="#222">o</text>
+  <rect x="292" y="218" width="47" height="42" rx="4" fill="#1f9d55"/><text x="315" y="245" font-size="15" font-weight="700" text-anchor="middle" fill="#fff">++</text>
+  <rect x="341" y="218" width="47" height="42" rx="4" fill="#f0a020"/><text x="364" y="245" font-size="15" font-weight="700" text-anchor="middle" fill="#222">o</text>
+
+  <!-- Tinte y=270 -->
+  <rect x="96" y="270" width="47" height="42" rx="4" fill="#1f9d55"/><text x="119" y="297" font-size="15" font-weight="700" text-anchor="middle" fill="#fff">+</text>
+  <rect x="145" y="270" width="47" height="42" rx="4" fill="#d63c3c"/><text x="168" y="297" font-size="15" font-weight="700" text-anchor="middle" fill="#fff">–</text>
+  <rect x="194" y="270" width="23" height="42" fill="#f0a020"/><rect x="218" y="270" width="23" height="42" fill="#1f9d55"/><text x="205" y="297" font-size="15" font-weight="700" text-anchor="middle" fill="#222">o</text><text x="229" y="297" font-size="15" font-weight="700" text-anchor="middle" fill="#fff">+</text>
+  <rect x="243" y="270" width="47" height="42" rx="4" fill="#1f9d55"/><text x="266" y="297" font-size="15" font-weight="700" text-anchor="middle" fill="#fff">+</text>
+  <rect x="292" y="270" width="47" height="42" rx="4" fill="#1f9d55"/><text x="315" y="297" font-size="15" font-weight="700" text-anchor="middle" fill="#fff">+</text>
+  <rect x="341" y="270" width="47" height="42" rx="4" fill="#1f9d55"/><text x="364" y="297" font-size="15" font-weight="700" text-anchor="middle" fill="#fff">+</text>
+
+  <!-- Thermosublimation y=322 -->
+  <rect x="96" y="322" width="47" height="42" rx="4" fill="#d63c3c"/><text x="119" y="349" font-size="15" font-weight="700" text-anchor="middle" fill="#fff">–</text>
+  <rect x="145" y="322" width="47" height="42" rx="4" fill="#d63c3c"/><text x="168" y="349" font-size="15" font-weight="700" text-anchor="middle" fill="#fff">– –</text>
+  <rect x="194" y="322" width="47" height="42" rx="4" fill="#d63c3c"/><text x="217" y="349" font-size="15" font-weight="700" text-anchor="middle" fill="#fff">–</text>
+  <rect x="243" y="322" width="47" height="42" rx="4" fill="#1f9d55"/><text x="266" y="349" font-size="15" font-weight="700" text-anchor="middle" fill="#fff">+</text>
+  <rect x="292" y="322" width="47" height="42" rx="4" fill="#f0a020"/><text x="315" y="349" font-size="15" font-weight="700" text-anchor="middle" fill="#222">o</text>
+  <rect x="341" y="322" width="47" height="42" rx="4" fill="#1f9d55"/><text x="364" y="349" font-size="15" font-weight="700" text-anchor="middle" fill="#fff">++</text>
+
+  <text x="96" y="388" font-size="13" fill="#555">geteilte Zelle = Spanne, z. B. „mittel–sehr hoch“</text>
+  <rect x="8" y="400" width="384" height="40" rx="10" fill="#fff4e5" stroke="#E07B00" stroke-width="2"/>
+  <text x="200" y="426" text-anchor="middle" font-size="15" font-weight="700" fill="#b35f00">Immer trennen: Kaufpreis ↔ Kosten pro Seite</text>
+</svg>

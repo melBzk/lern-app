@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 420" font-family="system-ui, sans-serif" font-size="14" fill="#222" role="img">
+<title>Drei Spalten: Eingabe (Tastatur, Maus, Scanner, Mikrofon, Webcam), Verarbeitung (Mainboard, CPU und RAM, ROM, Grafikkarte, Soundkarte, Kühler), Ausgabe (Monitor, Drucker, Lautsprecher, Beamer). Eine rote Klammer verbindet Eingabe und Ausgabe: Touchscreen und Headset sind beides. Unten gestrichelt: Sonstiges mit Router, USB, SSD.</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker><marker id="o" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E07B00"/></marker><marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6b4f"/></marker><marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker><marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker></defs>
+<rect width="400" height="420" fill="#fff"/>
+<text x="200" y="28" font-size="17" text-anchor="middle" font-weight="700" fill="#222">Vier Gruppen und ein Sonderfall</text>
+<rect x="10" y="44" width="124" height="210" rx="12" fill="#e3f0e9" stroke="#2f6b4f" stroke-width="2.5"/>
+<text x="72" y="70" font-size="15" text-anchor="middle" font-weight="700" fill="#2f6b4f">Eingabe</text>
+<text x="72" y="96" font-size="14" text-anchor="middle" fill="#222">Tastatur</text>
+<text x="72" y="120" font-size="14" text-anchor="middle" fill="#222">Maus</text>
+<text x="72" y="144" font-size="14" text-anchor="middle" fill="#222">Scanner</text>
+<text x="72" y="168" font-size="14" text-anchor="middle" fill="#222">Mikrofon</text>
+<text x="72" y="192" font-size="14" text-anchor="middle" fill="#222">Webcam</text>
+<rect x="138" y="44" width="124" height="210" rx="12" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2.5"/>
+<text x="200" y="70" font-size="15" text-anchor="middle" font-weight="700" fill="#3a6ed8">Verarbeitung</text>
+<text x="200" y="96" font-size="14" text-anchor="middle" fill="#222">Mainboard</text>
+<text x="200" y="120" font-size="14" text-anchor="middle" fill="#222">CPU, RAM</text>
+<text x="200" y="144" font-size="14" text-anchor="middle" fill="#222">ROM</text>
+<text x="200" y="168" font-size="14" text-anchor="middle" fill="#222">Grafikkarte</text>
+<text x="200" y="192" font-size="14" text-anchor="middle" fill="#222">Soundkarte</text>
+<text x="200" y="216" font-size="14" text-anchor="middle" fill="#222">Kühler</text>
+<rect x="266" y="44" width="124" height="210" rx="12" fill="#fdf0e0" stroke="#E07B00" stroke-width="2.5"/>
+<text x="328" y="70" font-size="15" text-anchor="middle" font-weight="700" fill="#a85400">Ausgabe</text>
+<text x="328" y="96" font-size="14" text-anchor="middle" fill="#222">Monitor</text>
+<text x="328" y="120" font-size="14" text-anchor="middle" fill="#222">Drucker</text>
+<text x="328" y="144" font-size="14" text-anchor="middle" fill="#222">Lautsprecher</text>
+<text x="328" y="168" font-size="14" text-anchor="middle" fill="#222">Beamer</text>
+<path d="M72,262 v14 h256 v-14" fill="none" stroke="#c62828" stroke-width="3"/>
+<rect x="80" y="288" width="240" height="50" rx="10" fill="#fdecec" stroke="#c62828" stroke-width="2.5"/>
+<text x="200" y="310" font-size="14" text-anchor="middle" font-weight="700" fill="#c62828">beides: Touchscreen, Headset</text>
+<text x="200" y="328" font-size="13" text-anchor="middle" fill="#444">Ein- und Ausgabe</text>
+<rect x="10" y="352" width="380" height="56" rx="12" fill="#f1f3f5" stroke="#777" stroke-width="2.5" stroke-dasharray="7 5"/>
+<text x="200" y="376" font-size="15" text-anchor="middle" font-weight="700" fill="#444">Sonstiges</text>
+<text x="200" y="398" font-size="14" text-anchor="middle" fill="#222">Router · USB · SSD</text>
+</svg>

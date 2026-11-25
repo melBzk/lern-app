@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 484" font-family="system-ui, sans-serif" role="img">
+  <title>Vier Paare, die man nicht vertauschen darf. Kosten: Kaufpreis, die Anschaffung, ist etwas anderes als Kosten pro Seite für Tinte, Toner oder Folie. Schwarz: CMY mischt Schwarz aus drei Farben und hat einen Farbstich, CMYK hat ein eigenes Schwarz. Dokumentenecht: Laser ja, Tinte nein. Mischfarben: Tinte und Laser setzen Punkte nebeneinander, das heißt Dithering; Thermosublimation legt die Farben echt übereinander.</title>
+  <rect width="400" height="484" fill="#fff"/>
+  <text x="200" y="26" text-anchor="middle" font-size="18" font-weight="700" fill="#222">Nicht vertauschen</text>
+
+  <!-- 1 Kosten -->
+  <text font-size="14" font-weight="700" fill="#b35f00" x="10" y="54">Kosten</text>
+  <rect fill="#f3f4f6" stroke="#bbb" x="8" y="62" width="174" height="96" rx="10"/><rect fill="#f3f4f6" stroke="#bbb" x="218" y="62" width="174" height="96" rx="10"/>
+  <text font-size="22" font-weight="700" fill="#E07B00" text-anchor="middle" x="200" y="118">≠</text>
+  <path d="M70,76 h36 l14,14 l-14,14 h-36 z" fill="#fff4e5" stroke="#E07B00" stroke-width="2"/><circle cx="110" cy="90" r="3" fill="#E07B00"/>
+  <text x="86" y="95" text-anchor="middle" font-size="13" font-weight="700" fill="#b35f00">€</text>
+  <text font-size="14" font-weight="700" fill="#222" text-anchor="middle" x="95" y="130">Kaufpreis</text><text font-size="13" fill="#333" text-anchor="middle" x="95" y="148">Anschaffung</text>
+  <rect x="282" y="76" width="26" height="32" fill="#fff" stroke="#333"/><rect x="288" y="72" width="26" height="32" fill="#fff" stroke="#333"/><rect x="294" y="68" width="26" height="32" fill="#fff" stroke="#333"/>
+  <text font-size="14" font-weight="700" fill="#222" text-anchor="middle" x="305" y="130">Kosten pro Seite</text><text font-size="13" fill="#333" text-anchor="middle" x="305" y="148">Tinte, Toner, Folie</text>
+
+  <!-- 2 Schwarz -->
+  <text font-size="14" font-weight="700" fill="#b35f00" x="10" y="180">Schwarz</text>
+  <rect fill="#f3f4f6" stroke="#bbb" x="8" y="188" width="174" height="80" rx="10"/><rect fill="#f3f4f6" stroke="#bbb" x="218" y="188" width="174" height="80" rx="10"/>
+  <text font-size="22" font-weight="700" fill="#E07B00" text-anchor="middle" x="200" y="236">≠</text>
+  <circle cx="34" cy="214" r="9" fill="#1fa3c9"/><circle cx="54" cy="214" r="9" fill="#d6338a"/><circle cx="74" cy="214" r="9" fill="#f2c200"/>
+  <text x="96" y="219" font-size="14" fill="#222">→</text><circle cx="124" cy="214" r="12" fill="#4a3a22"/>
+  <text font-size="14" font-weight="700" fill="#222" text-anchor="middle" x="95" y="250">CMY: Farbstich</text>
+  <circle cx="305" cy="214" r="12" fill="#111"/><text x="305" y="219" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">K</text>
+  <text font-size="14" font-weight="700" fill="#222" text-anchor="middle" x="305" y="250">CMYK: echtes Schwarz</text>
+
+  <!-- 3 dokumentenecht -->
+  <text font-size="14" font-weight="700" fill="#b35f00" x="10" y="290">dokumentenecht?</text>
+  <rect fill="#f3f4f6" stroke="#bbb" x="8" y="298" width="174" height="80" rx="10"/><rect fill="#f3f4f6" stroke="#bbb" x="218" y="298" width="174" height="80" rx="10"/>
+  <text font-size="22" font-weight="700" fill="#E07B00" text-anchor="middle" x="200" y="346">≠</text>
+  <rect x="30" y="310" width="32" height="42" fill="#fff" stroke="#333"/><g stroke="#111" stroke-width="2.5"><line x1="35" y1="320" x2="57" y2="320"/><line x1="35" y1="330" x2="57" y2="330"/><line x1="35" y1="340" x2="52" y2="340"/></g>
+  <path d="M74,312 C69,320 66,325 66,330 a8,8 0 0 0 16,0 C82,325 79,320 74,312 z" fill="#1fa3c9"/>
+  <text x="96" y="338" font-size="15" font-weight="700" fill="#14653a">Laser: ja</text>
+  <rect x="240" y="310" width="32" height="42" fill="#fff" stroke="#333"/><g stroke="#1fa3c9" stroke-width="4" stroke-linecap="round" opacity="0.6"><path d="M245,322 q8,6 22,0"/><path d="M245,334 q8,8 20,2"/></g>
+  <path d="M284,312 C279,320 276,325 276,330 a8,8 0 0 0 16,0 C292,325 289,320 284,312 z" fill="#1fa3c9"/>
+  <text x="304" y="338" font-size="15" font-weight="700" fill="#a32020">Tinte: nein</text>
+
+  <!-- 4 Mischfarben -->
+  <text font-size="14" font-weight="700" fill="#b35f00" x="10" y="400">Mischfarben</text>
+  <rect fill="#f3f4f6" stroke="#bbb" x="8" y="408" width="174" height="70" rx="10"/><rect fill="#f3f4f6" stroke="#bbb" x="218" y="408" width="174" height="70" rx="10"/>
+  <text font-size="22" font-weight="700" fill="#E07B00" text-anchor="middle" x="200" y="452">≠</text>
+  <g><circle cx="30" cy="428" r="5" fill="#1fa3c9"/><circle cx="42" cy="428" r="5" fill="#f2c200"/><circle cx="54" cy="428" r="5" fill="#1fa3c9"/><circle cx="36" cy="440" r="5" fill="#f2c200"/><circle cx="48" cy="440" r="5" fill="#1fa3c9"/><circle cx="60" cy="440" r="5" fill="#f2c200"/></g>
+  <text x="76" y="432" font-size="14" font-weight="700" fill="#222">nebeneinander</text>
+  <text x="76" y="450" font-size="13" fill="#333">Dithering</text>
+  <text x="18" y="470" font-size="13" fill="#333">Tinte, Laser</text>
+  <rect x="234" y="420" width="40" height="10" fill="#1fa3c9" fill-opacity="0.7"/><rect x="234" y="426" width="40" height="10" fill="#f2c200" fill-opacity="0.7"/><rect x="234" y="432" width="40" height="10" fill="#d6338a" fill-opacity="0.6"/>
+  <text x="284" y="432" font-size="14" font-weight="700" fill="#222">übereinander</text>
+  <text x="228" y="466" font-size="13" fill="#333">Thermosublimation</text>
+</svg>

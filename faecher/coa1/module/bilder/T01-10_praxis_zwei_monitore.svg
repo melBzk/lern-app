@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" font-family="system-ui, sans-serif" role="img">
+  <title>Praxisfall zwei Monitore, die Aufgabe als Bild. Arbeitsplatz A: Eine Grafikerin gestaltet Flyer; die Farben müssen stimmen, und die Kundin schaut oft schräg mit drauf. Arbeitsplatz B: Ein Kollege spielt in der Pause schnelle Spiele; es soll wenig kosten. Für beide ist der passende Panel-Typ gesucht, angedeutet durch ein Fragezeichen.</title>
+  <rect width="400" height="400" fill="#fff"/>
+  <text x="200" y="26" text-anchor="middle" font-size="18" font-weight="700" fill="#222">Welcher Panel-Typ?</text>
+
+  <rect x="8" y="42" width="384" height="164" rx="12" fill="#f3f4f6" stroke="#bbb"/>
+  <circle cx="30" cy="66" r="12" fill="#E07B00"/><text x="30" y="71" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">A</text>
+  <text x="50" y="72" font-size="16" font-weight="700" fill="#222">Grafikerin, Flyer</text>
+  <rect x="24" y="92" width="100" height="64" rx="4" fill="#3a3f4a"/><rect x="30" y="98" width="88" height="52" fill="#fff"/>
+  <circle cx="54" cy="124" r="10" fill="#e03131"/><circle cx="74" cy="124" r="10" fill="#2f9e44"/><circle cx="94" cy="124" r="10" fill="#1c7ed6"/>
+  <path d="M150,170 L120,140" stroke="#E07B00" stroke-width="2.5" stroke-dasharray="5 3"/><circle cx="156" cy="176" r="7" fill="#3a3f4a"/>
+  <g fill="#e8f6ee" stroke="#1f9d55" stroke-width="2"><rect x="176" y="92" width="150" height="30" rx="15"/><rect x="176" y="130" width="150" height="46" rx="15"/></g>
+  <text x="251" y="112" text-anchor="middle" font-size="14" font-weight="700" fill="#14653a">Farben stimmen</text>
+  <text x="251" y="150" text-anchor="middle" font-size="14" font-weight="700" fill="#14653a">Kundin schaut</text><text x="251" y="168" text-anchor="middle" font-size="14" font-weight="700" fill="#14653a">schräg mit</text>
+  <text x="358" y="146" text-anchor="middle" font-size="32" font-weight="700" fill="#E07B00">?</text>
+
+  <rect x="8" y="218" width="384" height="164" rx="12" fill="#f3f4f6" stroke="#bbb"/>
+  <circle cx="30" cy="242" r="12" fill="#E07B00"/><text x="30" y="247" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">B</text>
+  <text x="50" y="248" font-size="16" font-weight="700" fill="#222">Pause, schnelle Spiele</text>
+  <rect x="24" y="268" width="100" height="64" rx="4" fill="#3a3f4a"/><rect x="30" y="274" width="88" height="52" fill="#dbeefc"/>
+  <circle cx="92" cy="300" r="8" fill="#E07B00"/><g stroke="#E07B00" stroke-width="2.5"><line x1="44" y1="296" x2="76" y2="296"/><line x1="50" y1="304" x2="78" y2="304"/></g>
+  <g fill="#e8f6ee" stroke="#1f9d55" stroke-width="2"><rect x="176" y="268" width="150" height="30" rx="15"/><rect x="176" y="306" width="150" height="30" rx="15"/></g>
+  <text x="251" y="288" text-anchor="middle" font-size="14" font-weight="700" fill="#14653a">schnell</text>
+  <text x="251" y="326" text-anchor="middle" font-size="14" font-weight="700" fill="#14653a">wenig Kosten</text>
+  <text x="358" y="314" text-anchor="middle" font-size="32" font-weight="700" fill="#E07B00">?</text>
+</svg>

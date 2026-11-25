@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 370" font-family="system-ui, sans-serif" fill="#222" role="img">
+<title>Oben ein aktueller Laptop von der Seite: nur noch USB- und USB-C-Buchsen, der Rest läuft per WLAN und Bluetooth. Unten ein Datenblatt mit der Zeile USB-C und zwei Fragen: nur die Form, oder auch das Tempo? Das musst du in der AP1 erkennen.</title>
+<rect width="400" height="370" fill="#fff"/>
+<text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700">Im IT-Alltag</text>
+<!-- Laptop -->
+<rect x="10" y="42" width="380" height="150" rx="10" fill="#f4f1ee"/>
+<rect x="40" y="96" width="220" height="26" rx="5" fill="#adb5bd" stroke="#555" stroke-width="2"/>
+<rect x="56" y="103" width="34" height="12" rx="1" fill="#555"/><rect x="60" y="106" width="26" height="5" fill="#fafafa"/>
+<rect x="102" y="103" width="28" height="12" rx="6" fill="#555"/><rect x="108" y="107" width="16" height="4" rx="1" fill="#fafafa"/>
+<rect x="140" y="103" width="28" height="12" rx="6" fill="#555"/><rect x="146" y="107" width="16" height="4" rx="1" fill="#fafafa"/>
+<text x="73" y="144" text-anchor="middle" font-size="13" font-weight="700">USB</text>
+<text x="135" y="144" text-anchor="middle" font-size="13" font-weight="700" fill="#1f7a45">USB-C</text>
+<text x="150" y="176" text-anchor="middle" font-size="14" font-weight="700">nur noch USB + USB-C</text>
+<!-- Funk -->
+<g transform="translate(310,96)" fill="none" stroke="#E07B00" stroke-width="3" stroke-linecap="round"><path d="M-6,-2 A8,8 0 0 1 6,-2"/><path d="M-13,-9 A17,17 0 0 1 13,-9"/><path d="M-20,-16 A26,26 0 0 1 20,-16"/><circle cx="0" cy="4" r="3" fill="#E07B00" stroke="none"/></g>
+<text x="330" y="132" text-anchor="middle" font-size="13" font-weight="700">WLAN</text>
+<text x="330" y="150" text-anchor="middle" font-size="13" font-weight="700">Bluetooth</text>
+<text x="330" y="176" text-anchor="middle" font-size="13">Rest per Funk</text>
+<!-- Datenblatt -->
+<rect x="30" y="210" width="340" height="146" rx="6" fill="#fff" stroke="#555" stroke-width="2"/>
+<text x="46" y="234" font-size="13" fill="#666">Datenblatt · AP1</text>
+<line x1="46" y1="246" x2="300" y2="246" stroke="#ccc" stroke-width="2"/>
+<rect x="40" y="256" width="320" height="36" rx="6" fill="#fff3c4" stroke="#c99a06" stroke-width="2"/>
+<text x="56" y="280" font-size="16" font-weight="700">Anschluss: USB-C</text>
+<text x="200" y="320" text-anchor="middle" font-size="15" font-weight="700">nur die <tspan fill="#1f7a45">Form</tspan>?</text>
+<text x="200" y="344" text-anchor="middle" font-size="15" font-weight="700">oder auch das <tspan fill="#2550a8">Tempo</tspan>?</text>
+</svg>

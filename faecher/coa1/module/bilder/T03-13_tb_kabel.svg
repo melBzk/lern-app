@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 404" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Thunderbolt-Kabel. Länge bei Version 1: Kupferkabel bis 3 m, Lichtwellenleiter aus Glas bis 10 m, als Balken im Maßstab. Preis: USB-3.0-Kabel eine Münze, Thunderbolt-Kabel fünf Münzen, etwa fünfmal so teuer. Warum: aktive Elektronik, also Chips, im Stecker. Dafür ersetzt ein Thunderbolt-Kabel mehrere Kabel.</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker><marker id="o" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E07B00"/></marker><marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6b4f"/></marker><marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker><marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker></defs>
+<rect width="400" height="404" fill="#fff"/>
+<text x="200" y="26" font-size="17" text-anchor="middle" font-weight="700">Thunderbolt-Kabel: Länge und Preis</text>
+<text x="16" y="58" font-size="14" font-weight="700">Länge (Version 1)</text>
+<rect x="16" y="68" width="78" height="18" rx="9" fill="#c58a3a" stroke="#7a5320" stroke-width="1.5"/>
+<text x="104" y="83" font-size="14" font-weight="700">Kupfer bis 3 m</text>
+<rect x="16" y="98" width="260" height="18" rx="9" fill="#8fd0e8" stroke="#2a7a9a" stroke-width="1.5"/>
+<text x="284" y="113" font-size="14" font-weight="700">Glas bis 10 m</text>
+<text x="16" y="154" font-size="14" font-weight="700">Preis</text>
+<text x="16" y="186" font-size="14" font-weight="700">USB 3.0</text>
+<circle cx="120" cy="181" r="11" fill="#f2c230" stroke="#a07800" stroke-width="1.5"/><text x="120" y="186" font-size="13" text-anchor="middle" font-weight="700" fill="#7a5a00">€</text>
+<text x="16" y="222" font-size="14" font-weight="700" fill="#E07B00">Thunderbolt</text>
+<circle cx="120" cy="217" r="11" fill="#f2c230" stroke="#a07800" stroke-width="1.5"/><text x="120" y="222" font-size="13" text-anchor="middle" font-weight="700" fill="#7a5a00">€</text>
+<circle cx="146" cy="217" r="11" fill="#f2c230" stroke="#a07800" stroke-width="1.5"/><text x="146" y="222" font-size="13" text-anchor="middle" font-weight="700" fill="#7a5a00">€</text>
+<circle cx="172" cy="217" r="11" fill="#f2c230" stroke="#a07800" stroke-width="1.5"/><text x="172" y="222" font-size="13" text-anchor="middle" font-weight="700" fill="#7a5a00">€</text>
+<circle cx="198" cy="217" r="11" fill="#f2c230" stroke="#a07800" stroke-width="1.5"/><text x="198" y="222" font-size="13" text-anchor="middle" font-weight="700" fill="#7a5a00">€</text>
+<circle cx="224" cy="217" r="11" fill="#f2c230" stroke="#a07800" stroke-width="1.5"/><text x="224" y="222" font-size="13" text-anchor="middle" font-weight="700" fill="#7a5a00">€</text>
+<text x="258" y="222" font-size="15" font-weight="700" fill="#E07B00">etwa 5 ×</text>
+<text x="16" y="266" font-size="14" font-weight="700">Warum?</text>
+<rect x="16" y="278" width="84" height="34" rx="6" fill="#cfd6de" stroke="#333" stroke-width="2"/>
+<rect x="100" y="288" width="60" height="14" rx="2" fill="#555" stroke="#333" stroke-width="1"/>
+<line x1="52.6" y1="281" x2="52.6" y2="286" stroke="#888" stroke-width="2"/><line x1="52.6" y1="304" x2="52.6" y2="309" stroke="#888" stroke-width="2"/><line x1="44" y1="289.6" x2="49" y2="289.6" stroke="#888" stroke-width="2"/><line x1="67" y1="289.6" x2="72" y2="289.6" stroke="#888" stroke-width="2"/><line x1="56.2" y1="281" x2="56.2" y2="286" stroke="#888" stroke-width="2"/><line x1="56.2" y1="304" x2="56.2" y2="309" stroke="#888" stroke-width="2"/><line x1="44" y1="293.2" x2="49" y2="293.2" stroke="#888" stroke-width="2"/><line x1="67" y1="293.2" x2="72" y2="293.2" stroke="#888" stroke-width="2"/><line x1="59.8" y1="281" x2="59.8" y2="286" stroke="#888" stroke-width="2"/><line x1="59.8" y1="304" x2="59.8" y2="309" stroke="#888" stroke-width="2"/><line x1="44" y1="296.8" x2="49" y2="296.8" stroke="#888" stroke-width="2"/><line x1="67" y1="296.8" x2="72" y2="296.8" stroke="#888" stroke-width="2"/><line x1="63.4" y1="281" x2="63.4" y2="286" stroke="#888" stroke-width="2"/><line x1="63.4" y1="304" x2="63.4" y2="309" stroke="#888" stroke-width="2"/><line x1="44" y1="300.4" x2="49" y2="300.4" stroke="#888" stroke-width="2"/><line x1="67" y1="300.4" x2="72" y2="300.4" stroke="#888" stroke-width="2"/><rect x="49" y="286" width="18" height="18" rx="3" fill="#3a3f4a" stroke="#222" stroke-width="1.5"/>
+<text x="176" y="300" font-size="14" font-weight="700">aktive Elektronik im Stecker</text>
+<rect x="14" y="334" width="372" height="56" rx="8" fill="#dcefe4" stroke="#2f6b4f" stroke-width="2"/>
+<line x1="30" y1="350" x2="70" y2="350" stroke="#3a6ed8" stroke-width="3"/>
+<line x1="30" y1="362" x2="70" y2="362" stroke="#7b3fa0" stroke-width="3"/>
+<line x1="30" y1="374" x2="70" y2="374" stroke="#E07B00" stroke-width="3"/>
+<line x1="76" y1="362" x2="98" y2="362" stroke="#2f6b4f" stroke-width="2.5" marker-end="url(#g)"/>
+<line x1="104" y1="362" x2="140" y2="362" stroke="#333" stroke-width="5"/>
+<text x="152" y="368" font-size="15" font-weight="700" fill="#2f6b4f">dafür: ersetzt mehrere Kabel</text>
+</svg>

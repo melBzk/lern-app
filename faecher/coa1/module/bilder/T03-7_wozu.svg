@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 440" font-family="system-ui, sans-serif" fill="#222" role="img">
+<title>Wozu. Oben die Klausurfrage: Worin besteht der Unterschied zwischen einem RISC- und einem CISC-Prozessor? Darunter die Musterantwort als drei Karten: RISC: wenige, einfache, meist gleich lange Befehle. CISC: viele komplexe, teils mehrteilige Befehle mit direktem Speicherzugriff. Heute: Mischform. Unten: Steht im Datenblatt ARM oder x64, weißt du, welche Bauweise drinsteckt.</title>
+<rect width="400" height="440" fill="#fff"/>
+<text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700">Klausurfrage mit Musterantwort</text>
+<rect x="10" y="42" width="380" height="64" rx="10" fill="#fff4e0" stroke="#E07B00" stroke-width="2"/>
+<text x="24" y="68" font-size="15" font-weight="700">„Worin besteht der Unterschied</text>
+<text x="24" y="90" font-size="15" font-weight="700">zwischen RISC und CISC?“</text>
+<rect x="10" y="116" width="380" height="70" rx="10" fill="#e3ecfb"/>
+<text x="24" y="142" font-size="16" font-weight="700" fill="#3a6ed8">RISC</text>
+<text x="24" y="166" font-size="14">wenige, einfache, meist gleich lange Befehle</text>
+<rect x="10" y="194" width="380" height="92" rx="10" fill="#fff4e0"/>
+<text x="24" y="220" font-size="16" font-weight="700" fill="#c25e00">CISC</text>
+<text x="24" y="244" font-size="14">viele komplexe, teils mehrteilige Befehle</text>
+<text x="24" y="266" font-size="14">mit direktem Speicherzugriff</text>
+<rect x="10" y="294" width="380" height="52" rx="10" fill="#f4f5f7"/>
+<text x="24" y="326" font-size="16" font-weight="700">Heute: Mischform</text>
+<path d="M30,370 h20 l8,8 v40 h-28 z" fill="#fff" stroke="#555" stroke-width="2"/><path d="M35,390 h18 M35,400 h18 M35,410 h12" stroke="#555" stroke-width="1.5"/>
+<text x="72" y="386" font-size="14">Datenblatt: „ARM“ oder „x64“</text>
+<text x="72" y="408" font-size="14" font-weight="700">→ du weißt, welche Bauweise drin ist</text>
+</svg>

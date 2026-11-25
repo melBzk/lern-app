@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" font-family="system-ui, sans-serif" role="img">
+  <title>Zoom in drei Kreisen: Links eine Fingerspitze mit einem kleinen Chip, etwa fingernagelgroß. In der Mitte ein vergrößerter Ausschnitt des Chips mit Schaltungen wie ein Stadtplan. Rechts noch stärker vergrößert: Reihen winziger Schalter, Milliarden Transistoren. Unten: 1 Chip gleich Milliarden Schalter.</title>
+  <defs>
+    <clipPath id="c1"><circle cx="68" cy="110" r="56"/></clipPath>
+    <clipPath id="c2"><circle cx="200" cy="110" r="56"/></clipPath>
+    <clipPath id="c3"><circle cx="332" cy="110" r="56"/></clipPath>
+  </defs>
+  <rect width="400" height="300" fill="#fff"/>
+  <text x="200" y="28" text-anchor="middle" font-size="18" font-weight="700" fill="#222">Immer näher heran</text>
+
+  <!-- Lupen-Linien -->
+  <line x1="75" y1="91" x2="196" y2="54" stroke="#9aa3ad" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <line x1="75" y1="105" x2="196" y2="166" stroke="#9aa3ad" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <line x1="221" y1="99" x2="328" y2="54" stroke="#9aa3ad" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <line x1="221" y1="113" x2="328" y2="166" stroke="#9aa3ad" stroke-width="1.5" stroke-dasharray="4 3"/>
+
+  <!-- Kreis 1: Fingerspitze mit Chip -->
+  <circle cx="68" cy="110" r="56" fill="#eef4ff"/>
+  <g clip-path="url(#c1)">
+    <path d="M30,180 V100 Q30,62 68,62 Q106,62 106,100 V180 Z" fill="#f1c9a5" stroke="#c99a74" stroke-width="2"/>
+    <path d="M44,104 Q44,76 68,76 Q92,76 92,104 V120 H44 Z" fill="#fbe3d3" stroke="#c99a74" stroke-width="1.5"/>
+    <rect x="61" y="91" width="14" height="14" fill="#4a5560" stroke="#222" stroke-width="1"/>
+  </g>
+  <circle cx="68" cy="110" r="56" fill="none" stroke="#555" stroke-width="2.5"/>
+
+  <!-- Kreis 2: Schaltungen -->
+  <circle cx="200" cy="110" r="56" fill="#4a5560"/>
+  <g clip-path="url(#c2)" stroke="#d4a017" stroke-width="2.5" fill="none">
+    <path d="M140,72 H200 V100 H260"/>
+    <path d="M140,92 H178 V130 H260"/>
+    <path d="M160,50 V150 M222,50 V112 H250 V170"/>
+    <path d="M140,150 H200 V170"/>
+    <path d="M186,60 H240 V86"/>
+    <rect x="232" y="122" width="18" height="18"/>
+    <rect x="166" y="108" width="14" height="14"/>
+  </g>
+  <circle cx="200" cy="110" r="56" fill="none" stroke="#555" stroke-width="2.5"/>
+
+  <rect x="207" y="99" width="14" height="14" fill="none" stroke="#fff" stroke-width="2" stroke-dasharray="3 2"/>
+
+  <!-- Kreis 3: winzige Schalter -->
+  <circle cx="332" cy="110" r="56" fill="#eef4ff"/>
+  <g clip-path="url(#c3)" fill="#3a6ed8">
+    <g id="r">
+      <rect x="276" y="58" width="9" height="9" rx="1"/><rect x="290" y="58" width="9" height="9" rx="1"/><rect x="304" y="58" width="9" height="9" rx="1"/><rect x="318" y="58" width="9" height="9" rx="1"/><rect x="332" y="58" width="9" height="9" rx="1"/><rect x="346" y="58" width="9" height="9" rx="1"/><rect x="360" y="58" width="9" height="9" rx="1"/><rect x="374" y="58" width="9" height="9" rx="1"/>
+    </g>
+    <use href="#r" y="14"/><use href="#r" y="28"/><use href="#r" y="42"/><use href="#r" y="56"/><use href="#r" y="70"/><use href="#r" y="84"/><use href="#r" y="98"/>
+  </g>
+  <circle cx="332" cy="110" r="56" fill="none" stroke="#555" stroke-width="2.5"/>
+
+  <!-- Beschriftungen -->
+  <text x="68" y="190" text-anchor="middle" font-size="14" font-weight="700" fill="#222">Chip: etwa</text>
+  <text x="68" y="208" text-anchor="middle" font-size="14" font-weight="700" fill="#222">fingernagelgroß</text>
+  <text x="200" y="190" text-anchor="middle" font-size="14" font-weight="700" fill="#222">Schaltungen</text>
+  <text x="332" y="190" text-anchor="middle" font-size="14" font-weight="700" fill="#3a6ed8">Milliarden</text>
+  <text x="332" y="208" text-anchor="middle" font-size="14" font-weight="700" fill="#3a6ed8">Transistoren</text>
+
+  <!-- Leiste -->
+  <rect x="20" y="234" width="360" height="46" rx="10" fill="#fff4ec" stroke="#E07B00" stroke-width="2.5"/>
+  <text x="200" y="264" text-anchor="middle" font-size="17" font-weight="700" fill="#222">1 Chip = Milliarden Schalter</text>
+</svg>

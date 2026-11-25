@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" font-family="system-ui, sans-serif" role="img">
+  <title>Typische Support-Fragen und die Zuordnung. Die Spedition braucht Lieferscheine mit Durchschlag: ein mechanischer Drucker. Die Kasse druckt blasse Zettel: das ist Thermopapier, kein Tintenproblem. Die Werkstatt will ein Ersatzteil mit Hohlräumen: ein 3D-Drucker.</title>
+  <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker></defs>
+  <rect width="400" height="400" fill="#fff"/>
+  <text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700" fill="#222">Im Support: erkennen und zuordnen</text>
+
+  <rect fill="#f3f4f6" stroke="#bbb" x="8" y="42" width="384" height="108" rx="12"/>
+  <rect x="22" y="58" width="34" height="44" fill="#fff" stroke="#333"/><rect x="30" y="64" width="34" height="44" fill="#fde8f3" stroke="#d6338a" opacity="0.9"/>
+  <text font-size="14" font-weight="700" fill="#222" x="76" y="72">Spedition:</text><text font-size="13" fill="#333" x="76" y="92">Lieferscheine</text><text font-size="13" fill="#333" x="76" y="110">mit Durchschlag</text>
+  <line x1="196" y1="94" x2="226" y2="94" stroke="#333" stroke-width="3" marker-end="url(#a)"/>
+  <rect x="232" y="72" width="150" height="44" rx="22" fill="#fff" stroke="#E07B00" stroke-width="2"/>
+  <text font-size="14" font-weight="700" fill="#b35f00" text-anchor="middle" x="307" y="99">mechanischer Drucker</text>
+
+  <rect fill="#f3f4f6" stroke="#bbb" x="8" y="160" width="384" height="108" rx="12"/>
+  <path d="M24,176 h30 v50 l-5,-4 l-5,4 l-5,-4 l-5,4 l-5,-4 l-5,4 z" fill="#fff" stroke="#999"/>
+  <g stroke="#ddd" stroke-width="2"><line x1="29" y1="188" x2="49" y2="188"/><line x1="29" y1="198" x2="45" y2="198"/></g>
+  <text font-size="14" font-weight="700" fill="#222" x="76" y="190">Kasse:</text><text font-size="13" fill="#333" x="76" y="210">druckt blasse</text><text font-size="13" fill="#333" x="76" y="228">Zettel</text>
+  <line x1="196" y1="212" x2="226" y2="212" stroke="#333" stroke-width="3" marker-end="url(#a)"/>
+  <rect x="232" y="182" width="150" height="60" rx="22" fill="#fff" stroke="#E07B00" stroke-width="2"/>
+  <text font-size="14" font-weight="700" fill="#b35f00" text-anchor="middle" x="307" y="207">Thermopapier,</text><text font-size="14" font-weight="700" fill="#b35f00" text-anchor="middle" x="307" y="227">kein Tintenproblem</text>
+
+  <rect fill="#f3f4f6" stroke="#bbb" x="8" y="278" width="384" height="108" rx="12"/>
+  <path d="M22,306 h40 v40 h-40 z" fill="#1fa3c9"/><circle cx="42" cy="326" r="9" fill="#f3f4f6"/>
+  <text font-size="14" font-weight="700" fill="#222" x="76" y="308">Werkstatt:</text><text font-size="13" fill="#333" x="76" y="328">Ersatzteil mit</text><text font-size="13" fill="#333" x="76" y="346">Hohlräumen</text>
+  <line x1="196" y1="330" x2="226" y2="330" stroke="#333" stroke-width="3" marker-end="url(#a)"/>
+  <rect x="232" y="308" width="150" height="44" rx="22" fill="#fff" stroke="#E07B00" stroke-width="2"/>
+  <text font-size="14" font-weight="700" fill="#b35f00" text-anchor="middle" x="307" y="335">3D-Drucker</text>
+</svg>

@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 610" font-family="system-ui, sans-serif">
+  <title>USB 3.0 – mehr Adern, neue Stecker. Oben Querschnitt eines USB-1.x/2.0-Kabels mit 4 Adern: zwei rote für Strom, zwei weiße für Daten, daneben ein USB-3.0-Kabel mit 9 Adern: die 4 bisherigen und 5 neue. In der Mitte die Steckerformen: A-Stecker flach (PC-Seite), B-Stecker USB 2.0 fast quadratisch (Geräteseite), B-Stecker USB 3.0 mit zusätzlichem Aufsatz oben für die neuen Kontakte. Unten, was passt: alter Stecker in neue Buchse ja, neuer A-Stecker in alte Buchse ja, neuer B-Stecker in alte Buchse nein.</title>
+  <rect width="400" height="610" fill="#fff"/>
+  <text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700" fill="#222">USB 3.0: mehr Adern, neue Stecker</text>
+
+  <!-- Kabel USB 2.0 -->
+  <text x="110" y="58" text-anchor="middle" font-size="15" font-weight="700" fill="#222">USB 1.x / 2.0</text>
+  <circle cx="110" cy="134" r="62" fill="#ececec" stroke="#555" stroke-width="3"/>
+  <circle cx="93" cy="102" r="12" fill="#d43c3c"/>
+  <circle cx="127" cy="102" r="12" fill="#d43c3c"/>
+  <text x="110" y="132" text-anchor="middle" font-size="13" font-weight="700" fill="#d43c3c">Strom</text>
+  <circle cx="93" cy="150" r="12" fill="#fff" stroke="#555" stroke-width="2"/>
+  <circle cx="127" cy="150" r="12" fill="#fff" stroke="#555" stroke-width="2"/>
+  <text x="110" y="180" text-anchor="middle" font-size="13" font-weight="700" fill="#222">Daten</text>
+  <text x="110" y="220" text-anchor="middle" font-size="16" font-weight="700" fill="#222">4 Adern</text>
+
+  <!-- Pfeil -->
+  <path d="M188,134 H206 M200,126 L210,134 L200,142" fill="none" stroke="#555" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Kabel USB 3.0 -->
+  <text x="290" y="58" text-anchor="middle" font-size="15" font-weight="700" fill="#222">USB 3.0</text>
+  <circle cx="290" cy="134" r="62" fill="#ececec" stroke="#555" stroke-width="3"/>
+  <circle cx="259" cy="108" r="9" fill="#d43c3c"/>
+  <circle cx="280" cy="108" r="9" fill="#d43c3c"/>
+  <circle cx="301" cy="108" r="9" fill="#fff" stroke="#555" stroke-width="2"/>
+  <circle cx="322" cy="108" r="9" fill="#fff" stroke="#555" stroke-width="2"/>
+  <circle cx="248" cy="140" r="9" fill="#3a6ed8"/>
+  <circle cx="269" cy="140" r="9" fill="#3a6ed8"/>
+  <circle cx="290" cy="140" r="9" fill="#3a6ed8"/>
+  <circle cx="311" cy="140" r="9" fill="#3a6ed8"/>
+  <circle cx="332" cy="140" r="9" fill="#3a6ed8"/>
+  <text x="290" y="174" text-anchor="middle" font-size="13" font-weight="700" fill="#3a6ed8">5 neue</text>
+  <text x="290" y="220" text-anchor="middle" font-size="16" font-weight="700" fill="#D4607A">9 Adern</text>
+
+  <!-- Steckerformen -->
+  <text x="20" y="254" font-size="16" font-weight="700" fill="#222">Steckerformen</text>
+  <text x="325" y="256" text-anchor="middle" font-size="13" font-weight="700" fill="#3a6ed8">Aufsatz =</text>
+  <text x="325" y="271" text-anchor="middle" font-size="13" font-weight="700" fill="#3a6ed8">neue Kontakte</text>
+
+  <!-- A-Stecker -->
+  <rect x="40" y="298" width="72" height="28" rx="2" fill="#ececec" stroke="#555" stroke-width="3"/>
+  <rect x="47" y="304" width="58" height="9" fill="#555"/>
+  <text x="76" y="358" text-anchor="middle" font-size="14" font-weight="700" fill="#222">A-Stecker</text>
+  <text x="76" y="376" text-anchor="middle" font-size="13" fill="#222">PC-Seite</text>
+
+  <!-- B-Stecker USB 2.0 -->
+  <path d="M178,300 L184,292 L216,292 L222,300 L222,336 L178,336 Z" fill="#ececec" stroke="#555" stroke-width="3" stroke-linejoin="round"/>
+  <text x="200" y="358" text-anchor="middle" font-size="14" font-weight="700" fill="#222">B-Stecker 2.0</text>
+  <text x="200" y="376" text-anchor="middle" font-size="13" fill="#222">Geräteseite</text>
+
+  <!-- B-Stecker USB 3.0 -->
+  <rect x="311" y="277" width="28" height="16" fill="#3a6ed8" stroke="#555" stroke-width="2"/>
+  <path d="M303,300 L309,292 L341,292 L347,300 L347,336 L303,336 Z" fill="#ececec" stroke="#555" stroke-width="3" stroke-linejoin="round"/>
+  <text x="325" y="358" text-anchor="middle" font-size="14" font-weight="700" fill="#D4607A">B-Stecker 3.0</text>
+  <text x="325" y="376" text-anchor="middle" font-size="13" fill="#222">Geräteseite</text>
+
+  <!-- Was passt? -->
+  <text x="20" y="412" font-size="16" font-weight="700" fill="#222">Was passt?</text>
+
+  <rect x="20" y="426" width="360" height="48" rx="8" fill="#f4f1ee" stroke="#555"/>
+  <text x="34" y="455" font-size="15" fill="#222">alter Stecker → neue Buchse</text>
+  <circle cx="352" cy="450" r="15" fill="#3fa34d"/>
+  <path d="M344,450 L350,457 L361,443" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="20" y="484" width="360" height="48" rx="8" fill="#f4f1ee" stroke="#555"/>
+  <text x="34" y="513" font-size="15" fill="#222">neuer <tspan font-weight="700">A</tspan>-Stecker → alte Buchse</text>
+  <circle cx="352" cy="508" r="15" fill="#3fa34d"/>
+  <path d="M344,508 L350,515 L361,501" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="20" y="542" width="360" height="48" rx="8" fill="#f6e4e8" stroke="#D4607A" stroke-width="2.5"/>
+  <text x="34" y="571" font-size="15" fill="#222">neuer <tspan font-weight="700">B</tspan>-Stecker → alte Buchse</text>
+  <circle cx="352" cy="566" r="15" fill="#D4607A"/>
+  <path d="M346,560 L358,572 M358,560 L346,572" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round"/>
+</svg>

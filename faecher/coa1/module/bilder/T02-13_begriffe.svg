@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 470" font-family="system-ui, sans-serif" fill="#222">
+<title>Die 8 neuen Wörter mit kleinen Symbolen: Netzteil = macht aus Steckdosenstrom kleine Spannungen für den PC. Wechselspannung (~) und Gleichspannung (=): aus der Steckdose kommt Wechselspannung, der PC braucht Gleichspannung. Gleichrichter macht aus ~ ein =, Wechselrichter aus = ein ~. Schaltnetzteil = Bauart des PC-Netzteils. 80 PLUS = Siegel für sparsame Netzteile. USV = Unterbrechungsfreie Stromversorgung, springt bei Stromausfall ein. Online-, Line-Interactive-, Offline-USV = die drei Bauarten. Redundant = doppelt vorhanden.</title>
+<rect width="400" height="470" fill="#fff"/>
+<text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700">8 Wörter auf einen Blick</text>
+<g fill="#f4f1ee"><rect x="10" y="40" width="380" height="50" rx="10"/><rect x="10" y="94" width="380" height="50" rx="10"/><rect x="10" y="148" width="380" height="50" rx="10"/><rect x="10" y="202" width="380" height="50" rx="10"/><rect x="10" y="256" width="380" height="50" rx="10"/><rect x="10" y="310" width="380" height="50" rx="10"/><rect x="10" y="364" width="380" height="50" rx="10"/><rect x="10" y="418" width="380" height="50" rx="10"/></g>
+<!-- Netzteil -->
+<rect x="26" y="48" width="58" height="34" rx="4" fill="#3a3f4a"/><circle cx="55" cy="65" r="11" fill="none" stroke="#bbb" stroke-width="2"/><line x1="48" y1="58" x2="62" y2="72" stroke="#bbb" stroke-width="1.5"/><line x1="62" y1="58" x2="48" y2="72" stroke="#bbb" stroke-width="1.5"/>
+<text x="102" y="61" font-size="15" font-weight="700">Netzteil</text>
+<text x="102" y="80" font-size="13">Steckdosenstrom → kleine Spannungen</text>
+<!-- ~ / = -->
+<text x="38" y="128" text-anchor="middle" font-size="28" font-weight="700" fill="#3a6ed8">~</text>
+<text x="72" y="128" text-anchor="middle" font-size="26" font-weight="700" fill="#1c6b3c">=</text>
+<text x="102" y="115" font-size="15" font-weight="700">Wechsel- / Gleichspannung</text>
+<text x="102" y="134" font-size="13">Steckdose: ~ · PC braucht: =</text>
+<!-- Gleichrichter -->
+<text x="56" y="180" text-anchor="middle" font-size="18" font-weight="700"><tspan fill="#3a6ed8">~</tspan>→<tspan fill="#1c6b3c">=</tspan></text>
+<text x="102" y="169" font-size="15" font-weight="700">Gleichrichter / Wechselrichter</text>
+<text x="102" y="188" font-size="13">~ → = · und zurück: = → ~</text>
+<!-- Schaltnetzteil -->
+<path d="M24,236 h8 v-18 h8 v18 h8 v-18 h8 v18 h8 v-18 h8 v18 h10" fill="none" stroke="#3a6ed8" stroke-width="2.5"/>
+<text x="102" y="223" font-size="15" font-weight="700">Schaltnetzteil</text>
+<text x="102" y="242" font-size="13">die Bauart des PC-Netzteils</text>
+<!-- 80 PLUS -->
+<circle cx="56" cy="281" r="24" fill="#d4a000"/><text x="56" y="279" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">80</text><text x="56" y="293" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">PLUS</text>
+<text x="102" y="277" font-size="15" font-weight="700">80 PLUS</text>
+<text x="102" y="296" font-size="13">Siegel für sparsame Netzteile</text>
+<!-- USV -->
+<rect x="30" y="316" width="52" height="38" rx="4" fill="#fff" stroke="#555" stroke-width="2"/>
+<rect x="38" y="326" width="28" height="18" rx="2" fill="#1f9d55"/><rect x="66" y="331" width="4" height="8" fill="#1f9d55"/>
+<text x="102" y="331" font-size="15" font-weight="700">USV</text>
+<text x="102" y="350" font-size="13">springt bei Stromausfall ein</text>
+<!-- 3 Typen -->
+<g font-size="13" font-weight="700" text-anchor="middle" fill="#fff">
+<rect x="20" y="372" width="22" height="34" rx="3" fill="#1c6b3c"/><text x="31" y="394">1</text>
+<rect x="46" y="372" width="22" height="34" rx="3" fill="#1f9d55"/><text x="57" y="394">2</text>
+<rect x="72" y="372" width="22" height="34" rx="3" fill="#7fbf96"/><text x="83" y="394">3</text>
+</g>
+<text x="102" y="385" font-size="14" font-weight="700">Online / Line-Interactive / Offline</text>
+<text x="102" y="404" font-size="13">die drei USV-Bauarten</text>
+<!-- redundant -->
+<rect x="22" y="426" width="30" height="34" rx="3" fill="#3a3f4a"/><rect x="58" y="426" width="30" height="34" rx="3" fill="#3a3f4a"/>
+<text x="102" y="439" font-size="15" font-weight="700">redundant</text>
+<text x="102" y="458" font-size="13">doppelt vorhanden – eins übernimmt</text>
+</svg>

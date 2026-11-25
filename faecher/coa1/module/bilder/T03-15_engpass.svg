@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 440" font-family="system-ui, sans-serif" fill="#222" role="img">
+<title>Eine Waage: Links liegt ein großer Stapel, der Bedarf an KI-Chips; rechts ein kleiner Stapel, die Produktion. Die Waage kippt nach links: Engpass. Darunter ein Baustellen-Schild: Terafab von Tesla, SpaceX und xAI, angekündigt im März 2026 in Texas, Stand: Planung und Bau, noch keine Fertigung.</title>
+<rect width="400" height="440" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">Mehr Bedarf als Chips</text>
+<g transform="translate(0,-50)">
+<text x="200" y="120" text-anchor="middle" font-size="20" font-weight="700" fill="#c25e00">Engpass</text>
+
+<!-- Waage -->
+<path d="M200,170 L178,262 H222 Z" fill="#9aa5b1"/>
+<rect x="160" y="262" width="80" height="8" rx="3" fill="#5b6470"/>
+<path d="M70,196 L330,144" stroke="#5b6470" stroke-width="6" stroke-linecap="round"/>
+<circle cx="200" cy="170" r="7" fill="#5b6470"/>
+<path d="M70,196 L44,232 M70,196 L96,232 M330,144 L304,180 M330,144 L356,180" stroke="#555" stroke-width="1.5"/>
+<path d="M34,232 H106 Q70,248 34,232 Z" fill="#5b6470"/>
+<path d="M294,180 H366 Q330,196 294,180 Z" fill="#5b6470"/>
+<!-- Stapel links (Bedarf) -->
+<g fill="#E07B00" stroke="#fff" stroke-width="1.5">
+<rect x="44" y="214" width="18" height="18"/><rect x="62" y="214" width="18" height="18"/><rect x="80" y="214" width="18" height="18"/>
+<rect x="44" y="196" width="18" height="18"/><rect x="62" y="196" width="18" height="18"/><rect x="80" y="196" width="18" height="18"/>
+<rect x="44" y="178" width="18" height="18"/><rect x="62" y="178" width="18" height="18"/><rect x="80" y="178" width="18" height="18"/>
+<rect x="53" y="160" width="18" height="18"/><rect x="71" y="160" width="18" height="18"/>
+</g>
+<!-- Stapel rechts (Produktion) -->
+<g fill="#3a6ed8" stroke="#fff" stroke-width="1.5">
+<rect x="312" y="162" width="18" height="18"/><rect x="330" y="162" width="18" height="18"/>
+</g>
+<text x="70" y="270" text-anchor="middle" font-size="14" font-weight="700" fill="#c25e00">Bedarf an</text>
+<text x="70" y="288" text-anchor="middle" font-size="14" font-weight="700" fill="#c25e00">KI-Chips</text>
+<text x="330" y="214" text-anchor="middle" font-size="14" font-weight="700" fill="#3a6ed8">Produktion</text>
+<text x="200" y="304" text-anchor="middle" font-size="13" fill="#555">laut Tesla-Chef: mehr Bedarf, als hergestellt wird</text>
+
+<!-- Baustellenschild -->
+<rect x="30" y="324" width="340" height="150" rx="10" fill="#fff" stroke="#555" stroke-width="2.5"/>
+<path d="M32,326 H368 V346 H32 Z" fill="#E07B00"/>
+<g fill="#fff"><path d="M60,326 L74,326 L60,346 L46,346 Z"/><path d="M110,326 L124,326 L110,346 L96,346 Z"/><path d="M160,326 L174,326 L160,346 L146,346 Z"/><path d="M210,326 L224,326 L210,346 L196,346 Z"/><path d="M260,326 L274,326 L260,346 L246,346 Z"/><path d="M310,326 L324,326 L310,346 L296,346 Z"/><path d="M360,326 L368,326 L368,334 L354,346 L346,346 Z"/></g>
+<text x="200" y="374" text-anchor="middle" font-size="18" font-weight="700">„Terafab“ (Texas)</text>
+<text x="200" y="396" text-anchor="middle" font-size="14">Chipfabrik von Tesla, SpaceX, xAI</text>
+<text x="200" y="416" text-anchor="middle" font-size="14">angekündigt im März 2026</text>
+<text x="200" y="442" text-anchor="middle" font-size="14" font-weight="700" fill="#c25e00">Stand: Planung und Bau</text>
+<text x="200" y="461" text-anchor="middle" font-size="14" font-weight="700" fill="#c25e00">noch keine Fertigung</text>
+</g>
+</svg>

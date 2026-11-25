@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 580" font-family="system-ui, sans-serif" font-size="14" fill="#222">
+<title>Ein Foto vom Handy nimmt zwei Wege. Schritt 1 für beide Wege: Das Handy funkt per WLAN zum Access Point in der Fritzbox. Weg A, grün: Das Foto geht zum NAS im eigenen Heimnetz und bleibt im Heimnetz, das Internet wird nicht gebraucht. Weg B, blau: Schritt 2, der Router schickt das Foto über den WAN-Anschluss hinaus. Schritt 3, das Modem setzt die Daten in Signale für die Leitung um. Schritt 4, über die Leitung zum Provider, dann übers Internet ins Rechenzentrum des Cloud-Anbieters.</title>
+<defs>
+<marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2e9d5b"/></marker>
+<marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker>
+<marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#E07B00"/></marker>
+</defs>
+<rect width="400" height="580" fill="#fff"/>
+<rect x="10" y="10" width="380" height="300" rx="12" fill="#f3f8ee" stroke="#2f6b4f" stroke-width="2.5" stroke-dasharray="10 6"/>
+<text x="24" y="34" font-size="14" font-weight="700" fill="#2f6b4f">Heimnetz</text>
+<!-- Handy -->
+<rect x="188" y="22" width="24" height="40" rx="4" fill="#3a3f4a"/><rect x="191" y="27" width="18" height="28" fill="#dfe9fb"/>
+<text x="222" y="46" font-size="13">Handy mit Foto</text>
+<line x1="200" y1="66" x2="200" y2="104" stroke="#E07B00" stroke-width="3" stroke-dasharray="5 4" marker-end="url(#ao)"/>
+<circle cx="176" cy="86" r="11" fill="#E07B00"/><text x="176" y="91" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">1</text>
+<text x="212" y="90" font-size="13" fill="#a85a00" font-weight="700">WLAN</text>
+<!-- Fritzbox -->
+<rect x="130" y="108" width="140" height="170" rx="10" fill="#3a3f4a"/>
+<rect x="140" y="118" width="120" height="34" rx="5" fill="#fde3c3"/>
+<text x="200" y="140" text-anchor="middle" font-size="13" font-weight="700">Access Point</text>
+<rect x="140" y="176" width="120" height="34" rx="5" fill="#dbe7fb"/>
+<text x="200" y="198" text-anchor="middle" font-size="13" font-weight="700">Router</text>
+<rect x="140" y="234" width="120" height="34" rx="5" fill="#dbe7fb"/>
+<text x="200" y="256" text-anchor="middle" font-size="13" font-weight="700">Modem</text>
+<line x1="200" y1="153" x2="200" y2="173" stroke="#3a6ed8" stroke-width="3" marker-end="url(#ab)"/>
+<line x1="200" y1="211" x2="200" y2="231" stroke="#3a6ed8" stroke-width="3" marker-end="url(#ab)"/>
+<!-- Weg A -->
+<line x1="138" y1="140" x2="84" y2="176" stroke="#2e9d5b" stroke-width="4" marker-end="url(#ag)"/>
+<rect x="34" y="180" width="46" height="62" rx="4" fill="#3a3f4a"/><rect x="40" y="188" width="34" height="10" fill="#9aa3ad"/><rect x="40" y="203" width="34" height="10" fill="#9aa3ad"/><rect x="40" y="218" width="34" height="10" fill="#9aa3ad"/>
+<text x="57" y="262" text-anchor="middle" font-size="15" font-weight="700" fill="#1e6e3e">A: NAS</text>
+<text x="57" y="280" text-anchor="middle" font-size="13" fill="#1e6e3e">bleibt im</text>
+<text x="57" y="296" text-anchor="middle" font-size="13" fill="#1e6e3e">Heimnetz</text>
+<!-- Weg B Beschriftung -->
+<circle cx="290" cy="193" r="11" fill="#3a6ed8"/><text x="290" y="198" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">2</text>
+<text x="306" y="190" font-size="13">anderes Netz</text>
+<text x="306" y="207" font-size="13">→ über WAN</text>
+<circle cx="290" cy="251" r="11" fill="#3a6ed8"/><text x="290" y="256" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">3</text>
+<text x="306" y="248" font-size="13">Daten →</text>
+<text x="306" y="265" font-size="13">Signale</text>
+<!-- raus -->
+<line x1="200" y1="278" x2="200" y2="346" stroke="#3a6ed8" stroke-width="4" marker-end="url(#ab)"/>
+<text x="212" y="334" font-size="13" fill="#555">Leitung</text>
+<rect x="130" y="350" width="140" height="40" rx="8" fill="#eef4fd" stroke="#3a6ed8" stroke-width="2"/>
+<text x="200" y="375" text-anchor="middle" font-weight="700">Provider</text>
+<circle cx="290" cy="370" r="11" fill="#3a6ed8"/><text x="290" y="375" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">4</text>
+<line x1="200" y1="390" x2="200" y2="414" stroke="#3a6ed8" stroke-width="4" marker-end="url(#ab)"/>
+<path d="M150,466 a18,18 0 0 1 4,-34 a24,24 0 0 1 44,-8 a20,20 0 0 1 34,14 a16,16 0 0 1 -2,28 z" fill="#dbe7fb" stroke="#3a6ed8" stroke-width="2"/>
+<text x="196" y="452" text-anchor="middle" font-weight="700">Internet</text>
+<line x1="200" y1="468" x2="200" y2="496" stroke="#3a6ed8" stroke-width="4" marker-end="url(#ab)"/>
+<rect x="110" y="500" width="180" height="58" rx="6" fill="#555"/>
+<g fill="#9aa3ad"><rect x="122" y="510" width="22" height="38"/><rect x="150" y="510" width="22" height="38"/><rect x="228" y="510" width="22" height="38"/><rect x="256" y="510" width="22" height="38"/></g>
+<text x="200" y="534" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">Rechen-</text>
+<text x="200" y="550" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">zentrum</text>
+<text x="300" y="526" font-size="15" font-weight="700" fill="#1d3f8a">B: Cloud</text>
+<text x="300" y="545" font-size="13" fill="#1d3f8a">beim Anbieter</text>
+</svg>

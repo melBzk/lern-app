@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 330" font-family="system-ui, sans-serif" fill="#222">
+<title>Ausschnitt aus einem Datenblatt mit der Zeile „L3-Cache: 16 MB“. Ein Pfeil zeigt auf eine CPU, in der der Cache als grüne Fläche markiert ist: schneller Speicher in der CPU für häufig gebrauchte Daten und Befehle.</title>
+<rect width="400" height="330" fill="#fff"/>
+<text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700">Im Datenblatt entdeckt</text>
+<!-- Datenblatt -->
+<rect x="30" y="46" width="340" height="100" rx="6" fill="#fff" stroke="#555" stroke-width="2"/>
+<text x="46" y="70" font-size="13" fill="#666">Prozessor · Datenblatt</text>
+<g stroke="#ccc" stroke-width="2"><line x1="46" y1="84" x2="300" y2="84"/></g>
+<rect x="40" y="96" width="320" height="36" rx="6" fill="#fff3c4" stroke="#c99a06" stroke-width="2"/>
+<text x="56" y="120" font-size="16" font-weight="700">L3-Cache: 16 MB</text>
+<line x1="200" y1="146" x2="200" y2="170" stroke="#555" stroke-width="3"/><polygon points="192,168 208,168 200,180" fill="#555"/>
+<!-- CPU -->
+<rect x="110" y="186" width="180" height="96" rx="6" fill="#cfd8dc" stroke="#555" stroke-width="2.5"/>
+<text x="124" y="206" font-size="13" font-weight="700">CPU</text>
+<rect x="124" y="214" width="66" height="56" rx="4" fill="#fff" stroke="#999" stroke-width="1.5"/>
+<rect x="198" y="214" width="80" height="56" rx="4" fill="#d4efd9" stroke="#2e9d5b" stroke-width="2"/>
+<text x="238" y="247" text-anchor="middle" font-size="14" font-weight="700" fill="#1f7a45">Cache</text>
+<text x="200" y="306" text-anchor="middle" font-size="14">schneller Speicher in der CPU</text>
+<text x="200" y="324" text-anchor="middle" font-size="13" fill="#666">für häufig gebrauchte Daten und Befehle</text>
+</svg>

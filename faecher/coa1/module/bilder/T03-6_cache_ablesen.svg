@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 450" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Zwei nachgezeichnete Info-Kästen. Oben Task-Manager, Leistung, CPU: Kerne 14, L1-Cache 1,2 MB, L2-Cache 11,5 MB, L3-Cache 24,0 MB, die Cache-Zeilen gelb markiert. Unten CPU-Z, Cache: L1 Data 6 × 48 KB + 8 × 32 KB, L1 Inst. 6 × 32 KB + 8 × 64 KB, Level 2 6 × 1,25 MB + 2 × 2 MB, Level 3 24 MBytes. Ein Pfeil führt von L1 Data und L1 Inst. zu 1,2 MB, ein zweiter von Level 2 zu 11,5 MB.</title>
+<defs><marker id="o" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E07B00"/></marker><marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker></defs>
+<rect width="400" height="450" fill="#fff"/>
+<text x="200" y="26" font-size="17" text-anchor="middle" font-weight="700">Cache-Größen ablesen</text>
+<!-- Task-Manager -->
+<rect x="30" y="40" width="340" height="164" rx="8" fill="#fff" stroke="#555" stroke-width="2"/>
+<path d="M30,48 a8,8 0 0 1 8,-8 h324 a8,8 0 0 1 8,8 v20 h-340 z" fill="#3b4a5c"/>
+<text x="42" y="60" font-size="14" font-weight="700" fill="#fff">Task-Manager → Leistung → CPU</text>
+<rect x="40" y="105" width="210" height="26" rx="3" fill="#fff3a0"/>
+<rect x="40" y="135" width="210" height="26" rx="3" fill="#fff3a0"/>
+<rect x="40" y="165" width="210" height="26" rx="3" fill="#fff3a0"/>
+<text x="50" y="94">Kerne:</text><text x="240" y="94" text-anchor="end" font-weight="700">14</text>
+<text x="50" y="124">L1-Cache:</text><text x="240" y="124" text-anchor="end" font-weight="700">1,2 MB</text>
+<text x="50" y="154">L2-Cache:</text><text x="240" y="154" text-anchor="end" font-weight="700">11,5 MB</text>
+<text x="50" y="184">L3-Cache:</text><text x="240" y="184" text-anchor="end" font-weight="700">24,0 MB</text>
+<!-- CPU-Z -->
+<rect x="30" y="262" width="340" height="170" rx="8" fill="#fff" stroke="#555" stroke-width="2"/>
+<path d="M30,270 a8,8 0 0 1 8,-8 h324 a8,8 0 0 1 8,8 v20 h-340 z" fill="#3b4a5c"/>
+<text x="42" y="282" font-size="14" font-weight="700" fill="#fff">CPU-Z → Cache</text>
+<text x="42" y="318" font-weight="700">L1 Data</text><text x="112" y="318">6 × 48 KB + 8 × 32 KB</text>
+<text x="42" y="348" font-weight="700">L1 Inst.</text><text x="112" y="348">6 × 32 KB + 8 × 64 KB</text>
+<text x="42" y="378" font-weight="700">Level 2</text><text x="112" y="378">6 × 1,25 MB + 2 × 2 MB</text>
+<text x="42" y="408" font-weight="700">Level 3</text><text x="112" y="408">24 MBytes</text>
+<!-- Pfeil L1 -->
+<path d="M288,302 h6 v52 h-6" fill="none" stroke="#E07B00" stroke-width="2.5"/>
+<path d="M294,328 H352 V118 H256" fill="none" stroke="#E07B00" stroke-width="3" marker-end="url(#o)"/>
+<!-- Pfeil L2 -->
+<path d="M38,373 H16 V148 H38" fill="none" stroke="#3a6ed8" stroke-width="3" marker-end="url(#b)"/>
+</svg>

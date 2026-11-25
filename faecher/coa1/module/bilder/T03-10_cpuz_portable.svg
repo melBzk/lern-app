@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" font-family="system-ui, sans-serif">
+  <title>CPU-Z starten ohne Installation, in drei Schritten. 1: Herunterladen beim Hersteller cpuid.com. 2: Die ZIP-Datei entpacken, eine Installation ist nicht nötig. 3: Die passende Datei starten: cpuz_x32.exe bei 32-Bit-Windows, cpuz_x64.exe bei 64-Bit-Windows. Weil CPU-Z portable ist, passt es auf einen Service-USB-Stick und läuft überall.</title>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker>
+  </defs>
+  <rect width="400" height="520" fill="#fff"/>
+  <text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700" fill="#222">CPU-Z: ohne Installation</text>
+
+  <!-- 1 Download -->
+  <circle cx="22" cy="80" r="12" fill="#3a6ed8"/><text x="22" y="85" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">1</text>
+  <g fill="none" stroke="#3a6ed8" stroke-width="2.5">
+    <circle cx="80" cy="80" r="32" fill="#e8f0fe"/>
+    <ellipse cx="80" cy="80" rx="14" ry="32"/>
+    <line x1="48" y1="80" x2="112" y2="80"/>
+    <path d="M53,63 Q80,70 107,63"/><path d="M53,97 Q80,90 107,97"/>
+  </g>
+  <text x="130" y="74" font-size="15" font-weight="700" fill="#222">Herunterladen beim Hersteller:</text>
+  <text x="130" y="96" font-size="16" font-weight="700" fill="#3a6ed8">cpuid.com</text>
+  <line x1="80" y1="118" x2="80" y2="144" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+
+  <!-- 2 ZIP -->
+  <circle cx="22" cy="184" r="12" fill="#3a6ed8"/><text x="22" y="189" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">2</text>
+  <path d="M48,160 L74,160 L82,168 L114,168 L114,212 L48,212 Z" fill="#f6d37a" stroke="#555" stroke-width="2"/>
+  <path d="M44,178 L118,178 L112,212 L50,212 Z" fill="#fbe3a2" stroke="#555" stroke-width="2"/>
+  <g fill="#555"><rect x="76" y="180" width="8" height="5"/><rect x="80" y="186" width="8" height="5"/><rect x="76" y="192" width="8" height="5"/><rect x="80" y="198" width="8" height="5"/></g>
+  <text x="130" y="182" font-size="15" font-weight="700" fill="#222">ZIP entpacken –</text>
+  <text x="130" y="204" font-size="15" font-weight="700" fill="#1f9d55">keine Installation</text>
+  <line x1="80" y1="222" x2="80" y2="248" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+
+  <!-- 3 zwei Dateien -->
+  <circle cx="22" cy="270" r="12" fill="#3a6ed8"/><text x="22" y="275" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">3</text>
+  <text x="44" y="275" font-size="15" font-weight="700" fill="#222">passende Datei starten</text>
+  <!-- x32 grau -->
+  <rect x="20" y="292" width="172" height="96" rx="10" fill="#f3f4f6" stroke="#999" stroke-width="2"/>
+  <path d="M36,304 L58,304 L66,312 L66,338 L36,338 Z" fill="#fff" stroke="#999" stroke-width="2"/>
+  <text x="76" y="326" font-size="14" font-weight="700" fill="#666">cpuz_x32.exe</text>
+  <text x="106" y="372" text-anchor="middle" font-size="14" fill="#666">32-Bit-Windows</text>
+  <!-- x64 hervorgehoben -->
+  <rect x="208" y="292" width="180" height="96" rx="10" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="3"/>
+  <path d="M224,304 L246,304 L254,312 L254,338 L224,338 Z" fill="#fff" stroke="#3a6ed8" stroke-width="2"/>
+  <text x="264" y="326" font-size="14" font-weight="700" fill="#222">cpuz_x64.exe</text>
+  <text x="298" y="372" text-anchor="middle" font-size="14" font-weight="700" fill="#3a6ed8">64-Bit-Windows</text>
+
+  <line x1="200" y1="396" x2="200" y2="424" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+
+  <!-- USB-Stick -->
+  <rect x="40" y="446" width="22" height="22" fill="#ccc" stroke="#555" stroke-width="1.5"/>
+  <rect x="62" y="436" width="86" height="42" rx="7" fill="#3a6ed8"/>
+  <text x="105" y="462" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">CPU-Z</text>
+  <text x="166" y="452" font-size="15" font-weight="700" fill="#222">Service-Stick:</text>
+  <text x="166" y="474" font-size="15" fill="#222">läuft überall</text>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" font-family="system-ui, sans-serif" fill="#222" role="img">
+<title>Die fünf Merksätze als Zeilen mit Symbol. 1: Das ATX-Anschlussfeld ist aufs Mainboard gelötet und von außen erreichbar. 2: Nur VGA ist analog, DVI, HDMI und DisplayPort sind digital. 3: HDMI und DisplayPort sind beide aktuell, parallele Standards, kein Nachfolger. 4: PS/2 grün ist die Maus, lila die Tastatur. 5: Ton heute oft über USB, Netzwerk über RJ45 oder WLAN.</title>
+<rect width="400" height="400" fill="#fff"/>
+<text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700">Das Wichtigste</text>
+<g fill="#f4f1ee"><rect x="10" y="42" width="380" height="66" rx="10"/><rect x="10" y="114" width="380" height="66" rx="10"/><rect x="10" y="186" width="380" height="66" rx="10"/><rect x="10" y="258" width="380" height="66" rx="10"/><rect x="10" y="330" width="380" height="66" rx="10"/></g>
+<!-- 1 -->
+<rect x="22" y="56" width="68" height="38" rx="3" fill="#cfd8dc" stroke="#555" stroke-width="1.5"/>
+<g fill="#555"><rect x="28" y="62" width="10" height="8"/><rect x="42" y="62" width="10" height="8"/><circle cx="62" cy="66" r="4" fill="#2e9d5b"/><circle cx="76" cy="66" r="4" fill="#3a6ed8"/><rect x="28" y="76" width="18" height="10"/><rect x="52" y="76" width="30" height="8"/></g>
+<rect x="22" y="94" width="68" height="5" fill="#2e7d32"/>
+<text x="104" y="70" font-size="15" font-weight="700">Anschlussfeld</text>
+<text x="104" y="92" font-size="13">aufs Mainboard gelötet, außen erreichbar</text>
+<!-- 2 -->
+<path d="M24,128 H62 L58,150 H28 Z" fill="#3a6ed8"/>
+<text x="43" y="170" text-anchor="middle" font-size="13" font-weight="700" fill="#777">analog</text>
+<path d="M68,134 H90 V146 L86,150 H72 L68,146 Z" fill="#333"/>
+<text x="79" y="170" text-anchor="middle" font-size="13" font-weight="700" fill="#2e9d5b">dig.</text>
+<text x="104" y="142" font-size="15" font-weight="700">Nur VGA ist analog</text>
+<text x="104" y="164" font-size="13">DVI, HDMI, DisplayPort: digital</text>
+<!-- 3 -->
+<path d="M20,206 H50 V214 L44,220 H26 L20,214 Z" fill="#333"/>
+<text x="56" y="220" text-anchor="middle" font-size="16" font-weight="700" fill="#555">=</text>
+<path d="M62,206 H92 V222 H68 L62,216 Z" fill="#333"/>
+<text x="104" y="214" font-size="15" font-weight="700">HDMI = DisplayPort</text>
+<text x="104" y="236" font-size="13">beide aktuell, <tspan font-weight="700" fill="#b03a56">kein Nachfolger</tspan></text>
+<!-- 4 -->
+<circle cx="38" cy="291" r="16" fill="#3fa34d" stroke="#2d7a38" stroke-width="2"/>
+<circle cx="74" cy="291" r="16" fill="#8e5cc4" stroke="#6b4196" stroke-width="2"/>
+<text x="104" y="286" font-size="15" font-weight="700">PS/2</text>
+<text x="104" y="308" font-size="13"><tspan font-weight="700" fill="#2d7a38">grün = Maus</tspan> · <tspan font-weight="700" fill="#6b4196">lila = Tastatur</tspan></text>
+<!-- 5 -->
+<rect x="22" y="346" width="30" height="16" rx="2" fill="#fff" stroke="#555" stroke-width="2"/><rect x="28" y="350" width="18" height="6" fill="#555"/>
+<path d="M60,344 H86 V362 H80 V368 H66 V362 H60 Z" fill="#fff" stroke="#555" stroke-width="2"/>
+<g transform="translate(56,384)" fill="none" stroke="#E07B00" stroke-width="2.5" stroke-linecap="round"><path d="M-5,-1 A6,6 0 0 1 5,-1"/><path d="M-10,-6 A13,13 0 0 1 10,-6"/></g>
+<text x="104" y="358" font-size="15" font-weight="700">Ton oft über USB</text>
+<text x="104" y="380" font-size="13">Netzwerk: RJ45 (Kabel) oder WLAN</text>
+</svg>

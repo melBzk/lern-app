@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 390" font-family="system-ui, sans-serif" fill="#222" role="img">
+<title>Oben hervorgehoben eine Fabrik: ASML in den Niederlanden, einziger Hersteller von EUV-Anlagen. Drei Pfeile führen zu großen Kunden: TSMC in Taiwan, Samsung in Südkorea, Intel in den USA. Unten grau und kleiner: Nikon und Canon in Japan bauen ältere DUV-Anlagen, kein EUV.</title>
+<rect width="400" height="390" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">Wer baut EUV-Anlagen?</text>
+
+<!-- ASML -->
+<rect x="20" y="42" width="360" height="88" rx="12" fill="#fff4e0" stroke="#E07B00" stroke-width="3"/>
+<path d="M38,112 V78 L54,88 V78 L70,88 V78 L86,88 V112 Z" fill="#E07B00"/>
+<rect x="74" y="62" width="8" height="18" fill="#E07B00"/>
+<text x="104" y="74" font-size="18" font-weight="700">ASML</text>
+<text x="160" y="74" font-size="14" fill="#555">(Niederlande)</text>
+<text x="104" y="96" font-size="14" font-weight="700" fill="#c25e00">einziger Hersteller</text>
+<text x="104" y="115" font-size="14" font-weight="700" fill="#c25e00">von EUV-Anlagen</text>
+
+<!-- Pfeile -->
+<g stroke="#555" stroke-width="3" fill="none">
+<path d="M200,132 L80,190"/><path d="M200,132 V190"/><path d="M200,132 L320,190"/>
+</g>
+<g fill="#555">
+<path d="M72,182 L68,196 L82,196 Z" transform="rotate(-26 76 192)"/>
+<path d="M193,186 L200,200 L207,186 Z"/>
+<path d="M318,182 L332,196 L318,196 Z" transform="rotate(26 324 192)"/>
+</g>
+<text x="290" y="160" font-size="13" fill="#555">Kunden u. a.</text>
+
+<!-- Kunden -->
+<rect x="14" y="204" width="118" height="62" rx="10" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<text x="73" y="230" text-anchor="middle" font-size="16" font-weight="700">TSMC</text>
+<text x="73" y="252" text-anchor="middle" font-size="13">Taiwan</text>
+<rect x="141" y="204" width="118" height="62" rx="10" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<text x="200" y="230" text-anchor="middle" font-size="16" font-weight="700">Samsung</text>
+<text x="200" y="252" text-anchor="middle" font-size="13">Südkorea</text>
+<rect x="268" y="204" width="118" height="62" rx="10" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<text x="327" y="230" text-anchor="middle" font-size="16" font-weight="700">Intel</text>
+<text x="327" y="252" text-anchor="middle" font-size="13">USA</text>
+
+<!-- Nikon/Canon -->
+<rect x="20" y="300" width="360" height="74" rx="12" fill="#f4f5f7" stroke="#9aa5b1" stroke-width="2"/>
+<path d="M40,358 V334 L50,341 V334 L60,341 V358 Z" fill="#9aa5b1"/>
+<text x="78" y="330" font-size="15" font-weight="700" fill="#555">Nikon, Canon (Japan)</text>
+<text x="78" y="352" font-size="14" fill="#555">ältere DUV-Anlagen, kein EUV</text>
+</svg>

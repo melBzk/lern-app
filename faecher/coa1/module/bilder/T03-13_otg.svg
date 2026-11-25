@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 470" font-family="system-ui, sans-serif">
+  <title>USB OTG, On-the-Go: Beispiel 1, ein Smartphone mit einem kurzen OTG-Adapter, daran steckt ein USB-Stick. Beispiel 2, ein Smartphone überträgt Fotos über ein OTG-Kabel auf eine externe USB-Festplatte. Unten ein durchgestrichener PC: kein PC nötig.</title>
+  <defs>
+    <marker id="spitze" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#555"/>
+    </marker>
+    <g id="handy">
+      <rect x="0" y="0" width="58" height="108" rx="10" fill="#333"/>
+      <rect x="5" y="12" width="48" height="80" rx="3" fill="#9cc0ef"/>
+      <circle cx="29" cy="100" r="3" fill="#888"/>
+    </g>
+    <g id="foto">
+      <rect x="0" y="0" width="30" height="24" rx="3" fill="#fff" stroke="#555" stroke-width="2"/>
+      <path d="M3,21 L11,11 L17,17 L21,13 L27,21 Z" fill="#3fa34d"/>
+      <circle cx="22" cy="7" r="3" fill="#f2a33a"/>
+    </g>
+  </defs>
+  <rect width="400" height="470" fill="#fff"/>
+  <text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700" fill="#222">USB OTG: direkt, ohne PC</text>
+
+  <!-- Szene 1: Stick am Handy -->
+  <use href="#handy" x="24" y="48"/>
+  <path d="M53,156 V176 Q53,186 63,186 H132" fill="none" stroke="#555" stroke-width="5"/>
+  <rect x="132" y="172" width="74" height="28" rx="5" fill="#fff" stroke="#D4607A" stroke-width="3"/>
+  <rect x="190" y="178" width="16" height="16" fill="#ddd" stroke="#555" stroke-width="1.5"/>
+  <text x="169" y="164" text-anchor="middle" font-size="14" font-weight="700" fill="#D4607A">OTG-Adapter</text>
+  <rect x="206" y="179" width="16" height="14" fill="#ccc" stroke="#555" stroke-width="1.5"/>
+  <rect x="222" y="172" width="64" height="28" rx="5" fill="#3a6ed8"/>
+  <text x="256" y="226" text-anchor="middle" font-size="14" fill="#222">USB-Stick</text>
+
+  <line x1="14" y1="248" x2="386" y2="248" stroke="#ddd" stroke-width="2"/>
+
+  <!-- Szene 2: Fotos auf Festplatte -->
+  <use href="#handy" x="24" y="264"/>
+  <use href="#foto" x="128" y="270"/>
+  <use href="#foto" x="166" y="270"/>
+  <line x1="204" y1="282" x2="242" y2="282" stroke="#555" stroke-width="2.5"/><path d="M240,275 L252,282 L240,289 Z" fill="#555"/>
+  <text x="188" y="316" text-anchor="middle" font-size="14" font-weight="700" fill="#222">Fotos übertragen</text>
+  <line x1="82" y1="340" x2="288" y2="340" stroke="#555" stroke-width="5"/>
+  <text x="185" y="362" text-anchor="middle" font-size="14" fill="#D4607A" font-weight="700">OTG-Kabel</text>
+  <rect x="288" y="308" width="92" height="62" rx="7" fill="#f4f1ee" stroke="#555" stroke-width="2"/>
+  <text x="334" y="334" text-anchor="middle" font-size="13" fill="#222">USB-</text>
+  <text x="334" y="352" text-anchor="middle" font-size="13" fill="#222">Festplatte</text>
+
+  <line x1="14" y1="392" x2="386" y2="392" stroke="#ddd" stroke-width="2"/>
+
+  <!-- kein PC -->
+  <rect x="44" y="408" width="56" height="36" rx="3" fill="#f4f1ee" stroke="#555" stroke-width="2"/>
+  <rect x="64" y="444" width="16" height="8" fill="#555"/>
+  <rect x="56" y="452" width="32" height="4" fill="#555"/>
+  <circle cx="72" cy="430" r="28" fill="none" stroke="#D4607A" stroke-width="4"/>
+  <line x1="52" y1="450" x2="92" y2="410" stroke="#D4607A" stroke-width="4"/>
+  <text x="120" y="437" font-size="18" font-weight="700" fill="#D4607A">kein PC nötig</text>
+</svg>

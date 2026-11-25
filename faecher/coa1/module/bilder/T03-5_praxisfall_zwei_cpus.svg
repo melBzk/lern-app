@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" font-family="system-ui, sans-serif" fill="#222" role="img">
+<title>Ausgangslage, ohne Lösung: zwei Datenblatt-Karten. Intel Core 2 Quad Q9550: Bustakt 333 MHz, Multiplikator 8,5, Takt = ? AMD FX 8370: Bustakt 200 MHz, Multiplikator 20, im Turbo 21,5, Takt = ? Darunter die Formel CPU-Takt = Bustakt mal Multiplikator und die Frage: Welcher ist schneller?</title>
+<rect width="400" height="400" fill="#fff"/>
+<text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700">Zwei Prozessoren aus dem Datenblatt</text>
+<rect x="10" y="44" width="185" height="210" rx="10" fill="#e3ecfb" stroke="#3a6ed8" stroke-width="2"/>
+<text x="102" y="70" text-anchor="middle" font-size="14" font-weight="700">Intel Core 2 Quad</text>
+<text x="102" y="90" text-anchor="middle" font-size="16" font-weight="700" fill="#3a6ed8">Q9550</text>
+<text x="24" y="124" font-size="14">Bustakt</text><text x="182" y="124" text-anchor="end" font-size="15" font-weight="700">333 MHz</text>
+<text x="24" y="152" font-size="14">Multiplikator</text><text x="182" y="152" text-anchor="end" font-size="15" font-weight="700">8,5</text>
+<rect x="30" y="196" width="145" height="40" rx="8" fill="#fff" stroke="#E07B00" stroke-width="2.5" stroke-dasharray="6 4"/>
+<text x="102" y="222" text-anchor="middle" font-size="15" font-weight="700" fill="#c25e00">Takt = ?</text>
+<rect x="205" y="44" width="185" height="210" rx="10" fill="#fbe3e3" stroke="#c62828" stroke-width="2"/>
+<text x="297" y="70" text-anchor="middle" font-size="14" font-weight="700">AMD</text>
+<text x="297" y="90" text-anchor="middle" font-size="16" font-weight="700" fill="#c62828">FX 8370</text>
+<text x="219" y="124" font-size="14">Bustakt</text><text x="377" y="124" text-anchor="end" font-size="15" font-weight="700">200 MHz</text>
+<text x="219" y="152" font-size="14">Multiplikator</text><text x="377" y="152" text-anchor="end" font-size="15" font-weight="700">20</text>
+<text x="219" y="180" font-size="14">im Turbo</text><text x="377" y="180" text-anchor="end" font-size="15" font-weight="700">21,5</text>
+<rect x="225" y="196" width="145" height="40" rx="8" fill="#fff" stroke="#E07B00" stroke-width="2.5" stroke-dasharray="6 4"/>
+<text x="297" y="222" text-anchor="middle" font-size="15" font-weight="700" fill="#c25e00">Takt = ?</text>
+<rect x="40" y="276" width="320" height="44" rx="22" fill="#f4f5f7" stroke="#9aa3ad" stroke-width="1.5"/>
+<text x="200" y="304" text-anchor="middle" font-size="15">CPU-Takt = Bustakt × Multiplikator</text>
+<text x="200" y="362" text-anchor="middle" font-size="17" font-weight="700" fill="#3a6ed8">Und welcher ist schneller?</text>
+</svg>

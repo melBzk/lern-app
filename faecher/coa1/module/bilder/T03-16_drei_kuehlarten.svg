@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Drei Kühlarten im Vergleich. Links Luftkühler mit Lüfter: Kühlkörper mit Propeller, Etikett Standard. Mitte lüfterlos: Kühlkörper ohne Propeller und durchgestrichener Lautsprecher, Etikett lautlos, bis 120 W. Rechts Wasserkühlung: Wassertropfen, Schlauchkreis und Radiator, Etikett sehr stark oder übertaktet.</title>
+<rect width="400" height="300" fill="#fff"/>
+<line x1="134" y1="20" x2="134" y2="290" stroke="#ccc" stroke-width="1.5"/>
+<line x1="266" y1="20" x2="266" y2="290" stroke="#ccc" stroke-width="1.5"/>
+
+<!-- 1 Luftkühler -->
+<text x="67" y="30" text-anchor="middle" font-size="15" font-weight="700">Luftkühler</text>
+<text x="67" y="48" text-anchor="middle" font-size="15" font-weight="700">mit Lüfter</text>
+<rect x="27" y="68" width="80" height="28" rx="5" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<circle cx="67" cy="82" r="10" fill="none" stroke="#3a6ed8" stroke-width="2.5"/>
+<path d="M67,82 L67,73 M67,82 L75,87 M67,82 L59,87" stroke="#3a6ed8" stroke-width="2.5" stroke-linecap="round"/>
+<g fill="#9aa5b1"><rect x="29" y="100" width="6" height="50"/><rect x="41" y="100" width="6" height="50"/><rect x="53" y="100" width="6" height="50"/><rect x="65" y="100" width="6" height="50"/><rect x="77" y="100" width="6" height="50"/><rect x="89" y="100" width="6" height="50"/><rect x="101" y="100" width="6" height="50"/></g>
+<rect x="27" y="150" width="80" height="10" fill="#9aa5b1"/>
+<rect x="12" y="222" width="110" height="40" rx="8" fill="#eceff1"/>
+<text x="67" y="248" text-anchor="middle" font-size="15" font-weight="700">Standard</text>
+
+<!-- 2 lüfterlos -->
+<text x="200" y="30" text-anchor="middle" font-size="15" font-weight="700">lüfterlos</text>
+<text x="200" y="48" text-anchor="middle" font-size="13" fill="#444">(passiv)</text>
+<g fill="#9aa5b1"><rect x="150" y="76" width="6" height="74"/><rect x="161" y="76" width="6" height="74"/><rect x="172" y="76" width="6" height="74"/><rect x="183" y="76" width="6" height="74"/><rect x="194" y="76" width="6" height="74"/><rect x="205" y="76" width="6" height="74"/><rect x="216" y="76" width="6" height="74"/><rect x="227" y="76" width="6" height="74"/><rect x="238" y="76" width="6" height="74"/></g>
+<rect x="148" y="150" width="98" height="10" fill="#9aa5b1"/>
+<path d="M176,180 L184,180 L194,172 L194,200 L184,192 L176,192 Z" fill="#555"/>
+<path d="M199,178 A12,12 0 0,1 199,194" fill="none" stroke="#555" stroke-width="2.5"/>
+<line x1="172" y1="206" x2="208" y2="168" stroke="#c62828" stroke-width="3.5" stroke-linecap="round"/>
+<rect x="144" y="222" width="112" height="58" rx="8" fill="#eceff1"/>
+<text x="200" y="246" text-anchor="middle" font-size="15" font-weight="700">lautlos,</text>
+<text x="200" y="268" text-anchor="middle" font-size="15" font-weight="700" fill="#c62828">bis 120 W</text>
+
+<!-- 3 Wasser -->
+<text x="333" y="30" text-anchor="middle" font-size="15" font-weight="700">Wasser-</text>
+<text x="333" y="48" text-anchor="middle" font-size="15" font-weight="700">kühlung</text>
+<rect x="290" y="66" width="86" height="20" rx="3" fill="#9aa5b1"/>
+<path d="M298,68 L298,84 M308,68 L308,84 M318,68 L318,84 M328,68 L328,84 M338,68 L338,84 M348,68 L348,84 M358,68 L358,84 M368,68 L368,84" stroke="#fff" stroke-width="2"/>
+<path d="M296,86 L296,150 L320,150" fill="none" stroke="#3a6ed8" stroke-width="6" stroke-linejoin="round"/>
+<path d="M346,150 L370,150 L370,86" fill="none" stroke="#c62828" stroke-width="6" stroke-linejoin="round"/>
+<rect x="318" y="138" width="30" height="24" rx="3" fill="#555"/>
+<path d="M333,98 C344,112 346,122 333,128 C320,122 322,112 333,98 Z" fill="#3a6ed8"/>
+<rect x="274" y="222" width="118" height="58" rx="8" fill="#eceff1"/>
+<text x="333" y="246" text-anchor="middle" font-size="15" font-weight="700">sehr stark /</text>
+<text x="333" y="268" text-anchor="middle" font-size="15" font-weight="700">übertaktet</text>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" font-family="system-ui, sans-serif" fill="#222">
+<title>Die Reihe der Zweierpotenzen geht nach 128 immer mal 2 weiter: 2 hoch 8 = 256, 2 hoch 9 = 512, 2 hoch 10 = 1024, 2 hoch 11 = 2048, 2 hoch 12 = 4096, 2 hoch 13 = 8192, 2 hoch 14 = 16384, 2 hoch 15 = 32768. 1024 ist hervorgehoben, weil du es im nächsten Modul für die Speichergrößen brauchst.</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="10" markerHeight="10" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker></defs>
+<rect width="400" height="400" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">Immer × 2</text>
+<text x="200" y="48" text-anchor="middle" font-size="14" fill="#555">… 64 · 128 · und weiter:</text>
+<g text-anchor="middle">
+<!-- Reihe 1 -->
+<rect x="10" y="66" width="80" height="62" rx="8" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/><text x="50" y="88" font-size="13" fill="#555">2⁸</text><text x="50" y="114" font-size="18" font-weight="700">256</text>
+<rect x="110" y="66" width="80" height="62" rx="8" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/><text x="150" y="88" font-size="13" fill="#555">2⁹</text><text x="150" y="114" font-size="18" font-weight="700">512</text>
+<rect x="210" y="66" width="80" height="62" rx="8" fill="#E07B00"/><text x="250" y="88" font-size="13" fill="#fff">2¹⁰</text><text x="250" y="114" font-size="18" font-weight="700" fill="#fff">1024</text>
+<rect x="310" y="66" width="80" height="62" rx="8" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/><text x="350" y="88" font-size="13" fill="#555">2¹¹</text><text x="350" y="114" font-size="18" font-weight="700">2048</text>
+<!-- Reihe 2 -->
+<rect x="10" y="206" width="80" height="62" rx="8" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/><text x="50" y="228" font-size="13" fill="#555">2¹²</text><text x="50" y="254" font-size="18" font-weight="700">4096</text>
+<rect x="110" y="206" width="80" height="62" rx="8" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/><text x="150" y="228" font-size="13" fill="#555">2¹³</text><text x="150" y="254" font-size="18" font-weight="700">8192</text>
+<rect x="210" y="206" width="80" height="62" rx="8" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/><text x="250" y="228" font-size="13" fill="#555">2¹⁴</text><text x="250" y="254" font-size="18" font-weight="700">16384</text>
+<rect x="310" y="206" width="80" height="62" rx="8" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/><text x="350" y="228" font-size="13" fill="#555">2¹⁵</text><text x="350" y="254" font-size="18" font-weight="700">32768</text>
+<!-- ×2 Beschriftungen -->
+<g font-size="13" font-weight="700" fill="#555"><text x="100" y="60">×2</text><text x="200" y="60">×2</text><text x="300" y="60">×2</text><text x="100" y="200">×2</text><text x="200" y="200">×2</text><text x="300" y="200">×2</text></g>
+</g>
+<g stroke="#555" stroke-width="2">
+<line x1="91" y1="97" x2="108" y2="97" marker-end="url(#a)"/><line x1="191" y1="97" x2="208" y2="97" marker-end="url(#a)"/><line x1="291" y1="97" x2="308" y2="97" marker-end="url(#a)"/>
+<line x1="91" y1="237" x2="108" y2="237" marker-end="url(#a)"/><line x1="191" y1="237" x2="208" y2="237" marker-end="url(#a)"/><line x1="291" y1="237" x2="308" y2="237" marker-end="url(#a)"/>
+</g>
+<!-- Umbruch-Pfeil -->
+<path d="M350,130 v24 h-300 v42" fill="none" stroke="#555" stroke-width="2" marker-end="url(#a)"/>
+<text x="200" y="148" text-anchor="middle" font-size="13" font-weight="700" fill="#555">×2</text>
+<!-- Hinweis -->
+<rect x="10" y="296" width="380" height="92" rx="10" fill="#fdf0e0" stroke="#E07B00" stroke-width="2"/>
+<text x="200" y="326" text-anchor="middle" font-size="17" font-weight="700" fill="#E07B00">2¹⁰ = 1024</text>
+<text x="200" y="350" text-anchor="middle" font-size="14">brauchst du im nächsten Modul</text>
+<text x="200" y="372" text-anchor="middle" font-size="14">(Speichergrößen)</text>
+</svg>

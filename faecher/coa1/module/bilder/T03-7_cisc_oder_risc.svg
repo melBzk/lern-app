@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" font-family="system-ui, sans-serif" fill="#222" role="img">
+<title>CISC oder RISC, zwei Spalten mit Zeilen. Ausgeschrieben: Complex Instruction Set Computing gegen Reduced Instruction Set Computing. Befehlssatz: umfangreich gegen eingeschränkt. Befehlslänge: unterschiedlich gegen gleich, als Balken. Ausführung: Mikrocode (klassisch) gegen fest verdrahtet. Takte je Befehl: mehrere, Skript 4 bis 10, gegen wenige. Typisch: x86/x64 im PC gegen ARM im Smartphone. Eselsbrücke: C wie complex, R wie reduziert.</title>
+<rect width="400" height="500" fill="#fff"/>
+<text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700">CISC oder RISC?</text>
+<rect x="10" y="40" width="185" height="390" rx="10" fill="#fff4e0" stroke="#E07B00" stroke-width="2"/>
+<rect x="205" y="40" width="185" height="390" rx="10" fill="#e3ecfb" stroke="#3a6ed8" stroke-width="2"/>
+<g text-anchor="middle">
+<text x="102" y="68" font-size="20" font-weight="700" fill="#c25e00">CISC</text>
+<text x="297" y="68" font-size="20" font-weight="700" fill="#3a6ed8">RISC</text>
+<text x="102" y="90" font-size="13">Complex Instruction</text><text x="102" y="106" font-size="13">Set Computing</text>
+<text x="297" y="90" font-size="13">Reduced Instruction</text><text x="297" y="106" font-size="13">Set Computing</text>
+<text x="102" y="142" font-size="15" font-weight="700">umfangreich</text>
+<text x="297" y="142" font-size="15" font-weight="700">eingeschränkt</text>
+<text x="102" y="174" font-size="14">unterschiedlich lang</text>
+<text x="297" y="174" font-size="14">gleich lang</text>
+</g>
+<rect x="34" y="184" width="60" height="10" rx="2" fill="#E07B00"/><rect x="34" y="198" width="130" height="10" rx="2" fill="#E07B00"/><rect x="34" y="212" width="94" height="10" rx="2" fill="#E07B00"/>
+<rect x="250" y="184" width="94" height="10" rx="2" fill="#3a6ed8"/><rect x="250" y="198" width="94" height="10" rx="2" fill="#3a6ed8"/><rect x="250" y="212" width="94" height="10" rx="2" fill="#3a6ed8"/>
+<g text-anchor="middle">
+<text x="102" y="258" font-size="15" font-weight="700">Mikrocode</text><text x="102" y="276" font-size="13">(klassisch)</text>
+<text x="297" y="258" font-size="15" font-weight="700">fest verdrahtet</text>
+<text x="102" y="314" font-size="15" font-weight="700">mehrere Takte</text><text x="102" y="332" font-size="13">(Skript: 4–10)</text>
+<text x="297" y="314" font-size="15" font-weight="700">wenige Takte</text>
+<text x="102" y="378" font-size="15" font-weight="700">x86/x64</text><text x="102" y="398" font-size="14">PC</text>
+<text x="297" y="378" font-size="15" font-weight="700">ARM</text><text x="297" y="398" font-size="14">Smartphone</text>
+</g>
+<text x="76" y="466" font-size="15"><tspan font-weight="700" fill="#c25e00">C</tspan> wie complex · <tspan font-weight="700" fill="#3a6ed8">R</tspan> wie reduziert</text>
+</svg>

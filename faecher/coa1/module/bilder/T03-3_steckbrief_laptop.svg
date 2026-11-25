@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 540" font-family="system-ui, sans-serif" fill="#222" role="img">
+<title>Steckbrief des Laptops aus dem Unterricht, 12th Gen Intel Core i7-12700H. Schritt 1: Namen lesen. Schritt 2: Merkmale abhaken. Aus dem Task-Manager: 14 Kerne und 20 logische Prozessoren, Basis 2,70 GHz, Cache L1 1,2 MB, L2 11,5 MB, L3 24 MB, Virtualisierung aktiviert. Aus CPU-Z: 64 Bit (x64-Fassung läuft), Instructions u. a. MMX, SSE, AVX, AVX2, Max TDP 45 W, Technology 10 nm.</title>
+<rect width="400" height="540" fill="#fff"/>
+<text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700">Steckbrief: Laptop aus dem Unterricht</text>
+<circle cx="24" cy="62" r="13" fill="#3a6ed8"/><text x="24" y="67" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">1</text>
+<rect x="44" y="44" width="346" height="38" rx="8" fill="#fff4e0" stroke="#E07B00" stroke-width="2.5"/>
+<text x="217" y="69" text-anchor="middle" font-size="15" font-weight="700">12th Gen Intel Core i7-12700H</text>
+<circle cx="24" cy="108" r="13" fill="#3a6ed8"/><text x="24" y="113" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">2</text>
+<text x="44" y="113" font-size="15" font-weight="700">Merkmal für Merkmal abhaken</text>
+<rect x="10" y="128" width="380" height="186" rx="10" fill="#e3ecfb"/>
+<text x="24" y="152" font-size="14" font-weight="700" fill="#3a6ed8">Task-Manager</text>
+<g font-size="14">
+<text x="24" y="180">✓ Kerne / logische Prozessoren</text><text x="376" y="180" text-anchor="end" font-weight="700">14 / 20</text>
+<text x="24" y="210">✓ Takt (Basis)</text><text x="376" y="210" text-anchor="end" font-weight="700">2,70 GHz</text>
+<text x="24" y="240">✓ Cache L1 · L2 · L3</text><text x="376" y="240" text-anchor="end" font-weight="700">1,2 · 11,5 · 24 MB</text>
+<text x="24" y="270">✓ Virtualisierung</text><text x="376" y="270" text-anchor="end" font-weight="700">Aktiviert</text>
+</g>
+<text x="24" y="300" font-size="13" fill="#555">mehr Threads als Kerne = Hyper-Threading (T03-4)</text>
+<rect x="10" y="322" width="380" height="186" rx="10" fill="#f4f5f7"/>
+<text x="24" y="346" font-size="14" font-weight="700" fill="#555">CPU-Z</text>
+<g font-size="14">
+<text x="24" y="374">✓ Architektur (x64 läuft)</text><text x="376" y="374" text-anchor="end" font-weight="700">64 Bit</text>
+<text x="24" y="404">✓ Instructions</text><text x="376" y="404" text-anchor="end" font-weight="700">MMX, SSE, AVX, AVX2 …</text>
+<text x="24" y="434">✓ Max TDP</text><text x="376" y="434" text-anchor="end" font-weight="700" fill="#c62828">45 W</text>
+<text x="24" y="464">✓ Technology</text><text x="376" y="464" text-anchor="end" font-weight="700">10 nm</text>
+</g>
+<text x="24" y="494" font-size="13" fill="#555">TDP 45 W = Grundwert, im Turbo kurzzeitig mehr</text>
+<text x="200" y="530" text-anchor="middle" font-size="13" fill="#555">Fenster vereinfacht nachgezeichnet</text>
+</svg>

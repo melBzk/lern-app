@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 470" font-family="system-ui, sans-serif" fill="#222">
+<title>Stromverbrauch der Bauteile als Balken im gleichen Maßstab: Grafikkarte 20 W im Leerlauf bis über 300 W unter Volllast, Prozessor 20 bis 140 W, Festplatte 3,5 Zoll 6 bis 12 W, Festplatte 2,5 Zoll 0,5 bis 3 W, SSD 0,3 bis 4 W. Darunter die Kette: weniger Strom, weniger Wärme, Lüfter drehen langsamer, PC wird leiser. Rat: In den Büro-PC keine eigene Grafikkarte, wenn die eingebaute Grafik reicht.</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="10" markerHeight="10" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker></defs>
+<rect width="400" height="470" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">Wer braucht wie viel Strom?</text>
+<!-- Achse: x = 130 + W*0.75 -->
+<line x1="130" y1="44" x2="130" y2="270" stroke="#999" stroke-width="1.5"/>
+<g stroke="#ddd" stroke-width="1"><line x1="205" y1="44" x2="205" y2="262"/><line x1="280" y1="44" x2="280" y2="262"/><line x1="355" y1="44" x2="355" y2="262"/></g>
+<g font-size="13" fill="#555" text-anchor="middle"><text x="130" y="286">0</text><text x="205" y="286">100</text><text x="280" y="286">200</text><text x="355" y="286">300 W</text></g>
+<!-- Grafikkarte -->
+<text x="10" y="70" font-size="14" font-weight="700">Grafikkarte</text>
+<rect x="145" y="54" width="210" height="24" rx="3" fill="#c62828"/>
+<path d="M355,54 l14,12 l-14,12 Z" fill="#c62828"/>
+<text x="150" y="98" font-size="13" fill="#c62828" font-weight="700">20 W … über 300 W</text>
+<!-- CPU -->
+<text x="10" y="128" font-size="14" font-weight="700">Prozessor</text>
+<rect x="145" y="112" width="90" height="24" rx="3" fill="#E07B00"/>
+<text x="243" y="129" font-size="13" font-weight="700" fill="#E07B00">20 – 140 W</text>
+<!-- HDD 3,5 -->
+<text x="10" y="172" font-size="14" font-weight="700">HDD 3,5″</text>
+<rect x="134" y="158" width="5" height="20" fill="#3a6ed8"/>
+<text x="148" y="173" font-size="13" font-weight="700" fill="#3a6ed8">6 – 12 W</text>
+<!-- HDD 2,5 -->
+<text x="10" y="212" font-size="14" font-weight="700">HDD 2,5″</text>
+<rect x="130" y="198" width="3" height="20" fill="#3a6ed8"/>
+<text x="148" y="213" font-size="13" font-weight="700" fill="#3a6ed8">0,5 – 3 W</text>
+<!-- SSD -->
+<text x="10" y="252" font-size="14" font-weight="700">SSD</text>
+<rect x="130" y="238" width="3" height="20" fill="#2e9e5b"/>
+<text x="148" y="253" font-size="13" font-weight="700" fill="#2e9e5b">0,3 – 4 W</text>
+<!-- Kette -->
+<g font-size="14" font-weight="700" text-anchor="middle">
+<rect x="10" y="306" width="88" height="48" rx="8" fill="#f4f1ee"/><text x="54" y="326">weniger</text><text x="54" y="344">Strom</text>
+<rect x="108" y="306" width="88" height="48" rx="8" fill="#f4f1ee"/><text x="152" y="326">weniger</text><text x="152" y="344">Wärme</text>
+<rect x="206" y="306" width="88" height="48" rx="8" fill="#f4f1ee"/><text x="250" y="326">Lüfter</text><text x="250" y="344">langsamer</text>
+<rect x="304" y="306" width="86" height="48" rx="8" fill="#2f6b4f"/><text x="347" y="336" fill="#fff">leiser</text>
+</g>
+<g stroke="#333" stroke-width="2"><line x1="98" y1="330" x2="107" y2="330" marker-end="url(#a)"/><line x1="196" y1="330" x2="205" y2="330" marker-end="url(#a)"/><line x1="294" y1="330" x2="303" y2="330" marker-end="url(#a)"/></g>
+<!-- Rat -->
+<rect x="10" y="368" width="380" height="92" rx="10" fill="#fdf0e0" stroke="#E07B00" stroke-width="2"/>
+<text x="22" y="392" font-size="15" font-weight="700" fill="#E07B00">Rat für den Büro-PC:</text>
+<text x="22" y="416" font-size="14">Reicht die eingebaute Grafik, dann <tspan font-weight="700">keine</tspan></text>
+<text x="22" y="438" font-size="14"><tspan font-weight="700">eigene Grafikkarte</tspan> – und kein unnötig starker</text>
+<text x="22" y="456" font-size="14">Prozessor.</text>
+</svg>

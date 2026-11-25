@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 310" font-family="system-ui, sans-serif" fill="#222" role="img">
+<title>Ein Haar als dicker brauner Balken: 0,1 Millimeter gleich 100 000 Nanometer. Darunter läuft eine sehr feine violette Welle über die ganze Breite, in der Mitte drei Punkte für die vielen weiteren Wellen: etwa 7 400 Wellenlängen zu je 13,5 Nanometer passen hinein. Rechnung: 100 000 geteilt durch 13,5 ist ungefähr 7 400. Nicht maßstäblich.</title>
+<rect width="400" height="310" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">EUV-Wellen in einem Haar</text>
+
+<rect x="20" y="50" width="360" height="54" rx="27" fill="#8d6e63"/>
+<text x="200" y="74" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">Haar: 0,1 mm</text>
+<text x="200" y="94" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">= 100 000 nm</text>
+<path d="M20,112 V124 M380,112 V124 M20,118 H380" stroke="#555" stroke-width="1.5"/>
+
+<path d="M20,150 q1.5,-14 3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 " stroke="#7b3fc4" stroke-width="2" fill="none"/>
+<text x="200" y="156" text-anchor="middle" font-size="22" font-weight="700" fill="#7b3fc4">…</text>
+<path d="M230,150 q1.5,-14 3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 t3,0 " stroke="#7b3fc4" stroke-width="2" fill="none"/>
+
+<text x="200" y="192" text-anchor="middle" font-size="18" font-weight="700" fill="#7b3fc4">≈ 7 400 Wellenlängen</text>
+<text x="200" y="212" text-anchor="middle" font-size="14" fill="#7b3fc4">je 13,5 nm</text>
+
+<rect x="20" y="230" width="360" height="40" rx="10" fill="#fff4e0" stroke="#E07B00" stroke-width="2"/>
+<text x="200" y="256" text-anchor="middle" font-size="15" font-weight="700">100 000 nm ÷ 13,5 nm ≈ 7 400</text>
+<text x="200" y="294" text-anchor="middle" font-size="13" fill="#555">nicht maßstäblich gezeichnet</text>
+</svg>

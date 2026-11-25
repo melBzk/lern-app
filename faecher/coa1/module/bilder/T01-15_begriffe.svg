@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 440" font-family="system-ui, sans-serif" font-size="14" fill="#222">
+<title>Die sechs neuen Wörter als Bildliste mit Symbolen. Betriebssystem: vermittelt zwischen Hardware, Programmen und dir. GUI: grafische Oberfläche mit Fenstern und Symbolen. API: Programme sprechen miteinander. BIOS: Start-Software auf dem Mainboard. KI: künstliche Intelligenz, versteht zum Beispiel Sprache oder erkennt Bilder. OCR: Texterkennung, aus einem Bild wird bearbeitbarer Text.</title>
+<rect width="400" height="440" fill="#fff"/>
+<text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700">6 neue Wörter</text>
+<g stroke="#ddd" stroke-width="1"><line x1="15" y1="42" x2="385" y2="42"/><line x1="15" y1="108" x2="385" y2="108"/><line x1="15" y1="174" x2="385" y2="174"/><line x1="15" y1="240" x2="385" y2="240"/><line x1="15" y1="306" x2="385" y2="306"/><line x1="15" y1="372" x2="385" y2="372"/><line x1="15" y1="438" x2="385" y2="438"/></g>
+<!-- Betriebssystem -->
+<g transform="translate(52,75)"><rect x="-14" y="6" width="28" height="12" rx="2" fill="#555"/><rect x="-16" y="-8" width="32" height="12" rx="3" fill="#3a6ed8"/><circle cx="0" cy="-20" r="6" fill="#333"/><line x1="0" y1="-14" x2="0" y2="-8" stroke="#333" stroke-width="2"/><line x1="0" y1="4" x2="0" y2="6" stroke="#333" stroke-width="2"/></g>
+<text x="100" y="70" font-size="16" font-weight="700" fill="#1d3f8a">Betriebssystem</text>
+<text x="100" y="91">vermittelt: Hardware, Programme, du</text>
+<!-- GUI -->
+<g transform="translate(52,141)"><rect x="-24" y="-18" width="48" height="36" rx="3" fill="#dfe9fb" stroke="#3a6ed8" stroke-width="2"/><rect x="-24" y="-18" width="48" height="8" fill="#3a6ed8"/><rect x="-18" y="-4" width="10" height="10" fill="#E07B00"/><rect x="-4" y="-4" width="10" height="10" fill="#2e9d5b"/><path d="M10,0 L10,16 L14,12 L18,19 L21,17 L17,10 L22,10 Z" fill="#fff" stroke="#222" stroke-width="1.2"/></g>
+<text x="100" y="136" font-size="16" font-weight="700" fill="#1d3f8a">GUI</text>
+<text x="100" y="157">Oberfläche: Fenster, Symbole</text>
+<!-- API -->
+<g transform="translate(52,207)"><rect x="-28" y="-12" width="20" height="24" rx="3" fill="#3a3f4a"/><rect x="8" y="-12" width="20" height="24" rx="3" fill="#3a3f4a"/><path d="M-6,-4 H6 M-6,4 H6" stroke="#E07B00" stroke-width="3"/></g>
+<text x="100" y="202" font-size="16" font-weight="700" fill="#1d3f8a">API</text>
+<text x="100" y="223">Programme sprechen miteinander</text>
+<!-- BIOS -->
+<g transform="translate(52,273)"><rect x="-22" y="-16" width="44" height="32" rx="3" fill="#2f6b4f"/><rect x="-12" y="-8" width="24" height="16" rx="2" fill="#222"/><g stroke="#d4a017" stroke-width="1.5"><line x1="-18" y1="-12" x2="18" y2="-12"/><line x1="-18" y1="12" x2="18" y2="12"/></g></g>
+<text x="100" y="268" font-size="16" font-weight="700" fill="#1d3f8a">BIOS</text>
+<text x="100" y="289">Start-Software auf dem Mainboard</text>
+<!-- KI -->
+<g transform="translate(52,339)"><g stroke="#888" stroke-width="1.5"><line x1="-18" y1="-10" x2="0" y2="-14"/><line x1="-18" y1="-10" x2="0" y2="0"/><line x1="-18" y1="10" x2="0" y2="0"/><line x1="-18" y1="10" x2="0" y2="14"/><line x1="0" y1="-14" x2="18" y2="0"/><line x1="0" y1="0" x2="18" y2="0"/><line x1="0" y1="14" x2="18" y2="0"/></g><g fill="#7b4bb8"><circle cx="-18" cy="-10" r="5"/><circle cx="-18" cy="10" r="5"/><circle cx="0" cy="-14" r="5"/><circle cx="0" cy="0" r="5"/><circle cx="0" cy="14" r="5"/><circle cx="18" cy="0" r="6"/></g></g>
+<text x="100" y="334" font-size="16" font-weight="700" fill="#5a2f94">KI = AI</text>
+<text x="100" y="355">versteht Sprache, erkennt Bilder …</text>
+<!-- OCR -->
+<g transform="translate(52,405)"><rect x="-28" y="-18" width="22" height="30" fill="#fff" stroke="#333" stroke-width="1.5"/><text x="-17" y="4" text-anchor="middle" font-size="14" font-family="Georgia, serif" font-weight="700">A</text><path d="M-2,-3 H8 M4,-7 L9,-3 L4,1" stroke="#E07B00" stroke-width="2.5" fill="none"/><text x="20" y="4" text-anchor="middle" font-size="16" font-weight="700" fill="#1d3f8a">A</text><line x1="27" y1="-10" x2="27" y2="8" stroke="#1d3f8a" stroke-width="2"/></g>
+<text x="100" y="400" font-size="16" font-weight="700" fill="#1d3f8a">OCR</text>
+<text x="100" y="421">Texterkennung: Bild → Text</text>
+</svg>

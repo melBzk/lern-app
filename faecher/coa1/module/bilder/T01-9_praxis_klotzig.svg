@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 380" font-family="system-ui, sans-serif" role="img">
+  <title>Praxisfall klotzige Schrift, die Ausgangslage als Bild. Der neue Flachbildschirm ist für 1920 mal 1080 gebaut. Im PC ist noch 1024 mal 768 eingestellt. Auf dem Bildschirm sieht die Schrift grob und klotzig aus. Frage: Woran liegt das?</title>
+  <rect width="400" height="380" fill="#fff"/>
+  <text x="200" y="26" text-anchor="middle" font-size="18" font-weight="700" fill="#222">Die klotzige Schrift</text>
+
+  <!-- Monitor -->
+  <rect x="60" y="46" width="280" height="170" rx="6" fill="#3a3f4a"/>
+  <rect x="70" y="56" width="260" height="150" fill="#fff"/>
+  <rect x="182" y="216" width="36" height="20" fill="#555"/><rect x="150" y="236" width="100" height="8" rx="3" fill="#555"/>
+  <!-- klotziges A aus Bloecken -->
+  <g fill="#222">
+    <rect x="170" y="80" width="20" height="20"/><rect x="190" y="80" width="20" height="20"/>
+    <rect x="150" y="100" width="20" height="20"/><rect x="210" y="100" width="20" height="20"/>
+    <rect x="150" y="120" width="20" height="20"/><rect x="210" y="120" width="20" height="20"/>
+    <rect x="150" y="140" width="20" height="20"/><rect x="170" y="140" width="20" height="20"/><rect x="190" y="140" width="20" height="20"/><rect x="210" y="140" width="20" height="20"/>
+    <rect x="150" y="160" width="20" height="20"/><rect x="210" y="160" width="20" height="20"/></g>
+  <text x="290" y="150" font-size="38" font-weight="700" fill="#E07B00">?</text>
+
+  <rect x="8" y="262" width="186" height="104" rx="12" fill="#f3f4f6" stroke="#bbb"/>
+  <text x="101" y="290" text-anchor="middle" font-size="14" fill="#333">Monitor gebaut für</text>
+  <text x="101" y="320" text-anchor="middle" font-size="19" font-weight="700" fill="#1f9d55">1920 × 1080</text>
+  <rect x="206" y="262" width="186" height="104" rx="12" fill="#fdecec" stroke="#d63c3c" stroke-width="2"/>
+  <text x="299" y="290" text-anchor="middle" font-size="14" fill="#333">im PC eingestellt</text>
+  <text x="299" y="320" text-anchor="middle" font-size="19" font-weight="700" fill="#a32020">1024 × 768</text>
+</svg>

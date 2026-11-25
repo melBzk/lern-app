@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 440" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Zwei Felder mit je vier Kernen und einem Thermometer. Oben: Alle Kerne arbeiten, alle vier im Basistakt, Thermometer halb voll. Unten: Turbo. Kern 3 und 4 schlafen, Kern 1 und 2 laufen mit höherem Takt; das Thermometer steht gleich hoch wie oben. Gleiche Wärme insgesamt, dafür zwei schnellere Kerne.</title>
+<rect width="400" height="440" fill="#fff"/>
+<text x="200" y="26" font-size="17" text-anchor="middle" font-weight="700">Turbo Boost / Turbo Core</text>
+<rect x="10" y="40" width="380" height="166" rx="10" fill="#fff" stroke="#ccc" stroke-width="1.5"/>
+<text x="24" y="66" font-size="16" font-weight="700">Alle Kerne arbeiten</text>
+<rect x="20" y="84" width="68" height="104" rx="6" fill="#3a6ed8"/>
+<text x="54" y="108" font-size="14" text-anchor="middle" font-weight="700" fill="#fff">Kern 1</text>
+<text x="54" y="174" font-size="13" text-anchor="middle" fill="#fff">Basistakt</text>
+<rect x="96" y="84" width="68" height="104" rx="6" fill="#3a6ed8"/>
+<text x="130" y="108" font-size="14" text-anchor="middle" font-weight="700" fill="#fff">Kern 2</text>
+<text x="130" y="174" font-size="13" text-anchor="middle" fill="#fff">Basistakt</text>
+<rect x="172" y="84" width="68" height="104" rx="6" fill="#3a6ed8"/>
+<text x="206" y="108" font-size="14" text-anchor="middle" font-weight="700" fill="#fff">Kern 3</text>
+<text x="206" y="174" font-size="13" text-anchor="middle" fill="#fff">Basistakt</text>
+<rect x="248" y="84" width="68" height="104" rx="6" fill="#3a6ed8"/>
+<text x="282" y="108" font-size="14" text-anchor="middle" font-weight="700" fill="#fff">Kern 4</text>
+<text x="282" y="174" font-size="13" text-anchor="middle" fill="#fff">Basistakt</text>
+<rect x="344" y="70" width="20" height="100" rx="10" fill="#fff" stroke="#555" stroke-width="2"/>
+<rect x="349" y="120" width="10" height="52" fill="#c62828"/>
+<circle cx="354" cy="176" r="14" fill="#c62828" stroke="#555" stroke-width="2"/>
+<line x1="336" y1="120" x2="372" y2="120" stroke="#222" stroke-width="1.5" stroke-dasharray="4 3"/>
+<rect x="10" y="218" width="380" height="166" rx="10" fill="#fff" stroke="#ccc" stroke-width="1.5"/>
+<text x="24" y="244" font-size="16" font-weight="700">Turbo</text>
+<rect x="20" y="262" width="68" height="104" rx="6" fill="#E07B00"/>
+<text x="54" y="286" font-size="14" text-anchor="middle" font-weight="700" fill="#fff">Kern 1</text>
+<path d="M54,298 C68,312 66,326 54,328 C42,326 40,312 50,306 C50,314 54,316 54,298 Z" fill="#fff4d6"/>
+<text x="54" y="346" font-size="13" text-anchor="middle" font-weight="700" fill="#fff">höherer</text>
+<text x="54" y="361" font-size="13" text-anchor="middle" font-weight="700" fill="#fff">Takt</text>
+<rect x="96" y="262" width="68" height="104" rx="6" fill="#E07B00"/>
+<text x="130" y="286" font-size="14" text-anchor="middle" font-weight="700" fill="#fff">Kern 2</text>
+<path d="M130,298 C144,312 142,326 130,328 C118,326 116,312 126,306 C126,314 130,316 130,298 Z" fill="#fff4d6"/>
+<text x="130" y="346" font-size="13" text-anchor="middle" font-weight="700" fill="#fff">höherer</text>
+<text x="130" y="361" font-size="13" text-anchor="middle" font-weight="700" fill="#fff">Takt</text>
+<rect x="172" y="262" width="68" height="104" rx="6" fill="#d9d9d9"/>
+<text x="206" y="286" font-size="14" text-anchor="middle" font-weight="700" fill="#666">Kern 3</text>
+<path d="M210,300 A14,14 0 1,0 218,322 A11,11 0 0,1 210,300 Z" fill="#555"/>
+<text x="206" y="352" font-size="13" text-anchor="middle" fill="#444">schläft</text>
+<rect x="248" y="262" width="68" height="104" rx="6" fill="#d9d9d9"/>
+<text x="282" y="286" font-size="14" text-anchor="middle" font-weight="700" fill="#666">Kern 4</text>
+<path d="M286,300 A14,14 0 1,0 294,322 A11,11 0 0,1 286,300 Z" fill="#555"/>
+<text x="282" y="352" font-size="13" text-anchor="middle" fill="#444">schläft</text>
+<rect x="344" y="248" width="20" height="100" rx="10" fill="#fff" stroke="#555" stroke-width="2"/>
+<rect x="349" y="298" width="10" height="52" fill="#c62828"/>
+<circle cx="354" cy="354" r="14" fill="#c62828" stroke="#555" stroke-width="2"/>
+<line x1="336" y1="298" x2="372" y2="298" stroke="#222" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="200" y="414" font-size="15" text-anchor="middle" font-weight="700">Gleiche Wärme insgesamt –</text>
+<text x="200" y="433" font-size="15" text-anchor="middle" font-weight="700" fill="#c25e00">dafür zwei schnellere Kerne</text>
+</svg>

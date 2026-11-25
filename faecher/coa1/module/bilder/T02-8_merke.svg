@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480" font-family="system-ui, sans-serif" fill="#222">
+<title>Merkbild CPU: Links die CPU mit drei Teilen: Steuerwerk (steuert), Rechenwerk mit ALU (Grundrechenarten, Logik, Vergleiche) und FPU (Kommazahlen), und Speicher, also Register und Cache L1 bis L3. Rechts außerhalb der CPU, über den Bus verbunden: Arbeitsspeicher und Ein-/Ausgabe. Die fünf Teile des Von-Neumann-Rechners sind Steuerwerk, Rechenwerk, Arbeitsspeicher, Ein-/Ausgabe und Bussystem; Register und Cache sind der Speicher innerhalb der CPU.</title>
+<rect width="400" height="480" fill="#fff"/>
+<text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700">CPU: 3 Teile · Rechner: 5 Teile</text>
+<!-- Rechner-Rahmen -->
+<rect x="10" y="42" width="380" height="378" rx="12" fill="#f4f1ee" stroke="#999" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="24" y="64" font-size="14" font-weight="700" fill="#555">Von-Neumann-Rechner</text>
+<!-- CPU -->
+<rect x="22" y="76" width="356" height="220" rx="10" fill="#cfd8dc" stroke="#555" stroke-width="2.5"/>
+<text x="36" y="98" font-size="15" font-weight="700">CPU</text>
+<rect x="34" y="108" width="332" height="44" rx="8" fill="#fbe3e8" stroke="#D4607A" stroke-width="2"/>
+<text x="48" y="136" font-size="15" font-weight="700">1 Steuerwerk</text><text x="180" y="136" font-size="13">steuert</text>
+<rect x="34" y="160" width="332" height="70" rx="8" fill="#e3ecfb" stroke="#3a6ed8" stroke-width="2"/>
+<text x="48" y="182" font-size="15" font-weight="700">2 Rechenwerk</text><text x="180" y="182" font-size="13">rechnet</text>
+<rect x="48" y="192" width="148" height="30" rx="5" fill="#fff"/><text x="122" y="212" text-anchor="middle" font-size="13">ALU: + − × ÷, Logik, ></text>
+<rect x="204" y="192" width="150" height="30" rx="5" fill="#fff"/><text x="279" y="212" text-anchor="middle" font-size="13">FPU: Kommazahlen</text>
+<rect x="34" y="238" width="332" height="48" rx="8" fill="#d4efd9" stroke="#2e9d5b" stroke-width="2"/>
+<text x="48" y="267" font-size="15" font-weight="700">3 Speicher</text><text x="180" y="267" font-size="13">Register + Cache L1–L3</text>
+<!-- Bus -->
+<rect x="22" y="306" width="356" height="16" rx="4" fill="#e0a54a"/>
+<text x="200" y="319" text-anchor="middle" font-size="13" font-weight="700">Bussystem</text>
+<line x1="200" y1="296" x2="200" y2="306" stroke="#555" stroke-width="3"/>
+<line x1="110" y1="322" x2="110" y2="340" stroke="#555" stroke-width="3"/><line x1="290" y1="322" x2="290" y2="340" stroke="#555" stroke-width="3"/>
+<rect x="30" y="340" width="160" height="64" rx="8" fill="#fff" stroke="#555" stroke-width="2"/>
+<text x="110" y="368" text-anchor="middle" font-size="14" font-weight="700">Arbeitsspeicher</text>
+<text x="110" y="388" text-anchor="middle" font-size="13">außerhalb der CPU</text>
+<rect x="210" y="340" width="160" height="64" rx="8" fill="#fff" stroke="#555" stroke-width="2"/>
+<text x="290" y="378" text-anchor="middle" font-size="14" font-weight="700">Ein-/Ausgabe</text>
+<text x="200" y="444" text-anchor="middle" font-size="13" font-weight="700">Rechner, 5 Teile: Steuerwerk · Rechenwerk ·</text>
+<text x="200" y="462" text-anchor="middle" font-size="13" font-weight="700">Arbeitsspeicher · Ein-/Ausgabe · Bussystem</text>
+</svg>

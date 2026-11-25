@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 488" font-family="system-ui, sans-serif" role="img">
+  <title>Die 8 neuen Wörter als Bildkacheln. Bildwiederholrate: Bilder pro Sekunde, in Hertz. Reaktionszeit: wie schnell ein Pixel umschaltet, in Millisekunden. Kontrast: hellstes gegen dunkelstes Pixel. Blickwinkel: stimmen die Farben auch von schräg. Pixelfehler: ein Bildpunkt oder Subpixel ist kaputt. Pixelfehlerklasse: wie viele kaputte Pixel erlaubt sind, Klasse 0 bis IV. Panel-Typ: TN, IPS oder VA. Pivot: Monitor um 90 Grad hochkant drehen.</title>
+  <rect width="400" height="488" fill="#fff"/>
+  <text x="200" y="26" text-anchor="middle" font-size="18" font-weight="700" fill="#222">Die 8 neuen Wörter</text>
+
+  <g transform="translate(8,40)"><rect fill="#f3f4f6" stroke="#bbb" width="188" height="104" rx="10"/>
+    <rect x="76" y="6" width="40" height="30" fill="#fff" stroke="#999"/><rect x="70" y="12" width="40" height="30" fill="#fff" stroke="#777"/><rect x="64" y="18" width="40" height="30" fill="#fff" stroke="#3a3f4a" stroke-width="2"/>
+    <text x="84" y="39" text-anchor="middle" font-size="13" font-weight="700" fill="#E07B00">Hz</text>
+    <text font-size="15" font-weight="700" fill="#222" text-anchor="middle" x="94" y="74">Bildwiederholrate</text><text font-size="13" fill="#333" text-anchor="middle" x="94" y="93">Bilder pro Sekunde</text></g>
+
+  <g transform="translate(204,40)"><rect fill="#f3f4f6" stroke="#bbb" width="188" height="104" rx="10"/>
+    <circle cx="94" cy="30" r="20" fill="#fff" stroke="#3a3f4a" stroke-width="3"/><rect x="89" y="4" width="10" height="6" fill="#3a3f4a"/>
+    <line x1="94" y1="30" x2="104" y2="18" stroke="#E07B00" stroke-width="3"/>
+    <text x="94" y="45" text-anchor="middle" font-size="13" font-weight="700" fill="#222">ms</text>
+    <text font-size="15" font-weight="700" fill="#222" text-anchor="middle" x="94" y="74">Reaktionszeit</text><text font-size="13" fill="#333" text-anchor="middle" x="94" y="93">Pixel schaltet um</text></g>
+
+  <g transform="translate(8,152)"><rect fill="#f3f4f6" stroke="#bbb" width="188" height="104" rx="10"/>
+    <rect x="58" y="8" width="36" height="40" fill="#fff" stroke="#3a3f4a" stroke-width="2"/><rect x="94" y="8" width="36" height="40" fill="#111" stroke="#3a3f4a" stroke-width="2"/>
+    <text font-size="15" font-weight="700" fill="#222" text-anchor="middle" x="94" y="74">Kontrast</text><text font-size="13" fill="#333" text-anchor="middle" x="94" y="93">hellstes : dunkelstes Pixel</text></g>
+
+  <g transform="translate(204,152)"><rect fill="#f3f4f6" stroke="#bbb" width="188" height="104" rx="10"/>
+    <rect x="64" y="6" width="60" height="8" fill="#3a3f4a"/>
+    <path d="M94,14 L60,52 M94,14 L128,52" stroke="#E07B00" stroke-width="2.5" fill="none" stroke-dasharray="5 3"/>
+    <path d="M74,40 Q94,30 114,40" fill="none" stroke="#E07B00" stroke-width="2"/>
+    <text font-size="15" font-weight="700" fill="#222" text-anchor="middle" x="94" y="74">Blickwinkel</text><text font-size="13" fill="#333" text-anchor="middle" x="94" y="93">Farben auch von schräg?</text></g>
+
+  <g transform="translate(8,264)"><rect fill="#f3f4f6" stroke="#bbb" width="188" height="104" rx="10"/>
+    <g fill="#222" stroke="#555"><rect x="64" y="8" width="14" height="14"/><rect x="78" y="8" width="14" height="14"/><rect x="92" y="8" width="14" height="14"/><rect x="106" y="8" width="14" height="14"/><rect x="64" y="22" width="14" height="14"/><rect x="78" y="22" width="14" height="14"/><rect x="92" y="22" width="14" height="14" fill="#fff"/><rect x="106" y="22" width="14" height="14"/><rect x="64" y="36" width="14" height="14"/><rect x="78" y="36" width="14" height="14"/><rect x="92" y="36" width="14" height="14"/><rect x="106" y="36" width="14" height="14"/></g>
+    <circle cx="99" cy="29" r="12" fill="none" stroke="#d63c3c" stroke-width="2.5"/>
+    <text font-size="15" font-weight="700" fill="#222" text-anchor="middle" x="94" y="74">Pixelfehler</text><text font-size="13" fill="#333" text-anchor="middle" x="94" y="93">Bildpunkt kaputt</text></g>
+
+  <g transform="translate(204,264)"><rect fill="#f3f4f6" stroke="#bbb" width="188" height="104" rx="10"/>
+    <g font-size="15" font-weight="700" text-anchor="middle"><rect x="36" y="14" width="28" height="26" rx="4" fill="#1f9d55"/><text x="50" y="33" fill="#fff">0</text>
+      <text x="80" y="33" fill="#222">I</text><text x="102" y="33" fill="#222">II</text><text x="128" y="33" fill="#222">III</text><text x="156" y="33" fill="#222">IV</text></g>
+    <text font-size="15" font-weight="700" fill="#222" text-anchor="middle" x="94" y="74">Pixelfehlerklasse</text><text font-size="13" fill="#333" text-anchor="middle" x="94" y="93">wie viele Fehler erlaubt</text></g>
+
+  <g transform="translate(8,376)"><rect fill="#f3f4f6" stroke="#bbb" width="188" height="104" rx="10"/>
+    <g font-size="14" font-weight="700" text-anchor="middle"><rect x="30" y="14" width="40" height="28" rx="4" fill="#fff" stroke="#3a3f4a" stroke-width="2"/><text x="50" y="33" fill="#222">TN</text>
+      <rect x="74" y="14" width="40" height="28" rx="4" fill="#fff" stroke="#3a3f4a" stroke-width="2"/><text x="94" y="33" fill="#222">IPS</text>
+      <rect x="118" y="14" width="40" height="28" rx="4" fill="#fff" stroke="#3a3f4a" stroke-width="2"/><text x="138" y="33" fill="#222">VA</text></g>
+    <text font-size="15" font-weight="700" fill="#222" text-anchor="middle" x="94" y="74">Panel-Typ</text><text font-size="13" fill="#333" text-anchor="middle" x="94" y="93">Bauart der LCD-Schicht</text></g>
+
+  <g transform="translate(204,376)"><rect fill="#f3f4f6" stroke="#bbb" width="188" height="104" rx="10"/>
+    <rect x="46" y="16" width="44" height="28" rx="3" fill="#fff" stroke="#999" stroke-width="2"/>
+    <rect x="112" y="6" width="26" height="44" rx="3" fill="#fff" stroke="#3a3f4a" stroke-width="2.5"/>
+    <path d="M86,12 Q100,0 112,12" fill="none" stroke="#E07B00" stroke-width="2.5"/><path d="M106,6 l7,7 l-9,2 z" fill="#E07B00"/>
+    <text font-size="15" font-weight="700" fill="#222" text-anchor="middle" x="94" y="74">Pivot</text><text font-size="13" fill="#333" text-anchor="middle" x="94" y="93">um 90° hochkant drehen</text></g>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 470" font-family="system-ui, sans-serif" fill="#222" role="img">
+<title>Drei Stifte sollen dasselbe winzige Wort Chip in ein kleines Kästchen schreiben. Dicker Filzstift: alles verschmiert, rotes X. Kugelschreiber: lesbar, aber grob, halb gut. Feiner Fineliner: gestochen scharf, grünes Häkchen. Darunter: dicker Stift entspricht langer Wellenlänge, feiner Stift entspricht kurzer Wellenlänge, also EUV.</title>
+<rect width="400" height="470" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">Winzige Schrift: welcher Stift?</text>
+
+<!-- Zeile 1 -->
+<rect x="10" y="42" width="380" height="88" rx="10" fill="#f4f5f7"/>
+<rect x="24" y="62" width="70" height="26" rx="5" fill="#3a6ed8"/><path d="M94,64 H112 V86 H94 Z" fill="#222"/>
+<text x="68" y="114" text-anchor="middle" font-size="13" font-weight="700">dicker Filzstift</text>
+<rect x="190" y="56" width="110" height="60" rx="4" fill="#fff" stroke="#555" stroke-width="2"/>
+<path d="M206,92 C220,70 232,100 246,78 S270,96 284,80" stroke="#222" stroke-width="13" fill="none" stroke-linecap="round"/>
+<path d="M330,70 L356,96 M356,70 L330,96" stroke="#c62828" stroke-width="5" stroke-linecap="round"/>
+
+<!-- Zeile 2 -->
+<rect x="10" y="140" width="380" height="88" rx="10" fill="#f4f5f7"/>
+<rect x="24" y="166" width="78" height="12" rx="4" fill="#3a6ed8"/><path d="M102,166 L114,172 L102,178 Z" fill="#222"/>
+<text x="68" y="212" text-anchor="middle" font-size="13" font-weight="700">Kugelschreiber</text>
+<rect x="190" y="154" width="110" height="60" rx="4" fill="#fff" stroke="#555" stroke-width="2"/>
+<text x="245" y="194" text-anchor="middle" font-size="27" font-weight="900" stroke="#222" stroke-width="1.5">Chip</text>
+<circle cx="343" cy="184" r="15" fill="#E07B00"/><path d="M335,184 H351" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+<text x="343" y="218" text-anchor="middle" font-size="13" fill="#555">grob</text>
+
+<!-- Zeile 3 -->
+<rect x="10" y="238" width="380" height="88" rx="10" fill="#e9f5ea" stroke="#2e7d32" stroke-width="2"/>
+<rect x="24" y="266" width="82" height="8" rx="3" fill="#3a6ed8"/><path d="M106,267 L118,270 L106,273 Z" fill="#222"/>
+<text x="68" y="310" text-anchor="middle" font-size="13" font-weight="700">feiner Fineliner</text>
+<rect x="190" y="252" width="110" height="60" rx="4" fill="#fff" stroke="#555" stroke-width="2"/>
+<text x="245" y="287" text-anchor="middle" font-size="14">Chip</text>
+<path d="M330,282 L340,294 L358,268" stroke="#2e7d32" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+<!-- Zuordnung -->
+<text x="20" y="362" font-size="14" font-weight="700">dicker Stift = lange Wellenlänge</text>
+<path d="M20,388 q30,-22 60,0 t60,0 t60,0 t60,0" stroke="#9aa5b1" stroke-width="3" fill="none"/>
+<text x="20" y="420" font-size="14" font-weight="700" fill="#7b3fc4">feiner Stift = kurze Wellenlänge (EUV)</text>
+<path d="M20,446 q4,-10 8,0 t8,0 t8,0 t8,0 t8,0 t8,0 t8,0 t8,0 t8,0 t8,0 t8,0 t8,0 t8,0 t8,0 t8,0 t8,0 t8,0 t8,0 t8,0 t8,0 t8,0 t8,0 t8,0 t8,0 t8,0 t8,0 t8,0 t8,0 t8,0 t8,0" stroke="#7b3fc4" stroke-width="2.5" fill="none"/>
+</svg>

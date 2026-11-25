@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 470" font-family="system-ui, sans-serif" font-size="14" fill="#222">
+<title>Praxisfall als Hausquerschnitt, ohne Lösung. Unten im Keller steht der Router. Ein Laptop im Keller hängt per Kabel am Router: läuft. Oben im Dachgeschoss steht ein Laptop im WLAN: langsam, bricht ab. Die Funkwellen vom Keller nach oben werden immer schwächer gezeichnet. Unten die Frage: Was ist los, und was rätst du?</title>
+<rect width="400" height="470" fill="#fff"/>
+<!-- Haus -->
+<path d="M40,110 L200,30 L360,110 Z" fill="#c62828"/>
+<rect x="50" y="110" width="300" height="270" fill="#fafafa" stroke="#333" stroke-width="2.5"/>
+<line x1="50" y1="200" x2="350" y2="200" stroke="#333" stroke-width="5"/>
+<line x1="50" y1="290" x2="350" y2="290" stroke="#333" stroke-width="5"/>
+<rect x="20" y="290" width="360" height="6" fill="#7a5c3a"/>
+<rect x="50" y="296" width="300" height="84" fill="#ece6dc" stroke="#333" stroke-width="2.5"/>
+<text x="62" y="132" font-size="13" font-weight="700" fill="#555">Dachgeschoss</text>
+<text x="62" y="222" font-size="13" font-weight="700" fill="#555">Erdgeschoss</text>
+<text x="62" y="316" font-size="13" font-weight="700" fill="#555">Keller</text>
+<!-- Router im Keller -->
+<g transform="translate(230,356)"><line x1="-10" y1="-8" x2="-13" y2="-22" stroke="#333" stroke-width="2.5"/><line x1="10" y1="-8" x2="13" y2="-22" stroke="#333" stroke-width="2.5"/><rect x="-22" y="-9" width="44" height="18" rx="4" fill="#3a3f4a"/><circle cx="-10" cy="0" r="2.5" fill="#7fe08a"/></g>
+<text x="230" y="376" text-anchor="middle" font-size="13" font-weight="700">Router</text>
+<!-- Laptop Keller mit Kabel -->
+<rect x="98" y="334" width="38" height="24" rx="2" fill="#3a3f4a"/><rect x="101" y="337" width="32" height="18" fill="#dfe9fb"/><path d="M92,358 H142 L138,364 H96 Z" fill="#555"/>
+<path d="M142,361 H208" stroke="#3a6ed8" stroke-width="3.5"/>
+<text x="290" y="342" font-size="13" font-weight="700" fill="#2e9d5b">Kabel: läuft ✓</text>
+<!-- Funkwellen nach oben, schwaecher -->
+<g fill="none" stroke="#E07B00" stroke-linecap="round">
+<path d="M218,320 A16,16 0 0 1 242,320" stroke-width="4"/>
+<path d="M210,300 A28,28 0 0 1 250,300" stroke-width="3.5"/>
+<path d="M205,262 A40,40 0 0 1 255,262" stroke-width="3" opacity="0.8"/>
+<path d="M200,228 A50,50 0 0 1 260,228" stroke-width="2.5" opacity="0.6" stroke-dasharray="6 5"/>
+<path d="M196,180 A58,58 0 0 1 264,180" stroke-width="2" opacity="0.45" stroke-dasharray="4 6"/>
+<path d="M192,150 A66,66 0 0 1 268,150" stroke-width="1.5" opacity="0.3" stroke-dasharray="3 7"/>
+</g>
+<!-- Laptop Dachgeschoss -->
+<rect x="270" y="150" width="38" height="24" rx="2" fill="#3a3f4a"/><rect x="273" y="153" width="32" height="18" fill="#dfe9fb"/><path d="M264,174 H314 L310,180 H268 Z" fill="#555"/>
+<rect x="62" y="148" width="124" height="40" rx="8" fill="#fde3c3" stroke="#E07B00" stroke-width="2"/>
+<text x="124" y="165" text-anchor="middle" font-size="13" font-weight="700" fill="#a85a00">WLAN: langsam,</text>
+<text x="124" y="182" text-anchor="middle" font-size="13" font-weight="700" fill="#a85a00">bricht ab ✗</text>
+<!-- Frage -->
+<rect x="30" y="400" width="340" height="56" rx="10" fill="#eef4fd" stroke="#3a6ed8" stroke-width="2"/>
+<text x="200" y="424" text-anchor="middle" font-size="15" font-weight="700" fill="#1d3f8a">Was ist los –</text>
+<text x="200" y="444" text-anchor="middle" font-size="15" font-weight="700" fill="#1d3f8a">und was rätst du?</text>
+</svg>

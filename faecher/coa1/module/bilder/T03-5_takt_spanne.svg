@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 560" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Senkrechte Takt-Skala wie ein Thermometer von 0 bis 5 GHz. Von unten nach oben: Multiplikator 4 ergibt etwa 0,4 GHz, der kleinste Wert; 2,70 GHz ist die Basisgeschwindigkeit, die der Task-Manager anzeigt, als gestrichelte Linie. Unter dieser Linie liegt der blaue Spar-Bereich: SpeedStep und Cool'n'Quiet senken den Takt, um Strom zu sparen. Über der Linie beginnt der orange Turbo-Bereich: Turbo Boost und Turbo Core erhöhen den Takt. Multiplikator 31 ergibt etwa 3,09 GHz im Moment der Messung; das liegt schon über der Basis, also lief gerade der Turbo. Multiplikator 46 ergibt etwa 4,6 GHz, der größte Wert laut CPU-Z. Der Bustakt bleibt bei etwa 100 MHz, nur der Multiplikator wechselt.</title>
+<defs><marker id="o" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E07B00"/></marker><marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker></defs>
+<rect width="400" height="560" fill="#fff"/>
+<text x="200" y="26" font-size="17" text-anchor="middle" font-weight="700">Wie weit kann der Takt wandern?</text>
+
+<!-- Röhre: y = 450 - 76 * GHz -->
+<rect x="140" y="62" width="26" height="398" rx="13" fill="#fff" stroke="#555" stroke-width="2"/>
+<!-- Spar-Bereich 0,4 bis 2,70 GHz -->
+<rect x="145" y="245" width="16" height="175" fill="#3a6ed8" opacity="0.3"/>
+<!-- Turbo-Bereich 2,70 bis 4,6 GHz -->
+<rect x="145" y="100" width="16" height="145" fill="#E07B00" opacity="0.4"/>
+<text x="134" y="60" font-size="13" text-anchor="end" fill="#555">GHz</text>
+<g font-size="13" text-anchor="end" fill="#555">
+<text x="134" y="454">0</text><text x="134" y="378">1</text><text x="134" y="302">2</text><text x="134" y="226">3</text><text x="134" y="150">4</text><text x="134" y="74">5</text>
+</g>
+<g stroke="#555" stroke-width="1.5"><line x1="140" y1="450" x2="148" y2="450"/><line x1="140" y1="374" x2="148" y2="374"/><line x1="140" y1="298" x2="148" y2="298"/><line x1="140" y1="222" x2="148" y2="222"/><line x1="140" y1="146" x2="148" y2="146"/><line x1="140" y1="70" x2="148" y2="70"/></g>
+
+<!-- Marken -->
+<line x1="140" y1="100" x2="196" y2="100" stroke="#222" stroke-width="3"/>
+<text x="202" y="100" font-size="16" font-weight="700">× 46 ≈ 4,6 GHz</text>
+<text x="202" y="118" font-size="13" fill="#555">größter Wert laut CPU-Z</text>
+
+<line x1="140" y1="215" x2="196" y2="198" stroke="#E07B00" stroke-width="3"/>
+<text x="202" y="196" font-size="16" font-weight="700" fill="#c25e00">× 31 ≈ 3,09 GHz</text>
+<text x="202" y="213" font-size="13" fill="#555">Messung: über der Basis</text>
+<text x="202" y="229" font-size="13" font-weight="700" fill="#c25e00">→ Turbo lief gerade</text>
+
+<!-- Basis-Linie -->
+<line x1="96" y1="245" x2="168" y2="245" stroke="#222" stroke-width="2" stroke-dasharray="6 4"/>
+<line x1="168" y1="245" x2="196" y2="258" stroke="#222" stroke-width="2"/>
+<text x="202" y="263" font-size="16" font-weight="700">2,70 GHz</text>
+<text x="202" y="281" font-size="13" fill="#555">Basis (Task-Manager)</text>
+
+<line x1="140" y1="420" x2="196" y2="420" stroke="#222" stroke-width="3"/>
+<text x="202" y="420" font-size="16" font-weight="700">× 4 ≈ 0,4 GHz</text>
+<text x="202" y="438" font-size="13" fill="#555">kleinster Wert</text>
+
+<!-- Turbo rauf: ab der Basis -->
+<line x1="110" y1="238" x2="110" y2="104" stroke="#E07B00" stroke-width="5" marker-end="url(#o)"/>
+<g font-size="12" font-weight="700" fill="#c25e00">
+<text x="6" y="150">Turbo-Bereich</text>
+<text x="6" y="168">Turbo Boost /</text>
+<text x="6" y="185">Turbo Core:</text>
+<text x="6" y="202">rauf</text>
+</g>
+<!-- SpeedStep runter: ab der Basis -->
+<line x1="110" y1="252" x2="110" y2="416" stroke="#3a6ed8" stroke-width="5" marker-end="url(#b)"/>
+<g font-size="12" font-weight="700" fill="#3a6ed8">
+<text x="6" y="300">Spar-Bereich</text>
+<text x="6" y="318">SpeedStep /</text>
+<text x="6" y="335">Cool'n'Quiet:</text>
+<text x="6" y="352">runter,</text>
+<text x="6" y="369">Strom sparen</text>
+</g>
+
+<rect x="10" y="480" width="380" height="66" rx="10" fill="#f4f1ee" stroke="#888" stroke-width="1.5"/>
+<text x="200" y="507" font-size="15" text-anchor="middle" font-weight="700">Bustakt bleibt ≈ 100 MHz –</text>
+<text x="200" y="530" font-size="15" text-anchor="middle" font-weight="700">nur der Multiplikator wechselt</text>
+</svg>

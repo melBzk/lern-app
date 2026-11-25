@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Vergleich Kühlschrank. Ein offener Kühlschrank: Im Türfach vorne stehen Milch, Butter und Marmelade. Das Türfach ist das Optane-Modul: Was du täglich brauchst, ist sofort greifbar. Hinten im großen Fach liegen viele Vorräte. Das ist die Festplatte: Dort ist alles, aber langsamer zu erreichen. Eine Sprechblase über dem Türfach sagt: Nach ein paar Tagen weiß ich, was du oft nimmst.</title>
+<rect width="400" height="520" fill="#fff"/>
+<text x="16" y="26" font-size="17" font-weight="700">Das Türfach im Kühlschrank</text>
+
+<!-- Sprechblase -->
+<rect x="150" y="40" width="244" height="54" rx="12" fill="#fff4e0" stroke="#E07B00" stroke-width="2"/>
+<path d="M264,93 L272,112 L284,93" fill="#fff4e0" stroke="#E07B00" stroke-width="2" stroke-linejoin="round"/>
+<line x1="266" y1="93" x2="282" y2="93" stroke="#fff4e0" stroke-width="3"/>
+<text x="272" y="62" text-anchor="middle" font-size="14">Nach ein paar Tagen weiß ich,</text>
+<text x="272" y="82" text-anchor="middle" font-size="14">was du oft nimmst.</text>
+
+<!-- Kühlschrank-Körper -->
+<rect x="16" y="120" width="196" height="290" rx="8" fill="#eceff1" stroke="#555" stroke-width="2.5"/>
+<rect x="28" y="132" width="172" height="266" rx="4" fill="#fafafa"/>
+<g stroke="#9aa5b1" stroke-width="3"><line x1="28" y1="200" x2="200" y2="200"/><line x1="28" y1="268" x2="200" y2="268"/><line x1="28" y1="336" x2="200" y2="336"/></g>
+<g fill="#b0bec5" stroke="#78909c" stroke-width="1">
+<rect x="36" y="168" width="26" height="30"/><rect x="66" y="176" width="34" height="22"/><rect x="104" y="160" width="22" height="38"/><rect x="130" y="172" width="30" height="26"/><rect x="164" y="166" width="28" height="32"/>
+<rect x="36" y="240" width="40" height="26"/><rect x="80" y="232" width="24" height="34"/><rect x="108" y="244" width="38" height="22"/><rect x="150" y="236" width="40" height="30"/>
+<rect x="36" y="304" width="30" height="30"/><rect x="70" y="312" width="44" height="22"/><rect x="118" y="300" width="26" height="34"/><rect x="148" y="310" width="44" height="24"/>
+<rect x="36" y="364" width="56" height="30" rx="4"/><rect x="100" y="364" width="92" height="30" rx="4"/>
+</g>
+<text x="16" y="436" font-size="15" font-weight="700" fill="#555">hinten = Festplatte</text>
+<text x="16" y="456" font-size="14">alles da, aber langsamer</text>
+<text x="16" y="474" font-size="14">zu erreichen</text>
+
+<!-- Tür (offen) -->
+<path d="M222,120 L330,108 L330,422 L222,410 Z" fill="#eceff1" stroke="#555" stroke-width="2.5"/>
+<path d="M232,132 L320,122 L320,408 L232,398 Z" fill="#fff4e0" stroke="#E07B00" stroke-width="2.5"/>
+<g stroke="#E07B00" stroke-width="3"><line x1="232" y1="214" x2="320" y2="208"/><line x1="232" y1="304" x2="320" y2="302"/></g>
+<!-- Milch -->
+<path d="M244,212 L244,164 L254,152 L264,164 L264,212 Z" fill="#fff" stroke="#3a6ed8" stroke-width="2"/>
+<rect x="246" y="178" width="16" height="12" fill="#3a6ed8"/>
+<!-- zweite Flasche -->
+<path d="M280,210 L280,172 L286,164 L286,152 L294,152 L294,164 L300,172 L300,210 Z" fill="#c8e6c9" stroke="#2e7d32" stroke-width="2"/>
+<!-- Butter -->
+<rect x="244" y="276" width="44" height="26" rx="3" fill="#fff59d" stroke="#8a6d00" stroke-width="2"/>
+<!-- Marmelade -->
+<rect x="246" y="356" width="28" height="36" rx="4" fill="#c62828"/>
+<rect x="244" y="350" width="32" height="8" rx="2" fill="#555"/>
+<rect x="284" y="360" width="26" height="32" rx="4" fill="#E07B00"/>
+<rect x="282" y="354" width="30" height="8" rx="2" fill="#555"/>
+<text x="396" y="446" text-anchor="end" font-size="15" font-weight="700" fill="#E07B00">Türfach = Optane-Modul</text>
+<text x="396" y="466" text-anchor="end" font-size="14">das brauchst du täglich –</text>
+<text x="396" y="484" text-anchor="end" font-size="14">sofort greifbar</text>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 470" font-family="system-ui, sans-serif" fill="#222" role="img">
+<title>Rechenweg in zwei Aufgaben. Aufgabe 1: 130 nm geteilt durch 10 nm gleich 13, also 13-mal feiner; dazu ein breiter Balken 130 nm und ein schmaler Balken 10 nm. Aufgabe 2: Ein Haar ist 0,1 mm dick. Schritt 1 umrechnen: 0,1 mm mal 1 000 000 gleich 100 000 nm. Schritt 2 teilen: 100 000 nm geteilt durch 10 nm gleich 10 000 Strukturen auf einer Haarbreite.</title>
+<rect width="400" height="470" fill="#fff"/>
+<text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700">Rechnen mit Nanometern</text>
+<rect x="10" y="44" width="380" height="170" rx="12" fill="#f4f5f7" stroke="#9aa3ad" stroke-width="1.5"/>
+<text x="24" y="70" font-size="15" font-weight="700" fill="#3a6ed8">Aufgabe 1: 10 nm gegen 130 nm</text>
+<rect x="24" y="86" width="260" height="22" rx="3" fill="#9aa3ad"/><text x="294" y="103" font-size="14" font-weight="700">130 nm</text>
+<rect x="24" y="118" width="20" height="22" rx="3" fill="#E07B00"/><text x="54" y="135" font-size="14" font-weight="700">10 nm</text>
+<text x="200" y="176" text-anchor="middle" font-size="18" font-weight="700">130 ÷ 10 = 13</text>
+<text x="200" y="200" text-anchor="middle" font-size="15" font-weight="700" fill="#c25e00">13-mal feiner</text>
+<rect x="10" y="228" width="380" height="232" rx="12" fill="#f4f5f7" stroke="#9aa3ad" stroke-width="1.5"/>
+<text x="24" y="254" font-size="15" font-weight="700" fill="#3a6ed8">Aufgabe 2: Wie viele 10 nm</text>
+<text x="24" y="274" font-size="15" font-weight="700" fill="#3a6ed8">passen in ein Haar (0,1 mm)?</text>
+<circle cx="36" cy="310" r="13" fill="#3a6ed8"/><text x="36" y="315" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">1</text>
+<text x="58" y="306" font-size="14">umrechnen: 1 mm = 1 000 000 nm</text>
+<text x="58" y="328" font-size="15" font-weight="700">0,1 × 1 000 000 = 100 000 nm</text>
+<circle cx="36" cy="368" r="13" fill="#3a6ed8"/><text x="36" y="373" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">2</text>
+<text x="58" y="364" font-size="14">teilen:</text>
+<text x="58" y="386" font-size="15" font-weight="700">100 000 ÷ 10 = 10 000</text>
+<rect x="40" y="406" width="320" height="40" rx="8" fill="#fff4e0" stroke="#E07B00" stroke-width="2"/>
+<text x="200" y="432" text-anchor="middle" font-size="15" font-weight="700" fill="#c25e00">10 000 Strukturen auf einer Haarbreite</text>
+</svg>

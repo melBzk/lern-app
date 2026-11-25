@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 420" font-family="system-ui, sans-serif" fill="#222">
+<title>Drei Busse nebeneinander: Datenbus fragt was, Richtung beide, beim Holen bringt er den Befehl vom RAM zur CPU. Adressbus fragt welches Gerät, Richtung nur eine, beim Holen sagt er, wo im RAM der Befehl liegt. Steuerbus fragt wer wann, Richtung nur eine, beim Holen meldet er lesen.</title>
+<defs>
+<marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker>
+<marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker>
+<marker id="p" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7b3fa0"/></marker>
+</defs>
+<rect width="400" height="420" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">Drei Busse – drei Fragen</text>
+<!-- Spalten -->
+<rect x="8" y="40" width="124" height="370" rx="10" fill="#fdecea"/>
+<rect x="138" y="40" width="124" height="370" rx="10" fill="#e8f0fe"/>
+<rect x="268" y="40" width="124" height="370" rx="10" fill="#f3e9f8"/>
+<g font-size="15" font-weight="700" text-anchor="middle">
+<text x="70" y="64" fill="#c62828">Datenbus</text>
+<text x="200" y="64" fill="#3a6ed8">Adressbus</text>
+<text x="330" y="64" fill="#7b3fa0">Steuerbus</text>
+</g>
+<!-- Frage -->
+<g font-size="20" font-weight="700" text-anchor="middle">
+<text x="70" y="104">Was?</text>
+<text x="200" y="104">Welches</text>
+<text x="330" y="104">Wer wann?</text>
+</g>
+<text x="200" y="128" text-anchor="middle" font-size="20" font-weight="700">Gerät?</text>
+<!-- Richtung -->
+<line x1="28" y1="160" x2="112" y2="160" stroke="#c62828" stroke-width="6" marker-start="url(#r)" marker-end="url(#r)"/>
+<line x1="158" y1="160" x2="242" y2="160" stroke="#3a6ed8" stroke-width="4" marker-end="url(#b)"/>
+<line x1="288" y1="160" x2="372" y2="160" stroke="#7b3fa0" stroke-width="4" marker-end="url(#p)"/>
+<g font-size="14" text-anchor="middle">
+<text x="70" y="188" font-weight="700">beide</text><text x="70" y="205">Richtungen</text>
+<text x="200" y="188" font-weight="700">eine</text><text x="200" y="205">Richtung</text>
+<text x="330" y="188" font-weight="700">eine</text><text x="330" y="205">Richtung</text>
+</g>
+<!-- Beim Holen -->
+<line x1="16" y1="226" x2="384" y2="226" stroke="#999" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="200" y="250" text-anchor="middle" font-size="14" font-weight="700" fill="#E07B00">beim Holen von „5 + 3“:</text>
+<g font-size="14" text-anchor="middle">
+<text x="70" y="284">bringt den</text><text x="70" y="302">Befehl</text><text x="70" y="320">vom RAM</text><text x="70" y="338">zur CPU</text>
+<text x="200" y="284">sagt, wo im</text><text x="200" y="302">RAM der</text><text x="200" y="320">Befehl liegt</text>
+<text x="330" y="284">meldet</text><text x="330" y="310" font-size="18" font-weight="700">„lesen“</text>
+</g>
+</svg>

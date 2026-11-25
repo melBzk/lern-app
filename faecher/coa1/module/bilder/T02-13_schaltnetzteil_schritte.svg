@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" font-family="system-ui, sans-serif" fill="#222">
+<title>Schaltnetzteil in vier Schritten von oben nach unten: Rein kommen 230 V Wechselspannung. 1. gleichrichten. 2. in Wechselspannung mit hoher Frequenz wandeln, kHz, also tausend Schwingungen pro Sekunde. 3. auf kleinere Spannung bringen. 4. wieder gleichrichten. Raus kommen 3,3 V, 5 V und 12 V Gleichspannung. Merktipp: Wechselspannung rein, Gleichspannung raus.</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker></defs>
+<rect width="400" height="520" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">Im Schaltnetzteil: 4 Schritte</text>
+<!-- rein -->
+<rect x="90" y="40" width="220" height="44" rx="22" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<text x="200" y="69" text-anchor="middle" font-size="17" font-weight="700">rein: 230 V <tspan fill="#3a6ed8" font-size="22">~</tspan></text>
+<line x1="200" y1="86" x2="200" y2="104" stroke="#333" stroke-width="2.5" marker-end="url(#a)"/>
+<!-- Schritte -->
+<g font-size="15">
+<rect x="20" y="108" width="360" height="62" rx="8" fill="#f4f1ee"/>
+<circle cx="46" cy="139" r="15" fill="#555"/><text x="46" y="145" text-anchor="middle" font-weight="700" fill="#fff">1</text>
+<text x="74" y="145" font-weight="700">gleichrichten</text>
+<text x="360" y="148" text-anchor="end" font-size="20" font-weight="700"><tspan fill="#3a6ed8">~</tspan> → <tspan fill="#1c6b3c">=</tspan></text>
+<line x1="200" y1="172" x2="200" y2="190" stroke="#333" stroke-width="2.5" marker-end="url(#a)"/>
+<rect x="20" y="194" width="360" height="72" rx="8" fill="#f4f1ee"/>
+<circle cx="46" cy="230" r="15" fill="#555"/><text x="46" y="236" text-anchor="middle" font-weight="700" fill="#fff">2</text>
+<text x="74" y="224" font-weight="700">in ~ mit hoher Frequenz</text>
+<text x="74" y="248" font-size="13" fill="#555">kHz = tausend Schwingungen/s</text>
+<path d="M300,232 h4 v-14 h4 v14 h4 v-14 h4 v14 h4 v-14 h4 v14 h4 v-14 h4 v14 h4 v-14 h4 v14 h4 v-14 h4 v14 h4" fill="none" stroke="#3a6ed8" stroke-width="2"/>
+<line x1="200" y1="268" x2="200" y2="286" stroke="#333" stroke-width="2.5" marker-end="url(#a)"/>
+<rect x="20" y="290" width="360" height="62" rx="8" fill="#f4f1ee"/>
+<circle cx="46" cy="321" r="15" fill="#555"/><text x="46" y="327" text-anchor="middle" font-weight="700" fill="#fff">3</text>
+<text x="74" y="327" font-weight="700">auf kleinere Spannung bringen</text>
+<path d="M330,306 v26 h-12 l18,14 l18,-14 h-12 v-26 Z" fill="#E07B00"/>
+<line x1="200" y1="354" x2="200" y2="372" stroke="#333" stroke-width="2.5" marker-end="url(#a)"/>
+<rect x="20" y="376" width="360" height="62" rx="8" fill="#f4f1ee"/>
+<circle cx="46" cy="407" r="15" fill="#555"/><text x="46" y="413" text-anchor="middle" font-weight="700" fill="#fff">4</text>
+<text x="74" y="413" font-weight="700">wieder gleichrichten</text>
+<text x="360" y="416" text-anchor="end" font-size="20" font-weight="700"><tspan fill="#3a6ed8">~</tspan> → <tspan fill="#1c6b3c">=</tspan></text>
+</g>
+<line x1="200" y1="440" x2="200" y2="458" stroke="#333" stroke-width="2.5" marker-end="url(#a)"/>
+<!-- raus -->
+<rect x="60" y="462" width="280" height="46" rx="23" fill="#1c6b3c"/>
+<text x="200" y="492" text-anchor="middle" font-size="17" font-weight="700" fill="#fff">raus: 3,3 / 5 / 12 V =</text>
+</svg>

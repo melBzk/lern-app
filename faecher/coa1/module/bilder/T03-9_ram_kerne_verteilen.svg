@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 410" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>RAM und Kerne verteilen. Oben ein Balken Host-RAM 16 GB in drei Abschnitten: 8 GB grau für den Host selbst, 4 GB orange für VM 1, 4 GB orange für VM 2. Darunter 20 graue Kästchen für die 20 logischen Prozessoren des Hosts. VM 1 bekommt 10 virtuelle Prozessoren. Kerne werden nicht fest reserviert: Host und VMs nutzen alle 20 abwechselnd. Nie mehr, als der Host hat.</title>
+<rect width="400" height="410" fill="#fff"/>
+<text x="200" y="26" font-size="17" text-anchor="middle" font-weight="700">RAM und Kerne verteilen</text>
+
+<!-- RAM -->
+<text x="20" y="64" font-size="16" font-weight="700">Host-RAM 16 GB</text>
+<!-- 16 GB = 360 px -> 22,5 px je GB -->
+<rect x="20" y="76" width="180" height="56" fill="#c9c3bd" stroke="#555" stroke-width="2"/>
+<rect x="200" y="76" width="90" height="56" fill="#E07B00" stroke="#555" stroke-width="2"/>
+<rect x="290" y="76" width="90" height="56" fill="#E07B00" stroke="#555" stroke-width="2"/>
+<text x="110" y="100" font-size="16" text-anchor="middle" font-weight="700">8 GB</text>
+<text x="110" y="120" font-size="13" text-anchor="middle">für den Host selbst</text>
+<text x="245" y="100" font-size="16" text-anchor="middle" font-weight="700" fill="#fff">VM 1</text>
+<text x="245" y="120" font-size="14" text-anchor="middle" font-weight="700" fill="#fff">4 GB</text>
+<text x="335" y="100" font-size="16" text-anchor="middle" font-weight="700" fill="#fff">VM 2</text>
+<text x="335" y="120" font-size="14" text-anchor="middle" font-weight="700" fill="#fff">4 GB</text>
+<text x="200" y="156" font-size="13" text-anchor="middle" fill="#555">8 GB ÷ 4 GB = 2 VMs</text>
+
+<line x1="20" y1="176" x2="380" y2="176" stroke="#ccc" stroke-width="1.5"/>
+
+<!-- Prozessoren -->
+<text x="20" y="208" font-size="16" font-weight="700">20 logische Prozessoren des Hosts</text>
+<text x="20" y="236" font-size="15" font-weight="700" fill="#b35f00">VM 1 bekommt 10 virtuelle Prozessoren</text>
+<g stroke="#555" stroke-width="1.5">
+<rect x="23" y="248" width="30" height="30" rx="4" fill="#c9c3bd"/>
+<rect x="59" y="248" width="30" height="30" rx="4" fill="#c9c3bd"/>
+<rect x="95" y="248" width="30" height="30" rx="4" fill="#c9c3bd"/>
+<rect x="131" y="248" width="30" height="30" rx="4" fill="#c9c3bd"/>
+<rect x="167" y="248" width="30" height="30" rx="4" fill="#c9c3bd"/>
+<rect x="203" y="248" width="30" height="30" rx="4" fill="#c9c3bd"/>
+<rect x="239" y="248" width="30" height="30" rx="4" fill="#c9c3bd"/>
+<rect x="275" y="248" width="30" height="30" rx="4" fill="#c9c3bd"/>
+<rect x="311" y="248" width="30" height="30" rx="4" fill="#c9c3bd"/>
+<rect x="347" y="248" width="30" height="30" rx="4" fill="#c9c3bd"/>
+<rect x="23" y="286" width="30" height="30" rx="4" fill="#c9c3bd"/>
+<rect x="59" y="286" width="30" height="30" rx="4" fill="#c9c3bd"/>
+<rect x="95" y="286" width="30" height="30" rx="4" fill="#c9c3bd"/>
+<rect x="131" y="286" width="30" height="30" rx="4" fill="#c9c3bd"/>
+<rect x="167" y="286" width="30" height="30" rx="4" fill="#c9c3bd"/>
+<rect x="203" y="286" width="30" height="30" rx="4" fill="#c9c3bd"/>
+<rect x="239" y="286" width="30" height="30" rx="4" fill="#c9c3bd"/>
+<rect x="275" y="286" width="30" height="30" rx="4" fill="#c9c3bd"/>
+<rect x="311" y="286" width="30" height="30" rx="4" fill="#c9c3bd"/>
+<rect x="347" y="286" width="30" height="30" rx="4" fill="#c9c3bd"/>
+</g>
+<text x="200" y="340" font-size="13" text-anchor="middle" fill="#555">Kerne werden nicht fest reserviert:</text>
+<text x="200" y="358" font-size="13" text-anchor="middle" fill="#555">Host und VMs nutzen alle 20 abwechselnd.</text>
+<text x="200" y="392" font-size="14" text-anchor="middle" font-weight="700">Nie mehr, als der Host hat!</text>
+</svg>

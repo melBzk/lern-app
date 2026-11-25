@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 730" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Wo du die Prozessor-Merkmale abliest, zwei vereinfacht nachgezeichnete Fenster. Oben Task-Manager, Leistung, CPU: Basisgeschwindigkeit 2,70 GHz (Takt, blau), Kerne 14 und Logische Prozessoren 20 (Kerne, grün), Virtualisierung Aktiviert (lila), L1-Cache 1,2 MB, L2-Cache 11,5 MB, L3-Cache 24,0 MB (Cache, orange). Unten CPU-Z, Reiter CPU: Technology 10 nm, Max TDP 45 W, Instructions MMX, SSE, AVX, AVX2 und mehr (bei AMD steht dort auch AMD-V), Core Speed (Takt, blau), L1 Data, L1 Inst., Level 2, Level 3 (Cache, orange), Cores und Threads (Kerne, grün). Ganz unten das Datenblatt aus den Hersteller-Datenbanken ark.intel.com und products.amd.com: Virtualisierung VT-x / VT-d bzw. AMD-V, Ja oder Nein (lila), dazu Kerne, Takt, Cache, TDP. Gleiche Farbe bedeutet gleiches Merkmal.</title>
+<rect width="400" height="730" fill="#fff"/>
+<text x="200" y="26" font-size="17" text-anchor="middle" font-weight="700">Wo lese ich die Merkmale ab?</text>
+<text x="200" y="50" font-size="13" text-anchor="middle" fill="#555">Gleiche Farbe = gleiches Merkmal</text>
+<g font-size="14" font-weight="700" text-anchor="middle">
+<text x="68" y="70" fill="#1f6b30">Kerne</text>
+<text x="132" y="70" fill="#2a56b0">Takt</text>
+<text x="196" y="70" fill="#b35f00">Cache</text>
+<text x="300" y="70" fill="#5a2a78">Virtualisierung</text>
+</g>
+
+<!-- Task-Manager -->
+<rect x="10" y="84" width="380" height="226" rx="6" fill="#f3f4f6" stroke="#555" stroke-width="2"/>
+<path d="M10,112 L10,90 Q10,84 16,84 L384,84 Q390,84 390,90 L390,112 z" fill="#444"/>
+<text x="22" y="104" font-size="14" font-weight="700" fill="#fff">Task-Manager → Leistung → CPU</text>
+
+<rect x="18" y="120" width="364" height="22" rx="4" fill="#e8f0fe"/><rect x="18" y="120" width="6" height="22" fill="#3a6ed8"/>
+<text x="32" y="136" font-size="14" font-weight="700" fill="#2a56b0">Basisgeschwindigkeit</text><text x="250" y="136" font-size="14">2,70 GHz</text>
+<rect x="18" y="146" width="364" height="22" rx="4" fill="#e3f5e7"/><rect x="18" y="146" width="6" height="22" fill="#2f9e44"/>
+<text x="32" y="162" font-size="14" font-weight="700" fill="#1f6b30">Kerne</text><text x="250" y="162" font-size="14">14</text>
+<rect x="18" y="172" width="364" height="22" rx="4" fill="#e3f5e7"/><rect x="18" y="172" width="6" height="22" fill="#2f9e44"/>
+<text x="32" y="188" font-size="14" font-weight="700" fill="#1f6b30">Logische Prozessoren</text><text x="250" y="188" font-size="14">20</text>
+<rect x="18" y="198" width="364" height="22" rx="4" fill="#f3e8fa"/><rect x="18" y="198" width="6" height="22" fill="#7b3fa0"/>
+<text x="32" y="214" font-size="14" font-weight="700" fill="#5a2a78">Virtualisierung</text><text x="250" y="214" font-size="14">Aktiviert</text>
+<rect x="18" y="224" width="364" height="22" rx="4" fill="#fdf0e0"/><rect x="18" y="224" width="6" height="22" fill="#E07B00"/>
+<text x="32" y="240" font-size="14" font-weight="700" fill="#b35f00">L1-Cache</text><text x="250" y="240" font-size="14">1,2 MB</text>
+<rect x="18" y="250" width="364" height="22" rx="4" fill="#fdf0e0"/><rect x="18" y="250" width="6" height="22" fill="#E07B00"/>
+<text x="32" y="266" font-size="14" font-weight="700" fill="#b35f00">L2-Cache</text><text x="250" y="266" font-size="14">11,5 MB</text>
+<rect x="18" y="276" width="364" height="22" rx="4" fill="#fdf0e0"/><rect x="18" y="276" width="6" height="22" fill="#E07B00"/>
+<text x="32" y="292" font-size="14" font-weight="700" fill="#b35f00">L3-Cache</text><text x="250" y="292" font-size="14">24,0 MB</text>
+
+<!-- CPU-Z -->
+<rect x="10" y="326" width="380" height="264" rx="6" fill="#f3f4f6" stroke="#555" stroke-width="2"/>
+<path d="M10,354 L10,332 Q10,326 16,326 L384,326 Q390,326 390,332 L390,354 z" fill="#444"/>
+<text x="22" y="346" font-size="14" font-weight="700" fill="#fff">CPU-Z, Reiter CPU</text>
+
+<!-- Technology / Max TDP -->
+<text x="92" y="380" font-size="13" text-anchor="end" fill="#444">Technology</text>
+<rect x="98" y="364" width="80" height="22" rx="3" fill="#fff" stroke="#999" stroke-width="1.5"/><text x="138" y="380" font-size="13" text-anchor="middle">10 nm</text>
+<text x="272" y="380" font-size="13" text-anchor="end" fill="#444">Max TDP</text>
+<rect x="278" y="364" width="100" height="22" rx="3" fill="#fff" stroke="#999" stroke-width="1.5"/><text x="328" y="380" font-size="13" text-anchor="middle">45 W</text>
+
+<!-- Instructions -->
+<text x="92" y="410" font-size="13" text-anchor="end" fill="#444">Instructions</text>
+<rect x="98" y="394" width="280" height="22" rx="3" fill="#fff" stroke="#999" stroke-width="1.5"/><text x="108" y="410" font-size="13">MMX, SSE …, AVX, AVX2 …</text>
+<rect x="98" y="422" width="280" height="22" rx="4" fill="#f3e8fa" stroke="#7b3fa0" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="108" y="438" font-size="13" font-weight="700" fill="#5a2a78">bei AMD steht hier auch „AMD-V“</text>
+
+<!-- Clocks / Cache -->
+<text x="92" y="474" font-size="13" text-anchor="end" font-weight="700" fill="#2a56b0">Core Speed</text>
+<rect x="98" y="458" width="80" height="22" rx="3" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2.5"/>
+<text x="272" y="474" font-size="13" text-anchor="end" font-weight="700" fill="#b35f00">L1 Data</text>
+<rect x="278" y="458" width="100" height="22" rx="3" fill="#fdf0e0" stroke="#E07B00" stroke-width="2.5"/>
+<text x="272" y="500" font-size="13" text-anchor="end" font-weight="700" fill="#b35f00">L1 Inst.</text>
+<rect x="278" y="484" width="100" height="22" rx="3" fill="#fdf0e0" stroke="#E07B00" stroke-width="2.5"/>
+<text x="272" y="526" font-size="13" text-anchor="end" font-weight="700" fill="#b35f00">Level 2</text>
+<rect x="278" y="510" width="100" height="22" rx="3" fill="#fdf0e0" stroke="#E07B00" stroke-width="2.5"/>
+<text x="272" y="552" font-size="13" text-anchor="end" font-weight="700" fill="#b35f00">Level 3</text>
+<rect x="278" y="536" width="100" height="22" rx="3" fill="#fdf0e0" stroke="#E07B00" stroke-width="2.5"/>
+
+<!-- Cores / Threads -->
+<text x="92" y="526" font-size="13" text-anchor="end" font-weight="700" fill="#1f6b30">Cores</text>
+<rect x="98" y="510" width="80" height="22" rx="3" fill="#e3f5e7" stroke="#2f9e44" stroke-width="2.5"/>
+<text x="92" y="552" font-size="13" text-anchor="end" font-weight="700" fill="#1f6b30">Threads</text>
+<rect x="98" y="536" width="80" height="22" rx="3" fill="#e3f5e7" stroke="#2f9e44" stroke-width="2.5"/>
+
+<!-- Datenblatt -->
+<rect x="10" y="604" width="380" height="88" rx="6" fill="#f3f4f6" stroke="#555" stroke-width="2"/>
+<path d="M10,632 L10,610 Q10,604 16,604 L384,604 Q390,604 390,610 L390,632 z" fill="#444"/>
+<text x="22" y="624" font-size="14" font-weight="700" fill="#fff">Datenblatt (ark.intel.com · products.amd.com)</text>
+<rect x="18" y="640" width="364" height="22" rx="4" fill="#f3e8fa"/><rect x="18" y="640" width="6" height="22" fill="#7b3fa0"/>
+<text x="32" y="656" font-size="14" font-weight="700" fill="#5a2a78">VT-x / VT-d bzw. AMD-V</text><text x="290" y="656" font-size="14">Ja / Nein</text>
+<text x="32" y="682" font-size="13" fill="#555">dazu Kerne, Takt, Cache, TDP …</text>
+<text x="200" y="716" font-size="13" text-anchor="middle" fill="#555">(Fenster vereinfacht nachgezeichnet)</text>
+</svg>

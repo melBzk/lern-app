@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" font-family="system-ui, sans-serif" fill="#222" role="img">
+<title>Wozu, drei Stationen: 1 Klausurnah: die Übungsfrage Was versteht man unter Hyper-Threading? 2 AP1: Hardware nach Datenblatt auswählen und begründen, Kerne und Threads gehören dazu. 3 Später in der AP2: manche Software wird pro Prozessorkern lizenziert, dann Kerne richtig zählen.</title>
+<rect width="400" height="400" fill="#fff"/>
+<text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700">Wofür brauchst du das?</text>
+<rect x="10" y="44" width="380" height="104" rx="10" fill="#fff4e0" stroke="#E07B00" stroke-width="2"/>
+<circle cx="34" cy="72" r="14" fill="#E07B00"/><text x="34" y="77" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">1</text>
+<text x="58" y="78" font-size="16" font-weight="700">Klausurnah</text>
+<text x="58" y="104" font-size="15">„Was versteht man unter</text>
+<text x="58" y="126" font-size="15">Hyper-Threading?“</text>
+<rect x="10" y="156" width="380" height="104" rx="10" fill="#f4f5f7"/>
+<circle cx="34" cy="184" r="14" fill="#3a6ed8"/><text x="34" y="189" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">2</text>
+<text x="58" y="190" font-size="16" font-weight="700">AP1</text>
+<path d="M300,172 h40 l10,10 v56 h-50 z" fill="#fff" stroke="#555" stroke-width="2"/><path d="M308,194 h34 M308,206 h34 M308,218 h24" stroke="#555" stroke-width="1.5"/>
+<text x="58" y="216" font-size="15">Hardware nach Datenblatt</text>
+<text x="58" y="238" font-size="15">wählen: Kerne + Threads</text>
+<rect x="10" y="268" width="380" height="118" rx="10" fill="#f4f5f7"/>
+<circle cx="34" cy="296" r="14" fill="#3a6ed8"/><text x="34" y="301" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">3</text>
+<text x="58" y="302" font-size="16" font-weight="700">später, AP2</text>
+<text x="58" y="328" font-size="15">Lizenz pro Prozessorkern</text>
+<text x="58" y="350" font-size="15">→ Kerne richtig zählen</text>
+<rect x="296" y="290" width="26" height="26" rx="3" fill="#5b6470"/><rect x="326" y="290" width="26" height="26" rx="3" fill="#5b6470"/><rect x="296" y="320" width="26" height="26" rx="3" fill="#5b6470"/><rect x="326" y="320" width="26" height="26" rx="3" fill="#5b6470"/>
+</svg>

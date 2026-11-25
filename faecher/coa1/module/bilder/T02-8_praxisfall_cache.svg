@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 340" font-family="system-ui, sans-serif" fill="#222">
+<title>Zwei Prozessoren derselben Reihe und Generation nebeneinander: Prozessor A und Prozessor B sind gleich, nur B hat einen größeren L3-Cache, als größere grüne Fläche gezeichnet. Darunter die Frage des Kunden: Was bringt mir das?</title>
+<rect width="400" height="340" fill="#fff"/>
+<text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700">Gleich – bis auf den L3-Cache</text>
+<!-- A -->
+<rect x="20" y="50" width="170" height="180" rx="8" fill="#cfd8dc" stroke="#555" stroke-width="2.5"/>
+<text x="105" y="76" text-anchor="middle" font-size="16" font-weight="700">Prozessor A</text>
+<rect x="36" y="90" width="138" height="70" rx="4" fill="#fff" stroke="#999" stroke-width="1.5"/>
+<text x="105" y="130" text-anchor="middle" font-size="13" fill="#666">gleich</text>
+<rect x="36" y="168" width="60" height="48" rx="4" fill="#d4efd9" stroke="#2e9d5b" stroke-width="2"/>
+<text x="66" y="197" text-anchor="middle" font-size="13" font-weight="700" fill="#1f7a45">L3</text>
+<!-- B -->
+<rect x="210" y="50" width="170" height="180" rx="8" fill="#cfd8dc" stroke="#555" stroke-width="2.5"/>
+<text x="295" y="76" text-anchor="middle" font-size="16" font-weight="700">Prozessor B</text>
+<rect x="226" y="90" width="138" height="70" rx="4" fill="#fff" stroke="#999" stroke-width="1.5"/>
+<text x="295" y="130" text-anchor="middle" font-size="13" fill="#666">gleich</text>
+<rect x="226" y="168" width="138" height="48" rx="4" fill="#d4efd9" stroke="#D4607A" stroke-width="3"/>
+<text x="295" y="197" text-anchor="middle" font-size="13" font-weight="700" fill="#1f7a45">mehr L3</text>
+<!-- Frage -->
+<rect x="60" y="256" width="280" height="56" rx="14" fill="#fff3c4" stroke="#c99a06" stroke-width="1.5"/>
+<text x="200" y="290" text-anchor="middle" font-size="16" font-weight="700">„Was bringt mir das?“</text>
+</svg>

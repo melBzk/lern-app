@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480" font-family="system-ui, sans-serif" font-size="14" fill="#222">
+<title>Fünf Merksätze mit Symbol. Router: verbindet zwei Netze, zum Beispiel Heimnetz und Internet. WLAN: eine Technik, kabellos per Funk über einen Access Point. Fritzbox: kein WLAN, sondern ein Router mit Modem, Switch und Access Point. Modem: Modulation und Demodulation, Daten werden zu Signalen für die Leitung und zurück. NAS steht im eigenen Netz, Cloud liegt beim Anbieter im Internet.</title>
+<rect width="400" height="480" fill="#fff"/>
+<text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700">Merke</text>
+<g stroke="#ddd" stroke-width="1"><line x1="15" y1="42" x2="385" y2="42"/><line x1="15" y1="128" x2="385" y2="128"/><line x1="15" y1="214" x2="385" y2="214"/><line x1="15" y1="300" x2="385" y2="300"/><line x1="15" y1="386" x2="385" y2="386"/><line x1="15" y1="472" x2="385" y2="472"/></g>
+<!-- 1 Router -->
+<g transform="translate(55,88)"><circle cx="-28" cy="0" r="12" fill="#e6efe0" stroke="#2f6b4f" stroke-width="2"/><circle cx="28" cy="0" r="12" fill="#dbe7fb" stroke="#3a6ed8" stroke-width="2"/><line x1="-16" y1="0" x2="16" y2="0" stroke="#333" stroke-width="2"/><rect x="-12" y="-8" width="24" height="16" rx="3" fill="#3a3f4a"/></g>
+<text x="110" y="78" font-size="15" font-weight="700" fill="#1d3f8a">Router = verbindet 2 Netze</text>
+<text x="110" y="100" font-size="14">z. B. Heimnetz und Internet</text>
+<!-- 2 WLAN -->
+<g transform="translate(55,186)" fill="none" stroke="#E07B00" stroke-width="3" stroke-linecap="round"><path d="M-6,-2 A8,8 0 0 1 6,-2"/><path d="M-13,-9 A17,17 0 0 1 13,-9"/><path d="M-20,-16 A26,26 0 0 1 20,-16"/><circle cx="0" cy="4" r="3" fill="#E07B00" stroke="none"/></g>
+<text x="110" y="164" font-size="15" font-weight="700" fill="#a85a00">WLAN = Technik</text>
+<text x="110" y="186" font-size="14">kabellos per Funk</text>
+<text x="110" y="205" font-size="14">über einen Access Point</text>
+<!-- 3 Fritzbox -->
+<g transform="translate(55,257)"><rect x="-34" y="-24" width="68" height="48" rx="6" fill="#3a3f4a"/><g fill="#9aa3ad"><rect x="-28" y="-18" width="26" height="16" rx="2"/><rect x="2" y="-18" width="26" height="16" rx="2"/><rect x="-28" y="2" width="26" height="16" rx="2"/><rect x="2" y="2" width="26" height="16" rx="2"/></g></g>
+<text x="110" y="248" font-size="15" font-weight="700" fill="#1d3f8a">Fritzbox ≠ „das WLAN“</text>
+<text x="110" y="270" font-size="14">Router mit Modem, Switch</text>
+<text x="110" y="289" font-size="14">und Access Point</text>
+<!-- 4 Modem -->
+<g transform="translate(55,343)"><text x="-34" y="6" font-size="15" font-weight="700" fill="#1d3f8a">01</text><text x="-2" y="6" text-anchor="middle" font-size="17" font-weight="700" fill="#555">↔</text><path d="M10,0 q4,-11 8,0 t8,0 t8,0" fill="none" stroke="#2e9d5b" stroke-width="2.5"/></g>
+<text x="110" y="335" font-size="15" font-weight="700" fill="#1d3f8a">Modem = Mo + Dem</text>
+<text x="110" y="357" font-size="14">Daten ↔ Signale für die Leitung</text>
+<!-- 5 NAS / Cloud -->
+<g transform="translate(36,430)"><rect x="-14" y="-20" width="28" height="40" rx="3" fill="#3a3f4a"/><rect x="-9" y="-14" width="18" height="7" fill="#9aa3ad"/><rect x="-9" y="-4" width="18" height="7" fill="#9aa3ad"/></g>
+<g transform="translate(82,432)"><path d="M-18,10 a9,9 0 0 1 2,-17 a11,11 0 0 1 20,-3 a9,9 0 0 1 13,9 a7,7 0 0 1 -2,11 z" fill="#dbe7fb" stroke="#3a6ed8" stroke-width="2"/></g>
+<text x="110" y="420" font-size="15"><tspan font-weight="700" fill="#1d3f8a">NAS</tspan> = im eigenen Netz</text>
+<text x="110" y="446" font-size="15"><tspan font-weight="700" fill="#1d3f8a">Cloud</tspan> = beim Anbieter</text>
+<text x="110" y="464" font-size="14">im Internet</text>
+</svg>

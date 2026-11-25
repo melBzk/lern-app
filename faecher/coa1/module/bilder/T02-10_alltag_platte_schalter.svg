@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 430" font-family="system-ui, sans-serif" fill="#222">
+<title>Vergleich: Links die HDD als Plattenspieler, die Scheibe dreht sich und ein Arm fährt zur richtigen Stelle, das dauert einen Moment. Rechts die SSD als Wand voller Lichtschalter, jeder Schalter ist sofort erreichbar, nichts bewegt sich. Unten: Wo der Vergleich hinkt. Beim Plattenspieler berührt die Nadel die Platte, der Kopf der HDD schwebt über der Scheibe und darf sie nie berühren.</title>
+<rect width="400" height="430" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">HDD und SSD im Alltag</text>
+<!-- links HDD -->
+<rect x="10" y="40" width="185" height="230" rx="10" fill="#eef3fc" stroke="#3a6ed8" stroke-width="2"/>
+<text x="102" y="64" text-anchor="middle" font-size="16" font-weight="700" fill="#3a6ed8">HDD</text>
+<text x="102" y="84" text-anchor="middle" font-size="14">= Plattenspieler</text>
+<rect x="30" y="98" width="145" height="104" rx="8" fill="#fff" stroke="#555" stroke-width="1.5"/>
+<circle cx="88" cy="150" r="42" fill="#333"/><circle cx="88" cy="150" r="30" fill="none" stroke="#555" stroke-width="1"/><circle cx="88" cy="150" r="20" fill="none" stroke="#555" stroke-width="1"/><circle cx="88" cy="150" r="9" fill="#3a6ed8"/>
+<path d="M60,112 a42,42 0 0 0 -10,22" fill="none" stroke="#E07B00" stroke-width="3"/>
+<path d="M46,128 L50,138 L57,130 Z" fill="#E07B00"/>
+<circle cx="160" cy="112" r="6" fill="#555"/>
+<line x1="160" y1="112" x2="114" y2="170" stroke="#555" stroke-width="4" stroke-linecap="round"/>
+<text x="102" y="228" text-anchor="middle" font-size="14">dreht sich, Arm fährt hin</text>
+<text x="102" y="250" text-anchor="middle" font-size="14" font-weight="700">→ dauert einen Moment</text>
+<!-- rechts SSD -->
+<rect x="205" y="40" width="185" height="230" rx="10" fill="#eaf6ee" stroke="#2e9e5b" stroke-width="2"/>
+<text x="297" y="64" text-anchor="middle" font-size="16" font-weight="700" fill="#2e9e5b">SSD</text>
+<text x="297" y="84" text-anchor="middle" font-size="14">= Lichtschalter-Wand</text>
+<rect x="225" y="98" width="145" height="104" rx="8" fill="#fff" stroke="#555" stroke-width="1.5"/>
+<g fill="#f4f1ee" stroke="#555" stroke-width="1.5">
+<rect x="237" y="108" width="24" height="24" rx="3"/><rect x="269" y="108" width="24" height="24" rx="3"/><rect x="301" y="108" width="24" height="24" rx="3"/><rect x="333" y="108" width="24" height="24" rx="3"/>
+<rect x="237" y="140" width="24" height="24" rx="3"/><rect x="269" y="140" width="24" height="24" rx="3"/><rect x="301" y="140" width="24" height="24" rx="3"/><rect x="333" y="140" width="24" height="24" rx="3"/>
+<rect x="237" y="172" width="24" height="24" rx="3"/><rect x="269" y="172" width="24" height="24" rx="3"/><rect x="301" y="172" width="24" height="24" rx="3"/><rect x="333" y="172" width="24" height="24" rx="3"/>
+</g>
+<rect x="306" y="145" width="14" height="14" rx="2" fill="#2e9e5b"/>
+<text x="297" y="228" text-anchor="middle" font-size="14">jeder Schalter sofort da</text>
+<text x="297" y="250" text-anchor="middle" font-size="14" font-weight="700">→ nichts bewegt sich</text>
+<!-- hinkt -->
+<text x="10" y="300" font-size="15" font-weight="700" fill="#E07B00">Wo der Vergleich hinkt:</text>
+<rect x="10" y="310" width="380" height="110" rx="10" fill="#fdf0e0" stroke="#E07B00" stroke-width="2"/>
+<rect x="30" y="368" width="150" height="10" fill="#333"/>
+<path d="M90,334 L100,368 L110,334 Z" fill="#555"/>
+<text x="105" y="400" text-anchor="middle" font-size="14">Nadel berührt</text>
+<rect x="220" y="368" width="150" height="10" fill="#3a6ed8"/>
+<path d="M285,330 L295,354 L305,330 Z" fill="#555"/>
+<line x1="280" y1="361" x2="310" y2="361" stroke="#E07B00" stroke-width="2" stroke-dasharray="3 3"/>
+<text x="295" y="400" text-anchor="middle" font-size="14" font-weight="700">HDD-Kopf schwebt</text>
+</svg>

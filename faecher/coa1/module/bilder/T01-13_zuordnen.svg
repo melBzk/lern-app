@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 560" font-family="system-ui, sans-serif" font-size="14" fill="#222">
+<title>Zuordnen mit einer Frage: Wie groß ist das Gebiet? Fünf Zeilen, jeweils Situation, Gebiet und Netz. Handy und Funk-Kopfhörer, um eine Person: PAN. Arztpraxis, ein Gebäude: LAN. Werk mit Verwaltung, Halle und Lager, ein Firmengelände: CAN. Bäckerei-Filialen in allen Stadtteilen, eine Stadt: MAN. Standorte in zwei weit entfernten Städten, weite Entfernung: WAN. Unten der Merkspruch Paula Liest Comics, Max Wäscht Gläser für PAN, LAN, CAN, MAN, WAN, GAN.</title>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker></defs>
+<rect width="400" height="560" fill="#fff"/>
+<rect x="40" y="12" width="320" height="38" rx="19" fill="#fde3c3" stroke="#E07B00" stroke-width="2"/>
+<text x="200" y="37" text-anchor="middle" font-size="16" font-weight="700" fill="#a85a00">Wie groß ist das Gebiet?</text>
+<g>
+<rect x="12" y="66" width="268" height="58" rx="8" fill="#f4f6f9" stroke="#9aa3ad"/>
+<text x="24" y="90" font-weight="700">Handy + Funk-Kopfhörer</text>
+<text x="24" y="111" font-size="13" fill="#555">um eine Person</text>
+<line x1="282" y1="95" x2="306" y2="95" stroke="#555" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="310" y="76" width="78" height="38" rx="8" fill="#E07B00"/>
+<text x="349" y="101" text-anchor="middle" font-size="17" font-weight="700" fill="#fff">PAN</text>
+</g>
+<g>
+<rect x="12" y="136" width="268" height="58" rx="8" fill="#f4f6f9" stroke="#9aa3ad"/>
+<text x="24" y="160" font-weight="700">PCs + Drucker einer Arztpraxis</text>
+<text x="24" y="181" font-size="13" fill="#555">ein Gebäude</text>
+<line x1="282" y1="165" x2="306" y2="165" stroke="#555" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="310" y="146" width="78" height="38" rx="8" fill="#3a6ed8"/>
+<text x="349" y="171" text-anchor="middle" font-size="17" font-weight="700" fill="#fff">LAN</text>
+</g>
+<g>
+<rect x="12" y="206" width="268" height="58" rx="8" fill="#f4f6f9" stroke="#9aa3ad"/>
+<text x="24" y="230" font-weight="700">Werk: Verwaltung, Halle, Lager</text>
+<text x="24" y="251" font-size="13" fill="#555">ein Firmengelände</text>
+<line x1="282" y1="235" x2="306" y2="235" stroke="#555" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="310" y="216" width="78" height="38" rx="8" fill="#3a6ed8"/>
+<text x="349" y="241" text-anchor="middle" font-size="17" font-weight="700" fill="#fff">CAN</text>
+</g>
+<g>
+<rect x="12" y="276" width="268" height="58" rx="8" fill="#f4f6f9" stroke="#9aa3ad"/>
+<text x="24" y="300" font-weight="700">Bäckerei-Filialen in der Stadt</text>
+<text x="24" y="321" font-size="13" fill="#555">eine Stadt</text>
+<line x1="282" y1="305" x2="306" y2="305" stroke="#555" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="310" y="286" width="78" height="38" rx="8" fill="#3a6ed8"/>
+<text x="349" y="311" text-anchor="middle" font-size="17" font-weight="700" fill="#fff">MAN</text>
+</g>
+<g>
+<rect x="12" y="346" width="268" height="58" rx="8" fill="#f4f6f9" stroke="#9aa3ad"/>
+<text x="24" y="370" font-weight="700">Standorte in 2 fernen Städten</text>
+<text x="24" y="391" font-size="13" fill="#555">weite Entfernung</text>
+<line x1="282" y1="375" x2="306" y2="375" stroke="#555" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="310" y="356" width="78" height="38" rx="8" fill="#1d3f8a"/>
+<text x="349" y="381" text-anchor="middle" font-size="17" font-weight="700" fill="#fff">WAN</text>
+</g>
+<line x1="12" y1="425" x2="388" y2="425" stroke="#ccc" stroke-width="1.5"/>
+<text x="200" y="452" text-anchor="middle" font-size="14" fill="#555">Merkspruch für die Reihenfolge</text>
+<text x="200" y="484" text-anchor="middle" font-size="18"><tspan font-weight="700" fill="#E07B00">P</tspan>aula <tspan font-weight="700" fill="#E07B00">L</tspan>iest <tspan font-weight="700" fill="#E07B00">C</tspan>omics,</text>
+<text x="200" y="512" text-anchor="middle" font-size="18"><tspan font-weight="700" fill="#E07B00">M</tspan>ax <tspan font-weight="700" fill="#E07B00">W</tspan>äscht <tspan font-weight="700" fill="#E07B00">G</tspan>läser</text>
+<text x="200" y="542" text-anchor="middle" font-size="15" font-weight="700" fill="#1d3f8a">PAN · LAN · CAN · MAN · WAN · GAN</text>
+</svg>

@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 640" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>RISC: Im Steuerwerk sind die einfachen Befehle LOAD, ADD, CMP und STORE als feste Leitungen gebaut – fest verdrahtet. Ein durchgestrichener Ordner zeigt: Mikrocode gibt es nicht. Ein Regal mit 16 Fächern R1 bis R16: viele Register für schnelle Zugriffe. Drei gleich lange Balken: alle Befehle gleich lang. Uhr mit nur zwei Taktzacken: wenige Takte.</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker><marker id="o" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E07B00"/></marker><marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6b4f"/></marker><marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker></defs>
+<rect width="400" height="640" fill="#fff"/>
+<text x="200" y="28" font-size="17" text-anchor="middle" font-weight="700">RISC: einfache Befehle</text>
+<rect x="10" y="46" width="200" height="200" rx="10" fill="#e3f0e9" stroke="#2f6b4f" stroke-width="2.5"/>
+<text x="110" y="70" font-size="15" text-anchor="middle" font-weight="700" fill="#2f6b4f">Steuerwerk</text>
+<line x1="26" y1="98" x2="194" y2="98" stroke="#333" stroke-width="3"/>
+<circle cx="26" cy="98" r="5" fill="#555"/><circle cx="194" cy="98" r="5" fill="#555"/>
+<rect x="74" y="85" width="72" height="26" rx="4" fill="#fff" stroke="#2f6b4f" stroke-width="1.5"/>
+<text x="110" y="104" font-size="14" text-anchor="middle" font-weight="700">LOAD</text>
+<line x1="26" y1="136" x2="194" y2="136" stroke="#333" stroke-width="3"/>
+<circle cx="26" cy="136" r="5" fill="#555"/><circle cx="194" cy="136" r="5" fill="#555"/>
+<rect x="74" y="123" width="72" height="26" rx="4" fill="#fff" stroke="#2f6b4f" stroke-width="1.5"/>
+<text x="110" y="142" font-size="14" text-anchor="middle" font-weight="700">ADD</text>
+<line x1="26" y1="174" x2="194" y2="174" stroke="#333" stroke-width="3"/>
+<circle cx="26" cy="174" r="5" fill="#555"/><circle cx="194" cy="174" r="5" fill="#555"/>
+<rect x="74" y="161" width="72" height="26" rx="4" fill="#fff" stroke="#2f6b4f" stroke-width="1.5"/>
+<text x="110" y="180" font-size="14" text-anchor="middle" font-weight="700">CMP</text>
+<line x1="26" y1="212" x2="194" y2="212" stroke="#333" stroke-width="3"/>
+<circle cx="26" cy="212" r="5" fill="#555"/><circle cx="194" cy="212" r="5" fill="#555"/>
+<rect x="74" y="199" width="72" height="26" rx="4" fill="#fff" stroke="#2f6b4f" stroke-width="1.5"/>
+<text x="110" y="218" font-size="14" text-anchor="middle" font-weight="700">STORE</text>
+<text x="110" y="268" font-size="15" text-anchor="middle" font-weight="700" fill="#2f6b4f">fest verdrahtet</text>
+<rect x="240" y="66" width="50" height="16" rx="3" fill="#d9a066" stroke="#6b4f2a" stroke-width="2"/>
+<rect x="240" y="78" width="130" height="84" rx="4" fill="#d9a066" stroke="#6b4f2a" stroke-width="2"/>
+<line x1="232" y1="60" x2="378" y2="170" stroke="#c62828" stroke-width="5"/><line x1="378" y1="60" x2="232" y2="170" stroke="#c62828" stroke-width="5"/>
+<rect x="259" y="106" width="92" height="28" rx="4" fill="#fff" stroke="#6b4f2a" stroke-width="1.5"/>
+<text x="305" y="126" font-size="15" text-anchor="middle" font-weight="700">Mikrocode</text>
+<text x="305" y="198" font-size="14" text-anchor="middle" font-weight="700" fill="#c62828">Mikrocode –</text>
+<text x="305" y="218" font-size="14" text-anchor="middle" font-weight="700" fill="#c62828">gibt es nicht</text>
+<rect x="40" y="296" width="320" height="76" rx="4" fill="#f6ecd2" stroke="#7a6a48" stroke-width="2"/>
+<line x1="80" y1="296" x2="80" y2="372" stroke="#7a6a48" stroke-width="1.5"/>
+<line x1="120" y1="296" x2="120" y2="372" stroke="#7a6a48" stroke-width="1.5"/>
+<line x1="160" y1="296" x2="160" y2="372" stroke="#7a6a48" stroke-width="1.5"/>
+<line x1="200" y1="296" x2="200" y2="372" stroke="#7a6a48" stroke-width="1.5"/>
+<line x1="240" y1="296" x2="240" y2="372" stroke="#7a6a48" stroke-width="1.5"/>
+<line x1="280" y1="296" x2="280" y2="372" stroke="#7a6a48" stroke-width="1.5"/>
+<line x1="320" y1="296" x2="320" y2="372" stroke="#7a6a48" stroke-width="1.5"/>
+<line x1="40" y1="334" x2="360" y2="334" stroke="#7a6a48" stroke-width="1.5"/>
+<text x="60" y="320" font-size="13" text-anchor="middle" fill="#555">R1</text>
+<text x="100" y="320" font-size="13" text-anchor="middle" fill="#555">R2</text>
+<text x="140" y="320" font-size="13" text-anchor="middle" fill="#555">R3</text>
+<text x="180" y="320" font-size="13" text-anchor="middle" fill="#555">R4</text>
+<text x="220" y="320" font-size="13" text-anchor="middle" fill="#555">R5</text>
+<text x="260" y="320" font-size="13" text-anchor="middle" fill="#555">R6</text>
+<text x="300" y="320" font-size="13" text-anchor="middle" fill="#555">R7</text>
+<text x="340" y="320" font-size="13" text-anchor="middle" fill="#555">R8</text>
+<text x="60" y="358" font-size="13" text-anchor="middle" fill="#555">R9</text>
+<text x="100" y="358" font-size="13" text-anchor="middle" fill="#555">R10</text>
+<text x="140" y="358" font-size="13" text-anchor="middle" fill="#555">R11</text>
+<text x="180" y="358" font-size="13" text-anchor="middle" fill="#555">R12</text>
+<text x="220" y="358" font-size="13" text-anchor="middle" fill="#555">R13</text>
+<text x="260" y="358" font-size="13" text-anchor="middle" fill="#555">R14</text>
+<text x="300" y="358" font-size="13" text-anchor="middle" fill="#555">R15</text>
+<text x="340" y="358" font-size="13" text-anchor="middle" fill="#555">R16</text>
+<text x="200" y="396" font-size="15" text-anchor="middle" font-weight="700">viele Register</text>
+<text x="200" y="414" font-size="13" text-anchor="middle" fill="#444">für schnelle Zugriffe</text>
+<rect x="110" y="436" width="180" height="24" rx="3" fill="#dcefe4" stroke="#2f6b4f" stroke-width="2"/>
+<text x="200" y="453" font-size="14" text-anchor="middle" font-weight="700">LOAD</text>
+<rect x="110" y="466" width="180" height="24" rx="3" fill="#dcefe4" stroke="#2f6b4f" stroke-width="2"/>
+<text x="200" y="483" font-size="14" text-anchor="middle" font-weight="700">ADD</text>
+<rect x="110" y="496" width="180" height="24" rx="3" fill="#dcefe4" stroke="#2f6b4f" stroke-width="2"/>
+<text x="200" y="513" font-size="14" text-anchor="middle" font-weight="700">STORE</text>
+<line x1="110" y1="430" x2="110" y2="532" stroke="#888" stroke-width="1.5" stroke-dasharray="4 3"/>
+<line x1="290" y1="430" x2="290" y2="532" stroke="#888" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="200" y="552" font-size="15" text-anchor="middle" font-weight="700">alle Befehle gleich lang</text>
+<circle cx="48" cy="598" r="24" fill="#fff" stroke="#333" stroke-width="3"/><line x1="48" y1="598" x2="48" y2="581" stroke="#333" stroke-width="3"/><line x1="48" y1="598" x2="63" y2="598" stroke="#333" stroke-width="3"/><circle cx="48" cy="598" r="3" fill="#333"/>
+<path d="M92,612 V584 h24 V612 h24 V584 h24 V612 h24" fill="none" stroke="#333" stroke-width="3"/>
+<text x="204" y="606" font-size="16" font-weight="700" fill="#E07B00">wenige Takte</text>
+</svg>

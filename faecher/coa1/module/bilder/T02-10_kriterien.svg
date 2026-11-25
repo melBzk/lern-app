@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" font-family="system-ui, sans-serif" fill="#222">
+<title>Zwei Listen mit Auswahlkriterien. Unterricht: Zuverlässigkeit, Preis, Datenabrufgeschwindigkeit. Buch: Speicherkapazität, Lese- und Schreibgeschwindigkeit, Datenhaltbarkeit, Datensicherheit. Die Geschwindigkeit steht in beiden Listen und ist hervorgehoben. Tipp: In der Klausur Kriterien aus beiden Listen nennen.</title>
+<rect width="400" height="400" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">Nach welchen Kriterien auswählen?</text>
+<!-- Unterricht -->
+<rect x="10" y="40" width="185" height="270" rx="10" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<text x="102" y="66" text-anchor="middle" font-size="16" font-weight="700" fill="#3a6ed8">Unterricht</text>
+<g font-size="14">
+<rect x="22" y="80" width="161" height="40" rx="6" fill="#fff"/><text x="102" y="105" text-anchor="middle">Zuverlässigkeit</text>
+<rect x="22" y="128" width="161" height="40" rx="6" fill="#fff"/><text x="102" y="153" text-anchor="middle">Preis</text>
+<rect x="22" y="228" width="161" height="52" rx="6" fill="#fdf0e0" stroke="#E07B00" stroke-width="2.5"/><text x="102" y="250" text-anchor="middle" font-weight="700">Datenabruf-</text><text x="102" y="268" text-anchor="middle" font-weight="700">geschwindigkeit</text>
+</g>
+<!-- Buch -->
+<rect x="205" y="40" width="185" height="270" rx="10" fill="#f4f1ee" stroke="#555" stroke-width="2"/>
+<text x="297" y="66" text-anchor="middle" font-size="16" font-weight="700">Buch</text>
+<g font-size="14">
+<rect x="217" y="80" width="161" height="40" rx="6" fill="#fff"/><text x="297" y="105" text-anchor="middle">Speicherkapazität</text>
+<rect x="217" y="128" width="161" height="40" rx="6" fill="#fff"/><text x="297" y="153" text-anchor="middle">Datenhaltbarkeit</text>
+<rect x="217" y="176" width="161" height="40" rx="6" fill="#fff"/><text x="297" y="201" text-anchor="middle">Datensicherheit</text>
+<rect x="217" y="228" width="161" height="52" rx="6" fill="#fdf0e0" stroke="#E07B00" stroke-width="2.5"/><text x="297" y="250" text-anchor="middle" font-weight="700">Lese-/Schreib-</text><text x="297" y="268" text-anchor="middle" font-weight="700">geschwindigkeit</text>
+</g>
+<!-- Gemeinsam -->
+<line x1="183" y1="254" x2="217" y2="254" stroke="#E07B00" stroke-width="4"/>
+<text x="200" y="336" text-anchor="middle" font-size="15" font-weight="700" fill="#E07B00">Tempo steht in beiden Listen</text>
+<rect x="10" y="350" width="380" height="40" rx="10" fill="#e3f0e9"/>
+<text x="200" y="376" text-anchor="middle" font-size="14">Klausur: Kriterien aus <tspan font-weight="700">beiden</tspan> Listen nennen</text>
+</svg>

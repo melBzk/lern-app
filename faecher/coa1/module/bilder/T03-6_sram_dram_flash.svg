@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" font-family="system-ui, sans-serif" fill="#222" role="img">
+<title>SRAM, DRAM oder Flash in drei Spalten. SRAM: Cache in der CPU, Strom weg = Inhalt weg, bis zu 8 Transistoren je Bit, am schnellsten, teuer. DRAM: Arbeitsspeicher, Strom weg = Inhalt weg, Ladung plus 1 Transistor je Bit, schnell (ns), günstiger. Flash: SSD, USB-Stick, Speicherkarte, Strom weg = Inhalt bleibt, langsamer als RAM. Unten die Eselsbrücke: SRAM = Schnell und Statisch, DRAM = Dauernd auffrischen.</title>
+<rect width="400" height="500" fill="#fff"/>
+<text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700">SRAM, DRAM oder Flash?</text>
+<rect x="8" y="44" width="124" height="360" rx="10" fill="#fff4e0" stroke="#E07B00" stroke-width="2"/>
+<rect x="138" y="44" width="124" height="360" rx="10" fill="#e3ecfb" stroke="#3a6ed8" stroke-width="2"/>
+<rect x="268" y="44" width="124" height="360" rx="10" fill="#e6f4ea" stroke="#2f9e44" stroke-width="2"/>
+<g text-anchor="middle">
+<text x="70" y="72" font-size="17" font-weight="700" fill="#c25e00">SRAM</text>
+<text x="200" y="72" font-size="17" font-weight="700" fill="#3a6ed8">DRAM</text>
+<text x="330" y="72" font-size="17" font-weight="700" fill="#2f9e44">Flash</text>
+<text x="70" y="102" font-size="14" font-weight="700">Cache</text><text x="70" y="120" font-size="13">in der CPU</text>
+<text x="200" y="102" font-size="14" font-weight="700">Arbeits-</text><text x="200" y="120" font-size="14" font-weight="700">speicher</text>
+<text x="330" y="102" font-size="14" font-weight="700">SSD, USB-Stick,</text><text x="330" y="120" font-size="13">Speicherkarte</text>
+<text x="200" y="152" font-size="13" fill="#555">Strom weg?</text>
+<text x="70" y="178" font-size="14" font-weight="700" fill="#c62828">Inhalt weg</text>
+<text x="200" y="178" font-size="14" font-weight="700" fill="#c62828">Inhalt weg</text>
+<text x="330" y="178" font-size="14" font-weight="700" fill="#2f9e44">Inhalt bleibt</text>
+<text x="200" y="210" font-size="13" fill="#555">je Bit</text>
+<g fill="#E07B00"><rect x="40" y="222" width="6" height="22"/><rect x="48" y="222" width="6" height="22"/><rect x="56" y="222" width="6" height="22"/><rect x="64" y="222" width="6" height="22"/><rect x="72" y="222" width="6" height="22"/><rect x="80" y="222" width="6" height="22"/><rect x="88" y="222" width="6" height="22"/><rect x="96" y="222" width="6" height="22"/></g>
+<text x="70" y="264" font-size="13">bis 8 Transistoren</text>
+<rect x="182" y="222" width="10" height="22" fill="#3a6ed8"/><path d="M198,224 h14 v20 h-14 z" fill="#9db7ea" stroke="#3a6ed8" stroke-width="1.5"/>
+<text x="200" y="264" font-size="13">Ladung + 1 Trans.</text>
+<text x="330" y="240" font-size="13" fill="#9aa3ad">–</text>
+<text x="200" y="296" font-size="13" fill="#555">Tempo</text>
+<text x="70" y="320" font-size="14" font-weight="700">am schnellsten</text>
+<text x="200" y="320" font-size="14" font-weight="700">schnell (ns)</text>
+<text x="330" y="320" font-size="14" font-weight="700">langsamer</text>
+<text x="200" y="352" font-size="13" fill="#555">Preis je Bit</text>
+<text x="70" y="380" font-size="16" font-weight="700">€€€</text>
+<text x="200" y="380" font-size="16" font-weight="700">€</text>
+<text x="330" y="380" font-size="13" fill="#9aa3ad">–</text>
+</g>
+<rect x="10" y="418" width="380" height="70" rx="10" fill="#f4f5f7"/>
+<text x="24" y="444" font-size="15"><tspan font-weight="700" fill="#c25e00">S</tspan>RAM = <tspan font-weight="700">S</tspan>chnell und <tspan font-weight="700">S</tspan>tatisch</text>
+<text x="24" y="472" font-size="15"><tspan font-weight="700" fill="#3a6ed8">D</tspan>RAM = <tspan font-weight="700">D</tspan>auernd auffrischen</text>
+</svg>

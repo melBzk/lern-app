@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 470" font-family="system-ui, sans-serif" role="img">
+  <title>Der Laserdrucker im Büro. Stärken: 1200 dpi und mehr, leise, schnell, günstig pro Seite. Dokumentenecht: Nässe schadet dem Ausdruck nicht. Farblaser: vier Tonerkartuschen in Cyan, Magenta, Gelb und Schwarz; größer und teurer; Text sehr gut, Fotos nur mittel.</title>
+  <rect width="400" height="470" fill="#fff"/>
+  <text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700" fill="#222">Laserdrucker = idealer Bürodrucker</text>
+  <rect x="20" y="64" width="130" height="70" rx="10" fill="#e5e7eb" stroke="#3a3f4a" stroke-width="3"/>
+  <rect x="40" y="52" width="90" height="14" fill="#fff" stroke="#333"/>
+  <rect x="34" y="96" width="102" height="10" rx="3" fill="#3a3f4a"/>
+  <rect x="46" y="128" width="78" height="30" fill="#fff" stroke="#333"/>
+  <g stroke="#333" stroke-width="2"><line x1="54" y1="138" x2="116" y2="138"/><line x1="54" y1="148" x2="104" y2="148"/></g>
+  <g fill="#e8f6ee" stroke="#1f9d55" stroke-width="2">
+    <rect x="170" y="44" width="220" height="32" rx="16"/><rect x="170" y="84" width="104" height="32" rx="16"/><rect x="284" y="84" width="106" height="32" rx="16"/><rect x="170" y="124" width="220" height="32" rx="16"/></g>
+  <g font-size="14" font-weight="700" fill="#14653a" text-anchor="middle">
+    <text x="280" y="65">1200 dpi und mehr</text><text x="222" y="105">leise</text><text x="337" y="105">schnell</text><text x="280" y="145">günstig pro Seite</text></g>
+  <rect x="8" y="180" width="384" height="92" rx="12" fill="#f3f4f6" stroke="#bbb"/>
+  <rect x="26" y="192" width="48" height="66" fill="#fff" stroke="#333" stroke-width="1.5"/>
+  <g stroke="#111" stroke-width="2.5"><line x1="32" y1="206" x2="68" y2="206"/><line x1="32" y1="218" x2="68" y2="218"/><line x1="32" y1="230" x2="68" y2="230"/><line x1="32" y1="242" x2="58" y2="242"/></g>
+  <path d="M90,194 C83,206 78,214 78,222 a12,12 0 0 0 24,0 C102,214 97,206 90,194 z" fill="#1fa3c9"/>
+  <text x="116" y="216" font-size="16" font-weight="700" fill="#222">dokumentenecht</text>
+  <text x="116" y="240" font-size="14" fill="#333">Nässe schadet dem Ausdruck nicht</text>
+  <rect x="8" y="286" width="384" height="174" rx="12" fill="#fff" stroke="#E07B00" stroke-width="2"/>
+  <text x="24" y="314" font-size="16" font-weight="700" fill="#b35f00">Farblaser</text>
+  <rect x="24" y="328" width="80" height="26" rx="4" fill="#1fa3c9"/><rect x="112" y="328" width="80" height="26" rx="4" fill="#d6338a"/><rect x="200" y="328" width="80" height="26" rx="4" fill="#f2c200"/><rect x="288" y="328" width="80" height="26" rx="4" fill="#111"/>
+  <g font-size="14" font-weight="700" text-anchor="middle"><text x="64" y="346" fill="#fff">Cyan</text><text x="152" y="346" fill="#fff">Magenta</text><text x="240" y="346" fill="#222">Gelb</text><text x="328" y="346" fill="#fff">Schwarz</text></g>
+  <text x="24" y="378" font-size="14" fill="#333">4 Tonerkartuschen</text>
+  <text x="24" y="404" font-size="15" font-weight="700" fill="#222">größer und teurer</text>
+  <text x="24" y="434" font-size="14" fill="#14653a" font-weight="700">Text: sehr gut</text>
+  <text x="170" y="434" font-size="14" fill="#b35f00" font-weight="700">Fotos: nur mittel</text>
+</svg>

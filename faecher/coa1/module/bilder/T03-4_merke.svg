@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 470" font-family="system-ui, sans-serif" fill="#222" role="img">
+<title>Merkbild in 5 Zeilen: 1 Multi-Core = mehrere Rechenwerke in einem Prozessor, jeder Kern mit eigenem L1-Cache. 2 Grund: Ein immer höher getakteter Einzelkern wurde zu heiß. 3 Mehr Kerne sind nur schneller, wenn die Software parallel arbeitet oder mehrere Programme laufen. 4 Hyper-Threading: 1 physischer Kern wird zu 2 logischen Prozessoren, nutzt freie Teile desselben Kerns. 5 i7-12700H: 6 P mal 2 plus 8 E mal 1 = 20 logische Prozessoren bei 14 Kernen.</title>
+<rect width="400" height="470" fill="#fff"/>
+<text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700">Das Wichtigste</text>
+<rect x="10" y="42" width="380" height="76" rx="10" fill="#f4f5f7"/>
+<rect x="20" y="56" width="48" height="48" rx="4" fill="#fff" stroke="#555" stroke-width="2"/><rect x="25" y="61" width="18" height="18" fill="#3a6ed8"/><rect x="45" y="61" width="18" height="18" fill="#3a6ed8"/><rect x="25" y="81" width="18" height="18" fill="#3a6ed8"/><rect x="45" y="81" width="18" height="18" fill="#3a6ed8"/>
+<text x="80" y="74" font-size="15" font-weight="700">Multi-Core = mehrere Rechenwerke</text>
+<text x="80" y="96" font-size="15">jeder Kern: eigener L1-Cache</text>
+<rect x="10" y="124" width="380" height="60" rx="10" fill="#f4f5f7"/>
+<rect x="38" y="134" width="12" height="32" rx="6" fill="#fff" stroke="#555" stroke-width="2"/><rect x="41" y="142" width="6" height="24" fill="#c62828"/><circle cx="44" cy="170" r="8" fill="#c62828" stroke="#555" stroke-width="2"/>
+<text x="80" y="150" font-size="15" font-weight="700">Grund: ein Einzelkern mit immer</text>
+<text x="80" y="172" font-size="15">höherem Takt wurde zu heiß</text>
+<rect x="10" y="190" width="380" height="76" rx="10" fill="#f4f5f7"/>
+<path d="M22,212 q8,-10 16,0 t16,0 t16,0 M22,228 q8,-10 16,0 t16,0 t16,0 M22,244 q8,-10 16,0 t16,0 t16,0" stroke="#E07B00" stroke-width="2.5" fill="none"/>
+<text x="80" y="214" font-size="15" font-weight="700">Mehr Kerne nur schneller, wenn</text>
+<text x="80" y="236" font-size="15">Software parallel arbeitet oder</text>
+<text x="80" y="256" font-size="15">mehrere Programme laufen</text>
+<rect x="10" y="272" width="380" height="80" rx="10" fill="#fff4e0" stroke="#E07B00" stroke-width="2"/>
+<rect x="22" y="288" width="44" height="44" rx="4" fill="#3a6ed8"/><path d="M28,302 H60 M28,318 H60" stroke="#fff" stroke-width="3"/>
+<text x="80" y="298" font-size="15" font-weight="700">Hyper-Threading: 1 Kern →</text>
+<text x="80" y="320" font-size="15" font-weight="700">2 logische Prozessoren</text>
+<text x="80" y="340" font-size="14">nutzt freie Teile desselben Kerns</text>
+<rect x="10" y="358" width="380" height="100" rx="10" fill="#f4f5f7"/>
+<text x="24" y="384" font-size="15" font-weight="700">i7-12700H</text>
+<text x="24" y="412" font-size="16"><tspan fill="#E07B00" font-weight="700">6P</tspan> × 2 + <tspan fill="#2f9e44" font-weight="700">8E</tspan> × 1 = <tspan font-weight="700">20</tspan> logische</text>
+<text x="24" y="440" font-size="16">bei <tspan font-weight="700">14</tspan> Kernen</text>
+</svg>

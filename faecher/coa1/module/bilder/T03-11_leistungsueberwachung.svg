@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 580" font-family="system-ui, sans-serif">
+  <title>Vereinfacht nachgebautes Fenster Leistungsüberwachung. Oben ein Baum: Überwachungstools mit dem Eintrag Leistungsüberwachung (ausgewählt), dazu Datensammlersätze und Berichte. In der Werkzeugleiste ein großes grünes Plus mit der Sprechblase Leistungsindikator hinzufügen. Darunter ein Diagramm mit drei Kurven in verschiedenen Farben: Prozessorzeit (%) in Rot, Arbeitsspeicher: Seiten/s in Grün, TCPv4: Verbindungsfehler in Blau.</title>
+  <rect width="400" height="580" fill="#fff"/>
+
+  <!-- Fenster -->
+  <rect x="6" y="8" width="388" height="564" rx="8" fill="#f3f4f6" stroke="#555" stroke-width="2"/>
+  <path d="M6,16 Q6,8 14,8 L386,8 Q394,8 394,16 L394,38 L6,38 Z" fill="#555"/>
+  <text x="18" y="29" font-size="14" font-weight="700" fill="#fff">Leistungsüberwachung</text>
+  <text x="382" y="29" text-anchor="end" font-size="13" fill="#ddd">vereinfacht</text>
+
+  <!-- Baum -->
+  <rect x="12" y="46" width="376" height="122" rx="6" fill="#fff" stroke="#ccc"/>
+  <g font-size="14" fill="#222">
+    <text x="22" y="70">▾ Überwachungstools</text>
+    <rect x="40" y="78" width="200" height="26" rx="4" fill="#3a6ed8"/>
+    <text x="50" y="96" font-weight="700" fill="#fff">Leistungsüberwachung</text>
+    <text x="22" y="128">▸ Datensammlersätze</text>
+    <text x="22" y="156">▸ Berichte</text>
+  </g>
+
+  <!-- Werkzeugleiste mit grünem Plus -->
+  <rect x="12" y="178" width="376" height="44" rx="6" fill="#fff" stroke="#ccc"/>
+  <g fill="#bbb"><rect x="24" y="190" width="20" height="20" rx="3"/><rect x="52" y="190" width="20" height="20" rx="3"/></g>
+  <rect x="80" y="184" width="32" height="32" rx="5" fill="#e9f7ee" stroke="#1f9d55" stroke-width="2"/>
+  <path d="M96,189 L96,211 M85,200 L107,200" stroke="#1f9d55" stroke-width="6" stroke-linecap="round"/>
+  <g fill="#bbb"><rect x="120" y="190" width="20" height="20" rx="3"/><rect x="148" y="190" width="20" height="20" rx="3"/></g>
+  <!-- Sprechblase -->
+  <path d="M176,186 L184,196 L176,206 Z" fill="#1f9d55"/>
+  <rect x="184" y="180" width="200" height="40" rx="10" fill="#1f9d55"/>
+  <text x="284" y="205" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">Leistungsindikator hinzufügen</text>
+
+  <!-- Diagramm -->
+  <rect x="12" y="232" width="376" height="200" rx="6" fill="#fff" stroke="#ccc"/>
+  <g stroke="#eee" stroke-width="1"><line x1="44" y1="262" x2="378" y2="262"/><line x1="44" y1="302" x2="378" y2="302"/><line x1="44" y1="342" x2="378" y2="342"/><line x1="44" y1="382" x2="378" y2="382"/></g>
+  <line x1="44" y1="246" x2="44" y2="420" stroke="#999" stroke-width="1.5"/>
+  <line x1="44" y1="420" x2="378" y2="420" stroke="#999" stroke-width="1.5"/>
+  <text x="38" y="262" text-anchor="end" font-size="13" fill="#555">100</text>
+  <text x="38" y="424" text-anchor="end" font-size="13" fill="#555">0</text>
+  <path d="M44,370 L66,330 L84,356 L104,322 L124,362 L146,334 L166,376 L190,340 L212,358 L236,316 L258,352 L280,330 L302,364 L326,326 L350,350 L378,334" fill="none" stroke="#d63c3c" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M44,404 L80,402 L116,396 L150,400 L186,388 L220,392 L256,380 L290,384 L326,372 L378,378" fill="none" stroke="#1f9d55" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M44,414 L120,414 L130,404 L140,414 L250,414 L260,400 L270,414 L378,414" fill="none" stroke="#3a6ed8" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Legende wie im Programm -->
+  <rect x="12" y="442" width="376" height="120" rx="6" fill="#fff" stroke="#ccc"/>
+  <g font-size="14" fill="#222">
+    <line x1="24" y1="470" x2="58" y2="470" stroke="#d63c3c" stroke-width="4"/>
+    <text x="68" y="475">Prozessorzeit (%)</text>
+    <line x1="24" y1="504" x2="58" y2="504" stroke="#1f9d55" stroke-width="4"/>
+    <text x="68" y="509">Arbeitsspeicher: Seiten/s</text>
+    <line x1="24" y1="538" x2="58" y2="538" stroke="#3a6ed8" stroke-width="4"/>
+    <text x="68" y="543">TCPv4: Verbindungsfehler</text>
+  </g>
+</svg>

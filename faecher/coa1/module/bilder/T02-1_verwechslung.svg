@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 420" font-family="system-ui, sans-serif" fill="#222" role="img">
+<title>Fünf Paare, die man nicht vertauschen darf. Bild alt: VGA analog und blau gegenüber DVI digital und weiß. Bild aktuell: HDMI digital gegenüber DisplayPort digital, gleichwertig daneben. Ton: Klinke analog, rund und farbig, gegenüber S/PDIF digital und optisch mit Licht. PS/2: grün ist Maus, lila ist Tastatur. Netz: RJ45 mit Kabel gegenüber WLAN per Funk ohne Buchse.</title>
+<rect width="400" height="420" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">5 Paare nicht vertauschen</text>
+<g fill="#f4f1ee"><rect x="8" y="38" width="384" height="72" rx="10"/><rect x="8" y="114" width="384" height="72" rx="10"/><rect x="8" y="190" width="384" height="72" rx="10"/><rect x="8" y="266" width="384" height="72" rx="10"/><rect x="8" y="342" width="384" height="72" rx="10"/></g>
+<g font-size="18" font-weight="700" fill="#D4607A" text-anchor="middle"><text x="200" y="80">↔</text><text x="200" y="156">↔</text><text x="200" y="232">↔</text><text x="200" y="308">↔</text><text x="200" y="384">↔</text></g>
+<!-- 1 VGA / DVI -->
+<path d="M18,52 H58 L54,74 H22 Z" fill="#3a6ed8"/>
+<text x="68" y="64" font-size="15" font-weight="700">VGA</text><text x="68" y="82" font-size="13">analog, blau</text><text x="68" y="99" font-size="13" fill="#666">steinalt</text>
+<rect x="212" y="52" width="44" height="22" rx="2" fill="#fff" stroke="#555" stroke-width="1.5"/><g fill="#555"><rect x="217" y="57" width="4" height="4"/><rect x="224" y="57" width="4" height="4"/><rect x="231" y="57" width="4" height="4"/><rect x="217" y="65" width="4" height="4"/><rect x="224" y="65" width="4" height="4"/><rect x="231" y="65" width="4" height="4"/><rect x="241" y="62" width="10" height="3"/></g>
+<text x="264" y="64" font-size="15" font-weight="700">DVI</text><text x="264" y="82" font-size="13">digital, weiß</text><text x="264" y="99" font-size="13" fill="#666">alt</text>
+<!-- 2 HDMI / DP -->
+<path d="M18,132 H56 V142 L50,148 H24 L18,142 Z" fill="#333"/>
+<text x="68" y="142" font-size="15" font-weight="700">HDMI</text><text x="68" y="160" font-size="13">digital, aktuell</text>
+<path d="M212,132 H250 V150 H220 L212,142 Z" fill="#333"/>
+<text x="258" y="142" font-size="15" font-weight="700">DisplayPort</text><text x="258" y="160" font-size="13">digital, aktuell</text><text x="258" y="177" font-size="13" font-weight="700">gleichwertig</text>
+<!-- 3 Klinke / SPDIF -->
+<circle cx="26" cy="218" r="8" fill="#7cc576"/><circle cx="46" cy="218" r="8" fill="#f2a6c0"/><circle cx="36" cy="238" r="8" fill="#9cc3f5"/>
+<g fill="#222"><circle cx="26" cy="218" r="3"/><circle cx="46" cy="218" r="3"/><circle cx="36" cy="238" r="3"/></g>
+<text x="68" y="218" font-size="15" font-weight="700">Klinke</text><text x="68" y="236" font-size="13">analog, rund,</text><text x="68" y="253" font-size="13">farbig</text>
+<rect x="214" y="206" width="30" height="30" rx="3" fill="#333"/><rect x="222" y="214" width="14" height="14" rx="2" fill="#D4607A"/>
+<text x="254" y="218" font-size="15" font-weight="700">S/PDIF</text><text x="254" y="236" font-size="13">digital, optisch</text><text x="254" y="253" font-size="13">(Licht)</text>
+<!-- 4 PS/2 -->
+<circle cx="36" cy="302" r="16" fill="#3fa34d" stroke="#2d7a38" stroke-width="2"/>
+<text x="68" y="298" font-size="15" font-weight="700" fill="#2d7a38">grün</text><text x="68" y="316" font-size="13">Maus</text>
+<circle cx="232" cy="302" r="16" fill="#8e5cc4" stroke="#6b4196" stroke-width="2"/>
+<text x="258" y="298" font-size="15" font-weight="700" fill="#6b4196">lila</text><text x="258" y="316" font-size="13">Tastatur</text>
+<!-- 5 RJ45 / WLAN -->
+<path d="M20,360 H52 V382 H45 V388 H27 V382 H20 Z" fill="#fff" stroke="#555" stroke-width="2"/>
+<text x="68" y="374" font-size="15" font-weight="700">RJ45</text><text x="68" y="392" font-size="13">Kabel (LAN)</text>
+<g transform="translate(232,384)" fill="none" stroke="#E07B00" stroke-width="3" stroke-linecap="round"><path d="M-6,-2 A8,8 0 0 1 6,-2"/><path d="M-13,-9 A17,17 0 0 1 13,-9"/><path d="M-20,-16 A26,26 0 0 1 20,-16"/><circle cx="0" cy="4" r="3" fill="#E07B00" stroke="none"/></g>
+<text x="258" y="374" font-size="15" font-weight="700">WLAN</text><text x="258" y="392" font-size="13">Funk, keine Buchse</text>
+</svg>

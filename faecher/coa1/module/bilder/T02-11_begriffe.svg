@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 420" font-family="system-ui, sans-serif" fill="#222">
+<title>Die 7 neuen Wörter mit kleinen Symbolen: Bit = kleinste Information, 0 oder 1. Byte = 8 Bit, reicht für ein Zeichen. Binärsystem oder Dualsystem = nur die Ziffern 0 und 1; unser normales System mit 0 bis 9 heißt Dezimalsystem. Stellenwert = was eine Stelle wert ist, 1, 2, 4, 8 bis 128. Zeichentabelle = welche Zahl steht für welches Zeichen, ASCII, ANSI, UTF-8. Hexadezimalsystem = 16 Ziffern, 0 bis 9 und A bis F. EDV = Elektronische Datenverarbeitung.</title>
+<rect width="400" height="420" fill="#fff"/>
+<text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700">7 Wörter auf einen Blick</text>
+<g fill="#f4f1ee"><rect x="10" y="40" width="380" height="50" rx="10"/><rect x="10" y="94" width="380" height="50" rx="10"/><rect x="10" y="148" width="380" height="50" rx="10"/><rect x="10" y="202" width="380" height="50" rx="10"/><rect x="10" y="256" width="380" height="50" rx="10"/><rect x="10" y="310" width="380" height="50" rx="10"/><rect x="10" y="364" width="380" height="50" rx="10"/></g>
+<g font-family="ui-monospace, Consolas, monospace" font-weight="700" text-anchor="middle">
+<!-- Bit -->
+<rect x="40" y="48" width="32" height="34" rx="5" fill="#E07B00"/><text x="56" y="72" font-size="18" fill="#fff">1</text>
+<!-- Byte -->
+<rect x="20" y="104" width="72" height="30" rx="5" fill="#fff" stroke="#E07B00" stroke-width="2"/><text x="56" y="124" font-size="13" fill="#E07B00">01100011</text>
+<!-- Binär -->
+<text x="56" y="180" font-size="20">0 1</text>
+<!-- Stellenwert -->
+<text x="56" y="234" font-size="15" fill="#3a6ed8">8 4 2 1</text>
+<!-- Zeichentabelle -->
+<rect x="22" y="264" width="68" height="34" rx="4" fill="#fff" stroke="#555" stroke-width="1.5"/><text x="56" y="287" font-size="14">99 = c</text>
+<!-- Hex -->
+<text x="56" y="342" font-size="17" fill="#7b3fa0">A–F</text>
+<!-- EDV -->
+<text x="56" y="396" font-size="17">EDV</text>
+</g>
+<text x="102" y="61" font-size="15" font-weight="700">Bit</text>
+<text x="102" y="80" font-size="13">kleinste Information: 0 oder 1</text>
+<text x="102" y="115" font-size="15" font-weight="700">Byte</text>
+<text x="102" y="134" font-size="13">8 Bit zusammen = 1 Zeichen</text>
+<text x="102" y="169" font-size="15" font-weight="700">Binärsystem / Dualsystem</text>
+<text x="102" y="188" font-size="13">nur 0 und 1 (Dezimalsystem: 0 bis 9)</text>
+<text x="102" y="223" font-size="15" font-weight="700">Stellenwert</text>
+<text x="102" y="242" font-size="13">was eine Stelle wert ist: 1, 2, 4 … 128</text>
+<text x="102" y="277" font-size="15" font-weight="700">Zeichentabelle</text>
+<text x="102" y="296" font-size="13">Zahl → Zeichen (ASCII, ANSI, UTF-8)</text>
+<text x="102" y="331" font-size="15" font-weight="700">Hexadezimalsystem</text>
+<text x="102" y="350" font-size="13">16 Ziffern: 0–9 und A–F</text>
+<text x="102" y="385" font-size="15" font-weight="700">EDV</text>
+<text x="102" y="404" font-size="13">Elektronische Datenverarbeitung</text>
+</svg>

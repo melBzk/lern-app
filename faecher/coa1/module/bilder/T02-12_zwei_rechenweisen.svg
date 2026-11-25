@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 440" font-family="system-ui, sans-serif" fill="#222">
+<title>Zwei Rechenweisen: Links der Hardwarehersteller, Faktor 1000, Namen KB, MB, GB; Grund ist Marketing, eine 2-TB-Platte verkauft sich leichter als eine 1,8-TB-Platte. Rechts EDV, Software und Windows, Faktor 1024, genaue Namen KiB, MiB, GiB. Windows schreibt GB, meint aber GiB.</title>
+<rect width="400" height="440" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">Wer rechnet wie?</text>
+<!-- Hersteller -->
+<rect x="10" y="40" width="185" height="300" rx="10" fill="#fdf0e0" stroke="#E07B00" stroke-width="2"/>
+<rect x="62" y="56" width="80" height="60" rx="4" fill="#fff" stroke="#E07B00" stroke-width="2"/>
+<path d="M62,56 L82,44 L162,44 L142,56 Z" fill="#f6d9b5" stroke="#E07B00" stroke-width="2"/>
+<path d="M142,56 L162,44 L162,104 L142,116 Z" fill="#f6d9b5" stroke="#E07B00" stroke-width="2"/>
+<text x="102" y="92" text-anchor="middle" font-size="16" font-weight="700">2 TB</text>
+<text x="102" y="146" text-anchor="middle" font-size="15" font-weight="700">Hardware-</text>
+<text x="102" y="164" text-anchor="middle" font-size="15" font-weight="700">hersteller</text>
+<text x="102" y="210" text-anchor="middle" font-size="28" font-weight="700" fill="#E07B00">× 1000</text>
+<text x="102" y="250" text-anchor="middle" font-size="16" font-weight="700">KB, MB, GB</text>
+<text x="102" y="290" text-anchor="middle" font-size="13">Grund: Marketing</text>
+<text x="102" y="310" text-anchor="middle" font-size="13">„2 TB“ statt „1,8 TB“</text>
+<!-- EDV -->
+<rect x="205" y="40" width="185" height="300" rx="10" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<rect x="257" y="52" width="80" height="54" rx="4" fill="#fff" stroke="#3a6ed8" stroke-width="2"/>
+<rect x="263" y="58" width="68" height="42" fill="#cfe0fb"/>
+<rect x="285" y="106" width="24" height="8" fill="#3a6ed8"/>
+<text x="297" y="146" text-anchor="middle" font-size="15" font-weight="700">EDV, Software,</text>
+<text x="297" y="164" text-anchor="middle" font-size="15" font-weight="700">Windows</text>
+<text x="297" y="210" text-anchor="middle" font-size="28" font-weight="700" fill="#3a6ed8">× 1024</text>
+<text x="297" y="250" text-anchor="middle" font-size="16" font-weight="700">KiB, MiB, GiB</text>
+<text x="297" y="290" text-anchor="middle" font-size="13">genaue Namen</text>
+<text x="297" y="310" text-anchor="middle" font-size="13">(Binärpräfixe)</text>
+<!-- Windows-Fehler -->
+<rect x="10" y="354" width="380" height="76" rx="10" fill="#fdecea" stroke="#c62828" stroke-width="2"/>
+<text x="200" y="382" text-anchor="middle" font-size="15" font-weight="700" fill="#c62828">Windows schreibt „GB“, meint aber GiB</text>
+<text x="200" y="408" text-anchor="middle" font-size="14">(umgangssprachlicher Fehler)</text>
+</svg>

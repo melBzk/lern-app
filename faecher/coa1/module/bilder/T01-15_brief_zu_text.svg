@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 560" font-family="system-ui, sans-serif" font-size="14" fill="#222">
+<title>Ein Papierbrief wird in fünf Schritten zu änderbarem Text, von oben nach unten. 1: Der Scanner tastet den Brief ab und erstellt ein Bild. 2: Der TWAIN-Treiber verbindet den Scanner mit dem Programm. 3: Das Betriebssystem vermittelt zwischen Gerät, Programm und dir. 4, hervorgehoben: OCR erkennt die Buchstaben im Bild und macht Text daraus. 5: In der GUI des Textprogramms änderst du mit Maus und Tastatur ein Wort. Ohne Schritt 4 könntest du nur das Bild ansehen.</title>
+<defs><marker id="ad" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker></defs>
+<rect width="400" height="560" fill="#fff"/>
+<!-- Brief -->
+<rect x="170" y="8" width="60" height="44" fill="#fff" stroke="#333" stroke-width="2"/>
+<g stroke="#999" stroke-width="2"><line x1="178" y1="20" x2="222" y2="20"/><line x1="178" y1="29" x2="222" y2="29"/><line x1="178" y1="38" x2="210" y2="38"/></g>
+<text x="242" y="36" font-size="14" font-weight="700">Papierbrief</text>
+<line x1="200" y1="54" x2="200" y2="70" stroke="#555" stroke-width="2.5" marker-end="url(#ad)"/>
+<!-- 1 -->
+<rect x="15" y="74" width="370" height="60" rx="8" fill="#f4f6f9" stroke="#9aa3ad" stroke-width="1.5"/>
+<circle cx="40" cy="104" r="14" fill="#3a6ed8"/><text x="40" y="109" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">1</text>
+<text x="66" y="100" font-size="15" font-weight="700">Scanner</text>
+<text x="66" y="120" font-size="13">tastet ab → erstellt ein Bild</text>
+<g transform="translate(330,104)"><rect x="-26" y="-6" width="52" height="16" rx="3" fill="#3a3f4a"/><rect x="-22" y="-12" width="44" height="7" rx="2" fill="#9aa3ad"/></g>
+<line x1="200" y1="136" x2="200" y2="150" stroke="#555" stroke-width="2.5" marker-end="url(#ad)"/>
+<!-- 2 -->
+<rect x="15" y="154" width="370" height="60" rx="8" fill="#f4f6f9" stroke="#9aa3ad" stroke-width="1.5"/>
+<circle cx="40" cy="184" r="14" fill="#3a6ed8"/><text x="40" y="189" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">2</text>
+<text x="66" y="180" font-size="15" font-weight="700">TWAIN-Treiber</text>
+<text x="66" y="200" font-size="13">verbindet Scanner und Programm</text>
+<line x1="200" y1="216" x2="200" y2="230" stroke="#555" stroke-width="2.5" marker-end="url(#ad)"/>
+<!-- 3 -->
+<rect x="15" y="234" width="370" height="60" rx="8" fill="#f4f6f9" stroke="#9aa3ad" stroke-width="1.5"/>
+<circle cx="40" cy="264" r="14" fill="#3a6ed8"/><text x="40" y="269" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">3</text>
+<text x="66" y="260" font-size="15" font-weight="700">Betriebssystem</text>
+<text x="66" y="280" font-size="13">vermittelt: Gerät, Programm, du</text>
+<line x1="200" y1="296" x2="200" y2="310" stroke="#555" stroke-width="2.5" marker-end="url(#ad)"/>
+<!-- 4 OCR -->
+<rect x="15" y="314" width="370" height="76" rx="8" fill="#fde3c3" stroke="#E07B00" stroke-width="3"/>
+<circle cx="40" cy="352" r="14" fill="#E07B00"/><text x="40" y="357" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">4</text>
+<text x="66" y="344" font-size="15" font-weight="700" fill="#a85a00">OCR</text>
+<text x="66" y="364" font-size="13">erkennt Buchstaben im Bild</text>
+<text x="66" y="381" font-size="13" font-weight="700">→ Text</text>
+<g transform="translate(330,352)"><rect x="-44" y="-20" width="30" height="40" fill="#fff" stroke="#333" stroke-width="1.5"/><text x="-29" y="7" text-anchor="middle" font-size="18" font-family="Georgia, serif" font-weight="700">Ab</text><path d="M-10,0 H6 M1,-6 L7,0 L1,6" stroke="#E07B00" stroke-width="3" fill="none"/><text x="26" y="7" text-anchor="middle" font-size="18" font-weight="700" fill="#1d3f8a">Ab</text><line x1="40" y1="-11" x2="40" y2="11" stroke="#1d3f8a" stroke-width="2"/></g>
+<line x1="200" y1="392" x2="200" y2="406" stroke="#555" stroke-width="2.5" marker-end="url(#ad)"/>
+<!-- 5 -->
+<rect x="15" y="410" width="370" height="60" rx="8" fill="#f4f6f9" stroke="#9aa3ad" stroke-width="1.5"/>
+<circle cx="40" cy="440" r="14" fill="#3a6ed8"/><text x="40" y="445" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">5</text>
+<text x="66" y="436" font-size="15" font-weight="700">GUI des Textprogramms</text>
+<text x="66" y="456" font-size="13">Wort ändern mit Maus und Tastatur</text>
+<rect x="30" y="490" width="340" height="52" rx="8" fill="#fff" stroke="#c62828" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="200" y="512" text-anchor="middle" font-size="14" font-weight="700" fill="#c62828">Ohne Schritt 4:</text>
+<text x="200" y="531" text-anchor="middle" font-size="14" fill="#c62828">nur ein Bild – kein Wort änderbar</text>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" font-family="system-ui, sans-serif" fill="#222" role="img">
+<title>Vom Großen zum Kleinen: Ein Wafer, die runde Siliziumscheibe, trägt viele Dies. Ein Die, etwa fingernagelgroß, trägt Milliarden Transistoren. Ein Transistor ist ein einzelner Schalter im nm-Bereich. Daneben der Prozessor zum Einstecken, einige Zentimeter groß: Die plus Träger plus Kontakte, oft mit Heatspreader. Unten rot: 10 nm ist nicht die Größe des Chips, sondern die Feinheit der Strukturen darauf.</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker></defs>
+<rect width="400" height="520" fill="#fff"/>
+<text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700">Was steckt in was?</text>
+<circle cx="70" cy="100" r="48" fill="#cfd6dd" stroke="#555" stroke-width="2"/>
+<path d="M30,80 H110 M24,100 H116 M30,120 H110 M50,56 V144 M70,52 V148 M90,56 V144" stroke="#fff" stroke-width="2"/>
+<rect x="70" y="80" width="20" height="20" fill="#E07B00"/>
+<text x="140" y="86" font-size="16" font-weight="700">Wafer</text>
+<text x="140" y="108" font-size="14">Scheibe mit vielen Dies</text>
+<line x1="80" y1="152" x2="80" y2="180" stroke="#555" stroke-width="2" marker-end="url(#a)"/>
+<rect x="44" y="188" width="72" height="72" fill="#5b6470" stroke="#E07B00" stroke-width="3"/>
+<path d="M52,204 H108 M52,220 H108 M52,236 H108 M52,252 H108" stroke="#9aa3ad" stroke-width="1.5"/>
+<text x="140" y="212" font-size="16" font-weight="700">Die</text>
+<text x="140" y="234" font-size="14">fingernagelgroß,</text>
+<text x="140" y="252" font-size="14">Milliarden Transistoren</text>
+<line x1="80" y1="268" x2="80" y2="296" stroke="#555" stroke-width="2" marker-end="url(#a)"/>
+<rect x="62" y="304" width="36" height="30" rx="4" fill="#fff" stroke="#555" stroke-width="2"/><path d="M70,326 L90,312" stroke="#E07B00" stroke-width="3" stroke-linecap="round"/>
+<text x="140" y="318" font-size="16" font-weight="700">Transistor</text>
+<text x="140" y="338" font-size="14">1 Schalter, nm-Bereich</text>
+<rect x="10" y="356" width="380" height="88" rx="10" fill="#f4f5f7" stroke="#9aa3ad" stroke-width="1.5"/>
+<rect x="24" y="374" width="70" height="12" rx="2" fill="#c0c6cc" stroke="#555" stroke-width="1.5"/><rect x="48" y="388" width="22" height="8" fill="#5b6470"/><rect x="24" y="398" width="70" height="12" fill="#2f9e44"/>
+<path d="M30,412 V420 M40,412 V420 M50,412 V420 M60,412 V420 M70,412 V420 M80,412 V420 M88,412 V420" stroke="#b8860b" stroke-width="2"/>
+<text x="110" y="382" font-size="16" font-weight="700">Prozessor (CPU)</text>
+<text x="110" y="404" font-size="14">Die + Träger + Kontakte</text>
+<text x="110" y="424" font-size="14">(+ Heatspreader), einige cm</text>
+<rect x="10" y="456" width="380" height="56" rx="10" fill="#fdecec" stroke="#c62828" stroke-width="2"/>
+<text x="200" y="480" text-anchor="middle" font-size="15" font-weight="700" fill="#c62828">„10 nm“ ist NICHT die Chipgröße,</text>
+<text x="200" y="500" text-anchor="middle" font-size="15" fill="#c62828">sondern die Feinheit der Strukturen</text>
+</svg>

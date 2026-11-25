@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 430" font-family="system-ui, sans-serif" fill="#222">
+<title>Drei Aufgaben zum Selberrechnen, ohne Lösung: 1. USB 3.0 mit 5 GBit/s, wie viele MB/s höchstens? Schritt 1: 5 mal 1000 = 5000 MBit/s. 2. USB Full Speed mit 12 MBit/s, wie viele MB/s? 3. Eine 4,5-GB-Datei (1 GB = 1000 MB) über 250 MBit/s, wie viele Sekunden? Erinnerung: Leitung immer mit 1000, Byte und Bit mal oder geteilt durch 8.</title>
+<rect width="400" height="430" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">Jetzt du: drei Aufgaben</text>
+<!-- 1 -->
+<rect x="10" y="40" width="380" height="104" rx="10" fill="#f4f1ee"/>
+<circle cx="32" cy="66" r="13" fill="#3a6ed8"/><text x="32" y="71" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">1</text>
+<rect x="56" y="52" width="58" height="28" rx="4" fill="#3a6ed8"/><text x="85" y="71" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">USB 3.0</text>
+<text x="126" y="72" font-size="16" font-weight="700">5 GBit/s</text>
+<text x="230" y="72" font-size="16" font-weight="700" fill="#E07B00">→ ? MB/s</text>
+<text x="56" y="104" font-size="14">Schritt 1: 5 · 1000 = 5000 MBit/s</text>
+<text x="56" y="128" font-size="14">Schritt 2: …</text>
+<!-- 2 -->
+<rect x="10" y="152" width="380" height="64" rx="10" fill="#f4f1ee"/>
+<circle cx="32" cy="184" r="13" fill="#3a6ed8"/><text x="32" y="189" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">2</text>
+<text x="56" y="180" font-size="14" fill="#555">USB Full Speed</text>
+<text x="56" y="202" font-size="16" font-weight="700">12 MBit/s</text>
+<text x="230" y="202" font-size="16" font-weight="700" fill="#E07B00">→ ? MB/s</text>
+<!-- 3 -->
+<rect x="10" y="224" width="380" height="112" rx="10" fill="#f4f1ee"/>
+<circle cx="32" cy="250" r="13" fill="#3a6ed8"/><text x="32" y="255" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">3</text>
+<path d="M52,240 h44 l10,10 v40 h-54 Z" fill="#fff" stroke="#555" stroke-width="2"/>
+<text x="79" y="276" text-anchor="middle" font-size="13" font-weight="700">4,5 GB</text>
+<text x="118" y="258" font-size="14" fill="#555">1 GB = 1000 MB</text>
+<line x1="118" y1="276" x2="236" y2="276" stroke="#555" stroke-width="3"/>
+<text x="174" y="300" text-anchor="middle" font-size="16" font-weight="700">250 MBit/s</text>
+<text x="246" y="282" font-size="16" font-weight="700" fill="#E07B00">→ ? Sekunden</text>
+<!-- Erinnerung -->
+<rect x="10" y="348" width="380" height="72" rx="10" fill="#fdf0e0" stroke="#E07B00" stroke-width="2"/>
+<text x="22" y="374" font-size="14">Leitung: <tspan font-weight="700">immer × 1000</tspan></text>
+<text x="22" y="400" font-size="14">Bit → Byte: <tspan font-weight="700">÷ 8</tspan> · Byte → Bit: <tspan font-weight="700">× 8</tspan></text>
+</svg>

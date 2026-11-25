@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" font-family="system-ui, sans-serif" role="img">
+  <title>Was gern durcheinandergeht. CE: EU-Vorschriften zur EMV. GS: freiwilliges Sicherheits-Prüfzeichen. TCO: Monitor, Stand-by höchstens 15 Watt. Energy Star: Computer, Stand-by höchstens 30 Watt, doppelt so viel. ISO 9241: Ergonomie Mensch und Maschine. ISO 9000: Qualitätsmanagement. Ozon wird im Aktivkohlefilter zu Sauerstoff. Acoustic Management: leiser, aber die Festplatte wird langsamer.</title>
+  <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker></defs>
+  <rect width="400" height="500" fill="#fff"/>
+  <text x="200" y="26" text-anchor="middle" font-size="18" font-weight="700" fill="#222">Was gern durcheinandergeht</text>
+
+  <!-- CE / GS -->
+  <rect fill="#f3f4f6" stroke="#bbb" x="8" y="40" width="174" height="80" rx="10"/><rect fill="#f3f4f6" stroke="#bbb" x="218" y="40" width="174" height="80" rx="10"/>
+  <text font-size="22" font-weight="700" fill="#E07B00" text-anchor="middle" x="200" y="88">≠</text>
+  <rect x="70" y="50" width="50" height="26" rx="3" fill="#fff" stroke="#222" stroke-width="1.5"/><text font-size="14" font-weight="700" fill="#222" text-anchor="middle" x="95" y="68">CE</text>
+  <text font-size="13" fill="#333" text-anchor="middle" x="95" y="96">EU-Vorschriften</text><text font-size="13" fill="#333" text-anchor="middle" x="95" y="112">zur EMV</text>
+  <rect x="280" y="50" width="50" height="26" rx="3" fill="#fff" stroke="#222" stroke-width="1.5"/><text font-size="14" font-weight="700" fill="#222" text-anchor="middle" x="305" y="68">GS</text>
+  <text font-size="13" fill="#333" text-anchor="middle" x="305" y="96">Sicherheit,</text><text x="305" y="112" text-anchor="middle" font-size="13" font-weight="700" fill="#14653a">freiwillig</text>
+
+  <!-- TCO / Energy Star Balken -->
+  <rect fill="#f3f4f6" stroke="#bbb" x="8" y="130" width="384" height="104" rx="10"/>
+  <text x="20" y="154" font-size="14" font-weight="700" fill="#222">TCO: Monitor</text>
+  <rect x="150" y="140" width="80" height="22" rx="3" fill="#3a3f4a"/><text x="240" y="157" font-size="15" font-weight="700" fill="#222">≤ 15 W</text>
+  <text x="20" y="200" font-size="14" font-weight="700" fill="#222">Energy Star:</text><text x="20" y="218" font-size="14" font-weight="700" fill="#222">Computer</text>
+  <rect x="150" y="194" width="160" height="22" rx="3" fill="#E07B00"/><text x="318" y="211" font-size="15" font-weight="700" fill="#b35f00">≤ 30 W</text>
+  <text x="150" y="186" font-size="13" fill="#333">Stand-by</text>
+
+  <!-- ISO -->
+  <rect fill="#f3f4f6" stroke="#bbb" x="8" y="244" width="174" height="80" rx="10"/><rect fill="#f3f4f6" stroke="#bbb" x="218" y="244" width="174" height="80" rx="10"/>
+  <text font-size="22" font-weight="700" fill="#E07B00" text-anchor="middle" x="200" y="292">≠</text>
+  <text font-size="14" font-weight="700" fill="#222" text-anchor="middle" x="95" y="274">ISO 9241</text><text font-size="13" fill="#333" text-anchor="middle" x="95" y="296">Ergonomie</text><text font-size="13" fill="#333" text-anchor="middle" x="95" y="312">Mensch – Maschine</text>
+  <text font-size="14" font-weight="700" fill="#222" text-anchor="middle" x="305" y="274">ISO 9000</text><text font-size="13" fill="#333" text-anchor="middle" x="305" y="296">Qualitäts-</text><text font-size="13" fill="#333" text-anchor="middle" x="305" y="312">management</text>
+
+  <!-- Ozon -->
+  <rect fill="#f3f4f6" stroke="#bbb" x="8" y="334" width="384" height="70" rx="10"/>
+  <g fill="#1fa3c9"><circle cx="34" cy="374" r="9"/><circle cx="48" cy="362" r="9"/><circle cx="62" cy="374" r="9"/></g>
+  <text x="48" y="398" text-anchor="middle" font-size="13" fill="#333">Ozon</text>
+  <line x1="80" y1="368" x2="116" y2="368" stroke="#333" stroke-width="3" marker-end="url(#a)"/>
+  <rect x="122" y="350" width="120" height="36" rx="6" fill="#3a3f4a"/><text x="182" y="373" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">Aktivkohlefilter</text>
+  <line x1="248" y1="368" x2="284" y2="368" stroke="#333" stroke-width="3" marker-end="url(#a)"/>
+  <g fill="#1f9d55"><circle cx="312" cy="368" r="9"/><circle cx="328" cy="368" r="9"/></g>
+  <text x="320" y="398" text-anchor="middle" font-size="13" fill="#333">Sauerstoff</text>
+
+  <!-- Acoustic -->
+  <rect fill="#f3f4f6" stroke="#bbb" x="8" y="414" width="384" height="78" rx="10"/>
+  <text x="20" y="438" font-size="14" font-weight="700" fill="#222">Acoustic Management</text>
+  <rect x="20" y="452" width="150" height="28" rx="14" fill="#e8f6ee" stroke="#1f9d55" stroke-width="2"/>
+  <text x="95" y="471" text-anchor="middle" font-size="14" font-weight="700" fill="#14653a">leiser</text>
+  <text x="200" y="471" text-anchor="middle" font-size="14" font-weight="700" fill="#222">aber</text>
+  <rect x="230" y="452" width="150" height="28" rx="14" fill="#fdecec" stroke="#d63c3c" stroke-width="2"/>
+  <text x="305" y="471" text-anchor="middle" font-size="14" font-weight="700" fill="#a32020">langsamer</text>
+</svg>

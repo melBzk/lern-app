@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 485" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Vergleich: Oben das Archiv mit vollen Regalen, das ist der RAM. Eine Person trägt eine Kiste die Treppe hinunter in den Keller, das ist die Auslagerungsdatei auf der Festplatte. Eine zweite Person schleppt schwitzend eine Kiste wieder herauf, daneben eine Sanduhr: Einlagern dauert. An der Kellertür eine Notiz: Bei SSD nutzt jedes Einräumen ein bisschen ab.</title>
+<defs><marker id="o" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E07B00"/></marker></defs>
+<rect width="400" height="485" fill="#fff"/>
+<text x="200" y="26" font-size="17" text-anchor="middle" font-weight="700">Das volle Archiv</text>
+<!-- Gebäude -->
+<rect x="10" y="40" width="380" height="430" fill="#efe9e1" stroke="#555" stroke-width="2"/>
+<rect x="11" y="41" width="378" height="139" fill="#f3f6fc"/>
+<!-- Archiv oben -->
+<text x="24" y="72" font-size="22" font-weight="700">RAM</text>
+<text x="24" y="94" font-size="14" font-weight="700" fill="#c62828">Archiv voll</text>
+<rect x="128" y="54" width="252" height="126" fill="#e8dccb" stroke="#8a6d4b" stroke-width="2"/>
+<line x1="128" y1="96" x2="380" y2="96" stroke="#8a6d4b" stroke-width="2"/>
+<line x1="128" y1="138" x2="380" y2="138" stroke="#8a6d4b" stroke-width="2"/>
+<g fill="#c8a27a" stroke="#8a6d4b" stroke-width="1.2">
+<rect x="132" y="60" width="28" height="36"/><rect x="163" y="60" width="28" height="36"/><rect x="194" y="60" width="28" height="36"/><rect x="225" y="60" width="28" height="36"/><rect x="256" y="60" width="28" height="36"/><rect x="287" y="60" width="28" height="36"/><rect x="318" y="60" width="28" height="36"/><rect x="349" y="60" width="28" height="36"/>
+<rect x="132" y="102" width="28" height="36"/><rect x="163" y="102" width="28" height="36"/><rect x="194" y="102" width="28" height="36"/><rect x="225" y="102" width="28" height="36"/><rect x="256" y="102" width="28" height="36"/><rect x="287" y="102" width="28" height="36"/><rect x="318" y="102" width="28" height="36"/><rect x="349" y="102" width="28" height="36"/>
+<rect x="132" y="144" width="28" height="36"/><rect x="163" y="144" width="28" height="36"/><rect x="194" y="144" width="28" height="36"/><rect x="225" y="144" width="28" height="36"/><rect x="256" y="144" width="28" height="36"/><rect x="287" y="144" width="28" height="36"/><rect x="318" y="144" width="28" height="36"/><rect x="349" y="144" width="28" height="36"/>
+</g>
+<!-- Decke mit Treppenloch -->
+<rect x="110" y="180" width="279" height="12" fill="#aaa"/>
+<!-- Treppe -->
+<path d="M11,192 L30,192 L30,222 L50,222 L50,252 L70,252 L70,282 L90,282 L90,312 L110,312 L110,342 L130,342 L130,372 L150,372 L150,402 L170,402 L170,432 L190,432 L190,469 L11,469 Z" fill="#c9c3bd" stroke="#555" stroke-width="1.5"/>
+<!-- Person 1 trägt runter -->
+<g stroke="#222" stroke-width="3" fill="none" stroke-linecap="round">
+<circle cx="60" cy="202" r="9" fill="#f4d9b8"/>
+<line x1="60" y1="211" x2="60" y2="234"/>
+<line x1="60" y1="234" x2="54" y2="252"/><line x1="60" y1="234" x2="68" y2="252"/>
+<line x1="60" y1="218" x2="70" y2="224"/>
+</g>
+<rect x="68" y="212" width="24" height="20" fill="#c8a27a" stroke="#8a6d4b" stroke-width="1.5"/>
+<text x="104" y="222" font-size="14" font-weight="700" fill="#E07B00">auslagern</text>
+<line x1="112" y1="232" x2="150" y2="272" stroke="#E07B00" stroke-width="3" marker-end="url(#o)"/>
+<!-- Person 2 trägt hoch -->
+<g stroke="#222" stroke-width="3" fill="none" stroke-linecap="round">
+<circle cx="160" cy="352" r="9" fill="#f4d9b8"/>
+<line x1="160" y1="361" x2="162" y2="384"/>
+<line x1="162" y1="384" x2="155" y2="402"/><line x1="162" y1="384" x2="168" y2="401"/>
+<line x1="160" y1="368" x2="150" y2="374"/>
+</g>
+<rect x="128" y="362" width="24" height="20" fill="#c8a27a" stroke="#8a6d4b" stroke-width="1.5"/>
+<path d="M174,340 q-3,5 0,7 q3,-2 0,-7z M180,352 q-3,5 0,7 q3,-2 0,-7z" fill="#3a6ed8"/>
+<!-- Sanduhr + Text -->
+<path d="M28,398 h22 M28,430 h22 M31,398 L47,430 M47,398 L31,430" stroke="#3a6ed8" stroke-width="2.5" fill="none"/>
+<path d="M35,422 L43,422 L46,429 L32,429 Z" fill="#E0B000"/>
+<text x="58" y="412" font-size="14" font-weight="700" fill="#2b56b8">Einlagern</text>
+<text x="58" y="430" font-size="14" font-weight="700" fill="#2b56b8">dauert</text>
+<!-- Keller -->
+<text x="314" y="220" font-size="14" text-anchor="middle" font-weight="700">Auslagerungsdatei</text>
+<text x="314" y="238" font-size="14" text-anchor="middle" font-weight="700">auf der Festplatte</text>
+<rect x="250" y="300" width="50" height="169" fill="#8a6d4b" stroke="#5a4630" stroke-width="2"/>
+<circle cx="290" cy="392" r="3.5" fill="#E0B000"/>
+<rect x="238" y="258" width="150" height="72" rx="3" fill="#fff3a0" stroke="#c9a800" stroke-width="1.5" transform="rotate(-2 313 294)"/>
+<circle cx="313" cy="262" r="4" fill="#c62828"/>
+<text x="313" y="282" font-size="13" text-anchor="middle" font-weight="700" fill="#c62828">Bei SSD:</text>
+<text x="313" y="300" font-size="13" text-anchor="middle">jedes Einräumen</text>
+<text x="313" y="318" font-size="13" text-anchor="middle">nutzt ein bisschen ab</text>
+<g fill="#c8a27a" stroke="#8a6d4b" stroke-width="1.2">
+<rect x="306" y="438" width="38" height="31"/><rect x="346" y="438" width="38" height="31"/><rect x="326" y="405" width="38" height="31"/>
+</g>
+</svg>

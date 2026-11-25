@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" font-family="system-ui, sans-serif" role="img">
+  <title>Die 6 neuen Wörter als Bildkacheln. Typenraddrucker: ein Rad mit Buchstaben. Kugelkopfdrucker: Buchstaben auf einer Metallkugel. Thermodrucker: Hitze färbt Spezialpapier, zum Beispiel der Kassenzettel. Wachsdrucker: festes Wachs wird geschmolzen und aufgespritzt. 3D-Drucker: baut Schicht für Schicht. Durchschlag: die Kopie entsteht beim Drucken gleich mit.</title>
+  <rect width="400" height="400" fill="#fff"/>
+  <text x="200" y="26" text-anchor="middle" font-size="18" font-weight="700" fill="#222">Die 6 neuen Wörter</text>
+
+  <g transform="translate(8,40)"><rect fill="#f3f4f6" stroke="#bbb" width="188" height="110" rx="10"/>
+    <g stroke="#3a3f4a" stroke-width="3"><line x1="94" y1="32" x2="94" y2="8"/><line x1="94" y1="32" x2="117" y2="20"/><line x1="94" y1="32" x2="117" y2="44"/><line x1="94" y1="32" x2="94" y2="56"/><line x1="94" y1="32" x2="71" y2="44"/><line x1="94" y1="32" x2="71" y2="20"/></g>
+    <circle cx="94" cy="32" r="6" fill="#3a3f4a"/>
+    <g font-size="13" font-weight="700" fill="#E07B00" text-anchor="middle"><text x="94" y="7">K</text><text x="122" y="18">A</text><text x="122" y="54">B</text></g>
+    <text font-size="15" font-weight="700" fill="#222" text-anchor="middle" x="94" y="80">Typenraddrucker</text><text font-size="13" fill="#333" text-anchor="middle" x="94" y="99">Rad mit Buchstaben</text></g>
+
+  <g transform="translate(204,40)"><rect fill="#f3f4f6" stroke="#bbb" width="188" height="110" rx="10"/>
+    <circle cx="94" cy="32" r="24" fill="#c9ced6" stroke="#555" stroke-width="2"/>
+    <ellipse cx="86" cy="24" rx="8" ry="5" fill="#fff" opacity="0.7"/>
+    <g font-size="13" font-weight="700" fill="#3a3f4a" text-anchor="middle"><text x="96" y="37">K</text><text x="80" y="46">A</text><text x="110" y="24">B</text></g>
+    <text font-size="15" font-weight="700" fill="#222" text-anchor="middle" x="94" y="80">Kugelkopfdrucker</text><text font-size="13" fill="#333" text-anchor="middle" x="94" y="99">Buchstaben auf Kugel</text></g>
+
+  <g transform="translate(8,158)"><rect fill="#f3f4f6" stroke="#bbb" width="188" height="110" rx="10"/>
+    <path d="M76,8 h36 v44 l-6,-4 l-6,4 l-6,-4 l-6,4 l-6,-4 l-6,4 z" fill="#fff" stroke="#333" stroke-width="1.5"/>
+    <g stroke="#333" stroke-width="2"><line x1="82" y1="18" x2="106" y2="18"/><line x1="82" y1="27" x2="106" y2="27"/><line x1="82" y1="36" x2="98" y2="36"/></g>
+    <path d="M124,46 q5,-6 0,-12 q-5,-6 0,-12 M134,46 q5,-6 0,-12 q-5,-6 0,-12" fill="none" stroke="#d63c3c" stroke-width="2"/>
+    <text font-size="15" font-weight="700" fill="#222" text-anchor="middle" x="94" y="80">Thermodrucker</text><text font-size="13" fill="#333" text-anchor="middle" x="94" y="99">Hitze färbt Papier</text></g>
+
+  <g transform="translate(204,158)"><rect fill="#f3f4f6" stroke="#bbb" width="188" height="110" rx="10"/>
+    <rect x="56" y="12" width="34" height="26" rx="3" fill="#f2c200" stroke="#a88600"/>
+    <text x="104" y="31" font-size="16" fill="#222">→</text>
+    <path d="M132,10 C126,20 122,26 122,32 a10,10 0 0 0 20,0 C142,26 138,20 132,10 z" fill="#f2c200" stroke="#a88600"/>
+    <text font-size="15" font-weight="700" fill="#222" text-anchor="middle" x="94" y="80">Wachsdrucker</text><text font-size="13" fill="#333" text-anchor="middle" x="94" y="99">Wachs geschmolzen</text></g>
+
+  <g transform="translate(8,276)"><rect fill="#f3f4f6" stroke="#bbb" width="188" height="110" rx="10"/>
+    <rect x="84" y="4" width="20" height="14" fill="#3a3f4a"/><path d="M90,18 h8 l-4,7 z" fill="#3a3f4a"/>
+    <g fill="#1fa3c9" stroke="#fff"><rect x="66" y="46" width="56" height="8"/><rect x="70" y="38" width="48" height="8"/><rect x="76" y="30" width="36" height="8"/></g>
+    <text font-size="15" font-weight="700" fill="#222" text-anchor="middle" x="94" y="80">3D-Drucker</text><text font-size="13" fill="#333" text-anchor="middle" x="94" y="99">Schicht für Schicht</text></g>
+
+  <g transform="translate(204,276)"><rect fill="#f3f4f6" stroke="#bbb" width="188" height="110" rx="10"/>
+    <rect x="62" y="6" width="40" height="48" fill="#fff" stroke="#333" stroke-width="1.5"/>
+    <g stroke="#333" stroke-width="2"><line x1="68" y1="18" x2="96" y2="18"/><line x1="68" y1="28" x2="96" y2="28"/></g>
+    <rect x="86" y="12" width="40" height="48" fill="#fde8f3" stroke="#d6338a" stroke-width="1.5" opacity="0.9"/>
+    <g stroke="#d6338a" stroke-width="2"><line x1="92" y1="38" x2="120" y2="38"/><line x1="92" y1="48" x2="120" y2="48"/></g>
+    <text font-size="15" font-weight="700" fill="#222" text-anchor="middle" x="94" y="80">Durchschlag</text><text font-size="13" fill="#333" text-anchor="middle" x="94" y="99">Kopie entsteht gleich mit</text></g>
+</svg>

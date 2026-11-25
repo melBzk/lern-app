@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 390" font-family="system-ui, sans-serif" fill="#222">
+<title>Merkbild Mainboard in fünf Zeilen: 1. Mainboard = Motherboard = Hauptplatine, verbindet alle Komponenten. 2. Leiterbahnen sind die Bussysteme. 3. Kurven in Leiterbahnen: Daten kommen gleichzeitig an. 4. Vor dem Arbeiten Strom trennen und statisch entladen. 5. Handbuch des Mainboards herunterladen und selbst speichern.</title>
+<rect width="400" height="390" fill="#fff"/>
+<text x="200" y="30" text-anchor="middle" font-size="17" font-weight="700">Mainboard – das Wichtigste</text>
+<g fill="#f4f1ee"><rect x="10" y="46" width="380" height="62" rx="10"/><rect x="10" y="114" width="380" height="62" rx="10"/><rect x="10" y="182" width="380" height="62" rx="10"/><rect x="10" y="250" width="380" height="62" rx="10"/><rect x="10" y="318" width="380" height="62" rx="10"/></g>
+<!-- 1 verbinden -->
+<rect x="22" y="56" width="66" height="42" fill="#2e7d4f"/>
+<g fill="#cfd8dc"><rect x="28" y="62" width="14" height="14"/><rect x="66" y="62" width="14" height="14"/><rect x="47" y="80" width="14" height="12"/></g>
+<g stroke="#e0a54a" stroke-width="2"><line x1="42" y1="69" x2="66" y2="69"/><line x1="35" y1="76" x2="50" y2="80"/><line x1="73" y1="76" x2="58" y2="80"/></g>
+<text x="100" y="72" font-size="15" font-weight="700">Mainboard verbindet alles</text>
+<text x="100" y="94" font-size="13">= Motherboard = Hauptplatine</text>
+<!-- 2 Bus -->
+<rect x="22" y="124" width="66" height="42" fill="#2e7d4f"/>
+<g stroke="#e0a54a" stroke-width="2.5"><line x1="26" y1="134" x2="84" y2="134"/><line x1="26" y1="142" x2="84" y2="142"/><line x1="26" y1="150" x2="84" y2="150"/><line x1="26" y1="158" x2="84" y2="158"/></g>
+<text x="100" y="140" font-size="15" font-weight="700">Leiterbahnen = Bussysteme</text>
+<text x="100" y="162" font-size="13">viele Leitungen nebeneinander</text>
+<!-- 3 Kurven -->
+<rect x="22" y="192" width="66" height="42" fill="#2e7d4f"/>
+<g fill="none" stroke="#e0a54a" stroke-width="2.5"><path d="M26,202 H84"/><path d="M26,212 H40 V226 H54 V212 H84"/></g>
+<text x="100" y="208" font-size="15" font-weight="700">Kurven = gleich lange Wege</text>
+<text x="100" y="230" font-size="13">Daten kommen gleichzeitig an</text>
+<!-- 4 Sicherheit -->
+<rect x="28" y="262" width="22" height="30" rx="4" fill="#333"/>
+<line x1="50" y1="277" x2="58" y2="277" stroke="#333" stroke-width="4"/>
+<g stroke="#d43c3c" stroke-width="3"><line x1="58" y1="266" x2="70" y2="288"/></g>
+<polygon points="80,260 72,276 78,276 73,290 88,272 81,272 86,260" fill="#D4607A"/>
+<text x="100" y="276" font-size="15" font-weight="700">Strom trennen, entladen</text>
+<text x="100" y="298" font-size="13">bevor du den PC öffnest</text>
+<!-- 5 Handbuch -->
+<rect x="32" y="326" width="34" height="44" rx="2" fill="#fff" stroke="#333" stroke-width="2"/>
+<g stroke="#999" stroke-width="2"><line x1="38" y1="336" x2="60" y2="336"/><line x1="38" y1="344" x2="60" y2="344"/></g>
+<line x1="72" y1="334" x2="72" y2="356" stroke="#3a6ed8" stroke-width="3"/><polygon points="65,352 79,352 72,364" fill="#3a6ed8"/>
+<text x="100" y="344" font-size="15" font-weight="700">Handbuch selbst speichern</text>
+<text x="100" y="366" font-size="13">früh laden – später kaum zu finden</text>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 470" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Extras, die in Datenblättern stehen können: ein Steckbrief mit vier markierten Zeilen. 1: Intel Optane Memory unterstützt, bedeutet Festplatte schneller. 2: Intel vPro mit AMT, bedeutet Fernwartung. 3: AMD Ryzen PRO, bedeutet für Firmen. 4: Kerne (Threads) 2 (2), Turbo Strich, bedeutet beim Celeron: ohne Hyper-Threading und ohne Turbo. Stempel: Stand Buch 2020.</title>
+<rect width="400" height="470" fill="#fff"/>
+<rect x="10" y="10" width="380" height="450" rx="12" fill="#fff" stroke="#555" stroke-width="2"/>
+<rect x="10" y="10" width="380" height="48" rx="12" fill="#555"/>
+<rect x="10" y="40" width="380" height="18" fill="#555"/>
+<text x="200" y="40" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">Extras, die in Datenblättern stehen können</text>
+<g transform="rotate(-6 330 84)">
+<rect x="270" y="68" width="116" height="30" rx="4" fill="#fff" stroke="#666" stroke-width="2"/>
+<text x="328" y="89" text-anchor="middle" font-size="13" font-weight="700" fill="#666">Stand Buch 2020</text>
+</g>
+
+<!-- 1 Optane -->
+<rect x="20" y="108" width="360" height="76" rx="8" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2"/>
+<rect x="32" y="126" width="40" height="30" rx="4" fill="#9aa5b1"/>
+<circle cx="52" cy="141" r="9" fill="#fff"/>
+<path d="M64,118 L56,136 L64,136 L58,154" fill="none" stroke="#E07B00" stroke-width="3.5" stroke-linejoin="round"/>
+<text x="84" y="134" font-weight="700">Intel Optane Memory:</text>
+<text x="84" y="152">unterstützt</text>
+<text x="84" y="174" font-weight="700" fill="#2e7d32">→ Festplatte schneller</text>
+
+<!-- 2 vPro / AMT -->
+<rect x="20" y="194" width="360" height="76" rx="8" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<path d="M38,252 L58,228" stroke="#555" stroke-width="7" stroke-linecap="round"/>
+<circle cx="61" cy="224" r="9" fill="none" stroke="#555" stroke-width="5"/>
+<path d="M44,214 A16,16 0 0,1 72,206 M48,220 A9,9 0 0,1 64,214" fill="none" stroke="#3a6ed8" stroke-width="2.5" stroke-linecap="round"/>
+<text x="84" y="222" font-weight="700">Intel vPro / AMT</text>
+<text x="84" y="258" font-weight="700" fill="#3a6ed8">→ Fernwartung</text>
+
+<!-- 3 AMD PRO -->
+<rect x="20" y="280" width="360" height="76" rx="8" fill="#fff4e0" stroke="#E07B00" stroke-width="2"/>
+<rect x="30" y="306" width="44" height="32" rx="4" fill="#8d6e63"/>
+<path d="M44,306 L44,298 L60,298 L60,306" fill="none" stroke="#8d6e63" stroke-width="4"/>
+<line x1="30" y1="320" x2="74" y2="320" stroke="#5d4037" stroke-width="2"/>
+<text x="84" y="308" font-weight="700">AMD Ryzen PRO</text>
+<text x="84" y="344" font-weight="700" fill="#b35c00">→ für Firmen</text>
+
+<!-- 4 Celeron -->
+<rect x="20" y="366" width="360" height="84" rx="8" fill="#fdecea" stroke="#c62828" stroke-width="2"/>
+<text x="52" y="402" text-anchor="middle" font-size="22" font-weight="700" fill="#c62828">2(2)</text>
+<text x="84" y="390" font-weight="700">Kerne (Threads): 2 (2) · Turbo: –</text>
+<text x="84" y="414" font-weight="700" fill="#c62828">→ Celeron: ohne Hyper-Threading</text>
+<text x="84" y="432" font-weight="700" fill="#c62828">und ohne Turbo</text>
+</svg>

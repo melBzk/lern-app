@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 470" font-family="system-ui, sans-serif" role="img">
+  <title>Merkbild Monitor-Kennzahlen. Ein LCD flimmert nicht, die Pixel leuchten durchgehend. Reaktionszeit in Millisekunden: kleiner ist besser, gut unter 12. Panel-Typen: TN schnell und günstig, IPS beste Farben und Blickwinkel, VA bester Kontrast. Pixelfehlerklasse 0 heißt: kein Pixelfehler erlaubt. Pivot: Monitor lässt sich um 90 Grad drehen.</title>
+  <rect width="400" height="470" fill="#fff"/>
+  <text x="200" y="26" text-anchor="middle" font-size="18" font-weight="700" fill="#222">Merke: Monitor II</text>
+
+  <rect fill="#f3f4f6" stroke="#bbb" x="8" y="40" width="384" height="78" rx="10"/>
+  <rect x="18" y="56" width="48" height="34" rx="3" fill="#3a3f4a"/><rect x="22" y="60" width="40" height="26" fill="#fff4c2"/>
+  <line x1="18" y1="102" x2="66" y2="102" stroke="#1f9d55" stroke-width="4"/>
+  <text font-size="15" font-weight="700" fill="#222" x="82" y="70">LCD flimmert nicht</text>
+  <text font-size="14" font-weight="700" fill="#b35f00" x="82" y="94">Pixel leuchten durchgehend</text>
+
+  <rect fill="#f3f4f6" stroke="#bbb" x="8" y="126" width="384" height="78" rx="10"/>
+  <circle cx="42" cy="166" r="18" fill="#fff" stroke="#3a3f4a" stroke-width="3"/><line x1="42" y1="166" x2="50" y2="155" stroke="#E07B00" stroke-width="3"/>
+  <text font-size="15" font-weight="700" fill="#222" x="82" y="156">Reaktionszeit (ms)</text>
+  <text font-size="14" font-weight="700" fill="#b35f00" x="82" y="180">kleiner ist besser · gut unter 12 ms</text>
+
+  <rect fill="#f3f4f6" stroke="#bbb" x="8" y="212" width="384" height="78" rx="10"/>
+  <text x="82" y="234" font-size="15" font-weight="700" fill="#222">TN</text><text x="114" y="234" font-size="14" fill="#333">schnell, günstig</text>
+  <text x="82" y="256" font-size="15" font-weight="700" fill="#222">IPS</text><text x="114" y="256" font-size="14" fill="#333">beste Farben, Blickwinkel</text>
+  <text x="82" y="278" font-size="15" font-weight="700" fill="#222">VA</text><text x="114" y="278" font-size="14" fill="#333">bester Kontrast</text>
+  <rect x="20" y="228" width="44" height="44" rx="4" fill="#fff" stroke="#3a3f4a" stroke-width="2"/><text x="42" y="256" text-anchor="middle" font-size="13" font-weight="700" fill="#222">Panel</text>
+
+  <rect fill="#f3f4f6" stroke="#bbb" x="8" y="298" width="384" height="78" rx="10"/>
+  <rect x="22" y="320" width="38" height="34" rx="4" fill="#1f9d55"/><text x="41" y="344" text-anchor="middle" font-size="18" font-weight="700" fill="#fff">0</text>
+  <text font-size="15" font-weight="700" fill="#222" x="82" y="330">Pixelfehlerklasse 0</text>
+  <text font-size="14" font-weight="700" fill="#b35f00" x="82" y="354">kein Pixelfehler erlaubt</text>
+
+  <rect fill="#f3f4f6" stroke="#bbb" x="8" y="384" width="384" height="78" rx="10"/>
+  <rect x="20" y="410" width="30" height="20" rx="2" fill="#fff" stroke="#999" stroke-width="2"/><rect x="50" y="398" width="20" height="34" rx="2" fill="#fff" stroke="#3a3f4a" stroke-width="2.5"/>
+  <path d="M38,406 Q46,394 52,398" fill="none" stroke="#E07B00" stroke-width="2.5"/>
+  <text font-size="15" font-weight="700" fill="#222" x="82" y="416">Pivot</text>
+  <text font-size="14" font-weight="700" fill="#b35f00" x="82" y="440">Monitor um 90° drehen</text>
+</svg>

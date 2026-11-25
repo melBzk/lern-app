@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 470" font-family="system-ui, sans-serif" fill="#222" role="img">
+<title>Oben: Ein violetter EUV-Strahl läuft durch Luft und trifft auf eine Glaslinse, er wird immer schwächer und verschwindet: Glas und Luft verschlucken EUV, rotes X. Unten: Im leeren Raum, dem Vakuum, trifft der EUV-Strahl auf einen Spiegel und wird umgelenkt. Eine Lupe zeigt: Der Spiegel besteht aus über 100 hauchdünnen Schichten. Spiegel von Zeiss, grünes Häkchen.</title>
+<rect width="400" height="470" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">Warum Vakuum und Spiegel?</text>
+
+<!-- oben: Luft + Glas -->
+<rect x="10" y="40" width="380" height="150" rx="10" fill="#f4f5f7"/>
+<g fill="#adb5bd"><circle cx="70" cy="86" r="4"/><circle cx="96" cy="124" r="4"/><circle cx="120" cy="92" r="4"/><circle cx="142" cy="130" r="4"/><circle cx="160" cy="100" r="4"/><circle cx="84" cy="140" r="4"/></g>
+<text x="104" y="68" text-anchor="middle" font-size="13" font-weight="700" fill="#555">Luft</text>
+<path d="M24,112 H80" stroke="#7b3fc4" stroke-width="6"/>
+<path d="M80,112 H140" stroke="#7b3fc4" stroke-width="6" opacity="0.55"/>
+<path d="M140,112 H196" stroke="#7b3fc4" stroke-width="6" opacity="0.25"/>
+<ellipse cx="212" cy="112" rx="14" ry="44" fill="#d0ebff" stroke="#3a6ed8" stroke-width="2"/>
+<text x="212" y="64" text-anchor="middle" font-size="13" font-weight="700" fill="#555">Glaslinse</text>
+<path d="M300,94 L336,130 M336,94 L300,130" stroke="#c62828" stroke-width="6" stroke-linecap="round"/>
+<text x="200" y="178" text-anchor="middle" font-size="15" font-weight="700" fill="#c62828">Glas und Luft verschlucken EUV</text>
+
+<!-- unten: Vakuum + Spiegel -->
+<rect x="10" y="202" width="380" height="256" rx="10" fill="#fff" stroke="#555" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="24" y="226" font-size="15" font-weight="700" fill="#3a6ed8">Vakuum (luftleer)</text>
+<path d="M40,250 L185,336 L330,250" stroke="#7b3fc4" stroke-width="6" fill="none" stroke-linejoin="round"/>
+<path d="M318,248 L336,246 L328,262 Z" fill="#7b3fc4"/>
+<rect x="110" y="336" width="150" height="20" fill="#e9ecef" stroke="#555" stroke-width="1.5"/>
+<path d="M110,338h150v1.5h-150z M110,341h150v1.5h-150z M110,344h150v1.5h-150z M110,347h150v1.5h-150z M110,350h150v1.5h-150z M110,353h150v1.5h-150z" fill="#5b6470"/>
+<text x="185" y="378" text-anchor="middle" font-size="14" font-weight="700">Spiegel (Zeiss)</text>
+<path d="M260,346 L290,346" stroke="#555" stroke-width="1.5"/>
+<rect x="290" y="330" width="80" height="70" fill="#e9ecef" stroke="#222" stroke-width="2.5"/>
+<path d="M292,334h76v3h-76z M292,340h76v3h-76z M292,346h76v3h-76z M292,352h76v3h-76z M292,358h76v3h-76z M292,364h76v3h-76z M292,370h76v3h-76z M292,376h76v3h-76z M292,382h76v3h-76z M292,388h76v3h-76z M292,394h76v3h-76z" fill="#5b6470"/>
+<text x="330" y="418" text-anchor="middle" font-size="13" font-weight="700">Lupe: über</text>
+<text x="330" y="434" text-anchor="middle" font-size="13" font-weight="700">100 Schichten</text>
+<path d="M344,226 L354,238 L372,212" stroke="#2e7d32" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="24" y="446" font-size="13" fill="#555">Schichtzahl laut Hersteller · zum Staunen</text>
+</svg>

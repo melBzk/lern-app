@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 362" font-family="system-ui, sans-serif" role="img">
+  <title>Größen-Leiter von groß nach klein: Ein Haar ist etwa 0,1 mm dick, das sind 100 000 nm. Ein Prozessor von 2002 hatte 130 nm. Der Prozessor aus dem Unterricht hat 10 nm. Merkzeile: 1 mm sind 1 000 000 nm. Pfeil nach rechts: immer feiner.</title>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker>
+  </defs>
+  <rect width="400" height="362" fill="#fff"/>
+  <text x="200" y="28" text-anchor="middle" font-size="18" font-weight="700" fill="#222">Wie fein ist „10 nm“?</text>
+
+  <rect x="60" y="44" width="280" height="34" rx="8" fill="#eef4ff" stroke="#3a6ed8" stroke-width="2"/>
+  <text x="200" y="67" text-anchor="middle" font-size="16" font-weight="700" fill="#222">1 mm = 1 000 000 nm</text>
+
+  <!-- Striche -->
+  <rect x="52" y="100" width="36" height="110" rx="4" fill="#8a6a4a"/>
+  <rect x="195" y="100" width="10" height="110" rx="2" fill="#555"/>
+  <rect x="331" y="100" width="2" height="110" fill="#E07B00"/>
+  <circle cx="332" cy="100" r="5" fill="#E07B00"/>
+
+  <!-- Beschriftungen -->
+  <text x="70" y="236" text-anchor="middle" font-size="15" font-weight="700" fill="#222">Haar</text>
+  <text x="70" y="256" text-anchor="middle" font-size="14" fill="#222">etwa 0,1 mm</text>
+  <text x="70" y="276" text-anchor="middle" font-size="14" fill="#222">= 100 000 nm</text>
+
+  <text x="200" y="236" text-anchor="middle" font-size="15" font-weight="700" fill="#222">130 nm</text>
+  <text x="200" y="256" text-anchor="middle" font-size="14" fill="#222">Prozessor</text>
+  <text x="200" y="276" text-anchor="middle" font-size="14" fill="#222">von 2002</text>
+
+  <text x="332" y="236" text-anchor="middle" font-size="15" font-weight="700" fill="#E07B00">10 nm</text>
+  <text x="332" y="256" text-anchor="middle" font-size="14" fill="#222">Prozessor aus</text>
+  <text x="332" y="276" text-anchor="middle" font-size="14" fill="#222">dem Unterricht</text>
+
+  <!-- Pfeil -->
+  <line x1="40" y1="302" x2="360" y2="302" stroke="#3a6ed8" stroke-width="3" marker-end="url(#a)"/>
+  <text x="200" y="326" text-anchor="middle" font-size="15" font-weight="700" fill="#3a6ed8">immer feiner</text>
+  <text x="200" y="350" text-anchor="middle" font-size="13" fill="#666">(Striche nicht maßstabsgetreu)</text>
+</svg>

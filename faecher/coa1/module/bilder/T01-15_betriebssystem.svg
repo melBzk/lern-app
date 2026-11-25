@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" font-family="system-ui, sans-serif" font-size="14" fill="#222">
+<title>Das Betriebssystem als Vermittler in der Mitte. Oben du, links die Programme wie das Textprogramm, unten die Hardware wie Drucker und Festplatte. Alle Pfeile laufen durch das Betriebssystem. Darunter die zwei großen Gruppen bei PCs: Windows von Microsoft, am weitesten verbreitet, und UNIX-artige Systeme, zum Beispiel Linux. Auch das iPhone hat ein Betriebssystem: iOS.</title>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker></defs>
+<rect width="400" height="520" fill="#fff"/>
+<!-- Du -->
+<circle cx="200" cy="26" r="11" fill="#555"/><path d="M182,62 Q182,40 200,40 Q218,40 218,62 Z" fill="#555"/>
+<text x="230" y="50" font-size="15" font-weight="700">du</text>
+<line x1="200" y1="68" x2="200" y2="112" stroke="#555" stroke-width="3" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<!-- BS -->
+<rect x="110" y="116" width="180" height="62" rx="12" fill="#3a6ed8"/>
+<text x="200" y="144" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">Betriebssystem</text>
+<text x="200" y="165" text-anchor="middle" font-size="13" fill="#fff">der Vermittler</text>
+<!-- Programme links -->
+<rect x="12" y="122" width="72" height="50" rx="6" fill="#eef4fd" stroke="#3a6ed8" stroke-width="2"/>
+<text x="48" y="144" text-anchor="middle" font-size="13" font-weight="700">Text-</text>
+<text x="48" y="161" text-anchor="middle" font-size="13" font-weight="700">programm</text>
+<line x1="86" y1="147" x2="106" y2="147" stroke="#555" stroke-width="3" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<text x="48" y="190" text-anchor="middle" font-size="13" fill="#555">Programme</text>
+<!-- Hardware unten -->
+<line x1="200" y1="182" x2="200" y2="216" stroke="#555" stroke-width="3" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<rect x="90" y="220" width="220" height="64" rx="8" fill="#f4f6f9" stroke="#9aa3ad" stroke-width="2"/>
+<g transform="translate(140,250)"><rect x="-10" y="-14" width="20" height="8" fill="#fff" stroke="#333"/><rect x="-16" y="-7" width="32" height="16" rx="3" fill="#3a3f4a"/><rect x="-10" y="6" width="20" height="8" fill="#fff" stroke="#333"/></g>
+<text x="140" y="278" text-anchor="middle" font-size="13">Drucker</text>
+<g transform="translate(250,250)"><rect x="-20" y="-13" width="40" height="24" rx="3" fill="#9aa3ad" stroke="#333" stroke-width="1.5"/><circle cx="-4" cy="-1" r="7" fill="#ddd" stroke="#333"/></g>
+<text x="250" y="278" text-anchor="middle" font-size="13">Festplatte</text>
+<text x="330" y="256" font-size="13" fill="#555">Hard-</text>
+<text x="330" y="272" font-size="13" fill="#555">ware</text>
+<line x1="15" y1="306" x2="385" y2="306" stroke="#ccc" stroke-width="1.5"/>
+<!-- Gruppen -->
+<text x="200" y="332" text-anchor="middle" font-size="15" font-weight="700">Bei PCs: zwei große Gruppen</text>
+<rect x="15" y="346" width="175" height="92" rx="10" fill="#eef4fd" stroke="#3a6ed8" stroke-width="2"/>
+<g transform="translate(102,374)"><rect x="-20" y="-14" width="40" height="28" rx="3" fill="#dfe9fb" stroke="#3a6ed8" stroke-width="2"/><rect x="-20" y="-14" width="40" height="7" fill="#3a6ed8"/></g>
+<text x="102" y="408" text-anchor="middle" font-size="16" font-weight="700" fill="#1d3f8a">Windows</text>
+<text x="102" y="428" text-anchor="middle" font-size="13">am weitesten verbreitet</text>
+<rect x="210" y="346" width="175" height="92" rx="10" fill="#e8f5ec" stroke="#2e9d5b" stroke-width="2"/>
+<g transform="translate(297,374)"><rect x="-20" y="-12" width="40" height="26" rx="3" fill="#222"/><text x="-14" y="5" font-size="13" font-family="monospace" font-weight="700" fill="#7fe08a">$_</text></g>
+<text x="297" y="408" text-anchor="middle" font-size="16" font-weight="700" fill="#1e6e3e">UNIX-artig</text>
+<text x="297" y="428" text-anchor="middle" font-size="13">z. B. Linux</text>
+<!-- iPhone -->
+<rect x="150" y="458" width="22" height="40" rx="5" fill="#3a3f4a"/><rect x="153" y="463" width="16" height="28" fill="#dfe9fb"/>
+<text x="184" y="484" font-size="14">iPhone: <tspan font-weight="700">iOS</tspan></text>
+</svg>

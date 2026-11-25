@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 470" font-family="system-ui, sans-serif">
+  <title>Alltagsvergleich Thunderbolt als Umzugswagen: Oben drei kleine Autos mit den Schildern USB, DisplayPort für das Bild und PCIe. Darunter ein großer Umzugswagen mit der Aufschrift Thunderbolt, darin stehen die drei Kisten USB, DisplayPort und PCIe. Links unten packt ein Controller bei der Abfahrt ein, rechts unten packt ein Controller am Ziel wieder aus.</title>
+  <defs>
+    <g id="auto">
+      <path d="M18,0 H66 L80,16 H0 Z" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+      <rect x="-8" y="16" width="104" height="28" rx="6" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+      <circle cx="16" cy="46" r="9" fill="#333"/>
+      <circle cx="72" cy="46" r="9" fill="#333"/>
+    </g>
+    <g id="person">
+      <circle cx="0" cy="0" r="9" fill="#fff" stroke="#555" stroke-width="2.5"/>
+      <line x1="0" y1="9" x2="0" y2="36" stroke="#555" stroke-width="2.5"/>
+      <line x1="0" y1="36" x2="-9" y2="54" stroke="#555" stroke-width="2.5"/>
+      <line x1="0" y1="36" x2="9" y2="54" stroke="#555" stroke-width="2.5"/>
+      <line x1="-12" y1="20" x2="12" y2="20" stroke="#555" stroke-width="2.5"/>
+    </g>
+  </defs>
+  <rect width="400" height="470" fill="#fff"/>
+  <text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700" fill="#222">Thunderbolt = ein Umzugswagen</text>
+
+  <!-- Drei Autos -->
+  <use href="#auto" x="24" y="56"/>
+  <use href="#auto" x="158" y="56"/>
+  <use href="#auto" x="292" y="56"/>
+  <g font-size="14" font-weight="700" text-anchor="middle" fill="#222">
+    <text x="64" y="92">USB</text>
+    <text x="198" y="92" font-size="13">DisplayPort</text>
+    <text x="332" y="92">PCIe</text>
+  </g>
+  <text x="198" y="132" text-anchor="middle" font-size="13" fill="#222">(Bild)</text>
+
+  <!-- Pfeil -->
+  <path d="M200,144 V176 M190,166 L200,178 L210,166" fill="none" stroke="#555" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="222" y="168" font-size="13" fill="#222">1 Wagen statt 3 Autos</text>
+
+  <!-- Umzugswagen -->
+  <rect x="16" y="190" width="266" height="128" rx="6" fill="#fff" stroke="#555" stroke-width="3"/>
+  <rect x="16" y="190" width="266" height="34" rx="6" fill="#D4607A"/>
+  <text x="149" y="214" text-anchor="middle" font-size="18" font-weight="700" fill="#fff">Thunderbolt</text>
+  <g fill="#f3e3c3" stroke="#8a6d3b" stroke-width="2">
+    <rect x="28" y="246" width="64" height="58" rx="3"/>
+    <rect x="100" y="246" width="98" height="58" rx="3"/>
+    <rect x="206" y="246" width="64" height="58" rx="3"/>
+  </g>
+  <g font-size="14" font-weight="700" text-anchor="middle" fill="#222">
+    <text x="60" y="280">USB</text>
+    <text x="149" y="280" font-size="13">DisplayPort</text>
+    <text x="238" y="280">PCIe</text>
+  </g>
+  <!-- Führerhaus -->
+  <path d="M282,226 H340 L372,262 V318 H282 Z" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2.5"/>
+  <path d="M296,236 H336 L358,262 H296 Z" fill="#fff" stroke="#3a6ed8" stroke-width="2"/>
+  <circle cx="70" cy="322" r="16" fill="#333"/>
+  <circle cx="226" cy="322" r="16" fill="#333"/>
+  <circle cx="334" cy="322" r="16" fill="#333"/>
+
+  <!-- Controller -->
+  <use href="#person" x="40" y="370"/>
+  <rect x="54" y="384" width="22" height="18" fill="#f3e3c3" stroke="#8a6d3b" stroke-width="2"/>
+  <text x="84" y="378" font-size="14" font-weight="700" fill="#222">Controller</text>
+  <text x="84" y="396" font-size="14" fill="#222">packt ein</text>
+  <text x="84" y="414" font-size="13" fill="#555">(Abfahrt)</text>
+
+  <use href="#person" x="360" y="370"/>
+  <rect x="324" y="384" width="22" height="18" fill="#f3e3c3" stroke="#8a6d3b" stroke-width="2"/>
+  <text x="316" y="378" text-anchor="end" font-size="14" font-weight="700" fill="#222">Controller</text>
+  <text x="316" y="396" text-anchor="end" font-size="14" fill="#222">packt aus</text>
+  <text x="316" y="414" text-anchor="end" font-size="13" fill="#555">(Ziel)</text>
+
+  <path d="M120,446 H280 M270,438 L282,446 L270,454" fill="none" stroke="#555" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

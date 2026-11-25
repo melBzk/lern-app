@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 450" font-family="system-ui, sans-serif" fill="#222" role="img">
+<title>Merkbild in 5 Zeilen mit Symbolen: 1 Transistor = Schalter, an = 1, aus = 0. 2 Prozessor = Mikrochip aus Silizium mit Milliarden Transistoren. 3 Die = nackter Chip, Heatspreader = Metalldeckel, schützt und verteilt Wärme. 4 Kleinere nm-Zahl = feiner: weniger Spannung, mehr Takt, mehr Transistoren. 5 Mehr Takt und dichter gepackt = mehr Wärme.</title>
+<rect width="400" height="450" fill="#fff"/>
+<text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700">Das Wichtigste</text>
+<rect x="10" y="42" width="380" height="74" rx="10" fill="#f4f5f7"/>
+<rect x="22" y="60" width="40" height="36" rx="5" fill="#fff" stroke="#555" stroke-width="2"/><path d="M32,88 L52,68" stroke="#E07B00" stroke-width="3.5" stroke-linecap="round"/>
+<text x="76" y="72" font-size="15" font-weight="700">Transistor = Schalter</text>
+<text x="76" y="96" font-size="15">an = <tspan font-weight="700" fill="#2f9e44">1</tspan>, aus = <tspan font-weight="700">0</tspan></text>
+<rect x="10" y="122" width="380" height="74" rx="10" fill="#f4f5f7"/>
+<rect x="24" y="140" width="36" height="36" fill="#5b6470"/><path d="M30,150 H54 M30,158 H54 M30,166 H54" stroke="#cfd6dd" stroke-width="1.5"/>
+<text x="76" y="152" font-size="15" font-weight="700">Prozessor = Mikrochip</text>
+<text x="76" y="176" font-size="15">Silizium, Milliarden Transistoren</text>
+<rect x="10" y="202" width="380" height="74" rx="10" fill="#f4f5f7"/>
+<rect x="20" y="222" width="44" height="10" rx="2" fill="#c0c6cc" stroke="#555" stroke-width="1.5"/><rect x="34" y="234" width="16" height="8" fill="#5b6470"/><rect x="20" y="244" width="44" height="8" fill="#2f9e44"/>
+<text x="76" y="232" font-size="15"><tspan font-weight="700">Die</tspan> = nackter Chip</text>
+<text x="76" y="256" font-size="15"><tspan font-weight="700">Heatspreader</tspan> = Deckel, Wärme</text>
+<rect x="10" y="282" width="380" height="88" rx="10" fill="#fff4e0" stroke="#E07B00" stroke-width="2"/>
+<text x="42" y="322" text-anchor="middle" font-size="16" font-weight="700" fill="#c25e00">nm</text><path d="M28,330 H56" stroke="#E07B00" stroke-width="3"/>
+<text x="76" y="306" font-size="15" font-weight="700">kleinere nm-Zahl = feiner</text>
+<text x="76" y="330" font-size="15">weniger Spannung, mehr Takt,</text>
+<text x="76" y="352" font-size="15">mehr Transistoren</text>
+<rect x="10" y="376" width="380" height="66" rx="10" fill="#f4f5f7"/>
+<rect x="34" y="388" width="14" height="36" rx="7" fill="#fff" stroke="#555" stroke-width="2"/><rect x="38" y="398" width="6" height="26" fill="#c62828"/><circle cx="41" cy="428" r="8" fill="#c62828" stroke="#555" stroke-width="2"/>
+<text x="76" y="404" font-size="15" font-weight="700">mehr Takt + dichter gepackt</text>
+<text x="76" y="428" font-size="15">= <tspan font-weight="700" fill="#c62828">mehr Wärme</tspan></text>
+</svg>

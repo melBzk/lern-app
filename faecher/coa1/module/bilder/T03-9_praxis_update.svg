@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 378" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Ausgangslage: Ein großes Update soll vorher in einer VM in Hyper-V getestet werden. Hyper-V zeigt eine Meldung: Virtualisierung nicht verfügbar. Darunter ein Fragezeichen: Wie gehst du vor?</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker><marker id="o" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E07B00"/></marker><marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6b4f"/></marker><marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker><marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker></defs>
+<rect width="400" height="378" fill="#fff"/>
+<text x="200" y="26" font-size="17" text-anchor="middle" font-weight="700">Update erst testen – aber …</text>
+<rect x="20" y="50" width="120" height="80" rx="8" fill="#fdebd3" stroke="#E07B00" stroke-width="2"/>
+<path d="M60,72 v26 M48,86 l12,12 l12,-12" fill="none" stroke="#E07B00" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="80" y="118" font-size="14" text-anchor="middle" font-weight="700">großes Update</text>
+<line x1="148" y1="90" x2="196" y2="90" stroke="#333" stroke-width="2.5" marker-end="url(#a)"/>
+<rect x="204" y="46" width="180" height="92" rx="5" fill="#fff" stroke="#3a6ed8" stroke-width="2"/><path d="M204,68 V51 Q204,46 209,46 H379 Q384,46 384,51 V68 Z" fill="#3a6ed8" stroke="#3a6ed8" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/><text x="212" y="62" font-size="13" font-weight="700" fill="#fff">Hyper-V</text>
+<text x="294" y="96" font-size="14" text-anchor="middle" fill="#666">VM anlegen …</text>
+<rect x="52" y="164" width="296" height="110" rx="8" fill="#fff" stroke="#c62828" stroke-width="2.5"/>
+<rect x="52" y="164" width="296" height="28" rx="0" fill="#c62828" stroke="#c62828" stroke-width="0"/>
+<text x="66" y="184" font-size="14" font-weight="700" fill="#fff">Meldung</text>
+<circle cx="86" cy="230" r="16" fill="#c62828" stroke="none" stroke-width="2"/><path d="M79.6,223.6 L92.4,236.4 M92.4,223.6 L79.6,236.4" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="116" y="224" font-size="16" font-weight="700">Virtualisierung</text>
+<text x="116" y="246" font-size="16" font-weight="700">nicht verfügbar</text>
+<circle cx="200" cy="314" r="20" fill="#E07B00" stroke="none" stroke-width="2"/><text x="200" y="323.0" font-size="26" text-anchor="middle" font-weight="700" fill="#fff">?</text>
+<text x="200" y="360" font-size="14" text-anchor="middle" font-weight="700">Wie gehst du vor?</text>
+</svg>

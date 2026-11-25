@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 390" font-family="system-ui, sans-serif" fill="#222">
+<title>Die großen Bauteile mit Symbol und Aufgabe: CPU (Prozessor) rechnet ununterbrochen. Arbeitsspeicher (RAM) ist der Arbeitsplatz für die Daten, mit denen gerade gearbeitet wird. Grafikkarte erzeugt das Bild für den Monitor. Chipsatz ist der Verteiler und steuert das Zusammenspiel. Sockel ist die Fassung, in der die CPU steckt.</title>
+<rect width="400" height="390" fill="#fff"/>
+<text x="200" y="30" text-anchor="middle" font-size="17" font-weight="700">Wer macht was?</text>
+<g fill="#f4f1ee"><rect x="10" y="46" width="380" height="62" rx="10"/><rect x="10" y="114" width="380" height="62" rx="10"/><rect x="10" y="182" width="380" height="62" rx="10"/><rect x="10" y="250" width="380" height="62" rx="10"/><rect x="10" y="318" width="380" height="62" rx="10"/></g>
+<!-- CPU -->
+<rect x="34" y="56" width="42" height="42" rx="3" fill="#cfd8dc" stroke="#555" stroke-width="2"/>
+<text x="55" y="82" text-anchor="middle" font-size="13" font-weight="700">CPU</text>
+<text x="96" y="72" font-size="15" font-weight="700">CPU (Prozessor)</text>
+<text x="96" y="94" font-size="14">rechnet – ununterbrochen</text>
+<!-- RAM -->
+<rect x="22" y="132" width="66" height="22" rx="2" fill="#2e7d4f"/>
+<g fill="#333"><rect x="27" y="137" width="10" height="11"/><rect x="41" y="137" width="10" height="11"/><rect x="55" y="137" width="10" height="11"/><rect x="69" y="137" width="10" height="11"/></g>
+<rect x="24" y="154" width="62" height="5" fill="#e0a54a"/>
+<text x="96" y="140" font-size="15" font-weight="700">Arbeitsspeicher (RAM)</text>
+<text x="96" y="162" font-size="14">Arbeitsplatz für die aktuellen Daten</text>
+<!-- Grafikkarte -->
+<rect x="22" y="196" width="50" height="32" rx="3" fill="#455a64"/>
+<circle cx="47" cy="212" r="11" fill="#90a4ae"/>
+<rect x="74" y="200" width="14" height="11" rx="1" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<text x="96" y="208" font-size="15" font-weight="700">Grafikkarte</text>
+<text x="96" y="230" font-size="14">erzeugt das Bild für den Monitor</text>
+<!-- Chipsatz -->
+<rect x="43" y="270" width="24" height="24" fill="#333"/>
+<g stroke="#D4607A" stroke-width="2.5"><line x1="43" y1="282" x2="24" y2="282"/><line x1="67" y1="282" x2="86" y2="282"/><line x1="55" y1="270" x2="55" y2="258"/><line x1="55" y1="294" x2="55" y2="306"/></g>
+<text x="96" y="276" font-size="15" font-weight="700">Chipsatz</text>
+<text x="96" y="298" font-size="14">Verteiler: steuert das Zusammenspiel</text>
+<!-- Sockel -->
+<rect x="30" y="326" width="50" height="46" rx="2" fill="#fff" stroke="#555" stroke-width="2"/>
+<g fill="#e0a54a"><circle cx="40" cy="336" r="2"/><circle cx="50" cy="336" r="2"/><circle cx="60" cy="336" r="2"/><circle cx="70" cy="336" r="2"/><circle cx="40" cy="346" r="2"/><circle cx="50" cy="346" r="2"/><circle cx="60" cy="346" r="2"/><circle cx="70" cy="346" r="2"/><circle cx="40" cy="356" r="2"/><circle cx="50" cy="356" r="2"/><circle cx="60" cy="356" r="2"/><circle cx="70" cy="356" r="2"/><circle cx="40" cy="366" r="2"/><circle cx="50" cy="366" r="2"/><circle cx="60" cy="366" r="2"/><circle cx="70" cy="366" r="2"/></g>
+<text x="96" y="344" font-size="15" font-weight="700">Sockel</text>
+<text x="96" y="366" font-size="14">Fassung mit Kontakten für die CPU</text>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 470" font-family="system-ui, sans-serif" role="img">
+  <title>Was die mechanischen Drucker gemeinsam haben. Typenrad, Kugelkopf und Nadeldrucker schlagen durch ein Farbband aufs Papier. Der Schlag wirkt durch alle Lagen, deshalb geht Durchschlagpapier. Plus: robust und zuverlässig. Minus: nicht sehr leistungsstark. Achtung bei kostengünstig: beim Nadeldrucker ist der Kauf teuer, die Kosten pro Seite sind sehr gering. Immer sagen, welche Kosten gemeint sind.</title>
+  <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker></defs>
+  <rect width="400" height="470" fill="#fff"/>
+  <text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700" fill="#222">Mechanisch: alle schlagen zu</text>
+
+  <!-- drei Koepfe -->
+  <g stroke="#3a3f4a" stroke-width="2.5"><line x1="66" y1="66" x2="66" y2="46"/><line x1="66" y1="66" x2="84" y2="56"/><line x1="66" y1="66" x2="84" y2="76"/><line x1="66" y1="66" x2="48" y2="76"/><line x1="66" y1="66" x2="48" y2="56"/><line x1="66" y1="66" x2="66" y2="86"/></g>
+  <circle cx="66" cy="66" r="5" fill="#3a3f4a"/>
+  <text font-size="14" font-weight="700" fill="#222" text-anchor="middle" x="66" y="112">Typenrad</text>
+  <circle cx="200" cy="66" r="20" fill="#c9ced6" stroke="#555" stroke-width="2"/><text x="202" y="71" text-anchor="middle" font-size="13" font-weight="700" fill="#3a3f4a">K</text>
+  <text font-size="14" font-weight="700" fill="#222" text-anchor="middle" x="200" y="112">Kugelkopf</text>
+  <rect x="312" y="48" width="44" height="18" rx="3" fill="#3a3f4a"/>
+  <g stroke="#333" stroke-width="3"><line x1="322" y1="66" x2="322" y2="84"/><line x1="334" y1="66" x2="334" y2="84"/><line x1="346" y1="66" x2="346" y2="84"/></g>
+  <text font-size="14" font-weight="700" fill="#222" text-anchor="middle" x="334" y="112">Nadel</text>
+  <g stroke="#333" stroke-width="3"><line x1="66" y1="120" x2="66" y2="150" marker-end="url(#a)"/><line x1="200" y1="120" x2="200" y2="150" marker-end="url(#a)"/><line x1="334" y1="120" x2="334" y2="150" marker-end="url(#a)"/></g>
+
+  <!-- Farbband + Lagen -->
+  <rect x="20" y="158" width="360" height="10" fill="#111"/>
+  <text x="200" y="188" text-anchor="middle" font-size="14" font-weight="700" fill="#222">Farbband</text>
+  <rect x="20" y="196" width="360" height="12" fill="#fff" stroke="#333"/>
+  <rect x="20" y="212" width="360" height="12" fill="#fde8f3" stroke="#d6338a"/>
+  <text x="200" y="246" text-anchor="middle" font-size="14" fill="#333">Schlag wirkt durch alle Lagen</text>
+  <rect x="100" y="256" width="200" height="32" rx="16" fill="#fff" stroke="#E07B00" stroke-width="2"/>
+  <text x="200" y="277" text-anchor="middle" font-size="14" font-weight="700" fill="#b35f00">→ Durchschlag geht</text>
+
+  <!-- plus minus -->
+  <rect x="8" y="304" width="188" height="56" rx="10" fill="#e8f6ee" stroke="#1f9d55" stroke-width="2"/>
+  <text x="102" y="328" text-anchor="middle" font-size="14" font-weight="700" fill="#14653a">+ robust</text>
+  <text x="102" y="348" text-anchor="middle" font-size="14" font-weight="700" fill="#14653a">+ zuverlässig</text>
+  <rect x="204" y="304" width="188" height="56" rx="10" fill="#fdecec" stroke="#d63c3c" stroke-width="2"/>
+  <text x="298" y="328" text-anchor="middle" font-size="14" font-weight="700" fill="#a32020">– nicht sehr</text>
+  <text x="298" y="348" text-anchor="middle" font-size="14" font-weight="700" fill="#a32020">leistungsstark</text>
+
+  <!-- Kosten -->
+  <rect x="8" y="372" width="384" height="90" rx="10" fill="#f3f4f6" stroke="#bbb"/>
+  <text x="20" y="396" font-size="14" font-weight="700" fill="#222">„kostengünstig“ – welche Kosten?</text>
+  <text x="20" y="420" font-size="14" fill="#333">Nadeldrucker: Kauf</text><text x="152" y="420" font-size="14" font-weight="700" fill="#a32020">teuer</text>
+  <text x="20" y="444" font-size="14" fill="#333">pro Seite</text><text x="88" y="444" font-size="14" font-weight="700" fill="#14653a">sehr gering</text>
+</svg>

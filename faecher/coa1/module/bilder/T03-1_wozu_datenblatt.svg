@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 360" font-family="system-ui, sans-serif" fill="#222" role="img">
+<title>Wozu: Vereinfacht nachgezeichnetes Datenblatt eines Prozessors mit der markierten Zeile Technology: 10 nm, so wie im Programm CPU-Z im Unterricht. Pfeil nach unten zur Deutung: kleinere Zahl = feiner gefertigt, meist sparsamer bei gleicher Leistung. Oben Hinweis: AP1, Prozessoren nach Datenblatt vergleichen.</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#E07B00"/></marker></defs>
+<rect width="400" height="360" fill="#fff"/>
+<text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700">AP1: Prozessoren nach Datenblatt</text>
+<rect x="40" y="44" width="320" height="150" rx="8" fill="#fff" stroke="#555" stroke-width="2"/>
+<rect x="40" y="44" width="320" height="30" rx="8" fill="#e9ecef"/>
+<text x="56" y="65" font-size="14" font-weight="700">Datenblatt Prozessor</text>
+<text x="56" y="100" font-size="14" fill="#555">Name</text><rect x="170" y="90" width="160" height="10" rx="3" fill="#d6dbe0"/>
+<text x="56" y="126" font-size="14" fill="#555">Cores</text><rect x="170" y="116" width="110" height="10" rx="3" fill="#d6dbe0"/>
+<rect x="48" y="138" width="304" height="32" rx="5" fill="#fff4e0" stroke="#E07B00" stroke-width="2.5"/>
+<text x="56" y="160" font-size="15" font-weight="700">Technology</text><text x="200" y="160" font-size="16" font-weight="700" fill="#c25e00">10 nm</text>
+<text x="56" y="186" font-size="14" fill="#555">Clock</text><rect x="170" y="176" width="130" height="10" rx="3" fill="#d6dbe0"/>
+<line x1="200" y1="204" x2="200" y2="240" stroke="#E07B00" stroke-width="4" marker-end="url(#a)"/>
+<rect x="20" y="250" width="360" height="98" rx="12" fill="#f4f5f7" stroke="#9aa3ad" stroke-width="1.5"/>
+<text x="200" y="282" text-anchor="middle" font-size="16" font-weight="700">kleinere Zahl = feiner gefertigt</text>
+<text x="200" y="310" text-anchor="middle" font-size="15">meist sparsamer</text>
+<text x="200" y="332" text-anchor="middle" font-size="15">bei gleicher Leistung</text>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" font-family="system-ui, sans-serif" fill="#222" role="img">
+<title>Die 7 neuen Wörter mit kleinem Symbol: Transistor = winziger Schalter an oder aus. Halbleiter Silizium = leitet je nach Zustand gut oder kaum. Die = nackter Chip ohne Gehäuse. Heatspreader = Metalldeckel, verteilt die Wärme. Wafer = runde Siliziumscheibe mit vielen Chips. Lithografie = Muster mit UV-Licht belichten. Strukturbreite = wie fein gefertigt, in nm.</title>
+<rect width="400" height="520" fill="#fff"/>
+<text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700">7 neue Wörter</text>
+<g font-size="13">
+<rect x="10" y="42" width="380" height="62" rx="10" fill="#f4f5f7"/>
+<rect x="24" y="58" width="36" height="30" rx="4" fill="#fff" stroke="#555" stroke-width="2"/><path d="M34,80 L50,66" stroke="#E07B00" stroke-width="3" stroke-linecap="round"/>
+<text x="76" y="68" font-size="15" font-weight="700">Transistor</text><text x="76" y="88">winziger Schalter: an oder aus</text>
+<rect x="10" y="110" width="380" height="62" rx="10" fill="#f4f5f7"/>
+<rect x="24" y="126" width="36" height="30" rx="4" fill="#b8c2cc" stroke="#555" stroke-width="2"/><text x="42" y="147" text-anchor="middle" font-size="13" font-weight="700">Si</text>
+<text x="76" y="136" font-size="15" font-weight="700">Halbleiter (Silizium)</text><text x="76" y="156">leitet je nach Zustand gut oder kaum</text>
+<rect x="10" y="178" width="380" height="62" rx="10" fill="#f4f5f7"/>
+<rect x="30" y="196" width="24" height="24" fill="#5b6470"/>
+<text x="76" y="204" font-size="15" font-weight="700">Die</text><text x="76" y="224">der nackte Chip ohne Gehäuse</text>
+<rect x="10" y="246" width="380" height="62" rx="10" fill="#f4f5f7"/>
+<rect x="22" y="266" width="40" height="10" rx="2" fill="#c0c6cc" stroke="#555" stroke-width="1.5"/><rect x="34" y="278" width="16" height="6" fill="#5b6470"/><rect x="22" y="285" width="40" height="7" fill="#2f9e44"/>
+<text x="76" y="272" font-size="15" font-weight="700">Heatspreader</text><text x="76" y="292">Metalldeckel, verteilt die Wärme</text>
+<rect x="10" y="314" width="380" height="62" rx="10" fill="#f4f5f7"/>
+<circle cx="42" cy="345" r="20" fill="#cfd6dd" stroke="#555" stroke-width="2"/><path d="M28,338 H56 M28,345 H56 M28,352 H56 M35,328 V362 M42,326 V364 M49,328 V362" stroke="#555" stroke-width="1"/>
+<text x="76" y="340" font-size="15" font-weight="700">Wafer</text><text x="76" y="360">runde Siliziumscheibe, viele Chips</text>
+<rect x="10" y="382" width="380" height="62" rx="10" fill="#f4f5f7"/>
+<path d="M34,394 L28,420 M42,394 V420 M50,394 L56,420" stroke="#7b3fc4" stroke-width="2.5"/><rect x="24" y="420" width="36" height="10" fill="#cfd6dd" stroke="#555"/>
+<text x="76" y="408" font-size="15" font-weight="700">Lithografie</text><text x="76" y="428">Muster mit UV-Licht belichten</text>
+<rect x="10" y="450" width="380" height="62" rx="10" fill="#fff4e0" stroke="#E07B00" stroke-width="2"/>
+<path d="M24,486 H60 M24,480 V492 M60,480 V492" stroke="#E07B00" stroke-width="2.5"/><text x="42" y="474" text-anchor="middle" font-size="13" font-weight="700" fill="#c25e00">nm</text>
+<text x="76" y="476" font-size="15" font-weight="700">Strukturbreite (nm)</text><text x="76" y="496">wie fein der Chip gefertigt ist</text>
+</g>
+</svg>

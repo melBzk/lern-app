@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 420" font-family="system-ui, sans-serif" fill="#222" role="img">
+<title>PC-Rückseite mit zwei Stellen für Bildbuchsen. Oben 1: das Anschlussfeld des Mainboards mit HDMI der Onboard-Grafik; sie lässt sich oft abschalten, wenn eine Grafikkarte steckt. Weiter unten 2: die Grafikkarte im PCIe-Steckplatz mit eigenen Bildbuchsen. Ein Monitorkabel führt zur Grafikkarte. Hinweis: Monitor schwarz? Zuerst prüfen, ob das Kabel an der Grafikkarte steckt.</title>
+<rect width="400" height="420" fill="#fff"/>
+<text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700">Wo kommt das Bild heraus?</text>
+<!-- Gehäuse Rückseite -->
+<rect x="20" y="44" width="150" height="300" rx="6" fill="#dee2e6" stroke="#555" stroke-width="2.5"/>
+<!-- Anschlussfeld -->
+<rect x="36" y="60" width="118" height="92" rx="3" fill="#cfd8dc" stroke="#555" stroke-width="2"/>
+<g fill="#555"><rect x="44" y="68" width="16" height="10"/><rect x="66" y="68" width="16" height="10"/><rect x="44" y="84" width="20" height="16"/><circle cx="136" cy="74" r="6" fill="#2e9d5b"/><circle cx="136" cy="92" r="6" fill="#D4607A"/><circle cx="136" cy="110" r="6" fill="#3a6ed8"/><rect x="44" y="108" width="16" height="10"/><rect x="66" y="108" width="16" height="10"/></g>
+<path d="M90,124 H122 V132 L116,138 H96 L90,132 Z" fill="#333"/>
+<line x1="86" y1="120" x2="126" y2="142" stroke="#888" stroke-width="2" stroke-dasharray="4 3"/>
+<!-- Steckplatzblenden -->
+<g fill="#fff" stroke="#999" stroke-width="1.5"><rect x="36" y="200" width="118" height="14"/><rect x="36" y="248" width="118" height="14"/><rect x="36" y="268" width="118" height="14"/></g>
+<!-- Grafikkarte -->
+<rect x="36" y="220" width="118" height="22" fill="#cfd8dc" stroke="#D4607A" stroke-width="3"/>
+<path d="M46,225 H70 V233 L65,238 H51 L46,233 Z" fill="#333"/>
+<path d="M80,225 H104 V238 H86 L80,232 Z" fill="#333"/>
+<path d="M114,225 H138 V233 L133,238 H119 L114,233 Z" fill="#333"/>
+<!-- Netzteil -->
+<rect x="36" y="296" width="118" height="38" rx="3" fill="#adb5bd"/><circle cx="70" cy="315" r="12" fill="none" stroke="#555" stroke-width="2"/>
+<!-- Kabel zum Monitor -->
+<path d="M154,231 C205,231 215,290 250,290" fill="none" stroke="#333" stroke-width="4"/>
+<rect x="250" y="250" width="110" height="74" rx="5" fill="#333"/><rect x="256" y="256" width="98" height="60" fill="#222"/><rect x="292" y="324" width="16" height="10" fill="#333"/>
+<text x="305" y="292" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">Monitor</text>
+<!-- Beschriftung 1 -->
+<circle cx="190" cy="82" r="11" fill="#555"/><text x="190" y="87" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">1</text>
+<text x="208" y="80" font-size="14" font-weight="700">Anschlussfeld</text>
+<text x="208" y="98" font-size="13">Onboard-Grafik (HDMI)</text>
+<text x="208" y="116" font-size="13" fill="#555">lässt sich oft abschalten,</text>
+<text x="208" y="132" font-size="13" fill="#555">wenn eine Grafikkarte steckt</text>
+<!-- Beschriftung 2 -->
+<circle cx="190" cy="200" r="11" fill="#D4607A"/><text x="190" y="205" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">2</text>
+<text x="208" y="198" font-size="14" font-weight="700" fill="#b03a56">Grafikkarte (PCIe)</text>
+<text x="208" y="216" font-size="13">eigene Bildbuchsen</text>
+<line x1="180" y1="210" x2="158" y2="228" stroke="#D4607A" stroke-width="2"/>
+<!-- Hinweis -->
+<rect x="10" y="378" width="380" height="36" rx="10" fill="#fbe3e8" stroke="#D4607A" stroke-width="2"/>
+<text x="200" y="402" text-anchor="middle" font-size="14" font-weight="700">Monitor schwarz? Kabel an der Grafikkarte?</text>
+</svg>

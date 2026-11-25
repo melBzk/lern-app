@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 430" font-family="system-ui, sans-serif" role="img">
+  <title>Zwei Chips von oben: Links wenige Transistoren und niedriger Takt, der Chip ist nur blass orange, das Thermometer zeigt niedrig. Rechts viele Transistoren eng gepackt und hoher Takt, der Chip glüht rot, das Thermometer zeigt hoch, Wärme steigt auf. Darum braucht man Kühlung (T02-7) und baut mehrere Kerne (T03-4).</title>
+  <defs>
+    <pattern id="dicht" x="216" y="110" width="9" height="9" patternUnits="userSpaceOnUse"><rect x="2" y="2" width="6" height="6" rx="1" fill="#7a1010"/></pattern>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker>
+  </defs>
+  <rect width="400" height="430" fill="#fff"/>
+  <text x="200" y="28" text-anchor="middle" font-size="18" font-weight="700" fill="#222">Dichter und schneller = heißer</text>
+
+  <!-- links -->
+  <text x="100" y="58" text-anchor="middle" font-size="14" font-weight="700" fill="#222">wenige Transistoren,</text>
+  <text x="100" y="76" text-anchor="middle" font-size="14" font-weight="700" fill="#222">niedriger Takt</text>
+  <rect x="16" y="110" width="126" height="126" rx="4" fill="#fde3c4" stroke="#c98a4a" stroke-width="2.5"/>
+  <g fill="#e8a25c">
+    <rect x="30" y="124" width="28" height="28" rx="3"/><rect x="65" y="124" width="28" height="28" rx="3"/><rect x="100" y="124" width="28" height="28" rx="3"/>
+    <rect x="30" y="159" width="28" height="28" rx="3"/><rect x="65" y="159" width="28" height="28" rx="3"/><rect x="100" y="159" width="28" height="28" rx="3"/>
+    <rect x="30" y="194" width="28" height="28" rx="3"/><rect x="65" y="194" width="28" height="28" rx="3"/><rect x="100" y="194" width="28" height="28" rx="3"/>
+  </g>
+  <!-- Thermometer niedrig -->
+  <rect x="158" y="110" width="14" height="110" rx="7" fill="#fff" stroke="#555" stroke-width="2"/>
+  <circle cx="165" cy="228" r="12" fill="#e8a25c" stroke="#555" stroke-width="2"/>
+  <rect x="161" y="196" width="8" height="30" fill="#e8a25c"/>
+
+  <!-- rechts -->
+  <text x="300" y="58" text-anchor="middle" font-size="14" font-weight="700" fill="#c62828">viele Transistoren eng</text>
+  <text x="300" y="76" text-anchor="middle" font-size="14" font-weight="700" fill="#c62828">gepackt, hoher Takt</text>
+  <path d="M232,104 q-5,-6 0,-12 q5,-6 0,-12 M260,104 q-5,-6 0,-12 q5,-6 0,-12 M288,104 q-5,-6 0,-12 q5,-6 0,-12 M316,104 q-5,-6 0,-12 q5,-6 0,-12" fill="none" stroke="#c62828" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="352" y="100" font-size="13" font-weight="700" fill="#c62828">Wärme</text>
+  <rect x="216" y="110" width="126" height="126" rx="4" fill="#e03b24"/>
+  <rect x="216" y="110" width="126" height="126" fill="url(#dicht)"/>
+  <rect x="216" y="110" width="126" height="126" rx="4" fill="none" stroke="#8a1c10" stroke-width="2.5"/>
+  <!-- Thermometer hoch -->
+  <rect x="358" y="110" width="14" height="110" rx="7" fill="#fff" stroke="#555" stroke-width="2"/>
+  <circle cx="365" cy="228" r="12" fill="#c62828" stroke="#555" stroke-width="2"/>
+  <rect x="361" y="118" width="8" height="108" rx="4" fill="#c62828"/>
+
+  <!-- darum -->
+  <line x1="200" y1="262" x2="200" y2="300" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+  <text x="212" y="286" font-size="14" fill="#555">darum:</text>
+  <line x1="200" y1="300" x2="100" y2="320" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+  <line x1="200" y1="300" x2="300" y2="320" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+
+  <rect x="16" y="326" width="170" height="80" rx="10" fill="#eef4ff" stroke="#3a6ed8" stroke-width="2"/>
+  <text x="101" y="360" text-anchor="middle" font-size="16" font-weight="700" fill="#222">Kühlung</text>
+  <text x="101" y="384" text-anchor="middle" font-size="14" fill="#555">(T02-7)</text>
+  <rect x="214" y="326" width="170" height="80" rx="10" fill="#eef4ff" stroke="#3a6ed8" stroke-width="2"/>
+  <text x="299" y="360" text-anchor="middle" font-size="16" font-weight="700" fill="#222">mehrere Kerne</text>
+  <text x="299" y="384" text-anchor="middle" font-size="14" fill="#555">(T03-4)</text>
+</svg>

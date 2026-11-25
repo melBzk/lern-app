@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 440" font-family="system-ui, sans-serif" fill="#222" role="img">
+<title>So entsteht EUV-Licht, vereinfacht. Eine Kammer im Vakuum. Von oben fallen winzige Zinntröpfchen. Von links schießt ein roter CO2-Laser von Trumpf durch eine Öffnung in der Mitte des gewölbten Sammelspiegels und trifft ein Tröpfchen. Es leuchtet als heller Stern auf: Plasma mit ca. 200 000 Grad Celsius, es strahlt EUV-Licht ab. Der Sammelspiegel lenkt das violette EUV-Licht nach rechts, weiter in die Maschine. Das passiert ca. 50 000-mal pro Sekunde. Zahlen laut Hersteller, zum Staunen, nicht zum Lernen. Vereinfacht.</title>
+<rect width="400" height="440" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">So entsteht EUV-Licht</text>
+
+<rect x="12" y="40" width="376" height="290" rx="12" fill="#f4f5f7" stroke="#555" stroke-width="2"/>
+<text x="376" y="62" text-anchor="end" font-size="15" font-weight="700" fill="#3a6ed8">Vakuum</text>
+
+<!-- EUV-Licht vom Spiegel nach rechts -->
+<path d="M120,126 L120,254 L344,192 Z" fill="#b197fc" opacity="0.5"/>
+<path d="M344,192 H368" stroke="#7b3fc4" stroke-width="5"/>
+<path d="M366,184 L382,192 L366,200 Z" fill="#7b3fc4"/>
+<text x="270" y="172" text-anchor="middle" font-size="15" font-weight="700" fill="#7b3fc4">EUV-Licht</text>
+<text x="378" y="236" text-anchor="end" font-size="14" font-weight="700" fill="#7b3fc4">weiter in</text>
+<text x="378" y="253" text-anchor="end" font-size="14" font-weight="700" fill="#7b3fc4">die Maschine</text>
+
+<!-- Sammelspiegel -->
+<g stroke="#5b6470" stroke-width="8" fill="none" stroke-linecap="round">
+<path d="M124,118 Q109.8,150 108.2,180"/>
+<path d="M108.3,202 Q110.2,231 124,262"/>
+</g>
+<text x="102" y="170" text-anchor="end" font-size="13" font-weight="700" fill="#555">Öffnung</text>
+<path d="M98,174 L106,184" stroke="#555" stroke-width="1.5"/>
+<text x="100" y="292" text-anchor="middle" font-size="13" font-weight="700">Sammelspiegel</text>
+
+<!-- Zinntröpfchen -->
+<rect x="192" y="40" width="16" height="14" fill="#5b6470"/>
+<g fill="#868e96"><circle cx="200" cy="72" r="5"/><circle cx="200" cy="100" r="5"/><circle cx="200" cy="128" r="5"/><circle cx="200" cy="156" r="5"/></g>
+<text x="214" y="96" font-size="14" font-weight="700">Zinntröpfchen</text>
+
+<!-- Laser -->
+<rect x="22" y="178" width="48" height="26" rx="3" fill="#444"/>
+<path d="M70,191 H188" stroke="#c62828" stroke-width="5"/>
+<text x="46" y="224" text-anchor="middle" font-size="13" font-weight="700" fill="#c62828">CO₂-Laser</text>
+<text x="46" y="240" text-anchor="middle" font-size="13" fill="#c62828">(Trumpf)</text>
+
+<!-- Plasma -->
+<circle cx="200" cy="191" r="20" fill="#ffe066" opacity="0.6"/>
+<path d="M200,171 L205,185 L220,191 L205,197 L200,211 L195,197 L180,191 L195,185 Z" fill="#ffd43b" stroke="#E07B00" stroke-width="2"/>
+<path d="M210,212 L236,290" stroke="#555" stroke-width="1.5"/>
+<text x="244" y="290" font-size="14" font-weight="700" fill="#c25e00">Plasma</text>
+<text x="244" y="308" font-size="14" font-weight="700" fill="#c25e00">ca. 200 000 °C</text>
+
+<!-- Zähler -->
+<rect x="12" y="344" width="376" height="48" rx="10" fill="#fff4e0" stroke="#E07B00" stroke-width="2"/>
+<path d="M40,368 a12,12 0 1 1 4,9" stroke="#E07B00" stroke-width="3" fill="none"/>
+<path d="M38,372 L44,380 L50,372 Z" fill="#E07B00"/>
+<text x="80" y="374" font-size="16" font-weight="700">ca. 50 000-mal pro Sekunde</text>
+<text x="200" y="420" text-anchor="middle" font-size="13" fill="#555">Zahlen laut Hersteller: zum Staunen, nicht lernen</text>
+</svg>

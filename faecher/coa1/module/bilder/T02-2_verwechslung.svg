@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 420" font-family="system-ui, sans-serif" fill="#222" role="img">
+<title>Stecker ist nicht gleich Tempo. Oben: USB-C ist eine Steckerform, oval und beidseitig steckbar. Ungleich dazu: USB 3.2 und USB4 sind Versionen, also Tempo, 20 und 40 Gigabit pro Sekunde. Ein USB-C-Stecker sagt nicht, wie schnell die Verbindung ist: ins Datenblatt schauen. Unten zwei eigene Standards: FireWire für Kamera und Video, 400 oder 800 Megabit pro Sekunde. eSATA ist SATA nach außen für Festplatten, 150 bis 600 Megabyte pro Sekunde, kein Strom.</title>
+<rect width="400" height="420" fill="#fff"/>
+<text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700">Stecker ≠ Tempo</text>
+<!-- Form -->
+<rect x="10" y="42" width="170" height="150" rx="10" fill="#eaf6ec" stroke="#2e9d5b" stroke-width="2"/>
+<rect x="45" y="62" width="100" height="34" rx="17" fill="#d0d0d0" stroke="#555" stroke-width="2"/><rect x="66" y="72" width="58" height="14" rx="3" fill="#fafafa" stroke="#888"/>
+<text x="95" y="124" text-anchor="middle" font-size="16" font-weight="700" fill="#1f7a45">USB-C</text>
+<text x="95" y="146" text-anchor="middle" font-size="14" font-weight="700">= Steckerform</text>
+<text x="95" y="168" text-anchor="middle" font-size="13">oval, beidseitig</text>
+<!-- Version -->
+<rect x="220" y="42" width="170" height="150" rx="10" fill="#e3ecfb" stroke="#3a6ed8" stroke-width="2"/>
+<path d="M260,104 A45,45 0 0 1 350,104" fill="none" stroke="#9fb3dc" stroke-width="8"/>
+<path d="M260,104 A45,45 0 0 1 332,72" fill="none" stroke="#3a6ed8" stroke-width="8"/>
+<line x1="305" y1="104" x2="330" y2="76" stroke="#333" stroke-width="3"/><circle cx="305" cy="104" r="5" fill="#333"/>
+<text x="305" y="124" text-anchor="middle" font-size="16" font-weight="700" fill="#2550a8">USB 3.2 / USB4</text>
+<text x="305" y="146" text-anchor="middle" font-size="14" font-weight="700">= Version = Tempo</text>
+<text x="305" y="168" text-anchor="middle" font-size="13">20 / 40 Gbit/s</text>
+<text x="200" y="124" text-anchor="middle" font-size="26" font-weight="700" fill="#D4607A">≠</text>
+<!-- Hinweis -->
+<rect x="10" y="202" width="380" height="40" rx="10" fill="#fbe3e8" stroke="#D4607A" stroke-width="2"/>
+<text x="200" y="227" text-anchor="middle" font-size="14" font-weight="700">USB-C sagt nichts übers Tempo → Datenblatt</text>
+<!-- FireWire / eSATA -->
+<text x="200" y="270" text-anchor="middle" font-size="14" font-weight="700" fill="#555">eigene Standards (alt)</text>
+<rect x="10" y="280" width="185" height="130" rx="10" fill="#f4f1ee"/>
+<rect x="205" y="280" width="185" height="130" rx="10" fill="#f4f1ee"/>
+<path d="M60,296 H110 A14,14 0 0 1 110,324 H60 Z" fill="#d0d0d0" stroke="#555" stroke-width="2"/>
+<text x="102" y="350" text-anchor="middle" font-size="15" font-weight="700">FireWire</text>
+<text x="102" y="370" text-anchor="middle" font-size="13">Kamera / Video</text>
+<text x="102" y="390" text-anchor="middle" font-size="13">400 / 800 Mbit/s</text>
+<path d="M258,300 H342 V314 H335 V320 H265 V314 H258 Z" fill="#d0d0d0" stroke="#555" stroke-width="2"/>
+<text x="298" y="350" text-anchor="middle" font-size="15" font-weight="700">eSATA</text>
+<text x="298" y="370" text-anchor="middle" font-size="13">Festplatten, 150–600 MB/s</text>
+<text x="298" y="390" text-anchor="middle" font-size="13" fill="#c62828">kein Strom</text>
+</svg>

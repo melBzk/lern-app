@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 450" font-family="system-ui, sans-serif" fill="#222" role="img">
+<title>So rechnet Licht in drei Schritten von oben nach unten. 1 Zahl aufs Licht prägen: Der Laser liefert das Licht, ein Modulator stellt die Helligkeit nach der Zahl 0,7 ein, danach leuchtet der Strahl mit 70 Prozent Helligkeit. 2 Überlagern: Zwei Lichtwellen laufen in einem Lichtkanal, dem Wellenleiter, zusammen, und es entsteht eine neue Welle. 3 Ablesen: Ein Lichtsensor misst die Helligkeit und gibt eine Zahl an den Computer zurück, wieder digital.</title>
+<rect width="400" height="450" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">So rechnet Licht</text>
+<path d="M22,82 V148 M22,180 V306" stroke="#bbb" stroke-width="2"/>
+
+<!-- 1 -->
+<circle cx="22" cy="62" r="13" fill="#3a6ed8"/><text x="22" y="67" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">1</text>
+<text x="44" y="68" font-size="15" font-weight="700">Zahl aufs Licht prägen</text>
+<rect x="44" y="90" width="48" height="30" rx="4" fill="#444"/>
+<text x="68" y="110" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">Laser</text>
+<rect x="92" y="99" width="42" height="12" fill="#c62828"/>
+<rect x="134" y="88" width="84" height="34" rx="5" fill="#3a6ed8"/>
+<text x="176" y="110" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">Modulator</text>
+<rect x="218" y="99" width="162" height="12" fill="#c62828" opacity="0.7"/>
+<text x="300" y="92" text-anchor="middle" font-size="14" font-weight="700" fill="#c62828">70 % hell</text>
+<rect x="150" y="128" width="52" height="24" rx="5" fill="#fff" stroke="#555" stroke-width="2"/>
+<text x="176" y="146" text-anchor="middle" font-size="15" font-weight="700">0,7</text>
+<text x="212" y="146" font-size="13" fill="#555">Zahl stellt die Helligkeit ein</text>
+
+<!-- 2 -->
+<circle cx="22" cy="164" r="13" fill="#3a6ed8"/><text x="22" y="169" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">2</text>
+<text x="44" y="170" font-size="15" font-weight="700">Überlagern</text>
+<path d="M44,196 H152 C182,196 182,222 212,222 H380 M44,248 H152 C182,248 182,222 212,222" stroke="#d0e0fb" stroke-width="20" fill="none" stroke-linejoin="round"/>
+<g stroke="#c62828" stroke-width="2.5" fill="none" stroke-linecap="round">
+<path d="M44,196 q4.5,-5 9,0 t9,0 t9,0 t9,0 t9,0 t9,0 t9,0 t9,0 t9,0 t9,0 t9,0 t9,0"/>
+<path d="M44,248 q4.5,-5 9,0 t9,0 t9,0 t9,0 t9,0 t9,0 t9,0 t9,0 t9,0 t9,0 t9,0 t9,0"/>
+<path d="M152,196 C182,196 182,222 212,222 M152,248 C182,248 182,222 212,222"/>
+<path d="M212,222 q6,-11 12,0 t12,0 t12,0 t12,0 t12,0 t12,0 t12,0 t12,0 t12,0 t12,0 t12,0 t12,0 t12,0 t12,0" stroke-width="3.5"/>
+</g>
+<text x="296" y="198" text-anchor="middle" font-size="14" font-weight="700" fill="#c62828">neue Welle</text>
+<text x="44" y="284" font-size="14" font-weight="700" fill="#3a6ed8">Wellenleiter = Lichtkanal</text>
+
+<!-- 3 -->
+<circle cx="22" cy="322" r="13" fill="#3a6ed8"/><text x="22" y="327" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">3</text>
+<text x="44" y="328" font-size="15" font-weight="700">Ablesen</text>
+<rect x="44" y="365" width="78" height="12" fill="#c62828" opacity="0.7"/>
+<rect x="122" y="352" width="18" height="38" rx="3" fill="#3a6ed8"/>
+<text x="131" y="408" text-anchor="middle" font-size="13" font-weight="700">Sensor</text>
+<path d="M142,371 H166" stroke="#555" stroke-width="2.5"/><path d="M164,365 L174,371 L164,377 Z" fill="#555"/>
+<rect x="178" y="354" width="62" height="34" rx="6" fill="#fff" stroke="#555" stroke-width="2"/>
+<text x="209" y="377" text-anchor="middle" font-size="15" font-weight="700">Zahl</text>
+<path d="M242,371 H260" stroke="#555" stroke-width="2.5"/><path d="M258,365 L268,371 L258,377 Z" fill="#555"/>
+<rect x="272" y="346" width="64" height="44" rx="4" fill="#e8f0fe" stroke="#555" stroke-width="2"/>
+<text x="304" y="373" text-anchor="middle" font-size="13" font-family="monospace" font-weight="700">0101</text>
+<path d="M296,390 V398 M312,390 V398 M286,400 H322" stroke="#555" stroke-width="2.5"/>
+<text x="304" y="422" text-anchor="middle" font-size="14" font-weight="700" fill="#E07B00">wieder digital</text>
+</svg>

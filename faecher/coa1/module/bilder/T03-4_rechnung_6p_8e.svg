@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 440" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Rechnung für den Laptop aus dem Unterricht, Intel Core i7-12700H. Obere Reihe: 6 P-Kerne (Performance, stark), jeder mit 2 Threads: 6 mal 2 gleich 12. Untere Reihe: 8 E-Kerne (Effizienz, sparsam), jeder mit 1 Thread: 8 mal 1 gleich 8. Summe: Kerne 6 plus 8 gleich 14; logische Prozessoren 12 plus 8 gleich 20.</title>
+<rect width="400" height="440" fill="#fff"/>
+<text x="200" y="26" font-size="16" text-anchor="middle" font-weight="700">Laptop aus dem Unterricht:</text>
+<text x="200" y="46" font-size="16" text-anchor="middle" font-weight="700">Intel Core i7-12700H</text>
+<text x="20" y="82" font-size="15" font-weight="700" fill="#3a6ed8">6 P-Kerne = Performance (stark)</text>
+<text x="20" y="100" font-size="13" fill="#555">je 2 Fähnchen = 2 Threads</text>
+<line x1="28" y1="110" x2="28" y2="130" stroke="#333" stroke-width="1.5"/><path d="M28,110 L38,114 L28,118 Z" fill="#E07B00"/>
+<line x1="42" y1="110" x2="42" y2="130" stroke="#333" stroke-width="1.5"/><path d="M42,110 L52,114 L42,118 Z" fill="#E07B00"/>
+<rect x="20" y="130" width="34" height="42" rx="5" fill="#3a6ed8"/><text x="37" y="157" font-size="16" text-anchor="middle" font-weight="700" fill="#fff">P</text>
+<line x1="68" y1="110" x2="68" y2="130" stroke="#333" stroke-width="1.5"/><path d="M68,110 L78,114 L68,118 Z" fill="#E07B00"/>
+<line x1="82" y1="110" x2="82" y2="130" stroke="#333" stroke-width="1.5"/><path d="M82,110 L92,114 L82,118 Z" fill="#E07B00"/>
+<rect x="60" y="130" width="34" height="42" rx="5" fill="#3a6ed8"/><text x="77" y="157" font-size="16" text-anchor="middle" font-weight="700" fill="#fff">P</text>
+<line x1="108" y1="110" x2="108" y2="130" stroke="#333" stroke-width="1.5"/><path d="M108,110 L118,114 L108,118 Z" fill="#E07B00"/>
+<line x1="122" y1="110" x2="122" y2="130" stroke="#333" stroke-width="1.5"/><path d="M122,110 L132,114 L122,118 Z" fill="#E07B00"/>
+<rect x="100" y="130" width="34" height="42" rx="5" fill="#3a6ed8"/><text x="117" y="157" font-size="16" text-anchor="middle" font-weight="700" fill="#fff">P</text>
+<line x1="148" y1="110" x2="148" y2="130" stroke="#333" stroke-width="1.5"/><path d="M148,110 L158,114 L148,118 Z" fill="#E07B00"/>
+<line x1="162" y1="110" x2="162" y2="130" stroke="#333" stroke-width="1.5"/><path d="M162,110 L172,114 L162,118 Z" fill="#E07B00"/>
+<rect x="140" y="130" width="34" height="42" rx="5" fill="#3a6ed8"/><text x="157" y="157" font-size="16" text-anchor="middle" font-weight="700" fill="#fff">P</text>
+<line x1="188" y1="110" x2="188" y2="130" stroke="#333" stroke-width="1.5"/><path d="M188,110 L198,114 L188,118 Z" fill="#E07B00"/>
+<line x1="202" y1="110" x2="202" y2="130" stroke="#333" stroke-width="1.5"/><path d="M202,110 L212,114 L202,118 Z" fill="#E07B00"/>
+<rect x="180" y="130" width="34" height="42" rx="5" fill="#3a6ed8"/><text x="197" y="157" font-size="16" text-anchor="middle" font-weight="700" fill="#fff">P</text>
+<line x1="228" y1="110" x2="228" y2="130" stroke="#333" stroke-width="1.5"/><path d="M228,110 L238,114 L228,118 Z" fill="#E07B00"/>
+<line x1="242" y1="110" x2="242" y2="130" stroke="#333" stroke-width="1.5"/><path d="M242,110 L252,114 L242,118 Z" fill="#E07B00"/>
+<rect x="220" y="130" width="34" height="42" rx="5" fill="#3a6ed8"/><text x="237" y="157" font-size="16" text-anchor="middle" font-weight="700" fill="#fff">P</text>
+<text x="268" y="158" font-size="18" font-weight="700">6 × 2 = 12</text>
+<text x="20" y="208" font-size="15" font-weight="700" fill="#2f9e44">8 E-Kerne = Effizienz (sparsam)</text>
+<text x="20" y="226" font-size="13" fill="#555">je 1 Fähnchen = 1 Thread</text>
+<line x1="32" y1="236" x2="32" y2="256" stroke="#333" stroke-width="1.5"/><path d="M32,236 L42,240 L32,244 Z" fill="#E07B00"/>
+<rect x="20" y="256" width="24" height="32" rx="4" fill="#2f9e44"/><text x="32" y="278" font-size="14" text-anchor="middle" font-weight="700" fill="#fff">E</text>
+<line x1="62" y1="236" x2="62" y2="256" stroke="#333" stroke-width="1.5"/><path d="M62,236 L72,240 L62,244 Z" fill="#E07B00"/>
+<rect x="50" y="256" width="24" height="32" rx="4" fill="#2f9e44"/><text x="62" y="278" font-size="14" text-anchor="middle" font-weight="700" fill="#fff">E</text>
+<line x1="92" y1="236" x2="92" y2="256" stroke="#333" stroke-width="1.5"/><path d="M92,236 L102,240 L92,244 Z" fill="#E07B00"/>
+<rect x="80" y="256" width="24" height="32" rx="4" fill="#2f9e44"/><text x="92" y="278" font-size="14" text-anchor="middle" font-weight="700" fill="#fff">E</text>
+<line x1="122" y1="236" x2="122" y2="256" stroke="#333" stroke-width="1.5"/><path d="M122,236 L132,240 L122,244 Z" fill="#E07B00"/>
+<rect x="110" y="256" width="24" height="32" rx="4" fill="#2f9e44"/><text x="122" y="278" font-size="14" text-anchor="middle" font-weight="700" fill="#fff">E</text>
+<line x1="152" y1="236" x2="152" y2="256" stroke="#333" stroke-width="1.5"/><path d="M152,236 L162,240 L152,244 Z" fill="#E07B00"/>
+<rect x="140" y="256" width="24" height="32" rx="4" fill="#2f9e44"/><text x="152" y="278" font-size="14" text-anchor="middle" font-weight="700" fill="#fff">E</text>
+<line x1="182" y1="236" x2="182" y2="256" stroke="#333" stroke-width="1.5"/><path d="M182,236 L192,240 L182,244 Z" fill="#E07B00"/>
+<rect x="170" y="256" width="24" height="32" rx="4" fill="#2f9e44"/><text x="182" y="278" font-size="14" text-anchor="middle" font-weight="700" fill="#fff">E</text>
+<line x1="212" y1="236" x2="212" y2="256" stroke="#333" stroke-width="1.5"/><path d="M212,236 L222,240 L212,244 Z" fill="#E07B00"/>
+<rect x="200" y="256" width="24" height="32" rx="4" fill="#2f9e44"/><text x="212" y="278" font-size="14" text-anchor="middle" font-weight="700" fill="#fff">E</text>
+<line x1="242" y1="236" x2="242" y2="256" stroke="#333" stroke-width="1.5"/><path d="M242,236 L252,240 L242,244 Z" fill="#E07B00"/>
+<rect x="230" y="256" width="24" height="32" rx="4" fill="#2f9e44"/><text x="242" y="278" font-size="14" text-anchor="middle" font-weight="700" fill="#fff">E</text>
+<text x="268" y="278" font-size="18" font-weight="700">8 × 1 = 8</text>
+<line x1="20" y1="306" x2="380" y2="306" stroke="#222" stroke-width="2.5"/>
+<rect x="20" y="318" width="360" height="40" rx="8" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<text x="34" y="344" font-size="16" font-weight="700">Kerne:</text>
+<text x="366" y="344" font-size="17" text-anchor="end" font-weight="700">6 + 8 = 14</text>
+<rect x="20" y="368" width="360" height="40" rx="8" fill="#fdf0e0" stroke="#E07B00" stroke-width="2.5"/>
+<text x="34" y="394" font-size="16" font-weight="700">logische Prozessoren:</text>
+<text x="366" y="394" font-size="17" text-anchor="end" font-weight="700" fill="#c25e00">12 + 8 = 20</text>
+<text x="200" y="430" font-size="13" text-anchor="middle" fill="#555">Task-Manager: Kerne 14 · logische Prozessoren 20</text>
+</svg>

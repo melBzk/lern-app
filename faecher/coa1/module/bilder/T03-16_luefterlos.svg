@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 470" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Lüfterlose Kühlung. Ein kleiner PC ohne Lüfter, darüber ein durchgestrichener Lautsprecher: lautlos. Heatpipes führen die Wärme vom Prozessor (rote Pfeile) zu einem großen Kühlkörper mit vielen Rippen an der Gehäusewand. Ein zarter Luftstrom zieht stetig durchs Gehäuse. Am Prozessor steht: TDP bis 120 W.</title>
+<defs>
+<marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker>
+<marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker>
+</defs>
+<rect width="400" height="470" fill="#fff"/>
+<text x="200" y="26" font-size="17" text-anchor="middle" font-weight="700">Lüfterlos – ganz leise</text>
+
+<!-- Lautsprecher durchgestrichen -->
+<path d="M30,52 L40,52 L52,42 L52,74 L40,64 L30,64 Z" fill="#555"/>
+<path d="M58,48 A14,14 0 0,1 58,68" fill="none" stroke="#555" stroke-width="2.5"/>
+<line x1="24" y1="80" x2="68" y2="38" stroke="#c62828" stroke-width="4" stroke-linecap="round"/>
+<text x="78" y="56" font-size="15" font-weight="700">lautlos</text>
+<text x="78" y="74" font-size="13" fill="#444">kein Lüfter</text>
+
+<!-- Gehäuse -->
+<rect x="30" y="100" width="260" height="300" rx="6" fill="#fafafa" stroke="#555" stroke-width="2.5"/>
+<!-- Kühlkörper außen -->
+<rect x="290" y="104" width="10" height="292" fill="#9aa5b1"/>
+<g fill="#9aa5b1">
+<rect x="300" y="108" width="72" height="6"/><rect x="300" y="122" width="72" height="6"/><rect x="300" y="136" width="72" height="6"/><rect x="300" y="150" width="72" height="6"/><rect x="300" y="164" width="72" height="6"/><rect x="300" y="178" width="72" height="6"/><rect x="300" y="192" width="72" height="6"/><rect x="300" y="206" width="72" height="6"/><rect x="300" y="220" width="72" height="6"/><rect x="300" y="234" width="72" height="6"/><rect x="300" y="248" width="72" height="6"/><rect x="300" y="262" width="72" height="6"/><rect x="300" y="276" width="72" height="6"/><rect x="300" y="290" width="72" height="6"/><rect x="300" y="304" width="72" height="6"/><rect x="300" y="318" width="72" height="6"/><rect x="300" y="332" width="72" height="6"/><rect x="300" y="346" width="72" height="6"/><rect x="300" y="360" width="72" height="6"/><rect x="300" y="374" width="72" height="6"/><rect x="300" y="388" width="72" height="6"/>
+</g>
+<text x="396" y="86" text-anchor="end" font-weight="700">großer Kühlkörper</text>
+<text x="396" y="420" text-anchor="end" font-size="13" fill="#444">viele Rippen</text>
+
+<!-- Heatpipes -->
+<path d="M170,214 C220,214 220,160 290,160" fill="none" stroke="#b87333" stroke-width="7" stroke-linecap="round"/>
+<path d="M170,230 L290,230" fill="none" stroke="#b87333" stroke-width="7" stroke-linecap="round"/>
+<path d="M170,246 C220,246 220,300 290,300" fill="none" stroke="#b87333" stroke-width="7" stroke-linecap="round"/>
+<line x1="200" y1="184" x2="268" y2="150" stroke="#c62828" stroke-width="3.5" marker-end="url(#r)"/>
+<line x1="200" y1="220" x2="276" y2="220" stroke="#c62828" stroke-width="3.5" marker-end="url(#r)"/>
+<line x1="200" y1="276" x2="268" y2="310" stroke="#c62828" stroke-width="3.5" marker-end="url(#r)"/>
+<text x="238" y="136" text-anchor="middle" font-weight="700" fill="#b87333">Heatpipes</text>
+
+<!-- Prozessor -->
+<rect x="110" y="206" width="60" height="48" rx="4" fill="#555"/>
+<rect x="124" y="218" width="32" height="24" fill="#c9ced4"/>
+<rect x="74" y="268" width="128" height="44" rx="6" fill="#fff" stroke="#c62828" stroke-width="2"/>
+<text x="138" y="286" text-anchor="middle" font-size="13" font-weight="700">Prozessor</text>
+<text x="138" y="304" text-anchor="middle" font-size="14" font-weight="700" fill="#c62828">TDP bis 120 W</text>
+
+<!-- Luftstrom -->
+<path d="M44,388 C60,330 40,250 70,180 C90,140 120,124 160,122" fill="none" stroke="#3a6ed8" stroke-width="2.5" stroke-dasharray="6 5" marker-end="url(#b)"/>
+<text x="62" y="350" font-size="13" font-weight="700" fill="#3a6ed8">stetiger</text>
+<text x="62" y="366" font-size="13" font-weight="700" fill="#3a6ed8">Luftstrom</text>
+
+<text x="200" y="448" text-anchor="middle" font-size="14" font-weight="700">Die Wärme muss stetig abfließen.</text>
+</svg>

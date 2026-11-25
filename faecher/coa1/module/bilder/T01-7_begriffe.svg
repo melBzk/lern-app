@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 488" font-family="system-ui, sans-serif" role="img">
+  <title>Die 8 neuen Wörter als Bildkacheln. Nadeldrucker: Nadeln und Farbband. Laserdrucker: Laser, Trommel, Toner. Xerografie: Ladung auf der Trommel, Toner haftet. Toner: feines Farbpulver. Tintenstrahldrucker: Tröpfchen aus Düsen. CMYK: Cyan, Magenta, Yellow, K gleich Key gleich Schwarz. Thermosublimation: Hitze bringt Farbe von der Folie ins Papier. Dokumentenecht: bleibt, auch bei Nässe.</title>
+  <defs><marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="10" markerHeight="10" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#d63c3c"/></marker></defs>
+  <rect width="400" height="488" fill="#fff"/>
+  <text x="200" y="26" text-anchor="middle" font-size="18" font-weight="700" fill="#222">Die 8 neuen Wörter</text>
+
+  <g transform="translate(8,40)"><rect fill="#f3f4f6" stroke="#bbb" width="188" height="104" rx="10"/>
+    <rect x="70" y="8" width="48" height="20" rx="3" fill="#3a3f4a"/>
+    <g stroke="#333" stroke-width="3"><line x1="80" y1="28" x2="80" y2="44"/><line x1="94" y1="28" x2="94" y2="44"/><line x1="108" y1="28" x2="108" y2="44"/></g>
+    <rect x="62" y="38" width="64" height="5" fill="#111"/><rect x="56" y="46" width="76" height="5" fill="#fff" stroke="#333"/>
+    <text font-size="15" font-weight="700" fill="#222" text-anchor="middle" x="94" y="74">Nadeldrucker</text><text font-size="13" fill="#333" text-anchor="middle" x="94" y="93">Nadeln + Farbband</text></g>
+
+  <g transform="translate(204,40)"><rect fill="#f3f4f6" stroke="#bbb" width="188" height="104" rx="10"/>
+    <circle cx="86" cy="32" r="20" fill="#d9dde3" stroke="#555" stroke-width="2"/>
+    <line x1="146" y1="8" x2="106" y2="24" stroke="#d63c3c" stroke-width="3" marker-end="url(#r)"/>
+    <text font-size="15" font-weight="700" fill="#222" text-anchor="middle" x="94" y="74">Laserdrucker</text><text font-size="13" fill="#333" text-anchor="middle" x="94" y="93">Laser, Trommel, Toner</text></g>
+
+  <g transform="translate(8,152)"><rect fill="#f3f4f6" stroke="#bbb" width="188" height="104" rx="10"/>
+    <circle cx="94" cy="32" r="20" fill="#d9dde3" stroke="#555" stroke-width="2"/>
+    <g font-size="15" font-weight="700" fill="#E07B00" text-anchor="middle"><text x="64" y="22">+</text><text x="60" y="44">+</text><text x="124" y="22">+</text></g>
+    <g fill="#111"><circle cx="118" cy="40" r="3"/><circle cx="124" cy="47" r="3"/><circle cx="114" cy="49" r="3"/></g>
+    <text font-size="15" font-weight="700" fill="#222" text-anchor="middle" x="94" y="74">Xerografie</text><text font-size="13" fill="#333" text-anchor="middle" x="94" y="93">Ladung → Toner haftet</text></g>
+
+  <g transform="translate(204,152)"><rect fill="#f3f4f6" stroke="#bbb" width="188" height="104" rx="10"/>
+    <rect x="62" y="10" width="64" height="24" rx="4" fill="#3a3f4a"/>
+    <g fill="#111"><circle cx="76" cy="42" r="2.5"/><circle cx="88" cy="46" r="2.5"/><circle cx="98" cy="41" r="2.5"/><circle cx="108" cy="47" r="2.5"/><circle cx="82" cy="50" r="2.5"/><circle cx="114" cy="42" r="2.5"/></g>
+    <text font-size="15" font-weight="700" fill="#222" text-anchor="middle" x="94" y="74">Toner</text><text font-size="13" fill="#333" text-anchor="middle" x="94" y="93">feines Farbpulver</text></g>
+
+  <g transform="translate(8,264)"><rect fill="#f3f4f6" stroke="#bbb" width="188" height="104" rx="10"/>
+    <rect x="66" y="6" width="56" height="20" rx="3" fill="#3a3f4a"/>
+    <circle cx="74" cy="34" r="3.5" fill="#1fa3c9"/><circle cx="74" cy="46" r="3.5" fill="#1fa3c9"/>
+    <circle cx="88" cy="36" r="3.5" fill="#d6338a"/><circle cx="88" cy="48" r="3.5" fill="#d6338a"/>
+    <circle cx="102" cy="33" r="3.5" fill="#f2c200"/><circle cx="102" cy="45" r="3.5" fill="#f2c200"/>
+    <circle cx="116" cy="35" r="3.5" fill="#111"/><circle cx="116" cy="47" r="3.5" fill="#111"/>
+    <text font-size="15" font-weight="700" fill="#222" text-anchor="middle" x="94" y="74">Tintenstrahldrucker</text><text font-size="13" fill="#333" text-anchor="middle" x="94" y="93">Tröpfchen aus Düsen</text></g>
+
+  <g transform="translate(204,264)"><rect fill="#f3f4f6" stroke="#bbb" width="188" height="104" rx="10"/>
+    <circle cx="58" cy="30" r="13" fill="#1fa3c9"/><circle cx="82" cy="30" r="13" fill="#d6338a"/><circle cx="106" cy="30" r="13" fill="#f2c200"/><circle cx="130" cy="30" r="13" fill="#111"/>
+    <g font-size="14" font-weight="700" text-anchor="middle"><text x="58" y="35" fill="#fff">C</text><text x="82" y="35" fill="#fff">M</text><text x="106" y="35" fill="#222">Y</text><text x="130" y="35" fill="#fff">K</text></g>
+    <text font-size="15" font-weight="700" fill="#222" text-anchor="middle" x="94" y="74">CMYK</text><text font-size="13" fill="#333" text-anchor="middle" x="94" y="93">K = Key = Schwarz</text></g>
+
+  <g transform="translate(8,376)"><rect fill="#f3f4f6" stroke="#bbb" width="188" height="104" rx="10"/>
+    <rect x="60" y="6" width="68" height="18" rx="3" fill="#3a3f4a"/>
+    <rect x="44" y="28" width="34" height="7" fill="#f2c200"/><rect x="78" y="28" width="34" height="7" fill="#d6338a"/><rect x="112" y="28" width="34" height="7" fill="#1fa3c9"/>
+    <ellipse cx="94" cy="41" rx="7" ry="4" fill="#d6338a" fill-opacity="0.6"/>
+    <rect x="44" y="46" width="102" height="6" fill="#fff" stroke="#333"/>
+    <text font-size="15" font-weight="700" fill="#222" text-anchor="middle" x="94" y="74">Thermosublimation</text><text font-size="13" fill="#333" text-anchor="middle" x="94" y="93">Hitze: Folie → Papier</text></g>
+
+  <g transform="translate(204,376)"><rect fill="#f3f4f6" stroke="#bbb" width="188" height="104" rx="10"/>
+    <rect x="66" y="6" width="34" height="46" fill="#fff" stroke="#333" stroke-width="1.5"/>
+    <g stroke="#333" stroke-width="2"><line x1="71" y1="16" x2="95" y2="16"/><line x1="71" y1="24" x2="95" y2="24"/><line x1="71" y1="32" x2="95" y2="32"/><line x1="71" y1="40" x2="89" y2="40"/></g>
+    <path d="M118,8 C112,18 108,24 108,30 a10,10 0 0 0 20,0 C128,24 124,18 118,8 z" fill="#1fa3c9"/>
+    <path d="M108,46 l6,6 l12,-14" fill="none" stroke="#1f9d55" stroke-width="4"/>
+    <text font-size="15" font-weight="700" fill="#222" text-anchor="middle" x="94" y="74">dokumentenecht</text><text font-size="13" fill="#333" text-anchor="middle" x="94" y="93">bleibt, auch bei Nässe</text></g>
+</svg>

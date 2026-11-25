@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 420" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Befehlssatz als Werkzeugkasten. Unten im Kasten das Grundwerkzeug, Hammer und Schraubendreher: die Grundbefehle. Oben ein Zusatzfach mit Spezialwerkzeugen: die Erweiterungen MMX, SSE, AVX, AVX2; sie beschleunigen bestimmte Berechnungen. Darunter ein vereinfachtes CPU-Z-Feld: Instructions: MMX, SSE und mehr, AVX, AVX2 und mehr.</title>
+<defs>
+<marker id="o" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E07B00"/></marker>
+</defs>
+<rect width="400" height="420" fill="#fff"/>
+<text x="200" y="26" font-size="17" text-anchor="middle" font-weight="700">Befehlssatz = Werkzeugkasten</text>
+
+<!-- Beschriftung Erweiterungen -->
+<text x="200" y="56" font-size="15" text-anchor="middle" font-weight="700" fill="#b35f00">Erweiterungen: MMX, SSE, AVX, AVX2</text>
+<text x="200" y="76" font-size="13" text-anchor="middle" fill="#b35f00">beschleunigen bestimmte Berechnungen</text>
+<line x1="200" y1="82" x2="200" y2="96" stroke="#E07B00" stroke-width="2.5" marker-end="url(#o)"/>
+
+<!-- Zusatzfach -->
+<rect x="60" y="98" width="280" height="50" rx="6" fill="#fdf0e0" stroke="#E07B00" stroke-width="3"/>
+<!-- Schraubenschlüssel -->
+<line x1="90" y1="132" x2="134" y2="114" stroke="#666" stroke-width="6" stroke-linecap="round"/>
+<circle cx="138" cy="112" r="8" fill="none" stroke="#666" stroke-width="4"/>
+<!-- Zange -->
+<line x1="178" y1="136" x2="222" y2="110" stroke="#666" stroke-width="5" stroke-linecap="round"/>
+<line x1="178" y1="110" x2="222" y2="136" stroke="#666" stroke-width="5" stroke-linecap="round"/>
+<!-- Messschieber -->
+<rect x="258" y="118" width="62" height="8" rx="2" fill="#666"/>
+<rect x="266" y="108" width="6" height="22" fill="#666"/>
+<rect x="294" y="108" width="6" height="22" fill="#666"/>
+
+<!-- Kasten -->
+<rect x="40" y="152" width="320" height="148" rx="8" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="3"/>
+<!-- Hammer -->
+<rect x="96" y="176" width="10" height="56" rx="3" fill="#8d6e63"/>
+<rect x="80" y="166" width="42" height="16" rx="3" fill="#555"/>
+<!-- Schraubendreher -->
+<rect x="138" y="192" width="56" height="16" rx="6" fill="#c62828"/>
+<rect x="194" y="197" width="36" height="6" fill="#777"/>
+<polygon points="230,195 240,200 230,205" fill="#777"/>
+<text x="290" y="206" font-size="15" text-anchor="middle" font-weight="700" fill="#2a56b0">Grund-</text>
+<text x="290" y="224" font-size="15" text-anchor="middle" font-weight="700" fill="#2a56b0">befehle</text>
+<rect x="54" y="248" width="292" height="38" rx="5" fill="#3a6ed8"/>
+<text x="200" y="273" font-size="15" text-anchor="middle" font-weight="700" fill="#fff">Befehlssatz des Prozessors</text>
+
+<!-- CPU-Z-Feld -->
+<rect x="10" y="322" width="380" height="84" rx="6" fill="#f3f4f6" stroke="#555" stroke-width="2"/>
+<path d="M10,348 L10,328 Q10,322 16,322 L384,322 Q390,322 390,328 L390,348 z" fill="#444"/>
+<text x="22" y="340" font-size="13" font-weight="700" fill="#fff">CPU-Z (vereinfacht)</text>
+<text x="100" y="381" font-size="13" text-anchor="end" fill="#444">Instructions</text>
+<rect x="106" y="364" width="274" height="24" rx="3" fill="#fff" stroke="#E07B00" stroke-width="2.5"/>
+<text x="116" y="381" font-size="13" font-weight="700">MMX, SSE …, AVX, AVX2 …</text>
+</svg>

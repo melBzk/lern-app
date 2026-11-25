@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 420" font-family="system-ui, sans-serif" fill="#222">
+<title>Merkbild Chipsatz als Tabelle mit zwei Spalten. Schneller Bereich: CPU, Arbeitsspeicher und Grafikkarte; viele Leitungen; Chip bei Bridge: Northbridge, bei Hub: MCH oder GMCH. Langsamer Bereich: alles andere; weniger Leitungen; Chip bei Bridge: Southbridge, bei Hub: ICH. Unten: Für die Chips braucht der Computer Treiber.</title>
+<rect width="400" height="420" fill="#fff"/>
+<text x="200" y="30" text-anchor="middle" font-size="17" font-weight="700">Chipsatz – das Wichtigste</text>
+<!-- Koepfe -->
+<rect x="10" y="44" width="186" height="44" rx="10" fill="#D4607A"/>
+<text x="103" y="72" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">schnell</text>
+<rect x="204" y="44" width="186" height="44" rx="10" fill="#3a6ed8"/>
+<text x="297" y="72" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">langsam</text>
+<!-- Zeile Bauteile -->
+<rect x="10" y="96" width="186" height="76" rx="8" fill="#fbe3e8"/>
+<text x="103" y="124" text-anchor="middle" font-size="14" font-weight="700">CPU, Arbeitsspeicher,</text>
+<text x="103" y="146" text-anchor="middle" font-size="14" font-weight="700">Grafikkarte</text>
+<rect x="204" y="96" width="186" height="76" rx="8" fill="#e3ecfb"/>
+<text x="297" y="138" text-anchor="middle" font-size="14" font-weight="700">alles andere</text>
+<!-- Zeile Leitungen -->
+<rect x="10" y="180" width="186" height="62" rx="8" fill="#fbe3e8"/>
+<g stroke="#e0a54a" stroke-width="2.5"><line x1="40" y1="194" x2="166" y2="194"/><line x1="40" y1="200" x2="166" y2="200"/><line x1="40" y1="206" x2="166" y2="206"/><line x1="40" y1="212" x2="166" y2="212"/><line x1="40" y1="218" x2="166" y2="218"/></g>
+<text x="103" y="236" text-anchor="middle" font-size="13">viele Leitungen</text>
+<rect x="204" y="180" width="186" height="62" rx="8" fill="#e3ecfb"/>
+<g stroke="#e0a54a" stroke-width="2.5"><line x1="234" y1="200" x2="360" y2="200"/><line x1="234" y1="212" x2="360" y2="212"/></g>
+<text x="297" y="236" text-anchor="middle" font-size="13">weniger Leitungen</text>
+<!-- Zeile Bridge -->
+<rect x="10" y="250" width="186" height="56" rx="8" fill="#fbe3e8"/>
+<text x="103" y="272" text-anchor="middle" font-size="13" fill="#666">Bridge:</text>
+<text x="103" y="294" text-anchor="middle" font-size="15" font-weight="700">Northbridge</text>
+<rect x="204" y="250" width="186" height="56" rx="8" fill="#e3ecfb"/>
+<text x="297" y="272" text-anchor="middle" font-size="13" fill="#666">Bridge:</text>
+<text x="297" y="294" text-anchor="middle" font-size="15" font-weight="700">Southbridge</text>
+<!-- Zeile Hub -->
+<rect x="10" y="314" width="186" height="56" rx="8" fill="#fbe3e8"/>
+<text x="103" y="336" text-anchor="middle" font-size="13" fill="#666">Hub:</text>
+<text x="103" y="358" text-anchor="middle" font-size="15" font-weight="700">MCH / GMCH</text>
+<rect x="204" y="314" width="186" height="56" rx="8" fill="#e3ecfb"/>
+<text x="297" y="336" text-anchor="middle" font-size="13" fill="#666">Hub:</text>
+<text x="297" y="358" text-anchor="middle" font-size="15" font-weight="700">ICH</text>
+<!-- Treiber -->
+<text x="200" y="400" text-anchor="middle" font-size="14" font-weight="700">Chips ansteuern? → Treiber</text>
+</svg>

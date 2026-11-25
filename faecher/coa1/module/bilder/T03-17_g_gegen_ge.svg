@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>G oder GE im Vergleich, zwei Steckbriefe. Links Ryzen 7 PRO 4750G: 8 Kerne, 16 Threads, Takt 3,6 GHz, Turbo 4,4 GHz, TDP 65 W mit großer Flamme. Rechts Ryzen 7 PRO 4750GE: 8 Kerne, 16 Threads, Takt 3,1 GHz, Turbo 4,3 GHz, TDP 35 W mit kleiner Flamme und grünem Blatt. Pfeil: nur gut die Hälfte Wärme. Stand Buch 2020.</title>
+<defs>
+<marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2e7d32"/></marker>
+</defs>
+<rect width="400" height="480" fill="#fff"/>
+<text x="16" y="28" font-size="17" font-weight="700">G oder GE?</text>
+<rect x="8" y="46" width="182" height="350" rx="10" fill="#fff" stroke="#c62828" stroke-width="2.5"/>
+<text x="99" y="72" text-anchor="middle" font-size="14" font-weight="700">Ryzen 7 PRO</text>
+<text x="99" y="94" text-anchor="middle" font-size="18" font-weight="700" fill="#c62828">4750G</text>
+<line x1="18" y1="106" x2="180" y2="106" stroke="#ddd" stroke-width="1.5"/>
+<text x="20" y="130" font-size="13" fill="#555">Kerne (Threads)</text>
+<text x="20" y="150" font-size="15" font-weight="700">8 (16)</text>
+<text x="20" y="178" font-size="13" fill="#555">Takt</text>
+<text x="20" y="198" font-size="15" font-weight="700">3,6 GHz</text>
+<text x="20" y="226" font-size="13" fill="#555">Turbo</text>
+<text x="20" y="246" font-size="15" font-weight="700">4,4 GHz</text>
+<line x1="18" y1="262" x2="180" y2="262" stroke="#ddd" stroke-width="1.5"/>
+<text x="20" y="286" font-size="13" fill="#555">TDP</text>
+<text x="20" y="320" font-size="26" font-weight="700" fill="#c62828">65 W</text>
+<path d="M148,330 C113.2,330 113.2,301.0 137.56,289.4 C141.04,303.9 148,301.0 148,272 C161.92,286.5 182.8,303.9 172.35999999999999,318.4 C168.88,327.1 158.44,330 148,330 Z" fill="#c62828"/>
+
+<rect x="210" y="46" width="182" height="350" rx="10" fill="#fff" stroke="#2e7d32" stroke-width="2.5"/>
+<text x="301" y="72" text-anchor="middle" font-size="14" font-weight="700">Ryzen 7 PRO</text>
+<text x="301" y="94" text-anchor="middle" font-size="18" font-weight="700" fill="#2e7d32">4750GE</text>
+<line x1="220" y1="106" x2="382" y2="106" stroke="#ddd" stroke-width="1.5"/>
+<text x="222" y="130" font-size="13" fill="#555">Kerne (Threads)</text>
+<text x="222" y="150" font-size="15" font-weight="700">8 (16)</text>
+<text x="222" y="178" font-size="13" fill="#555">Takt</text>
+<text x="222" y="198" font-size="15" font-weight="700">3,1 GHz</text>
+<text x="222" y="226" font-size="13" fill="#555">Turbo</text>
+<text x="222" y="246" font-size="15" font-weight="700">4,3 GHz</text>
+<line x1="220" y1="262" x2="382" y2="262" stroke="#ddd" stroke-width="1.5"/>
+<text x="222" y="286" font-size="13" fill="#555">TDP</text>
+<text x="222" y="320" font-size="26" font-weight="700" fill="#2e7d32">35 W</text>
+<path d="M350,330 C332.0,330 332.0,315.0 344.6,309.0 C346.4,316.5 350,315.0 350,300 C357.2,307.5 368.0,316.5 362.6,324.0 C360.8,328.5 355.4,330 350,330 Z" fill="#c62828"/>
+<path d="M228,384 C228,362 246,352 268,352 C268,374 252,386 228,384 Z" fill="#2e7d32"/><path d="M230,382 C240,374 252,366 264,356" fill="none" stroke="#fff" stroke-width="2"/><text x="276" y="374" font-size="13" font-weight="700" fill="#2e7d32">energieeffizient</text>
+<path d="M150,410 C190,440 230,440 262,412" fill="none" stroke="#2e7d32" stroke-width="3.5" marker-end="url(#g)"/>
+<text x="200" y="466" text-anchor="middle" font-size="15" font-weight="700" fill="#2e7d32">nur gut die Hälfte Wärme (35 statt 65 W)</text>
+<g transform="rotate(-6 330 24)">
+<rect x="270" y="8" width="118" height="30" rx="4" fill="#fff" stroke="#666" stroke-width="2"/>
+<text x="329" y="29" text-anchor="middle" font-size="13" font-weight="700" fill="#666">Stand Buch 2020</text>
+</g>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 540" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Aufbau eines Tower-Luftkühlers im Schnitt, von unten nach oben: Prozessor, darauf die Bodenplatte aus Kupfer als Kontaktfläche. Drei gebogene Heatpipes führen von der Bodenplatte nach oben durch die Kühlrippen; unten verdampft die Flüssigkeit und steigt auf (roter Pfeil), oben wird sie wieder flüssig und fließt zurück (blauer Pfeil). Die vielen Kühlrippen bilden eine große Oberfläche. Seitlich sitzt ein Lüfter mit 8 bis 14 cm; er drückt kühle Luft durch die Rippen, auf der anderen Seite kommt warme Luft heraus.</title>
+<defs>
+<marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker>
+<marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker>
+<marker id="o" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E07B00"/></marker>
+</defs>
+<rect width="400" height="540" fill="#fff"/>
+<text x="200" y="26" font-size="17" text-anchor="middle" font-weight="700">So ist ein Luftkühler gebaut</text>
+<text x="190" y="62" text-anchor="middle" font-weight="700">Kühlrippen</text>
+<text x="190" y="80" text-anchor="middle">große Oberfläche</text>
+<rect x="120" y="92" width="140" height="5" fill="#9aa5b1"/><rect x="120" y="104" width="140" height="5" fill="#9aa5b1"/><rect x="120" y="116" width="140" height="5" fill="#9aa5b1"/><rect x="120" y="128" width="140" height="5" fill="#9aa5b1"/><rect x="120" y="140" width="140" height="5" fill="#9aa5b1"/><rect x="120" y="152" width="140" height="5" fill="#9aa5b1"/><rect x="120" y="164" width="140" height="5" fill="#9aa5b1"/><rect x="120" y="176" width="140" height="5" fill="#9aa5b1"/><rect x="120" y="188" width="140" height="5" fill="#9aa5b1"/><rect x="120" y="200" width="140" height="5" fill="#9aa5b1"/><rect x="120" y="212" width="140" height="5" fill="#9aa5b1"/><rect x="120" y="224" width="140" height="5" fill="#9aa5b1"/><rect x="120" y="236" width="140" height="5" fill="#9aa5b1"/><rect x="120" y="248" width="140" height="5" fill="#9aa5b1"/><rect x="120" y="260" width="140" height="5" fill="#9aa5b1"/><rect x="120" y="272" width="140" height="5" fill="#9aa5b1"/><rect x="120" y="284" width="140" height="5" fill="#9aa5b1"/><rect x="120" y="296" width="140" height="5" fill="#9aa5b1"/><rect x="120" y="308" width="140" height="5" fill="#9aa5b1"/><rect x="120" y="320" width="140" height="5" fill="#9aa5b1"/><rect x="120" y="332" width="140" height="5" fill="#9aa5b1"/>
+<path d="M140,96 L140,382 Q140,394 152,394 L228,394 Q240,394 240,382 L240,96" fill="none" stroke="#b87333" stroke-width="6" stroke-linecap="round"/><path d="M160,96 L160,376 Q160,388 172,388 L208,388 Q220,388 220,376 L220,96" fill="none" stroke="#b87333" stroke-width="6" stroke-linecap="round"/><path d="M180,96 L180,370 Q180,382 192,382 L188,382 Q200,382 200,370 L200,96" fill="none" stroke="#b87333" stroke-width="6" stroke-linecap="round"/>
+<rect x="130" y="376" width="120" height="24" rx="2" fill="#b87333" opacity="0.85"/>
+<path d="M140,96 L140,382 Q140,394 152,394 L228,394 Q240,394 240,382 L240,96" fill="none" stroke="#b87333" stroke-width="6" stroke-linecap="round"/><path d="M160,96 L160,376 Q160,388 172,388 L208,388 Q220,388 220,376 L220,96" fill="none" stroke="#b87333" stroke-width="6" stroke-linecap="round"/><path d="M180,96 L180,370 Q180,382 192,382 L188,382 Q200,382 200,370 L200,96" fill="none" stroke="#b87333" stroke-width="6" stroke-linecap="round"/>
+<rect x="118" y="400" width="144" height="24" rx="3" fill="#555"/>
+
+<!-- Flüssigkeit -->
+<line x1="128" y1="330" x2="128" y2="130" stroke="#c62828" stroke-width="4" marker-end="url(#r)"/>
+<line x1="252" y1="130" x2="252" y2="330" stroke="#3a6ed8" stroke-width="4" marker-end="url(#b)"/>
+
+<!-- Lüfter seitlich -->
+<rect x="266" y="120" width="22" height="190" rx="4" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<rect x="270" y="196" width="14" height="38" rx="3" fill="#3a6ed8"/>
+<path d="M277,140 L277,192 M277,238 L277,290" stroke="#3a6ed8" stroke-width="5" stroke-linecap="round"/>
+<text x="298" y="104" font-weight="700">Lüfter</text>
+<text x="298" y="121">8–14 cm</text>
+<!-- Luftstrom -->
+<line x1="396" y1="160" x2="294" y2="160" stroke="#3a6ed8" stroke-width="4" marker-end="url(#b)"/>
+<line x1="396" y1="215" x2="294" y2="215" stroke="#3a6ed8" stroke-width="4" marker-end="url(#b)"/>
+<line x1="396" y1="270" x2="294" y2="270" stroke="#3a6ed8" stroke-width="4" marker-end="url(#b)"/>
+<text x="396" y="300" text-anchor="end" font-size="13" fill="#3a6ed8" font-weight="700">kühle Luft</text>
+<line x1="112" y1="160" x2="14" y2="160" stroke="#E07B00" stroke-width="4" marker-end="url(#o)"/>
+<line x1="112" y1="215" x2="14" y2="215" stroke="#E07B00" stroke-width="4" marker-end="url(#o)"/>
+<line x1="112" y1="270" x2="14" y2="270" stroke="#E07B00" stroke-width="4" marker-end="url(#o)"/>
+<text x="10" y="300" font-size="13" fill="#E07B00" font-weight="700">warme Luft</text>
+
+<!-- Beschriftungen unten -->
+<line x1="254" y1="388" x2="276" y2="380" stroke="#777" stroke-width="1.3"/>
+<text x="280" y="376" font-weight="700">Bodenplatte</text>
+<text x="280" y="393">aus Kupfer</text>
+<line x1="264" y1="414" x2="276" y2="416" stroke="#777" stroke-width="1.3"/>
+<text x="280" y="421" font-weight="700">Prozessor</text>
+
+<line x1="70" y1="452" x2="140" y2="356" stroke="#777" stroke-width="1.3"/>
+<text x="16" y="470" font-size="15" font-weight="700" fill="#b87333">Heatpipes</text>
+<line x1="20" y1="496" x2="20" y2="480" stroke="#c62828" stroke-width="4" marker-end="url(#r)"/>
+<text x="34" y="494">unten verdampft die Flüssigkeit und steigt auf</text>
+<line x1="20" y1="508" x2="20" y2="524" stroke="#3a6ed8" stroke-width="4" marker-end="url(#b)"/>
+<text x="34" y="522">oben wird sie wieder flüssig, fließt zurück</text>
+</svg>

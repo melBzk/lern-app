@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 450" font-family="system-ui, sans-serif" fill="#222" role="img">
+<title>Strombedarf im Vergleich als zwei Balken. Kurzer Balken: Standard-CPU im Büro-PC, meist unter 100 Watt. Zehnmal so hoher Balken: aktueller KI-Chip von Nvidia, bis ca. 1000 Watt. Rechts ein Server-Schrank mit blauen Schläuchen und Tropfen: große KI-Systeme werden zunehmend mit Flüssigkeit gekühlt.</title>
+<rect width="400" height="450" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">KI-Chips sind Stromfresser</text>
+
+<!-- Balken -->
+<line x1="16" y1="380" x2="236" y2="380" stroke="#555" stroke-width="2"/>
+<rect x="30" y="352" width="60" height="28" fill="#9aa5b1"/>
+<text x="60" y="342" text-anchor="middle" font-size="14" font-weight="700">unter 100 W</text>
+<rect x="145" y="100" width="60" height="280" fill="#E07B00"/>
+<text x="175" y="90" text-anchor="middle" font-size="15" font-weight="700" fill="#c25e00">bis ca. 1000 W</text>
+<path d="M180,118 L166,146 H178 L170,170 L188,138 H176 Z" fill="#fff"/>
+<text x="120" y="250" text-anchor="end" font-size="20" font-weight="700" fill="#c25e00">10×</text>
+<text x="60" y="402" text-anchor="middle" font-size="14" font-weight="700">Standard-CPU</text>
+<text x="60" y="420" text-anchor="middle" font-size="13" fill="#555">im Büro-PC</text>
+<text x="175" y="402" text-anchor="middle" font-size="14" font-weight="700">aktueller KI-Chip</text>
+<text x="175" y="420" text-anchor="middle" font-size="13" fill="#555">(Nvidia)</text>
+
+<!-- Server-Schrank mit Flüssigkühlung -->
+<text x="312" y="128" text-anchor="middle" font-size="14" font-weight="700" fill="#3a6ed8">zunehmend mit</text>
+<text x="312" y="146" text-anchor="middle" font-size="14" font-weight="700" fill="#3a6ed8">Flüssigkeit gekühlt</text>
+<rect x="262" y="160" width="90" height="220" rx="4" fill="#f4f5f7" stroke="#555" stroke-width="2.5"/>
+<g fill="#cfd6dd" stroke="#555" stroke-width="1">
+<rect x="272" y="172" width="70" height="22"/><rect x="272" y="202" width="70" height="22"/><rect x="272" y="232" width="70" height="22"/><rect x="272" y="262" width="70" height="22"/><rect x="272" y="292" width="70" height="22"/><rect x="272" y="322" width="70" height="22"/>
+</g>
+<g stroke="#3a6ed8" stroke-width="4" fill="none" stroke-linecap="round">
+<path d="M342,183 H368 V333 H342"/>
+<path d="M342,243 H368 M342,303 H368"/>
+</g>
+<g fill="#3a6ed8">
+<path d="M382,210 q-6,9 0,12 q6,-3 0,-12 z"/>
+<path d="M382,260 q-6,9 0,12 q6,-3 0,-12 z"/>
+<path d="M382,310 q-6,9 0,12 q6,-3 0,-12 z"/>
+</g>
+<text x="307" y="402" text-anchor="middle" font-size="14" font-weight="700">Server-Schrank</text>
+</svg>

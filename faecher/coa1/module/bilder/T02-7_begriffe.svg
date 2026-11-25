@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 510" font-family="system-ui, sans-serif" fill="#222">
+<title>Die 8 neuen Wörter mit kleinen Symbolen: Prozessorsockel = Steckfassung für den Prozessor. Kontakt oder Pin = winziger Metallkontakt für Strom und Daten. PGA, LGA, BGA = drei Arten von Kontakten. Kühlkörper mit Kühlrippen = Metallblock mit Lamellen, gibt Wärme an die Luft ab. Passive und aktive Kühlung = ohne oder mit eigenem Lüfter. Wärmeleitpaste = Paste zwischen Prozessor und Kühler. Takt und Multiplikator = Arbeitsschritte pro Sekunde in GHz, Multiplikator = wie viel schneller als das Mainboard. Übertakten = schneller als vorgesehen, viel mehr Wärme.</title>
+<rect width="400" height="510" fill="#fff"/>
+<text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700">8 Wörter auf einen Blick</text>
+<g fill="#f4f1ee"><rect x="10" y="42" width="380" height="52" rx="10"/><rect x="10" y="100" width="380" height="52" rx="10"/><rect x="10" y="158" width="380" height="52" rx="10"/><rect x="10" y="216" width="380" height="52" rx="10"/><rect x="10" y="274" width="380" height="52" rx="10"/><rect x="10" y="332" width="380" height="52" rx="10"/><rect x="10" y="390" width="380" height="52" rx="10"/><rect x="10" y="448" width="380" height="52" rx="10"/></g>
+<!-- Sockel -->
+<rect x="36" y="48" width="42" height="40" rx="2" fill="#fff" stroke="#555" stroke-width="2"/>
+<rect x="42" y="54" width="30" height="28" fill="#eee"/><line x1="80" y1="52" x2="88" y2="84" stroke="#555" stroke-width="3"/>
+<text x="104" y="64" font-size="15" font-weight="700">Prozessorsockel</text>
+<text x="104" y="84" font-size="13">Steckfassung für den Prozessor</text>
+<!-- Pin -->
+<rect x="30" y="110" width="54" height="12" fill="#cfd8dc" stroke="#555" stroke-width="1.5"/>
+<g stroke="#e0a54a" stroke-width="3"><line x1="38" y1="122" x2="38" y2="142"/><line x1="50" y1="122" x2="50" y2="142"/><line x1="62" y1="122" x2="62" y2="142"/><line x1="74" y1="122" x2="74" y2="142"/></g>
+<text x="104" y="122" font-size="15" font-weight="700">Kontakt / Pin</text>
+<text x="104" y="142" font-size="13">winziger Metallkontakt für Strom, Daten</text>
+<!-- PGA LGA BGA -->
+<g font-size="13" font-weight="700" fill="#555" text-anchor="middle"><text x="30" y="203">P</text><text x="57" y="203">L</text><text x="84" y="203">B</text></g>
+<rect x="20" y="166" width="20" height="8" fill="#cfd8dc"/><g stroke="#e0a54a" stroke-width="2"><line x1="25" y1="174" x2="25" y2="186"/><line x1="35" y1="174" x2="35" y2="186"/></g>
+<rect x="47" y="166" width="20" height="8" fill="#cfd8dc"/><g fill="#e0a54a"><rect x="49" y="174" width="6" height="3"/><rect x="59" y="174" width="6" height="3"/></g>
+<rect x="74" y="166" width="20" height="8" fill="#cfd8dc"/><g fill="#e0a54a"><circle cx="79" cy="178" r="3"/><circle cx="89" cy="178" r="3"/></g>
+<text x="104" y="180" font-size="15" font-weight="700">PGA, LGA, BGA</text>
+<text x="104" y="200" font-size="13">drei Bauarten der Kontakte</text>
+<!-- Kuehlkoerper -->
+<rect x="28" y="248" width="58" height="10" fill="#90a4ae"/>
+<g fill="#90a4ae"><rect x="30" y="222" width="5" height="26"/><rect x="40" y="222" width="5" height="26"/><rect x="50" y="222" width="5" height="26"/><rect x="60" y="222" width="5" height="26"/><rect x="70" y="222" width="5" height="26"/><rect x="80" y="222" width="5" height="26"/></g>
+<text x="104" y="238" font-size="15" font-weight="700">Kühlkörper mit Kühlrippen</text>
+<text x="104" y="258" font-size="13">Metall mit Lamellen, Wärme an die Luft</text>
+<!-- passiv aktiv -->
+<g fill="#90a4ae"><rect x="22" y="300" width="26" height="6"/><rect x="24" y="286" width="3" height="14"/><rect x="30" y="286" width="3" height="14"/><rect x="36" y="286" width="3" height="14"/><rect x="42" y="286" width="3" height="14"/></g>
+<g fill="#90a4ae"><rect x="60" y="300" width="26" height="6"/><rect x="62" y="292" width="3" height="8"/><rect x="68" y="292" width="3" height="8"/><rect x="74" y="292" width="3" height="8"/><rect x="80" y="292" width="3" height="8"/></g>
+<rect x="60" y="280" width="26" height="11" rx="2" fill="#3a6ed8"/>
+<text x="104" y="296" font-size="15" font-weight="700">passive / aktive Kühlung</text>
+<text x="104" y="316" font-size="13">ohne / mit Lüfter auf den Kühlrippen</text>
+<!-- Paste -->
+<rect x="28" y="340" width="58" height="12" fill="#90a4ae"/>
+<rect x="28" y="352" width="58" height="6" fill="#bdbdbd"/>
+<rect x="28" y="358" width="58" height="16" fill="#cfd8dc" stroke="#555" stroke-width="1"/>
+<text x="104" y="354" font-size="15" font-weight="700">Wärmeleitpaste</text>
+<text x="104" y="374" font-size="13">zwischen Prozessor und Kühler</text>
+<!-- Takt -->
+<path d="M22,428 V404 H34 V428 H46 V404 H58 V428 H70 V404 H82 V428 H92" fill="none" stroke="#3a6ed8" stroke-width="2.5"/>
+<text x="104" y="412" font-size="15" font-weight="700">Takt und Multiplikator</text>
+<text x="104" y="432" font-size="13">Schritte/Sekunde; CPU innen x-mal schneller</text>
+<!-- Uebertakten -->
+<path d="M22,486 V466 H28 V486 H34 V466 H40 V486 H46 V466 H52 V486 H58 V466 H64 V486" fill="none" stroke="#d43c3c" stroke-width="2.5"/>
+<path d="M80,488 C70,476 82,470 78,458 C90,466 94,478 86,488 Z" fill="#D4607A"/>
+<text x="104" y="470" font-size="15" font-weight="700">Übertakten</text>
+<text x="104" y="490" font-size="13">schneller als vorgesehen → viel Wärme</text>
+</svg>

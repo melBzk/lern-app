@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 420" font-family="system-ui, sans-serif" fill="#222" role="img">
+<title>Die 5 neuen Wörter mit Symbol: Referenztakt (Systemtakt) = Grundtakt vom Mainboard, in CPU-Z Bus Speed. Basistakt = normaler Takt ohne Turbo, im Task-Manager Basisgeschwindigkeit. Turbo Boost oder Turbo Core = Takt automatisch rauf (Intel, AMD). SpeedStep oder Cool'n'Quiet = Takt automatisch runter zum Stromsparen (Intel, AMD). Unlocked-Modell = Multiplikator frei wählbar, bei Intel am K erkennbar.</title>
+<rect width="400" height="420" fill="#fff"/>
+<text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700">5 neue Wörter</text>
+<g font-size="13">
+<rect x="10" y="42" width="380" height="68" rx="10" fill="#f4f5f7"/>
+<path d="M22,90 V70 H32 V90 H42 V70 H52 V90 H62 V70" stroke="#555" stroke-width="2.5" fill="none"/>
+<text x="76" y="64" font-size="15" font-weight="700">Referenztakt (Systemtakt)</text><text x="76" y="84">Grundtakt vom Mainboard,</text><text x="76" y="100">in CPU-Z „Bus Speed“</text>
+<rect x="10" y="116" width="380" height="68" rx="10" fill="#f4f5f7"/>
+<path d="M22,154 H62" stroke="#3a6ed8" stroke-width="4"/><path d="M22,146 v16 M62,146 v16" stroke="#3a6ed8" stroke-width="2"/>
+<text x="76" y="138" font-size="15" font-weight="700">Basistakt</text><text x="76" y="158">normaler Takt ohne Turbo, Task-Manager:</text><text x="76" y="174">„Basisgeschwindigkeit“</text>
+<rect x="10" y="190" width="380" height="68" rx="10" fill="#fff4e0" stroke="#E07B00" stroke-width="2"/>
+<path d="M42,242 V208 M30,220 L42,206 L54,220" stroke="#E07B00" stroke-width="4" fill="none" stroke-linecap="round"/>
+<text x="76" y="214" font-size="15" font-weight="700">Turbo Boost / Turbo Core</text><text x="76" y="234">Takt automatisch rauf</text><text x="76" y="250">(Intel / AMD)</text>
+<rect x="10" y="264" width="380" height="68" rx="10" fill="#e3ecfb"/>
+<path d="M42,280 V314 M30,302 L42,316 L54,302" stroke="#3a6ed8" stroke-width="4" fill="none" stroke-linecap="round"/>
+<text x="76" y="288" font-size="15" font-weight="700">SpeedStep / Cool'n'Quiet</text><text x="76" y="308">Takt automatisch runter, Strom sparen</text><text x="76" y="324">(Intel / AMD)</text>
+<rect x="10" y="338" width="380" height="68" rx="10" fill="#f4f5f7"/>
+<rect x="26" y="362" width="32" height="26" rx="4" fill="#9aa3ad"/><path d="M32,362 v-8 a10,10 0 0 1 20,0 v-2" stroke="#555" stroke-width="3" fill="none"/>
+<text x="76" y="362" font-size="15" font-weight="700">Unlocked-Modell</text><text x="76" y="382">Multiplikator frei wählbar,</text><text x="76" y="398">Intel: am <tspan font-weight="700">K</tspan> erkennbar</text>
+</g>
+</svg>

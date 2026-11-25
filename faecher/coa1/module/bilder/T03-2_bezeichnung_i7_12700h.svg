@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 420" font-family="system-ui, sans-serif" role="img">
+  <title>Den Prozessor aus dem Unterricht lesen: 12th Gen Intel Core i7-12700H. 12th Gen heißt 12. Generation, Intel ist der Hersteller, Core ist die Reihe. i7 ist die Stufe, von i3 einfach bis i9 High-End. Die 12 vorne in 12700 ist die Generation, die Zahl direkt nach i7. H steht für ein Laptop-Modell. Zu finden im Task-Manager unter Leistung, CPU.</title>
+  <defs>
+    <marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker>
+    <marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2f9e44"/></marker>
+    <marker id="as" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#e8590c"/></marker>
+  </defs>
+  <rect width="400" height="420" fill="#fff"/>
+  <text x="200" y="28" text-anchor="middle" font-size="18" font-weight="700" fill="#222">Den Prozessornamen lesen</text>
+
+  <!-- Zeile 1: Beschriftungen oben -->
+  <text x="72" y="62" text-anchor="middle" font-size="14" font-weight="700" fill="#2f9e44">12. Generation</text>
+  <text x="200" y="62" text-anchor="middle" font-size="14" font-weight="700" fill="#555">Hersteller</text>
+  <text x="318" y="62" text-anchor="middle" font-size="14" font-weight="700" fill="#7b3fa0">Reihe</text>
+  <path d="M26,80 v-8 h92 v8" fill="none" stroke="#2f9e44" stroke-width="3"/>
+  <path d="M164,80 v-8 h72 v8" fill="none" stroke="#555" stroke-width="3"/>
+  <path d="M284,80 v-8 h68 v8" fill="none" stroke="#7b3fa0" stroke-width="3"/>
+
+  <!-- Zeile 1: Schriftzug -->
+  <text x="72" y="106" text-anchor="middle" font-size="24" font-weight="700" fill="#2f9e44">12th Gen</text>
+  <text x="200" y="106" text-anchor="middle" font-size="24" font-weight="700" fill="#222">Intel®</text>
+  <text x="318" y="106" text-anchor="middle" font-size="24" font-weight="700" fill="#7b3fa0">Core™</text>
+
+  <!-- Zeile 2: Schriftzug -->
+  <text x="92" y="168" text-anchor="middle" font-size="46" font-weight="700" fill="#3a6ed8">i7</text>
+  <text x="128" y="168" text-anchor="middle" font-size="46" font-weight="700" fill="#222">-</text>
+  <text x="168" y="168" text-anchor="middle" font-size="46" font-weight="700" fill="#2f9e44">12</text>
+  <text x="234" y="168" text-anchor="middle" font-size="46" font-weight="700" fill="#222">700</text>
+  <text x="304" y="168" text-anchor="middle" font-size="46" font-weight="700" fill="#e8590c">H</text>
+
+  <!-- Klammern -->
+  <path d="M72,178 v8 h40 v-8" fill="none" stroke="#3a6ed8" stroke-width="3"/>
+  <path d="M142,178 v8 h52 v-8" fill="none" stroke="#2f9e44" stroke-width="3"/>
+  <path d="M288,178 v8 h32 v-8" fill="none" stroke="#e8590c" stroke-width="3"/>
+
+  <!-- Pfeile -->
+  <path d="M92,186 L72,226" fill="none" stroke="#3a6ed8" stroke-width="2.5" marker-end="url(#ab)"/>
+  <path d="M168,186 L196,226" fill="none" stroke="#2f9e44" stroke-width="2.5" marker-end="url(#ag)"/>
+  <path d="M304,186 L324,226" fill="none" stroke="#e8590c" stroke-width="2.5" marker-end="url(#as)"/>
+
+  <!-- Kästen -->
+  <rect x="10" y="230" width="122" height="120" rx="10" fill="#eef4ff" stroke="#3a6ed8" stroke-width="2"/>
+  <text x="71" y="256" text-anchor="middle" font-size="16" font-weight="700" fill="#3a6ed8">Stufe</text>
+  <text x="71" y="284" text-anchor="middle" font-size="14" fill="#222">i3 einfach</text>
+  <text x="71" y="304" text-anchor="middle" font-size="14" fill="#222">…</text>
+  <text x="71" y="326" text-anchor="middle" font-size="14" fill="#222">i9 High-End</text>
+
+  <rect x="139" y="230" width="122" height="120" rx="10" fill="#ebf7ee" stroke="#2f9e44" stroke-width="2"/>
+  <text x="200" y="256" text-anchor="middle" font-size="16" font-weight="700" fill="#2f9e44">Generation</text>
+  <text x="200" y="294" text-anchor="middle" font-size="28" font-weight="700" fill="#222">12.</text>
+  <text x="200" y="318" text-anchor="middle" font-size="13" fill="#444">Zahl direkt</text>
+  <text x="200" y="335" text-anchor="middle" font-size="13" fill="#444">nach „i7-“</text>
+
+  <rect x="268" y="230" width="122" height="120" rx="10" fill="#fff4ec" stroke="#e8590c" stroke-width="2.5"/>
+  <text x="329" y="256" text-anchor="middle" font-size="16" font-weight="700" fill="#e8590c">H =</text>
+  <text x="329" y="290" text-anchor="middle" font-size="15" font-weight="700" fill="#222">Laptop-</text>
+  <text x="329" y="310" text-anchor="middle" font-size="15" font-weight="700" fill="#222">Modell</text>
+
+  <text x="200" y="384" text-anchor="middle" font-size="14" fill="#555">im Task-Manager unter</text>
+  <text x="200" y="404" text-anchor="middle" font-size="14" fill="#555">Leistung → CPU</text>
+</svg>

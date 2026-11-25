@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 470" font-family="system-ui, sans-serif">
+  <title>Kette oder Baum? Links Thunderbolt als Kette: PC, darunter Gerät 1, 2 und 3 hintereinander in einer Linie. Rechts USB4 als Baum: PC, darunter ein Hub, der sich in mehrere unabhängige Geräte verzweigt. Unten: Thunderbolt 3 und USB4 haben beide 40 Gigabit pro Sekunde und den Stecker USB-C. Thunderbolt-3- und USB-3-Geräte passen an USB4.</title>
+  <rect width="400" height="470" fill="#fff"/>
+  <text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700" fill="#222">Kette oder Baum?</text>
+
+  <line x1="200" y1="48" x2="200" y2="336" stroke="#ddd" stroke-width="2"/>
+
+  <!-- Links: Thunderbolt Kette -->
+  <text x="100" y="60" text-anchor="middle" font-size="15" font-weight="700" fill="#222">Thunderbolt:</text>
+  <text x="100" y="78" text-anchor="middle" font-size="15" font-weight="700" fill="#D4607A">Kette</text>
+  <g stroke="#555" stroke-width="3">
+    <line x1="100" y1="132" x2="100" y2="152"/>
+    <line x1="100" y1="192" x2="100" y2="212"/>
+    <line x1="100" y1="252" x2="100" y2="272"/>
+  </g>
+  <rect x="55" y="92" width="90" height="40" rx="8" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2.5"/>
+  <text x="100" y="117" text-anchor="middle" font-size="15" font-weight="700" fill="#222">PC</text>
+  <g fill="#f4f1ee" stroke="#555" stroke-width="2">
+    <rect x="55" y="152" width="90" height="40" rx="7"/>
+    <rect x="55" y="212" width="90" height="40" rx="7"/>
+    <rect x="55" y="272" width="90" height="40" rx="7"/>
+  </g>
+  <g font-size="14" text-anchor="middle" fill="#222">
+    <text x="100" y="177">Gerät 1</text>
+    <text x="100" y="237">Gerät 2</text>
+    <text x="100" y="297">Gerät 3</text>
+  </g>
+
+  <!-- Rechts: USB4 Baum -->
+  <text x="300" y="60" text-anchor="middle" font-size="15" font-weight="700" fill="#222">USB4:</text>
+  <text x="300" y="78" text-anchor="middle" font-size="15" font-weight="700" fill="#3a6ed8">Baum</text>
+  <g stroke="#555" stroke-width="3" fill="none">
+    <line x1="300" y1="132" x2="300" y2="152"/>
+    <line x1="300" y1="190" x2="300" y2="206"/>
+    <line x1="240" y1="206" x2="360" y2="206"/>
+    <line x1="240" y1="206" x2="240" y2="226"/>
+    <line x1="300" y1="206" x2="300" y2="226"/>
+    <line x1="360" y1="206" x2="360" y2="226"/>
+  </g>
+  <rect x="255" y="92" width="90" height="40" rx="8" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2.5"/>
+  <text x="300" y="117" text-anchor="middle" font-size="15" font-weight="700" fill="#222">PC</text>
+  <rect x="260" y="152" width="80" height="38" rx="7" fill="#fff" stroke="#3a6ed8" stroke-width="2.5"/>
+  <text x="300" y="176" text-anchor="middle" font-size="14" font-weight="700" fill="#222">Hub</text>
+  <g fill="#f4f1ee" stroke="#555" stroke-width="2">
+    <rect x="212" y="226" width="56" height="40" rx="7"/>
+    <rect x="272" y="226" width="56" height="40" rx="7"/>
+    <rect x="332" y="226" width="56" height="40" rx="7"/>
+  </g>
+  <g font-size="13" text-anchor="middle" fill="#222">
+    <text x="240" y="251">Gerät</text>
+    <text x="300" y="251">Gerät</text>
+    <text x="360" y="251">Gerät</text>
+  </g>
+  <text x="300" y="292" text-anchor="middle" font-size="13" fill="#222">mehrere unabhängige</text>
+  <text x="300" y="309" text-anchor="middle" font-size="13" fill="#222">Geräte</text>
+
+  <!-- Gemeinsam -->
+  <rect x="16" y="348" width="368" height="58" rx="10" fill="#f6e4e8" stroke="#D4607A" stroke-width="2.5"/>
+  <text x="200" y="372" text-anchor="middle" font-size="14" fill="#222">Thunderbolt 3 und USB4: beide</text>
+  <text x="200" y="395" text-anchor="middle" font-size="16" font-weight="700" fill="#D4607A">40 Gbit/s · Stecker USB-C</text>
+
+  <!-- Kompatibel -->
+  <path d="M24,440 H52 M44,432 L54,440 L44,448" fill="none" stroke="#555" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="62" y="436" font-size="13" fill="#222">Thunderbolt-3- und USB-3-Geräte</text>
+  <text x="62" y="453" font-size="13" fill="#222">passen an <tspan font-weight="700">USB4</tspan></text>
+</svg>

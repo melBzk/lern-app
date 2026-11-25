@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 440" font-family="system-ui, sans-serif">
+  <title>Legacy, die drei Altlasten: Auf einem grauen Mainboard-Rand sitzen untereinander die serielle Schnittstelle RS232, der Parallel-Port IEEE 1284 für Drucker und die PS/2-Buchsen, grün für die Maus und lila für die Tastatur. Darüber ein Schild „LEGACY = Altlast“. Von allen drei alten Buchsen führen Pfeile zu einer modernen blauen USB-Buchse: heute USB. Sie blieben lange, damit alte Geräte weiter liefen.</title>
+  <defs>
+    <marker id="spitze" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#555"/>
+    </marker>
+  </defs>
+  <rect width="400" height="440" fill="#fff"/>
+  <text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700" fill="#222">Alte Schnittstellen – heute USB</text>
+
+  <!-- Schild Legacy -->
+  <rect x="20" y="44" width="210" height="36" rx="8" fill="#7a7a7a"/>
+  <text x="125" y="68" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">LEGACY = Altlast</text>
+
+  <!-- Mainboard-Rand -->
+  <rect x="20" y="90" width="210" height="300" rx="8" fill="#ececec" stroke="#999" stroke-width="2"/>
+
+  <!-- RS232 -->
+  <path d="M34,118 H114 L106,150 H42 Z" fill="#d9d9d9" stroke="#555" stroke-width="2.5"/>
+  <path d="M44,126 H104 L99,142 H49 Z" fill="#fff" stroke="#555" stroke-width="1.5"/>
+  <text x="124" y="132" font-size="15" font-weight="700" fill="#222">RS232</text>
+  <text x="124" y="150" font-size="13" fill="#222">seriell</text>
+
+  <!-- IEEE 1284 -->
+  <path d="M30,204 H116 L109,236 H37 Z" fill="#d9d9d9" stroke="#555" stroke-width="2.5"/>
+  <path d="M40,212 H106 L101,228 H45 Z" fill="#fff" stroke="#555" stroke-width="1.5"/>
+  <text x="124" y="212" font-size="15" font-weight="700" fill="#222">IEEE 1284</text>
+  <text x="124" y="230" font-size="13" fill="#222">Parallel-Port</text>
+  <text x="124" y="247" font-size="13" fill="#222">(Drucker)</text>
+
+  <!-- PS/2 -->
+  <circle cx="52" cy="318" r="18" fill="#3fa34d" stroke="#555" stroke-width="2"/>
+  <circle cx="52" cy="318" r="6" fill="#fff"/>
+  <circle cx="96" cy="318" r="18" fill="#8e5bb5" stroke="#555" stroke-width="2"/>
+  <circle cx="96" cy="318" r="6" fill="#fff"/>
+  <text x="124" y="302" font-size="15" font-weight="700" fill="#222">PS/2</text>
+  <text x="124" y="320" font-size="13" fill="#222">grün: Maus</text>
+  <text x="124" y="337" font-size="13" fill="#222">lila: Tastatur</text>
+
+  <!-- Pfeile zu USB -->
+  <g stroke="#555" stroke-width="2.5" fill="none">
+    <path d="M222,140 C262,140 266,214 288,224"/>
+    <path d="M222,227 H288"/>
+    <path d="M222,318 C262,318 266,240 288,230"/>
+  </g>
+
+  <path d="M286,217 L300,227 L286,237 Z" fill="#555"/>
+  <!-- USB-Buchse -->
+  <rect x="300" y="208" width="84" height="38" rx="3" fill="#fff" stroke="#3a6ed8" stroke-width="4"/>
+  <rect x="308" y="214" width="68" height="13" fill="#3a6ed8"/>
+  <text x="342" y="272" text-anchor="middle" font-size="16" font-weight="700" fill="#3a6ed8">heute: USB</text>
+
+  <!-- Hinweis -->
+  <text x="200" y="418" text-anchor="middle" font-size="13" fill="#222">blieben lange, damit alte Geräte weiter liefen</text>
+</svg>

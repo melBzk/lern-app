@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 470" font-family="system-ui, sans-serif" fill="#222" role="img">
+<title>Merkbild in 4 Feldern: 1 Befehlssatz = alle Befehle, die ein Prozessor versteht. 2 CISC = viele, auch komplexe Befehle, unterschiedlich lang, klassisch über Mikrocode. 3 RISC = wenige, einfache Befehle, gleich lang, fest verdrahtet, wenige Takte, viele Register. 4 Heute Mischform: x86/x64 übersetzt intern in RISC-Befehle, Mikrocode nur noch für wenige komplexe Befehle; ARM im Smartphone zählt zu RISC.</title>
+<rect width="400" height="470" fill="#fff"/>
+<text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700">Das Wichtigste</text>
+<rect x="10" y="42" width="380" height="58" rx="10" fill="#f4f5f7"/>
+<text x="24" y="66" font-size="15" font-weight="700">Befehlssatz</text>
+<text x="24" y="88" font-size="15">= alle Befehle, die die CPU versteht</text>
+<rect x="10" y="108" width="380" height="104" rx="10" fill="#fff4e0" stroke="#E07B00" stroke-width="2"/>
+<path d="M24,124 h46 M24,134 h28 M24,144 h40 M24,154 h18" stroke="#E07B00" stroke-width="5"/>
+<text x="86" y="134" font-size="16" font-weight="700" fill="#c25e00">CISC</text>
+<text x="86" y="158" font-size="14">viele, auch komplexe Befehle</text>
+<text x="86" y="178" font-size="14">unterschiedlich lang</text>
+<text x="86" y="198" font-size="14">klassisch über Mikrocode</text>
+<rect x="10" y="220" width="380" height="104" rx="10" fill="#e3ecfb" stroke="#3a6ed8" stroke-width="2"/>
+<path d="M24,240 h32 M24,250 h32 M24,260 h32" stroke="#3a6ed8" stroke-width="5"/>
+<text x="86" y="246" font-size="16" font-weight="700" fill="#3a6ed8">RISC</text>
+<text x="86" y="270" font-size="14">wenige, einfache Befehle, gleich lang</text>
+<text x="86" y="290" font-size="14">fest verdrahtet, wenige Takte</text>
+<text x="86" y="310" font-size="14">viele Register</text>
+<rect x="10" y="332" width="380" height="126" rx="10" fill="#f4f5f7"/>
+<text x="24" y="358" font-size="16" font-weight="700">Heute: Mischform</text>
+<text x="24" y="382" font-size="14"><tspan font-weight="700">x86/x64</tspan> übersetzt intern in RISC-Befehle</text>
+<text x="24" y="402" font-size="14">(Mikrocode nur noch für wenige</text>
+<text x="24" y="420" font-size="14">komplexe Befehle)</text>
+<text x="24" y="444" font-size="14"><tspan font-weight="700">ARM</tspan> (Smartphone) zählt zu RISC</text>
+</svg>

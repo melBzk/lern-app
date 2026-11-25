@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 380" font-family="system-ui, sans-serif" fill="#222" role="img">
+<title>Ausgangslage, ohne Lösung: Zwei Laptop-Angebote nebeneinander, A und B, beide mit dem Schild 2,7 GHz. Darunter ein Kunde mit Sprechblase: Ich will Videos schneiden. Dann sind die doch gleich schnell, oder? Großes Fragezeichen.</title>
+<rect width="400" height="380" fill="#fff"/>
+<text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700">Zwei Laptops, beide 2,7 GHz</text>
+<g>
+<rect x="30" y="52" width="140" height="90" rx="6" fill="#fff" stroke="#555" stroke-width="2.5"/><rect x="40" y="62" width="120" height="70" fill="#e3ecfb"/>
+<path d="M14,150 H186 L176,140 H24 Z" fill="#cfd6dd" stroke="#555" stroke-width="2"/>
+<text x="100" y="104" text-anchor="middle" font-size="22" font-weight="700">A</text>
+<rect x="44" y="164" width="112" height="34" rx="6" fill="#fff4e0" stroke="#E07B00" stroke-width="2"/><text x="100" y="187" text-anchor="middle" font-size="16" font-weight="700">2,7 GHz</text>
+</g>
+<g>
+<rect x="230" y="52" width="140" height="90" rx="6" fill="#fff" stroke="#555" stroke-width="2.5"/><rect x="240" y="62" width="120" height="70" fill="#e3ecfb"/>
+<path d="M214,150 H386 L376,140 H224 Z" fill="#cfd6dd" stroke="#555" stroke-width="2"/>
+<text x="300" y="104" text-anchor="middle" font-size="22" font-weight="700">B</text>
+<rect x="244" y="164" width="112" height="34" rx="6" fill="#fff4e0" stroke="#E07B00" stroke-width="2"/><text x="300" y="187" text-anchor="middle" font-size="16" font-weight="700">2,7 GHz</text>
+</g>
+<text x="200" y="187" text-anchor="middle" font-size="22" font-weight="700" fill="#c25e00">=?</text>
+<circle cx="52" cy="262" r="20" fill="#cfd6dd" stroke="#555" stroke-width="2"/><path d="M22,330 q0,-40 30,-40 q30,0 30,40 z" fill="#cfd6dd" stroke="#555" stroke-width="2"/>
+<path d="M100,230 H382 a8,8 0 0 1 8,8 V318 a8,8 0 0 1 -8,8 H110 a8,8 0 0 1 -8,-8 V272 L88,262 L102,254 V238 a8,8 0 0 1 8,-8 z" fill="#f4f5f7" stroke="#9aa3ad" stroke-width="1.5"/>
+<text x="118" y="256" font-size="15">„Ich will Videos schneiden.</text>
+<text x="118" y="280" font-size="15">Dann sind die doch</text>
+<text x="118" y="304" font-size="15" font-weight="700">gleich schnell, oder?“</text>
+<text x="200" y="366" text-anchor="middle" font-size="15" font-weight="700" fill="#3a6ed8">Was antwortest du?</text>
+</svg>

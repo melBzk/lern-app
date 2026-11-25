@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 420" font-family="system-ui, sans-serif" fill="#222" role="img">
+<title>Wozu, drei Stationen: 1 Klausurnah: Übungsfrage Wie wird die Geschwindigkeit einer CPU angegeben? 2 AP1: Hardware nach Datenblatt auswählen; Grundtakt und Turbo stehen in jeder Prozessor-Tabelle. 3 Im Support: Eine Kollegin fragt, ihr Laptop zeige nur 2,18 GHz, ob er kaputt sei. Antwort: Nein, er spart gerade Strom.</title>
+<rect width="400" height="420" fill="#fff"/>
+<text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700">Wofür brauchst du das?</text>
+<rect x="10" y="44" width="380" height="96" rx="10" fill="#fff4e0" stroke="#E07B00" stroke-width="2"/>
+<circle cx="34" cy="70" r="14" fill="#E07B00"/><text x="34" y="75" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">1</text>
+<text x="58" y="76" font-size="16" font-weight="700">Klausurnah</text>
+<text x="58" y="102" font-size="15">„Wie wird die Geschwindigkeit</text>
+<text x="58" y="124" font-size="15">einer CPU angegeben?“</text>
+<rect x="10" y="148" width="380" height="96" rx="10" fill="#f4f5f7"/>
+<circle cx="34" cy="174" r="14" fill="#3a6ed8"/><text x="34" y="179" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">2</text>
+<text x="58" y="180" font-size="16" font-weight="700">AP1: Datenblatt</text>
+<text x="58" y="206" font-size="15">Grundtakt und Turbo stehen</text>
+<text x="58" y="228" font-size="15">in jeder Prozessor-Tabelle</text>
+<rect x="10" y="252" width="380" height="156" rx="10" fill="#f4f5f7"/>
+<circle cx="34" cy="278" r="14" fill="#3a6ed8"/><text x="34" y="283" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">3</text>
+<text x="58" y="284" font-size="16" font-weight="700">Im Support</text>
+<rect x="58" y="298" width="300" height="44" rx="10" fill="#fff" stroke="#9aa3ad" stroke-width="1.5"/>
+<text x="72" y="326" font-size="15">„Nur 2,18 GHz – kaputt?“</text>
+<rect x="58" y="352" width="300" height="44" rx="10" fill="#e6f4ea" stroke="#2f9e44" stroke-width="2"/>
+<text x="72" y="380" font-size="15"><tspan font-weight="700" fill="#2f9e44">Nein:</tspan> er spart gerade Strom</text>
+</svg>

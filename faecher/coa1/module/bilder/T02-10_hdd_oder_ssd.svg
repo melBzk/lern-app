@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 470" font-family="system-ui, sans-serif" fill="#222">
+<title>HDD und SSD nebeneinander. HDD: magnetisch auf drehenden Scheiben, bewegliche Teile ja, Zugriff langsamer, empfindlich gegen Stöße (Head Crash), hörbar und mehr Strom, Stärke: günstig je Terabyte. SSD: in Speicherbausteinen, keine beweglichen Teile, Zugriff schneller, unempfindlich gegen Stöße, lautlos und weniger Strom, Stärke: Tempo.</title>
+<rect width="400" height="470" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">HDD oder SSD?</text>
+<!-- Köpfe -->
+<rect x="10" y="40" width="185" height="420" rx="10" fill="#eef3fc" stroke="#3a6ed8" stroke-width="2"/>
+<rect x="205" y="40" width="185" height="420" rx="10" fill="#eaf6ee" stroke="#2e9e5b" stroke-width="2"/>
+<rect x="66" y="52" width="72" height="56" rx="6" fill="#d9dde3" stroke="#444" stroke-width="1.5"/>
+<circle cx="94" cy="80" r="20" fill="#9fb3cf" stroke="#3a6ed8" stroke-width="1.5"/><circle cx="94" cy="80" r="4" fill="#444"/>
+<line x1="132" y1="102" x2="102" y2="70" stroke="#666" stroke-width="4" stroke-linecap="round"/>
+<rect x="258" y="54" width="80" height="52" rx="5" fill="#fff" stroke="#2e9e5b" stroke-width="2"/>
+<rect x="266" y="64" width="28" height="32" fill="#2e9e5b"/><rect x="302" y="64" width="28" height="32" fill="#2e9e5b"/>
+<text x="102" y="132" text-anchor="middle" font-size="18" font-weight="700" fill="#3a6ed8">HDD</text>
+<text x="297" y="132" text-anchor="middle" font-size="18" font-weight="700" fill="#2e9e5b">SSD</text>
+<!-- Zeilen -->
+<g font-size="14" text-anchor="middle">
+<text x="102" y="164">magnetisch,</text><text x="102" y="182">drehende Scheiben</text>
+<text x="297" y="164">in Speicher-</text><text x="297" y="182">bausteinen</text>
+<text x="102" y="222">bewegt sich: <tspan font-weight="700">ja</tspan></text>
+<text x="297" y="222">bewegt sich: <tspan font-weight="700">nein</tspan></text>
+<text x="102" y="262">Zugriff <tspan font-weight="700">langsamer</tspan></text>
+<text x="297" y="262">Zugriff <tspan font-weight="700">schneller</tspan></text>
+<text x="102" y="302">Stoß: <tspan font-weight="700" fill="#c62828">empfindlich</tspan></text><text x="102" y="320">(Head Crash)</text>
+<text x="297" y="302">Stoß: <tspan font-weight="700" fill="#2e9e5b">unempfindlich</tspan></text>
+<text x="102" y="360">hörbar,</text><text x="102" y="378">mehr Strom</text>
+<text x="297" y="360">lautlos,</text><text x="297" y="378">weniger Strom</text>
+</g>
+<g stroke="#bbb" stroke-width="1"><line x1="20" y1="198" x2="380" y2="198"/><line x1="20" y1="238" x2="380" y2="238"/><line x1="20" y1="278" x2="380" y2="278"/><line x1="20" y1="336" x2="380" y2="336"/><line x1="20" y1="394" x2="380" y2="394"/></g>
+<!-- Stärke -->
+<rect x="22" y="406" width="161" height="42" rx="8" fill="#3a6ed8"/>
+<text x="102" y="433" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">günstig je TB</text>
+<rect x="217" y="406" width="161" height="42" rx="8" fill="#2e9e5b"/>
+<text x="297" y="433" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">Tempo</text>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 330" font-family="system-ui, sans-serif" fill="#222" role="img">
+<title>HDMI und DisplayPort nebeneinander, beide digital und aktuell. HDMI: kennst du vom Fernseher, empfindlich bei der Kabelqualität, ein gutes Kabel lohnt sich. DisplayPort: kann technisch noch etwas mehr. Dazwischen ein Gleichheitszeichen: gleichwertige Standards, nebeneinander. Unten: Keiner löst den anderen ab, kein Nachfolger.</title>
+<rect width="400" height="330" fill="#fff"/>
+<text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700">HDMI und DisplayPort</text>
+<rect x="10" y="44" width="170" height="200" rx="10" fill="#f4f1ee"/>
+<rect x="220" y="44" width="170" height="200" rx="10" fill="#f4f1ee"/>
+<!-- HDMI -->
+<path d="M55,62 H135 V82 L123,96 H67 L55,82 Z" fill="#333"/>
+<rect x="66" y="70" width="58" height="8" fill="#888"/>
+<text x="95" y="124" text-anchor="middle" font-size="17" font-weight="700">HDMI</text>
+<text x="95" y="146" text-anchor="middle" font-size="13" font-weight="700" fill="#2e9d5b">digital · aktuell</text>
+<!-- TV -->
+<rect x="70" y="158" width="50" height="32" rx="3" fill="#333"/><rect x="74" y="162" width="42" height="24" fill="#9cc3f5"/><rect x="88" y="190" width="14" height="5" fill="#333"/>
+<text x="95" y="214" text-anchor="middle" font-size="13">vom Fernseher</text>
+<text x="95" y="232" text-anchor="middle" font-size="13">gutes Kabel lohnt sich</text>
+<!-- DP -->
+<path d="M265,62 H345 V96 H281 L265,80 Z" fill="#333"/>
+<rect x="281" y="72" width="56" height="8" fill="#888"/>
+<text x="305" y="124" text-anchor="middle" font-size="17" font-weight="700">DisplayPort</text>
+<text x="305" y="146" text-anchor="middle" font-size="13" font-weight="700" fill="#2e9d5b">digital · aktuell</text>
+<text x="305" y="184" text-anchor="middle" font-size="30" font-weight="700" fill="#3a6ed8">+</text>
+<text x="305" y="214" text-anchor="middle" font-size="13">kann technisch</text>
+<text x="305" y="232" text-anchor="middle" font-size="13">noch etwas mehr</text>
+<!-- gleich -->
+<text x="200" y="152" text-anchor="middle" font-size="34" font-weight="700" fill="#555">=</text>
+<text x="200" y="270" text-anchor="middle" font-size="14" font-weight="700">gleichwertig, nebeneinander</text>
+<rect x="40" y="284" width="320" height="36" rx="10" fill="#fbe3e8" stroke="#D4607A" stroke-width="2"/>
+<text x="200" y="308" text-anchor="middle" font-size="15" font-weight="700" fill="#b03a56">kein Nachfolger – keiner löst ab</text>
+</svg>

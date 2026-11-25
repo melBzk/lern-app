@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 470" font-family="system-ui, sans-serif" role="img">
+  <title>Merkbild weitere Ausgabegeräte. Ausgabegeräte bringen das Ergebnis zum Menschen: als Bild, Ton, Tastpunkte oder Bewegung. Ton: Soundkarte zu Lautsprecher oder Kopfhörer, Anschluss zum Beispiel Bananenstecker oder USB. 5.1 heißt 5 Lautsprecher plus 1 Subwoofer für tiefe Töne. Headset ist Kopfhörer plus Mikrofon, also Ein- und Ausgabegerät. Beamer: starke Lampe, die nur begrenzt hält. Braille-Gerät: Ausgabe für blinde Menschen.</title>
+  <rect width="400" height="470" fill="#fff"/>
+  <text x="200" y="26" text-anchor="middle" font-size="18" font-weight="700" fill="#222">Merke: weitere Ausgabe</text>
+
+  <rect fill="#f3f4f6" stroke="#bbb" x="8" y="40" width="384" height="78" rx="10"/>
+  <rect x="18" y="54" width="26" height="20" rx="2" fill="#3a3f4a"/><rect x="21" y="57" width="20" height="14" fill="#dbeefc"/>
+  <path d="M50,58 h5 l7,-6 v20 l-7,-6 h-5 z" fill="#3a3f4a"/><path d="M66,58 q5,4 0,8" fill="none" stroke="#3a3f4a" stroke-width="2"/>
+  <g fill="#222"><circle cx="24" cy="86" r="3"/><circle cx="24" cy="96" r="3"/><circle cx="34" cy="86" r="3"/></g>
+  <path d="M50,100 q8,-16 20,-12" fill="none" stroke="#E07B00" stroke-width="3"/><path d="M66,82 l6,6 l-8,3 z" fill="#E07B00"/>
+  <text font-size="15" font-weight="700" fill="#222" x="82" y="64">Ausgabe zum Menschen als</text>
+  <text font-size="14" font-weight="700" fill="#b35f00" x="82" y="88">Bild · Ton · Tastpunkte · Bewegung</text>
+
+  <rect fill="#f3f4f6" stroke="#bbb" x="8" y="126" width="384" height="78" rx="10"/>
+  <rect x="20" y="140" width="30" height="20" rx="3" fill="#1f9d55"/><text x="56" y="156" font-size="13" fill="#222">→</text><rect x="68" y="136" width="12" height="28" rx="3" fill="#3a3f4a"/>
+  <text font-size="15" font-weight="700" fill="#222" x="96" y="150">Soundkarte → Lautsprecher</text>
+  <text font-size="13" fill="#333" x="96" y="170">oder Kopfhörer</text>
+  <text font-size="14" font-weight="700" fill="#b35f00" x="96" y="190">Bananenstecker oder USB</text>
+
+  <rect fill="#f3f4f6" stroke="#bbb" x="8" y="212" width="384" height="78" rx="10"/>
+  <text x="44" y="262" text-anchor="middle" font-size="24" font-weight="700" fill="#E07B00">5.1</text>
+  <text font-size="15" font-weight="700" fill="#222" x="82" y="240">5 Lautsprecher</text>
+  <text font-size="14" font-weight="700" fill="#b35f00" x="82" y="264">+ 1 Subwoofer (tiefe Töne)</text>
+
+  <rect fill="#f3f4f6" stroke="#bbb" x="8" y="298" width="384" height="78" rx="10"/>
+  <path d="M24,340 v-8 a20,18 0 0 1 40,0 v8" fill="none" stroke="#3a3f4a" stroke-width="4"/>
+  <rect x="18" y="332" width="12" height="18" rx="4" fill="#3a3f4a"/><rect x="58" y="332" width="12" height="18" rx="4" fill="#3a3f4a"/>
+  <path d="M24,348 q2,10 18,8" fill="none" stroke="#E07B00" stroke-width="3"/><circle cx="44" cy="356" r="3.5" fill="#E07B00"/>
+  <text font-size="15" font-weight="700" fill="#222" x="82" y="324">Headset = Kopfhörer + Mikrofon</text>
+  <text font-size="14" font-weight="700" fill="#b35f00" x="82" y="348">Ein- und Ausgabegerät</text>
+
+  <rect fill="#f3f4f6" stroke="#bbb" x="8" y="384" width="384" height="78" rx="10"/>
+  <rect x="18" y="404" width="34" height="20" rx="4" fill="#3a3f4a"/><circle cx="50" cy="414" r="5" fill="#f2c200"/>
+  <g fill="#222"><circle cx="26" cy="438" r="3"/><circle cx="26" cy="448" r="3"/><circle cx="36" cy="438" r="3"/><circle cx="46" cy="448" r="3"/></g>
+  <text font-size="15" font-weight="700" fill="#222" x="82" y="408">Beamer: Lampe hält nur begrenzt</text>
+  <text font-size="14" font-weight="700" fill="#b35f00" x="82" y="438">Braille-Gerät: für blinde Menschen</text>
+</svg>

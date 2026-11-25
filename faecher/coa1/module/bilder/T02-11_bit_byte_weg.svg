@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 440" font-family="system-ui, sans-serif" fill="#222">
+<title>Oben: 1 Bit ist ein Kästchen mit 0 oder 1. 8 Bit nebeneinander, wie eine Lochstreifen-Zeile, sind 1 Byte, und 1 Byte ist 1 Zeichen, zum Beispiel 01100011 = c. Unten: Du drückst eine Taste, die Tastatur schickt eine Folge aus 1 und 0 an den Prozessor. Auch Netzwerkkabel und WLAN übertragen nur 1 und 0: im Kabel als Strom an und aus, im WLAN per Funk.</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker></defs>
+<rect width="400" height="440" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">Bit, Byte, Zeichen</text>
+<!-- 1 Bit -->
+<rect x="20" y="50" width="34" height="38" rx="4" fill="#E07B00"/>
+<text x="37" y="76" text-anchor="middle" font-size="20" font-weight="700" fill="#fff" font-family="ui-monospace, Consolas, monospace">1</text>
+<text x="66" y="76" font-size="16" font-weight="700">= 1 Bit</text>
+<!-- 8 Bit -->
+<g font-family="ui-monospace, Consolas, monospace" font-size="18" font-weight="700" text-anchor="middle">
+<rect x="20" y="110" width="34" height="38" rx="4" fill="#fff" stroke="#E07B00" stroke-width="2"/><text x="37" y="136">0</text>
+<rect x="56" y="110" width="34" height="38" rx="4" fill="#E07B00"/><text x="73" y="136" fill="#fff">1</text>
+<rect x="92" y="110" width="34" height="38" rx="4" fill="#E07B00"/><text x="109" y="136" fill="#fff">1</text>
+<rect x="128" y="110" width="34" height="38" rx="4" fill="#fff" stroke="#E07B00" stroke-width="2"/><text x="145" y="136">0</text>
+<rect x="164" y="110" width="34" height="38" rx="4" fill="#fff" stroke="#E07B00" stroke-width="2"/><text x="181" y="136">0</text>
+<rect x="200" y="110" width="34" height="38" rx="4" fill="#fff" stroke="#E07B00" stroke-width="2"/><text x="217" y="136">0</text>
+<rect x="236" y="110" width="34" height="38" rx="4" fill="#E07B00"/><text x="253" y="136" fill="#fff">1</text>
+<rect x="272" y="110" width="34" height="38" rx="4" fill="#E07B00"/><text x="289" y="136" fill="#fff">1</text>
+</g>
+<path d="M20,156 v8 h286 v-8" fill="none" stroke="#222" stroke-width="2"/>
+<text x="163" y="184" text-anchor="middle" font-size="16" font-weight="700">8 Bit = 1 Byte</text>
+<line x1="312" y1="129" x2="338" y2="129" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+<rect x="344" y="108" width="46" height="44" rx="6" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<text x="367" y="138" text-anchor="middle" font-size="22" font-weight="700" fill="#3a6ed8">c</text>
+<text x="364" y="184" text-anchor="middle" font-size="13" font-weight="700" fill="#3a6ed8">1 Zeichen</text>
+<!-- Weg -->
+<line x1="10" y1="206" x2="390" y2="206" stroke="#ccc" stroke-width="1.5"/>
+<text x="200" y="232" text-anchor="middle" font-size="15" font-weight="700">Überall im PC: nur 1 und 0</text>
+<rect x="14" y="250" width="80" height="44" rx="6" fill="#f4f1ee" stroke="#555" stroke-width="2"/>
+<g fill="#fff" stroke="#555" stroke-width="1"><rect x="22" y="258" width="14" height="12"/><rect x="40" y="258" width="14" height="12"/><rect x="58" y="258" width="14" height="12"/><rect x="76" y="258" width="10" height="12"/><rect x="22" y="274" width="64" height="12"/></g>
+<text x="54" y="314" text-anchor="middle" font-size="14" font-weight="700">Taste</text>
+<line x1="100" y1="272" x2="290" y2="272" stroke="#333" stroke-width="2.5" marker-end="url(#a)"/>
+<text x="195" y="264" text-anchor="middle" font-size="16" font-weight="700" fill="#E07B00" font-family="ui-monospace, Consolas, monospace">… 1 0 1 1 0 …</text>
+<rect x="298" y="246" width="92" height="52" rx="8" fill="#e3f0e9" stroke="#2f6b4f" stroke-width="2.5"/>
+<text x="344" y="277" text-anchor="middle" font-size="14" font-weight="700" fill="#2f6b4f">Prozessor</text>
+<!-- Kabel / WLAN -->
+<rect x="10" y="334" width="185" height="96" rx="10" fill="#f4f1ee"/>
+<text x="102" y="356" text-anchor="middle" font-size="15" font-weight="700">Kabel</text>
+<path d="M24,402 h18 v-22 h22 v22 h22 v-22 h22 v22 h22 v-22 h22 v22 h30" fill="none" stroke="#E07B00" stroke-width="3"/>
+<text x="102" y="422" text-anchor="middle" font-size="13">Strom an / aus</text>
+<rect x="205" y="334" width="185" height="96" rx="10" fill="#f4f1ee"/>
+<text x="297" y="356" text-anchor="middle" font-size="15" font-weight="700">WLAN</text>
+<circle cx="297" cy="400" r="5" fill="#3a6ed8"/>
+<g fill="none" stroke="#3a6ed8" stroke-width="2.5"><path d="M285,388 a17,17 0 0 1 24,0"/><path d="M277,380 a28,28 0 0 1 40,0"/><path d="M269,372 a39,39 0 0 1 56,0"/></g>
+<text x="297" y="422" text-anchor="middle" font-size="13">per Funk</text>
+</svg>

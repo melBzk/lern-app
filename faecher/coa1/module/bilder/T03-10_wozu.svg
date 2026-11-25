@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 338" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Vier Einsatzbereiche: AP1 Leistung beurteilen und Hardware-Auswahl mit Benchmarks begründen. Lernfeld 2: Geräte für Kunden anhand von Datenblättern vergleichen. Lernfeld 6: Fehlerursachen suchen, z. B. defekter RAM mit MemTest86. AP2: Hardware vorbeugend überwachen.</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker><marker id="o" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E07B00"/></marker><marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6b4f"/></marker><marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker><marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker></defs>
+<rect width="400" height="338" fill="#fff"/>
+<text x="200.0" y="28" font-size="17" text-anchor="middle" font-weight="700">Wozu brauchst du das?</text>
+<line x1="15" y1="46" x2="385" y2="46" stroke="#ddd" stroke-width="1"/>
+<rect x="18" y="65.0" width="60" height="32" rx="8" fill="#3a6ed8" stroke="none" stroke-width="0"/><text x="48" y="87.0" font-size="15" text-anchor="middle" font-weight="700" fill="#fff">AP1</text>
+<text x="100" y="69.0" font-size="15" font-weight="700" fill="#1d3f8a">Leistung beurteilen</text>
+<text x="100" y="89.0" font-size="14">Hardware-Auswahl begründen –</text>
+<text x="100" y="107.0" font-size="14">Belege liefern Benchmarks</text>
+<line x1="15" y1="116" x2="385" y2="116" stroke="#ddd" stroke-width="1"/>
+<rect x="18" y="135.0" width="60" height="32" rx="8" fill="#3a6ed8" stroke="none" stroke-width="0"/><text x="48" y="157.0" font-size="15" text-anchor="middle" font-weight="700" fill="#fff">LF 2</text>
+<text x="100" y="147.0" font-size="15" font-weight="700" fill="#1d3f8a">Geräte für Kunden vergleichen</text>
+<text x="100" y="168.0" font-size="14">anhand von Datenblättern</text>
+<line x1="15" y1="186" x2="385" y2="186" stroke="#ddd" stroke-width="1"/>
+<rect x="18" y="205.0" width="60" height="32" rx="8" fill="#3a6ed8" stroke="none" stroke-width="0"/><text x="48" y="227.0" font-size="15" text-anchor="middle" font-weight="700" fill="#fff">LF 6</text>
+<text x="100" y="217.0" font-size="15" font-weight="700" fill="#1d3f8a">Fehlerursachen suchen</text>
+<text x="100" y="238.0" font-size="14">z. B. defekter RAM (MemTest86)</text>
+<line x1="15" y1="256" x2="385" y2="256" stroke="#ddd" stroke-width="1"/>
+<rect x="18" y="275.0" width="60" height="32" rx="8" fill="#777" stroke="none" stroke-width="0"/><text x="48" y="297.0" font-size="15" text-anchor="middle" font-weight="700" fill="#fff">AP2</text>
+<text x="100" y="287.0" font-size="15" font-weight="700" fill="#555">vorbeugend überwachen</text>
+<text x="100" y="308.0" font-size="14">Hardware im Blick behalten</text>
+<line x1="15" y1="326" x2="385" y2="326" stroke="#ddd" stroke-width="1"/>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 440" font-family="system-ui, sans-serif" fill="#222" role="img">
+<title>Die 80-zu-20-Entdeckung aus den 1970er-Jahren laut Unterrichtsskript: Oben ein Balken aller Befehle, davon sind 20 Prozent orange markiert. Ein Pfeil führt zu einem Balken aller Berechnungen eines typischen Programms, davon 80 Prozent orange: Etwa 80 Prozent der Berechnungen kommen mit etwa 20 Prozent der Befehle aus. Darunter die Idee: lieber wenige Befehle, die dafür schnell sind, daraus entstand RISC.</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker></defs>
+<rect width="400" height="440" fill="#fff"/>
+<text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700">Die 80-zu-20-Entdeckung</text>
+<text x="200" y="50" text-anchor="middle" font-size="14" fill="#555">Untersuchungen in den 1970er-Jahren</text>
+<text x="24" y="86" font-size="15" font-weight="700">alle Befehle</text>
+<rect x="24" y="96" width="352" height="34" rx="4" fill="#cfd6dd"/>
+<rect x="24" y="96" width="70" height="34" rx="4" fill="#E07B00"/>
+<text x="59" y="119" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">20 %</text>
+<text x="230" y="119" text-anchor="middle" font-size="14" fill="#555">selten gebraucht</text>
+<line x1="59" y1="136" x2="59" y2="176" stroke="#555" stroke-width="2.5" marker-end="url(#a)"/>
+<text x="74" y="162" font-size="14">reichen für …</text>
+<text x="24" y="204" font-size="15" font-weight="700">alle Berechnungen eines Programms</text>
+<rect x="24" y="214" width="352" height="34" rx="4" fill="#cfd6dd"/>
+<rect x="24" y="214" width="282" height="34" rx="4" fill="#E07B00"/>
+<text x="165" y="237" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">etwa 80 %</text>
+<text x="200" y="282" text-anchor="middle" font-size="14">oft immer dieselben Befehlsfolgen</text>
+<rect x="10" y="300" width="380" height="96" rx="10" fill="#e3ecfb" stroke="#3a6ed8" stroke-width="2.5"/>
+<text x="200" y="328" text-anchor="middle" font-size="15" font-weight="700">Idee: lieber wenige Befehle,</text>
+<text x="200" y="350" text-anchor="middle" font-size="15" font-weight="700">die dafür schnell sind</text>
+<text x="200" y="378" text-anchor="middle" font-size="17" font-weight="700" fill="#3a6ed8">→ RISC</text>
+<text x="200" y="426" text-anchor="middle" font-size="13" fill="#555">Zahlen aus dem Unterrichtsskript, nicht aus dem Buch</text>
+</svg>

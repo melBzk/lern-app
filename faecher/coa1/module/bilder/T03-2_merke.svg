@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" font-family="system-ui, sans-serif" fill="#222" role="img">
+<title>Merkbild in 5 Zeilen: 1 PC: Intel und AMD, Smartphone und Tablet: ARM. 2 Intel: Core = Büro bis Gaming, Xeon = Server und Workstation, Atom = sparsam und mobil, Quark = IoT. 3 AMD: Ryzen und Athlon = Desktop, Threadripper = Workstation, EPYC = Server. 4 Generation = Zahl direkt nach i3-, i5-, i7- oder i9-, z. B. i9-8950HK = 8, i7-12700H = 12; es gibt kein i8. 5 Sockel: Intel wechselt oft, AMD nutzt AM4 lange.</title>
+<rect width="400" height="500" fill="#fff"/>
+<text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700">Das Wichtigste</text>
+<rect x="10" y="42" width="380" height="66" rx="10" fill="#f4f5f7"/>
+<rect x="22" y="58" width="34" height="24" rx="3" fill="#fff" stroke="#555" stroke-width="2"/><rect x="32" y="82" width="14" height="8" fill="#555"/>
+<text x="66" y="70" font-size="15"><tspan font-weight="700">PC:</tspan> Intel und AMD</text>
+<text x="66" y="94" font-size="15"><tspan font-weight="700">Handy/Tablet:</tspan> ARM</text>
+<rect x="10" y="114" width="380" height="104" rx="10" fill="#e3ecfb"/>
+<text x="22" y="138" font-size="15" font-weight="700" fill="#3a6ed8">Intel</text>
+<text x="80" y="138" font-size="15"><tspan font-weight="700">Core</tspan> = Büro bis Gaming</text>
+<text x="80" y="160" font-size="15"><tspan font-weight="700">Xeon</tspan> = Server/Workstation</text>
+<text x="80" y="182" font-size="15"><tspan font-weight="700">Atom</tspan> = sparsam/mobil</text>
+<text x="80" y="204" font-size="15"><tspan font-weight="700">Quark</tspan> = IoT</text>
+<rect x="10" y="224" width="380" height="84" rx="10" fill="#fbe3e3"/>
+<text x="22" y="248" font-size="15" font-weight="700" fill="#c62828">AMD</text>
+<text x="80" y="248" font-size="15"><tspan font-weight="700">Ryzen, Athlon</tspan> = Desktop</text>
+<text x="80" y="270" font-size="15"><tspan font-weight="700">Threadripper</tspan> = Workstation</text>
+<text x="80" y="292" font-size="15"><tspan font-weight="700">EPYC</tspan> = Server</text>
+<rect x="10" y="314" width="380" height="88" rx="10" fill="#fff4e0" stroke="#E07B00" stroke-width="2"/>
+<text x="22" y="340" font-size="15" font-weight="700">Generation = Zahl nach „i3-/i5-/i7-/i9-“</text>
+<text x="22" y="366" font-size="17" font-weight="700" font-family="ui-monospace, monospace">i9-<tspan fill="#E07B00">8</tspan>950HK → 8 · i7-<tspan fill="#E07B00">12</tspan>700H → 12</text>
+<text x="22" y="390" font-size="15" font-weight="700" fill="#c62828">kein i8!</text>
+<rect x="10" y="408" width="380" height="80" rx="10" fill="#f4f5f7"/>
+<text x="22" y="434" font-size="15" font-weight="700">Sockel</text>
+<text x="80" y="434" font-size="15">Intel wechselt oft</text>
+<rect x="80" y="444" width="20" height="10" fill="#3a6ed8"/><rect x="104" y="444" width="20" height="10" fill="#3a6ed8"/><rect x="128" y="444" width="20" height="10" fill="#3a6ed8"/><rect x="152" y="444" width="20" height="10" fill="#3a6ed8"/>
+<text x="200" y="454" font-size="15">AMD: AM4 lange</text>
+<rect x="200" y="462" width="150" height="10" fill="#c62828"/>
+</svg>

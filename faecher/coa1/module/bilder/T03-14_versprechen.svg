@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 482" font-family="system-ui, sans-serif" fill="#222" role="img">
+<title>Was verspricht der Hersteller? Gleiche Aufgabe 3 mal 5 für beide. Links: Die Rechnung 3 mal 5 braucht im normalen Chip einen Haufen kleiner Schalter, ca. 1200 Transistoren. Rechts: Dieselbe Rechnung schafft ein einziges optisches Element, ein kleiner Kristall mit Lichtstrahl. Darunter zwei Sprechblasen: bis 30-mal weniger Energie und bis 50-mal mehr Leistung. Großer Stempel: laut Hersteller, nicht unabhängig bestätigt.</title>
+<rect width="400" height="482" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">Was verspricht der Hersteller?</text>
+<text x="200" y="48" text-anchor="middle" font-size="15" fill="#555">gleiche Aufgabe: 3 × 5</text>
+<g transform="translate(0,22)">
+
+<!-- links -->
+<rect x="65" y="44" width="70" height="34" rx="6" fill="#fff" stroke="#555" stroke-width="2"/>
+<text x="100" y="67" text-anchor="middle" font-size="16" font-weight="700">3 × 5</text>
+<path d="M32,104h8v6h-8z M32,114h8v6h-8z M32,124h8v6h-8z M32,134h8v6h-8z M32,144h8v6h-8z M32,154h8v6h-8z M32,164h8v6h-8z M32,174h8v6h-8z M32,184h8v6h-8z M32,194h8v6h-8z M44,104h8v6h-8z M44,114h8v6h-8z M44,124h8v6h-8z M44,134h8v6h-8z M44,144h8v6h-8z M44,154h8v6h-8z M44,164h8v6h-8z M44,174h8v6h-8z M44,184h8v6h-8z M44,194h8v6h-8z M56,104h8v6h-8z M56,114h8v6h-8z M56,124h8v6h-8z M56,134h8v6h-8z M56,144h8v6h-8z M56,154h8v6h-8z M56,164h8v6h-8z M56,174h8v6h-8z M56,184h8v6h-8z M56,194h8v6h-8z M68,104h8v6h-8z M68,114h8v6h-8z M68,124h8v6h-8z M68,134h8v6h-8z M68,144h8v6h-8z M68,154h8v6h-8z M68,164h8v6h-8z M68,174h8v6h-8z M68,184h8v6h-8z M68,194h8v6h-8z M80,104h8v6h-8z M80,114h8v6h-8z M80,124h8v6h-8z M80,134h8v6h-8z M80,144h8v6h-8z M80,154h8v6h-8z M80,164h8v6h-8z M80,174h8v6h-8z M80,184h8v6h-8z M80,194h8v6h-8z M92,104h8v6h-8z M92,114h8v6h-8z M92,124h8v6h-8z M92,134h8v6h-8z M92,144h8v6h-8z M92,154h8v6h-8z M92,164h8v6h-8z M92,174h8v6h-8z M92,184h8v6h-8z M92,194h8v6h-8z M104,104h8v6h-8z M104,114h8v6h-8z M104,124h8v6h-8z M104,134h8v6h-8z M104,144h8v6h-8z M104,154h8v6h-8z M104,164h8v6h-8z M104,174h8v6h-8z M104,184h8v6h-8z M104,194h8v6h-8z M116,104h8v6h-8z M116,114h8v6h-8z M116,124h8v6h-8z M116,134h8v6h-8z M116,144h8v6h-8z M116,154h8v6h-8z M116,164h8v6h-8z M116,174h8v6h-8z M116,184h8v6h-8z M116,194h8v6h-8z M128,104h8v6h-8z M128,114h8v6h-8z M128,124h8v6h-8z M128,134h8v6h-8z M128,144h8v6h-8z M128,154h8v6h-8z M128,164h8v6h-8z M128,174h8v6h-8z M128,184h8v6h-8z M128,194h8v6h-8z M140,104h8v6h-8z M140,114h8v6h-8z M140,124h8v6h-8z M140,134h8v6h-8z M140,144h8v6h-8z M140,154h8v6h-8z M140,164h8v6h-8z M140,174h8v6h-8z M140,184h8v6h-8z M140,194h8v6h-8z M152,104h8v6h-8z M152,114h8v6h-8z M152,124h8v6h-8z M152,134h8v6h-8z M152,144h8v6h-8z M152,154h8v6h-8z M152,164h8v6h-8z M152,174h8v6h-8z M152,184h8v6h-8z M152,194h8v6h-8z M164,104h8v6h-8z M164,114h8v6h-8z M164,124h8v6h-8z M164,134h8v6h-8z M164,144h8v6h-8z M164,154h8v6h-8z M164,164h8v6h-8z M164,174h8v6h-8z M164,184h8v6h-8z M164,194h8v6h-8z" fill="#5b6470"/>
+<text x="100" y="222" text-anchor="middle" font-size="16" font-weight="700">ca. 1 200</text>
+<text x="100" y="241" text-anchor="middle" font-size="14">Transistoren</text>
+
+
+<!-- rechts -->
+<rect x="265" y="44" width="70" height="34" rx="6" fill="#fff" stroke="#555" stroke-width="2"/>
+<text x="300" y="67" text-anchor="middle" font-size="16" font-weight="700">3 × 5</text>
+<path d="M230,152 H372" stroke="#c62828" stroke-width="4"/>
+<rect x="284" y="134" width="32" height="36" rx="3" fill="#cfe3f7" stroke="#3a6ed8" stroke-width="2.5"/>
+<text x="300" y="222" text-anchor="middle" font-size="16" font-weight="700">1 optisches</text>
+<text x="300" y="241" text-anchor="middle" font-size="14">Element</text>
+
+<!-- Sprechblasen -->
+<path d="M14,270 H190 V326 H70 L54,342 L56,326 H14 Z" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2" stroke-linejoin="round"/>
+<text x="102" y="294" text-anchor="middle" font-size="15" font-weight="700">bis 30× weniger</text>
+<text x="102" y="314" text-anchor="middle" font-size="15" font-weight="700">Energie</text>
+<path d="M210,270 H386 V326 H346 L344,342 L328,326 H210 Z" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2" stroke-linejoin="round"/>
+<text x="298" y="294" text-anchor="middle" font-size="15" font-weight="700">bis 50× mehr</text>
+<text x="298" y="314" text-anchor="middle" font-size="15" font-weight="700">Leistung</text>
+
+<!-- Stempel -->
+<g transform="rotate(-4 200 400)">
+<rect x="40" y="362" width="320" height="74" rx="8" fill="#fff" stroke="#c62828" stroke-width="4"/>
+<text x="200" y="394" text-anchor="middle" font-size="20" font-weight="700" fill="#c62828">laut Hersteller</text>
+<text x="200" y="420" text-anchor="middle" font-size="15" font-weight="700" fill="#c62828">nicht unabhängig bestätigt</text>
+</g>
+</g>
+</svg>

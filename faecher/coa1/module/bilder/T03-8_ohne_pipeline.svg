@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 284" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Zeitplan ohne Pipeline, Takt 1 bis 10. Befehl 1 belegt Takt 1 bis 5 mit den Phasen L laden, D decodieren, O Operanden laden, A ausführen, S zurückspeichern. Befehl 2 wartet in Takt 1 bis 5 und belegt erst Takt 6 bis 10. Ergebnis: 2 Befehle = 10 Takte.</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker><marker id="o" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E07B00"/></marker><marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6b4f"/></marker><marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker></defs>
+<rect width="400" height="284" fill="#fff"/>
+<text x="200" y="26" font-size="16" text-anchor="middle" font-weight="700">Ohne Pipeline: alles nacheinander</text>
+<text x="8" y="62" font-size="13" font-weight="700">Takt</text>
+<text x="93.5" y="62" font-size="13" text-anchor="middle" font-weight="700">1</text>
+<text x="124.5" y="62" font-size="13" text-anchor="middle" font-weight="700">2</text>
+<text x="155.5" y="62" font-size="13" text-anchor="middle" font-weight="700">3</text>
+<text x="186.5" y="62" font-size="13" text-anchor="middle" font-weight="700">4</text>
+<text x="217.5" y="62" font-size="13" text-anchor="middle" font-weight="700">5</text>
+<text x="248.5" y="62" font-size="13" text-anchor="middle" font-weight="700">6</text>
+<text x="279.5" y="62" font-size="13" text-anchor="middle" font-weight="700">7</text>
+<text x="310.5" y="62" font-size="13" text-anchor="middle" font-weight="700">8</text>
+<text x="341.5" y="62" font-size="13" text-anchor="middle" font-weight="700">9</text>
+<text x="372.5" y="62" font-size="13" text-anchor="middle" font-weight="700">10</text>
+<rect x="79" y="74" width="29" height="40" rx="4" fill="#dbe6fb" stroke="#3a6ed8" stroke-width="2"/><text x="93.5" y="100.0" font-size="16" text-anchor="middle" font-weight="700">L</text>
+<rect x="110" y="74" width="29" height="40" rx="4" fill="#ece0f5" stroke="#7b3fa0" stroke-width="2"/><text x="124.5" y="100.0" font-size="16" text-anchor="middle" font-weight="700">D</text>
+<rect x="141" y="74" width="29" height="40" rx="4" fill="#fdebd3" stroke="#E07B00" stroke-width="2"/><text x="155.5" y="100.0" font-size="16" text-anchor="middle" font-weight="700">O</text>
+<rect x="172" y="74" width="29" height="40" rx="4" fill="#f9dcdc" stroke="#c62828" stroke-width="2"/><text x="186.5" y="100.0" font-size="16" text-anchor="middle" font-weight="700">A</text>
+<rect x="203" y="74" width="29" height="40" rx="4" fill="#dcefe4" stroke="#2f6b4f" stroke-width="2"/><text x="217.5" y="100.0" font-size="16" text-anchor="middle" font-weight="700">S</text>
+<rect x="234" y="74" width="29" height="40" rx="4" fill="#fff" stroke="#e3e3e3" stroke-width="1.5"/>
+<rect x="234" y="126" width="29" height="40" rx="4" fill="#dbe6fb" stroke="#3a6ed8" stroke-width="2"/><text x="248.5" y="152.0" font-size="16" text-anchor="middle" font-weight="700">L</text>
+<rect x="265" y="74" width="29" height="40" rx="4" fill="#fff" stroke="#e3e3e3" stroke-width="1.5"/>
+<rect x="265" y="126" width="29" height="40" rx="4" fill="#ece0f5" stroke="#7b3fa0" stroke-width="2"/><text x="279.5" y="152.0" font-size="16" text-anchor="middle" font-weight="700">D</text>
+<rect x="296" y="74" width="29" height="40" rx="4" fill="#fff" stroke="#e3e3e3" stroke-width="1.5"/>
+<rect x="296" y="126" width="29" height="40" rx="4" fill="#fdebd3" stroke="#E07B00" stroke-width="2"/><text x="310.5" y="152.0" font-size="16" text-anchor="middle" font-weight="700">O</text>
+<rect x="327" y="74" width="29" height="40" rx="4" fill="#fff" stroke="#e3e3e3" stroke-width="1.5"/>
+<rect x="327" y="126" width="29" height="40" rx="4" fill="#f9dcdc" stroke="#c62828" stroke-width="2"/><text x="341.5" y="152.0" font-size="16" text-anchor="middle" font-weight="700">A</text>
+<rect x="358" y="74" width="29" height="40" rx="4" fill="#fff" stroke="#e3e3e3" stroke-width="1.5"/>
+<rect x="358" y="126" width="29" height="40" rx="4" fill="#dcefe4" stroke="#2f6b4f" stroke-width="2"/><text x="372.5" y="152.0" font-size="16" text-anchor="middle" font-weight="700">S</text>
+<text x="8" y="99" font-size="14" font-weight="700">Befehl 1</text>
+<text x="8" y="151" font-size="14" font-weight="700">Befehl 2</text>
+<rect x="79" y="126" width="153" height="40" rx="4" fill="#e9ecef" stroke="#ccc" stroke-width="1.5"/>
+<path d="M106,134 h14 l-7,9 l7,9 h-14 l7,-9 z" fill="#fff3bf" stroke="#555" stroke-width="1.5"/>
+<text x="126" y="152" font-size="14" font-weight="700" fill="#555">wartet</text>
+<text x="200" y="192" font-size="13" text-anchor="middle" fill="#444">L laden · D decodieren · O Operanden laden</text>
+<text x="200" y="211" font-size="13" text-anchor="middle" fill="#444">A ausführen · S zurückspeichern</text>
+<rect x="80" y="228" width="240" height="40" rx="8" fill="#fff3bf" stroke="#c9a400" stroke-width="2"/>
+<text x="200" y="254" font-size="16" text-anchor="middle" font-weight="700">2 Befehle = 10 Takte</text>
+</svg>

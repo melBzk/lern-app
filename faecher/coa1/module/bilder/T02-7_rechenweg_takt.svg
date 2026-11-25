@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 420" font-family="system-ui, sans-serif" fill="#222">
+<title>Rechenweg Prozessortakt: Formel Takt = Bustakt mal Multiplikator. Bustakt des Mainboards 100 MHz, mal Multiplikator 44 in der CPU, ergibt 4400 MHz. Umrechnen mit 1 GHz = 1000 MHz: 4400 MHz = 4,4 GHz. Unten: Bei einem K-Prozessor darf man den Multiplikator erhöhen, das ist Übertakten und erzeugt viel mehr Wärme.</title>
+<rect width="400" height="420" fill="#fff"/>
+<text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700">Wie kommt die CPU auf 4,4 GHz?</text>
+<rect x="40" y="42" width="320" height="40" rx="10" fill="#fff" stroke="#D4607A" stroke-width="2"/>
+<text x="200" y="68" text-anchor="middle" font-size="15" font-weight="700">Takt = Bustakt × Multiplikator</text>
+<!-- Bausteine -->
+<rect x="20" y="100" width="150" height="78" rx="10" fill="#e3ecfb" stroke="#3a6ed8" stroke-width="2"/>
+<text x="95" y="128" text-anchor="middle" font-size="13">Bustakt (Mainboard)</text>
+<text x="95" y="160" text-anchor="middle" font-size="22" font-weight="700" fill="#2550a8">100 MHz</text>
+<text x="200" y="148" text-anchor="middle" font-size="24" font-weight="700">×</text>
+<rect x="230" y="100" width="150" height="78" rx="10" fill="#fbe3e8" stroke="#D4607A" stroke-width="2"/>
+<text x="305" y="128" text-anchor="middle" font-size="13">Multiplikator (CPU)</text>
+<text x="305" y="160" text-anchor="middle" font-size="22" font-weight="700" fill="#b03a56">44</text>
+<line x1="200" y1="186" x2="200" y2="204" stroke="#555" stroke-width="3"/><polygon points="192,202 208,202 200,214" fill="#555"/>
+<rect x="90" y="218" width="220" height="50" rx="10" fill="#f4f1ee"/>
+<text x="200" y="250" text-anchor="middle" font-size="20" font-weight="700">4400 MHz</text>
+<line x1="200" y1="270" x2="200" y2="288" stroke="#555" stroke-width="3"/><polygon points="192,286 208,286 200,298" fill="#555"/>
+<text x="214" y="290" font-size="13" fill="#666">1 GHz = 1000 MHz</text>
+<rect x="90" y="302" width="220" height="50" rx="10" fill="#d4efd9" stroke="#2e9d5b" stroke-width="2"/>
+<text x="200" y="335" text-anchor="middle" font-size="22" font-weight="700" fill="#1f7a45">4,4 GHz</text>
+<!-- Uebertakten -->
+<text x="200" y="382" text-anchor="middle" font-size="14">K-Prozessor: Multiplikator erhöhen = Übertakten</text>
+<text x="200" y="404" text-anchor="middle" font-size="14" font-weight="700" fill="#d43c3c">→ viel mehr Wärme</text>
+</svg>

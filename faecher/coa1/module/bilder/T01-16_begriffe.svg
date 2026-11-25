@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 380" font-family="system-ui, sans-serif" fill="#222" role="img">
+<title>Die 4 neuen Wörter mit kleinen Symbolen. Bildpunkte gesamt: alle Punkte eines Bildes, Breite mal Höhe. Zoll und cm umrechnen: 1 Zoll gleich 2,54 cm. Bit pro Punkt: Schwarz-Weiß 1 Bit, Farbe zum Beispiel 24 Bit. Speicherbedarf: wie viel Speicher ein Bild oder eine Druckseite braucht. Unten als Erinnerung: 1 Byte gleich 8 Bit, von Byte zu KiB zu MiB jeweils geteilt durch 1024.</title>
+<rect width="400" height="380" fill="#fff"/>
+<text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700">4 neue Wörter</text>
+<g fill="#f4f1ee"><rect x="10" y="42" width="380" height="66" rx="10"/><rect x="10" y="114" width="380" height="66" rx="10"/><rect x="10" y="186" width="380" height="66" rx="10"/><rect x="10" y="258" width="380" height="66" rx="10"/></g>
+<!-- Bildpunkte gesamt -->
+<g fill="#fff" stroke="#888" stroke-width="1"><rect x="24" y="54" width="12" height="12"/><rect x="36" y="54" width="12" height="12"/><rect x="48" y="54" width="12" height="12"/><rect x="60" y="54" width="12" height="12"/><rect x="72" y="54" width="12" height="12"/><rect x="24" y="66" width="12" height="12"/><rect x="36" y="66" width="12" height="12"/><rect x="48" y="66" width="12" height="12"/><rect x="60" y="66" width="12" height="12"/><rect x="72" y="66" width="12" height="12"/><rect x="24" y="78" width="12" height="12"/><rect x="36" y="78" width="12" height="12"/><rect x="48" y="78" width="12" height="12"/><rect x="60" y="78" width="12" height="12"/><rect x="72" y="78" width="12" height="12"/></g>
+<text x="104" y="70" font-size="15" font-weight="700">Bildpunkte gesamt</text>
+<text x="104" y="92" font-size="13">alle Punkte: <tspan font-weight="700" fill="#e8590c">Breite × Höhe</tspan></text>
+<!-- Zoll cm -->
+<rect x="22" y="134" width="66" height="24" fill="#fff3c4" stroke="#c99a06" stroke-width="1.5"/>
+<g stroke="#555" stroke-width="1.5"><line x1="30" y1="134" x2="30" y2="148"/><line x1="56" y1="134" x2="56" y2="148"/><line x1="82" y1="134" x2="82" y2="148"/><line x1="43" y1="134" x2="43" y2="142"/><line x1="69" y1="134" x2="69" y2="142"/></g>
+<text x="104" y="142" font-size="15" font-weight="700">Zoll ↔ cm umrechnen</text>
+<text x="104" y="164" font-size="13"><tspan font-weight="700" fill="#e8590c">1 Zoll = 2,54 cm</tspan> (engl. inch)</text>
+<!-- Bit pro Punkt -->
+<rect x="24" y="196" width="22" height="22" fill="#222"/><rect x="24" y="220" width="22" height="22" fill="#fff" stroke="#555" stroke-width="1.5"/>
+<rect x="56" y="196" width="10" height="46" fill="#e03131"/><rect x="66" y="196" width="10" height="46" fill="#2f9e44"/><rect x="76" y="196" width="10" height="46" fill="#3a6ed8"/>
+<text x="104" y="214" font-size="15" font-weight="700">Bit pro Punkt</text>
+<text x="104" y="236" font-size="13">Schwarz-Weiß 1 Bit · Farbe z. B. 24 Bit</text>
+<!-- Speicherbedarf -->
+<rect x="22" y="274" width="66" height="32" rx="3" fill="#2b8a3e"/>
+<g fill="#222"><rect x="27" y="279" width="12" height="18"/><rect x="43" y="279" width="12" height="18"/><rect x="59" y="279" width="12" height="18"/><rect x="75" y="279" width="9" height="18"/></g>
+<rect x="26" y="301" width="58" height="5" fill="#d4a017"/>
+<text x="104" y="286" font-size="15" font-weight="700">Speicherbedarf</text>
+<text x="104" y="308" font-size="13">Speicher für ein Bild oder eine Seite</text>
+<!-- schon bekannt -->
+<rect x="10" y="334" width="380" height="38" rx="10" fill="#fff" stroke="#3a6ed8" stroke-width="1.5" stroke-dasharray="5 3"/>
+<text x="200" y="358" text-anchor="middle" font-size="13"><tspan font-weight="700">Schon bekannt:</tspan> 1 Byte = 8 Bit · ÷ 1024 → KiB → MiB</text>
+</svg>

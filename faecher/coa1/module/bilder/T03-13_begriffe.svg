@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 570" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Die acht neuen Wörter mit Symbol: Legacy, veraltete Schnittstellen, lange mitgeschleppt. Ampere und Milliampere: Stromstärke, 1000 mA gleich 1 A. Ader: ein einzelner Draht im Kabel. Typ A und Typ B: A am Computer, B am Gerät, z. B. am Drucker. Host: steuert alle USB-Geräte, meist der PC. USB OTG: zwei Geräte direkt koppeln, z. B. Stick am Handy. Thunderbolt: sehr schnelle Schnittstelle von Intel und Apple. Kette: Geräte hängen hintereinander.</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker><marker id="o" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E07B00"/></marker><marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6b4f"/></marker><marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker><marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker></defs>
+<rect width="400" height="570" fill="#fff"/>
+<text x="200.0" y="28" font-size="17" text-anchor="middle" font-weight="700">8 neue Wörter</text>
+<line x1="15" y1="46" x2="385" y2="46" stroke="#ddd" stroke-width="1"/>
+<path d="M26,66.0 h44 l-5,22 h-34 Z" fill="#cfd6de" stroke="#555" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="34" cy="74.0" r="1.8" fill="#333" stroke="none" stroke-width="2"/><circle cx="41" cy="74.0" r="1.8" fill="#333" stroke="none" stroke-width="2"/><circle cx="48" cy="74.0" r="1.8" fill="#333" stroke="none" stroke-width="2"/><circle cx="55" cy="74.0" r="1.8" fill="#333" stroke="none" stroke-width="2"/><circle cx="62" cy="74.0" r="1.8" fill="#333" stroke="none" stroke-width="2"/><circle cx="38" cy="82.0" r="1.8" fill="#333" stroke="none" stroke-width="2"/><circle cx="45" cy="82.0" r="1.8" fill="#333" stroke="none" stroke-width="2"/><circle cx="52" cy="82.0" r="1.8" fill="#333" stroke="none" stroke-width="2"/><circle cx="59" cy="82.0" r="1.8" fill="#333" stroke="none" stroke-width="2"/><circle cx="72" cy="62.0" r="9" fill="#fff" stroke="#555" stroke-width="1.5"/><line x1="72" y1="62.0" x2="72" y2="56.0" stroke="#555" stroke-width="1.5"/><line x1="72" y1="62.0" x2="76" y2="64.0" stroke="#555" stroke-width="1.5"/>
+<text x="100" y="66.0" font-size="15" font-weight="700" fill="#1d3f8a">Legacy</text>
+<text x="100" y="86.0" font-size="14">veraltete Schnittstellen,</text>
+<text x="100" y="104.0" font-size="14">lange „mitgeschleppt“</text>
+<line x1="15" y1="110" x2="385" y2="110" stroke="#ddd" stroke-width="1"/>
+<circle cx="48" cy="146.0" r="20" fill="#fff" stroke="#555" stroke-width="2"/><text x="48" y="158.0" font-size="13" text-anchor="middle" font-weight="700" fill="#1d3f8a">mA</text><line x1="48" y1="146.0" x2="58" y2="132.0" stroke="#c62828" stroke-width="2.5"/>
+<text x="100" y="138.0" font-size="15" font-weight="700" fill="#1d3f8a">Ampere / Milliampere</text>
+<text x="100" y="159.0" font-size="14">Stromstärke · 1000 mA = 1 A</text>
+<line x1="15" y1="174" x2="385" y2="174" stroke="#ddd" stroke-width="1"/>
+<circle cx="48" cy="206.0" r="20" fill="#555" stroke="#333" stroke-width="1.5"/><circle cx="40" cy="199.0" r="5" fill="#c62828" stroke="#999" stroke-width="1"/><circle cx="56" cy="199.0" r="5" fill="#222" stroke="#999" stroke-width="1"/><circle cx="40" cy="213.0" r="5" fill="#2f6b4f" stroke="#999" stroke-width="1"/><circle cx="56" cy="213.0" r="5" fill="#fff" stroke="#999" stroke-width="1"/>
+<text x="100" y="202.0" font-size="15" font-weight="700" fill="#1d3f8a">Ader</text>
+<text x="100" y="223.0" font-size="14">ein einzelner Draht im Kabel</text>
+<line x1="15" y1="238" x2="385" y2="238" stroke="#ddd" stroke-width="1"/>
+<rect x="16" y="252.0" width="30" height="18" rx="2" fill="#cfd6de" stroke="#555" stroke-width="1.8"/><text x="31" y="290.0" font-size="13" text-anchor="middle" font-weight="700">A</text><path d="M54,251.0 h20 v14 l-4,4 h-12 l-4,-4 Z" fill="#cfd6de" stroke="#555" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><text x="64" y="290.0" font-size="13" text-anchor="middle" font-weight="700">B</text>
+<text x="100" y="266.0" font-size="15" font-weight="700" fill="#1d3f8a">Typ A / Typ B</text>
+<text x="100" y="287.0" font-size="14">A am Computer, B am Gerät (z. B. Drucker)</text>
+<line x1="15" y1="302" x2="385" y2="302" stroke="#ddd" stroke-width="1"/>
+<rect x="38" y="310.0" width="20" height="26" rx="2" fill="#3a3f4a" stroke="#222" stroke-width="1.5"/><line x1="48" y1="336.0" x2="24" y2="348.0" stroke="#555" stroke-width="2"/><rect x="17" y="348.0" width="14" height="10" rx="2" fill="#dbe6fb" stroke="#3a6ed8" stroke-width="1.5"/><line x1="48" y1="336.0" x2="48" y2="348.0" stroke="#555" stroke-width="2"/><rect x="41" y="348.0" width="14" height="10" rx="2" fill="#dbe6fb" stroke="#3a6ed8" stroke-width="1.5"/><line x1="48" y1="336.0" x2="72" y2="348.0" stroke="#555" stroke-width="2"/><rect x="65" y="348.0" width="14" height="10" rx="2" fill="#dbe6fb" stroke="#3a6ed8" stroke-width="1.5"/>
+<text x="100" y="330.0" font-size="15" font-weight="700" fill="#1d3f8a">Host</text>
+<text x="100" y="351.0" font-size="14">steuert alle USB-Geräte, meist der PC</text>
+<line x1="15" y1="366" x2="385" y2="366" stroke="#ddd" stroke-width="1"/>
+<rect x="20" y="376.0" width="24" height="42" rx="4" fill="#3a3f4a" stroke="#222" stroke-width="1.5"/><rect x="23" y="381.0" width="18" height="30" rx="1" fill="#cfe0fb" stroke="none" stroke-width="0"/><rect x="49.0" y="393.0" width="24.48" height="14" rx="3" fill="#3a6ed8" stroke="#222" stroke-width="1.5"/><rect x="73.48" y="395.8" width="9.520000000000001" height="8.4" rx="1" fill="#ccc" stroke="#555" stroke-width="1.5"/><line x1="44" y1="400.0" x2="49" y2="400.0" stroke="#555" stroke-width="2"/>
+<text x="100" y="394.0" font-size="15" font-weight="700" fill="#1d3f8a">USB OTG</text>
+<text x="100" y="415.0" font-size="14">zwei Geräte direkt koppeln, Stick am Handy</text>
+<line x1="15" y1="430" x2="385" y2="430" stroke="#ddd" stroke-width="1"/>
+<path d="M52.8,442.8 l-14.399999999999999,21.599999999999998 h9.6 l-4.8,16.8 l14.399999999999999,-21.599999999999998 h-9.6 Z" fill="#f2c230" stroke="#a07800" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="100" y="458.0" font-size="15" font-weight="700" fill="#E07B00">Thunderbolt</text>
+<text x="100" y="479.0" font-size="14">sehr schnelle Schnittstelle (Intel, Apple)</text>
+<line x1="15" y1="494" x2="385" y2="494" stroke="#ddd" stroke-width="1"/>
+<rect x="16" y="517.0" width="18" height="18" rx="3" fill="#dbe6fb" stroke="#3a6ed8" stroke-width="1.5"/><rect x="40" y="517.0" width="18" height="18" rx="3" fill="#dbe6fb" stroke="#3a6ed8" stroke-width="1.5"/><line x1="34" y1="526.0" x2="40" y2="526.0" stroke="#333" stroke-width="2"/><rect x="64" y="517.0" width="18" height="18" rx="3" fill="#dbe6fb" stroke="#3a6ed8" stroke-width="1.5"/><line x1="58" y1="526.0" x2="64" y2="526.0" stroke="#333" stroke-width="2"/>
+<text x="100" y="522.0" font-size="15" font-weight="700" fill="#1d3f8a">Kette</text>
+<text x="100" y="543.0" font-size="14">Geräte hintereinander, eins am nächsten</text>
+<line x1="15" y1="558" x2="385" y2="558" stroke="#ddd" stroke-width="1"/>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" font-family="system-ui, sans-serif">
+  <title>Testberichte kritisch lesen. Eine Lupe liegt über einem Testbericht mit der Überschrift Testsieger. Darunter eine Checkliste. Tipp aus dem Unterricht: Wer hat den Test bezahlt? Partner, Sponsoren? Andere Tests und Erfahrungen? Laut Buch: Preis, Strom, Abwärme? Garantie, Support?</title>
+  <rect width="400" height="500" fill="#fff"/>
+
+  <!-- Testbericht mit Lupe -->
+  <rect x="24" y="16" width="170" height="150" rx="6" fill="#f3f4f6" stroke="#555" stroke-width="2"/>
+  <text x="109" y="46" text-anchor="middle" font-size="18" font-weight="700" fill="#d63c3c">Testsieger!</text>
+  <g stroke="#bbb" stroke-width="5" stroke-linecap="round">
+    <line x1="42" y1="70" x2="176" y2="70"/><line x1="42" y1="88" x2="160" y2="88"/>
+    <line x1="42" y1="106" x2="176" y2="106"/><line x1="42" y1="124" x2="140" y2="124"/>
+    <line x1="42" y1="142" x2="168" y2="142"/>
+  </g>
+  <circle cx="160" cy="98" r="40" fill="#e8f0fe" fill-opacity="0.6" stroke="#222" stroke-width="6"/>
+  <line x1="189" y1="127" x2="226" y2="164" stroke="#222" stroke-width="11" stroke-linecap="round"/>
+  <text x="248" y="70" font-size="16" font-weight="700" fill="#222">Stimmt das?</text>
+  <text x="248" y="94" font-size="14" fill="#222">Bleib kritisch</text>
+  <text x="248" y="112" font-size="14" fill="#222">und prüfe:</text>
+
+  <!-- Gruppe Unterricht -->
+  <rect x="12" y="190" width="376" height="150" rx="10" fill="#fff4e5" stroke="#e08a1e" stroke-width="2"/>
+  <rect x="24" y="180" width="190" height="24" rx="12" fill="#e08a1e"/>
+  <text x="119" y="197" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">Tipp aus dem Unterricht</text>
+  <g font-size="15" fill="#222">
+    <rect x="28" y="220" width="20" height="20" rx="3" fill="#fff" stroke="#e08a1e" stroke-width="2.5"/>
+    <text x="60" y="236">Wer hat den Test bezahlt?</text>
+    <rect x="28" y="258" width="20" height="20" rx="3" fill="#fff" stroke="#e08a1e" stroke-width="2.5"/>
+    <text x="60" y="274">Partner, Sponsoren?</text>
+    <rect x="28" y="296" width="20" height="20" rx="3" fill="#fff" stroke="#e08a1e" stroke-width="2.5"/>
+    <text x="60" y="312">Andere Tests und Erfahrungen?</text>
+  </g>
+
+  <!-- Gruppe Buch -->
+  <rect x="12" y="372" width="376" height="112" rx="10" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+  <rect x="24" y="362" width="70" height="24" rx="12" fill="#3a6ed8"/>
+  <text x="59" y="379" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">Buch</text>
+  <g font-size="15" fill="#222">
+    <rect x="28" y="402" width="20" height="20" rx="3" fill="#fff" stroke="#3a6ed8" stroke-width="2.5"/>
+    <text x="60" y="418">Preis, Strom, Abwärme?</text>
+    <rect x="28" y="440" width="20" height="20" rx="3" fill="#fff" stroke="#3a6ed8" stroke-width="2.5"/>
+    <text x="60" y="456">Garantie, Support?</text>
+  </g>
+</svg>

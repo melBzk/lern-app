@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Eine VM anlegen mit dem Hyper-V-Assistenten, sechs Schritte als Treppe: 1 Name und Speicherort. 2 Generation: 1 = BIOS, 2 = UEFI. 3 Arbeitsspeicher, zum Beispiel 4096 MB. 4 Netzwerk: ohne oder mit. 5 Virtuelle Festplatte 50 GB, gespeichert als Datei Windows 10.vhdx. 6 Betriebssystem: ISO-Datei als DVD. Am Ende ein grüner Haken: VM starten, Windows installieren.</title>
+<defs>
+<marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="10" markerHeight="10" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker>
+</defs>
+<rect width="400" height="480" fill="#fff"/>
+<text x="200" y="26" font-size="17" text-anchor="middle" font-weight="700">Neue VM anlegen – der Assistent</text>
+
+<!-- 1 -->
+<rect x="10" y="42" width="270" height="50" rx="8" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<circle cx="34" cy="67" r="14" fill="#3a6ed8"/><text x="34" y="72" font-size="15" text-anchor="middle" font-weight="700" fill="#fff">1</text>
+<text x="58" y="72" font-size="15" font-weight="700">Name + Speicherort</text>
+<line x1="40" y1="92" x2="40" y2="104" stroke="#333" stroke-width="2"/><line x1="40" y1="104" x2="54" y2="104" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+
+<!-- 2 -->
+<rect x="32" y="106" width="270" height="50" rx="8" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<circle cx="56" cy="131" r="14" fill="#3a6ed8"/><text x="56" y="136" font-size="15" text-anchor="middle" font-weight="700" fill="#fff">2</text>
+<text x="80" y="126" font-size="15" font-weight="700">Generation</text>
+<text x="80" y="146" font-size="13" fill="#444">1 = BIOS, 2 = UEFI</text>
+<line x1="62" y1="156" x2="62" y2="168" stroke="#333" stroke-width="2"/><line x1="62" y1="168" x2="76" y2="168" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+
+<!-- 3 -->
+<rect x="54" y="170" width="270" height="50" rx="8" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<circle cx="78" cy="195" r="14" fill="#3a6ed8"/><text x="78" y="200" font-size="15" text-anchor="middle" font-weight="700" fill="#fff">3</text>
+<text x="102" y="190" font-size="15" font-weight="700">Arbeitsspeicher</text>
+<text x="102" y="210" font-size="13" fill="#444">z. B. 4096 MB</text>
+<line x1="84" y1="220" x2="84" y2="232" stroke="#333" stroke-width="2"/><line x1="84" y1="232" x2="98" y2="232" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+
+<!-- 4 -->
+<rect x="76" y="234" width="270" height="50" rx="8" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<circle cx="100" cy="259" r="14" fill="#3a6ed8"/><text x="100" y="264" font-size="15" text-anchor="middle" font-weight="700" fill="#fff">4</text>
+<text x="124" y="254" font-size="15" font-weight="700">Netzwerk</text>
+<text x="124" y="274" font-size="13" fill="#444">ohne oder mit</text>
+<line x1="106" y1="284" x2="106" y2="296" stroke="#333" stroke-width="2"/><line x1="106" y1="296" x2="120" y2="296" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+
+<!-- 5 (Signal) -->
+<rect x="98" y="298" width="290" height="50" rx="8" fill="#fdf0e0" stroke="#E07B00" stroke-width="3"/>
+<circle cx="122" cy="323" r="14" fill="#E07B00"/><text x="122" y="328" font-size="15" text-anchor="middle" font-weight="700" fill="#fff">5</text>
+<text x="146" y="318" font-size="15" font-weight="700">Virtuelle Festplatte 50 GB</text>
+<text x="146" y="338" font-size="13" fill="#444">→ Datei <tspan font-weight="700" fill="#b35f00">Windows 10.vhdx</tspan></text>
+<line x1="128" y1="348" x2="128" y2="360" stroke="#333" stroke-width="2"/><line x1="128" y1="360" x2="134" y2="360" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+
+<!-- 6 -->
+<rect x="120" y="362" width="270" height="50" rx="8" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<circle cx="144" cy="387" r="14" fill="#3a6ed8"/><text x="144" y="392" font-size="15" text-anchor="middle" font-weight="700" fill="#fff">6</text>
+<text x="168" y="382" font-size="15" font-weight="700">Betriebssystem</text>
+<text x="168" y="402" font-size="13" fill="#444">ISO-Datei als DVD</text>
+
+<!-- Ende -->
+<line x1="150" y1="412" x2="150" y2="424" stroke="#333" stroke-width="2"/><line x1="150" y1="424" x2="104" y2="424" stroke="#333" stroke-width="2"/><line x1="104" y1="424" x2="104" y2="432" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+<rect x="60" y="434" width="330" height="38" rx="19" fill="#e3f0e9" stroke="#2f9e44" stroke-width="2"/>
+<circle cx="82" cy="453" r="14" fill="#2f9e44"/>
+<polyline points="75,453 80,458 90,447" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="104" y="458" font-size="15" font-weight="700" fill="#1f6b30">VM starten → Windows installieren</text>
+</svg>

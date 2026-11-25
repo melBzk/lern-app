@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 580" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Draufsicht auf einen Prozessor mit 4 Kernen. Jeder Kern hat einen eigenen L1-Cache, geteilt in L1 Daten und L1 Befehle, und darunter in diesem Beispiel einen eigenen L2-Cache. Unter allen vier Kernen liegt ein gemeinsamer L3-Cache (Smart Cache) für alle Kerne. Außerhalb des Chips, über eine lange Leitung verbunden, liegt der Arbeitsspeicher (RAM). Hinweis unten: Bei manchen Prozessoren teilen sich mehrere Kerne einen L2, zum Beispiel je 4 E-Kerne.</title>
+<rect width="400" height="580" fill="#fff"/>
+<text x="200" y="26" font-size="17" text-anchor="middle" font-weight="700">Welcher Cache gehört wem?</text>
+<rect x="14" y="40" width="372" height="372" rx="12" fill="#e3f0e9" stroke="#2f6b4f" stroke-width="3"/>
+<text x="200" y="62" font-size="15" text-anchor="middle" font-weight="700" fill="#2f6b4f">Prozessor (CPU)</text>
+<rect x="28" y="74" width="166" height="130" rx="8" fill="#fff" stroke="#555" stroke-width="2"/>
+<text x="111" y="94" font-size="14" text-anchor="middle" font-weight="700">Kern 1</text>
+<rect x="38" y="104" width="70" height="46" rx="4" fill="#3a6ed8"/>
+<text x="73" y="123" font-size="13" text-anchor="middle" font-weight="700" fill="#fff">L1</text>
+<text x="73" y="141" font-size="13" text-anchor="middle" font-weight="700" fill="#fff">Daten</text>
+<rect x="114" y="104" width="70" height="46" rx="4" fill="#3a6ed8"/>
+<text x="149" y="123" font-size="13" text-anchor="middle" font-weight="700" fill="#fff">L1</text>
+<text x="149" y="141" font-size="13" text-anchor="middle" font-weight="700" fill="#fff">Befehle</text>
+<rect x="38" y="158" width="146" height="36" rx="4" fill="#7ea0e8"/>
+<text x="111" y="181" font-size="14" text-anchor="middle" font-weight="700" fill="#fff">L2</text>
+<rect x="206" y="74" width="166" height="130" rx="8" fill="#fff" stroke="#555" stroke-width="2"/>
+<text x="289" y="94" font-size="14" text-anchor="middle" font-weight="700">Kern 2</text>
+<rect x="216" y="104" width="70" height="46" rx="4" fill="#3a6ed8"/>
+<text x="251" y="123" font-size="13" text-anchor="middle" font-weight="700" fill="#fff">L1</text>
+<text x="251" y="141" font-size="13" text-anchor="middle" font-weight="700" fill="#fff">Daten</text>
+<rect x="292" y="104" width="70" height="46" rx="4" fill="#3a6ed8"/>
+<text x="327" y="123" font-size="13" text-anchor="middle" font-weight="700" fill="#fff">L1</text>
+<text x="327" y="141" font-size="13" text-anchor="middle" font-weight="700" fill="#fff">Befehle</text>
+<rect x="216" y="158" width="146" height="36" rx="4" fill="#7ea0e8"/>
+<text x="289" y="181" font-size="14" text-anchor="middle" font-weight="700" fill="#fff">L2</text>
+<rect x="28" y="214" width="166" height="130" rx="8" fill="#fff" stroke="#555" stroke-width="2"/>
+<text x="111" y="234" font-size="14" text-anchor="middle" font-weight="700">Kern 3</text>
+<rect x="38" y="244" width="70" height="46" rx="4" fill="#3a6ed8"/>
+<text x="73" y="263" font-size="13" text-anchor="middle" font-weight="700" fill="#fff">L1</text>
+<text x="73" y="281" font-size="13" text-anchor="middle" font-weight="700" fill="#fff">Daten</text>
+<rect x="114" y="244" width="70" height="46" rx="4" fill="#3a6ed8"/>
+<text x="149" y="263" font-size="13" text-anchor="middle" font-weight="700" fill="#fff">L1</text>
+<text x="149" y="281" font-size="13" text-anchor="middle" font-weight="700" fill="#fff">Befehle</text>
+<rect x="38" y="298" width="146" height="36" rx="4" fill="#7ea0e8"/>
+<text x="111" y="321" font-size="14" text-anchor="middle" font-weight="700" fill="#fff">L2</text>
+<rect x="206" y="214" width="166" height="130" rx="8" fill="#fff" stroke="#555" stroke-width="2"/>
+<text x="289" y="234" font-size="14" text-anchor="middle" font-weight="700">Kern 4</text>
+<rect x="216" y="244" width="70" height="46" rx="4" fill="#3a6ed8"/>
+<text x="251" y="263" font-size="13" text-anchor="middle" font-weight="700" fill="#fff">L1</text>
+<text x="251" y="281" font-size="13" text-anchor="middle" font-weight="700" fill="#fff">Daten</text>
+<rect x="292" y="244" width="70" height="46" rx="4" fill="#3a6ed8"/>
+<text x="327" y="263" font-size="13" text-anchor="middle" font-weight="700" fill="#fff">L1</text>
+<text x="327" y="281" font-size="13" text-anchor="middle" font-weight="700" fill="#fff">Befehle</text>
+<rect x="216" y="298" width="146" height="36" rx="4" fill="#7ea0e8"/>
+<text x="289" y="321" font-size="14" text-anchor="middle" font-weight="700" fill="#fff">L2</text>
+<rect x="28" y="354" width="344" height="44" rx="6" fill="#E07B00"/>
+<text x="200" y="381" font-size="15" text-anchor="middle" font-weight="700" fill="#fff">L3 (Smart Cache) – für alle Kerne</text>
+<path d="M200,412 C200,430 150,430 150,446 C150,462 250,452 250,466 C250,474 200,470 200,474" fill="none" stroke="#555" stroke-width="3"/>
+<text x="262" y="446" font-size="13" fill="#555">lange Leitung</text>
+<rect x="90" y="476" width="220" height="44" rx="6" fill="#c9c3bd"/>
+<text x="200" y="503" font-size="15" text-anchor="middle" font-weight="700">Arbeitsspeicher (RAM)</text>
+<text x="380" y="503" font-size="13" text-anchor="end" fill="#555">außerhalb</text>
+<text x="200" y="548" font-size="13" text-anchor="middle" fill="#555">L2 hier je Kern. Bei manchen CPUs teilen sich</text>
+<text x="200" y="566" font-size="13" text-anchor="middle" fill="#555">mehrere Kerne einen L2 (z. B. je 4 E-Kerne).</text>
+</svg>

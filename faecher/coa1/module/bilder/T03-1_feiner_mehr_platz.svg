@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 380" font-family="system-ui, sans-serif" role="img">
+  <title>Zwei gleich große Chipflächen: Links bei 130 nm passen nur wenige große Transistoren darauf, rechts bei 10 nm sehr viele winzige. Gleiche Fläche. Feinere Fertigung bringt: weniger Spannung, mehr Takt möglich, mehr Transistoren.</title>
+  <defs>
+    <pattern id="klein" x="220" y="80" width="10" height="10" patternUnits="userSpaceOnUse"><rect x="2" y="2" width="7" height="7" rx="1" fill="#3a6ed8"/></pattern>
+  </defs>
+  <rect width="400" height="380" fill="#fff"/>
+  <text x="200" y="28" text-anchor="middle" font-size="18" font-weight="700" fill="#222">Feiner = mehr Platz</text>
+
+  <text x="100" y="66" text-anchor="middle" font-size="18" font-weight="700" fill="#555">130 nm</text>
+  <text x="300" y="66" text-anchor="middle" font-size="18" font-weight="700" fill="#E07B00">10 nm</text>
+
+  <!-- links: wenige große -->
+  <rect x="20" y="80" width="160" height="160" rx="4" fill="#eef4ff" stroke="#555" stroke-width="2.5"/>
+  <g fill="#3a6ed8">
+    <rect x="32" y="92" width="38" height="38" rx="3"/><rect x="81" y="92" width="38" height="38" rx="3"/><rect x="130" y="92" width="38" height="38" rx="3"/>
+    <rect x="32" y="141" width="38" height="38" rx="3"/><rect x="81" y="141" width="38" height="38" rx="3"/><rect x="130" y="141" width="38" height="38" rx="3"/>
+    <rect x="32" y="190" width="38" height="38" rx="3"/><rect x="81" y="190" width="38" height="38" rx="3"/><rect x="130" y="190" width="38" height="38" rx="3"/>
+  </g>
+
+  <!-- rechts: viele kleine -->
+  <rect x="220" y="80" width="160" height="160" rx="4" fill="#eef4ff"/>
+  <rect x="220" y="80" width="160" height="160" fill="url(#klein)"/>
+  <rect x="220" y="80" width="160" height="160" rx="4" fill="none" stroke="#E07B00" stroke-width="2.5"/>
+
+  <!-- gleiche Fläche -->
+  <path d="M20,252 v8 h360 v-8" fill="none" stroke="#555" stroke-width="2"/>
+  <text x="200" y="282" text-anchor="middle" font-size="15" font-weight="700" fill="#222">gleiche Fläche</text>
+
+  <!-- Vorteile rechts -->
+  <g font-size="15" font-weight="700" fill="#222">
+    <path d="M222,306 l5,6 l10,-12" fill="none" stroke="#2f9e44" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="244" y="312">weniger Spannung</text>
+    <path d="M222,334 l5,6 l10,-12" fill="none" stroke="#2f9e44" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="244" y="340">mehr Takt möglich</text>
+    <path d="M222,362 l5,6 l10,-12" fill="none" stroke="#2f9e44" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="244" y="368">mehr Transistoren</text>
+  </g>
+  <text x="100" y="312" text-anchor="middle" font-size="14" fill="#555">bei 10 nm:</text>
+  <line x1="150" y1="307" x2="208" y2="307" stroke="#555" stroke-width="1.5" stroke-dasharray="4 3"/>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 330" font-family="system-ui, sans-serif" fill="#222">
+<title>Die 5 neuen Wörter mit kleinen Symbolen: Präfix = Vorsilbe vor Byte, Kilo, Mega, Giga, Tera und weiter. Binärpräfix = KiB, MiB, GiB, bedeutet eindeutig mal 1024. Umrechnungsfaktor = 1000 oder 1024, damit kommt man eine Stufe weiter. Datenrate = Bit pro Sekunde, zum Beispiel MBit/s. Übertragungsdauer = wie lange eine Datei über die Leitung braucht.</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="10" markerHeight="10" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker></defs>
+<rect width="400" height="330" fill="#fff"/>
+<text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700">5 Wörter auf einen Blick</text>
+<g fill="#f4f1ee"><rect x="10" y="40" width="380" height="54" rx="10"/><rect x="10" y="98" width="380" height="54" rx="10"/><rect x="10" y="156" width="380" height="54" rx="10"/><rect x="10" y="214" width="380" height="54" rx="10"/><rect x="10" y="272" width="380" height="54" rx="10"/></g>
+<!-- Präfix -->
+<text x="56" y="74" text-anchor="middle" font-size="20" font-weight="700"><tspan fill="#E07B00">K</tspan>B</text>
+<text x="104" y="62" font-size="15" font-weight="700">Präfix</text>
+<text x="104" y="82" font-size="13">Vorsilbe: Kilo, Mega, Giga, Tera …</text>
+<!-- Binärpräfix -->
+<text x="56" y="132" text-anchor="middle" font-size="20" font-weight="700"><tspan fill="#3a6ed8">Ki</tspan>B</text>
+<text x="104" y="120" font-size="15" font-weight="700">Binärpräfix</text>
+<text x="104" y="140" font-size="13">KiB, MiB, GiB = eindeutig × 1024</text>
+<!-- Faktor -->
+<text x="56" y="183" text-anchor="middle" font-size="14" font-weight="700" fill="#E07B00">× 1000</text>
+<text x="56" y="201" text-anchor="middle" font-size="14" font-weight="700" fill="#3a6ed8">× 1024</text>
+<text x="104" y="178" font-size="15" font-weight="700">Umrechnungsfaktor</text>
+<text x="104" y="198" font-size="13">damit kommst du eine Stufe weiter</text>
+<!-- Datenrate -->
+<line x1="22" y1="241" x2="88" y2="241" stroke="#333" stroke-width="3" marker-end="url(#a)"/>
+<g fill="#E07B00"><circle cx="32" cy="241" r="4"/><circle cx="46" cy="241" r="4"/><circle cx="60" cy="241" r="4"/></g>
+<text x="104" y="236" font-size="15" font-weight="700">Datenrate</text>
+<text x="104" y="256" font-size="13">Bit pro Sekunde, z. B. MBit/s</text>
+<!-- Dauer -->
+<circle cx="56" cy="299" r="18" fill="#fff" stroke="#333" stroke-width="2"/>
+<line x1="56" y1="299" x2="56" y2="287" stroke="#333" stroke-width="2.5"/><line x1="56" y1="299" x2="66" y2="303" stroke="#333" stroke-width="2.5"/>
+<text x="104" y="294" font-size="15" font-weight="700">Übertragungsdauer</text>
+<text x="104" y="314" font-size="13">Zeit, bis die Datei über die Leitung ist</text>
+</svg>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 360" font-family="system-ui, sans-serif" role="img">
+  <title>Prozessor im Querschnitt, von oben nach unten: Heatspreader (Metalldeckel, schützt und verteilt die Wärme), darunter klein in der Mitte das Die (der eigentliche Chip aus Silizium), darunter der Träger aus Kunststoff oder Keramik, ganz unten die Kontakte (Stifte, Kugeln oder Flächen). Rote Wellenpfeile zeigen: Die Wärme steigt vom Die durch den Deckel und wird verteilt.</title>
+  <defs>
+    <marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker>
+  </defs>
+  <rect width="400" height="360" fill="#fff"/>
+  <text x="200" y="28" text-anchor="middle" font-size="18" font-weight="700" fill="#222">Der Prozessor im Querschnitt</text>
+
+  <!-- Wärme -->
+  <text x="95" y="62" text-anchor="middle" font-size="14" font-weight="700" fill="#c62828">Wärme wird verteilt</text>
+  <path d="M95,160 q-6,-8 0,-16 q6,-8 0,-16 q-6,-8 0,-16 q6,-8 0,-16 q-6,-8 0,-16" fill="none" stroke="#c62828" stroke-width="2.5" marker-end="url(#r)"/>
+  <path d="M60,124 q-5,-7 0,-14 q5,-7 0,-14 q-5,-7 0,-14" fill="none" stroke="#c62828" stroke-width="2.5" marker-end="url(#r)"/>
+  <path d="M130,124 q-5,-7 0,-14 q5,-7 0,-14 q-5,-7 0,-14" fill="none" stroke="#c62828" stroke-width="2.5" marker-end="url(#r)"/>
+
+  <!-- Heatspreader -->
+  <path d="M22,190 V124 H168 V190 H158 V136 H32 V190 Z" fill="#c9ced6" stroke="#7a828c" stroke-width="2"/>
+  <!-- Die -->
+  <rect x="70" y="164" width="50" height="26" fill="#4a5560" stroke="#222" stroke-width="1.5"/>
+  <!-- Träger -->
+  <rect x="14" y="190" width="162" height="30" rx="3" fill="#4f9a6e" stroke="#2f6b4f" stroke-width="2"/>
+  <!-- Kontakte -->
+  <g fill="#d4a017" stroke="#8a6a00" stroke-width="1">
+    <rect x="24" y="220" width="6" height="16"/><rect x="42" y="220" width="6" height="16"/><rect x="60" y="220" width="6" height="16"/><rect x="78" y="220" width="6" height="16"/><rect x="96" y="220" width="6" height="16"/><rect x="114" y="220" width="6" height="16"/><rect x="132" y="220" width="6" height="16"/><rect x="150" y="220" width="6" height="16"/>
+  </g>
+
+  <!-- Beschriftungen -->
+  <line x1="168" y1="130" x2="196" y2="100" stroke="#555" stroke-width="1.5"/>
+  <circle cx="166" cy="130" r="3" fill="#222"/>
+  <text x="202" y="96" font-size="15" font-weight="700" fill="#555">Heatspreader</text>
+  <text x="202" y="114" font-size="14" fill="#222">Metalldeckel: schützt,</text>
+  <text x="202" y="132" font-size="14" fill="#222">verteilt Wärme</text>
+
+  <line x1="120" y1="177" x2="196" y2="166" stroke="#555" stroke-width="1.5"/>
+  <circle cx="114" cy="177" r="3" fill="#fff"/>
+  <text x="202" y="164" font-size="15" font-weight="700" fill="#E07B00">Die</text>
+  <text x="202" y="182" font-size="14" fill="#222">der eigentliche Chip,</text>
+  <text x="202" y="200" font-size="14" fill="#222">Silizium</text>
+
+  <line x1="176" y1="210" x2="196" y2="232" stroke="#555" stroke-width="1.5"/>
+  <circle cx="172" cy="210" r="3" fill="#222"/>
+  <text x="202" y="238" font-size="15" font-weight="700" fill="#2f6b4f">Träger</text>
+  <text x="202" y="256" font-size="14" fill="#222">Kunststoff oder Keramik</text>
+
+  <line x1="153" y1="236" x2="196" y2="292" stroke="#555" stroke-width="1.5"/>
+  <circle cx="153" cy="236" r="3" fill="#222"/>
+  <text x="202" y="298" font-size="15" font-weight="700" fill="#8a6a00">Kontakte</text>
+  <text x="202" y="316" font-size="14" fill="#222">Stifte, Kugeln oder</text>
+  <text x="202" y="334" font-size="14" fill="#222">Flächen → T02-7</text>
+</svg>

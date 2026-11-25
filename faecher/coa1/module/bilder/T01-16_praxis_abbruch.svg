@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 380" font-family="system-ui, sans-serif" fill="#222" role="img">
+<title>Ausgangslage im Praxisfall: Ein Kunde ruft an, sein Schwarz-Weiß-Laserdrucker bricht ab. Der Drucker hat 8 MB Speicher. Die Seite ist A4 mit 1200 dpi und hat viele Grafiken. Aus dem Drucker kommt nur eine halb gedruckte Seite. Frage: Warum bricht er ab?</title>
+<rect width="400" height="380" fill="#fff"/>
+<text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700">„Mein Drucker bricht ab!“</text>
+<!-- Seite -->
+<rect x="24" y="56" width="96" height="134" fill="#fff" stroke="#555" stroke-width="2"/>
+<g fill="#3a6ed8"><rect x="34" y="68" width="34" height="26"/><circle cx="96" cy="81" r="13"/><rect x="34" y="104" width="76" height="30"/><rect x="34" y="144" width="20" height="36"/><rect x="58" y="154" width="20" height="26"/><rect x="82" y="148" width="20" height="32"/></g>
+<text x="72" y="212" text-anchor="middle" font-size="14" font-weight="700">A4 · 1200 dpi</text>
+<text x="72" y="230" text-anchor="middle" font-size="13">viele Grafiken</text>
+<!-- Pfeil -->
+<line x1="128" y1="122" x2="160" y2="122" stroke="#333" stroke-width="3"/><polygon points="158,114 172,122 158,130" fill="#333"/>
+<!-- Drucker -->
+<rect x="180" y="86" width="196" height="80" rx="8" fill="#868e96"/>
+<rect x="200" y="70" width="156" height="18" fill="#fff" stroke="#555" stroke-width="1.5"/>
+<text x="278" y="112" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">S/W-Laserdrucker</text>
+<rect x="214" y="122" width="128" height="32" rx="4" fill="#fff3c4" stroke="#e8590c" stroke-width="2.5"/>
+<text x="278" y="144" text-anchor="middle" font-size="16" font-weight="700">Speicher: 8 MB</text>
+<!-- halbe Seite -->
+<rect x="230" y="166" width="96" height="70" fill="#fff" stroke="#555" stroke-width="2"/>
+<g fill="#3a6ed8"><rect x="240" y="176" width="34" height="26"/><circle cx="302" cy="189" r="13"/><rect x="240" y="210" width="76" height="12"/></g>
+<line x1="230" y1="236" x2="326" y2="236" stroke="#c62828" stroke-width="3" stroke-dasharray="6 4"/>
+<text x="278" y="258" text-anchor="middle" font-size="14" font-weight="700" fill="#c62828">Abbruch</text>
+<!-- Frage -->
+<rect x="50" y="296" width="300" height="56" rx="14" fill="#fff3c4" stroke="#c99a06" stroke-width="1.5"/>
+<text x="200" y="330" text-anchor="middle" font-size="17" font-weight="700">Warum bricht er ab?</text>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 442" font-family="system-ui, sans-serif" font-size="14" fill="#222">
+<title>KI gleich AI: künstliche Intelligenz, englisch Artificial Intelligence. Vergleich in zwei Spalten. Links ein normales Programm: Ein Mensch legt die Regeln genau fest, das Programm folgt ihnen. Rechts heutige KI: Sie lernt meist aus sehr vielen Beispielen, das heißt maschinelles Lernen. Danach kann sie zum Beispiel Texte schreiben, Sprache verstehen oder Bilder erkennen. Unten: KI ist ein neues Thema im Prüfungskatalog der IHK.</title>
+<defs><marker id="ad" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker></defs>
+<rect width="400" height="442" fill="#fff"/>
+<text x="200" y="30" text-anchor="middle" font-size="20" font-weight="700"><tspan fill="#5a2f94">KI</tspan> = <tspan fill="#5a2f94">AI</tspan></text>
+<text x="200" y="52" text-anchor="middle" font-size="13" fill="#555">künstliche Intelligenz = Artificial Intelligence</text>
+<!-- links -->
+<rect x="12" y="68" width="182" height="296" rx="10" fill="#f4f6f9" stroke="#9aa3ad" stroke-width="2"/>
+<text x="103" y="94" text-anchor="middle" font-size="15" font-weight="700">normales Programm</text>
+<circle cx="103" cy="122" r="10" fill="#555"/><path d="M87,156 Q87,136 103,136 Q119,136 119,156 Z" fill="#555"/>
+<text x="103" y="176" text-anchor="middle" font-size="13">Mensch legt Regeln</text>
+<text x="103" y="193" text-anchor="middle" font-size="13">genau fest</text>
+<line x1="103" y1="200" x2="103" y2="226" stroke="#555" stroke-width="2.5" marker-end="url(#ad)"/>
+<rect x="48" y="230" width="110" height="64" rx="4" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<text x="58" y="252" font-size="13" font-family="monospace">wenn A</text>
+<text x="58" y="270" font-size="13" font-family="monospace">dann B</text>
+<text x="103" y="322" text-anchor="middle" font-size="13">Programm folgt</text>
+<text x="103" y="339" text-anchor="middle" font-size="13">den Regeln</text>
+<!-- rechts -->
+<rect x="206" y="68" width="182" height="296" rx="10" fill="#f1eafa" stroke="#7b4bb8" stroke-width="2.5"/>
+<text x="297" y="94" text-anchor="middle" font-size="15" font-weight="700" fill="#5a2f94">heutige KI</text>
+<g fill="#fff" stroke="#7b4bb8" stroke-width="1.5"><rect x="226" y="110" width="26" height="20"/><rect x="258" y="110" width="26" height="20"/><rect x="290" y="110" width="26" height="20"/><rect x="322" y="110" width="26" height="20"/><rect x="226" y="136" width="26" height="20"/><rect x="258" y="136" width="26" height="20"/><rect x="290" y="136" width="26" height="20"/><rect x="322" y="136" width="26" height="20"/></g>
+<text x="358" y="140" font-size="16" font-weight="700" fill="#7b4bb8">…</text>
+<text x="297" y="176" text-anchor="middle" font-size="13">sehr viele Beispiele</text>
+<text x="297" y="193" text-anchor="middle" font-size="13" font-weight="700" fill="#5a2f94">maschinelles Lernen</text>
+<line x1="297" y1="200" x2="297" y2="226" stroke="#555" stroke-width="2.5" marker-end="url(#ad)"/>
+<g transform="translate(297,262)"><g stroke="#888" stroke-width="1.5"><line x1="-24" y1="-14" x2="0" y2="-18"/><line x1="-24" y1="-14" x2="0" y2="0"/><line x1="-24" y1="14" x2="0" y2="0"/><line x1="-24" y1="14" x2="0" y2="18"/><line x1="0" y1="-18" x2="24" y2="0"/><line x1="0" y1="0" x2="24" y2="0"/><line x1="0" y1="18" x2="24" y2="0"/></g><g fill="#7b4bb8"><circle cx="-24" cy="-14" r="6"/><circle cx="-24" cy="14" r="6"/><circle cx="0" cy="-18" r="6"/><circle cx="0" cy="0" r="6"/><circle cx="0" cy="18" r="6"/><circle cx="24" cy="0" r="7"/></g></g>
+<text x="297" y="304" text-anchor="middle" font-size="13">kann dann z. B.</text>
+<text x="297" y="320" text-anchor="middle" font-size="13">Texte schreiben,</text>
+<text x="297" y="336" text-anchor="middle" font-size="13">Sprache verstehen,</text>
+<text x="297" y="352" text-anchor="middle" font-size="13">Bilder erkennen</text>
+<rect x="30" y="382" width="340" height="44" rx="8" fill="#fde3c3" stroke="#E07B00" stroke-width="2"/>
+<text x="200" y="409" text-anchor="middle" font-size="15" font-weight="700" fill="#a85a00">Neues Thema bei der IHK-Prüfung</text>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 410" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Ausgangslage: Laptop mit 8 GB RAM und SSD, viele Programme offen. Ressourcenmonitor: der Balken ist fast ganz grün, fast kein Blau mehr. Leistungsüberwachung: die Kurve Seiten pro Sekunde springt ständig nach oben. Ein Fragezeichen.</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker><marker id="o" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E07B00"/></marker><marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6b4f"/></marker><marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker><marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker></defs>
+<rect width="400" height="410" fill="#fff"/>
+<text x="200" y="26" font-size="17" text-anchor="middle" font-weight="700">Der zähe Laptop</text>
+<rect x="35.0" y="47.400000000000006" width="130" height="80.6" rx="4" fill="#333" stroke="#333" stroke-width="1"/><rect x="39.0" y="51.400000000000006" width="122" height="72.6" rx="2" fill="#eef2f7" stroke="none" stroke-width="0"/><path d="M27.0,136 L35.0,128 L165.0,128 L173.0,136 Z" fill="#9aa3ad" stroke="#555" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="185" y="52" width="200" height="80" rx="8" fill="#fff" stroke="#555" stroke-width="1.5"/>
+<text x="200" y="76" font-size="15" font-weight="700" fill="#2f6b4f">8 GB RAM</text>
+<text x="200" y="100" font-size="15" font-weight="700">SSD</text>
+<text x="200" y="122" font-size="13" fill="#444">viele Programme offen</text>
+<text x="16" y="168" font-size="14" font-weight="700">Ressourcenmonitor</text>
+<rect x="16" y="178" width="6" height="30" rx="0" fill="#9a9a9a" stroke="none" stroke-width="0"/>
+<rect x="22" y="178" width="324" height="30" rx="0" fill="#3fa34d" stroke="none" stroke-width="0"/>
+<rect x="346" y="178" width="16" height="30" rx="0" fill="#e08a1e" stroke="none" stroke-width="0"/>
+<rect x="362" y="178" width="18" height="30" rx="0" fill="#2f5fb3" stroke="none" stroke-width="0"/>
+<rect x="380" y="178" width="4" height="30" rx="0" fill="#a9c8f0" stroke="none" stroke-width="0"/>
+<rect x="16" y="178" width="368" height="30" rx="0" fill="none" stroke="#555" stroke-width="1.5"/>
+<text x="358" y="228" font-size="13" text-anchor="end" font-weight="700" fill="#2f5fb3">fast kein Blau</text>
+<text x="16" y="262" font-size="14" font-weight="700">Leistungsüberwachung: Seiten/s</text>
+<rect x="16" y="272" width="368" height="80" rx="4" fill="#fff" stroke="#999" stroke-width="1.5"/>
+<path d="M20,344 L50,340 L60,290 L72,338 L110,336 L120,284 L134,340 L170,334 L180,286 L192,338 L230,338 L240,282 L254,336 L290,334 L300,288 L312,340 L350,336 L360,284 L372,338 L380,338" fill="none" stroke="#c62828" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="200" cy="382" r="18" fill="#E07B00" stroke="none" stroke-width="2"/><text x="200" y="390.1" font-size="23" text-anchor="middle" font-weight="700" fill="#fff">?</text>
+</svg>

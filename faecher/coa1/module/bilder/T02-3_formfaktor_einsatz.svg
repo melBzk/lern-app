@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 420" font-family="system-ui, sans-serif" fill="#222">
+<title>Welches Board wofür, laut Buch: E-ATX 305 × 330 mm für Server mit 2 Prozessorsockeln. ATX 305 × 244 mm, sehr weit verbreitet. microATX 244 × 244 mm, ebenfalls sehr gebräuchlich. Mini-ITX 170 × 170 mm für Thin Clients und Wohnzimmer-PCs. Die Kästchen sind im gleichen Maßstab gezeichnet. Unten der Hinweis: Neues Board – vielleicht auch neues Gehäuse.</title>
+<rect width="400" height="420" fill="#fff"/>
+<text x="200" y="30" text-anchor="middle" font-size="17" font-weight="700">Welches Board wofür?</text>
+<g fill="#f4f1ee"><rect x="10" y="48" width="380" height="74" rx="10"/><rect x="10" y="130" width="380" height="74" rx="10"/><rect x="10" y="212" width="380" height="74" rx="10"/><rect x="10" y="294" width="380" height="74" rx="10"/></g>
+<!-- Maßstab 0,2 px pro mm -->
+<rect x="24" y="52" width="61" height="66" fill="#e6e6e6" stroke="#777" stroke-width="2"/>
+<text x="104" y="78" font-size="15" font-weight="700" fill="#444">E-ATX <tspan font-size="13" font-weight="400" fill="#666">305 × 330 mm</tspan></text>
+<text x="104" y="102" font-size="14">Server, 2 Prozessorsockel</text>
+<rect x="24" y="142" width="61" height="49" fill="#d6e4fb" stroke="#3a6ed8" stroke-width="2"/>
+<text x="104" y="160" font-size="15" font-weight="700" fill="#2550a8">ATX <tspan font-size="13" font-weight="400" fill="#666">305 × 244 mm</tspan></text>
+<text x="104" y="184" font-size="14">sehr weit verbreitet</text>
+<rect x="30" y="224" width="49" height="49" fill="#d4efd9" stroke="#2e9d5b" stroke-width="2"/>
+<text x="104" y="242" font-size="15" font-weight="700" fill="#1f7a45">microATX <tspan font-size="13" font-weight="400" fill="#666">244 × 244 mm</tspan></text>
+<text x="104" y="266" font-size="14">ebenfalls sehr gebräuchlich</text>
+<rect x="37" y="314" width="34" height="34" fill="#fde3c4" stroke="#e08a2e" stroke-width="2"/>
+<text x="104" y="324" font-size="15" font-weight="700" fill="#a8590f">Mini-ITX <tspan font-size="13" font-weight="400" fill="#666">170 × 170 mm</tspan></text>
+<text x="104" y="348" font-size="14">Thin Clients, Wohnzimmer-PCs</text>
+<rect x="10" y="378" width="380" height="34" rx="10" fill="#fff" stroke="#D4607A" stroke-width="2"/>
+<text x="200" y="400" text-anchor="middle" font-size="14" font-weight="700" fill="#D4607A">Neues Board? Vielleicht auch neues Gehäuse!</text>
+</svg>

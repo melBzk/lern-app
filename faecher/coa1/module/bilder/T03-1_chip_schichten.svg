@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 560" font-family="system-ui, sans-serif" fill="#222" role="img">
+<title>Wie ein Chip entsteht, nur zum Verstehen, ein Stück Wafer von der Seite in den Schritten 2 bis 6 der Liste: 2 dünne Siliziumscheibe (Wafer). 3 UV-Licht belichtet durch eine Schablone das Muster (Lithografie), Schicht für Schicht. 4 Fremde Atome werden gezielt eingebracht, dort leitet das Silizium anders: so entstehen die Schalter. 5 Feine Metallleitungen verbinden die Transistoren. 6 Der Wafer wird zersägt, jedes Stück ist ein Die.</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker></defs>
+<rect width="400" height="560" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">Ein Stück Wafer, Schritt für Schritt</text>
+<g font-size="14">
+<circle cx="26" cy="71" r="13" fill="#3a6ed8"/><text x="26" y="76" text-anchor="middle" fill="#fff" font-weight="700">2</text>
+<rect x="60" y="62" width="160" height="18" fill="#cfd6dd" stroke="#555" stroke-width="1.5"/>
+<text x="236" y="76" font-weight="700">dünner Wafer</text>
+<line x1="140" y1="88" x2="140" y2="108" stroke="#555" stroke-width="2" marker-end="url(#a)"/>
+<circle cx="26" cy="150" r="13" fill="#3a6ed8"/><text x="26" y="155" text-anchor="middle" fill="#fff" font-weight="700">3</text>
+<path d="M90,116 V140 M120,116 V140 M160,116 V140 M190,116 V140" stroke="#7b3fc4" stroke-width="3"/>
+<rect x="60" y="140" width="160" height="8" fill="#333"/><rect x="82" y="140" width="16" height="8" fill="#fff"/><rect x="112" y="140" width="16" height="8" fill="#fff"/><rect x="152" y="140" width="16" height="8" fill="#fff"/><rect x="182" y="140" width="16" height="8" fill="#fff"/>
+<rect x="60" y="160" width="160" height="18" fill="#cfd6dd" stroke="#555" stroke-width="1.5"/>
+<rect x="82" y="160" width="16" height="5" fill="#b197fc"/><rect x="112" y="160" width="16" height="5" fill="#b197fc"/><rect x="152" y="160" width="16" height="5" fill="#b197fc"/><rect x="182" y="160" width="16" height="5" fill="#b197fc"/>
+<text x="236" y="130" font-weight="700">UV-Licht durch</text><text x="236" y="148" font-weight="700">Schablone</text><text x="236" y="168" fill="#555">Schicht für Schicht</text>
+<line x1="140" y1="188" x2="140" y2="208" stroke="#555" stroke-width="2" marker-end="url(#a)"/>
+<circle cx="26" cy="233" r="13" fill="#3a6ed8"/><text x="26" y="238" text-anchor="middle" fill="#fff" font-weight="700">4</text>
+<rect x="60" y="222" width="160" height="22" fill="#cfd6dd" stroke="#555" stroke-width="1.5"/>
+<g fill="#E07B00"><circle cx="86" cy="231" r="3"/><circle cx="94" cy="236" r="3"/><circle cx="116" cy="231" r="3"/><circle cx="124" cy="236" r="3"/><circle cx="156" cy="231" r="3"/><circle cx="164" cy="236" r="3"/><circle cx="186" cy="231" r="3"/><circle cx="194" cy="236" r="3"/></g>
+<text x="236" y="230" font-weight="700">fremde Atome rein</text><text x="236" y="248">→ es entstehen Schalter</text>
+<line x1="140" y1="252" x2="140" y2="272" stroke="#555" stroke-width="2" marker-end="url(#a)"/>
+<circle cx="26" cy="310" r="13" fill="#3a6ed8"/><text x="26" y="315" text-anchor="middle" fill="#fff" font-weight="700">5</text>
+<path d="M90,302 V290 H120 V302 M150,302 V286 H190 V302" stroke="#b8860b" stroke-width="4" fill="none"/>
+<rect x="60" y="302" width="160" height="22" fill="#cfd6dd" stroke="#555" stroke-width="1.5"/>
+<g fill="#E07B00"><circle cx="90" cy="312" r="3"/><circle cx="120" cy="312" r="3"/><circle cx="150" cy="312" r="3"/><circle cx="190" cy="312" r="3"/></g>
+<text x="236" y="302" font-weight="700">Metallleitungen</text><text x="236" y="320">verbinden die Schalter</text>
+<line x1="140" y1="334" x2="140" y2="354" stroke="#555" stroke-width="2" marker-end="url(#a)"/>
+<circle cx="26" cy="420" r="13" fill="#3a6ed8"/><text x="26" y="425" text-anchor="middle" fill="#fff" font-weight="700">6</text>
+<circle cx="140" cy="420" r="58" fill="#cfd6dd" stroke="#555" stroke-width="2"/>
+<path d="M90,392 H190 M84,410 H196 M84,428 H196 M90,446 H190 M100,368 V472 M120,364 V476 M140,362 V478 M160,364 V476 M180,368 V472" stroke="#fff" stroke-width="2.5"/>
+<text x="236" y="404" font-weight="700">Wafer zersägen</text>
+<rect x="250" y="420" width="26" height="26" fill="#5b6470"/><rect x="284" y="420" width="26" height="26" fill="#5b6470"/>
+<text x="318" y="438" font-weight="700" fill="#c25e00">= Dies</text>
+</g>
+<text x="200" y="518" text-anchor="middle" font-size="14" fill="#555">nur zum Verstehen, nicht auswendig lernen</text>
+<text x="200" y="542" text-anchor="middle" font-size="14" fill="#555">Gesamtweg: Bild „Vom Sand zum Prozessor“</text>
+</svg>

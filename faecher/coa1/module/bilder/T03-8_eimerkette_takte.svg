@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 434" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Eimerkette im Prozessor, Takt 1 bis 3. Oben fünf Einheiten: L laden, D decodieren, O Operanden laden, A ausführen, S zurückspeichern. Takt 1: Einheit L hat Befehl 1. Takt 2: L hat Befehl 2, D hat Befehl 1. Takt 3: L hat Befehl 3, D Befehl 2, O Befehl 1. Grüne Pfeile zeigen das Weiterreichen. Links kommt pro Takt nur ein neuer Befehl hinein.</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker><marker id="o" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E07B00"/></marker><marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6b4f"/></marker><marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker><marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker></defs>
+<rect width="400" height="434" fill="#fff"/>
+<text x="200" y="26" font-size="17" text-anchor="middle" font-weight="700">Jede Einheit reicht weiter</text>
+<rect x="92" y="44" width="56" height="30" rx="5" fill="#dbe6fb" stroke="#3a6ed8" stroke-width="2"/>
+<text x="120" y="65" font-size="16" text-anchor="middle" font-weight="700">L</text>
+<rect x="154" y="44" width="56" height="30" rx="5" fill="#ece0f5" stroke="#7b3fa0" stroke-width="2"/>
+<text x="182" y="65" font-size="16" text-anchor="middle" font-weight="700">D</text>
+<rect x="216" y="44" width="56" height="30" rx="5" fill="#fdebd3" stroke="#E07B00" stroke-width="2"/>
+<text x="244" y="65" font-size="16" text-anchor="middle" font-weight="700">O</text>
+<rect x="278" y="44" width="56" height="30" rx="5" fill="#f9dcdc" stroke="#c62828" stroke-width="2"/>
+<text x="306" y="65" font-size="16" text-anchor="middle" font-weight="700">A</text>
+<rect x="340" y="44" width="56" height="30" rx="5" fill="#dcefe4" stroke="#2f6b4f" stroke-width="2"/>
+<text x="368" y="65" font-size="16" text-anchor="middle" font-weight="700">S</text>
+<text x="8" y="126" font-size="15" font-weight="700">Takt 1</text>
+<rect x="92" y="92" width="56" height="54" rx="6" fill="#fafafa" stroke="#ddd" stroke-width="1.5"/>
+<path d="M104,104 H136 L132,136 H108 Z" fill="#dbe6fb" stroke="#3a6ed8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="120" y="127" font-size="15" text-anchor="middle" font-weight="700">B1</text>
+<rect x="154" y="92" width="56" height="54" rx="6" fill="#fafafa" stroke="#ddd" stroke-width="1.5"/>
+<rect x="216" y="92" width="56" height="54" rx="6" fill="#fafafa" stroke="#ddd" stroke-width="1.5"/>
+<rect x="278" y="92" width="56" height="54" rx="6" fill="#fafafa" stroke="#ddd" stroke-width="1.5"/>
+<rect x="340" y="92" width="56" height="54" rx="6" fill="#fafafa" stroke="#ddd" stroke-width="1.5"/>
+<text x="8" y="196" font-size="15" font-weight="700">Takt 2</text>
+<rect x="92" y="162" width="56" height="54" rx="6" fill="#fafafa" stroke="#ddd" stroke-width="1.5"/>
+<path d="M104,174 H136 L132,206 H108 Z" fill="#fdebd3" stroke="#E07B00" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="120" y="197" font-size="15" text-anchor="middle" font-weight="700">B2</text>
+<rect x="154" y="162" width="56" height="54" rx="6" fill="#fafafa" stroke="#ddd" stroke-width="1.5"/>
+<path d="M166,174 H198 L194,206 H170 Z" fill="#dbe6fb" stroke="#3a6ed8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="182" y="197" font-size="15" text-anchor="middle" font-weight="700">B1</text>
+<rect x="216" y="162" width="56" height="54" rx="6" fill="#fafafa" stroke="#ddd" stroke-width="1.5"/>
+<rect x="278" y="162" width="56" height="54" rx="6" fill="#fafafa" stroke="#ddd" stroke-width="1.5"/>
+<rect x="340" y="162" width="56" height="54" rx="6" fill="#fafafa" stroke="#ddd" stroke-width="1.5"/>
+<text x="8" y="266" font-size="15" font-weight="700">Takt 3</text>
+<rect x="92" y="232" width="56" height="54" rx="6" fill="#fafafa" stroke="#ddd" stroke-width="1.5"/>
+<path d="M104,244 H136 L132,276 H108 Z" fill="#dcefe4" stroke="#2f6b4f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="120" y="267" font-size="15" text-anchor="middle" font-weight="700">B3</text>
+<rect x="154" y="232" width="56" height="54" rx="6" fill="#fafafa" stroke="#ddd" stroke-width="1.5"/>
+<path d="M166,244 H198 L194,276 H170 Z" fill="#fdebd3" stroke="#E07B00" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="182" y="267" font-size="15" text-anchor="middle" font-weight="700">B2</text>
+<rect x="216" y="232" width="56" height="54" rx="6" fill="#fafafa" stroke="#ddd" stroke-width="1.5"/>
+<path d="M228,244 H260 L256,276 H232 Z" fill="#dbe6fb" stroke="#3a6ed8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="244" y="267" font-size="15" text-anchor="middle" font-weight="700">B1</text>
+<rect x="278" y="232" width="56" height="54" rx="6" fill="#fafafa" stroke="#ddd" stroke-width="1.5"/>
+<rect x="340" y="232" width="56" height="54" rx="6" fill="#fafafa" stroke="#ddd" stroke-width="1.5"/>
+<line x1="138" y1="142" x2="166" y2="164" stroke="#2f6b4f" stroke-width="2" marker-end="url(#g)"/>
+<line x1="138" y1="212" x2="166" y2="234" stroke="#2f6b4f" stroke-width="2" marker-end="url(#g)"/>
+<line x1="200" y1="212" x2="228" y2="234" stroke="#2f6b4f" stroke-width="2" marker-end="url(#g)"/>
+<line x1="64" y1="119" x2="90" y2="119" stroke="#E07B00" stroke-width="3" marker-end="url(#o)"/>
+<line x1="64" y1="189" x2="90" y2="189" stroke="#E07B00" stroke-width="3" marker-end="url(#o)"/>
+<line x1="64" y1="259" x2="90" y2="259" stroke="#E07B00" stroke-width="3" marker-end="url(#o)"/>
+<text x="200" y="308" font-size="13" text-anchor="middle" fill="#444">L laden · D decodieren · O Operanden laden</text>
+<text x="200" y="326" font-size="13" text-anchor="middle" fill="#444">A ausführen · S zurückspeichern</text>
+<text x="200" y="354" font-size="14" text-anchor="middle" font-weight="700" fill="#2f6b4f">… und so weiter: keine Einheit wartet mehr</text>
+<rect x="14" y="370" width="372" height="52" rx="8" fill="#fdebd3" stroke="#E07B00" stroke-width="2"/>
+<text x="200" y="392" font-size="15" text-anchor="middle" font-weight="700" fill="#a85a00">Grenze: pro Takt nur 1 neuer Befehl</text>
+<text x="200" y="412" font-size="13" text-anchor="middle" fill="#444">(orange Pfeile links)</text>
+</svg>

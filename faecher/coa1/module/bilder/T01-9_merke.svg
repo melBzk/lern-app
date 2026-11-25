@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 470" font-family="system-ui, sans-serif" role="img">
+  <title>Merkbild Monitor. CRT ist fast verschwunden: groß, schwer, stromhungrig, starke Strahlung; entsorgen nur über einen Fachbetrieb wegen des Vakuums. Größe ist die Diagonale in Zoll, 1 Zoll gleich 2,54 Zentimeter. Auflösung ist Pixel in der Breite mal Pixel in der Höhe. Ein LCD am besten in seiner nativen Auflösung betreiben. LCD braucht Hintergrundbeleuchtung, OLED leuchtet selbst.</title>
+  <rect width="400" height="470" fill="#fff"/>
+  <text x="200" y="26" text-anchor="middle" font-size="18" font-weight="700" fill="#222">Merke: Monitor I</text>
+
+  <rect fill="#f3f4f6" stroke="#bbb" x="8" y="40" width="384" height="78" rx="10"/>
+  <path d="M18,58 h30 v32 h-30 z" fill="#3a3f4a"/><path d="M48,62 l18,6 v12 l-18,6 z" fill="#6b7280"/>
+  <line x1="14" y1="98" x2="70" y2="52" stroke="#d63c3c" stroke-width="3.5"/>
+  <text font-size="15" font-weight="700" fill="#222" x="82" y="64">CRT: fast verschwunden</text>
+  <text font-size="13" fill="#333" x="82" y="84">groß, schwer, viel Strom, Strahlung</text>
+  <text font-size="14" font-weight="700" fill="#b35f00" x="82" y="104">Entsorgung: Fachbetrieb (Vakuum)</text>
+
+  <rect fill="#f3f4f6" stroke="#bbb" x="8" y="126" width="384" height="78" rx="10"/>
+  <rect x="18" y="144" width="50" height="34" rx="3" fill="#fff" stroke="#3a3f4a" stroke-width="2.5"/><line x1="21" y1="175" x2="65" y2="147" stroke="#E07B00" stroke-width="3"/>
+  <text font-size="15" font-weight="700" fill="#222" x="82" y="150">Größe = Diagonale in Zoll</text>
+  <text font-size="14" font-weight="700" fill="#b35f00" x="82" y="174">1 Zoll = 2,54 cm</text>
+
+  <rect fill="#f3f4f6" stroke="#bbb" x="8" y="212" width="384" height="78" rx="10"/>
+  <g fill="#fff" stroke="#3a3f4a" stroke-width="1.5"><rect x="20" y="230" width="12" height="12"/><rect x="32" y="230" width="12" height="12"/><rect x="44" y="230" width="12" height="12"/><rect x="56" y="230" width="12" height="12"/><rect x="20" y="242" width="12" height="12"/><rect x="32" y="242" width="12" height="12"/><rect x="44" y="242" width="12" height="12"/><rect x="56" y="242" width="12" height="12"/><rect x="20" y="254" width="12" height="12"/><rect x="32" y="254" width="12" height="12"/><rect x="44" y="254" width="12" height="12"/><rect x="56" y="254" width="12" height="12"/></g>
+  <text font-size="15" font-weight="700" fill="#222" x="82" y="240">Auflösung</text>
+  <text font-size="14" font-weight="700" fill="#b35f00" x="82" y="262">Pixel Breite × Pixel Höhe</text>
+
+  <rect fill="#f3f4f6" stroke="#bbb" x="8" y="298" width="384" height="78" rx="10"/>
+  <rect x="18" y="314" width="44" height="34" rx="3" fill="#fff" stroke="#3a3f4a" stroke-width="2.5"/><text x="40" y="338" text-anchor="middle" font-size="18" font-weight="700" fill="#222">A</text>
+  <path d="M50,358 l5,5 l10,-12" fill="none" stroke="#1f9d55" stroke-width="3.5"/>
+  <text font-size="15" font-weight="700" fill="#222" x="82" y="326">LCD: native Auflösung</text>
+  <text font-size="14" font-weight="700" fill="#b35f00" x="82" y="348">einstellen = scharfes Bild</text>
+
+  <rect fill="#f3f4f6" stroke="#bbb" x="8" y="384" width="384" height="78" rx="10"/>
+  <rect x="42" y="398" width="6" height="40" fill="#9fb4c8" stroke="#3a3f4a"/><g fill="#f2c200"><circle cx="26" cy="406" r="4"/><circle cx="26" cy="418" r="4"/><circle cx="26" cy="430" r="4"/></g>
+  <text font-size="15" font-weight="700" fill="#222" x="82" y="408">LCD braucht Licht von hinten</text>
+  <text font-size="14" font-weight="700" fill="#b35f00" x="82" y="430">OLED leuchtet selbst</text>
+</svg>

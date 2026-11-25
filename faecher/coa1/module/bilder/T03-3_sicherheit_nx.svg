@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 470" font-family="system-ui, sans-serif" fill="#222" role="img">
+<title>Sicherheitsmechanismen in der Hardware. Ein Arbeitsspeicher-Balken mit zwei Bereichen: Programm (darf laufen) und Daten. Der Datenbereich trägt das Schild NX-Bit: nicht ausführen. Ein Angriff, der im Datenbereich Code ausführen will, wird gestoppt. Weiteres Beispiel: SMEP, Ausführungsschutz für das Betriebssystem. Unten Achtung: Schutz vor Hitze ist kein Sicherheitsmechanismus; wird ein Kern zu warm, senkt die CPU den Takt.</title>
+<rect width="400" height="470" fill="#fff"/>
+<text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700">Schutz gegen Angriffe</text>
+<text x="200" y="58" text-anchor="middle" font-size="14" fill="#555">Arbeitsspeicher: Programme und Daten teilen ihn</text>
+<rect x="20" y="70" width="150" height="70" rx="6" fill="#e3ecfb" stroke="#3a6ed8" stroke-width="2"/>
+<text x="95" y="100" text-anchor="middle" font-size="15" font-weight="700">Programm</text>
+<text x="95" y="122" text-anchor="middle" font-size="14" fill="#2f9e44" font-weight="700">✓ darf laufen</text>
+<rect x="176" y="70" width="204" height="70" rx="6" fill="#f4f5f7" stroke="#555" stroke-width="2"/>
+<text x="226" y="110" text-anchor="middle" font-size="15" font-weight="700">Daten</text>
+<rect x="282" y="78" width="88" height="32" rx="6" fill="#fdecec" stroke="#c62828" stroke-width="2" stroke-dasharray="5 3"/>
+<text x="326" y="99" text-anchor="middle" font-size="13" font-weight="700" fill="#c62828">Angriff</text>
+<text x="326" y="130" text-anchor="middle" font-size="13" font-weight="700" fill="#c62828">✗ gestoppt</text>
+<rect x="40" y="164" width="320" height="76" rx="10" fill="#fff4e0" stroke="#E07B00" stroke-width="2.5"/>
+<text x="200" y="192" text-anchor="middle" font-size="17" font-weight="700" fill="#c25e00">NX-Bit = No Execute</text>
+<text x="200" y="220" text-anchor="middle" font-size="15">Daten: „nicht ausführen“</text>
+<path d="M226,140 L226,164" stroke="#E07B00" stroke-width="3"/>
+<text x="200" y="272" text-anchor="middle" font-size="15" font-weight="700">weiteres Beispiel: SMEP</text>
+<text x="200" y="292" text-anchor="middle" font-size="14" fill="#555">Ausführungsschutz für das Betriebssystem</text>
+<rect x="10" y="318" width="380" height="140" rx="10" fill="#f4f5f7" stroke="#9aa3ad" stroke-width="1.5"/>
+<text x="24" y="344" font-size="15" font-weight="700" fill="#c62828">⚠ Nicht verwechseln:</text>
+<rect x="34" y="360" width="14" height="40" rx="7" fill="#fff" stroke="#555" stroke-width="2"/><rect x="38" y="370" width="6" height="30" fill="#c62828"/><circle cx="41" cy="404" r="9" fill="#c62828" stroke="#555" stroke-width="2"/>
+<text x="70" y="376" font-size="15">Schutz vor <tspan font-weight="700">Hitze</tspan> ist kein</text>
+<text x="70" y="396" font-size="15">Sicherheitsmechanismus.</text>
+<text x="70" y="426" font-size="15">Kern zu warm → CPU</text>
+<text x="70" y="446" font-size="15" font-weight="700">senkt den Takt</text>
+</svg>

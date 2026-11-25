@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 470" font-family="system-ui, sans-serif" role="img">
+  <title>Der Transistor als Schalter: Oben Signal AUS, die Steuerleitung ist grau, der Stromweg ist unterbrochen, das ergibt 0. Unten Signal AN, die Steuerleitung leuchtet gelb, Strom fließt von Strom rein durch den Transistor nach Strom raus, das ergibt 1. Ganz unten ein Lichtschalter als Vergleich: wie ein Lichtschalter, nur elektrisch.</title>
+  <defs>
+    <marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="3.6" markerHeight="3.6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2f9e44"/></marker>
+  </defs>
+  <rect width="400" height="470" fill="#fff"/>
+  <text x="200" y="28" text-anchor="middle" font-size="18" font-weight="700" fill="#222">Der Transistor: ein Schalter</text>
+
+  <!-- Feld AUS -->
+  <rect x="10" y="44" width="380" height="166" rx="12" fill="#f4f5f7" stroke="#9aa3ad" stroke-width="2"/>
+  <text x="24" y="70" font-size="16" font-weight="700" fill="#555">Signal AUS</text>
+  <line x1="200" y1="92" x2="200" y2="130" stroke="#9aa3ad" stroke-width="5"/>
+  <text x="210" y="104" font-size="14" fill="#555">Steuersignal</text>
+  <line x1="30" y1="160" x2="160" y2="160" stroke="#9aa3ad" stroke-width="5"/>
+  <line x1="240" y1="160" x2="318" y2="160" stroke="#9aa3ad" stroke-width="5"/>
+  <text x="30" y="148" font-size="14" fill="#444">Strom rein</text>
+  <text x="246" y="148" font-size="14" fill="#444">Strom raus</text>
+  <rect x="160" y="130" width="80" height="56" rx="8" fill="#fff" stroke="#555" stroke-width="2.5"/>
+  <text x="200" y="202" text-anchor="middle" font-size="13" fill="#555">Transistor</text>
+  <path d="M188,146 L212,170 M212,146 L188,170" stroke="#c62828" stroke-width="5" stroke-linecap="round"/>
+  <text x="356" y="180" text-anchor="middle" font-size="50" font-weight="700" fill="#555">0</text>
+
+  <!-- Feld AN -->
+  <rect x="10" y="222" width="380" height="166" rx="12" fill="#fffbe6" stroke="#e0b000" stroke-width="2.5"/>
+  <text x="24" y="248" font-size="16" font-weight="700" fill="#8a6a00">Signal AN</text>
+  <line x1="200" y1="270" x2="200" y2="308" stroke="#f2c200" stroke-width="7"/>
+  <text x="210" y="282" font-size="14" fill="#8a6a00">Steuersignal</text>
+  <line x1="30" y1="338" x2="160" y2="338" stroke="#a8dcb4" stroke-width="7"/>
+  <line x1="240" y1="338" x2="318" y2="338" stroke="#a8dcb4" stroke-width="7"/>
+  <text x="30" y="318" font-size="14" fill="#444">Strom rein</text>
+  <text x="246" y="318" font-size="14" fill="#444">Strom raus</text>
+  <rect x="160" y="308" width="80" height="56" rx="8" fill="#fff" stroke="#555" stroke-width="2.5"/>
+  <text x="200" y="380" text-anchor="middle" font-size="13" fill="#555">Transistor</text>
+  <line x1="60" y1="338" x2="110" y2="338" stroke="#2f9e44" stroke-width="5" marker-end="url(#g)"/>
+  <line x1="172" y1="336" x2="226" y2="336" stroke="#2f9e44" stroke-width="5" marker-end="url(#g)"/>
+  <line x1="250" y1="338" x2="300" y2="338" stroke="#2f9e44" stroke-width="5" marker-end="url(#g)"/>
+  <text x="356" y="358" text-anchor="middle" font-size="50" font-weight="700" fill="#2f9e44">1</text>
+
+  <!-- Vergleich Lichtschalter -->
+  <rect x="30" y="404" width="40" height="52" rx="6" fill="#fff" stroke="#555" stroke-width="2"/>
+  <rect x="40" y="414" width="20" height="32" rx="3" fill="#e9ecef" stroke="#555" stroke-width="1.5"/>
+  <rect x="40" y="414" width="20" height="16" rx="3" fill="#9aa3ad"/>
+  <text x="84" y="426" font-size="15" font-weight="700" fill="#222">wie ein Lichtschalter –</text>
+  <text x="84" y="446" font-size="15" fill="#222">nur elektrisch</text>
+</svg>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" font-family="system-ui, sans-serif" font-size="14" fill="#222">
+<title>Vier Verwechslungs-Paare, jeweils links und rechts mit Symbol. Erstens Größe oder Technik: LAN ist eine Größe, ein Gebäude; WLAN ist eine Technik, ein LAN per Funk. Zweitens das W: bei WAN heißt es Wide, also weit; bei WLAN heißt es Wireless, also kabellos. Drittens: CAN ist ein Firmengelände, MAN eine ganze Stadt oder Region. Viertens: PAN ist um dich herum, ca. 10 m; LAN ist ein Gebäude.</title>
+<defs>
+<g id="haus"><path d="M-22,-2 L0,-22 L22,-2 Z" fill="#c62828"/><rect x="-16" y="-2" width="32" height="24" fill="#fff" stroke="#333" stroke-width="2"/><rect x="-4" y="8" width="8" height="14" fill="#333"/></g>
+<g id="funk" fill="none" stroke="#E07B00" stroke-width="2.5" stroke-linecap="round"><path d="M-8,-4 A10,10 0 0 1 8,-4"/><path d="M-14,-10 A18,18 0 0 1 14,-10"/><path d="M-20,-16 A26,26 0 0 1 20,-16"/></g>
+</defs>
+<rect width="400" height="600" fill="#fff"/>
+<!-- Reihe 1 -->
+<text x="200" y="26" text-anchor="middle" font-size="15" font-weight="700" fill="#555">Größe oder Technik?</text>
+<use href="#haus" x="100" y="70"/>
+<text x="100" y="116" text-anchor="middle"><tspan font-weight="700" fill="#1d3f8a">LAN</tspan> = Größe</text>
+<text x="200" y="82" text-anchor="middle" font-size="26" font-weight="700" fill="#c62828">≠</text>
+<use href="#haus" x="300" y="70"/>
+<use href="#funk" x="300" y="44"/>
+<text x="300" y="116" text-anchor="middle"><tspan font-weight="700" fill="#a85a00">WLAN</tspan> = Technik (Funk)</text>
+<line x1="15" y1="138" x2="385" y2="138" stroke="#ddd" stroke-width="1.5"/>
+<!-- Reihe 2 -->
+<text x="200" y="166" text-anchor="middle" font-size="15" font-weight="700" fill="#555">Das „W“</text>
+<g stroke="#1d3f8a" stroke-width="3"><line x1="50" y1="210" x2="150" y2="210"/></g>
+<circle cx="50" cy="210" r="7" fill="#1d3f8a"/><circle cx="150" cy="210" r="7" fill="#1d3f8a"/>
+<text x="100" y="256" text-anchor="middle"><tspan font-weight="700" fill="#1d3f8a">W</tspan>AN: <tspan font-weight="700">Wide</tspan> = weit</text>
+<text x="200" y="222" text-anchor="middle" font-size="26" font-weight="700" fill="#c62828">≠</text>
+<g stroke="#555" stroke-width="3"><line x1="262" y1="214" x2="338" y2="214"/></g>
+<g stroke="#c62828" stroke-width="3.5" stroke-linecap="round"><line x1="288" y1="200" x2="312" y2="228"/><line x1="312" y1="200" x2="288" y2="228"/></g>
+<text x="300" y="256" text-anchor="middle"><tspan font-weight="700" fill="#a85a00">W</tspan>LAN: <tspan font-weight="700">Wireless</tspan></text>
+<text x="300" y="275" text-anchor="middle" font-size="13">= kabellos</text>
+<line x1="15" y1="292" x2="385" y2="292" stroke="#ddd" stroke-width="1.5"/>
+<!-- Reihe 3 -->
+<text x="200" y="320" text-anchor="middle" font-size="15" font-weight="700" fill="#555">Gelände oder Stadt?</text>
+<g transform="translate(100,362) scale(1.6)"><rect x="-22" y="-14" width="44" height="28" rx="3" fill="#f3f8ee" stroke="#2f6b4f" stroke-width="1.3" stroke-dasharray="3 2"/><rect x="-16" y="-4" width="8" height="13" fill="#fff" stroke="#333" stroke-width="1.2"/><rect x="-4" y="-9" width="8" height="18" fill="#fff" stroke="#333" stroke-width="1.2"/><rect x="8" y="-1" width="8" height="10" fill="#fff" stroke="#333" stroke-width="1.2"/></g>
+<text x="100" y="416" text-anchor="middle"><tspan font-weight="700" fill="#1d3f8a">CAN</tspan> = Firmengelände</text>
+<text x="200" y="372" text-anchor="middle" font-size="26" font-weight="700" fill="#c62828">≠</text>
+<g transform="translate(300,362) scale(1.8)"><rect x="-20" y="-2" width="6" height="12" fill="#555"/><rect x="-14" y="-10" width="6" height="20" fill="#555"/><rect x="-7" y="-4" width="6" height="14" fill="#555"/><rect x="-1" y="-12" width="6" height="22" fill="#555"/><rect x="6" y="-6" width="6" height="16" fill="#555"/><rect x="13" y="-1" width="6" height="11" fill="#555"/></g>
+<text x="300" y="416" text-anchor="middle"><tspan font-weight="700" fill="#1d3f8a">MAN</tspan> = Stadt/Region</text>
+<line x1="15" y1="438" x2="385" y2="438" stroke="#ddd" stroke-width="1.5"/>
+<!-- Reihe 4 -->
+<text x="200" y="466" text-anchor="middle" font-size="15" font-weight="700" fill="#555">Person oder Gebäude?</text>
+<g transform="translate(100,520)"><circle r="30" fill="#fde3c3" stroke="#E07B00" stroke-width="2" stroke-dasharray="4 3"/><circle cx="0" cy="-10" r="6" fill="#333"/><path d="M-10,15 Q-10,-2 0,-2 Q10,-2 10,15 Z" fill="#333"/></g>
+<text x="100" y="576" text-anchor="middle"><tspan font-weight="700" fill="#a85a00">PAN</tspan> = um dich, ca. 10 m</text>
+<text x="200" y="530" text-anchor="middle" font-size="26" font-weight="700" fill="#c62828">≠</text>
+<use href="#haus" x="300" y="524"/>
+<text x="300" y="576" text-anchor="middle"><tspan font-weight="700" fill="#1d3f8a">LAN</tspan> = ein Gebäude</text>
+</svg>

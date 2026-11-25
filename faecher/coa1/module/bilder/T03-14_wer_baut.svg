@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 580" font-family="system-ui, sans-serif" fill="#222" role="img">
+<title>Vereinfachte Deutschlandkarte, nicht maßstäblich genau, mit zwei Stecknadeln. Nadel 1 im Raum Stuttgart: Der Laserhersteller Trumpf sitzt in Ditzingen bei Stuttgart; aus Trumpf wurde 2018 Q.ANT ausgegründet. Q.ANT in Stuttgart entwickelt und fertigt die Licht-Chips. Nadel 2 in Garching bei München: Das Leibniz-Rechenzentrum testet den Licht-Chip seit 2025. Wolke: erster zahlender Kunde ist ein Cloud-Anbieter (2026).</title>
+<rect width="400" height="580" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">Wer baut den Licht-Chip?</text>
+
+<!-- Karte -->
+<polygon points="168,55 197,59 221,72 254,69 291,89 296,110 300,133 302,171 309,184 294,191 263,208 245,212 254,232 283,263 265,280 263,300 265,307 247,300 221,310 203,314 190,307 168,300 146,303 146,286 159,256 120,249 120,239 113,215 111,195 113,181 109,161 129,154 133,140 133,110 140,96 155,99 166,89 175,72" fill="#f4f5f7" stroke="#9aa5b1" stroke-width="2" stroke-linejoin="round"/>
+<text x="210" y="160" text-anchor="middle" font-size="14" fill="#9aa5b1" font-weight="700">Deutschland</text>
+<!-- Nadel 1 -->
+<path d="M181,263 L173,247 A10,10 0 1 1 189,247 Z" fill="#E07B00"/>
+<text x="181" y="245" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">1</text>
+<text x="166" y="244" text-anchor="end" font-size="14" font-weight="700">Stuttgart</text>
+<!-- Nadel 2 -->
+<path d="M235,281 L227,265 A10,10 0 1 1 243,265 Z" fill="#3a6ed8"/>
+<text x="235" y="263" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">2</text>
+<text x="250" y="262" font-size="14" font-weight="700">Garching</text>
+
+<!-- Karten 1 -->
+<circle cx="16" cy="340" r="11" fill="#E07B00"/><text x="16" y="345" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">1</text>
+<rect x="32" y="328" width="146" height="70" rx="10" fill="#f4f5f7" stroke="#555" stroke-width="1.5"/>
+<text x="105" y="352" text-anchor="middle" font-size="15" font-weight="700">Trumpf</text>
+<text x="105" y="370" text-anchor="middle" font-size="13">Laserhersteller</text>
+<text x="105" y="387" text-anchor="middle" font-size="13" fill="#555">Ditzingen</text>
+<path d="M180,363 H206" stroke="#E07B00" stroke-width="3"/>
+<path d="M204,355 L216,363 L204,371 Z" fill="#E07B00"/>
+<rect x="218" y="328" width="170" height="70" rx="10" fill="#fff4e0" stroke="#E07B00" stroke-width="2"/>
+<text x="303" y="352" text-anchor="middle" font-size="15" font-weight="700">Q.ANT (Stuttgart)</text>
+<text x="303" y="370" text-anchor="middle" font-size="13">entwickelt und fertigt</text>
+<text x="303" y="387" text-anchor="middle" font-size="13">die Licht-Chips</text>
+<text x="210" y="420" text-anchor="middle" font-size="13" fill="#c25e00" font-weight="700">2018 aus Trumpf ausgegründet</text>
+
+<!-- Karte 2 -->
+<circle cx="16" cy="462" r="11" fill="#3a6ed8"/><text x="16" y="467" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">2</text>
+<rect x="32" y="438" width="356" height="52" rx="10" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="1.5"/>
+<text x="46" y="459" font-size="14" font-weight="700">Leibniz-Rechenzentrum (Garching)</text>
+<text x="46" y="478" font-size="13">testet den Licht-Chip seit 2025</text>
+
+<!-- Wolke -->
+<path d="M40,550 a12,12 0 0 1 4,-23 a16,16 0 0 1 30,-4 a12,12 0 0 1 12,27 z" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<text x="100" y="530" font-size="14" font-weight="700">erster zahlender Kunde:</text>
+<text x="100" y="549" font-size="13">ein Cloud-Anbieter (2026)</text>
+</svg>

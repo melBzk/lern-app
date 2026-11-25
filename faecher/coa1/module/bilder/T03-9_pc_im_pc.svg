@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Ein PC im PC: Unten der echte Laptop, der Host, mit Prozessor, RAM und SSD. Darüber ein gelber Balken, der Hypervisor (hier Hyper-V, direkt über der Hardware), teilt die Hardware zu. Auf dem Bildschirm laufen zwei Fenster: VM 1 als Gast mit Windows 10 und VM 2 als Gast mit Linux. Pfeile vom Hypervisor zu VM 1: 4 GB RAM und 10 virtuelle Prozessoren.</title>
+<defs>
+<marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker>
+<marker id="o" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E07B00"/></marker>
+<marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#999"/></marker>
+</defs>
+<rect width="400" height="480" fill="#fff"/>
+<text x="200" y="26" font-size="17" text-anchor="middle" font-weight="700">Ein PC im PC</text>
+
+<!-- Bildschirm des Laptops -->
+<rect x="14" y="40" width="372" height="318" rx="12" fill="#333"/>
+<rect x="24" y="50" width="352" height="298" rx="4" fill="#eef2f7"/>
+
+<!-- VM 1 -->
+<rect x="34" y="60" width="162" height="134" rx="6" fill="#fff" stroke="#3a6ed8" stroke-width="2"/>
+<path d="M34,86 L34,66 Q34,60 40,60 L190,60 Q196,60 196,66 L196,86 z" fill="#3a6ed8"/>
+<text x="115" y="79" font-size="15" text-anchor="middle" font-weight="700" fill="#fff">VM 1 = Gast</text>
+<rect x="42" y="94" width="146" height="52" rx="2" fill="#cfe0fb"/>
+<rect x="50" y="100" width="12" height="12" rx="2" fill="#fff"/>
+<rect x="50" y="118" width="12" height="12" rx="2" fill="#fff"/>
+<rect x="42" y="140" width="146" height="6" fill="#3a6ed8"/>
+<text x="115" y="176" font-size="16" text-anchor="middle" font-weight="700">Windows 10</text>
+
+<!-- VM 2 -->
+<rect x="204" y="60" width="162" height="134" rx="6" fill="#fff" stroke="#2f6b4f" stroke-width="2"/>
+<path d="M204,86 L204,66 Q204,60 210,60 L360,60 Q366,60 366,66 L366,86 z" fill="#2f6b4f"/>
+<text x="285" y="79" font-size="15" text-anchor="middle" font-weight="700" fill="#fff">VM 2 = Gast</text>
+<rect x="212" y="94" width="146" height="52" rx="2" fill="#e3f0e9"/>
+<rect x="212" y="94" width="146" height="6" fill="#2f6b4f"/>
+<rect x="220" y="106" width="12" height="12" rx="2" fill="#fff"/>
+<rect x="220" y="124" width="12" height="12" rx="2" fill="#fff"/>
+<text x="285" y="176" font-size="16" text-anchor="middle" font-weight="700">Linux</text>
+
+<!-- Zuteilung an VM 1 -->
+<line x1="62" y1="296" x2="62" y2="198" stroke="#E07B00" stroke-width="3" marker-end="url(#o)"/>
+<line x1="150" y1="296" x2="150" y2="198" stroke="#E07B00" stroke-width="3" marker-end="url(#o)"/>
+<line x1="285" y1="296" x2="285" y2="198" stroke="#999" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#g)"/>
+<rect x="28" y="224" width="70" height="24" rx="5" fill="#fff" stroke="#E07B00" stroke-width="1.5"/>
+<text x="63" y="241" font-size="13" text-anchor="middle" font-weight="700" fill="#b35f00">4 GB RAM</text>
+<rect x="108" y="232" width="86" height="42" rx="5" fill="#fff" stroke="#E07B00" stroke-width="1.5"/>
+<text x="151" y="249" font-size="13" text-anchor="middle" font-weight="700" fill="#b35f00">10 virtuelle</text>
+<text x="151" y="266" font-size="13" text-anchor="middle" font-weight="700" fill="#b35f00">Prozessoren</text>
+
+<!-- Hypervisor -->
+<rect x="34" y="298" width="332" height="40" rx="6" fill="#ffe082" stroke="#c9a000" stroke-width="2"/>
+<text x="200" y="323" font-size="15" text-anchor="middle" font-weight="700">Hypervisor teilt zu (hier: Hyper-V)</text>
+
+<!-- Laptop-Unterteil = Hardware -->
+<line x1="200" y1="374" x2="200" y2="342" stroke="#333" stroke-width="2.5" marker-end="url(#a)"/>
+<rect x="4" y="362" width="392" height="56" rx="8" fill="#f4f1ee" stroke="#555" stroke-width="2"/>
+<rect x="18" y="374" width="112" height="32" rx="5" fill="#e3f0e9" stroke="#2f6b4f" stroke-width="2"/>
+<text x="74" y="395" font-size="14" text-anchor="middle" font-weight="700">Prozessor</text>
+<rect x="144" y="374" width="112" height="32" rx="5" fill="#e3f0e9" stroke="#2f6b4f" stroke-width="2"/>
+<text x="200" y="395" font-size="14" text-anchor="middle" font-weight="700">RAM</text>
+<rect x="270" y="374" width="112" height="32" rx="5" fill="#e3f0e9" stroke="#2f6b4f" stroke-width="2"/>
+<text x="326" y="395" font-size="14" text-anchor="middle" font-weight="700">SSD</text>
+<text x="200" y="446" font-size="16" text-anchor="middle" font-weight="700">Host = echter Rechner</text>
+<text x="200" y="466" font-size="13" text-anchor="middle" fill="#555">(Prozessor, RAM, SSD)</text>
+</svg>

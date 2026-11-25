@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 420" font-family="system-ui, sans-serif" role="img">
+  <title>Praxisfall, ein kleines Büro wird eingerichtet; die Ausgangslage als Bild. Problem 1: Ein alter Laserdrucker steht direkt neben dem Schreibtisch. Problem 2: Der PC brummt laut. Problem 3: Der Monitor hat kein Siegel. Gesucht: Was rätst du?</title>
+  <rect width="400" height="420" fill="#fff"/>
+  <text x="200" y="26" text-anchor="middle" font-size="18" font-weight="700" fill="#222">Ein Büro wird eingerichtet</text>
+
+  <!-- Szene -->
+  <rect x="8" y="42" width="384" height="220" rx="12" fill="#f3f4f6" stroke="#bbb"/>
+  <rect x="80" y="196" width="230" height="14" rx="3" fill="#c9a77c"/><rect x="92" y="210" width="10" height="46" fill="#a88a63"/><rect x="288" y="210" width="10" height="46" fill="#a88a63"/>
+  <!-- Monitor -->
+  <rect x="150" y="110" width="100" height="66" rx="4" fill="#3a3f4a"/><rect x="156" y="116" width="88" height="54" fill="#dbeefc"/>
+  <rect x="190" y="176" width="20" height="20" fill="#555"/>
+  <rect x="222" y="148" width="40" height="24" rx="3" fill="#fff" stroke="#d63c3c" stroke-width="2" stroke-dasharray="4 3"/><text x="242" y="166" text-anchor="middle" font-size="15" font-weight="700" fill="#d63c3c">?</text>
+  <!-- PC -->
+  <rect x="96" y="134" width="40" height="62" rx="4" fill="#3a3f4a"/><circle cx="116" cy="150" r="8" fill="#6b7280"/>
+  <path d="M90,140 q-8,8 0,16 M82,134 q-14,14 0,28" fill="none" stroke="#E07B00" stroke-width="2.5"/>
+  <!-- Drucker -->
+  <rect x="316" y="150" width="62" height="46" rx="5" fill="#e5e7eb" stroke="#3a3f4a" stroke-width="2.5"/><rect x="326" y="142" width="42" height="10" fill="#fff" stroke="#333"/>
+  <!-- Nummern -->
+  <g font-size="14" font-weight="700" fill="#fff" text-anchor="middle">
+    <circle cx="347" cy="220" r="12" fill="#E07B00"/><text x="347" y="225">1</text>
+    <circle cx="60" cy="150" r="12" fill="#E07B00"/><text x="60" y="155">2</text>
+    <circle cx="200" cy="90" r="12" fill="#E07B00"/><text x="200" y="95">3</text></g>
+
+  <!-- Liste -->
+  <g font-size="14" font-weight="700" fill="#fff" text-anchor="middle">
+    <circle cx="28" cy="292" r="12" fill="#E07B00"/><text x="28" y="297">1</text>
+    <circle cx="28" cy="330" r="12" fill="#E07B00"/><text x="28" y="335">2</text>
+    <circle cx="28" cy="368" r="12" fill="#E07B00"/><text x="28" y="373">3</text></g>
+  <text x="50" y="297" font-size="15" fill="#222">alter Laserdrucker direkt am Tisch</text>
+  <text x="50" y="335" font-size="15" fill="#222">PC brummt laut</text>
+  <text x="50" y="373" font-size="15" fill="#222">Monitor ohne Siegel</text>
+  <text x="200" y="408" text-anchor="middle" font-size="16" font-weight="700" fill="#b35f00">Was rätst du?</text>
+</svg>

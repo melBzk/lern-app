@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 420" font-family="system-ui, sans-serif" fill="#222">
+<title>Der Chipsatz als Verteiler: Oben die CPU, darunter der Chipsatz. Vom Chipsatz gehen Pfeile weiter zu Festplatte, USB-Anschluss und BIOS. Unten: Damit der Computer die Chips per Software ansprechen kann, braucht er Treiber – darum gibt es Chipsatz-Updates.</title>
+<rect width="400" height="420" fill="#fff"/>
+<text x="200" y="30" text-anchor="middle" font-size="17" font-weight="700">Der Chipsatz verteilt</text>
+<!-- CPU -->
+<rect x="150" y="48" width="100" height="52" rx="6" fill="#cfd8dc" stroke="#555" stroke-width="2"/>
+<text x="200" y="80" text-anchor="middle" font-size="15" font-weight="700">CPU</text>
+<line x1="200" y1="100" x2="200" y2="122" stroke="#555" stroke-width="3"/><polygon points="192,120 208,120 200,132" fill="#555"/>
+<!-- Chipsatz -->
+<rect x="130" y="134" width="140" height="56" rx="6" fill="#333"/>
+<text x="200" y="168" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">Chipsatz</text>
+<!-- Pfeile -->
+<g stroke="#D4607A" stroke-width="3" fill="none"><path d="M160,190 L70,236"/><path d="M200,190 L200,234"/><path d="M240,190 L330,236"/></g>
+<g fill="#D4607A"><polygon points="62,240 78,226 80,242"/><polygon points="192,232 208,232 200,246"/><polygon points="338,240 322,226 320,242"/></g>
+<!-- Ziele -->
+<rect x="20" y="250" width="104" height="56" rx="8" fill="#f4f1ee" stroke="#999" stroke-width="1.5"/>
+<text x="72" y="284" text-anchor="middle" font-size="14" font-weight="700">Festplatte</text>
+<rect x="148" y="250" width="104" height="56" rx="8" fill="#f4f1ee" stroke="#999" stroke-width="1.5"/>
+<text x="200" y="284" text-anchor="middle" font-size="14" font-weight="700">USB</text>
+<rect x="276" y="250" width="104" height="56" rx="8" fill="#f4f1ee" stroke="#999" stroke-width="1.5"/>
+<text x="328" y="284" text-anchor="middle" font-size="14" font-weight="700">BIOS</text>
+<!-- Treiber -->
+<rect x="10" y="326" width="380" height="84" rx="10" fill="#e3ecfb" stroke="#3a6ed8" stroke-width="2"/>
+<rect x="24" y="344" width="44" height="34" rx="3" fill="#fff" stroke="#3a6ed8" stroke-width="2"/>
+<text x="46" y="367" text-anchor="middle" font-size="14" font-weight="700" fill="#3a6ed8">&lt;/&gt;</text>
+<text x="82" y="356" font-size="15" font-weight="700">Treiber: Software steuert</text>
+<text x="82" y="376" font-size="15" font-weight="700">die Chips an</text>
+<text x="82" y="398" font-size="13">→ darum gibt es Chipsatz-Updates</text>
+</svg>

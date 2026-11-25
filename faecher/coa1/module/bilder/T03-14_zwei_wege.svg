@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 450" font-family="system-ui, sans-serif" fill="#222" role="img">
+<title>Zwei Wege zu rechnen. Links: heute ein elektronischer Chip (GPU) mit Milliarden Transistoren, die nur 0 oder 1 kennen; darüber drei große orange Wärmewellen und die Angabe bis ca. 1000 Watt. Rechts: neu ein photonischer Co-Prozessor; ein Laser schickt roten Lichtstrahl in geschwungene Lichtkanäle (Wellenleiter), die Wellen treffen sich in der Mitte und überlagern sich, rechts liest ein Sensor das Ergebnis ab; darüber nur eine kleine Wärmewelle: kaum Wärme beim Rechnen. Unten: Licht ergänzt Strom, ersetzt ihn nicht.</title>
+<rect width="400" height="450" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">Zwei Wege zu rechnen</text>
+
+<!-- links: elektronisch -->
+<text x="102" y="56" text-anchor="middle" font-size="13" fill="#555">Heute:</text>
+<text x="102" y="74" text-anchor="middle" font-size="15" font-weight="700">elektronischer Chip</text>
+<text x="102" y="92" text-anchor="middle" font-size="15" font-weight="700">(GPU)</text>
+<text x="102" y="116" text-anchor="middle" font-size="15" font-weight="700" fill="#E07B00">bis ca. 1000 W</text>
+<g stroke="#E07B00" stroke-width="3.5" fill="none" stroke-linecap="round">
+<path d="M72,160 q-6,-7 0,-14 q6,-7 0,-14 q-6,-7 0,-10"/>
+<path d="M102,160 q-6,-7 0,-14 q6,-7 0,-14 q-6,-7 0,-10"/>
+<path d="M132,160 q-6,-7 0,-14 q6,-7 0,-14 q-6,-7 0,-10"/>
+</g>
+<rect x="27" y="166" width="150" height="150" rx="4" fill="#e9ecef" stroke="#555" stroke-width="2.5"/>
+<path d="M29,168h6v6h-6z M29,178h6v6h-6z M29,188h6v6h-6z M29,198h6v6h-6z M29,208h6v6h-6z M29,218h6v6h-6z M29,228h6v6h-6z M29,238h6v6h-6z M29,248h6v6h-6z M29,258h6v6h-6z M29,268h6v6h-6z M29,278h6v6h-6z M29,288h6v6h-6z M29,298h6v6h-6z M29,308h6v6h-6z M39,168h6v6h-6z M39,178h6v6h-6z M39,188h6v6h-6z M39,198h6v6h-6z M39,208h6v6h-6z M39,218h6v6h-6z M39,228h6v6h-6z M39,238h6v6h-6z M39,248h6v6h-6z M39,258h6v6h-6z M39,268h6v6h-6z M39,278h6v6h-6z M39,288h6v6h-6z M39,298h6v6h-6z M39,308h6v6h-6z M49,168h6v6h-6z M49,178h6v6h-6z M49,188h6v6h-6z M49,198h6v6h-6z M49,208h6v6h-6z M49,218h6v6h-6z M49,228h6v6h-6z M49,238h6v6h-6z M49,248h6v6h-6z M49,258h6v6h-6z M49,268h6v6h-6z M49,278h6v6h-6z M49,288h6v6h-6z M49,298h6v6h-6z M49,308h6v6h-6z M59,168h6v6h-6z M59,178h6v6h-6z M59,188h6v6h-6z M59,198h6v6h-6z M59,208h6v6h-6z M59,218h6v6h-6z M59,228h6v6h-6z M59,238h6v6h-6z M59,248h6v6h-6z M59,258h6v6h-6z M59,268h6v6h-6z M59,278h6v6h-6z M59,288h6v6h-6z M59,298h6v6h-6z M59,308h6v6h-6z M69,168h6v6h-6z M69,178h6v6h-6z M69,188h6v6h-6z M69,198h6v6h-6z M69,208h6v6h-6z M69,218h6v6h-6z M69,228h6v6h-6z M69,238h6v6h-6z M69,248h6v6h-6z M69,258h6v6h-6z M69,268h6v6h-6z M69,278h6v6h-6z M69,288h6v6h-6z M69,298h6v6h-6z M69,308h6v6h-6z M79,168h6v6h-6z M79,178h6v6h-6z M79,188h6v6h-6z M79,198h6v6h-6z M79,208h6v6h-6z M79,218h6v6h-6z M79,228h6v6h-6z M79,238h6v6h-6z M79,248h6v6h-6z M79,258h6v6h-6z M79,268h6v6h-6z M79,278h6v6h-6z M79,288h6v6h-6z M79,298h6v6h-6z M79,308h6v6h-6z M89,168h6v6h-6z M89,178h6v6h-6z M89,188h6v6h-6z M89,198h6v6h-6z M89,208h6v6h-6z M89,218h6v6h-6z M89,228h6v6h-6z M89,238h6v6h-6z M89,248h6v6h-6z M89,258h6v6h-6z M89,268h6v6h-6z M89,278h6v6h-6z M89,288h6v6h-6z M89,298h6v6h-6z M89,308h6v6h-6z M99,168h6v6h-6z M99,178h6v6h-6z M99,188h6v6h-6z M99,198h6v6h-6z M99,208h6v6h-6z M99,218h6v6h-6z M99,228h6v6h-6z M99,238h6v6h-6z M99,248h6v6h-6z M99,258h6v6h-6z M99,268h6v6h-6z M99,278h6v6h-6z M99,288h6v6h-6z M99,298h6v6h-6z M99,308h6v6h-6z M109,168h6v6h-6z M109,178h6v6h-6z M109,188h6v6h-6z M109,198h6v6h-6z M109,208h6v6h-6z M109,218h6v6h-6z M109,228h6v6h-6z M109,238h6v6h-6z M109,248h6v6h-6z M109,258h6v6h-6z M109,268h6v6h-6z M109,278h6v6h-6z M109,288h6v6h-6z M109,298h6v6h-6z M109,308h6v6h-6z M119,168h6v6h-6z M119,178h6v6h-6z M119,188h6v6h-6z M119,198h6v6h-6z M119,208h6v6h-6z M119,218h6v6h-6z M119,228h6v6h-6z M119,238h6v6h-6z M119,248h6v6h-6z M119,258h6v6h-6z M119,268h6v6h-6z M119,278h6v6h-6z M119,288h6v6h-6z M119,298h6v6h-6z M119,308h6v6h-6z M129,168h6v6h-6z M129,178h6v6h-6z M129,188h6v6h-6z M129,198h6v6h-6z M129,208h6v6h-6z M129,218h6v6h-6z M129,228h6v6h-6z M129,238h6v6h-6z M129,248h6v6h-6z M129,258h6v6h-6z M129,268h6v6h-6z M129,278h6v6h-6z M129,288h6v6h-6z M129,298h6v6h-6z M129,308h6v6h-6z M139,168h6v6h-6z M139,178h6v6h-6z M139,188h6v6h-6z M139,198h6v6h-6z M139,208h6v6h-6z M139,218h6v6h-6z M139,228h6v6h-6z M139,238h6v6h-6z M139,248h6v6h-6z M139,258h6v6h-6z M139,268h6v6h-6z M139,278h6v6h-6z M139,288h6v6h-6z M139,298h6v6h-6z M139,308h6v6h-6z M149,168h6v6h-6z M149,178h6v6h-6z M149,188h6v6h-6z M149,198h6v6h-6z M149,208h6v6h-6z M149,218h6v6h-6z M149,228h6v6h-6z M149,238h6v6h-6z M149,248h6v6h-6z M149,258h6v6h-6z M149,268h6v6h-6z M149,278h6v6h-6z M149,288h6v6h-6z M149,298h6v6h-6z M149,308h6v6h-6z M159,168h6v6h-6z M159,178h6v6h-6z M159,188h6v6h-6z M159,198h6v6h-6z M159,208h6v6h-6z M159,218h6v6h-6z M159,228h6v6h-6z M159,238h6v6h-6z M159,248h6v6h-6z M159,258h6v6h-6z M159,268h6v6h-6z M159,278h6v6h-6z M159,288h6v6h-6z M159,298h6v6h-6z M159,308h6v6h-6z M169,168h6v6h-6z M169,178h6v6h-6z M169,188h6v6h-6z M169,198h6v6h-6z M169,208h6v6h-6z M169,218h6v6h-6z M169,228h6v6h-6z M169,238h6v6h-6z M169,248h6v6h-6z M169,258h6v6h-6z M169,268h6v6h-6z M169,278h6v6h-6z M169,288h6v6h-6z M169,298h6v6h-6z M169,308h6v6h-6z" fill="#5b6470"/>
+<text x="102" y="340" text-anchor="middle" font-size="14" font-weight="700">Milliarden Transistoren,</text>
+<text x="102" y="358" text-anchor="middle" font-size="14">nur 0 oder 1</text>
+
+<!-- rechts: photonisch -->
+<text x="300" y="56" text-anchor="middle" font-size="13" fill="#555">Neu:</text>
+<text x="300" y="74" text-anchor="middle" font-size="15" font-weight="700">photonischer</text>
+<text x="300" y="92" text-anchor="middle" font-size="15" font-weight="700">Co-Prozessor</text>
+<text x="307" y="116" text-anchor="middle" font-size="14" font-weight="700" fill="#2e7d32">kaum Wärme</text>
+<text x="307" y="133" text-anchor="middle" font-size="13" fill="#2e7d32">beim Rechnen</text>
+<path d="M307,160 q-4,-5 0,-10 q4,-5 0,-8" stroke="#E07B00" stroke-width="2" fill="none" stroke-linecap="round"/>
+<rect x="238" y="166" width="146" height="150" rx="4" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2.5"/>
+<!-- Laser -->
+<rect x="208" y="228" width="26" height="26" rx="3" fill="#444"/>
+<text x="221" y="272" text-anchor="middle" font-size="13" font-weight="700">Laser</text>
+<!-- Wellenleiter -->
+<g stroke="#c62828" stroke-width="3.5" fill="none" stroke-linecap="round">
+<path d="M234,241 H244"/>
+<path d="M244,241 C256,241 256,205 272,205 H290 C306,205 306,241 320,241"/>
+<path d="M244,241 C256,241 256,277 272,277 H290 C306,277 306,241 320,241"/>
+<path d="M320,241 H352"/>
+</g>
+<circle cx="320" cy="241" r="8" fill="#ffc9c9" stroke="#c62828" stroke-width="2"/>
+<rect x="352" y="229" width="16" height="24" rx="2" fill="#3a6ed8"/>
+<text x="281" y="196" text-anchor="middle" font-size="13" font-weight="700" fill="#c62828">Wellenleiter</text>
+<text x="320" y="300" text-anchor="middle" font-size="13" font-weight="700">Überlagerung</text>
+<path d="M320,288 V253" stroke="#555" stroke-width="1.5"/>
+<text x="307" y="340" text-anchor="middle" font-size="14" font-weight="700">Sensor rechts:</text>
+<text x="307" y="358" text-anchor="middle" font-size="14">Ergebnis ablesen</text>
+
+<!-- unten -->
+<rect x="14" y="384" width="372" height="48" rx="10" fill="#fff4e0" stroke="#E07B00" stroke-width="2"/>
+<text x="200" y="414" text-anchor="middle" font-size="15" font-weight="700">Licht ergänzt Strom – ersetzt ihn nicht</text>
+</svg>

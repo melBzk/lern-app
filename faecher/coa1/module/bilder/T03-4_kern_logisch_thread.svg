@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 470" font-family="system-ui, sans-serif" fill="#222" role="img">
+<title>Kern, logischer Prozessor, Thread in drei Spalten. Kern: echte Recheneinheit im Chip, Hardware; heißt im Task-Manager Kerne, in CPU-Z Cores; im Unterricht 14. Logischer Prozessor: Kern aus Sicht des Betriebssystems; heißt im Task-Manager Logische Prozessoren, in CPU-Z und Datenblatt Threads; im Unterricht 20. Thread: Arbeitsstrang eines Programms, Software. Unten Stolperfalle: Threads bei der Hardware = Zahl der logischen Prozessoren.</title>
+<rect width="400" height="470" fill="#fff"/>
+<text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700">Kern, logischer Prozessor, Thread</text>
+<rect x="8" y="44" width="124" height="300" rx="10" fill="#f4f5f7"/>
+<rect x="138" y="44" width="124" height="300" rx="10" fill="#e3ecfb"/>
+<rect x="268" y="44" width="124" height="300" rx="10" fill="#fff4e0"/>
+<g text-anchor="middle">
+<text x="70" y="70" font-size="16" font-weight="700">Kern</text>
+<text x="200" y="66" font-size="15" font-weight="700">logischer</text><text x="200" y="84" font-size="15" font-weight="700">Prozessor</text>
+<text x="330" y="70" font-size="16" font-weight="700">Thread</text>
+<rect x="46" y="96" width="48" height="48" rx="5" fill="#5b6470"/>
+<rect x="176" y="96" width="22" height="48" rx="3" fill="#fff" stroke="#3a6ed8" stroke-width="2" stroke-dasharray="4 2"/><rect x="202" y="96" width="22" height="48" rx="3" fill="#fff" stroke="#3a6ed8" stroke-width="2" stroke-dasharray="4 2"/>
+<path d="M300,120 q8,-12 16,0 t16,0 t16,0" stroke="#E07B00" stroke-width="4" fill="none"/>
+<text x="70" y="172" font-size="13">echte Recheneinheit</text>
+<text x="200" y="172" font-size="13">„Kern“, wie</text><text x="200" y="188" font-size="13">Windows ihn sieht</text>
+<text x="330" y="172" font-size="13">Arbeitsstrang</text><text x="330" y="188" font-size="13">eines Programms</text>
+<text x="70" y="216" font-size="13" font-weight="700" fill="#555">Hardware</text>
+<text x="200" y="216" font-size="13" font-weight="700" fill="#3a6ed8">Hardware-Sicht</text>
+<text x="330" y="216" font-size="13" font-weight="700" fill="#c25e00">Software</text>
+<text x="70" y="246" font-size="13">„Kerne“</text><text x="70" y="264" font-size="13">„Cores“</text>
+<text x="200" y="246" font-size="13">„Logische Proz.“</text><text x="200" y="264" font-size="13" font-weight="700">„Threads“</text>
+<text x="330" y="246" font-size="13">–</text>
+<text x="70" y="316" font-size="26" font-weight="700">14</text>
+<text x="200" y="316" font-size="26" font-weight="700" fill="#3a6ed8">20</text>
+<text x="330" y="316" font-size="26" font-weight="700" fill="#9aa3ad">–</text>
+</g>
+<text x="200" y="364" text-anchor="middle" font-size="13" fill="#555">Zahlen: Laptop aus dem Unterricht</text>
+<rect x="10" y="380" width="380" height="76" rx="10" fill="#fdecec" stroke="#c62828" stroke-width="2"/>
+<text x="200" y="408" text-anchor="middle" font-size="15" font-weight="700" fill="#c62828">Stolperfalle: „Threads“ bei Hardware</text>
+<text x="200" y="434" text-anchor="middle" font-size="15" fill="#c62828">= Zahl der logischen Prozessoren</text>
+</svg>

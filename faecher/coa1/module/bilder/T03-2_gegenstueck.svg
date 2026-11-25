@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 470" font-family="system-ui, sans-serif" fill="#222" role="img">
+<title>Wer ist das Gegenstück? Zwei Spalten Intel und AMD, Zeile für Zeile verbunden: Büro bis Gaming: Core i3 bis i9 gegen Ryzen und Athlon. Workstation: Xeon gegen Threadripper. Server: Xeon gegen EPYC, rot hervorgehoben, beide Server-Reihen. Klein, sparsam, eingebaut: Atom und Quark gegen Ryzen und EPYC Embedded. Unten getrennt ARM: weder Intel noch AMD.</title>
+<rect width="400" height="470" fill="#fff"/>
+<text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700">Wer ist das Gegenstück?</text>
+<text x="110" y="58" text-anchor="middle" font-size="16" font-weight="700" fill="#3a6ed8">Intel</text>
+<text x="290" y="58" text-anchor="middle" font-size="16" font-weight="700" fill="#c62828">AMD</text>
+<g font-size="15" font-weight="700" text-anchor="middle">
+<text x="200" y="84" font-size="13" font-weight="400" fill="#555">Büro bis Gaming</text>
+<rect x="20" y="92" width="150" height="36" rx="8" fill="#e3ecfb"/><text x="95" y="116">Core i3–i9</text>
+<rect x="230" y="92" width="150" height="36" rx="8" fill="#fbe3e3"/><text x="305" y="116">Ryzen, Athlon</text>
+<path d="M170,110 H230" stroke="#555" stroke-width="2"/>
+<text x="200" y="152" font-size="13" font-weight="400" fill="#555">Workstation</text>
+<rect x="20" y="160" width="150" height="36" rx="8" fill="#e3ecfb"/><text x="95" y="184">Xeon</text>
+<rect x="230" y="160" width="150" height="36" rx="8" fill="#fbe3e3"/><text x="305" y="184">Threadripper</text>
+<path d="M170,178 H230" stroke="#555" stroke-width="2"/>
+<text x="200" y="220" font-size="13" font-weight="400" fill="#c25e00">Server</text>
+<rect x="20" y="228" width="150" height="36" rx="8" fill="#fff4e0" stroke="#E07B00" stroke-width="2.5"/><text x="95" y="252">Xeon</text>
+<rect x="230" y="228" width="150" height="36" rx="8" fill="#fff4e0" stroke="#E07B00" stroke-width="2.5"/><text x="305" y="252">EPYC</text>
+<path d="M170,246 H230" stroke="#E07B00" stroke-width="3"/>
+<text x="200" y="288" font-size="13" font-weight="400" fill="#555">klein, sparsam, eingebaut</text>
+<rect x="20" y="296" width="150" height="36" rx="8" fill="#e3ecfb"/><text x="95" y="320">Atom, Quark</text>
+<rect x="230" y="296" width="150" height="36" rx="8" fill="#fbe3e3"/><text x="305" y="314" font-size="14">Ryzen/EPYC</text><text x="305" y="329" font-size="13">Embedded</text>
+<path d="M170,314 H230" stroke="#555" stroke-width="2"/>
+</g>
+<text x="200" y="360" text-anchor="middle" font-size="14" font-weight="700" fill="#c25e00">Xeon und EPYC: beide Server – andere Hersteller</text>
+<rect x="90" y="384" width="220" height="70" rx="10" fill="#f4f5f7" stroke="#9aa3ad" stroke-width="1.5" stroke-dasharray="6 4"/>
+<rect x="106" y="394" width="28" height="50" rx="5" fill="#fff" stroke="#555" stroke-width="2"/>
+<text x="148" y="414" font-size="16" font-weight="700">ARM</text>
+<text x="148" y="436" font-size="14">weder Intel noch AMD</text>
+</svg>

@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 590" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Der Weg der Wärme in einem Tower-PC, seitlich geschnitten. Ein roter Pfeil zeigt fünf Stationen von unten nach oben: 1 Chip (Die), 2 Heatspreader als Metalldeckel, 3 Wärmeleitpaste oder -pad als dünne Schicht, 4 Kühlkörper mit Rippen und Heatpipes, 5 Lüfter. Vom Lüfter führt ein orangefarbener Pfeil zum Gehäuselüfter hinten oben: warme Luft raus. Vorne unten kommen blaue Pfeile herein: kühle Frischluft rein. Unten im Gehäuse heizt die Grafikkarte mit.</title>
+<defs>
+<marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker>
+<marker id="o" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E07B00"/></marker>
+<marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker>
+</defs>
+<rect width="400" height="590" fill="#fff"/>
+<text x="16" y="26" font-size="17" font-weight="700">Der Weg der Wärme</text>
+<text x="396" y="54" font-size="14" font-weight="700" text-anchor="end" fill="#E07B00">warme Luft raus</text>
+
+<!-- Gehäuse -->
+<rect x="30" y="64" width="326" height="496" rx="6" fill="#fafafa" stroke="#555" stroke-width="2.5"/>
+<text x="34" y="580" font-size="13" fill="#666">vorne</text>
+<text x="356" y="580" font-size="13" fill="#666" text-anchor="end">hinten</text>
+
+<!-- Gehäuselüfter hinten oben -->
+<rect x="344" y="72" width="16" height="50" rx="3" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<path d="M346,86 L358,108 M358,86 L346,108" stroke="#3a6ed8" stroke-width="2"/>
+<line x1="362" y1="97" x2="396" y2="97" stroke="#E07B00" stroke-width="4" marker-end="url(#o)"/>
+
+<!-- (5) Lüfter -->
+<rect x="190" y="80" width="100" height="28" rx="5" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<circle cx="240" cy="94" r="10" fill="none" stroke="#3a6ed8" stroke-width="2.5"/>
+<path d="M240,94 L240,85 M240,94 L248,99 M240,94 L232,99" stroke="#3a6ed8" stroke-width="2.5" stroke-linecap="round"/>
+<!-- (4) Kühlkörper mit Rippen + Heatpipes -->
+<g fill="#9aa5b1">
+<rect x="192" y="112" width="6" height="56"/><rect x="204" y="112" width="6" height="56"/><rect x="216" y="112" width="6" height="56"/><rect x="228" y="112" width="6" height="56"/><rect x="240" y="112" width="6" height="56"/><rect x="252" y="112" width="6" height="56"/><rect x="264" y="112" width="6" height="56"/><rect x="276" y="112" width="6" height="56"/>
+</g>
+<path d="M213,174 L213,116 M267,174 L267,116" stroke="#b87333" stroke-width="5" stroke-linecap="round"/>
+<rect x="190" y="168" width="100" height="12" fill="#b87333"/>
+<!-- (3) Paste -->
+<rect x="205" y="180" width="70" height="6" fill="#555"/>
+<!-- (2) Heatspreader -->
+<rect x="205" y="186" width="70" height="14" fill="#c9ced4" stroke="#888" stroke-width="1"/>
+<!-- (1) Die + Träger -->
+<rect x="226" y="200" width="28" height="10" fill="#c62828"/>
+<rect x="198" y="210" width="84" height="10" fill="#2e7d32"/>
+
+<!-- Beschriftungen links -->
+<g font-weight="700">
+<circle cx="50" cy="93" r="10" fill="#c62828"/><text x="50" y="98" text-anchor="middle" fill="#fff" font-size="13">5</text>
+<text x="66" y="98">Lüfter</text>
+<circle cx="50" cy="135" r="10" fill="#c62828"/><text x="50" y="140" text-anchor="middle" fill="#fff" font-size="13">4</text>
+<text x="66" y="140">Kühlkörper</text>
+<text x="66" y="157" font-weight="400">Rippen + Heatpipes</text>
+<circle cx="50" cy="182" r="10" fill="#c62828"/><text x="50" y="187" text-anchor="middle" fill="#fff" font-size="13">3</text>
+<text x="66" y="187">Wärmeleitpaste</text>
+<text x="66" y="204" font-weight="400">oder -pad</text>
+<circle cx="50" cy="228" r="10" fill="#c62828"/><text x="50" y="233" text-anchor="middle" fill="#fff" font-size="13">2</text>
+<text x="66" y="233">Heatspreader</text>
+<circle cx="50" cy="262" r="10" fill="#c62828"/><text x="50" y="267" text-anchor="middle" fill="#fff" font-size="13">1</text>
+<text x="66" y="267">Chip (Die)</text>
+</g>
+<g stroke="#777" stroke-width="1.3" fill="none">
+<path d="M114,93 L188,93"/>
+<path d="M150,135 L190,135"/>
+<path d="M176,182 L204,183"/>
+<path d="M162,228 L196,228 L210,199"/>
+<path d="M140,262 L232,262 L238,211"/>
+</g>
+
+<!-- roter Wärmepfeil -->
+<line x1="306" y1="214" x2="306" y2="104" stroke="#c62828" stroke-width="4" marker-end="url(#r)"/>
+<text x="324" y="160" font-size="14" font-weight="700" fill="#c62828" text-anchor="middle" transform="rotate(-90 324 160)">Wärme</text>
+<!-- orange: vom Lüfter zum Gehäuselüfter -->
+<path d="M292,86 C310,74 324,82 340,92" fill="none" stroke="#E07B00" stroke-width="3.5" marker-end="url(#o)"/>
+
+<!-- Grafikkarte -->
+<rect x="120" y="404" width="210" height="28" rx="4" fill="#555"/>
+<circle cx="180" cy="418" r="9" fill="none" stroke="#bbb" stroke-width="2"/>
+<circle cx="270" cy="418" r="9" fill="none" stroke="#bbb" stroke-width="2"/>
+<path d="M225,398 C240,384 236,368 225,360 C226,372 216,376 214,386 C212,394 218,398 225,398 Z" fill="#c62828"/>
+<text x="120" y="454" font-weight="700">Grafikkarte <tspan fill="#c62828">heizt mit</tspan></text>
+<path d="M318,398 C336,330 336,220 346,130" fill="none" stroke="#E07B00" stroke-width="3" stroke-dasharray="7 5" marker-end="url(#o)"/>
+
+<!-- Frischluft vorne unten -->
+<rect x="26" y="486" width="10" height="56" rx="3" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<line x1="2" y1="500" x2="58" y2="500" stroke="#3a6ed8" stroke-width="4" marker-end="url(#b)"/>
+<line x1="2" y1="528" x2="58" y2="528" stroke="#3a6ed8" stroke-width="4" marker-end="url(#b)"/>
+<path d="M66,480 C80,400 140,320 196,234" fill="none" stroke="#3a6ed8" stroke-width="3" stroke-dasharray="7 5" marker-end="url(#b)"/>
+<text x="70" y="510" font-weight="700" fill="#3a6ed8">kühle Frischluft</text>
+<text x="70" y="528" font-weight="700" fill="#3a6ed8">rein</text>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 440" font-family="system-ui, sans-serif" role="img">
+  <title>Monitor-Anschlüsse: analog gegen digital. Die Grafikkarte rechnet digital. Bei VGA wird das Bild in ein analoges, stufenloses Signal umgewandelt und im Monitor zurückgewandelt; das schadet der Bildqualität. DVI, HDMI und DisplayPort sind digital, ohne Umweg. Auch USB-C kann ein Bildsignal tragen. Passt nichts zusammen, gibt es Adapter in jede Richtung.</title>
+  <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker></defs>
+  <rect width="400" height="440" fill="#fff"/>
+  <text x="200" y="26" text-anchor="middle" font-size="18" font-weight="700" fill="#222">Bildanschlüsse: analog oder digital</text>
+
+  <!-- VGA -->
+  <rect x="8" y="42" width="384" height="168" rx="12" fill="#fdecec" stroke="#d63c3c" stroke-width="2"/>
+  <text x="24" y="68" font-size="16" font-weight="700" fill="#a32020">VGA = analog</text>
+  <rect x="20" y="84" width="76" height="46" rx="4" fill="#3a3f4a"/><text x="58" y="104" text-anchor="middle" font-size="13" fill="#fff">Grafik-</text><text x="58" y="121" text-anchor="middle" font-size="13" fill="#fff">karte</text>
+  <text x="58" y="150" text-anchor="middle" font-size="13" font-weight="700" fill="#222">0101</text>
+  <line x1="100" y1="107" x2="124" y2="107" stroke="#333" stroke-width="3" marker-end="url(#a)"/>
+  <path d="M130,107 q10,-18 20,0 t20,0 t20,0 t20,0 t20,0 t20,0" fill="none" stroke="#d63c3c" stroke-width="3"/>
+  <text x="190" y="146" text-anchor="middle" font-size="13" fill="#a32020">stufenloses Signal</text>
+  <line x1="254" y1="107" x2="278" y2="107" stroke="#333" stroke-width="3" marker-end="url(#a)"/>
+  <rect x="284" y="82" width="96" height="58" rx="4" fill="#3a3f4a"/><rect x="290" y="88" width="84" height="46" fill="#cfd6de"/>
+  <text x="332" y="156" text-anchor="middle" font-size="13" fill="#333">Monitor</text>
+  <text x="200" y="182" text-anchor="middle" font-size="14" font-weight="700" fill="#a32020">umwandeln + zurückwandeln</text>
+  <text x="200" y="200" text-anchor="middle" font-size="14" fill="#a32020">→ schlechteres Bild</text>
+
+  <!-- digital -->
+  <rect x="8" y="222" width="384" height="150" rx="12" fill="#e8f6ee" stroke="#1f9d55" stroke-width="2"/>
+  <text x="24" y="248" font-size="16" font-weight="700" fill="#14653a">digital: kein Umweg</text>
+  <g fill="#fff" stroke="#1f9d55" stroke-width="2"><rect x="24" y="262" width="80" height="32" rx="6"/><rect x="112" y="262" width="80" height="32" rx="6"/><rect x="200" y="262" width="110" height="32" rx="6"/><rect x="24" y="302" width="80" height="32" rx="6"/></g>
+  <g font-size="14" font-weight="700" fill="#14653a" text-anchor="middle"><text x="64" y="283">DVI</text><text x="152" y="283">HDMI</text><text x="255" y="283">DisplayPort</text><text x="64" y="323">USB-C</text></g>
+  <text x="114" y="323" font-size="13" fill="#333">trägt auch ein Bildsignal</text>
+  <text x="24" y="358" font-size="13" font-weight="700" fill="#222">0101 → 0101</text>
+
+  <rect x="8" y="384" width="384" height="46" rx="12" fill="#f3f4f6" stroke="#bbb"/>
+  <text x="200" y="413" text-anchor="middle" font-size="15" font-weight="700" fill="#222">Passt nichts? Adapter in jede Richtung</text>
+</svg>

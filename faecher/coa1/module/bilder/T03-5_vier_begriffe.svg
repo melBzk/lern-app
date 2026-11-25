@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" font-family="system-ui, sans-serif" fill="#222" role="img">
+<title>Vier Begriffe mit Takt und Boost. Turbo Boost oder Turbo Core: die CPU automatisch, Takt rauf, arbeitende Kerne höher, andere schlafen. Übertakten: du von Hand im BIOS, Takt rauf, Multiplikator dauerhaft höher. SpeedStep oder Cool'n'Quiet: die CPU automatisch, Takt und Spannung runter. ReadyBoost: Windows, USB-Stick als Zwischenspeicher für eine langsame Festplatte, hat nichts mit dem Takt zu tun. Unten: Ein USB-Stick als Zusatzspeicher heißt ReadyBoost, nicht Turbo Boost.</title>
+<rect width="400" height="520" fill="#fff"/>
+<text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700">Vier Begriffe mit Takt und „Boost“</text>
+<rect x="10" y="42" width="380" height="88" rx="10" fill="#fff4e0" stroke="#E07B00" stroke-width="2"/>
+<path d="M36,116 V62 M24,76 L36,60 L48,76" stroke="#E07B00" stroke-width="5" fill="none" stroke-linecap="round"/>
+<text x="64" y="66" font-size="16" font-weight="700">Turbo Boost / Turbo Core</text>
+<text x="64" y="90" font-size="14"><tspan font-weight="700">CPU, automatisch</tspan> · Takt rauf</text>
+<text x="64" y="112" font-size="14">arbeitende Kerne höher, andere schlafen</text>
+<rect x="10" y="138" width="380" height="88" rx="10" fill="#f4f5f7" stroke="#c62828" stroke-width="2"/>
+<path d="M36,212 V158 M24,172 L36,156 L48,172" stroke="#c62828" stroke-width="5" fill="none" stroke-linecap="round"/>
+<text x="64" y="162" font-size="16" font-weight="700">Übertakten</text>
+<text x="64" y="186" font-size="14"><tspan font-weight="700">du, von Hand im BIOS</tspan> · Takt rauf</text>
+<text x="64" y="208" font-size="14">Multiplikator dauerhaft höher</text>
+<rect x="10" y="234" width="380" height="88" rx="10" fill="#e3ecfb" stroke="#3a6ed8" stroke-width="2"/>
+<path d="M36,252 V306 M24,292 L36,308 L48,292" stroke="#3a6ed8" stroke-width="5" fill="none" stroke-linecap="round"/>
+<text x="64" y="258" font-size="16" font-weight="700">SpeedStep / Cool'n'Quiet</text>
+<text x="64" y="282" font-size="14"><tspan font-weight="700">CPU, automatisch</tspan> · Takt runter</text>
+<text x="64" y="304" font-size="14">Takt und Spannung sinken</text>
+<rect x="10" y="330" width="380" height="88" rx="10" fill="#fff" stroke="#9aa3ad" stroke-width="2" stroke-dasharray="6 4"/>
+<rect x="22" y="356" width="18" height="38" rx="3" fill="#9aa3ad"/><rect x="26" y="346" width="10" height="10" fill="#555"/>
+<text x="64" y="354" font-size="16" font-weight="700">ReadyBoost</text>
+<text x="64" y="378" font-size="14"><tspan font-weight="700">Windows</tspan> · USB-Stick als Zwischen-</text>
+<text x="64" y="398" font-size="14">speicher für langsame Festplatte</text>
+<text x="376" y="354" text-anchor="end" font-size="14" font-weight="700" fill="#c62828">kein Takt!</text>
+<rect x="10" y="430" width="380" height="78" rx="10" fill="#fdecec" stroke="#c62828" stroke-width="2"/>
+<text x="24" y="456" font-size="15" font-weight="700" fill="#c62828">⚠ USB-Stick als Zusatzspeicher</text>
+<text x="24" y="480" font-size="15">= <tspan font-weight="700">ReadyBoost</tspan>, nicht Turbo Boost</text>
+</svg>

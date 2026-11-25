@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" font-family="system-ui, sans-serif" fill="#222" role="img">
+<title>Die 7 neuen Wörter mit Symbol: Merkmal oder Kenngröße = Eigenschaft zum Vergleichen, z. B. Zahl der Kerne. Datenblatt = technische Daten vom Hersteller. 64-Bit-Prozessor = heute Standard. Befehlssatzerweiterung = Zusatzbefehle, z. B. SSE, AVX2. Sicherheitsmechanismus = Schutz gegen Sicherheitslücken, z. B. NX-Bit. TDP = Wärme in Watt, die die Kühlung schaffen muss. Integrierte Grafik = Grafikchip im Prozessor.</title>
+<rect width="400" height="520" fill="#fff"/>
+<text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700">7 neue Wörter</text>
+<g font-size="13">
+<rect x="10" y="42" width="380" height="62" rx="10" fill="#f4f5f7"/>
+<path d="M26,60 h30 v30 h-30 z" fill="#fff" stroke="#555" stroke-width="2"/><path d="M31,70 h6 M31,80 h6" stroke="#3a6ed8" stroke-width="3"/><path d="M41,70 h10 M41,80 h10" stroke="#555" stroke-width="2"/>
+<text x="72" y="68" font-size="15" font-weight="700">Merkmal / Kenngröße</text><text x="72" y="88">Eigenschaft zum Vergleichen, z. B. Kerne</text>
+<rect x="10" y="110" width="380" height="62" rx="10" fill="#f4f5f7"/>
+<path d="M28,122 h22 l8,8 v30 h-30 z" fill="#fff" stroke="#555" stroke-width="2"/><path d="M33,136 h20 M33,144 h20 M33,152 h14" stroke="#555" stroke-width="1.5"/>
+<text x="72" y="136" font-size="15" font-weight="700">Datenblatt</text><text x="72" y="156">technische Daten vom Hersteller</text>
+<rect x="10" y="178" width="380" height="62" rx="10" fill="#f4f5f7"/>
+<rect x="24" y="192" width="36" height="34" rx="4" fill="#5b6470"/><text x="42" y="214" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">64</text>
+<text x="72" y="204" font-size="15" font-weight="700">64-Bit-Prozessor</text><text x="72" y="224">64-Bit-Architektur, heute Standard</text>
+<rect x="10" y="246" width="380" height="62" rx="10" fill="#f4f5f7"/>
+<rect x="22" y="268" width="40" height="24" rx="3" fill="#fff" stroke="#555" stroke-width="2"/><rect x="22" y="258" width="40" height="10" rx="2" fill="#E07B00"/>
+<text x="72" y="272" font-size="15" font-weight="700">Befehlssatzerweiterung</text><text x="72" y="292">Zusatzbefehle, z. B. SSE, AVX2</text>
+<rect x="10" y="314" width="380" height="62" rx="10" fill="#f4f5f7"/>
+<path d="M42,326 l16,6 v12 c0,10 -8,16 -16,20 c-8,-4 -16,-10 -16,-20 v-12 z" fill="#e3ecfb" stroke="#3a6ed8" stroke-width="2"/>
+<text x="72" y="340" font-size="15" font-weight="700">Sicherheitsmechanismus</text><text x="72" y="360">Schutz gegen Lücken, z. B. NX-Bit</text>
+<rect x="10" y="382" width="380" height="62" rx="10" fill="#f4f5f7"/>
+<path d="M30,428 q-6,-10 0,-20 q6,-10 0,-20 M42,428 q-6,-10 0,-20 q6,-10 0,-20 M54,428 q-6,-10 0,-20 q6,-10 0,-20" stroke="#c62828" stroke-width="2.5" fill="none"/>
+<text x="72" y="408" font-size="15" font-weight="700">TDP</text><text x="72" y="428">Wärme in Watt, die die Kühlung schafft</text>
+<rect x="10" y="450" width="380" height="62" rx="10" fill="#f4f5f7"/>
+<rect x="22" y="462" width="40" height="38" rx="3" fill="#5b6470"/><rect x="42" y="468" width="16" height="26" rx="2" fill="#2f9e44"/>
+<text x="72" y="476" font-size="15" font-weight="700">Integrierte Grafik</text><text x="72" y="496">Grafikchip steckt im Prozessor</text>
+</g>
+</svg>

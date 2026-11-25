@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 448" font-family="system-ui, sans-serif" font-size="14" fill="#222" role="img">
+<title>Oben: Festplatte, Arbeitsspeicher, CPU nebeneinander. Pfeil 1: Ein Programm wird beim Start von der Festplatte in den Arbeitsspeicher geladen. Pfeil 2 in beide Richtungen: Die CPU kann den Arbeitsspeicher lesen und verändern. Unten Tempovergleich: Der Arbeitsspeicher antwortet in Nanosekunden (kurzer Balken), die Festplatte in Millisekunden (langer Balken, nicht maßstäblich). 1 Millisekunde sind 1 Million Nanosekunden.</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker><marker id="o" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E07B00"/></marker><marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6b4f"/></marker><marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker><marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker></defs>
+<rect width="400" height="448" fill="#fff"/>
+<text x="200" y="28" font-size="17" text-anchor="middle" font-weight="700" fill="#222">Warum gerade der Arbeitsspeicher?</text>
+<rect x="10" y="46" width="120" height="108" rx="12" fill="#f1f3f5" stroke="#777" stroke-width="2.5"/>
+<rect x="42" y="66" width="56" height="44" rx="4" fill="#9aa3ad" stroke="#333" stroke-width="1.5"/><circle cx="66" cy="88" r="15" fill="#d0d4d9" stroke="#555" stroke-width="1.5"/><circle cx="66" cy="88" r="3" fill="#555" stroke="none" stroke-width="0"/><line x1="90" y1="102" x2="72" y2="84" stroke="#333" stroke-width="3"/>
+<text x="70" y="140" font-size="14" text-anchor="middle" font-weight="700" fill="#222">Festplatte</text>
+<rect x="140" y="46" width="120" height="108" rx="12" fill="#f3e8fa" stroke="#7b3fa0" stroke-width="2.5"/>
+<rect x="158.0" y="78" width="84" height="20" rx="2" fill="#f3e8fa" stroke="#7b3fa0" stroke-width="1.5"/><rect x="163.0" y="82" width="14.5" height="10" rx="1" fill="#333" stroke="none" stroke-width="0"/><rect x="181.5" y="82" width="14.5" height="10" rx="1" fill="#333" stroke="none" stroke-width="0"/><rect x="200.0" y="82" width="14.5" height="10" rx="1" fill="#333" stroke="none" stroke-width="0"/><rect x="218.5" y="82" width="14.5" height="10" rx="1" fill="#333" stroke="none" stroke-width="0"/><line x1="161.0" y1="96" x2="239.0" y2="96" stroke="#c9a227" stroke-width="2"/>
+<text x="200" y="140" font-size="14" text-anchor="middle" font-weight="700" fill="#7b3fa0">Arbeitsspeicher</text>
+<rect x="270" y="46" width="120" height="108" rx="12" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2.5"/>
+<line x1="316.0" y1="62.0" x2="316.0" y2="68.0" stroke="#555" stroke-width="2"/><line x1="316.0" y1="108.0" x2="316.0" y2="114.0" stroke="#555" stroke-width="2"/><line x1="304.0" y1="74.0" x2="310.0" y2="74.0" stroke="#555" stroke-width="2"/><line x1="350.0" y1="74.0" x2="356.0" y2="74.0" stroke="#555" stroke-width="2"/><line x1="325.3" y1="62.0" x2="325.3" y2="68.0" stroke="#555" stroke-width="2"/><line x1="325.3" y1="108.0" x2="325.3" y2="114.0" stroke="#555" stroke-width="2"/><line x1="304.0" y1="83.3" x2="310.0" y2="83.3" stroke="#555" stroke-width="2"/><line x1="350.0" y1="83.3" x2="356.0" y2="83.3" stroke="#555" stroke-width="2"/><line x1="334.7" y1="62.0" x2="334.7" y2="68.0" stroke="#555" stroke-width="2"/><line x1="334.7" y1="108.0" x2="334.7" y2="114.0" stroke="#555" stroke-width="2"/><line x1="304.0" y1="92.7" x2="310.0" y2="92.7" stroke="#555" stroke-width="2"/><line x1="350.0" y1="92.7" x2="356.0" y2="92.7" stroke="#555" stroke-width="2"/><line x1="344.0" y1="62.0" x2="344.0" y2="68.0" stroke="#555" stroke-width="2"/><line x1="344.0" y1="108.0" x2="344.0" y2="114.0" stroke="#555" stroke-width="2"/><line x1="304.0" y1="102.0" x2="310.0" y2="102.0" stroke="#555" stroke-width="2"/><line x1="350.0" y1="102.0" x2="356.0" y2="102.0" stroke="#555" stroke-width="2"/><rect x="310.0" y="68.0" width="40" height="40" rx="3" fill="#3a6ed8" stroke="#1f3f80" stroke-width="1.5"/><text x="330" y="93.5" font-size="13" text-anchor="middle" font-weight="700" fill="#fff">CPU</text>
+<text x="330" y="140" font-size="14" text-anchor="middle" font-weight="700" fill="#3a6ed8">CPU</text>
+<line x1="108" y1="100" x2="154.5" y2="100.0" stroke="#333" stroke-width="4"/><polygon points="166,100 151.6,107.2 151.6,92.8" fill="#333"/>
+<circle cx="135" cy="176" r="13" fill="#E07B00" stroke="none" stroke-width="0"/><text x="135" y="181" font-size="15" text-anchor="middle" font-weight="700" fill="#fff">1</text>
+<text x="135" y="202" font-size="14" text-anchor="middle" fill="#222">Programm wird beim</text>
+<text x="135" y="220" font-size="14" text-anchor="middle" fill="#222">Start geladen</text>
+<line x1="247.5" y1="100.0" x2="288.5" y2="100.0" stroke="#333" stroke-width="4"/><polygon points="300,100 285.6,107.2 285.6,92.8" fill="#333"/><polygon points="236,100 250.4,92.8 250.4,107.2" fill="#333"/>
+<circle cx="265" cy="176" r="13" fill="#E07B00" stroke="none" stroke-width="0"/><text x="265" y="181" font-size="15" text-anchor="middle" font-weight="700" fill="#fff">2</text>
+<text x="300" y="202" font-size="14" text-anchor="middle" fill="#222">CPU kann lesen</text>
+<text x="300" y="220" font-size="14" text-anchor="middle" fill="#222">und verändern</text>
+<text x="200" y="252" font-size="16" text-anchor="middle" font-weight="700" fill="#222">So schnell antworten sie</text>
+<rect x="10" y="266" width="380" height="64" rx="12" fill="#f3e8fa" stroke="#7b3fa0" stroke-width="2.5"/>
+<text x="24" y="294" font-size="15" font-weight="700" fill="#7b3fa0">Arbeitsspeicher</text>
+<text x="24" y="316" font-size="15" font-weight="700" fill="#222">Nanosekunden</text>
+<rect x="220" y="288" width="6" height="22" rx="2" fill="#7b3fa0" stroke="none" stroke-width="0"/>
+<rect x="10" y="340" width="380" height="64" rx="12" fill="#f1f3f5" stroke="#777" stroke-width="2.5"/>
+<text x="24" y="368" font-size="15" font-weight="700" fill="#444">Festplatte</text>
+<text x="24" y="390" font-size="15" font-weight="700" fill="#222">Millisekunden</text>
+<rect x="220" y="362" width="160" height="22" rx="2" fill="#9aa3ad" stroke="none" stroke-width="0"/>
+<text x="300" y="378" font-size="13" text-anchor="middle" font-weight="700" fill="#fff">viel länger</text>
+<text x="300" y="399" font-size="13" text-anchor="middle" fill="#444">(nicht maßstäblich)</text>
+<text x="200" y="430" font-size="15" text-anchor="middle" font-weight="700" fill="#a85400">1 Millisekunde = 1 Million Nanosekunden</text>
+</svg>

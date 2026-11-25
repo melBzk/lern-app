@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 470" font-family="system-ui, sans-serif" fill="#222" role="img">
+<title>Die Intel-Reihen als Stufen von klein nach groß: Quark, 1 Kern, Mikrocontroller, für IoT-Geräte. Atom, z. B. Atom X, für Mobilgeräte, Embedded Systems und sparsame Server. Core i3, i5, i7, i9 für einfache Büroarbeit bis High-End-Gaming – nicht nur Heim und Büro. Xeon, z. B. Xeon W und Xeon E, für Server und Workstations.</title>
+<rect width="400" height="470" fill="#fff"/>
+<text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700">Die Intel-Reihen</text>
+<rect x="10" y="44" width="380" height="82" rx="10" fill="#f4f5f7"/>
+<rect x="24" y="72" width="22" height="22" fill="#5b6470"/>
+<text x="60" y="72" font-size="16" font-weight="700">Quark</text>
+<text x="60" y="94" font-size="14">1 Kern, Mikrocontroller</text>
+<text x="60" y="114" font-size="14" font-weight="700" fill="#3a6ed8">→ IoT-Geräte</text>
+<rect x="10" y="134" width="380" height="82" rx="10" fill="#f4f5f7"/>
+<rect x="22" y="148" width="28" height="44" rx="4" fill="#fff" stroke="#555" stroke-width="2"/><rect x="26" y="154" width="20" height="30" fill="#cfd6dd"/>
+<text x="60" y="162" font-size="16" font-weight="700">Atom <tspan font-size="14" font-weight="400">(z. B. Atom X)</tspan></text>
+<text x="60" y="184" font-size="14" font-weight="700" fill="#3a6ed8">→ Mobilgeräte, Embedded,</text>
+<text x="60" y="204" font-size="14" font-weight="700" fill="#3a6ed8">sparsame Server</text>
+<rect x="10" y="224" width="380" height="128" rx="10" fill="#e3ecfb" stroke="#3a6ed8" stroke-width="2"/>
+<text x="24" y="250" font-size="16" font-weight="700">Core</text>
+<rect x="80" y="264" width="60" height="26" rx="4" fill="#9db7ea"/><rect x="146" y="256" width="60" height="34" rx="4" fill="#6f95e0"/><rect x="212" y="246" width="60" height="44" rx="4" fill="#4a78d8"/><rect x="278" y="236" width="60" height="54" rx="4" fill="#2a56b0"/>
+<text x="110" y="283" text-anchor="middle" font-size="14" font-weight="700">i3</text><text x="176" y="283" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">i5</text><text x="242" y="283" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">i7</text><text x="308" y="283" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">i9</text>
+<text x="24" y="314" font-size="14" font-weight="700" fill="#3a6ed8">→ einfache Büroarbeit bis High-End-Gaming</text>
+<text x="24" y="338" font-size="14" fill="#c62828" font-weight="700">⚠ nicht nur Heim und Büro</text>
+<rect x="10" y="360" width="380" height="98" rx="10" fill="#f4f5f7"/>
+<rect x="24" y="374" width="30" height="66" rx="3" fill="#fff" stroke="#555" stroke-width="2"/><path d="M29,388 H49 M29,402 H49 M29,416 H49 M29,430 H49" stroke="#555" stroke-width="2"/>
+<text x="68" y="390" font-size="16" font-weight="700">Xeon <tspan font-size="14" font-weight="400">(z. B. Xeon W, Xeon E)</tspan></text>
+<text x="68" y="418" font-size="14" font-weight="700" fill="#3a6ed8">→ Server und Workstations</text>
+</svg>

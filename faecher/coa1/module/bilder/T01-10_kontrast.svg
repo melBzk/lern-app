@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" font-family="system-ui, sans-serif" role="img">
+  <title>Kontrast: das hellste gegen das dunkelste Pixel. 1000 zu 1 heißt: Weiß ist 1000-mal so hell wie Schwarz. TN und IPS schaffen etwa 1000 zu 1, VA sogar 3000 zu 1, das Schwarz wirkt dort am tiefsten. Je höher der Kontrast, desto besser unterscheidest du ähnliche Farben.</title>
+  <rect width="400" height="400" fill="#fff"/>
+  <text x="200" y="26" text-anchor="middle" font-size="18" font-weight="700" fill="#222">Kontrast: hell gegen dunkel</text>
+  <text x="200" y="50" text-anchor="middle" font-size="14" fill="#333">1000:1 = Weiß 1000-mal so hell wie Schwarz</text>
+
+  <!-- TN/IPS -->
+  <rect x="14" y="70" width="176" height="120" rx="6" fill="#3a3f4a"/>
+  <rect x="22" y="78" width="80" height="104" fill="#fff"/><rect x="102" y="78" width="80" height="104" fill="#2b2b2b"/>
+  <text x="102" y="220" text-anchor="middle" font-size="16" font-weight="700" fill="#222">TN, IPS</text>
+  <text x="102" y="244" text-anchor="middle" font-size="18" font-weight="700" fill="#222">≈ 1000:1</text>
+
+  <!-- VA -->
+  <rect x="210" y="70" width="176" height="120" rx="6" fill="#3a3f4a"/>
+  <rect x="218" y="78" width="80" height="104" fill="#fff"/><rect x="298" y="78" width="80" height="104" fill="#000"/>
+  <text x="298" y="220" text-anchor="middle" font-size="16" font-weight="700" fill="#b35f00">VA</text>
+  <text x="298" y="244" text-anchor="middle" font-size="18" font-weight="700" fill="#b35f00">3000:1</text>
+
+  <rect x="8" y="270" width="384" height="116" rx="12" fill="#fff4e5" stroke="#E07B00" stroke-width="2"/>
+  <text x="200" y="298" text-anchor="middle" font-size="15" font-weight="700" fill="#b35f00">höherer Kontrast</text>
+  <text x="200" y="322" text-anchor="middle" font-size="15" fill="#222">= ähnliche Farben besser unterscheiden</text>
+  <rect x="140" y="340" width="56" height="30" fill="#5c6b7a"/><rect x="204" y="340" width="56" height="30" fill="#66788a"/>
+</svg>

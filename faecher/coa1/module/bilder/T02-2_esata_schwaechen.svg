@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 370" font-family="system-ui, sans-serif" fill="#222" role="img">
+<title>Drei Schwächen von eSATA laut Buch. 1: Kein Strom, die externe Platte braucht eine eigene Stromversorgung. 2: Hot-Plugging macht oft Probleme, schlimmstenfalls erkennt der PC das Gerät erst nach einem Neustart. 3: Weniger bequem als USB. Ergebnis: USB war überall verbreitet, eSATA setzte sich nicht durch, externe Platten hängen heute an USB.</title>
+<rect width="400" height="370" fill="#fff"/>
+<text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700">Warum eSATA verschwand</text>
+<g fill="#f4f1ee"><rect x="10" y="42" width="380" height="70" rx="10"/><rect x="10" y="118" width="380" height="70" rx="10"/><rect x="10" y="194" width="380" height="70" rx="10"/></g>
+<g font-size="14" font-weight="700" fill="#fff" text-anchor="middle">
+<circle cx="32" cy="77" r="12" fill="#D4607A"/><text x="32" y="82">1</text>
+<circle cx="32" cy="153" r="12" fill="#D4607A"/><text x="32" y="158">2</text>
+<circle cx="32" cy="229" r="12" fill="#D4607A"/><text x="32" y="234">3</text>
+</g>
+<!-- 1 kein Strom -->
+<path d="M68,58 L56,80 H66 L60,98 L78,72 H68 L74,58 Z" fill="#e0a54a"/>
+<line x1="52" y1="96" x2="84" y2="60" stroke="#c62828" stroke-width="3.5"/>
+<text x="100" y="72" font-size="15" font-weight="700">kein Strom</text>
+<text x="100" y="94" font-size="13">Platte braucht eigene Stromversorgung</text>
+<!-- 2 Hot-Plugging -->
+<path d="M70,138 A14,14 0 1 1 56,152" fill="none" stroke="#555" stroke-width="3"/><path d="M50,148 L56,156 L62,148" fill="none" stroke="#555" stroke-width="3"/>
+<text x="100" y="148" font-size="15" font-weight="700">Hot-Plugging macht oft Ärger</text>
+<text x="100" y="170" font-size="13">im schlimmsten Fall erst nach Neustart</text>
+<!-- 3 unbequem -->
+<text x="68" y="238" text-anchor="middle" font-size="26" font-weight="700" fill="#555">−</text>
+<text x="100" y="224" font-size="15" font-weight="700">weniger bequem als USB</text>
+<text x="100" y="246" font-size="13">USB: etwas Strom, überall verbreitet</text>
+<!-- Ergebnis -->
+<line x1="200" y1="270" x2="200" y2="290" stroke="#555" stroke-width="3"/><polygon points="192,288 208,288 200,298" fill="#555"/>
+<rect x="30" y="302" width="340" height="56" rx="12" fill="#eaf6ec" stroke="#2e9d5b" stroke-width="2.5"/>
+<text x="200" y="326" text-anchor="middle" font-size="15" font-weight="700">eSATA setzte sich nicht durch</text>
+<text x="200" y="346" text-anchor="middle" font-size="13">externe Platten heute an <tspan font-weight="700" fill="#1f7a45">USB</tspan></text>
+</svg>

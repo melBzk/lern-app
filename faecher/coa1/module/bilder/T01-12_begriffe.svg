@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 488" font-family="system-ui, sans-serif" role="img">
+  <title>Die 8 neuen Wörter als Bildkacheln, Prüfzeichen als schlichte Textschilder. Ergonomie: Arbeitsplatz passt zum Menschen. CE: EU-Regeln zur elektromagnetischen Verträglichkeit. GS: geprüfte Sicherheit, freiwillig. TCO: Prüfsiegel für Monitore. ISO 9241: Norm für gute Bildschirmarbeit. Energy Star: Stromspar-Zeichen aus den USA. Ozon: Gas aus älteren Laserdruckern. Acoustic Management: Festplatte leiser, aber langsamer.</title>
+  <rect width="400" height="488" fill="#fff"/>
+  <text x="200" y="26" text-anchor="middle" font-size="18" font-weight="700" fill="#222">Die 8 neuen Wörter</text>
+
+  <g transform="translate(8,40)"><rect fill="#f3f4f6" stroke="#bbb" width="188" height="104" rx="10"/>
+    <circle cx="72" cy="14" r="7" fill="#3a3f4a"/><path d="M72,22 v16 h14 v14" fill="none" stroke="#3a3f4a" stroke-width="5" stroke-linecap="round"/>
+    <rect x="58" y="36" width="8" height="18" fill="#9aa3ae"/>
+    <rect x="102" y="10" width="34" height="24" rx="2" fill="#3a3f4a"/><rect x="96" y="40" width="48" height="4" fill="#c9a77c"/>
+    <text font-size="15" font-weight="700" fill="#222" text-anchor="middle" x="94" y="74">Ergonomie</text><text font-size="13" fill="#333" text-anchor="middle" x="94" y="93">passt zum Menschen</text></g>
+
+  <g transform="translate(204,40)"><rect fill="#f3f4f6" stroke="#bbb" width="188" height="104" rx="10"/>
+    <rect fill="#fff" stroke="#222" stroke-width="1.5" x="64" y="12" width="60" height="32" rx="4"/><text font-size="15" font-weight="700" fill="#222" text-anchor="middle" x="94" y="34">CE</text>
+    <text font-size="15" font-weight="700" fill="#222" text-anchor="middle" x="94" y="74">CE</text><text font-size="13" fill="#333" text-anchor="middle" x="94" y="93">EU-Regeln zur EMV</text></g>
+
+  <g transform="translate(8,152)"><rect fill="#f3f4f6" stroke="#bbb" width="188" height="104" rx="10"/>
+    <rect fill="#fff" stroke="#222" stroke-width="1.5" x="64" y="12" width="60" height="32" rx="4"/><text font-size="15" font-weight="700" fill="#222" text-anchor="middle" x="94" y="34">GS</text>
+    <text font-size="15" font-weight="700" fill="#222" text-anchor="middle" x="94" y="74">GS</text><text font-size="13" fill="#333" text-anchor="middle" x="94" y="93">geprüfte Sicherheit, freiwillig</text></g>
+
+  <g transform="translate(204,152)"><rect fill="#f3f4f6" stroke="#bbb" width="188" height="104" rx="10"/>
+    <rect x="52" y="8" width="56" height="38" rx="3" fill="#3a3f4a"/><rect x="56" y="12" width="48" height="30" fill="#dbeefc"/>
+    <rect fill="#fff" stroke="#222" stroke-width="1.5" x="98" y="26" width="46" height="26" rx="4"/><text font-size="15" font-weight="700" fill="#222" text-anchor="middle" x="121" y="45">TCO</text>
+    <text font-size="15" font-weight="700" fill="#222" text-anchor="middle" x="94" y="74">TCO</text><text font-size="13" fill="#333" text-anchor="middle" x="94" y="93">Siegel für Monitore</text></g>
+
+  <g transform="translate(8,264)"><rect fill="#f3f4f6" stroke="#bbb" width="188" height="104" rx="10"/>
+    <rect fill="#fff" stroke="#222" stroke-width="1.5" x="54" y="12" width="80" height="32" rx="4"/><text font-size="15" font-weight="700" fill="#222" text-anchor="middle" x="94" y="34">ISO 9241</text>
+    <text font-size="15" font-weight="700" fill="#222" text-anchor="middle" x="94" y="74">ISO 9241</text><text font-size="13" fill="#333" text-anchor="middle" x="94" y="93">Norm Bildschirmarbeit</text></g>
+
+  <g transform="translate(204,264)"><rect fill="#f3f4f6" stroke="#bbb" width="188" height="104" rx="10"/>
+    <rect fill="#fff" stroke="#222" stroke-width="1.5" x="44" y="12" width="100" height="32" rx="4"/><text font-size="15" font-weight="700" fill="#222" text-anchor="middle" x="94" y="34">Energy Star</text>
+    <text font-size="15" font-weight="700" fill="#222" text-anchor="middle" x="94" y="74">Energy Star</text><text font-size="13" fill="#333" text-anchor="middle" x="94" y="93">Strom sparen (USA)</text></g>
+
+  <g transform="translate(8,376)"><rect fill="#f3f4f6" stroke="#bbb" width="188" height="104" rx="10"/>
+    <g fill="#1fa3c9"><circle cx="76" cy="34" r="11"/><circle cx="94" cy="20" r="11"/><circle cx="112" cy="34" r="11"/></g>
+    <text x="94" y="25" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">O</text><text x="76" y="39" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">O</text><text x="112" y="39" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">O</text>
+    <text font-size="15" font-weight="700" fill="#222" text-anchor="middle" x="94" y="74">Ozon</text><text font-size="13" fill="#333" text-anchor="middle" x="94" y="93">Gas, alter Laserdrucker</text></g>
+
+  <g transform="translate(204,376)"><rect fill="#f3f4f6" stroke="#bbb" width="188" height="104" rx="10"/>
+    <rect x="52" y="10" width="44" height="40" rx="4" fill="#3a3f4a"/><circle cx="74" cy="30" r="13" fill="#9aa3ae"/><circle cx="74" cy="30" r="3" fill="#3a3f4a"/>
+    <path d="M104,24 q4,6 0,12" fill="none" stroke="#9aa3ae" stroke-width="2"/>
+    <text x="114" y="35" font-size="13" font-weight="700" fill="#b35f00">leiser</text>
+    <text font-size="15" font-weight="700" fill="#222" text-anchor="middle" x="94" y="74">Acoustic Management</text><text font-size="13" fill="#333" text-anchor="middle" x="94" y="93">leiser, aber langsamer</text></g>
+</svg>

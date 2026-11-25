@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 540" font-family="system-ui, sans-serif" font-size="14" fill="#222">
+<title>Vier Paare. Erstens: Wer startet zuerst? Nummer 1 BIOS im ROM auf dem Mainboard, startet den PC; Nummer 2 das Betriebssystem, zum Beispiel Windows, wird danach geladen. Zweitens: Schnittstelle für wen? GUI: Mensch und Programm; API: Programm und Programm. Drittens: Bild oder Text? Scannen ergibt ein Bild; OCR ergibt Text. Viertens: zwei Wörter, ein Ding: KI auf Deutsch ist gleich AI auf Englisch.</title>
+<defs><marker id="ad" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker></defs>
+<rect width="400" height="540" fill="#fff"/>
+<!-- 1 -->
+<text x="200" y="24" text-anchor="middle" font-size="15" font-weight="700" fill="#555">Wer startet zuerst?</text>
+<rect x="15" y="38" width="150" height="76" rx="8" fill="#fff4e5" stroke="#E07B00" stroke-width="2.5"/>
+<circle cx="36" cy="58" r="12" fill="#E07B00"/><text x="36" y="63" text-anchor="middle" font-weight="700" fill="#fff">1</text>
+<text x="100" y="64" text-anchor="middle" font-size="16" font-weight="700">BIOS</text>
+<text x="90" y="88" text-anchor="middle" font-size="13">im ROM auf dem</text>
+<text x="90" y="104" text-anchor="middle" font-size="13">Mainboard</text>
+<line x1="170" y1="76" x2="228" y2="76" stroke="#555" stroke-width="3" marker-end="url(#ad)"/>
+<text x="199" y="68" text-anchor="middle" font-size="13" fill="#555">dann</text>
+<rect x="235" y="38" width="150" height="76" rx="8" fill="#eef4fd" stroke="#3a6ed8" stroke-width="2"/>
+<circle cx="256" cy="58" r="12" fill="#3a6ed8"/><text x="256" y="63" text-anchor="middle" font-weight="700" fill="#fff">2</text>
+<text x="318" y="64" text-anchor="middle" font-size="15" font-weight="700">Betriebs-</text>
+<text x="318" y="82" text-anchor="middle" font-size="15" font-weight="700">system</text>
+<text x="310" y="104" text-anchor="middle" font-size="13">z. B. Windows</text>
+<line x1="15" y1="132" x2="385" y2="132" stroke="#ddd" stroke-width="1.5"/>
+<!-- 2 -->
+<text x="200" y="158" text-anchor="middle" font-size="15" font-weight="700" fill="#555">Schnittstelle für wen?</text>
+<g transform="translate(100,200)"><circle cx="-34" cy="-8" r="7" fill="#555"/><path d="M-46,14 Q-46,0 -34,0 Q-22,0 -22,14 Z" fill="#555"/><line x1="-16" y1="2" x2="12" y2="2" stroke="#555" stroke-width="2.5" marker-start="url(#ad)" marker-end="url(#ad)"/><rect x="18" y="-12" width="30" height="26" rx="2" fill="#dfe9fb" stroke="#3a6ed8" stroke-width="1.5"/><rect x="18" y="-12" width="30" height="6" fill="#3a6ed8"/></g>
+<text x="100" y="244" text-anchor="middle" font-size="13"><tspan font-weight="700" fill="#1d3f8a">GUI</tspan>: Mensch ↔ Programm</text>
+<text x="200" y="210" text-anchor="middle" font-size="26" font-weight="700" fill="#c62828">≠</text>
+<g transform="translate(300,200)"><rect x="-48" y="-12" width="26" height="26" rx="3" fill="#3a3f4a"/><line x1="-16" y1="2" x2="16" y2="2" stroke="#E07B00" stroke-width="2.5" marker-start="url(#ad)" marker-end="url(#ad)"/><rect x="22" y="-12" width="26" height="26" rx="3" fill="#3a3f4a"/></g>
+<text x="300" y="244" text-anchor="middle" font-size="13"><tspan font-weight="700" fill="#1d3f8a">API</tspan>: Programm ↔ Programm</text>
+<line x1="15" y1="266" x2="385" y2="266" stroke="#ddd" stroke-width="1.5"/>
+<!-- 3 -->
+<text x="200" y="292" text-anchor="middle" font-size="15" font-weight="700" fill="#555">Bild oder Text?</text>
+<g transform="translate(100,334)"><rect x="-22" y="-22" width="44" height="40" fill="#e9e9e9" stroke="#333" stroke-width="1.5"/><g fill="#555"><rect x="-16" y="-14" width="4" height="4"/><rect x="-10" y="-14" width="4" height="4"/><rect x="-4" y="-14" width="4" height="4"/><rect x="2" y="-14" width="4" height="4"/><rect x="-16" y="-6" width="4" height="4"/><rect x="-4" y="-6" width="4" height="4"/><rect x="8" y="-6" width="4" height="4"/><rect x="-16" y="2" width="4" height="4"/><rect x="-10" y="2" width="4" height="4"/><rect x="2" y="2" width="4" height="4"/></g></g>
+<text x="100" y="378" text-anchor="middle"><tspan font-weight="700">Scannen</tspan> → Bild</text>
+<text x="200" y="344" text-anchor="middle" font-size="26" font-weight="700" fill="#c62828">≠</text>
+<g transform="translate(300,334)"><rect x="-22" y="-22" width="44" height="40" fill="#fff" stroke="#3a6ed8" stroke-width="1.5"/><text x="-2" y="4" text-anchor="middle" font-size="18" font-weight="700" fill="#1d3f8a">Ab</text><line x1="14" y1="-10" x2="14" y2="10" stroke="#1d3f8a" stroke-width="2"/></g>
+<text x="300" y="378" text-anchor="middle"><tspan font-weight="700" fill="#a85a00">OCR</tspan> → Text</text>
+<line x1="15" y1="400" x2="385" y2="400" stroke="#ddd" stroke-width="1.5"/>
+<!-- 4 -->
+<text x="200" y="426" text-anchor="middle" font-size="15" font-weight="700" fill="#555">Zwei Wörter, ein Ding</text>
+<text x="100" y="476" text-anchor="middle" font-size="30" font-weight="700" fill="#5a2f94">KI</text>
+<text x="100" y="500" text-anchor="middle" font-size="13">deutsch</text>
+<text x="200" y="476" text-anchor="middle" font-size="30" font-weight="700" fill="#2e9d5b">=</text>
+<text x="300" y="476" text-anchor="middle" font-size="30" font-weight="700" fill="#5a2f94">AI</text>
+<text x="300" y="500" text-anchor="middle" font-size="13">englisch</text>
+<text x="200" y="526" text-anchor="middle" font-size="13" fill="#555">künstliche Intelligenz · Artificial Intelligence</text>
+</svg>

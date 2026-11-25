@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 490" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Büro im Querschnitt als Vergleich: Der Zettel in der Hand ist L1, der Ordner auf dem Schreibtisch L2, das Regal, aus dem auch zwei Kollegen nehmen, ist L3 – alle teilen. Durch die Tür liegt das Archiv im Flur, das ist der RAM; über ihm eine Glühbirne: Licht aus = Archiv leer. Eine Treppe führt hinunter ins Kellerlager, das ist die Festplatte oder SSD.</title>
+<rect width="400" height="490" fill="#fff"/>
+<text x="200" y="26" font-size="17" text-anchor="middle" font-weight="700">Speicher wie ein Büro</text>
+<!-- Räume oben -->
+<rect x="10" y="40" width="380" height="250" fill="#fbfaf8" stroke="#555" stroke-width="2"/>
+<line x1="250" y1="40" x2="250" y2="190" stroke="#555" stroke-width="4"/>
+<rect x="252" y="42" width="136" height="246" fill="#f3f6fc"/>
+<text x="20" y="60" font-size="13" fill="#555">Büro</text>
+<text x="380" y="60" font-size="13" text-anchor="end" fill="#555">Archiv im Flur</text>
+<!-- Regal L3 -->
+<text x="20" y="90" font-size="15" font-weight="700" fill="#3a6ed8">L3 – alle teilen</text>
+<rect x="22" y="100" width="60" height="188" fill="#e8dccb" stroke="#8a6d4b" stroke-width="2"/>
+<line x1="22" y1="146" x2="82" y2="146" stroke="#8a6d4b" stroke-width="2"/>
+<line x1="22" y1="192" x2="82" y2="192" stroke="#8a6d4b" stroke-width="2"/>
+<line x1="22" y1="238" x2="82" y2="238" stroke="#8a6d4b" stroke-width="2"/>
+<rect x="28" y="118" width="9" height="28" fill="#7ea0e8"/><rect x="39" y="122" width="9" height="24" fill="#a3bcf0"/><rect x="50" y="116" width="9" height="30" fill="#7ea0e8"/><rect x="64" y="120" width="9" height="26" fill="#a3bcf0"/>
+<rect x="28" y="164" width="9" height="28" fill="#a3bcf0"/><rect x="39" y="166" width="9" height="26" fill="#7ea0e8"/><rect x="54" y="162" width="9" height="30" fill="#a3bcf0"/><rect x="65" y="168" width="9" height="24" fill="#7ea0e8"/>
+<rect x="28" y="210" width="9" height="28" fill="#7ea0e8"/><rect x="41" y="212" width="9" height="26" fill="#a3bcf0"/><rect x="52" y="208" width="9" height="30" fill="#7ea0e8"/>
+<!-- zwei Kollegen am Regal -->
+<g stroke="#777" stroke-width="3" fill="none" stroke-linecap="round">
+<circle cx="102" cy="208" r="9" fill="#ddd"/>
+<line x1="102" y1="217" x2="102" y2="256"/><line x1="102" y1="230" x2="84" y2="214"/><line x1="102" y1="230" x2="114" y2="246"/>
+<line x1="102" y1="256" x2="94" y2="287"/><line x1="102" y1="256" x2="110" y2="287"/>
+<circle cx="130" cy="212" r="9" fill="#ddd"/>
+<line x1="130" y1="221" x2="130" y2="258"/><line x1="130" y1="232" x2="86" y2="226"/><line x1="130" y1="232" x2="140" y2="250"/>
+<line x1="130" y1="258" x2="122" y2="287"/><line x1="130" y1="258" x2="138" y2="287"/>
+</g>
+<!-- Person mit Zettel -->
+<g stroke="#222" stroke-width="3.5" fill="none" stroke-linecap="round">
+<circle cx="214" cy="172" r="11" fill="#f4d9b8"/>
+<line x1="214" y1="183" x2="214" y2="240"/>
+<line x1="214" y1="198" x2="232" y2="156"/>
+<line x1="214" y1="198" x2="196" y2="226"/>
+<line x1="214" y1="240" x2="206" y2="287"/><line x1="214" y1="240" x2="222" y2="287"/>
+</g>
+<rect x="226" y="128" width="20" height="26" fill="#fff" stroke="#E07B00" stroke-width="2.5"/>
+<line x1="230" y1="136" x2="242" y2="136" stroke="#888" stroke-width="1.5"/><line x1="230" y1="142" x2="242" y2="142" stroke="#888" stroke-width="1.5"/>
+<text x="236" y="120" font-size="16" text-anchor="middle" font-weight="700" fill="#E07B00">L1</text>
+<!-- Schreibtisch mit Ordner -->
+<rect x="150" y="232" width="96" height="7" fill="#8a6d4b"/>
+<line x1="156" y1="239" x2="156" y2="288" stroke="#8a6d4b" stroke-width="4"/>
+<line x1="240" y1="239" x2="240" y2="288" stroke="#8a6d4b" stroke-width="4"/>
+<rect x="158" y="206" width="26" height="26" rx="2" fill="#5b86e0" stroke="#2b56b8" stroke-width="1.5"/>
+<rect x="165" y="214" width="12" height="6" fill="#fff"/>
+<text x="171" y="199" font-size="15" text-anchor="middle" font-weight="700" fill="#3a6ed8">L2</text>
+<!-- Archiv: Glühbirne -->
+<line x1="276" y1="42" x2="276" y2="66" stroke="#555" stroke-width="1.5"/>
+<rect x="271" y="66" width="10" height="7" fill="#888"/>
+<circle cx="276" cy="83" r="11" fill="#f7d154" stroke="#a88a10" stroke-width="1.5"/>
+<text x="294" y="82" font-size="13" font-weight="700" fill="#c62828">Licht aus =</text>
+<text x="294" y="98" font-size="13" font-weight="700" fill="#c62828">Archiv leer</text>
+<text x="292" y="130" font-size="20" text-anchor="middle" font-weight="700">RAM</text>
+<!-- Archiv-Regal -->
+<rect x="262" y="140" width="60" height="148" fill="#e8dccb" stroke="#8a6d4b" stroke-width="2"/>
+<line x1="262" y1="188" x2="322" y2="188" stroke="#8a6d4b" stroke-width="2"/>
+<line x1="262" y1="238" x2="322" y2="238" stroke="#8a6d4b" stroke-width="2"/>
+<rect x="266" y="166" width="24" height="22" fill="#c8a27a" stroke="#8a6d4b"/><rect x="294" y="166" width="24" height="22" fill="#c8a27a" stroke="#8a6d4b"/>
+<rect x="266" y="216" width="24" height="22" fill="#c8a27a" stroke="#8a6d4b"/><rect x="294" y="216" width="24" height="22" fill="#c8a27a" stroke="#8a6d4b"/>
+<rect x="266" y="266" width="24" height="22" fill="#c8a27a" stroke="#8a6d4b"/><rect x="294" y="266" width="24" height="22" fill="#c8a27a" stroke="#8a6d4b"/>
+<!-- Boden mit Treppenöffnung -->
+<rect x="10" y="288" width="320" height="12" fill="#aaa"/>
+<!-- Keller -->
+<rect x="10" y="300" width="380" height="172" fill="#efe9e1" stroke="#555" stroke-width="2"/>
+<path d="M390,300 L370,300 L370,321 L350,321 L350,342 L330,342 L330,363 L310,363 L310,384 L290,384 L290,405 L270,405 L270,426 L250,426 L250,447 L230,447 L230,471 L389,471 L389,300 Z" fill="#c9c3bd" stroke="#555" stroke-width="1.5"/>
+<rect x="332" y="284" width="56" height="18" fill="#efe9e1"/>
+<line x1="330" y1="270" x2="388" y2="270" stroke="#8a6d4b" stroke-width="2"/>
+<line x1="334" y1="270" x2="334" y2="288" stroke="#8a6d4b" stroke-width="2"/>
+<text x="20" y="322" font-size="13" fill="#555">Kellerlager</text>
+<text x="112" y="358" font-size="16" text-anchor="middle" font-weight="700">Festplatte / SSD</text>
+<g fill="#c8a27a" stroke="#8a6d4b" stroke-width="1.5">
+<rect x="24" y="436" width="34" height="34"/><rect x="60" y="436" width="34" height="34"/><rect x="96" y="436" width="34" height="34"/><rect x="132" y="436" width="34" height="34"/><rect x="168" y="436" width="34" height="34"/>
+<rect x="24" y="400" width="34" height="34"/><rect x="60" y="400" width="34" height="34"/><rect x="96" y="400" width="34" height="34"/><rect x="132" y="400" width="34" height="34"/><rect x="168" y="400" width="34" height="34"/>
+<rect x="24" y="366" width="34" height="34"/><rect x="60" y="366" width="34" height="34"/><rect x="132" y="366" width="34" height="34"/><rect x="168" y="366" width="34" height="34"/>
+</g>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 424" font-family="system-ui, sans-serif" font-size="14" fill="#222" role="img">
+<title>Oben zwei Eingabegeräte: Mikrofon nimmt Ton auf, Webcam nimmt Bild und Video auf. Unten das Headset als Kopfhörer plus Mikrofon: Die Hörer sind Ausgabe (oranger Pfeil hinaus), das Mikrofon ist Eingabe (grüner Pfeil hinein).</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker><marker id="o" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E07B00"/></marker><marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6b4f"/></marker><marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker><marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker></defs>
+<rect width="400" height="424" fill="#fff"/>
+<text x="200" y="28" font-size="17" text-anchor="middle" font-weight="700" fill="#222">Ton und Bild hinein</text>
+<rect x="10" y="44" width="185" height="150" rx="12" fill="#e3f0e9" stroke="#2f6b4f" stroke-width="2.5"/>
+<rect x="94" y="74" width="16" height="26" rx="8" fill="#555" stroke="#333" stroke-width="1.5"/><path d="M88,94 Q88,110 102,110 Q116,110 116,94" fill="none" stroke="#333" stroke-width="2"/><line x1="102" y1="110" x2="102" y2="118" stroke="#333" stroke-width="2"/><line x1="92" y1="118" x2="112" y2="118" stroke="#333" stroke-width="2.5"/>
+<text x="102" y="150" font-size="15" text-anchor="middle" font-weight="700" fill="#2f6b4f">Mikrofon</text>
+<text x="102" y="172" font-size="13" text-anchor="middle" fill="#222">nimmt Ton auf</text>
+<rect x="205" y="44" width="185" height="150" rx="12" fill="#e3f0e9" stroke="#2f6b4f" stroke-width="2.5"/>
+<circle cx="297" cy="90" r="16" fill="#555" stroke="#333" stroke-width="1.5"/><circle cx="297" cy="90" r="8" fill="#3a6ed8" stroke="#fff" stroke-width="2"/><circle cx="297" cy="90" r="3" fill="#123" stroke="none" stroke-width="0"/><line x1="297" y1="106" x2="297" y2="114" stroke="#333" stroke-width="3"/><rect x="283" y="114" width="28" height="5" rx="2" fill="#333" stroke="none" stroke-width="0"/>
+<text x="297" y="150" font-size="15" text-anchor="middle" font-weight="700" fill="#2f6b4f">Webcam</text>
+<text x="297" y="172" font-size="13" text-anchor="middle" fill="#222">nimmt Bild und Video auf</text>
+<text x="200" y="226" font-size="16" text-anchor="middle" font-weight="700" fill="#222">Headset = Kopfhörer + Mikrofon</text>
+<rect x="10" y="240" width="380" height="170" rx="12" fill="#fff" stroke="#bbb" stroke-width="2.5"/>
+<path d="M160,330 Q160,268 200,268 Q240,268 240,330" fill="none" stroke="#333" stroke-width="5"/>
+<rect x="146" y="316" width="24" height="40" rx="8" fill="#555" stroke="#333" stroke-width="1.5"/>
+<rect x="230" y="316" width="24" height="40" rx="8" fill="#555" stroke="#333" stroke-width="1.5"/>
+<path d="M158,354 Q170,384 204,382" fill="none" stroke="#333" stroke-width="3"/><circle cx="208" cy="382" r="6" fill="#333" stroke="none" stroke-width="0"/>
+<line x1="262" y1="336" x2="288.5" y2="336.0" stroke="#E07B00" stroke-width="4"/><polygon points="300,336 285.6,343.2 285.6,328.8" fill="#E07B00"/>
+<text x="306" y="330" font-size="14" font-weight="700" fill="#a85400">Hörer:</text>
+<text x="306" y="350" font-size="14" font-weight="700" fill="#a85400">Ausgabe</text>
+<line x1="110" y1="382" x2="184.5" y2="382.0" stroke="#2f6b4f" stroke-width="4"/><polygon points="196,382 181.6,389.2 181.6,374.8" fill="#2f6b4f"/>
+<text x="24" y="362" font-size="14" font-weight="700" fill="#2f6b4f">Mikrofon:</text>
+<text x="24" y="382" font-size="14" font-weight="700" fill="#2f6b4f">Eingabe</text>
+</svg>

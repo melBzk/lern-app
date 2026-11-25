@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 420" font-family="system-ui, sans-serif" fill="#222">
+<title>Gleiches Wort, andere Menge: Ein Pfund sind in Deutschland 500 g, in England etwa 454 g. Genauso das Kilobyte: beim Hersteller 1000 Byte, bei Windows und in der EDV 1024 Byte. Wo der Vergleich hinkt: Beim Pfund entscheidet das Land, beim Kilobyte entscheidet, wer rechnet.</title>
+<rect width="400" height="420" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">Gleiches Wort, andere Menge</text>
+<!-- Pfund -->
+<text x="200" y="58" text-anchor="middle" font-size="16" font-weight="700">1 Pfund</text>
+<g>
+<path d="M40,150 L60,90 L160,90 L180,150 Z" fill="#f4f1ee" stroke="#555" stroke-width="2"/>
+<text x="110" y="130" text-anchor="middle" font-size="18" font-weight="700">500 g</text>
+<text x="110" y="174" text-anchor="middle" font-size="14">Deutschland</text>
+<path d="M220,150 L240,96 L340,96 L360,150 Z" fill="#f4f1ee" stroke="#555" stroke-width="2"/>
+<text x="290" y="132" text-anchor="middle" font-size="18" font-weight="700">≈ 454 g</text>
+<text x="290" y="174" text-anchor="middle" font-size="14">England</text>
+</g>
+<!-- KB -->
+<text x="200" y="214" text-anchor="middle" font-size="16" font-weight="700">1 Kilobyte</text>
+<rect x="30" y="228" width="160" height="70" rx="10" fill="#fdf0e0" stroke="#E07B00" stroke-width="2"/>
+<text x="110" y="262" text-anchor="middle" font-size="18" font-weight="700" fill="#E07B00">1000 Byte</text>
+<text x="110" y="284" text-anchor="middle" font-size="14">Hersteller</text>
+<rect x="210" y="228" width="160" height="70" rx="10" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<text x="290" y="262" text-anchor="middle" font-size="18" font-weight="700" fill="#3a6ed8">1024 Byte</text>
+<text x="290" y="284" text-anchor="middle" font-size="14">Windows / EDV</text>
+<!-- hinkt -->
+<rect x="10" y="318" width="380" height="92" rx="10" fill="#f4f1ee" stroke="#999" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="22" y="342" font-size="15" font-weight="700" fill="#555">Wo der Vergleich hinkt:</text>
+<text x="22" y="366" font-size="14">Pfund: Das <tspan font-weight="700">Land</tspan> entscheidet.</text>
+<text x="22" y="390" font-size="14">Kilobyte: Es entscheidet, <tspan font-weight="700">wer rechnet</tspan>.</text>
+</svg>

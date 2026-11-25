@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 430" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Stand 2020 – was gilt heute noch? Links ein Buch mit der Aufschrift Stand 2020, rechts ein Kalenderblatt heute, ein Pfeil dazwischen. Darunter drei Zettel: Modelltabellen mit Takt, TDP und Namen sind veraltet, Herstellerdatenbank nutzen. SSHD: wird nicht mehr weiterentwickelt (Stand 2020). Optane: Aus im Juli 2022 von Intel angekündigt.</title>
+<defs>
+<marker id="k" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker>
+</defs>
+<rect width="400" height="430" fill="#fff"/>
+<text x="16" y="26" font-size="17" font-weight="700">Was gilt heute noch?</text>
+
+<!-- Buch -->
+<rect x="40" y="46" width="96" height="112" rx="4" fill="#3a6ed8"/>
+<rect x="40" y="46" width="14" height="112" rx="3" fill="#2c56ad"/>
+<rect x="132" y="50" width="8" height="104" fill="#eceff1" stroke="#9aa5b1" stroke-width="1"/>
+<rect x="62" y="84" width="66" height="40" rx="3" fill="#fff"/>
+<text x="95" y="101" text-anchor="middle" font-size="13" font-weight="700" fill="#3a6ed8">Stand</text>
+<text x="95" y="118" text-anchor="middle" font-size="15" font-weight="700" fill="#3a6ed8">2020</text>
+<text x="90" y="178" text-anchor="middle" font-size="13" fill="#444">das Buch</text>
+
+<line x1="152" y1="102" x2="248" y2="102" stroke="#555" stroke-width="3" marker-end="url(#k)"/>
+
+<!-- Kalender -->
+<rect x="262" y="52" width="96" height="100" rx="6" fill="#fff" stroke="#555" stroke-width="2"/>
+<rect x="262" y="52" width="96" height="28" rx="6" fill="#c62828"/>
+<rect x="262" y="70" width="96" height="10" fill="#c62828"/>
+<circle cx="285" cy="52" r="4" fill="#555"/><circle cx="335" cy="52" r="4" fill="#555"/>
+<text x="310" y="124" text-anchor="middle" font-size="18" font-weight="700">heute</text>
+
+<!-- Zettel -->
+<g>
+<rect x="14" y="200" width="372" height="62" rx="6" fill="#fffde7" stroke="#8a6d00" stroke-width="1.5"/>
+<text x="28" y="224" font-weight="700">Modelltabellen (Takt, TDP, Namen):</text>
+<text x="28" y="248">veraltet → <tspan font-weight="700" fill="#2e7d32">Herstellerdatenbank nutzen</tspan></text>
+</g>
+<g>
+<rect x="14" y="274" width="372" height="48" rx="6" fill="#fffde7" stroke="#8a6d00" stroke-width="1.5"/>
+<text x="28" y="294"><tspan font-weight="700">SSHD: </tspan>wird nicht mehr weiterentwickelt</text>
+<text x="28" y="312">(Stand 2020)</text>
+</g>
+<g>
+<rect x="14" y="334" width="372" height="48" rx="6" fill="#fdecea" stroke="#c62828" stroke-width="2.5"/>
+<text x="28" y="364"><tspan font-weight="700">Optane: </tspan><tspan font-weight="700" fill="#c62828">Aus im Juli 2022 von Intel angekündigt</tspan></text>
+</g>
+<text x="200" y="412" text-anchor="middle" font-size="13" fill="#444">Die Idee hinter Optane lernst du trotzdem.</text>
+</svg>

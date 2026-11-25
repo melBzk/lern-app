@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 470" font-family="system-ui, sans-serif" fill="#222">
+<title>Die 8 neuen Wörter mit kleinen Symbolen: Systembus = alle Leitungen zwischen CPU, Speicher und Geräten. Datenbus = trägt die Daten, in beide Richtungen. Busbreite = Zahl der Datenleitungen, so viele Bit fließen gleichzeitig. Seriell = eine Leitung, Bits nacheinander; parallel = viele Leitungen, Bits gleichzeitig. Adressbus = welches Gerät, nur eine Richtung. Steuerbus = wer sendet wann. Taktfrequenz = Takte pro Sekunde in Hertz. Interrupt = ein Gerät meldet sich, die CPU unterbricht kurz.</title>
+<defs>
+<marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="10" markerHeight="10" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker>
+<marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="10" markerHeight="10" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker>
+</defs>
+<rect width="400" height="470" fill="#fff"/>
+<text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700">8 Wörter auf einen Blick</text>
+<g fill="#f4f1ee"><rect x="10" y="40" width="380" height="50" rx="10"/><rect x="10" y="94" width="380" height="50" rx="10"/><rect x="10" y="148" width="380" height="50" rx="10"/><rect x="10" y="202" width="380" height="50" rx="10"/><rect x="10" y="256" width="380" height="50" rx="10"/><rect x="10" y="310" width="380" height="50" rx="10"/><rect x="10" y="364" width="380" height="50" rx="10"/><rect x="10" y="418" width="380" height="50" rx="10"/></g>
+<!-- Systembus -->
+<rect x="24" y="50" width="64" height="7" rx="2" fill="#7b3fa0"/><rect x="24" y="61" width="64" height="7" rx="2" fill="#3a6ed8"/><rect x="24" y="72" width="64" height="10" rx="2" fill="#c62828"/>
+<text x="102" y="61" font-size="15" font-weight="700">Systembus</text>
+<text x="102" y="80" font-size="13">alle Leitungen: CPU, Speicher, Geräte</text>
+<!-- Datenbus -->
+<line x1="28" y1="119" x2="84" y2="119" stroke="#c62828" stroke-width="4" marker-start="url(#r)" marker-end="url(#r)"/>
+<text x="102" y="115" font-size="15" font-weight="700">Datenbus</text>
+<text x="102" y="134" font-size="13">trägt die Daten – in beide Richtungen</text>
+<!-- Busbreite -->
+<g stroke="#c62828" stroke-width="2"><line x1="24" y1="158" x2="72" y2="158"/><line x1="24" y1="164" x2="72" y2="164"/><line x1="24" y1="170" x2="72" y2="170"/><line x1="24" y1="176" x2="72" y2="176"/><line x1="24" y1="182" x2="72" y2="182"/><line x1="24" y1="188" x2="72" y2="188"/></g>
+<text x="78" y="178" font-size="13" font-weight="700" fill="#c62828">64</text>
+<text x="102" y="169" font-size="15" font-weight="700">Busbreite</text>
+<text x="102" y="188" font-size="13">Zahl der Leitungen = Bit gleichzeitig</text>
+<!-- seriell / parallel -->
+<line x1="24" y1="214" x2="88" y2="214" stroke="#555" stroke-width="2"/>
+<g fill="#E07B00"><circle cx="34" cy="214" r="3.5"/><circle cx="48" cy="214" r="3.5"/><circle cx="62" cy="214" r="3.5"/></g>
+<g stroke="#555" stroke-width="1.5"><line x1="24" y1="228" x2="88" y2="228"/><line x1="24" y1="235" x2="88" y2="235"/><line x1="24" y1="242" x2="88" y2="242"/></g>
+<g fill="#E07B00"><circle cx="62" cy="228" r="3"/><circle cx="62" cy="235" r="3"/><circle cx="62" cy="242" r="3"/></g>
+<text x="102" y="223" font-size="15" font-weight="700">seriell / parallel</text>
+<text x="102" y="242" font-size="13">1 Leitung nacheinander / viele zugleich</text>
+<!-- Adressbus -->
+<line x1="24" y1="281" x2="62" y2="281" stroke="#3a6ed8" stroke-width="4" marker-end="url(#b)"/>
+<rect x="66" y="269" width="24" height="24" rx="3" fill="#fff" stroke="#3a6ed8" stroke-width="2"/><text x="78" y="286" text-anchor="middle" font-size="13" font-weight="700" fill="#3a6ed8">3</text>
+<text x="102" y="277" font-size="15" font-weight="700">Adressbus</text>
+<text x="102" y="296" font-size="13">welches Gerät? – nur eine Richtung</text>
+<!-- Steuerbus -->
+<rect x="44" y="316" width="20" height="38" rx="4" fill="#333"/><circle cx="54" cy="326" r="5" fill="#e53935"/><circle cx="54" cy="343" r="5" fill="#43a047"/>
+<text x="102" y="331" font-size="15" font-weight="700" fill="#7b3fa0">Steuerbus</text>
+<text x="102" y="350" font-size="13">wer sendet wann? lesen oder schreiben?</text>
+<!-- Takt -->
+<path d="M22,402 L28,402 L28,380 L40,380 L40,402 L52,402 L52,380 L64,380 L64,402 L76,402 L76,380 L88,380 L88,402" fill="none" stroke="#E07B00" stroke-width="2.5"/>
+<text x="102" y="385" font-size="15" font-weight="700">Taktfrequenz</text>
+<text x="102" y="404" font-size="13">Takte pro Sekunde, in Hertz (Hz)</text>
+<!-- Interrupt -->
+<rect x="20" y="428" width="42" height="30" rx="5" fill="#e3f0e9" stroke="#2f6b4f" stroke-width="2"/><text x="41" y="448" text-anchor="middle" font-size="13" font-weight="700" fill="#2f6b4f">CPU</text>
+<text x="78" y="452" text-anchor="middle" font-size="22" font-weight="700" fill="#E07B00">!</text>
+<text x="102" y="439" font-size="15" font-weight="700">Interrupt</text>
+<text x="102" y="458" font-size="13">Gerät meldet sich, CPU unterbricht kurz</text>
+</svg>

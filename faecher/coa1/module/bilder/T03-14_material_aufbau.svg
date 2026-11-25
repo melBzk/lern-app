@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 370" font-family="system-ui, sans-serif" fill="#222" role="img">
+<title>Schnitt durch den Licht-Chip, von unten nach oben: unten eine dicke graue Trägerscheibe (Wafer), darauf eine hauchdünne hellblaue Schicht Lithiumniobat, darin verläuft ein rot leuchtender Lichtkanal (Wellenleiter). Links speist ein Laser das Licht ein. Nicht maßstäblich. Darunter ein Kasten: Beim Rechnen mit Licht entsteht kaum Wärme, aber Laser und Elektronik brauchen weiter Strom.</title>
+<rect width="400" height="370" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">Der Licht-Chip im Schnitt</text>
+
+<text x="190" y="104" text-anchor="middle" font-size="14" font-weight="700" fill="#c62828">Lichtkanal (Wellenleiter)</text>
+<!-- Laser -->
+<text x="38" y="104" text-anchor="middle" font-size="14" font-weight="700">Laser</text>
+<rect x="12" y="116" width="52" height="34" rx="4" fill="#444"/>
+<text x="38" y="172" text-anchor="middle" font-size="13" fill="#c62828" font-weight="700">Licht rein</text>
+<!-- Schichten -->
+<rect x="80" y="118" width="220" height="30" fill="#cfe3f7" stroke="#3a6ed8" stroke-width="2"/>
+<rect x="64" y="128" width="236" height="10" fill="#ff8a8a" opacity="0.6"/>
+<path d="M64,133 H300" stroke="#c62828" stroke-width="4"/>
+<rect x="80" y="148" width="220" height="80" fill="#9aa5b1" stroke="#555" stroke-width="2"/>
+<!-- Beschriftungen rechts -->
+<path d="M302,133 H312" stroke="#555" stroke-width="1.5"/>
+<text x="316" y="128" font-size="14" font-weight="700" fill="#3a6ed8">Lithium-</text>
+<text x="316" y="145" font-size="14" font-weight="700" fill="#3a6ed8">niobat</text>
+<text x="316" y="162" font-size="13" fill="#3a6ed8">hauchdünn</text>
+<path d="M302,190 H312" stroke="#555" stroke-width="1.5"/>
+<text x="316" y="188" font-size="14" font-weight="700">Träger-</text>
+<text x="316" y="205" font-size="14" font-weight="700">scheibe</text>
+<text x="316" y="222" font-size="13">(Wafer)</text>
+<text x="190" y="252" text-anchor="middle" font-size="13" fill="#555">nicht maßstäblich</text>
+
+<!-- Hinweis Strom -->
+<rect x="12" y="276" width="376" height="70" rx="10" fill="#fff4e0" stroke="#E07B00" stroke-width="2"/>
+<path d="M44,288 L30,314 H42 L34,336 L54,306 H42 Z" fill="#E07B00"/>
+<text x="68" y="304" font-size="14" font-weight="700">Rechnen mit Licht: kaum Wärme</text>
+<text x="68" y="325" font-size="14">aber Laser und Elektronik brauchen Strom</text>
+</svg>

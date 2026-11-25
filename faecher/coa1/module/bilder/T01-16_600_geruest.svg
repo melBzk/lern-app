@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 420" font-family="system-ui, sans-serif" fill="#222" role="img">
+<title>Rechengerüst A4 mit 600 dpi, Schwarz-Weiß. Schon fertig: 1 Breite 8,27 mal 600 gleich 4 962, 2 Höhe 11,69 mal 600 gleich 7 014, 3 beide malgenommen 34 803 468 Bit. Noch leer zum Selbstrechnen: 4 geteilt durch 8 ergibt Byte, 5 geteilt durch 1024 ergibt KiB, 6 noch einmal geteilt durch 1024 ergibt MiB.</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker></defs>
+<rect width="400" height="420" fill="#fff"/>
+<text x="200" y="28" text-anchor="middle" font-size="18" font-weight="700">A4 · 600 dpi · Schwarz-Weiß</text>
+<rect x="10" y="44" width="185" height="62" rx="8" fill="#dbe6fb" stroke="#9fb3dc" stroke-width="1.5"/>
+<text x="102" y="64" text-anchor="middle" font-size="13" fill="#444">1 Breite</text>
+<text x="102" y="84" text-anchor="middle" font-size="15" font-weight="700">8,27 × 600</text>
+<text x="102" y="100" text-anchor="middle" font-size="15" font-weight="700">= 4 962</text>
+<rect x="205" y="44" width="185" height="62" rx="8" fill="#dbe6fb" stroke="#9fb3dc" stroke-width="1.5"/>
+<text x="298" y="64" text-anchor="middle" font-size="13" fill="#444">2 Höhe</text>
+<text x="298" y="84" text-anchor="middle" font-size="15" font-weight="700">11,69 × 600</text>
+<text x="298" y="100" text-anchor="middle" font-size="15" font-weight="700">= 7 014</text>
+<line x1="102" y1="108" x2="170" y2="138" stroke="#333" stroke-width="2.5" marker-end="url(#a)"/>
+<line x1="298" y1="108" x2="230" y2="138" stroke="#333" stroke-width="2.5" marker-end="url(#a)"/>
+<rect x="40" y="142" width="320" height="50" rx="8" fill="#dbe6fb" stroke="#9fb3dc" stroke-width="1.5"/>
+<text x="200" y="161" text-anchor="middle" font-size="13" fill="#444">3 Punkte gesamt: 4 962 × 7 014</text>
+<text x="200" y="182" text-anchor="middle" font-size="16" font-weight="700">= 34 803 468 Bit</text>
+<line x1="200" y1="194" x2="200" y2="218" stroke="#333" stroke-width="2.5" marker-end="url(#a)"/>
+<text x="212" y="212" font-size="15" font-weight="700" fill="#3a6ed8">÷ 8</text>
+<rect x="40" y="220" width="320" height="42" rx="8" fill="#fff" stroke="#e8590c" stroke-width="2.5" stroke-dasharray="7 4"/>
+<text x="200" y="247" text-anchor="middle" font-size="16" font-weight="700">4 · <tspan fill="#e8590c">?</tspan> Byte</text>
+<line x1="200" y1="264" x2="200" y2="288" stroke="#333" stroke-width="2.5" marker-end="url(#a)"/>
+<text x="212" y="282" font-size="15" font-weight="700" fill="#3a6ed8">÷ 1024</text>
+<rect x="40" y="290" width="320" height="42" rx="8" fill="#fff" stroke="#e8590c" stroke-width="2.5" stroke-dasharray="7 4"/>
+<text x="200" y="317" text-anchor="middle" font-size="16" font-weight="700">5 · <tspan fill="#e8590c">?</tspan> KiB</text>
+<line x1="200" y1="334" x2="200" y2="358" stroke="#333" stroke-width="2.5" marker-end="url(#a)"/>
+<text x="212" y="352" font-size="15" font-weight="700" fill="#3a6ed8">÷ 1024</text>
+<rect x="40" y="360" width="320" height="42" rx="8" fill="#fff" stroke="#e8590c" stroke-width="2.5" stroke-dasharray="7 4"/>
+<text x="200" y="387" text-anchor="middle" font-size="16" font-weight="700">6 · <tspan fill="#e8590c">?</tspan> MiB</text>
+</svg>

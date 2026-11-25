@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" font-family="system-ui, sans-serif" fill="#222" role="img">
+<title>Ausgangslage, ohne Lösung: Ein gezogener Stecker mit Blitz zeigt, der Strom war kurz weg. Daneben der Bildschirm der Kollegin danach: Die Datei von gestern ist noch da (grüner Haken), der Bericht von heute Vormittag fehlt (rotes Fragezeichen). Frage: Wie kann das sein?</title>
+<rect width="400" height="400" fill="#fff"/>
+<text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700">Der verlorene Bericht</text>
+<rect x="10" y="44" width="120" height="150" rx="10" fill="#fdecec"/>
+<rect x="34" y="70" width="30" height="40" rx="4" fill="#9aa3ad"/><path d="M40,70 v-12 M58,70 v-12" stroke="#555" stroke-width="4"/>
+<path d="M49,110 V130 q0,14 14,14 H90" stroke="#555" stroke-width="4" fill="none"/>
+<path d="M98,64 L84,92 H96 L86,118 L112,84 H100 L110,64 Z" fill="#f2c200" stroke="#8a6a00" stroke-width="1.5"/>
+<text x="70" y="172" text-anchor="middle" font-size="14" font-weight="700" fill="#c62828">Strom kurz weg</text>
+<rect x="146" y="44" width="244" height="170" rx="8" fill="#fff" stroke="#555" stroke-width="2.5"/>
+<rect x="156" y="54" width="224" height="150" fill="#f4f5f7"/>
+<path d="M172,74 h20 l8,8 v26 h-28 z" fill="#fff" stroke="#555" stroke-width="2"/>
+<text x="212" y="90" font-size="14" font-weight="700">Datei von gestern</text>
+<text x="212" y="108" font-size="14" font-weight="700" fill="#2f9e44">✓ noch da</text>
+<path d="M172,138 h20 l8,8 v26 h-28 z" fill="#fff" stroke="#c62828" stroke-width="2" stroke-dasharray="4 3"/>
+<text x="212" y="154" font-size="14" font-weight="700">Bericht von heute</text>
+<text x="212" y="172" font-size="14" font-weight="700" fill="#c62828">? verschwunden</text>
+<rect x="244" y="214" width="56" height="12" fill="#cfd6dd"/>
+<circle cx="52" cy="276" r="20" fill="#cfd6dd" stroke="#555" stroke-width="2"/><path d="M22,344 q0,-40 30,-40 q30,0 30,40 z" fill="#cfd6dd" stroke="#555" stroke-width="2"/>
+<path d="M100,246 H382 a8,8 0 0 1 8,8 V318 a8,8 0 0 1 -8,8 H110 a8,8 0 0 1 -8,-8 V286 L88,276 L102,268 V254 a8,8 0 0 1 8,-8 z" fill="#f4f5f7" stroke="#9aa3ad" stroke-width="1.5"/>
+<text x="118" y="276" font-size="15">„Mein Bericht ist weg,</text>
+<text x="118" y="300" font-size="15">die Datei von gestern nicht.</text>
+<text x="118" y="320" font-size="15" font-weight="700">Wie kann das sein?“</text>
+<text x="200" y="376" text-anchor="middle" font-size="15" font-weight="700" fill="#3a6ed8">Was erklärst du ihr?</text>
+</svg>

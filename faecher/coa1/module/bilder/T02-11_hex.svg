@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 430" font-family="system-ui, sans-serif" fill="#222">
+<title>Hexadezimal: 16 Ziffern, 0 bis 9 und dann A = 10, B = 11, C = 12, D = 13, E = 14, F = 15. Nach F ist die Stelle voll, es geht zweistellig weiter: 16 dezimal = 10 hex. Eine Hex-Ziffer steht für 4 Bit, ein Byte passt in 2 Hex-Ziffern; die größte ist FF = 255 = 1111 1111.</title>
+<rect width="400" height="430" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">Hexadezimal: 16 Ziffern</text>
+<!-- 0-9 -->
+<g font-family="ui-monospace, Consolas, monospace" font-size="17" font-weight="700" text-anchor="middle">
+<g fill="#f4f1ee"><rect x="10" y="44" width="34" height="34" rx="4"/><rect x="48" y="44" width="34" height="34" rx="4"/><rect x="86" y="44" width="34" height="34" rx="4"/><rect x="124" y="44" width="34" height="34" rx="4"/><rect x="162" y="44" width="34" height="34" rx="4"/><rect x="200" y="44" width="34" height="34" rx="4"/><rect x="238" y="44" width="34" height="34" rx="4"/><rect x="276" y="44" width="34" height="34" rx="4"/><rect x="314" y="44" width="34" height="34" rx="4"/><rect x="352" y="44" width="34" height="34" rx="4"/></g>
+<text x="27" y="67">0</text><text x="65" y="67">1</text><text x="103" y="67">2</text><text x="141" y="67">3</text><text x="179" y="67">4</text><text x="217" y="67">5</text><text x="255" y="67">6</text><text x="293" y="67">7</text><text x="331" y="67">8</text><text x="369" y="67">9</text>
+<!-- A-F -->
+<g fill="#7b3fa0"><rect x="20" y="96" width="52" height="40" rx="5"/><rect x="82" y="96" width="52" height="40" rx="5"/><rect x="144" y="96" width="52" height="40" rx="5"/><rect x="206" y="96" width="52" height="40" rx="5"/><rect x="268" y="96" width="52" height="40" rx="5"/><rect x="330" y="96" width="52" height="40" rx="5"/></g>
+<g fill="#fff" font-size="20"><text x="46" y="123">A</text><text x="108" y="123">B</text><text x="170" y="123">C</text><text x="232" y="123">D</text><text x="294" y="123">E</text><text x="356" y="123">F</text></g>
+<g fill="#7b3fa0" font-size="15"><text x="46" y="156">10</text><text x="108" y="156">11</text><text x="170" y="156">12</text><text x="232" y="156">13</text><text x="294" y="156">14</text><text x="356" y="156">15</text></g>
+</g>
+<!-- nach F -->
+<rect x="10" y="176" width="380" height="72" rx="10" fill="#f3e9f8" stroke="#7b3fa0" stroke-width="2"/>
+<text x="24" y="202" font-size="14">Nach F ist die Stelle voll:</text>
+<text x="24" y="232" font-size="18" font-weight="700">16 dezimal = <tspan fill="#7b3fa0">10 hex</tspan></text>
+<!-- Seitenblick -->
+<text x="10" y="278" font-size="14" font-weight="700" fill="#555">Zum Weiterdenken:</text>
+<g font-family="ui-monospace, Consolas, monospace" font-weight="700" text-anchor="middle">
+<rect x="60" y="292" width="120" height="40" rx="6" fill="#fff" stroke="#E07B00" stroke-width="2"/><text x="120" y="318" font-size="17">1111</text>
+<rect x="220" y="292" width="120" height="40" rx="6" fill="#fff" stroke="#E07B00" stroke-width="2"/><text x="280" y="318" font-size="17">1111</text>
+<text x="120" y="358" font-size="20" fill="#7b3fa0">F</text><text x="280" y="358" font-size="20" fill="#7b3fa0">F</text>
+</g>
+<text x="200" y="318" text-anchor="middle" font-size="13" fill="#555">4 Bit</text>
+<text x="200" y="356" text-anchor="middle" font-size="13" fill="#555">je 1 Ziffer</text>
+<rect x="70" y="374" width="260" height="44" rx="10" fill="#7b3fa0"/>
+<text x="200" y="402" text-anchor="middle" font-size="17" font-weight="700" fill="#fff">FF = 255 = 1 Byte voll</text>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" font-family="system-ui, sans-serif" fill="#222">
+<title>Gängige Größen der Speicher heute, von klein nach groß, Farbe nach Familie: optisch CD 700 MB, DVD 4,7 GB, Blu-ray 25 bis 50 GB. Flash: Speicherkarte 32 GB bis 1 TB, USB-Stick 64 GB bis 2 TB, SSD 512 GB bis 8 TB. Magnetisch: Magnetband 256 GB bis 16 TB, HDD 512 GB bis 8 TB, auch 20 TB und mehr. Früher: Diskette 1,44 MB.</title>
+<rect width="400" height="500" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">Wie viel passt drauf? (heute)</text>
+<text x="200" y="46" text-anchor="middle" font-size="13" fill="#555">grob von klein nach groß · Farbe = Familie</text>
+<!-- Zeilen -->
+<g font-size="15">
+<!-- CD -->
+<rect x="10" y="58" width="380" height="42" rx="8" fill="#fdf2e6"/>
+<circle cx="36" cy="79" r="14" fill="#fff" stroke="#d9791f" stroke-width="2"/><circle cx="36" cy="79" r="3" fill="#d9791f"/>
+<text x="62" y="84" font-weight="700">CD</text><text x="380" y="84" text-anchor="end" font-weight="700" fill="#b5651d">700 MB</text>
+<!-- DVD -->
+<rect x="10" y="106" width="380" height="42" rx="8" fill="#fdf2e6"/>
+<circle cx="36" cy="127" r="14" fill="#fff" stroke="#d9791f" stroke-width="2"/><circle cx="36" cy="127" r="3" fill="#d9791f"/>
+<text x="62" y="132" font-weight="700">DVD</text><text x="380" y="132" text-anchor="end" font-weight="700" fill="#b5651d">4,7 GB</text>
+<!-- Blu-ray -->
+<rect x="10" y="154" width="380" height="42" rx="8" fill="#fdf2e6"/>
+<circle cx="36" cy="175" r="14" fill="#fff" stroke="#d9791f" stroke-width="2"/><circle cx="36" cy="175" r="3" fill="#d9791f"/>
+<text x="62" y="180" font-weight="700">Blu-ray</text><text x="380" y="180" text-anchor="end" font-weight="700" fill="#b5651d">25 – 50 GB</text>
+<!-- Speicherkarte -->
+<rect x="10" y="202" width="380" height="42" rx="8" fill="#eaf6ee"/>
+<path d="M28,210 h12 l8,8 v18 h-20 Z" fill="#2e9e5b"/>
+<text x="62" y="228" font-weight="700">Speicherkarte</text><text x="380" y="228" text-anchor="end" font-weight="700" fill="#2e9e5b">32 GB – 1 TB</text>
+<!-- USB-Stick -->
+<rect x="10" y="250" width="380" height="42" rx="8" fill="#eaf6ee"/>
+<rect x="24" y="264" width="22" height="14" rx="2" fill="#2e9e5b"/><rect x="46" y="267" width="8" height="8" fill="#9aa"/>
+<text x="62" y="276" font-weight="700">USB-Stick</text><text x="380" y="276" text-anchor="end" font-weight="700" fill="#2e9e5b">64 GB – 2 TB</text>
+<!-- SSD -->
+<rect x="10" y="298" width="380" height="42" rx="8" fill="#eaf6ee"/>
+<rect x="22" y="307" width="30" height="24" rx="3" fill="#fff" stroke="#2e9e5b" stroke-width="2"/><rect x="28" y="313" width="18" height="12" fill="#2e9e5b"/>
+<text x="62" y="324" font-weight="700">SSD</text><text x="380" y="324" text-anchor="end" font-weight="700" fill="#2e9e5b">512 GB – 8 TB</text>
+<!-- Magnetband -->
+<rect x="10" y="346" width="380" height="42" rx="8" fill="#eef3fc"/>
+<rect x="20" y="356" width="34" height="22" rx="3" fill="#555"/><circle cx="30" cy="367" r="6" fill="#c9a36b"/><circle cx="44" cy="367" r="6" fill="#c9a36b"/>
+<text x="62" y="372" font-weight="700">Magnetband</text><text x="380" y="372" text-anchor="end" font-weight="700" fill="#3a6ed8">256 GB – 16 TB</text>
+<!-- HDD -->
+<rect x="10" y="394" width="380" height="42" rx="8" fill="#eef3fc"/>
+<rect x="22" y="401" width="30" height="28" rx="3" fill="#d9dde3" stroke="#444" stroke-width="1.5"/><circle cx="35" cy="415" r="9" fill="#9fb3cf" stroke="#3a6ed8" stroke-width="1.5"/>
+<text x="62" y="420" font-weight="700">HDD</text><text x="380" y="420" text-anchor="end" font-weight="700" fill="#3a6ed8">512 GB – 8 TB</text>
+</g>
+<text x="380" y="452" text-anchor="end" font-size="13" fill="#3a6ed8">HDD auch 20 TB und mehr</text>
+<!-- früher -->
+<rect x="10" y="462" width="380" height="32" rx="8" fill="#fff" stroke="#999" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="22" y="483" font-size="14" fill="#555">früher: Diskette 1,44 MB – heute ohne Bedeutung</text>
+</svg>

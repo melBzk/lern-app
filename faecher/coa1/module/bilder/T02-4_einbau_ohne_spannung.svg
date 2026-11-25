@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 430" font-family="system-ui, sans-serif" fill="#222">
+<title>Mainboard einbauen, seitlich gesehen. Richtig: Das Board liegt gerade, mit Abstand zum Gehäuse, festgeschraubt mit dem mitgelieferten Montagematerial, grüner Haken. Falsch: Das Board wird mit Kraft hineingedrückt und biegt sich, es drohen Mikrorisse in der Platine, rotes X. Darunter: Geht es nur mit Kraft, Einbaulage prüfen oder anderes Gehäuse wählen. Vorher die Herstelleranleitung lesen.</title>
+<rect width="400" height="430" fill="#fff"/>
+<text x="200" y="30" text-anchor="middle" font-size="17" font-weight="700">Mainboard einbauen – von der Seite</text>
+<!-- Richtig -->
+<rect x="10" y="46" width="380" height="140" rx="10" fill="#eef8f0"/>
+<path d="M30,96 L44,110 L66,84" fill="none" stroke="#2e9d5b" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="84" y="96" font-size="15" font-weight="700" fill="#1f7a45">ohne Spannung, gerade</text>
+<rect x="40" y="166" width="320" height="8" fill="#90a4ae"/>
+<g fill="#b0bec5" stroke="#607d8b" stroke-width="1.5"><rect x="70" y="148" width="12" height="18"/><rect x="194" y="148" width="12" height="18"/><rect x="318" y="148" width="12" height="18"/></g>
+<rect x="56" y="140" width="288" height="8" fill="#2e7d4f"/>
+<g fill="#555"><rect x="72" y="133" width="8" height="7"/><rect x="196" y="133" width="8" height="7"/><rect x="320" y="133" width="8" height="7"/></g>
+<text x="210" y="124" font-size="13">mitgelieferte Schrauben</text>
+<text x="112" y="161" font-size="13" fill="#455a64">Abstand</text><text x="232" y="161" font-size="13" fill="#455a64">Gehäuse</text>
+<!-- Falsch -->
+<rect x="10" y="198" width="380" height="140" rx="10" fill="#fdeeee"/>
+<g stroke="#d43c3c" stroke-width="5" stroke-linecap="round"><line x1="32" y1="226" x2="56" y2="250"/><line x1="56" y1="226" x2="32" y2="250"/></g>
+<text x="84" y="244" font-size="15" font-weight="700" fill="#d43c3c">mit Kraft → Mikrorisse</text>
+<rect x="40" y="318" width="320" height="8" fill="#90a4ae"/>
+<path d="M56,286 Q200,316 344,286" fill="none" stroke="#2e7d4f" stroke-width="8"/>
+<g stroke="#d43c3c" stroke-width="2"><path d="M196,300 l4,6 l-4,5" fill="none"/><path d="M212,300 l-3,6 l4,5" fill="none"/></g>
+<line x1="200" y1="262" x2="200" y2="284" stroke="#555" stroke-width="3"/><polygon points="192,280 208,280 200,292" fill="#555"/>
+<text x="214" y="274" font-size="13">Druck</text>
+<!-- Hinweis -->
+<rect x="10" y="350" width="380" height="72" rx="10" fill="#fff" stroke="#D4607A" stroke-width="2"/>
+<text x="200" y="376" text-anchor="middle" font-size="14" font-weight="700" fill="#D4607A">Geht nur mit Kraft? Lage prüfen</text>
+<text x="200" y="396" text-anchor="middle" font-size="14" font-weight="700" fill="#D4607A">oder anderes Gehäuse wählen.</text>
+<text x="200" y="414" text-anchor="middle" font-size="13">Vorher: Herstelleranleitung lesen</text>
+</svg>

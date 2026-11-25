@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 456" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Wäschestraße mit 5 Stationen: Waschmaschine, Trockner, Bügelbrett, Falttisch, Schrank. Oben ohne Pipeline: nur Wäschekorb 1 ist beim Bügeln, alle anderen Stationen warten. Unten mit Pipeline: Korb 5 in der Waschmaschine, 4 im Trockner, 3 beim Bügeln, 2 beim Falten, 1 im Schrank – alle Stationen beschäftigt.</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker><marker id="o" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E07B00"/></marker><marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6b4f"/></marker><marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker></defs>
+<rect width="400" height="456" fill="#fff"/>
+<text x="200" y="26" font-size="16" text-anchor="middle" font-weight="700">Wäsche: ohne und mit Pipeline</text>
+<rect x="6" y="40" width="388" height="182" rx="10" fill="#f6f6f6" stroke="#ddd" stroke-width="1.5"/>
+<text x="16" y="62" font-size="15" font-weight="700" fill="#555">ohne Pipeline</text>
+<rect x="6" y="234" width="388" height="212" rx="10" fill="#f6f6f6" stroke="#ddd" stroke-width="1.5"/>
+<text x="16" y="256" font-size="15" font-weight="700" fill="#2f6b4f">mit Pipeline</text>
+<rect x="22" y="120" width="44" height="48" rx="4" fill="#fff" stroke="#555" stroke-width="2"/><line x1="22" y1="130" x2="66" y2="130" stroke="#555" stroke-width="1.5"/><circle cx="44" cy="150" r="13" fill="#dbe6fb" stroke="#555" stroke-width="2"/>
+<rect x="22" y="314" width="44" height="48" rx="4" fill="#fff" stroke="#555" stroke-width="2"/><line x1="22" y1="324" x2="66" y2="324" stroke="#555" stroke-width="1.5"/><circle cx="44" cy="344" r="13" fill="#dbe6fb" stroke="#555" stroke-width="2"/>
+<text x="44" y="186" font-size="13" text-anchor="middle" font-weight="700">Wasch-</text>
+<text x="44" y="380" font-size="13" text-anchor="middle" font-weight="700">Wasch-</text>
+<text x="44" y="202" font-size="13" text-anchor="middle" font-weight="700">maschine</text>
+<text x="44" y="396" font-size="13" text-anchor="middle" font-weight="700">maschine</text>
+<rect x="100" y="120" width="44" height="48" rx="4" fill="#fff" stroke="#555" stroke-width="2"/><line x1="100" y1="130" x2="144" y2="130" stroke="#555" stroke-width="1.5"/><circle cx="122" cy="150" r="13" fill="#fdebd3" stroke="#555" stroke-width="2"/><path d="M115,150 q3.5,-5 7,0 t7,0" fill="none" stroke="#E07B00" stroke-width="2"/>
+<rect x="100" y="314" width="44" height="48" rx="4" fill="#fff" stroke="#555" stroke-width="2"/><line x1="100" y1="324" x2="144" y2="324" stroke="#555" stroke-width="1.5"/><circle cx="122" cy="344" r="13" fill="#fdebd3" stroke="#555" stroke-width="2"/><path d="M115,344 q3.5,-5 7,0 t7,0" fill="none" stroke="#E07B00" stroke-width="2"/>
+<text x="122" y="186" font-size="13" text-anchor="middle" font-weight="700">Trockner</text>
+<text x="122" y="380" font-size="13" text-anchor="middle" font-weight="700">Trockner</text>
+<line x1="186" y1="144" x2="208" y2="168" stroke="#555" stroke-width="2.5"/><line x1="208" y1="144" x2="186" y2="168" stroke="#555" stroke-width="2.5"/><path d="M172,136 H214 Q228,136 228,140 Q228,144 214,144 H172 Z" fill="#ece0f5" stroke="#555" stroke-width="2"/>
+<line x1="186" y1="338" x2="208" y2="362" stroke="#555" stroke-width="2.5"/><line x1="208" y1="338" x2="186" y2="362" stroke="#555" stroke-width="2.5"/><path d="M172,330 H214 Q228,330 228,334 Q228,338 214,338 H172 Z" fill="#ece0f5" stroke="#555" stroke-width="2"/>
+<text x="200" y="186" font-size="13" text-anchor="middle" font-weight="700">Bügelbrett</text>
+<text x="200" y="380" font-size="13" text-anchor="middle" font-weight="700">Bügelbrett</text>
+<rect x="250" y="138" width="56" height="7" rx="0" fill="#b08455" stroke="#6b4f2a" stroke-width="1.5"/><line x1="256" y1="145" x2="256" y2="168" stroke="#6b4f2a" stroke-width="3"/><line x1="300" y1="145" x2="300" y2="168" stroke="#6b4f2a" stroke-width="3"/>
+<rect x="250" y="332" width="56" height="7" rx="0" fill="#b08455" stroke="#6b4f2a" stroke-width="1.5"/><line x1="256" y1="339" x2="256" y2="362" stroke="#6b4f2a" stroke-width="3"/><line x1="300" y1="339" x2="300" y2="362" stroke="#6b4f2a" stroke-width="3"/>
+<text x="278" y="186" font-size="13" text-anchor="middle" font-weight="700">Falttisch</text>
+<text x="278" y="380" font-size="13" text-anchor="middle" font-weight="700">Falttisch</text>
+<rect x="336" y="114" width="40" height="54" rx="2" fill="#f6ecd2" stroke="#7a6a48" stroke-width="2"/><line x1="356" y1="114" x2="356" y2="168" stroke="#7a6a48" stroke-width="1.5"/><circle cx="351" cy="141" r="2.5" fill="#7a6a48"/><circle cx="361" cy="141" r="2.5" fill="#7a6a48"/>
+<rect x="336" y="308" width="40" height="54" rx="2" fill="#f6ecd2" stroke="#7a6a48" stroke-width="2"/><line x1="356" y1="308" x2="356" y2="362" stroke="#7a6a48" stroke-width="1.5"/><circle cx="351" cy="335" r="2.5" fill="#7a6a48"/><circle cx="361" cy="335" r="2.5" fill="#7a6a48"/>
+<text x="356" y="186" font-size="13" text-anchor="middle" font-weight="700">Schrank</text>
+<text x="356" y="380" font-size="13" text-anchor="middle" font-weight="700">Schrank</text>
+<rect x="14" y="88" width="60" height="22" rx="11" fill="#f1f3f5" stroke="#aaa" stroke-width="1.5"/><text x="44" y="104" font-size="13" text-anchor="middle" fill="#666">wartet</text>
+<rect x="92" y="88" width="60" height="22" rx="11" fill="#f1f3f5" stroke="#aaa" stroke-width="1.5"/><text x="122" y="104" font-size="13" text-anchor="middle" fill="#666">wartet</text>
+<ellipse cx="200" cy="88" rx="14" ry="6" fill="#a5c8f0"/><path d="M182,86 H218 L213,108 H187 Z" fill="#e8c48f" stroke="#6b4f2a" stroke-width="2"/><text x="200" y="103" font-size="14" text-anchor="middle" font-weight="700">1</text>
+<rect x="248" y="88" width="60" height="22" rx="11" fill="#f1f3f5" stroke="#aaa" stroke-width="1.5"/><text x="278" y="104" font-size="13" text-anchor="middle" fill="#666">wartet</text>
+<rect x="326" y="88" width="60" height="22" rx="11" fill="#f1f3f5" stroke="#aaa" stroke-width="1.5"/><text x="356" y="104" font-size="13" text-anchor="middle" fill="#666">wartet</text>
+<ellipse cx="44" cy="272" rx="14" ry="6" fill="#a5c8f0"/><path d="M26,270 H62 L57,292 H31 Z" fill="#e8c48f" stroke="#6b4f2a" stroke-width="2"/><text x="44" y="287" font-size="14" text-anchor="middle" font-weight="700">5</text>
+<ellipse cx="122" cy="272" rx="14" ry="6" fill="#a5c8f0"/><path d="M104,270 H140 L135,292 H109 Z" fill="#e8c48f" stroke="#6b4f2a" stroke-width="2"/><text x="122" y="287" font-size="14" text-anchor="middle" font-weight="700">4</text>
+<ellipse cx="200" cy="272" rx="14" ry="6" fill="#a5c8f0"/><path d="M182,270 H218 L213,292 H187 Z" fill="#e8c48f" stroke="#6b4f2a" stroke-width="2"/><text x="200" y="287" font-size="14" text-anchor="middle" font-weight="700">3</text>
+<ellipse cx="278" cy="272" rx="14" ry="6" fill="#a5c8f0"/><path d="M260,270 H296 L291,292 H265 Z" fill="#e8c48f" stroke="#6b4f2a" stroke-width="2"/><text x="278" y="287" font-size="14" text-anchor="middle" font-weight="700">2</text>
+<ellipse cx="356" cy="272" rx="14" ry="6" fill="#a5c8f0"/><path d="M338,270 H374 L369,292 H343 Z" fill="#e8c48f" stroke="#6b4f2a" stroke-width="2"/><text x="356" y="287" font-size="14" text-anchor="middle" font-weight="700">1</text>
+<text x="200" y="430" font-size="15" text-anchor="middle" font-weight="700" fill="#2f6b4f">alle Stationen beschäftigt</text>
+</svg>

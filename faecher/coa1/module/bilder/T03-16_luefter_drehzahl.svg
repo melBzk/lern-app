@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 590" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Leise kühlen. Oben zwei Lüfter, die gleich viel Luft bewegen: Der kleine 8-cm-Lüfter dreht schnell (viele Bewegungsstriche) und ist laut, der große 14-cm-Lüfter dreht langsam (wenige Striche) und ist leise. Unten ein Diagramm: Waagerecht die Temperatur, senkrecht die Drehzahl. Die Kurve bleibt lange flach und niedrig und steigt erst bei sehr heiß steil auf volle Drehzahl. Das Mainboard regelt die Drehzahl.</title>
+<rect width="400" height="590" fill="#fff"/>
+<text x="200" y="26" font-size="17" text-anchor="middle" font-weight="700">Leise kühlen</text>
+<text x="200" y="50" text-anchor="middle" font-weight="700" fill="#3a6ed8">gleiche Luftmenge</text>
+<path d="M119.0,89.8 A58,58 0 0,1 139.2,109.3" fill="none" stroke="#555" stroke-width="2.5" stroke-linecap="round"/><path d="M148.0,140.0 A58,58 0 0,1 141.2,167.2" fill="none" stroke="#555" stroke-width="2.5" stroke-linecap="round"/><path d="M119.0,190.2 A58,58 0 0,1 92.0,198.0" fill="none" stroke="#555" stroke-width="2.5" stroke-linecap="round"/><path d="M61.0,190.2 A58,58 0 0,1 40.8,170.7" fill="none" stroke="#555" stroke-width="2.5" stroke-linecap="round"/><path d="M32.0,140.0 A58,58 0 0,1 38.8,112.8" fill="none" stroke="#555" stroke-width="2.5" stroke-linecap="round"/><path d="M61.0,89.8 A58,58 0 0,1 88.0,82.0" fill="none" stroke="#555" stroke-width="2.5" stroke-linecap="round"/>
+<rect x="50.0" y="100.0" width="80" height="80" rx="8" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2.5"/><circle cx="90" cy="140" r="33.6" fill="#fff" stroke="#3a6ed8" stroke-width="1.5"/><path d="M90,140 Q118.6,140.0 111.9,158.4 Z" fill="#3a6ed8"/><path d="M90,140 Q75.7,164.7 63.2,149.8 Z" fill="#3a6ed8"/><path d="M90,140 Q75.7,115.3 95.0,111.9 Z" fill="#3a6ed8"/><circle cx="90" cy="140" r="8.0" fill="#3a6ed8"/>
+<path d="M326.0,60.3 A92,92 0 0,1 358.0,91.2" fill="none" stroke="#555" stroke-width="2.5" stroke-linecap="round"/><path d="M234.0,219.7 A92,92 0 0,1 202.0,188.8" fill="none" stroke="#555" stroke-width="2.5" stroke-linecap="round"/>
+<rect x="210.0" y="70.0" width="140" height="140" rx="8" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2.5"/><circle cx="280" cy="140" r="58.8" fill="#fff" stroke="#3a6ed8" stroke-width="1.5"/><path d="M280,140 Q330.0,140.0 318.3,172.1 Z" fill="#3a6ed8"/><path d="M280,140 Q255.0,183.3 233.0,157.1 Z" fill="#3a6ed8"/><path d="M280,140 Q255.0,96.7 288.7,90.8 Z" fill="#3a6ed8"/><circle cx="280" cy="140" r="14.0" fill="#3a6ed8"/>
+<text x="90" y="220" text-anchor="middle" font-weight="700" font-size="15">8 cm</text>
+<text x="90" y="238" text-anchor="middle">dreht schnell</text>
+<text x="280" y="236" text-anchor="middle" font-weight="700" font-size="15">14 cm</text>
+<text x="280" y="254" text-anchor="middle">dreht langsam</text>
+<path d="M52,264 L60,264 L70,255 L70,285 L60,276 L52,276 Z" fill="#c62828"/><path d="M74,264.4 A8,8 0 0,1 74,275.6" fill="none" stroke="#c62828" stroke-width="2.5" stroke-linecap="round"/><path d="M74,259.5 A15,15 0 0,1 74,280.5" fill="none" stroke="#c62828" stroke-width="2.5" stroke-linecap="round"/><path d="M74,254.6 A22,22 0 0,1 74,285.4" fill="none" stroke="#c62828" stroke-width="2.5" stroke-linecap="round"/>
+<text x="104" y="276" font-weight="700" fill="#c62828" font-size="15">laut</text>
+<path d="M244,276 L252,276 L262,267 L262,297 L252,288 L244,288 Z" fill="#2e7d32"/><path d="M266,276.4 A8,8 0 0,1 266,287.6" fill="none" stroke="#2e7d32" stroke-width="2.5" stroke-linecap="round"/>
+<text x="284" y="288" font-weight="700" fill="#2e7d32" font-size="15">leise</text>
+<line x1="10" y1="310" x2="390" y2="310" stroke="#ccc" stroke-width="1.5"/>
+
+<!-- Diagramm -->
+<text x="16" y="336" font-size="15" font-weight="700">Drehzahl nach Temperatur</text>
+<line x1="60" y1="530" x2="380" y2="530" stroke="#222" stroke-width="2.5"/>
+<line x1="60" y1="530" x2="60" y2="356" stroke="#222" stroke-width="2.5"/>
+<path d="M374,524 L384,530 L374,536 Z M54,362 L60,352 L66,362 Z" fill="#222"/>
+<text x="380" y="578" text-anchor="end" font-weight="700">Temperatur</text>
+<text x="40" y="444" text-anchor="middle" font-weight="700" transform="rotate(-90 40 444)">Drehzahl</text>
+<text x="54" y="377" text-anchor="end" font-size="13" fill="#c62828" font-weight="700">voll</text>
+<line x1="60" y1="372" x2="360" y2="372" stroke="#c62828" stroke-width="1.2" stroke-dasharray="5 4"/>
+<path d="M60,505 C150,503 230,500 270,490 C300,480 312,420 330,372 L370,372" fill="none" stroke="#3a6ed8" stroke-width="4" stroke-linecap="round"/>
+<text x="140" y="492" font-size="13" fill="#3a6ed8" font-weight="700">meist niedrig = leise</text>
+<text x="330" y="552" text-anchor="middle" font-size="13" fill="#c62828" font-weight="700">sehr heiß</text>
+<line x1="330" y1="530" x2="330" y2="536" stroke="#c62828" stroke-width="2"/>
+<!-- Mainboard -->
+<rect x="96" y="388" width="110" height="40" rx="4" fill="#2e7d32"/>
+<rect x="106" y="396" width="18" height="12" fill="#a5d6a7"/><rect x="130" y="396" width="18" height="12" fill="#a5d6a7"/>
+<text x="151" y="422" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">Mainboard</text>
+<text x="214" y="404" font-size="14" font-weight="700" fill="#2e7d32">regelt</text>
+</svg>

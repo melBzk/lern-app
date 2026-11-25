@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 540" font-family="system-ui, sans-serif">
+  <title>Schon in Windows dabei, nichts installieren: Vergleich mit dem Auto-Cockpit. Tacho und Drehzahl zeigen live, das entspricht dem Task-Manager. Der Bordcomputer zeigt den Verbrauch je Verbraucher, das entspricht dem Ressourcenmonitor. Der Fahrtenschreiber zeichnet über Stunden auf, das entspricht der Leistungsüberwachung. Der Fahrzeugschein sagt, was verbaut ist, das entspricht den Systeminformationen (msinfo32).</title>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker>
+  </defs>
+  <rect width="400" height="540" fill="#fff"/>
+  <text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700" fill="#222">Schon in Windows dabei –</text>
+  <text x="200" y="50" text-anchor="middle" font-size="17" font-weight="700" fill="#1f9d55">nichts installieren</text>
+  <text x="105" y="84" text-anchor="middle" font-size="13" fill="#555">im Auto</text>
+  <text x="322" y="84" text-anchor="middle" font-size="13" fill="#555">in Windows</text>
+
+  <!-- 1 Tacho -->
+  <path d="M18,148 A30,30 0 0 1 78,148" fill="none" stroke="#555" stroke-width="6"/>
+  <line x1="48" y1="148" x2="66" y2="128" stroke="#d63c3c" stroke-width="3.5" stroke-linecap="round"/>
+  <circle cx="48" cy="148" r="4" fill="#222"/>
+  <text x="88" y="128" font-size="14" font-weight="700" fill="#222">Tacho und</text>
+  <text x="88" y="147" font-size="14" font-weight="700" fill="#222">Drehzahl – live</text>
+  <line x1="208" y1="134" x2="246" y2="134" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+  <rect x="252" y="108" width="140" height="52" rx="10" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2.5"/>
+  <text x="322" y="139" text-anchor="middle" font-size="14" font-weight="700" fill="#222">Task-Manager</text>
+
+  <!-- 2 Bordcomputer -->
+  <rect x="16" y="208" width="64" height="44" rx="5" fill="#222"/>
+  <g fill="#7fd1a0"><rect x="24" y="234" width="8" height="12"/><rect x="36" y="222" width="8" height="24"/><rect x="48" y="228" width="8" height="18"/><rect x="60" y="216" width="8" height="30"/></g>
+  <text x="88" y="214" font-size="14" font-weight="700" fill="#222">Bordcomputer:</text>
+  <text x="88" y="233" font-size="14" fill="#222">Verbrauch je</text>
+  <text x="88" y="252" font-size="14" fill="#222">Verbraucher</text>
+  <line x1="208" y1="230" x2="246" y2="230" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+  <rect x="252" y="204" width="140" height="52" rx="10" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2.5"/>
+  <text x="322" y="235" text-anchor="middle" font-size="14" font-weight="700" fill="#222">Ressourcenmonitor</text>
+
+  <!-- 3 Fahrtenschreiber -->
+  <circle cx="48" cy="330" r="30" fill="#fff" stroke="#555" stroke-width="3"/>
+  <circle cx="48" cy="330" r="6" fill="#555"/>
+  <path d="M48,306 L54,310 L52,314 L60,312 L62,318 L70,320 L68,326 L74,330" fill="none" stroke="#d63c3c" stroke-width="2.5" stroke-linejoin="round"/>
+  <text x="88" y="312" font-size="14" font-weight="700" fill="#222">Fahrtenschreiber:</text>
+  <text x="88" y="331" font-size="14" fill="#222">zeichnet über</text>
+  <text x="88" y="350" font-size="14" fill="#222">Stunden auf</text>
+  <line x1="208" y1="330" x2="246" y2="330" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+  <rect x="252" y="302" width="140" height="56" rx="10" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2.5"/>
+  <text x="322" y="326" text-anchor="middle" font-size="14" font-weight="700" fill="#222">Leistungs-</text>
+  <text x="322" y="345" text-anchor="middle" font-size="14" font-weight="700" fill="#222">überwachung</text>
+
+  <!-- 4 Fahrzeugschein -->
+  <rect x="16" y="404" width="64" height="46" rx="4" fill="#e9f3e4" stroke="#555" stroke-width="2"/>
+  <g stroke="#999" stroke-width="3" stroke-linecap="round"><line x1="24" y1="416" x2="70" y2="416"/><line x1="24" y1="427" x2="62" y2="427"/><line x1="24" y1="438" x2="70" y2="438"/></g>
+  <text x="88" y="418" font-size="14" font-weight="700" fill="#222">Fahrzeugschein:</text>
+  <text x="88" y="437" font-size="14" fill="#222">was ist verbaut</text>
+  <line x1="208" y1="428" x2="246" y2="428" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+  <rect x="252" y="396" width="140" height="66" rx="10" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2.5"/>
+  <text x="322" y="418" text-anchor="middle" font-size="14" font-weight="700" fill="#222">System-</text>
+  <text x="322" y="436" text-anchor="middle" font-size="14" font-weight="700" fill="#222">informationen</text>
+  <text x="322" y="454" text-anchor="middle" font-size="14" fill="#3a6ed8">(msinfo32)</text>
+
+  <rect x="12" y="488" width="376" height="40" rx="10" fill="#f3f4f6" stroke="#ddd"/>
+  <text x="200" y="513" text-anchor="middle" font-size="14" fill="#222">In Windows: getrennte Programme, einzeln öffnen</text>
+</svg>

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 388" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Rechenweg 3 Befehle, ein Kästchen ist ein Takt. Ohne Pipeline: 15 Kästchen hintereinander, je 5 für Befehl 1, 2 und 3, also 3 mal 5 gleich 15 Takte. Mit Pipeline: drei Zeilen zu je 5 Kästchen, jede einen Takt später beginnend; fertig nach Takt 5, 6 und 7. 5 plus (3 minus 1) gleich 7 Takte. Idealfall ohne Wartezeiten.</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker><marker id="o" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E07B00"/></marker><marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6b4f"/></marker><marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker><marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker></defs>
+<rect width="400" height="388" fill="#fff"/>
+<text x="200" y="26" font-size="17" text-anchor="middle" font-weight="700">3 Befehle: ohne und mit Pipeline</text>
+<rect x="6" y="40" width="388" height="120" rx="10" fill="#f6f6f6" stroke="#ddd" stroke-width="1.5"/>
+<text x="16" y="62" font-size="15" font-weight="700">ohne Pipeline</text>
+<rect x="34" y="74" width="22" height="24" rx="3" fill="#dbe6fb" stroke="#3a6ed8" stroke-width="1.8"/>
+<rect x="56" y="74" width="22" height="24" rx="3" fill="#dbe6fb" stroke="#3a6ed8" stroke-width="1.8"/>
+<rect x="78" y="74" width="22" height="24" rx="3" fill="#dbe6fb" stroke="#3a6ed8" stroke-width="1.8"/>
+<rect x="100" y="74" width="22" height="24" rx="3" fill="#dbe6fb" stroke="#3a6ed8" stroke-width="1.8"/>
+<rect x="122" y="74" width="22" height="24" rx="3" fill="#dbe6fb" stroke="#3a6ed8" stroke-width="1.8"/>
+<rect x="144" y="74" width="22" height="24" rx="3" fill="#fdebd3" stroke="#E07B00" stroke-width="1.8"/>
+<rect x="166" y="74" width="22" height="24" rx="3" fill="#fdebd3" stroke="#E07B00" stroke-width="1.8"/>
+<rect x="188" y="74" width="22" height="24" rx="3" fill="#fdebd3" stroke="#E07B00" stroke-width="1.8"/>
+<rect x="210" y="74" width="22" height="24" rx="3" fill="#fdebd3" stroke="#E07B00" stroke-width="1.8"/>
+<rect x="232" y="74" width="22" height="24" rx="3" fill="#fdebd3" stroke="#E07B00" stroke-width="1.8"/>
+<rect x="254" y="74" width="22" height="24" rx="3" fill="#dcefe4" stroke="#2f6b4f" stroke-width="1.8"/>
+<rect x="276" y="74" width="22" height="24" rx="3" fill="#dcefe4" stroke="#2f6b4f" stroke-width="1.8"/>
+<rect x="298" y="74" width="22" height="24" rx="3" fill="#dcefe4" stroke="#2f6b4f" stroke-width="1.8"/>
+<rect x="320" y="74" width="22" height="24" rx="3" fill="#dcefe4" stroke="#2f6b4f" stroke-width="1.8"/>
+<rect x="342" y="74" width="22" height="24" rx="3" fill="#dcefe4" stroke="#2f6b4f" stroke-width="1.8"/>
+<text x="89.0" y="116" font-size="13" text-anchor="middle" font-weight="700" fill="#3a6ed8">Befehl 1</text>
+<text x="199.0" y="116" font-size="13" text-anchor="middle" font-weight="700" fill="#E07B00">Befehl 2</text>
+<text x="309.0" y="116" font-size="13" text-anchor="middle" font-weight="700" fill="#2f6b4f">Befehl 3</text>
+<text x="200" y="146" font-size="16" text-anchor="middle" font-weight="700" fill="#c62828">3 × 5 = 15 Takte</text>
+<rect x="6" y="172" width="388" height="178" rx="10" fill="#f6f6f6" stroke="#ddd" stroke-width="1.5"/>
+<text x="16" y="194" font-size="15" font-weight="700">mit Pipeline</text>
+<rect x="34" y="206" width="22" height="24" rx="3" fill="#dbe6fb" stroke="#3a6ed8" stroke-width="1.8"/>
+<rect x="56" y="206" width="22" height="24" rx="3" fill="#dbe6fb" stroke="#3a6ed8" stroke-width="1.8"/>
+<rect x="78" y="206" width="22" height="24" rx="3" fill="#dbe6fb" stroke="#3a6ed8" stroke-width="1.8"/>
+<rect x="100" y="206" width="22" height="24" rx="3" fill="#dbe6fb" stroke="#3a6ed8" stroke-width="1.8"/>
+<rect x="122" y="206" width="22" height="24" rx="3" fill="#dbe6fb" stroke="#3a6ed8" stroke-width="1.8"/>
+<circle cx="158" cy="218" r="9" fill="#2f6b4f" stroke="none" stroke-width="2"/><path d="M153.95,218 l2.88,3.2399999999999998 l5.76,-6.4799999999999995" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="174" y="223" font-size="13" fill="#333">fertig nach Takt 5</text>
+<rect x="56" y="236" width="22" height="24" rx="3" fill="#fdebd3" stroke="#E07B00" stroke-width="1.8"/>
+<rect x="78" y="236" width="22" height="24" rx="3" fill="#fdebd3" stroke="#E07B00" stroke-width="1.8"/>
+<rect x="100" y="236" width="22" height="24" rx="3" fill="#fdebd3" stroke="#E07B00" stroke-width="1.8"/>
+<rect x="122" y="236" width="22" height="24" rx="3" fill="#fdebd3" stroke="#E07B00" stroke-width="1.8"/>
+<rect x="144" y="236" width="22" height="24" rx="3" fill="#fdebd3" stroke="#E07B00" stroke-width="1.8"/>
+<circle cx="180" cy="248" r="9" fill="#2f6b4f" stroke="none" stroke-width="2"/><path d="M175.95,248 l2.88,3.2399999999999998 l5.76,-6.4799999999999995" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="196" y="253" font-size="13" fill="#333">fertig nach Takt 6</text>
+<rect x="78" y="266" width="22" height="24" rx="3" fill="#dcefe4" stroke="#2f6b4f" stroke-width="1.8"/>
+<rect x="100" y="266" width="22" height="24" rx="3" fill="#dcefe4" stroke="#2f6b4f" stroke-width="1.8"/>
+<rect x="122" y="266" width="22" height="24" rx="3" fill="#dcefe4" stroke="#2f6b4f" stroke-width="1.8"/>
+<rect x="144" y="266" width="22" height="24" rx="3" fill="#dcefe4" stroke="#2f6b4f" stroke-width="1.8"/>
+<rect x="166" y="266" width="22" height="24" rx="3" fill="#dcefe4" stroke="#2f6b4f" stroke-width="1.8"/>
+<circle cx="202" cy="278" r="9" fill="#2f6b4f" stroke="none" stroke-width="2"/><path d="M197.95,278 l2.88,3.2399999999999998 l5.76,-6.4799999999999995" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="218" y="283" font-size="13" fill="#333">fertig nach Takt 7</text>
+<text x="200" y="316" font-size="16" text-anchor="middle" font-weight="700" fill="#2f6b4f">5 + (3 − 1) = 7 Takte</text>
+<text x="200" y="338" font-size="13" text-anchor="middle" fill="#444">jeder Befehl startet 1 Takt später</text>
+<text x="200" y="372" font-size="13" text-anchor="middle" fill="#444">1 Kästchen = 1 Takt · Idealfall ohne Wartezeiten</text>
+</svg>

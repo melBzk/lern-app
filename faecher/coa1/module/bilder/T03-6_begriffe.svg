@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 540" font-family="system-ui, sans-serif" fill="#222" role="img">
+<title>Die 8 neuen Wörter, in drei Gruppen. Allgemein: Speicherhierarchie = Rangfolge, oben klein und schnell, unten groß und langsam. Flüchtig oder nichtflüchtig = Strom weg, Inhalt weg oder bleibt. Zugriffszeit = wie lange bis die Daten kommen, RAM ns, Festplatte ms. Bauweise: SRAM = mehrere Transistoren je Bit, sehr schnell, daraus ist der Cache. DRAM = Ladung plus Transistor, muss aufgefrischt werden, daraus ist der Arbeitsspeicher. Cache-Stufen: L1 = winzig, am schnellsten, je Kern. L2 = größer, je Kern oder gemeinsam. L3 oder Smart Cache = am größten, meist für alle Kerne.</title>
+<rect width="400" height="540" fill="#fff"/>
+<text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700">8 neue Wörter</text>
+<g font-size="13">
+<rect x="10" y="42" width="380" height="160" rx="10" fill="#f4f5f7"/>
+<path d="M42,52 L62,84 H22 Z" fill="#fff" stroke="#555" stroke-width="2"/><path d="M30,72 H54" stroke="#555" stroke-width="1.5"/>
+<text x="76" y="66" font-size="15" font-weight="700">Speicherhierarchie</text><text x="76" y="84">oben klein + schnell, unten groß + langsam</text>
+<path d="M30,108 h12 v-6 h8 v6 h-2 v12 h-16 z" fill="#fff" stroke="#555" stroke-width="2"/><path d="M24,104 L56,132" stroke="#c62828" stroke-width="2.5"/>
+<text x="76" y="116" font-size="15" font-weight="700">flüchtig / nichtflüchtig</text><text x="76" y="134">Strom weg: Inhalt weg / bleibt</text>
+<circle cx="42" cy="170" r="16" fill="#fff" stroke="#555" stroke-width="2"/><path d="M42,170 V160 M42,170 L50,174" stroke="#555" stroke-width="2"/>
+<text x="76" y="166" font-size="15" font-weight="700">Zugriffszeit</text><text x="76" y="184">bis die Daten da sind: RAM ns, Platte ms</text>
+<rect x="10" y="210" width="380" height="118" rx="10" fill="#e3ecfb"/>
+<g fill="#3a6ed8"><rect x="22" y="226" width="7" height="22"/><rect x="31" y="226" width="7" height="22"/><rect x="40" y="226" width="7" height="22"/><rect x="49" y="226" width="7" height="22"/></g>
+<text x="76" y="236" font-size="15" font-weight="700">SRAM</text><text x="76" y="254">mehrere Transistoren je Bit → Cache</text>
+<rect x="24" y="278" width="14" height="22" fill="#3a6ed8"/><path d="M44,282 h12 v18 h-12 z" fill="#9db7ea" stroke="#3a6ed8" stroke-width="1.5"/>
+<text x="76" y="290" font-size="15" font-weight="700">DRAM</text><text x="76" y="308">Ladung + Transistor, auffrischen → RAM</text>
+<rect x="10" y="336" width="380" height="192" rx="10" fill="#fff4e0"/>
+<rect x="22" y="354" width="40" height="22" rx="3" fill="#E07B00"/><text x="42" y="370" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">L1</text>
+<text x="76" y="362" font-size="15" font-weight="700">L1-Cache</text><text x="76" y="380">winzig, am schnellsten, je Kern</text>
+<rect x="22" y="410" width="40" height="26" rx="3" fill="#f0a24a"/><text x="42" y="428" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">L2</text>
+<text x="76" y="418" font-size="15" font-weight="700">L2-Cache</text><text x="76" y="436">größer, je Kern oder gemeinsam</text>
+<rect x="22" y="466" width="40" height="34" rx="3" fill="#f6c58a"/><text x="42" y="488" text-anchor="middle" font-size="13" font-weight="700">L3</text>
+<text x="76" y="474" font-size="15" font-weight="700">L3-Cache / Smart Cache</text><text x="76" y="492">am größten, meist für alle Kerne</text>
+<text x="76" y="512" fill="#555">Smart Cache = Intels Name</text>
+</g>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 426" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Ein Laptop als Host, also echter Rechner mit echten Bauteilen, auf dem Hyper-V läuft; Merkhilfe: der Gastgeber stellt die Wohnung. Auf seinem Bildschirm ein Fenster: der Gast, die VM „Windows 10“ mit virtueller Hardware, wohnt beim Gastgeber. Warnhinweis: Die VM ist nie der Host, sie ist der Gast.</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker><marker id="o" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E07B00"/></marker><marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6b4f"/></marker><marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker><marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker></defs>
+<rect width="400" height="426" fill="#fff"/>
+<text x="200" y="26" font-size="17" text-anchor="middle" font-weight="700">Wer ist Host, wer ist Gast?</text>
+<rect x="30" y="44" width="340" height="220" rx="12" fill="#333" stroke="#333" stroke-width="1"/>
+<rect x="42" y="56" width="316" height="196" rx="4" fill="#eef2f7" stroke="none" stroke-width="0"/>
+<rect x="100" y="74" width="200" height="140" rx="5" fill="#fff" stroke="#3a6ed8" stroke-width="2"/><path d="M100,96 V79 Q100,74 105,74 H295 Q300,74 300,79 V96 Z" fill="#3a6ed8" stroke="#3a6ed8" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/><text x="108" y="90" font-size="15" font-weight="700" fill="#fff">Gast = VM</text>
+<text x="200" y="130" font-size="15" text-anchor="middle" font-weight="700">„Windows 10“</text>
+<text x="200" y="154" font-size="14" text-anchor="middle">virtuelle Hardware</text>
+<text x="200" y="190" font-size="13" text-anchor="middle" fill="#444" font-style="italic">wohnt beim Gastgeber</text>
+<path d="M14,276 L30,264 H370 L386,276 Z" fill="#9aa3ad" stroke="#555" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="200" y="306" font-size="16" text-anchor="middle" font-weight="700" fill="#2f6b4f">Host = echter Laptop</text>
+<text x="200" y="328" font-size="14" text-anchor="middle">echte Bauteile · hier läuft Hyper-V</text>
+<text x="200" y="348" font-size="13" text-anchor="middle" fill="#444" font-style="italic">Gastgeber stellt die Wohnung</text>
+<rect x="14" y="366" width="372" height="46" rx="8" fill="#fdebd3" stroke="#E07B00" stroke-width="2"/>
+<path d="M36,378 L47,397.8 L25,397.8 Z" fill="#E07B00" stroke="#E07B00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><text x="36" y="395.6" font-size="14" text-anchor="middle" font-weight="700" fill="#fff">!</text>
+<text x="56" y="394" font-size="14" font-weight="700" fill="#a85a00">Die VM ist nie der Host – sie ist der Gast.</text>
+</svg>

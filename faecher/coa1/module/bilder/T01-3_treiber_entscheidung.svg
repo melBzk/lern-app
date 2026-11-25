@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 428" font-family="system-ui, sans-serif" font-size="14" fill="#222" role="img">
+<title>Entscheidungsbaum: Neue Tastatur. Frage: Hat sie programmierbare Zusatztasten? Nein: einstecken, fertig – kein Treiber nötig. Ja: Hersteller-Treiber installieren, von CD oder per Download; danach funktionieren die Zusatztasten.</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker><marker id="o" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E07B00"/></marker><marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6b4f"/></marker><marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker><marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker></defs>
+<rect width="400" height="428" fill="#fff"/>
+<text x="200" y="28" font-size="17" text-anchor="middle" font-weight="700" fill="#222">Brauche ich einen Treiber?</text>
+<rect x="110" y="44" width="180" height="48" rx="10" fill="#fff" stroke="#333" stroke-width="2"/>
+<rect x="125.0" y="56.0" width="50" height="24" rx="4" fill="#fff" stroke="#333" stroke-width="1.5"/><rect x="130.0" y="61.0" width="4.7" height="6" rx="1" fill="#ccc" stroke="none" stroke-width="0"/><rect x="136.7" y="61.0" width="4.7" height="6" rx="1" fill="#ccc" stroke="none" stroke-width="0"/><rect x="143.3" y="61.0" width="4.7" height="6" rx="1" fill="#ccc" stroke="none" stroke-width="0"/><rect x="150.0" y="61.0" width="4.7" height="6" rx="1" fill="#ccc" stroke="none" stroke-width="0"/><rect x="156.7" y="61.0" width="4.7" height="6" rx="1" fill="#ccc" stroke="none" stroke-width="0"/><rect x="163.3" y="61.0" width="4.7" height="6" rx="1" fill="#ccc" stroke="none" stroke-width="0"/><rect x="130.0" y="69.0" width="4.7" height="6" rx="1" fill="#ccc" stroke="none" stroke-width="0"/><rect x="136.7" y="69.0" width="4.7" height="6" rx="1" fill="#ccc" stroke="none" stroke-width="0"/><rect x="143.3" y="69.0" width="4.7" height="6" rx="1" fill="#ccc" stroke="none" stroke-width="0"/><rect x="150.0" y="69.0" width="4.7" height="6" rx="1" fill="#ccc" stroke="none" stroke-width="0"/><rect x="156.7" y="69.0" width="4.7" height="6" rx="1" fill="#ccc" stroke="none" stroke-width="0"/><rect x="163.3" y="69.0" width="4.7" height="6" rx="1" fill="#ccc" stroke="none" stroke-width="0"/><rect x="137.5" y="71.0" width="25.0" height="5" rx="1" fill="#ccc" stroke="none" stroke-width="0"/>
+<text x="184" y="74" font-size="14" font-weight="700" fill="#222">neue Tastatur</text>
+<line x1="200" y1="92" x2="200.0" y2="107.2" stroke="#333" stroke-width="3"/><polygon points="200,116 194.5,105.0 205.5,105.0" fill="#333"/>
+<path d="M200,118 L320,160 L200,202 L80,160 Z" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2.5"/>
+<text x="200" y="156" font-size="14" text-anchor="middle" font-weight="700" fill="#3a6ed8">programmierbare</text>
+<text x="200" y="174" font-size="14" text-anchor="middle" font-weight="700" fill="#3a6ed8">Zusatztasten?</text>
+<line x1="80" y1="160" x2="60" y2="160" stroke="#333" stroke-width="3"/><line x1="60" y1="160" x2="60.0" y2="227.2" stroke="#333" stroke-width="3"/><polygon points="60,236 54.5,225.0 65.5,225.0" fill="#333"/>
+<text x="68" y="200" font-size="14" font-weight="700" fill="#222">nein</text>
+<rect x="10" y="240" width="160" height="96" rx="12" fill="#e3f0e9" stroke="#2f6b4f" stroke-width="2.5"/>
+<text x="90" y="270" font-size="15" text-anchor="middle" font-weight="700" fill="#2f6b4f">einstecken,</text>
+<text x="90" y="290" font-size="15" text-anchor="middle" font-weight="700" fill="#2f6b4f">fertig</text>
+<text x="90" y="318" font-size="13" text-anchor="middle" fill="#222">kein Treiber nötig</text>
+<line x1="320" y1="160" x2="340" y2="160" stroke="#333" stroke-width="3"/><line x1="340" y1="160" x2="340.0" y2="227.2" stroke="#333" stroke-width="3"/><polygon points="340,236 334.5,225.0 345.5,225.0" fill="#333"/>
+<text x="332" y="200" font-size="14" text-anchor="end" font-weight="700" fill="#222">ja</text>
+<rect x="200" y="240" width="190" height="96" rx="12" fill="#fdf0e0" stroke="#E07B00" stroke-width="2.5"/>
+<circle cx="236" cy="280" r="18" fill="#e5e7eb" stroke="#555" stroke-width="1.5"/><circle cx="236" cy="280" r="5" fill="#fff" stroke="#555" stroke-width="1.5"/>
+<text x="262" y="270" font-size="14" font-weight="700" fill="#a85400">Hersteller-</text>
+<text x="262" y="288" font-size="14" font-weight="700" fill="#a85400">Treiber</text>
+<text x="262" y="306" font-size="14" font-weight="700" fill="#a85400">installieren</text>
+<text x="295" y="328" font-size="13" text-anchor="middle" fill="#222">CD oder Download</text>
+<line x1="295" y1="336" x2="295.0" y2="355.2" stroke="#333" stroke-width="3"/><polygon points="295,364 289.5,353.0 300.5,353.0" fill="#333"/>
+<rect x="200" y="366" width="190" height="50" rx="12" fill="#e3f0e9" stroke="#2f6b4f" stroke-width="2.5"/>
+<text x="295" y="396" font-size="14" text-anchor="middle" font-weight="700" fill="#2f6b4f">Zusatztasten gehen</text>
+</svg>

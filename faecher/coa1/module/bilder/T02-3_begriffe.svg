@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" font-family="system-ui, sans-serif" fill="#222">
+<title>Die 7 neuen Wörter mit kleinen Symbolen: Formfaktor = genormte Baugröße eines Mainboards. ATX = Standard, sehr weit verbreitet. microATX = kleiner und quadratisch. Mini-ITX = sehr klein, z. B. für Mini-PCs. E-ATX = extra groß, für Server. Tower = stehendes Gehäuse, Big, Midi oder Mini. 19-Zoll-Rack = Regal für Server, Höhe in HE.</title>
+<rect width="400" height="500" fill="#fff"/>
+<text x="200" y="30" text-anchor="middle" font-size="17" font-weight="700">7 Wörter auf einen Blick</text>
+<g fill="#f4f1ee">
+<rect x="10" y="48" width="380" height="57" rx="10"/><rect x="10" y="111" width="380" height="57" rx="10"/><rect x="10" y="174" width="380" height="57" rx="10"/><rect x="10" y="237" width="380" height="57" rx="10"/><rect x="10" y="300" width="380" height="57" rx="10"/><rect x="10" y="363" width="380" height="57" rx="10"/><rect x="10" y="426" width="380" height="57" rx="10"/>
+</g>
+<!-- Formfaktor -->
+<rect x="34" y="66" width="44" height="32" fill="#fff" stroke="#555" stroke-width="2"/>
+<g stroke="#D4607A" stroke-width="2"><line x1="34" y1="58" x2="78" y2="58"/><line x1="34" y1="53" x2="34" y2="63"/><line x1="78" y1="53" x2="78" y2="63"/></g>
+<text x="100" y="72" font-size="15" font-weight="700">Formfaktor</text>
+<text x="100" y="93" font-size="13">genormte Baugröße des Mainboards</text>
+<!-- ATX -->
+<rect x="32" y="120" width="48" height="39" fill="#d6e4fb" stroke="#3a6ed8" stroke-width="2"/>
+<text x="100" y="135" font-size="15" font-weight="700" fill="#2550a8">ATX</text>
+<text x="100" y="156" font-size="13">Standard, sehr weit verbreitet</text>
+<!-- microATX -->
+<rect x="37" y="183" width="39" height="39" fill="#d4efd9" stroke="#2e9d5b" stroke-width="2"/>
+<text x="100" y="198" font-size="15" font-weight="700" fill="#1f7a45">microATX (µATX)</text>
+<text x="100" y="219" font-size="13">kleiner, quadratisch</text>
+<!-- Mini-ITX -->
+<rect x="43" y="252" width="27" height="27" fill="#fde3c4" stroke="#e08a2e" stroke-width="2"/>
+<text x="100" y="261" font-size="15" font-weight="700" fill="#a8590f">Mini-ITX</text>
+<text x="100" y="282" font-size="13">sehr klein, z. B. für Mini-PCs</text>
+<!-- E-ATX -->
+<rect x="32" y="305" width="48" height="47" fill="#e6e6e6" stroke="#777" stroke-width="2"/>
+<text x="100" y="324" font-size="15" font-weight="700" fill="#444">E-ATX</text>
+<text x="100" y="345" font-size="13">extra groß, für Server</text>
+<!-- Tower -->
+<rect x="43" y="368" width="26" height="47" rx="3" fill="#fff" stroke="#333" stroke-width="2.5"/>
+<line x1="48" y1="377" x2="64" y2="377" stroke="#333" stroke-width="2"/><line x1="48" y1="383" x2="64" y2="383" stroke="#333" stroke-width="2"/>
+<circle cx="56" cy="404" r="3" fill="#333"/>
+<text x="100" y="387" font-size="15" font-weight="700">Tower</text>
+<text x="100" y="408" font-size="13">stehendes Gehäuse: Big, Midi, Mini</text>
+<!-- Rack -->
+<rect x="33" y="431" width="46" height="47" fill="#fff" stroke="#333" stroke-width="2.5"/>
+<g fill="#9cc0ef" stroke="#3a6ed8" stroke-width="1.5"><rect x="37" y="435" width="38" height="8"/><rect x="37" y="446" width="38" height="8"/><rect x="37" y="457" width="38" height="16"/></g>
+<text x="100" y="450" font-size="15" font-weight="700">19-Zoll-Rack</text>
+<text x="100" y="471" font-size="13">Regal für Server, Höhe in HE</text>
+</svg>

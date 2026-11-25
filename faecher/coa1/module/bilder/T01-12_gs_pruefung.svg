@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 420" font-family="system-ui, sans-serif" role="img">
+  <title>GS, geprüfte Sicherheit. Der Hersteller lässt sein Gerät zusätzlich und freiwillig von einem unabhängigen Institut prüfen. Danach darf es das GS-Zeichen tragen. Geprüft wird gegen: das Geräte- und Produktsicherheitsgesetz GPSG, DIN-ISO 9241, EU-Richtlinien und die Unfallvorschriften der Berufsgenossenschaften.</title>
+  <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker></defs>
+  <rect width="400" height="420" fill="#fff"/>
+  <text x="200" y="26" text-anchor="middle" font-size="18" font-weight="700" fill="#222">GS = geprüfte Sicherheit</text>
+
+  <!-- Ablauf -->
+  <rect x="14" y="56" width="80" height="56" rx="6" fill="#e5e7eb" stroke="#3a3f4a" stroke-width="2.5"/>
+  <text x="54" y="132" text-anchor="middle" font-size="14" font-weight="700" fill="#222">Gerät</text>
+  <line x1="100" y1="84" x2="138" y2="84" stroke="#333" stroke-width="3" marker-end="url(#a)"/>
+  <rect x="144" y="50" width="112" height="68" rx="8" fill="#f3f4f6" stroke="#3a3f4a" stroke-width="2"/>
+  <circle cx="186" cy="80" r="12" fill="none" stroke="#3a3f4a" stroke-width="3"/><line x1="195" y1="89" x2="206" y2="100" stroke="#3a3f4a" stroke-width="4"/>
+  <text x="200" y="138" text-anchor="middle" font-size="13" fill="#222">unabhängiges</text><text x="200" y="154" text-anchor="middle" font-size="13" fill="#222">Institut prüft</text>
+  <line x1="262" y1="84" x2="300" y2="84" stroke="#333" stroke-width="3" marker-end="url(#a)"/>
+  <rect x="306" y="62" width="76" height="44" rx="5" fill="#fff" stroke="#222" stroke-width="2"/>
+  <text x="344" y="91" text-anchor="middle" font-size="18" font-weight="700" fill="#222">GS</text>
+  <rect x="300" y="122" width="88" height="28" rx="14" fill="#e8f6ee" stroke="#1f9d55" stroke-width="2"/>
+  <text x="344" y="141" text-anchor="middle" font-size="14" font-weight="700" fill="#14653a">freiwillig</text>
+
+  <!-- geprueft gegen -->
+  <rect x="8" y="176" width="384" height="234" rx="12" fill="#f3f4f6" stroke="#bbb"/>
+  <text x="24" y="204" font-size="16" font-weight="700" fill="#222">geprüft gegen:</text>
+  <g font-size="14" fill="#222">
+    <rect x="24" y="220" width="352" height="40" rx="8" fill="#fff" stroke="#ccc"/><text x="36" y="245">Geräte- und Produktsicherheitsgesetz</text>
+    <rect x="24" y="266" width="352" height="40" rx="8" fill="#fff" stroke="#ccc"/><text x="36" y="291">DIN-ISO 9241 (Bildschirmarbeit)</text>
+    <rect x="24" y="312" width="352" height="40" rx="8" fill="#fff" stroke="#ccc"/><text x="36" y="337">EU-Richtlinien</text>
+    <rect x="24" y="358" width="352" height="40" rx="8" fill="#fff" stroke="#ccc"/><text x="36" y="383">Unfallvorschriften der Berufsgenossenschaften</text></g>
+</svg>

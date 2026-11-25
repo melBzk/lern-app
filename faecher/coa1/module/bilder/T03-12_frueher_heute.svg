@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 392" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Größenvergleich als Balken: RAM im Laptop 32 GB. Früher Auslagerungsdatei 1,5 mal RAM: 32 GB mal 1,5 gleich 48 GB, langer Balken. Heute zurzeit zugeteilt 2048 MB geteilt durch 1024 gleich 2 GB, sehr kurzer Balken; empfohlen 4955 MB. 48 GB geteilt durch 2 GB gleich 24: früher 24-mal so groß, heute verwaltet Windows die Größe selbst.</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker><marker id="o" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E07B00"/></marker><marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6b4f"/></marker><marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker><marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker></defs>
+<rect width="400" height="392" fill="#fff"/>
+<text x="200" y="26" font-size="17" text-anchor="middle" font-weight="700">Auslagerungsdatei: früher und heute</text>
+<text x="16" y="62" font-size="14" font-weight="700">RAM im Laptop</text>
+<rect x="16" y="72" width="208.0" height="26" rx="3" fill="#dcefe4" stroke="#2f6b4f" stroke-width="2"/>
+<text x="232.0" y="91" font-size="15" font-weight="700" fill="#2f6b4f">32 GB</text>
+<text x="16" y="132" font-size="14" font-weight="700">früher: 1,5 × RAM</text>
+<rect x="16" y="142" width="312.0" height="26" rx="3" fill="#fdebd3" stroke="#E07B00" stroke-width="2"/>
+<text x="172.0" y="161" font-size="15" text-anchor="middle" font-weight="700" fill="#a85a00">48 GB</text>
+<text x="16" y="190" font-size="14" fill="#333">32 GB × 1,5 = 48 GB</text>
+<text x="16" y="230" font-size="14" font-weight="700">heute: zurzeit zugeteilt</text>
+<rect x="16" y="240" width="13.0" height="26" rx="2" fill="#dbe6fb" stroke="#3a6ed8" stroke-width="2"/>
+<text x="37.0" y="259" font-size="15" font-weight="700" fill="#3a6ed8">2 GB</text>
+<text x="16" y="288" font-size="13" fill="#333">2048 MB ÷ 1024 = 2 GB · empfohlen: 4955 MB</text>
+<rect x="14" y="308" width="372" height="70" rx="8" fill="#f6f6f6" stroke="#999" stroke-width="1.5"/>
+<text x="200" y="334" font-size="16" text-anchor="middle" font-weight="700">48 GB ÷ 2 GB = 24</text>
+<text x="200" y="358" font-size="13" text-anchor="middle" fill="#333">früher 24-mal so groß – heute verwaltet Windows die Größe</text>
+</svg>

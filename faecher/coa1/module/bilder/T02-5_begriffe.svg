@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 450" font-family="system-ui, sans-serif" fill="#222">
+<title>Die 8 neuen Wörter geordnet: Oben Chipsatz (Gruppe von Chips auf dem Mainboard) und Treiber (Programm, damit der Computer die Chips ansteuern kann). Darunter zwei Aufbauten mit je einem Chip für den schnellen und einem für den langsamen Bereich: früher die Bridge-Architektur mit Northbridge (schnell) und Southbridge (langsam), danach die Hub-Architektur mit MCH oder GMCH (schnell, Speicher-Knoten, G = mit Grafik) und ICH (langsam, Ein-/Ausgabe-Knoten).</title>
+<rect width="400" height="450" fill="#fff"/>
+<text x="200" y="30" text-anchor="middle" font-size="17" font-weight="700">8 Wörter, sinnvoll sortiert</text>
+<!-- Chipsatz + Treiber -->
+<rect x="10" y="44" width="186" height="96" rx="10" fill="#f4f1ee"/>
+<g fill="#333"><rect x="26" y="58" width="22" height="22"/><rect x="54" y="58" width="22" height="22"/><rect x="40" y="86" width="22" height="22"/></g>
+<text x="88" y="78" font-size="15" font-weight="700">Chipsatz</text>
+<text x="88" y="98" font-size="13">Gruppe von</text>
+<text x="88" y="115" font-size="13">Chips</text>
+<rect x="204" y="44" width="186" height="96" rx="10" fill="#f4f1ee"/>
+<rect x="218" y="60" width="44" height="34" rx="3" fill="#fff" stroke="#3a6ed8" stroke-width="2"/>
+<text x="240" y="83" text-anchor="middle" font-size="14" font-weight="700" fill="#3a6ed8">&lt;/&gt;</text>
+<text x="272" y="78" font-size="15" font-weight="700">Treiber</text>
+<text x="272" y="98" font-size="13">Programm, um</text>
+<text x="272" y="115" font-size="13">Chips anzusteuern</text>
+<!-- Spaltenkoepfe -->
+<text x="200" y="168" text-anchor="middle" font-size="14" fill="#666">je ein Chip für den …</text>
+<text x="108" y="196" text-anchor="middle" font-size="15" font-weight="700" fill="#D4607A">schnellen Bereich</text>
+<text x="292" y="196" text-anchor="middle" font-size="15" font-weight="700" fill="#3a6ed8">langsamen Bereich</text>
+<!-- Bridge -->
+<rect x="10" y="210" width="380" height="104" rx="10" fill="#f4f1ee"/>
+<text x="24" y="234" font-size="15" font-weight="700">früher: Bridge-Architektur</text>
+<rect x="24" y="246" width="168" height="54" rx="8" fill="#fbe3e8" stroke="#D4607A" stroke-width="2"/>
+<text x="108" y="279" text-anchor="middle" font-size="15" font-weight="700">Northbridge</text>
+<rect x="208" y="246" width="168" height="54" rx="8" fill="#e3ecfb" stroke="#3a6ed8" stroke-width="2"/>
+<text x="292" y="279" text-anchor="middle" font-size="15" font-weight="700">Southbridge</text>
+<!-- Hub -->
+<rect x="10" y="324" width="380" height="118" rx="10" fill="#f4f1ee"/>
+<text x="24" y="348" font-size="15" font-weight="700">danach: Hub-Architektur</text>
+<rect x="24" y="360" width="168" height="68" rx="8" fill="#fbe3e8" stroke="#D4607A" stroke-width="2"/>
+<text x="108" y="388" text-anchor="middle" font-size="15" font-weight="700">MCH / GMCH</text>
+<text x="108" y="410" text-anchor="middle" font-size="13">Speicher (G = Grafik)</text>
+<rect x="208" y="360" width="168" height="68" rx="8" fill="#e3ecfb" stroke="#3a6ed8" stroke-width="2"/>
+<text x="292" y="388" text-anchor="middle" font-size="15" font-weight="700">ICH</text>
+<text x="292" y="410" text-anchor="middle" font-size="13">Ein-/Ausgabe (I/O)</text>
+</svg>

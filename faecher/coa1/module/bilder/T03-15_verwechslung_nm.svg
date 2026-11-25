@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 420" font-family="system-ui, sans-serif" fill="#222" role="img">
+<title>Drei Karten untereinander, getrennt durch ein großes Ungleich-Zeichen. Erste Karte: 13,5 nm ist die Wellenlänge des EUV-Lichts, sie gehört zum Werkzeug, der Maschine. Zweite Karte: 10 nm ist die Strukturbreite beziehungsweise der Prozess, so steht es in CPU-Z, sie gehört zum fertigen Chip, dem Produkt. Dritte Karte: Der Chip, das Die, ist als Ganzes etwa fingernagelgroß.</title>
+<rect width="400" height="420" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">Drei Größen – nicht verwechseln</text>
+
+<!-- 1 Wellenlänge -->
+<rect x="14" y="42" width="372" height="96" rx="10" fill="#f3eefc" stroke="#7b3fc4" stroke-width="2"/>
+<path d="M28,90 q4,-14 8,0 t8,0 t8,0 t8,0 t8,0 t8,0 t8,0" stroke="#7b3fc4" stroke-width="3" fill="none"/>
+<text x="104" y="74" font-size="22" font-weight="700" fill="#7b3fc4">13,5 nm</text>
+<text x="104" y="98" font-size="14" font-weight="700">Wellenlänge des EUV-Lichts</text>
+<text x="104" y="120" font-size="13" fill="#555">gehört zum Werkzeug (Maschine)</text>
+<text x="200" y="164" text-anchor="middle" font-size="28" font-weight="700" fill="#c62828">≠</text>
+
+<!-- 2 Strukturbreite -->
+<rect x="14" y="176" width="372" height="96" rx="10" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<rect x="28" y="204" width="60" height="40" fill="#cfd6dd" stroke="#555" stroke-width="1.5"/>
+<path d="M34,204 h3 v40 h-3z M44,204 h3 v40 h-3z M54,204 h3 v40 h-3z M64,204 h3 v40 h-3z M74,204 h3 v40 h-3z" fill="#3a6ed8"/>
+<text x="104" y="208" font-size="22" font-weight="700" fill="#3a6ed8">„10 nm“</text>
+<text x="104" y="232" font-size="14" font-weight="700">Strukturbreite / Prozess</text>
+<text x="104" y="254" font-size="13" fill="#555">in CPU-Z · gehört zum Chip (Produkt)</text>
+<text x="200" y="298" text-anchor="middle" font-size="28" font-weight="700" fill="#c62828">≠</text>
+
+<!-- 3 Chipgröße -->
+<rect x="14" y="310" width="372" height="96" rx="10" fill="#f4f5f7" stroke="#555" stroke-width="2"/>
+<rect x="38" y="336" width="40" height="40" rx="2" fill="#5b6470"/>
+<text x="104" y="342" font-size="22" font-weight="700">Chip (Die)</text>
+<text x="104" y="366" font-size="14" font-weight="700">fingernagelgroß</text>
+<text x="104" y="388" font-size="13" fill="#555">das ganze Plättchen</text>
+</svg>

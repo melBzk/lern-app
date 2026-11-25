@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 488" font-family="system-ui, sans-serif" role="img">
+  <title>Die 8 wichtigsten neuen Wörter als Bildkacheln. CRT: der alte, dicke Röhrenmonitor. LCD: flacher Bildschirm mit Flüssigkristallen. Hintergrundbeleuchtung: Licht hinter dem LCD, heute meist LEDs. OLED: Bildpunkte leuchten selbst. Bildschirmdiagonale: von Ecke zu Ecke, in Zoll. Seitenverhältnis: Breite zu Höhe, zum Beispiel 16 zu 9. Pixel und Auflösung: Bildpunkte, Breite mal Höhe. Native Auflösung: die Auflösung, für die das LCD gebaut ist.</title>
+  <rect width="400" height="488" fill="#fff"/>
+  <text x="200" y="26" text-anchor="middle" font-size="18" font-weight="700" fill="#222">Die 8 wichtigsten Wörter</text>
+
+  <g transform="translate(8,40)"><rect fill="#f3f4f6" stroke="#bbb" width="188" height="104" rx="10"/>
+    <path d="M64,8 h40 v40 h-40 z" fill="#3a3f4a"/><path d="M104,14 l26,8 v12 l-26,8 z" fill="#6b7280"/><rect x="69" y="13" width="30" height="30" rx="4" fill="#9fb4c8"/>
+    <text font-size="15" font-weight="700" fill="#222" text-anchor="middle" x="94" y="74">CRT</text><text font-size="13" fill="#333" text-anchor="middle" x="94" y="93">dicker Röhrenmonitor</text></g>
+
+  <g transform="translate(204,40)"><rect fill="#f3f4f6" stroke="#bbb" width="188" height="104" rx="10"/>
+    <rect x="58" y="8" width="72" height="40" rx="3" fill="#3a3f4a"/><rect x="62" y="12" width="64" height="32" fill="#9fb4c8"/><rect x="88" y="48" width="12" height="6" fill="#555"/>
+    <text font-size="15" font-weight="700" fill="#222" text-anchor="middle" x="94" y="74">LCD</text><text font-size="13" fill="#333" text-anchor="middle" x="94" y="93">flach, Flüssigkristalle</text></g>
+
+  <g transform="translate(8,152)"><rect fill="#f3f4f6" stroke="#bbb" width="188" height="104" rx="10"/>
+    <rect x="100" y="8" width="8" height="46" fill="#9fb4c8" stroke="#3a3f4a"/>
+    <g fill="#f2c200"><circle cx="78" cy="16" r="5"/><circle cx="78" cy="31" r="5"/><circle cx="78" cy="46" r="5"/></g>
+    <g stroke="#f2c200" stroke-width="2.5"><line x1="86" y1="16" x2="98" y2="16"/><line x1="86" y1="31" x2="98" y2="31"/><line x1="86" y1="46" x2="98" y2="46"/><line x1="110" y1="31" x2="124" y2="31"/></g>
+    <text font-weight="700" fill="#222" text-anchor="middle" font-size="14" x="94" y="74">Hintergrundbeleuchtung</text><text font-size="13" fill="#333" text-anchor="middle" x="94" y="93">Licht von hinten, meist LED</text></g>
+
+  <g transform="translate(204,152)"><rect fill="#f3f4f6" stroke="#bbb" width="188" height="104" rx="10"/>
+    <rect x="58" y="8" width="72" height="40" rx="3" fill="#111"/>
+    <g fill="#ff5a5a"><circle cx="72" cy="20" r="5"/></g><g fill="#4cd964"><circle cx="94" cy="20" r="5"/></g><g fill="#4aa3ff"><circle cx="116" cy="20" r="5"/></g>
+    <g fill="#f2c200"><circle cx="83" cy="36" r="5"/><circle cx="105" cy="36" r="5"/></g>
+    <text font-size="15" font-weight="700" fill="#222" text-anchor="middle" x="94" y="74">OLED</text><text font-size="13" fill="#333" text-anchor="middle" x="94" y="93">Pixel leuchten selbst</text></g>
+
+  <g transform="translate(8,264)"><rect fill="#f3f4f6" stroke="#bbb" width="188" height="104" rx="10"/>
+    <rect x="56" y="8" width="76" height="44" rx="3" fill="#fff" stroke="#3a3f4a" stroke-width="3"/>
+    <line x1="60" y1="48" x2="128" y2="12" stroke="#E07B00" stroke-width="3"/>
+    <text font-size="15" font-weight="700" fill="#222" text-anchor="middle" x="94" y="74">Diagonale</text><text font-size="13" fill="#333" text-anchor="middle" x="94" y="93">Ecke zu Ecke, in Zoll</text></g>
+
+  <g transform="translate(204,264)"><rect fill="#f3f4f6" stroke="#bbb" width="188" height="104" rx="10"/>
+    <rect x="58" y="10" width="72" height="40" rx="3" fill="#fff" stroke="#3a3f4a" stroke-width="3"/>
+    <text x="94" y="36" text-anchor="middle" font-size="15" font-weight="700" fill="#E07B00">16:9</text>
+    <text font-size="15" font-weight="700" fill="#222" text-anchor="middle" x="94" y="74">Seitenverhältnis</text><text font-size="13" fill="#333" text-anchor="middle" x="94" y="93">Breite : Höhe</text></g>
+
+  <g transform="translate(8,376)"><rect fill="#f3f4f6" stroke="#bbb" width="188" height="104" rx="10"/>
+    <g fill="#fff" stroke="#3a3f4a" stroke-width="1.5">
+      <rect x="64" y="8" width="12" height="12"/><rect x="76" y="8" width="12" height="12"/><rect x="88" y="8" width="12" height="12" fill="#E07B00"/><rect x="100" y="8" width="12" height="12"/><rect x="112" y="8" width="12" height="12"/>
+      <rect x="64" y="20" width="12" height="12"/><rect x="76" y="20" width="12" height="12"/><rect x="88" y="20" width="12" height="12"/><rect x="100" y="20" width="12" height="12"/><rect x="112" y="20" width="12" height="12"/>
+      <rect x="64" y="32" width="12" height="12"/><rect x="76" y="32" width="12" height="12"/><rect x="88" y="32" width="12" height="12"/><rect x="100" y="32" width="12" height="12"/><rect x="112" y="32" width="12" height="12"/></g>
+    <text font-size="15" font-weight="700" fill="#222" text-anchor="middle" x="94" y="72">Pixel / Auflösung</text><text font-size="13" fill="#333" text-anchor="middle" x="94" y="92">Breite × Höhe</text></g>
+
+  <g transform="translate(204,376)"><rect fill="#f3f4f6" stroke="#bbb" width="188" height="104" rx="10"/>
+    <rect x="58" y="8" width="56" height="40" rx="3" fill="#fff" stroke="#3a3f4a" stroke-width="3"/>
+    <text x="86" y="36" text-anchor="middle" font-size="20" font-weight="700" fill="#222">A</text>
+    <path d="M118,30 l7,7 l14,-16" fill="none" stroke="#1f9d55" stroke-width="4"/>
+    <text font-size="15" font-weight="700" fill="#222" text-anchor="middle" x="94" y="72">native Auflösung</text><text font-size="13" fill="#333" text-anchor="middle" x="94" y="92">dafür ist das LCD gebaut</text></g>
+</svg>

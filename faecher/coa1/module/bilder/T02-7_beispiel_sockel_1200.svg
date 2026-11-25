@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 420" font-family="system-ui, sans-serif" fill="#222">
+<title>Passt der Prozessor? Oben das Mainboard mit Sockel LGA 1200. Darunter drei Intel Core i9: i9-10900K mit LGA 1200 passt (grüner Haken), i9-9900K mit LGA 1151 passt nicht, i9-9980XE mit LGA 2066 passt nicht (rote X). Entscheidend ist die Zahl, nicht der Name i9. Unten: Danach im Handbuch prüfen, eventuell BIOS-Update.</title>
+<rect width="400" height="420" fill="#fff"/>
+<text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700">Welcher i9 passt?</text>
+<!-- Board -->
+<rect x="100" y="42" width="200" height="60" rx="6" fill="#2e7d4f"/>
+<rect x="116" y="52" width="40" height="40" rx="2" fill="#fff" stroke="#333" stroke-width="2"/>
+<text x="168" y="70" font-size="13" fill="#fff">Mein Board:</text>
+<text x="168" y="90" font-size="16" font-weight="700" fill="#fff">LGA 1200</text>
+<!-- CPUs -->
+<g fill="#f4f1ee"><rect x="10" y="118" width="380" height="64" rx="10"/><rect x="10" y="190" width="380" height="64" rx="10"/><rect x="10" y="262" width="380" height="64" rx="10"/></g>
+<rect x="10" y="118" width="380" height="64" rx="10" fill="#eef8f0" stroke="#2e9d5b" stroke-width="2"/>
+<g fill="#cfd8dc" stroke="#555" stroke-width="1.5"><rect x="24" y="130" width="40" height="40" rx="3"/><rect x="24" y="202" width="40" height="40" rx="3"/><rect x="24" y="274" width="40" height="40" rx="3"/></g>
+<text x="78" y="146" font-size="15" font-weight="700">Core i9-10900K</text>
+<text x="78" y="168" font-size="14">LGA <tspan font-weight="700" fill="#1f7a45">1200</tspan></text>
+<path d="M330,150 L342,162 L364,136" fill="none" stroke="#2e9d5b" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="78" y="218" font-size="15" font-weight="700">Core i9-9900K</text>
+<text x="78" y="240" font-size="14">LGA <tspan font-weight="700" fill="#d43c3c">1151</tspan></text>
+<g stroke="#d43c3c" stroke-width="6" stroke-linecap="round"><line x1="334" y1="208" x2="360" y2="234"/><line x1="360" y1="208" x2="334" y2="234"/></g>
+<text x="78" y="290" font-size="15" font-weight="700">Core i9-9980XE</text>
+<text x="78" y="312" font-size="14">LGA <tspan font-weight="700" fill="#d43c3c">2066</tspan></text>
+<g stroke="#d43c3c" stroke-width="6" stroke-linecap="round"><line x1="334" y1="280" x2="360" y2="306"/><line x1="360" y1="280" x2="334" y2="306"/></g>
+<!-- Hinweis -->
+<text x="200" y="352" text-anchor="middle" font-size="15" font-weight="700" fill="#D4607A">Die Zahl zählt – nicht „i9“!</text>
+<rect x="10" y="366" width="380" height="44" rx="10" fill="#fff" stroke="#999" stroke-width="1.5"/>
+<text x="200" y="393" text-anchor="middle" font-size="14">Dann: Handbuch prüfen, evtl. BIOS-Update</text>
+</svg>

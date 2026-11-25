@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" font-family="system-ui, sans-serif" role="img">
+  <title>Praxisfall Arztpraxis, die Aufgabe als Bild. Bedarf a: Formulare mit Durchschlag, Original und Kopie in einem Durchgang. Bedarf b: viele Briefe am Tag, schnell, leise, günstig pro Seite. Für beide ist der passende Drucker gesucht, angedeutet durch ein Fragezeichen.</title>
+  <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker></defs>
+  <rect width="400" height="400" fill="#fff"/>
+  <text x="200" y="26" text-anchor="middle" font-size="18" font-weight="700" fill="#222">Arztpraxis: zwei Drucker gesucht</text>
+
+  <rect x="8" y="42" width="384" height="164" rx="12" fill="#f3f4f6" stroke="#bbb"/>
+  <circle cx="30" cy="66" r="12" fill="#E07B00"/><text x="30" y="71" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">a</text>
+  <text x="50" y="72" font-size="16" font-weight="700" fill="#222">Formular mit Durchschlag</text>
+  <rect x="40" y="96" width="70" height="90" fill="#fff" stroke="#333" stroke-width="1.5"/>
+  <g stroke="#333" stroke-width="2"><line x1="48" y1="110" x2="102" y2="110"/><line x1="48" y1="122" x2="102" y2="122"/><line x1="48" y1="134" x2="90" y2="134"/></g>
+  <rect x="56" y="104" width="70" height="90" fill="#fde8f3" stroke="#d6338a" stroke-width="1.5" opacity="0.85"/>
+  <g stroke="#d6338a" stroke-width="2"><line x1="64" y1="150" x2="118" y2="150"/><line x1="64" y1="162" x2="118" y2="162"/><line x1="64" y1="174" x2="106" y2="174"/></g>
+  <text x="140" y="130" font-size="14" fill="#333">Original + Kopie</text>
+  <text x="140" y="150" font-size="14" fill="#333">in einem Durchgang</text>
+  <line x1="290" y1="140" x2="318" y2="140" stroke="#333" stroke-width="3" marker-end="url(#a)"/>
+  <rect x="324" y="112" width="58" height="56" rx="8" fill="#fff" stroke="#E07B00" stroke-width="3"/>
+  <text x="353" y="151" text-anchor="middle" font-size="30" font-weight="700" fill="#E07B00">?</text>
+
+  <rect x="8" y="218" width="384" height="174" rx="12" fill="#f3f4f6" stroke="#bbb"/>
+  <circle cx="30" cy="242" r="12" fill="#E07B00"/><text x="30" y="247" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">b</text>
+  <text x="50" y="248" font-size="16" font-weight="700" fill="#222">viele Briefe am Tag</text>
+  <g fill="#fff" stroke="#333"><rect x="28" y="290" width="40" height="52"/><rect x="34" y="284" width="40" height="52"/><rect x="40" y="278" width="40" height="52"/><rect x="46" y="272" width="40" height="52"/></g>
+  <g fill="#e8f6ee" stroke="#1f9d55" stroke-width="2"><rect x="110" y="266" width="150" height="28" rx="14"/><rect x="110" y="302" width="150" height="28" rx="14"/><rect x="110" y="338" width="150" height="28" rx="14"/></g>
+  <g font-size="14" font-weight="700" fill="#14653a" text-anchor="middle"><text x="185" y="285">schnell</text><text x="185" y="321">leise</text><text x="185" y="357">günstig pro Seite</text></g>
+  <line x1="290" y1="316" x2="318" y2="316" stroke="#333" stroke-width="3" marker-end="url(#a)"/>
+  <rect x="324" y="288" width="58" height="56" rx="8" fill="#fff" stroke="#E07B00" stroke-width="3"/>
+  <text x="353" y="327" text-anchor="middle" font-size="30" font-weight="700" fill="#E07B00">?</text>
+</svg>

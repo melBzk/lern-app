@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 484" font-family="system-ui, sans-serif" role="img">
+  <title>Vier Paare, die man nicht vertauschen darf. Farben: der Monitor mischt Licht aus RGB, Rot, Grün, Blau; der Drucker mischt Farbe aus CMYK. Diagonale in Zoll sagt, wie groß das Gerät ist; Auflösung in Pixeln sagt, wie fein das Bild ist. LED-Bildschirm meint meist ein LCD mit LED-Licht von hinten; bei OLED leuchtet jeder Bildpunkt selbst. Seitenverhältnis 4 zu 3 früher wegen der Röhre, 16 zu 9 heute wie im Kino.</title>
+  <rect width="400" height="484" fill="#fff"/>
+  <text x="200" y="26" text-anchor="middle" font-size="18" font-weight="700" fill="#222">Nicht vertauschen</text>
+
+  <!-- 1 RGB / CMYK -->
+  <rect fill="#f3f4f6" stroke="#bbb" x="8" y="40" width="174" height="100" rx="10"/><rect fill="#f3f4f6" stroke="#bbb" x="218" y="40" width="174" height="100" rx="10"/>
+  <text font-size="22" font-weight="700" fill="#E07B00" text-anchor="middle" x="200" y="98">≠</text>
+  <circle cx="80" cy="66" r="12" fill="#e03131"/><circle cx="96" cy="66" r="12" fill="#2f9e44" fill-opacity="0.85"/><circle cx="112" cy="66" r="12" fill="#1c7ed6" fill-opacity="0.85"/>
+  <text font-size="14" font-weight="700" fill="#222" text-anchor="middle" x="95" y="106">Monitor: RGB</text><text font-size="13" fill="#333" text-anchor="middle" x="95" y="126">mischt Licht</text>
+  <circle cx="278" cy="66" r="10" fill="#1fa3c9"/><circle cx="296" cy="66" r="10" fill="#d6338a"/><circle cx="314" cy="66" r="10" fill="#f2c200"/><circle cx="332" cy="66" r="10" fill="#111"/>
+  <text font-size="14" font-weight="700" fill="#222" text-anchor="middle" x="305" y="106">Drucker: CMYK</text><text font-size="13" fill="#333" text-anchor="middle" x="305" y="126">mischt Farbe</text>
+
+  <!-- 2 Zoll / Pixel -->
+  <rect fill="#f3f4f6" stroke="#bbb" x="8" y="150" width="174" height="104" rx="10"/><rect fill="#f3f4f6" stroke="#bbb" x="218" y="150" width="174" height="104" rx="10"/>
+  <text font-size="22" font-weight="700" fill="#E07B00" text-anchor="middle" x="200" y="210">≠</text>
+  <rect x="66" y="162" width="58" height="38" rx="3" fill="#fff" stroke="#3a3f4a" stroke-width="2.5"/><line x1="69" y1="197" x2="121" y2="165" stroke="#E07B00" stroke-width="3"/>
+  <text font-size="14" font-weight="700" fill="#222" text-anchor="middle" x="95" y="222">Diagonale: Zoll</text><text font-size="13" fill="#333" text-anchor="middle" x="95" y="242">wie groß das Gerät</text>
+  <g fill="#fff" stroke="#3a3f4a" stroke-width="1.2"><rect x="282" y="162" width="10" height="10"/><rect x="292" y="162" width="10" height="10"/><rect x="302" y="162" width="10" height="10"/><rect x="312" y="162" width="10" height="10"/><rect x="282" y="172" width="10" height="10"/><rect x="292" y="172" width="10" height="10"/><rect x="302" y="172" width="10" height="10"/><rect x="312" y="172" width="10" height="10"/><rect x="282" y="182" width="10" height="10"/><rect x="292" y="182" width="10" height="10"/><rect x="302" y="182" width="10" height="10"/><rect x="312" y="182" width="10" height="10"/></g>
+  <text font-size="14" font-weight="700" fill="#222" text-anchor="middle" x="305" y="222">Auflösung: Pixel</text><text font-size="13" fill="#333" text-anchor="middle" x="305" y="242">wie fein das Bild</text>
+
+  <!-- 3 LED-LCD / OLED -->
+  <rect fill="#f3f4f6" stroke="#bbb" x="8" y="264" width="174" height="104" rx="10"/><rect fill="#f3f4f6" stroke="#bbb" x="218" y="264" width="174" height="104" rx="10"/>
+  <text font-size="22" font-weight="700" fill="#E07B00" text-anchor="middle" x="200" y="324">≠</text>
+  <g fill="#f2c200"><circle cx="72" cy="278" r="4"/><circle cx="72" cy="290" r="4"/><circle cx="72" cy="302" r="4"/></g>
+  <g stroke="#f2c200" stroke-width="2"><line x1="78" y1="278" x2="96" y2="278"/><line x1="78" y1="290" x2="96" y2="290"/><line x1="78" y1="302" x2="96" y2="302"/></g>
+  <rect x="98" y="272" width="8" height="38" fill="#9fb4c8" stroke="#3a3f4a"/>
+  <text font-size="14" font-weight="700" fill="#222" text-anchor="middle" x="95" y="334">„LED“: meist LCD</text><text font-size="13" fill="#333" text-anchor="middle" x="95" y="354">+ LED-Licht von hinten</text>
+  <rect x="270" y="274" width="70" height="34" rx="3" fill="#111"/>
+  <circle cx="286" cy="291" r="5" fill="#ff5a5a"/><circle cx="305" cy="291" r="5" fill="#4cd964"/><circle cx="324" cy="291" r="5" fill="#4aa3ff"/>
+  <text font-size="14" font-weight="700" fill="#222" text-anchor="middle" x="305" y="334">OLED</text><text font-size="13" fill="#333" text-anchor="middle" x="305" y="354">Punkt leuchtet selbst</text>
+
+  <!-- 4 4:3 / 16:9 -->
+  <rect fill="#f3f4f6" stroke="#bbb" x="8" y="378" width="174" height="98" rx="10"/><rect fill="#f3f4f6" stroke="#bbb" x="218" y="378" width="174" height="98" rx="10"/>
+  <text font-size="22" font-weight="700" fill="#E07B00" text-anchor="middle" x="200" y="434">≠</text>
+  <rect x="75" y="388" width="40" height="30" rx="2" fill="#fff" stroke="#3a3f4a" stroke-width="2.5"/>
+  <text font-size="14" font-weight="700" fill="#222" text-anchor="middle" x="95" y="442">4:3 früher</text><text font-size="13" fill="#333" text-anchor="middle" x="95" y="462">wegen der Röhre</text>
+  <rect x="273" y="391" width="64" height="36" rx="2" fill="#fff" stroke="#3a3f4a" stroke-width="2.5"/>
+  <text font-size="14" font-weight="700" fill="#222" text-anchor="middle" x="305" y="446">16:9 heute</text><text font-size="13" fill="#333" text-anchor="middle" x="305" y="466">wie im Kino</text>
+</svg>

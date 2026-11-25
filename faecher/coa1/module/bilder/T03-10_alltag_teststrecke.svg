@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 414" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Vergleich Papier und Messung. Oben: Autoprospekt mit PS und Hubraum, daneben ein Auto auf der Teststrecke mit Stoppuhr. Unten: Datenblatt mit GHz, Kernen und Cache, daneben ein Prozessor mit Stoppuhr: der Benchmark. Hinweis, wo der Vergleich hinkt: die CPU arbeitet mit RAM und Mainboard, darum ein Testrechner mit schnellen Teilen.</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker><marker id="o" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E07B00"/></marker><marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6b4f"/></marker><marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker><marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker></defs>
+<rect width="400" height="414" fill="#fff"/>
+<text x="200" y="26" font-size="17" text-anchor="middle" font-weight="700">Papier oder Messung?</text>
+<text x="80" y="56" font-size="14" text-anchor="middle" font-weight="700" fill="#555">steht im Papier</text>
+<text x="300" y="56" font-size="14" text-anchor="middle" font-weight="700" fill="#2f6b4f">zeigt die Messung</text>
+<rect x="6" y="66" width="388" height="128" rx="10" fill="#f6f6f6" stroke="#ddd" stroke-width="1.5"/>
+<rect x="20" y="82" width="120" height="96" rx="4" fill="#fff" stroke="#555" stroke-width="2"/>
+<text x="80" y="104" font-size="14" text-anchor="middle" font-weight="700">Prospekt</text>
+<text x="34" y="128" font-size="13">• PS</text>
+<text x="34" y="148" font-size="13">• Hubraum</text>
+<line x1="150" y1="130" x2="196" y2="130" stroke="#333" stroke-width="2.5" marker-end="url(#a)"/>
+<line x1="212" y1="172" x2="380" y2="172" stroke="#999" stroke-width="3" stroke-dasharray="10 6"/>
+<path d="M230,160 h70 v-12 l-12,-14 h-34 l-14,14 h-10 Z" fill="#dbe6fb" stroke="#3a6ed8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="248" cy="162" r="7" fill="#333" stroke="none" stroke-width="2"/><circle cx="288" cy="162" r="7" fill="#333" stroke="none" stroke-width="2"/>
+<rect x="348" y="93" width="8" height="5" rx="1" fill="#E07B00" stroke="none" stroke-width="0"/><circle cx="352" cy="118" r="18" fill="#fff" stroke="#E07B00" stroke-width="3"/><line x1="352" y1="118" x2="352" y2="106.3" stroke="#333" stroke-width="2.5"/><line x1="352" y1="118" x2="361.0" y2="121.6" stroke="#333" stroke-width="2.5"/>
+<text x="262" y="100" font-size="14" text-anchor="middle" font-weight="700">Teststrecke</text>
+<rect x="6" y="204" width="388" height="128" rx="10" fill="#f6f6f6" stroke="#ddd" stroke-width="1.5"/>
+<rect x="20" y="220" width="120" height="96" rx="4" fill="#fff" stroke="#555" stroke-width="2"/>
+<text x="80" y="242" font-size="14" text-anchor="middle" font-weight="700">Datenblatt</text>
+<text x="34" y="266" font-size="13">• GHz</text>
+<text x="34" y="286" font-size="13">• Kerne, Cache</text>
+<line x1="150" y1="268" x2="196" y2="268" stroke="#333" stroke-width="2.5" marker-end="url(#a)"/>
+<line x1="248.8" y1="253" x2="248.8" y2="258" stroke="#888" stroke-width="2"/><line x1="248.8" y1="302" x2="248.8" y2="307" stroke="#888" stroke-width="2"/><line x1="235" y1="266.8" x2="240" y2="266.8" stroke="#888" stroke-width="2"/><line x1="284" y1="266.8" x2="289" y2="266.8" stroke="#888" stroke-width="2"/><line x1="257.6" y1="253" x2="257.6" y2="258" stroke="#888" stroke-width="2"/><line x1="257.6" y1="302" x2="257.6" y2="307" stroke="#888" stroke-width="2"/><line x1="235" y1="275.6" x2="240" y2="275.6" stroke="#888" stroke-width="2"/><line x1="284" y1="275.6" x2="289" y2="275.6" stroke="#888" stroke-width="2"/><line x1="266.4" y1="253" x2="266.4" y2="258" stroke="#888" stroke-width="2"/><line x1="266.4" y1="302" x2="266.4" y2="307" stroke="#888" stroke-width="2"/><line x1="235" y1="284.4" x2="240" y2="284.4" stroke="#888" stroke-width="2"/><line x1="284" y1="284.4" x2="289" y2="284.4" stroke="#888" stroke-width="2"/><line x1="275.2" y1="253" x2="275.2" y2="258" stroke="#888" stroke-width="2"/><line x1="275.2" y1="302" x2="275.2" y2="307" stroke="#888" stroke-width="2"/><line x1="235" y1="293.2" x2="240" y2="293.2" stroke="#888" stroke-width="2"/><line x1="284" y1="293.2" x2="289" y2="293.2" stroke="#888" stroke-width="2"/><rect x="240" y="258" width="44" height="44" rx="3" fill="#3a3f4a" stroke="#222" stroke-width="1.5"/>
+<rect x="338" y="251" width="8" height="5" rx="1" fill="#E07B00" stroke="none" stroke-width="0"/><circle cx="342" cy="276" r="18" fill="#fff" stroke="#E07B00" stroke-width="3"/><line x1="342" y1="276" x2="342" y2="264.3" stroke="#333" stroke-width="2.5"/><line x1="342" y1="276" x2="351.0" y2="279.6" stroke="#333" stroke-width="2.5"/>
+<text x="296" y="236" font-size="15" text-anchor="middle" font-weight="700" fill="#E07B00">Benchmark</text>
+<rect x="14" y="346" width="372" height="54" rx="8" fill="#fdebd3" stroke="#E07B00" stroke-width="2"/>
+<text x="200" y="368" font-size="13" text-anchor="middle" font-weight="700" fill="#a85a00">hinkt: die CPU arbeitet mit RAM und Mainboard</text>
+<text x="200" y="388" font-size="13" text-anchor="middle" fill="#333">→ Testrechner mit schnellen Teilen</text>
+</svg>

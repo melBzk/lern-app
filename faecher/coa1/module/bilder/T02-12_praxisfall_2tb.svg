@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 360" font-family="system-ui, sans-serif" fill="#222">
+<title>Ausgangslage Praxisfall: Auf dem Karton der Festplatte steht 2 TB. Windows zeigt nur 1863 GB an. Der Kunde fragt am Telefon: Ist die kaputt?</title>
+<rect width="400" height="360" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">„Meine Festplatte ist zu klein!“</text>
+<!-- Karton -->
+<rect x="20" y="70" width="140" height="110" rx="4" fill="#fdf0e0" stroke="#E07B00" stroke-width="2"/>
+<path d="M20,70 L44,48 L184,48 L160,70 Z" fill="#f6d9b5" stroke="#E07B00" stroke-width="2"/>
+<path d="M160,70 L184,48 L184,158 L160,180 Z" fill="#f6d9b5" stroke="#E07B00" stroke-width="2"/>
+<text x="90" y="124" text-anchor="middle" font-size="13" fill="#555">Festplatte</text>
+<text x="90" y="154" text-anchor="middle" font-size="26" font-weight="700" fill="#E07B00">2 TB</text>
+<text x="100" y="208" text-anchor="middle" font-size="14" font-weight="700">Karton</text>
+<!-- Windows -->
+<rect x="214" y="54" width="170" height="120" rx="6" fill="#fff" stroke="#3a6ed8" stroke-width="2.5"/>
+<rect x="222" y="62" width="154" height="104" fill="#e8f0fe"/>
+<rect x="286" y="174" width="26" height="12" fill="#3a6ed8"/><rect x="266" y="186" width="66" height="6" rx="2" fill="#3a6ed8"/>
+<text x="299" y="94" text-anchor="middle" font-size="13" fill="#555">Laufwerk</text>
+<rect x="234" y="104" width="130" height="14" rx="3" fill="#fff" stroke="#3a6ed8" stroke-width="1.5"/>
+<text x="299" y="150" text-anchor="middle" font-size="24" font-weight="700" fill="#3a6ed8">1863 GB</text>
+<text x="299" y="212" text-anchor="middle" font-size="14" font-weight="700">Windows</text>
+<!-- Kunde -->
+<rect x="20" y="236" width="360" height="110" rx="14" fill="#f4f1ee" stroke="#555" stroke-width="1.5"/>
+<path d="M60,236 L70,222 L84,236 Z" fill="#f4f1ee" stroke="#555" stroke-width="1.5"/>
+<rect x="58" y="234" width="28" height="4" fill="#f4f1ee"/>
+<text x="44" y="280" font-size="16">„2 TB gekauft – Windows</text>
+<text x="44" y="304" font-size="16">zeigt nur 1863 GB.</text>
+<text x="44" y="330" font-size="16" font-weight="700" fill="#c62828">Ist die kaputt?“</text>
+</svg>

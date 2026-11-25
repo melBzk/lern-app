@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 330" font-family="system-ui, sans-serif" fill="#222">
+<title>Szene: Ein Browserfenster mit der Download-Seite eines Mainboard-Herstellers zeigt den Eintrag „Chipsatz-Treiber“ mit Download-Knopf. Daneben ein Hinweis „Windows neu installiert“. Eine Sprechblase fragt: „Brauche ich das?“</title>
+<rect width="400" height="330" fill="#fff"/>
+<text x="200" y="30" text-anchor="middle" font-size="17" font-weight="700">Brauche ich das?</text>
+<!-- Fenster -->
+<rect x="20" y="48" width="360" height="190" rx="8" fill="#fff" stroke="#555" stroke-width="2"/>
+<rect x="20" y="48" width="360" height="30" rx="8" fill="#e0e0e0"/>
+<rect x="20" y="66" width="360" height="12" fill="#e0e0e0"/>
+<g fill="#999"><circle cx="38" cy="63" r="5"/><circle cx="54" cy="63" r="5"/><circle cx="70" cy="63" r="5"/></g>
+<text x="36" y="104" font-size="14" fill="#666">Mainboard-Hersteller › Downloads</text>
+<rect x="36" y="120" width="328" height="56" rx="6" fill="#f4f1ee"/>
+<text x="50" y="154" font-size="16" font-weight="700">Chipsatz-Treiber</text>
+<rect x="252" y="132" width="98" height="32" rx="6" fill="#3a6ed8"/>
+<text x="301" y="153" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">Download</text>
+<text x="36" y="214" font-size="14" fill="#666">Vorher: Windows neu installiert</text>
+<!-- Sprechblase -->
+<rect x="150" y="256" width="230" height="56" rx="14" fill="#fff3c4" stroke="#c99a06" stroke-width="1.5"/>
+<text x="265" y="290" text-anchor="middle" font-size="16" font-weight="700">„Brauche ich das?“</text>
+<circle cx="80" cy="282" r="24" fill="#f2c7a5" stroke="#a0704a" stroke-width="2"/>
+<path d="M104,282 L150,276 L150,290 Z" fill="#fff3c4" stroke="#c99a06" stroke-width="1.5"/>
+</svg>

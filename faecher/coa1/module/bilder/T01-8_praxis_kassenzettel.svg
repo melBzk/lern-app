@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 360" font-family="system-ui, sans-serif" role="img">
+  <title>Praxisfall blasser Kassenzettel, die Ausgangslage als Bild. Ein Kassenzettel lag im Sommer wochenlang hinter der Windschutzscheibe im Auto in der Sonne. Danach ist die Schrift fast weiß. Frage: Warum?</title>
+  <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker></defs>
+  <rect width="400" height="360" fill="#fff"/>
+  <text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700" fill="#222">Der blasse Kassenzettel</text>
+
+  <!-- Sonne -->
+  <circle cx="56" cy="82" r="22" fill="#f2c200"/>
+  <g stroke="#f2c200" stroke-width="3"><line x1="56" y1="50" x2="56" y2="42"/><line x1="88" y1="82" x2="96" y2="82"/><line x1="24" y1="82" x2="16" y2="82"/><line x1="56" y1="114" x2="56" y2="122"/><line x1="79" y1="59" x2="85" y2="53"/><line x1="33" y1="59" x2="27" y2="53"/><line x1="79" y1="105" x2="85" y2="111"/></g>
+  <!-- Auto Armaturenbrett -->
+  <path d="M120,60 L250,60 L290,140 L120,140 z" fill="#dbeefc" stroke="#3a3f4a" stroke-width="3"/>
+  <rect x="110" y="140" width="190" height="24" rx="4" fill="#3a3f4a"/>
+  <path d="M190,118 h30 v22 h-30 z" fill="#fff" stroke="#999"/>
+  <text x="205" y="186" text-anchor="middle" font-size="14" fill="#333">hinter der Windschutzscheibe</text>
+  <text x="340" y="90" text-anchor="middle" font-size="15" font-weight="700" fill="#b35f00">Sommer,</text>
+  <text x="340" y="110" text-anchor="middle" font-size="15" font-weight="700" fill="#b35f00">wochenlang</text>
+
+  <line x1="200" y1="198" x2="200" y2="226" stroke="#333" stroke-width="3" marker-end="url(#a)"/>
+
+  <!-- vorher / nachher -->
+  <path d="M110,236 h50 v80 l-6,-5 l-6,5 l-6,-5 l-6,5 l-6,-5 l-6,5 l-7,-5 l-7,5 z" fill="#fff" stroke="#333" stroke-width="1.5"/>
+  <g stroke="#111" stroke-width="2.5"><line x1="117" y1="252" x2="153" y2="252"/><line x1="117" y1="264" x2="149" y2="264"/><line x1="117" y1="276" x2="153" y2="276"/><line x1="117" y1="292" x2="140" y2="292"/></g>
+  <text x="135" y="344" text-anchor="middle" font-size="14" fill="#333">vorher</text>
+  <path d="M240,236 h50 v80 l-6,-5 l-6,5 l-6,-5 l-6,5 l-6,-5 l-6,5 l-7,-5 l-7,5 z" fill="#fff" stroke="#333" stroke-width="1.5"/>
+  <g stroke="#e3e3e3" stroke-width="2.5"><line x1="247" y1="252" x2="283" y2="252"/><line x1="247" y1="264" x2="279" y2="264"/><line x1="247" y1="276" x2="283" y2="276"/><line x1="247" y1="292" x2="270" y2="292"/></g>
+  <text x="265" y="344" text-anchor="middle" font-size="14" font-weight="700" fill="#a32020">fast weiß</text>
+  <text x="330" y="292" font-size="34" font-weight="700" fill="#E07B00">?</text>
+</svg>

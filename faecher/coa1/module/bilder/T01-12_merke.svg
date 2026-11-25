@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 470" font-family="system-ui, sans-serif" role="img">
+  <title>Merkbild ergonomischer Arbeitsplatz. Ergonomie: Der Arbeitsplatz passt sich dem Menschen an, nicht umgekehrt. CE gleich EU-Regeln zur EMV; GS gleich geprüfte Sicherheit, freiwillig. TCO ist ein Monitor-Siegel, Stand-by höchstens 15 Watt; ISO 9241 ist die Norm für ergonomische Bildschirmarbeit. Energy Star: automatisch Stand-by, Computer höchstens 30 Watt. Ozon vom Laserdrucker: höchstens 0,1 ppm; Gegenmittel Aktivkohlefilter, Abstand, lüften.</title>
+  <rect width="400" height="470" fill="#fff"/>
+  <text x="200" y="26" text-anchor="middle" font-size="18" font-weight="700" fill="#222">Merke: Arbeitsplatz</text>
+
+  <rect fill="#f3f4f6" stroke="#bbb" x="8" y="40" width="384" height="78" rx="10"/>
+  <circle cx="30" cy="62" r="7" fill="#3a3f4a"/><path d="M30,70 v14 h12 v14" fill="none" stroke="#3a3f4a" stroke-width="5" stroke-linecap="round"/><rect x="50" y="56" width="20" height="16" rx="2" fill="#3a3f4a"/>
+  <text font-size="15" font-weight="700" fill="#222" x="82" y="68">Ergonomie</text>
+  <text font-size="14" font-weight="700" fill="#b35f00" x="82" y="92">Arbeitsplatz passt sich dem Menschen an</text>
+
+  <rect fill="#f3f4f6" stroke="#bbb" x="8" y="126" width="384" height="78" rx="10"/>
+  <rect fill="#fff" stroke="#222" stroke-width="1.5" x="18" y="138" width="50" height="24" rx="3"/><text font-size="13" font-weight="700" fill="#222" text-anchor="middle" x="43" y="155">CE</text>
+  <rect fill="#fff" stroke="#222" stroke-width="1.5" x="18" y="168" width="50" height="24" rx="3"/><text font-size="13" font-weight="700" fill="#222" text-anchor="middle" x="43" y="185">GS</text>
+  <text font-size="15" font-weight="700" fill="#222" x="82" y="156">CE = EU-Regeln zur EMV</text>
+  <text font-size="15" font-weight="700" fill="#222" x="82" y="186">GS = geprüfte Sicherheit, freiwillig</text>
+
+  <rect fill="#f3f4f6" stroke="#bbb" x="8" y="212" width="384" height="78" rx="10"/>
+  <rect fill="#fff" stroke="#222" stroke-width="1.5" x="18" y="224" width="50" height="24" rx="3"/><text font-size="13" font-weight="700" fill="#222" text-anchor="middle" x="43" y="241">TCO</text>
+  <rect fill="#fff" stroke="#222" stroke-width="1.5" x="12" y="254" width="62" height="24" rx="3"/><text font-size="13" font-weight="700" fill="#222" text-anchor="middle" x="43" y="271">ISO 9241</text>
+  <text font-size="15" font-weight="700" fill="#222" x="82" y="242">TCO: Monitor, Stand-by ≤ 15 W</text>
+  <text font-size="15" font-weight="700" fill="#222" x="82" y="272">ISO 9241: Bildschirmarbeit</text>
+
+  <rect fill="#f3f4f6" stroke="#bbb" x="8" y="298" width="384" height="78" rx="10"/>
+  <path d="M42,316 a12,12 0 1 0 8,20 a10,10 0 1 1 -8,-20 z" fill="#f2c200"/>
+  <text font-size="15" font-weight="700" fill="#222" x="82" y="326">Energy Star</text>
+  <text font-size="14" font-weight="700" fill="#b35f00" x="82" y="350">automatisch Stand-by · Computer ≤ 30 W</text>
+
+  <rect fill="#f3f4f6" stroke="#bbb" x="8" y="384" width="384" height="78" rx="10"/>
+  <g fill="#1fa3c9"><circle cx="30" cy="420" r="9"/><circle cx="44" cy="408" r="9"/><circle cx="58" cy="420" r="9"/></g>
+  <text font-size="15" font-weight="700" fill="#222" x="82" y="408">Ozon: höchstens 0,1 ppm</text>
+  <text font-size="13" fill="#333" x="82" y="428">Aktivkohlefilter · Abstand · lüften</text>
+</svg>

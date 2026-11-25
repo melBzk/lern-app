@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 420" font-family="system-ui, sans-serif" role="img">
+  <title>Zeitstrahl der Desktop-Sockel von 2011 bis 2020. Intel: LGA 1155 (2011), LGA 1150 (2013), LGA 1151 (2015), LGA 1200 (2020), dazu weitere Sockel 2014 und 2017 – etwa alle 1 bis 3 Jahre ein neuer. AMD: ein langer Balken AM4 ab 2017 für Ryzen 1000, 2000, 3000 und 5000. Die Zahl im Sockelnamen muss zum Mainboard passen.</title>
+  <defs>
+    <marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker>
+  </defs>
+  <rect width="400" height="420" fill="#fff"/>
+  <text x="200" y="28" text-anchor="middle" font-size="18" font-weight="700" fill="#222">Neue Sockel: wie oft?</text>
+
+  <!-- Intel -->
+  <text x="14" y="60" font-size="17" font-weight="700" fill="#3a6ed8">Intel</text>
+  <text x="386" y="60" text-anchor="end" font-size="15" font-weight="700" fill="#3a6ed8">alle 1–3 Jahre neu</text>
+
+  <line x1="40" y1="116" x2="355" y2="116" stroke="#3a6ed8" stroke-width="4"/>
+  <circle cx="145" cy="116" r="5" fill="#9aa3ad"/>
+  <circle cx="250" cy="116" r="5" fill="#9aa3ad"/>
+  <circle cx="40" cy="116" r="8" fill="#3a6ed8" stroke="#fff" stroke-width="2"/>
+  <circle cx="110" cy="116" r="8" fill="#3a6ed8" stroke="#fff" stroke-width="2"/>
+  <circle cx="180" cy="116" r="8" fill="#3a6ed8" stroke="#fff" stroke-width="2"/>
+  <circle cx="355" cy="116" r="8" fill="#3a6ed8" stroke="#fff" stroke-width="2"/>
+
+  <text x="40" y="84" text-anchor="start" font-size="14" font-weight="700" fill="#222" dx="-26">LGA 1155</text>
+  <text x="40" y="101" text-anchor="start" font-size="13" fill="#555" dx="-26">(2011)</text>
+  <text x="110" y="142" text-anchor="middle" font-size="14" font-weight="700" fill="#222">LGA 1150</text>
+  <text x="110" y="159" text-anchor="middle" font-size="13" fill="#555">(2013)</text>
+  <text x="180" y="84" text-anchor="middle" font-size="14" font-weight="700" fill="#222">LGA 1151</text>
+  <text x="180" y="101" text-anchor="middle" font-size="13" fill="#555">(2015)</text>
+  <text x="386" y="142" text-anchor="end" font-size="14" font-weight="700" fill="#222">LGA 1200</text>
+  <text x="386" y="159" text-anchor="end" font-size="13" fill="#555">(2020)</text>
+  <text x="250" y="186" text-anchor="middle" font-size="13" fill="#777">grau: weitere Sockel 2014, 2017</text>
+
+  <!-- Jahresachse -->
+  <line x1="40" y1="208" x2="360" y2="208" stroke="#555" stroke-width="1.5"/>
+  <g stroke="#555" stroke-width="1.5">
+    <line x1="40" y1="203" x2="40" y2="213"/><line x1="75" y1="205" x2="75" y2="211"/><line x1="110" y1="203" x2="110" y2="213"/><line x1="145" y1="205" x2="145" y2="211"/><line x1="180" y1="203" x2="180" y2="213"/><line x1="215" y1="205" x2="215" y2="211"/><line x1="250" y1="203" x2="250" y2="213"/><line x1="285" y1="205" x2="285" y2="211"/><line x1="320" y1="205" x2="320" y2="211"/><line x1="355" y1="203" x2="355" y2="213"/>
+  </g>
+  <g font-size="13" fill="#555" text-anchor="middle">
+    <text x="40" y="230">2011</text><text x="110" y="230">2013</text><text x="180" y="230">2015</text><text x="250" y="230">2017</text><text x="355" y="230">2020</text>
+  </g>
+
+  <!-- AMD -->
+  <text x="14" y="266" font-size="17" font-weight="700" fill="#c62828">AMD</text>
+  <rect x="250" y="276" width="116" height="30" rx="5" fill="#c62828"/>
+  <line x1="366" y1="291" x2="386" y2="291" stroke="#c62828" stroke-width="4" marker-end="url(#r)"/>
+  <text x="308" y="296" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">AM4</text>
+  <text x="244" y="296" text-anchor="end" font-size="14" font-weight="700" fill="#c62828">ab 2017</text>
+  <text x="386" y="326" text-anchor="end" font-size="14" fill="#222">Ryzen 1000, 2000, 3000, 5000</text>
+  <line x1="250" y1="236" x2="250" y2="276" stroke="#c62828" stroke-width="1.5" stroke-dasharray="3 3"/>
+
+  <!-- Hinweis -->
+  <rect x="10" y="346" width="380" height="62" rx="10" fill="#fff4ec" stroke="#E07B00" stroke-width="2.5"/>
+  <text x="200" y="372" text-anchor="middle" font-size="15" font-weight="700" fill="#222">Zahl im Sockelnamen muss</text>
+  <text x="200" y="394" text-anchor="middle" font-size="15" font-weight="700" fill="#222">zum Mainboard passen (T02-7)</text>
+</svg>

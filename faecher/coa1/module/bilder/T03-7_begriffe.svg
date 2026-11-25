@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" font-family="system-ui, sans-serif" fill="#222" role="img">
+<title>Die 7 neuen Wörter mit Symbol: Befehlssatz = alle Befehle, die ein Prozessor versteht. CISC = komplexer, umfangreicher Befehlssatz. RISC = reduzierter, eingeschränkter Befehlssatz. Mikrocode = kleine innere Arbeitsschritte eines Befehls. Nanoprozessor = Prozessor im Prozessor, führt den Mikrocode aus. Fest verdrahtet = Befehl direkt als Schaltung, ohne Mikrocode. x86/x64 und ARM = Familien: x86/x64 im PC (Intel, AMD), ARM in Handy und Tablet.</title>
+<rect width="400" height="520" fill="#fff"/>
+<text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700">7 neue Wörter</text>
+<g font-size="13">
+<rect x="10" y="42" width="380" height="62" rx="10" fill="#f4f5f7"/>
+<rect x="22" y="58" width="42" height="30" rx="3" fill="#fff" stroke="#555" stroke-width="2"/><path d="M28,66 h30 M28,73 h30 M28,80 h20" stroke="#555" stroke-width="1.5"/>
+<text x="76" y="68" font-size="15" font-weight="700">Befehlssatz</text><text x="76" y="88">alle Befehle, die ein Prozessor versteht</text>
+<rect x="10" y="110" width="380" height="62" rx="10" fill="#fff4e0"/>
+<path d="M22,126 h40 M22,136 h26 M22,146 h36 M22,156 h16" stroke="#E07B00" stroke-width="5"/>
+<text x="76" y="136" font-size="15" font-weight="700">CISC</text><text x="76" y="156">Complex: viele, auch komplexe Befehle</text>
+<rect x="10" y="178" width="380" height="62" rx="10" fill="#e3ecfb"/>
+<path d="M22,198 h28 M22,208 h28 M22,218 h28" stroke="#3a6ed8" stroke-width="5"/>
+<text x="76" y="204" font-size="15" font-weight="700">RISC</text><text x="76" y="224">Reduced: wenige, einfache Befehle</text>
+<rect x="10" y="246" width="380" height="62" rx="10" fill="#f4f5f7"/>
+<rect x="22" y="262" width="12" height="12" rx="2" fill="#E07B00"/><rect x="36" y="262" width="12" height="12" rx="2" fill="#E07B00"/><rect x="50" y="262" width="12" height="12" rx="2" fill="#E07B00"/><rect x="22" y="278" width="12" height="12" rx="2" fill="#E07B00"/>
+<text x="76" y="272" font-size="15" font-weight="700">Mikrocode</text><text x="76" y="292">kleine innere Schritte eines Befehls</text>
+<rect x="10" y="314" width="380" height="62" rx="10" fill="#f4f5f7"/>
+<rect x="22" y="326" width="40" height="38" rx="4" fill="#5b6470"/><rect x="34" y="336" width="16" height="16" rx="2" fill="#E07B00"/>
+<text x="76" y="340" font-size="15" font-weight="700">Nanoprozessor</text><text x="76" y="360">Prozessor im Prozessor, führt Mikrocode aus</text>
+<rect x="10" y="382" width="380" height="62" rx="10" fill="#f4f5f7"/>
+<path d="M22,404 h10 v16 h12 v-16 h10 v16 h10" stroke="#3a6ed8" stroke-width="3" fill="none"/>
+<text x="76" y="408" font-size="15" font-weight="700">fest verdrahtet</text><text x="76" y="428">Befehl direkt als Schaltung, kein Mikrocode</text>
+<rect x="10" y="450" width="380" height="62" rx="10" fill="#f4f5f7"/>
+<rect x="20" y="466" width="26" height="18" rx="2" fill="#fff" stroke="#555" stroke-width="2"/><path d="M16,488 h34" stroke="#555" stroke-width="3"/><rect x="52" y="462" width="14" height="26" rx="3" fill="#fff" stroke="#555" stroke-width="2"/>
+<text x="76" y="476" font-size="15" font-weight="700">x86/x64 und ARM</text><text x="76" y="496">x86/x64: PC (Intel, AMD) · ARM: Handy</text>
+</g>
+</svg>

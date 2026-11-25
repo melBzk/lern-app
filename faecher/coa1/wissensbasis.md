@@ -1,6 +1,6 @@
 # COA1 – Wissensbasis
 
-Gegliedert nach den **Kapiteln des Buchs** HERDT, *PC-Technik – Grundlagen* (2020): Die Nummer vor jedem Abschnitt ist die Kapitelnummer im Buch (Seitenzahlen = PDF-Seiten). Kapitel, die im Kurs nicht drankommen (4, 6, 7, 8, 12, 18, 20), fehlen. Inhalte aus dem Unterricht ohne Buchkapitel stehen am Ende (90–92) und sind mit **(Unterricht)** markiert.
+Gegliedert nach den **Kapiteln des Buchs** HERDT, *PC-Technik – Grundlagen* (2020): Die Nummer vor jedem Abschnitt ist die Kapitelnummer im Buch (Seitenzahlen = PDF-Seiten). Kapitel, die im Kurs nicht drankommen (4, 6, 7, 8, 12, 18, 20), fehlen. Inhalte aus dem Unterricht ohne Buchkapitel stehen am Ende (90–93) und sind mit **(Unterricht)** markiert.
 
 ## 0. Prüfungsfallen & Selbstcheck – Kapitel 2–21
 
@@ -1268,3 +1268,132 @@ Touchscreen (und Headset) sind **Ein- und Ausgabegerät** zugleich.
 | **KI / AI** | künstliche Intelligenz |
 | **BIOS** | Firmware, startet den PC |
 | **OCR** | Texterkennung aus Scans |
+
+## 93. Unterricht – Tag 3 (25.11.): Prozessor vertieft, Windows-Bordmittel, Auslagerungsdatei
+
+> **HINWEIS:** Kernfakten aus den geprüften Lernmodulen T03-1 bis T03-13 (Unterricht vom 25.11.). Bilder, Rechenwege und Aufgaben stehen dort. Buchbezug: Kap. 3 (S. 31–47), Kap. 5 (S. 55–64), Kap. 9 (S. 94–98), S. 154, S. 171, S. 178. **(Unterricht 25.11.)**
+
+### Vom Sand zum Chip (Lernmodul T03-1)
+- **Transistor** = elektronischer Schalter: an = 1, aus = 0 (Buch S. 31).
+- Prozessor = Mikrochip aus **Silizium** (Halbleiter) mit **Milliarden** Transistoren (Buch S. 31).
+- **Die** = nackter Chip · **Heatspreader** = Metalldeckel, schützt und verteilt die Wärme (Buch S. 31).
+- **nm-Zahl** = wie fein gefertigt wird. Feiner = weniger Spannung, mehr Takt, mehr Transistoren. Mehr Takt und dichter gepackt = mehr Wärme (Buch S. 31, S. 33).
+
+> ⚠ **Achtung, Fehler in der Mitschrift:** Nicht jeder Prozessor hat „viele Stifte“ – Stifte nur bei **PGA**; LGA = flache Kontaktflächen, BGA = kleine Kugeln (Buch S. 45).
+
+### Prozessorreihen und Hersteller (Lernmodul T03-2)
+- Im PC: **Intel und AMD** · in Smartphones und Tablets: **ARM** (Bauweise RISC) (Buch S. 14, S. 32; Unterricht 25.11.).
+- **Intel:** Core = Büro bis High-End-Gaming · **Xeon** = Server/Workstation · **Atom** = sparsam/mobil · **Quark** = IoT (Buch S. 12–13).
+- **AMD:** Ryzen, Athlon = Desktop · **Threadripper** = Workstation · **EPYC** = Server (Buch S. 13).
+- **Generation** = Zahl direkt nach i3/i5/i7/i9: i9-**8**950HK → 8. (Buch S. 14) · i7-**12**700H → 12.; Endbuchstaben (H, HK, U) zählen nicht (Herstellerangabe Intel).
+- Sockel: Intel brachte neue Desktop-Sockel 2011, 2013, 2014, 2015, 2017, 2020 (etwa alle 1–3 Jahre) · AMD nutzt **AM4** lange (Ryzen 1000–5000) (Buch S. 14, S. 17).
+
+> ⚠ **Achtung, Fehler in Mitschrift/Unterricht:** Es gibt **kein i8** – die Reihe heißt i3, i5, i7, i9 (Buch S. 12). Core reicht bis **High-End-Gaming**, nicht nur Heim/Büro (Buch S. 12). Intel wechselt den Sockel **öfter** als „alle 4 Jahre“ (Buch S. 14).
+
+### Prozessor-Steckbrief (Lernmodul T03-3)
+- **Acht Merkmale:** Kerne · Takt + Multi-Threading · Takterhöhung + Energiemanagement · Cache · Virtualisierung · Architektur/Busbreite/Anbindung · Befehlssatzerweiterungen (z. B. SSE, AVX2) · Sicherheitsmechanismen (Buch S. 31).
+- Die Merkmale wirken zusammen, ein Schwachpunkt bremst alles → echte Leistung nur per **Benchmark** messbar (Buch S. 31).
+- Ablesen: **Task-Manager** (Leistung → CPU), **CPU-Z**, **Datenblatt** (ark.intel.com, products.amd.com) (Buch S. 36, S. 38; Unterricht 25.11.).
+- **64 Bit** ist Standard: mehr als 4 GB RAM nutzbar, aber **64-Bit-Treiber** nötig (Buch S. 38).
+- **TDP** = Abwärme in Watt, die die Kühlung bewältigen muss (Buch S. 42, S. 45).
+
+> ⚠ **Achtung, Fehler in der Mitschrift:** Sicherheitsmechanismen = Schutz gegen **Angriffe** (z. B. NX-Bit, SMEP), nicht „Schutz vor Übertaktung, Überhitzung“ (Buch S. 47). Vor Hitze schützt die Taktabsenkung (Buch S. 34).
+
+### Multicore und Hyper-Threading (Lernmodul T03-4)
+- **Multi-Core** = mehrere Rechenwerke in einem Prozessor; jeder Kern hat seinen eigenen **L1-Cache** (Buch S. 32, S. 35).
+- Mehrere Kerne, weil ein immer höher getakteter Einzelkern **zu heiß** wurde (Buch S. 33).
+- Mehr Kerne = nur schneller, wenn die Software **parallel** arbeitet oder mehrere Programme laufen (Buch S. 33, S. 35).
+- **Hyper-Threading:** 1 physischer Kern → **2 logische Prozessoren** (Buch S. 34; Unterricht 25.11.).
+- Beispiel i7-12700H: 6 P-Kerne × 2 + 8 E-Kerne × 1 = **20 logische Prozessoren** bei **14 Kernen** (Unterricht 25.11.: Task-Manager und CPU-Z).
+
+> ⚠ **Achtung, Fehler im Unterricht:** Hyper-Threading gibt es nicht „nur bei Intel“ – es ist nur **Intels Name** (Buch S. 34). AMD nutzt dasselbe Prinzip als **SMT** *(Ergänzung, Herstellerangaben)*.
+
+### Takt, Multiplikator, Turbo (Lernmodul T03-5)
+- Geschwindigkeit in **GHz**: 1 GHz = 1.000 MHz = 1 Milliarde Takte pro Sekunde (Buch S. 33). Heute meist ca. 2–4 GHz, im Turbo bis ca. 5 GHz (Unterricht 25.11.).
+- **CPU-Takt = Referenztakt (Bustakt) × Multiplikator** (Buch S. 34). Unterricht (CPU-Z): 99,76 MHz × 31 ≈ 3.092 MHz ≈ **3,09 GHz**.
+- **Takt ≠ Leistung** – Befehle pro Takt, Kerne, Cache, Speicheranbindung zählen mit; Takt nur innerhalb gleicher Familie und Generation vergleichen (Buch S. 33–34).
+- **SpeedStep / Cool'n'Quiet** senken, **Turbo Boost / Turbo Core** erhöhen den Takt automatisch (Intel / AMD), im BIOS schaltbar (Buch S. 34).
+- **Übertakten** = Multiplikator von Hand erhöhen, nur bei Unlocked-Modellen (Intel: **K**); Wärme steigt überproportional, Lebensdauer sinkt (Buch S. 34, S. 45, S. 47).
+
+> ⚠ **Achtung:** Nicht „2 Milliarden GHz“ – richtig: **2 GHz = 2 Milliarden Takte pro Sekunde** (Buch S. 33). Der USB-Stick als Zusatzspeicher heißt **ReadyBoost**, nicht „Turbo Boost“ (Buch S. 57).
+
+### Speicherhierarchie und Cache (Lernmodul T03-6)
+- Je näher an der CPU, desto schneller, kleiner, teurer: **L1 → L2 → L3 → RAM → Festplatte/SSD** (Buch S. 55, S. 63–64).
+- Programme: Festplatte → **RAM** → CPU holt Daten in den **Cache**; Ergebnisse zurück in den RAM (Buch S. 55, S. 63).
+- **Cache und RAM sind flüchtig** · Festplatte, SSD, Flash, ROM sind nichtflüchtig (Buch S. 55–56, S. 63, S. 101).
+- Cache = **SRAM** (bis 8 Transistoren je Bit, kein Auffrischen, teuer) · RAM = **DRAM** (Kondensator + Transistor je Bit, muss aufgefrischt werden) (Buch S. 55, S. 63).
+- **L1** je Kern (Daten- und Befehls-Cache) · **L2** je Kern oder gemeinsam · **L3** gemeinsam, am größten (Intel: „Smart Cache“) (Buch S. 35, S. 64).
+
+> ⚠ **Achtung, Fehler in der Mitschrift:** **Flash ist nichtflüchtig** – flüchtig sind Cache und RAM (Buch S. 101). „RAM tausendmal schneller“: Das Buch nennt keinen Faktor, nur **Nanosekunden statt Millisekunden** (Buch S. 55). Der Instruktions-Cache speichert die **Befehle** (Buch S. 35, S. 64).
+
+### CISC und RISC (Lernmodul T03-7)
+- **Befehlssatz** = alle Befehle, die ein Prozessor versteht (Buch S. 32).
+- **CISC** = umfangreicher Befehlssatz, auch komplexe Befehle, unterschiedlich lang, klassisch über Mikrocode (Buch S. 32).
+- **RISC** = wenige, einfache Befehle, gleich lang, fest verdrahtet, wenige Takte, viele Register (Buch S. 32).
+- Heute **Mischform**: x86/x64 übersetzt intern in RISC-Befehle · ARM (Smartphone) = RISC (Buch S. 32; Unterricht 25.11.).
+
+> ⚠ **Achtung, Fehler im Unterricht:** CISC wird **weiter verwendet** (x86/x64), heute als Mischform (Buch S. 32). Mitschrift „kompletter Befehlssatz“ → richtig: **umfangreicher** Befehlssatz (Buch S. 32).
+
+### Pipelining und superskalar (Lernmodul T03-8)
+- 5 Phasen: laden · decodieren · Operanden laden · ausführen · zurückspeichern; ohne Pipeline **5 Takte pro Befehl** (Buch S. 37–38).
+- **Pipelining** = Eimerkette: jede Funktionseinheit arbeitet in jedem Takt, aber nur **1 neuer Befehl pro Takt** (Buch S. 37–38).
+- **Superskalar** = Funktionseinheiten mehrfach → **mehrere Befehle pro Takt**; moderne CPUs kombinieren beides (Buch S. 38).
+
+### Virtualisierung (Lernmodul T03-9)
+- Auf dem echten Rechner (**Host**) laufen virtuelle Computer (**VMs** = Gäste) mit eigenem Betriebssystem (Buch S. 36).
+- **Hypervisor** verwaltet die VMs: **Typ 1** direkt auf der Hardware, **Typ 2** als Programm im Betriebssystem; Beispiele Hyper-V, VirtualBox (Buch S. 36–37).
+- Voraussetzung **VT-x** (Intel) / **AMD-V**, evtl. erst im BIOS/UEFI einschalten; Kontrolle: Task-Manager → Leistung → CPU → „Virtualisierung: Aktiviert“ (Buch S. 31, S. 36–37; Unterricht 25.11.).
+- Eine VM bekommt RAM und Kerne zugeteilt – nie mehr, als der Host hat; ihre Festplatte ist eine Datei (Hyper-V: **.vhdx**) (Unterricht 25.11.).
+- **Prüfpunkt (Snapshot):** erst Zustand sichern, dann testen, bei Fehler zurücksetzen (Unterricht 25.11.).
+
+> ⚠ **Achtung, Fehler in der Mitschrift:** Die VM ist der **Gast**, der echte Rechner der **Host** (Buch S. 36).
+
+> ⚠ **Achtung, Buch:** Bei Typ 1 nennt das Buch „VMware vCenter Server“ (S. 37) – das ist Verwaltungssoftware, der Hypervisor heißt **VMware ESXi** *(Herstellerangabe)*. Hyper-V: siehe „Offene Punkte Tag 3“.
+
+### Benchmark, CPU-Z, MemTest86, Sandra (Lernmodul T03-10)
+- Echte Leistung misst man mit **Benchmarks** (Buch S. 31, S. 47); den Takt allein nur innerhalb Familie und Generation vergleichen (Buch S. 33).
+- **Benchmark** = Vergleich unter gleichen Bedingungen (gleicher Testrechner, gleiche Testprogramme): **synthetisch** (3DMark, PCMark) oder mit eigener Anwendung (Buch S. 39).
+- Ranglisten: **cpubenchmark.net** mit PassMark-Werten (Buch S. 38) · **MIPS** = Millionen Befehle/s · **GFLOPS** = Milliarden Kommazahl-Rechnungen/s (Buch S. 39).
+- **CPU-Z** liest CPU, Mainboard und RAM aus, **portable** (Buch S. 154) · **MemTest86** prüft den RAM, startet vom USB-Stick (Unterricht 25.11.) · **SiSoftware Sandra**: Überblick über Hard-/Software mit Benchmarks (Buch S. 39).
+- Neben Punkten zählen Systemkosten, Strom, Abwärme, Garantie (Buch S. 39).
+
+> ⚠ **Achtung, Fehler im Unterricht:** Sandra ist von **SiSoftware**, nicht „Softronic“ (Buch S. 39).
+
+### Windows-Bordmittel (Lernmodul T03-11)
+- **Task-Manager** → Leistung → CPU: Modell, GHz, Kerne, logische Prozessoren, Cache, Virtualisierung – live, Kurve der **letzten 60 Sekunden** (Unterricht 25.11.).
+- **Ressourcenmonitor**, Reiter Arbeitsspeicher: grün = in Verwendung · dunkelblau = Standby · hellblau = frei; **verfügbar = Standby + frei** (Unterricht 25.11.; Farben: Herstellerangabe Microsoft).
+- **Leistungsüberwachung:** Leistungsindikatoren hinzufügen (grünes Plus), als Kurve ansehen, mit Datensammlersatz länger aufzeichnen (Unterricht 25.11.).
+- **Windows + Pause** = kurze Übersicht (Unterricht 25.11.) · **msinfo32** = ausführliche Systeminformationen mit BIOS-Version (Buch S. 154; Unterricht 25.11.).
+- **Datenträger** = Gerät · **Partition** = abgeteilter Bereich davon · **Laufwerk** = Bereich mit Buchstabe (C:, E:) (Buch S. 178; Unterricht 25.11.).
+
+> ⚠ **Achtung, Fehler im Unterricht:** Grün = **alles** Belegte (Programme, Treiber, Windows), nicht nur Programme, die gerade rechnen *(Herstellerangabe Microsoft)*. Die Pause-Taste beim Rechnerstart hält die **Anzeige** an (z. B. BIOS-Kennung abschreiben), nicht den Prozessor (Buch S. 154).
+
+### Auslagerungsdatei (Lernmodul T03-12)
+- Reicht der RAM nicht, verschiebt Windows Speicherseiten in die Auslagerungsdatei **pagefile.sys** (= virtueller Arbeitsspeicher) (Buch S. 171).
+- Ausgelagerte Seiten sind **deutlich langsamer** → möglichst viel echten RAM einbauen (Buch S. 171).
+- Einstellung: erweiterte Systemeinstellungen → Erweitert → Leistung → Einstellungen → Erweitert → Virtueller Arbeitsspeicher → Ändern; Standard: auf C:, Größe verwaltet Windows selbst (Unterricht 25.11.).
+- Früher **1,5 × RAM**, damit beim Bluescreen ein Speicherabbild passt; heute verwaltet Windows die Größe selbst (Unterricht 25.11.).
+- Gehört auf eine Festplatte (HDD/SSD), nicht auf einen USB-Stick · viel Auslagern = viele Schreibvorgänge auf der SSD → mit der Leistungsüberwachung kontrollieren (Unterricht 25.11.).
+
+> ⚠ **Achtung, Fehler im Unterricht:** Nicht „nur der Arbeitsspeicher“ schickt Programme hin und her – die **Speicherverwaltung von Windows** entscheidet (Buch S. 171). Die USB-Stick-Funktion heißt **ReadyBoost** (Buch S. 57) und kam mit Windows **Vista**, nicht XP *(Ergänzung, Herstellerangabe Microsoft)*.
+
+### Externe Schnittstellen vertieft (Lernmodul T03-13, Selbststudium)
+- **Legacy** = RS-232, Parallel-Port (IEEE 1284), PS/2 – veraltet, heute durch USB ersetzt (Buch S. 94).
+- USB liefert **5 V, max. 500 mA = 2,5 W**; ab USB 3.0 bis **900 mA** (Buch S. 96).
+- USB-3.0-Geräte laufen an USB 2.0 nur mit **Hi-Speed (480 Mbit/s)** (Buch S. 95, S. 97).
+- **Thunderbolt** bündelt USB, DisplayPort und PCIe; Thunderbolt 3 = **40 Gbit/s**, Kette bis **7 Geräte** (Buch S. 98).
+- Heute marktüblich: **USB 3.x und USB4 über USB-C** (Unterricht 25.11.).
+
+> ⚠ **Achtung, Buch:** Praxiswerte schwanken (USB 2.0: ca. 37 bzw. 40 MB/s · USB 3.0: ca. 450 bzw. 480 MB/s, Buch S. 95–96). Die Lernmodule rechnen mit **40** und **450 MB/s**.
+
+### Offene Punkte Tag 3
+- **Hyper-V – Typ 1 oder Typ 2?** Buch S. 37: Typ 2 (Windows 10 Pro). Microsoft: Typ 1 (Windows läuft darüber als Root-Partition) *(Herstellerangabe)*. Abschnitt 3 oben nennt Typ 1. → **Bei der Lehrkraft klären**, welche Antwort in der Klausur zählt.
+- Nachmittag 25.11.: ausgewertet (siehe unten). Die Videos sind nur bis Minute 11:00 bzw. 6:00 in den Notizen erfasst.
+
+### Nachmittag 25.11. – Selbstlernauftrag: Kapitel 3 + zwei Videos (Lernmodule T03-14 bis T03-17)
+- **Kühlung (T03-16):** Standard-CPUs meist **unter 100 W** Abwärme, **über 140 W** schwer zu kühlen. Lüfterlos bis ca. **120 W TDP**. Kupfer leitet Wärme besser als Aluminium. Heatpipes, Wärmeleitpaste/-pad, Boxed-Kühler. Wasserkühlung kühlt CPU, Chipsatz und Grafikprozessor – Luftstrom im Gehäuse bleibt nötig (Buch S. 45–47).
+- **Ausstattung (T03-17):** Optane Memory = Cache-Modul im M.2-Steckplatz vor einer langsamen Festplatte (Buch S. 42); Intel hat im **Juli 2022** das Aus angekündigt *(Ergänzung, Fachpresse)*. SSHD: Weiterentwicklung aufgegeben. **vPro/AMT** = Fernwartung, auch wenn Windows abgestürzt ist – zugleich Sicherheitsrisiko (BSI-Warnung). AMD **PRO** = Business-Variante; **GE** = besonders sparsam (Buch S. 42–44). **NX-Bit** = Datenbereiche dürfen nicht als Programm ausgeführt werden (Buch S. 47).
+- **Licht-Chip (T03-14, Hintergrund):** photonischer **Co-Prozessor** rechnet bestimmte Aufgaben analog mit Licht, ergänzt CPU/GPU, ersetzt sie nicht. Ersparnis „30× Energie / 50× Leistung“ = **nur Herstellerangabe**. Rechenzentren weltweit 2024 ca. **415 TWh** (IEA) ≈ vier Fünftel des deutschen Stromverbrauchs *(Ergänzung)*.
+- **EUV-Lithografie (T03-15, Hintergrund):** Muster werden mit **13,5-nm**-Licht auf den Wafer übertragen; Luft und Glas verschlucken EUV → **Vakuum und Spiegel**, auch die Maske ist ein Spiegel. **ASML** ist einziger Hersteller von **EUV**-Anlagen (ältere DUV-Anlagen bauen auch Nikon, Canon). Strukturbreite („10 nm“) ≠ Wellenlänge *(Ergänzung, Hersteller/Fachpresse)*.
+
+> ⚠ **Notizen korrigiert:** Q.ANT baut keine Laser (das ist Trumpf); der Licht-Chip ersetzt die Transistoren einer Rechenoperation, nicht „Milliarden“; ASML ist nur bei EUV einziger Anbieter.

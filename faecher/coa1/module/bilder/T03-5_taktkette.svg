@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Woher kommt der Takt? Oben das Mainboard: ein Taktgeber im Chipsatz erzeugt den Referenztakt, etwa 100 MHz. Pfeil 1 in den Prozessor. Im Prozessor wird der Takt mit dem Multiplikator malgenommen, zum Beispiel 31. Pfeil 2: heraus kommt ein viel dichterer CPU-Takt, etwa 3100 MHz gleich 3,1 GHz. Die Wellen sind schematisch gezeichnet, nicht maßstabsgetreu. Satz: Daten tauschen im Mainboard-Takt, rechnen innen mit einem Vielfachen.</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker></defs>
+<rect width="400" height="520" fill="#fff"/>
+<text x="200" y="26" font-size="17" text-anchor="middle" font-weight="700">Woher kommt der Takt?</text>
+<rect x="14" y="40" width="372" height="124" rx="8" fill="#e6f2ea" stroke="#2f6b4f" stroke-width="2"/>
+<text x="26" y="60" font-size="14" font-weight="700" fill="#2f6b4f">Mainboard</text>
+<rect x="28" y="70" width="150" height="58" rx="6" fill="#555"/>
+<text x="103" y="95" font-size="15" text-anchor="middle" font-weight="700" fill="#fff">Taktgeber</text>
+<text x="103" y="115" font-size="14" text-anchor="middle" fill="#fff">im Chipsatz</text>
+<path d="M204,118 L204,88 L232,88 L232,118 L260,118 L260,88 L288,88 L288,118 L316,118 L316,88 L344,88 L344,118 L372,118 L372,118" fill="none" stroke="#3a6ed8" stroke-width="3"/>
+<text x="288" y="150" font-size="15" text-anchor="middle" font-weight="700" fill="#3a6ed8">Referenztakt ≈ 100 MHz</text>
+
+<line x1="200" y1="168" x2="200" y2="206" stroke="#333" stroke-width="2.5" marker-end="url(#a)"/>
+<circle cx="176" cy="187" r="11" fill="#333"/><text x="176" y="192" font-size="13" text-anchor="middle" font-weight="700" fill="#fff">1</text>
+
+<rect x="50" y="210" width="300" height="104" rx="10" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2.5"/>
+<text x="64" y="232" font-size="14" font-weight="700" fill="#3a6ed8">Prozessor</text>
+<rect x="103" y="250" width="10" height="12" rx="2" fill="#555" transform="rotate(0 108 274)"/><rect x="103" y="250" width="10" height="12" rx="2" fill="#555" transform="rotate(45 108 274)"/><rect x="103" y="250" width="10" height="12" rx="2" fill="#555" transform="rotate(90 108 274)"/><rect x="103" y="250" width="10" height="12" rx="2" fill="#555" transform="rotate(135 108 274)"/><rect x="103" y="250" width="10" height="12" rx="2" fill="#555" transform="rotate(180 108 274)"/><rect x="103" y="250" width="10" height="12" rx="2" fill="#555" transform="rotate(225 108 274)"/><rect x="103" y="250" width="10" height="12" rx="2" fill="#555" transform="rotate(270 108 274)"/><rect x="103" y="250" width="10" height="12" rx="2" fill="#555" transform="rotate(315 108 274)"/>
+<circle cx="108" cy="274" r="17" fill="#555"/>
+<circle cx="108" cy="274" r="6" fill="#e8f0fe"/>
+<text x="144" y="270" font-size="17" font-weight="700">× Multiplikator</text>
+<text x="144" y="292" font-size="15">(z. B. 31)</text>
+
+<line x1="200" y1="318" x2="200" y2="352" stroke="#333" stroke-width="2.5" marker-end="url(#a)"/>
+<circle cx="176" cy="335" r="11" fill="#333"/><text x="176" y="340" font-size="13" text-anchor="middle" font-weight="700" fill="#fff">2</text>
+<path d="M24,392 L24,364 L30,364 L30,392 L36,392 L36,364 L42,364 L42,392 L48,392 L48,364 L54,364 L54,392 L60,392 L60,364 L66,364 L66,392 L72,392 L72,364 L78,364 L78,392 L84,392 L84,364 L90,364 L90,392 L96,392 L96,364 L102,364 L102,392 L108,392 L108,364 L114,364 L114,392 L120,392 L120,364 L126,364 L126,392 L132,392 L132,364 L138,364 L138,392 L144,392 L144,364 L150,364 L150,392 L156,392 L156,364 L162,364 L162,392 L168,392 L168,364 L174,364 L174,392 L180,392 L180,364 L186,364 L186,392 L192,392 L192,364 L198,364 L198,392 L204,392 L204,364 L210,364 L210,392 L216,392 L216,364 L222,364 L222,392 L228,392 L228,364 L234,364 L234,392 L240,392 L240,364 L246,364 L246,392 L252,392 L252,364 L258,364 L258,392 L264,392 L264,364 L270,364 L270,392 L276,392 L276,364 L282,364 L282,392 L288,392 L288,364 L294,364 L294,392 L300,392 L300,364 L306,364 L306,392 L312,392 L312,364 L318,364 L318,392 L324,392 L324,364 L330,364 L330,392 L336,392 L336,364 L342,364 L342,392 L348,392 L348,364 L354,364 L354,392 L360,392 L360,364 L366,364 L366,392 L372,392 L372,364 L378,364 L378,392" fill="none" stroke="#E07B00" stroke-width="2.5"/>
+<text x="200" y="416" font-size="16" text-anchor="middle" font-weight="700" fill="#c25e00">CPU-Takt ≈ 3100 MHz = 3,1 GHz</text>
+<text x="200" y="434" font-size="12" text-anchor="middle" fill="#555">(Wellen schematisch – nicht maßstabsgetreu)</text>
+
+<rect x="10" y="444" width="380" height="66" rx="10" fill="#f4f1ee" stroke="#888" stroke-width="1.5"/>
+<text x="200" y="471" font-size="15" text-anchor="middle" font-weight="700">Daten tauschen im Mainboard-Takt –</text>
+<text x="200" y="494" font-size="15" text-anchor="middle" font-weight="700">rechnen innen mit einem Vielfachen</text>
+</svg>

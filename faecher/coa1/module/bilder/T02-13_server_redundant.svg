@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 420" font-family="system-ui, sans-serif" fill="#222">
+<title>Server mit redundanten Netzteilen: zwei Netzteile statt einem. Fällt Netzteil 1 aus, übernimmt Netzteil 2 und der Server läuft weiter, die Ausfallsicherheit steigt. Unten: Ein Serverschrank (Rack) mit eingebauter USV-Anlage.</title>
+<defs><marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1f9d55"/></marker></defs>
+<rect width="400" height="420" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">Server: doppelt hält besser</text>
+<!-- Server -->
+<rect x="20" y="44" width="360" height="190" rx="10" fill="#f4f1ee" stroke="#555" stroke-width="2"/>
+<text x="36" y="68" font-size="15" font-weight="700">Server</text>
+<rect x="200" y="78" width="160" height="44" rx="6" fill="#3a3f4a"/>
+<text x="280" y="106" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">Netzteil 1</text>
+<g stroke="#d63c3c" stroke-width="4" stroke-linecap="round"><line x1="336" y1="84" x2="356" y2="104"/><line x1="356" y1="84" x2="336" y2="104"/></g>
+<rect x="200" y="134" width="160" height="44" rx="6" fill="#3a3f4a" stroke="#1f9d55" stroke-width="3"/>
+<text x="280" y="162" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">Netzteil 2</text>
+<rect x="36" y="100" width="110" height="70" rx="6" fill="#fff" stroke="#555" stroke-width="1.5"/>
+<text x="91" y="132" text-anchor="middle" font-size="14" font-weight="700">Mainboard</text>
+<text x="91" y="152" text-anchor="middle" font-size="13" fill="#1f9d55" font-weight="700">läuft weiter</text>
+<line x1="198" y1="156" x2="150" y2="140" stroke="#1f9d55" stroke-width="4" marker-end="url(#g)"/>
+<text x="200" y="218" text-anchor="middle" font-size="14">Fällt eins aus, <tspan font-weight="700" fill="#1f9d55">übernimmt das andere</tspan>.</text>
+<text x="200" y="256" text-anchor="middle" font-size="15" font-weight="700">= redundant → mehr Ausfallsicherheit</text>
+<!-- Rack -->
+<rect x="130" y="276" width="140" height="136" rx="6" fill="#3a3f4a"/>
+<g fill="#5b6270"><rect x="140" y="286" width="120" height="20" rx="2"/><rect x="140" y="310" width="120" height="20" rx="2"/><rect x="140" y="334" width="120" height="20" rx="2"/></g>
+<rect x="140" y="360" width="120" height="42" rx="3" fill="#1f9d55"/>
+<text x="200" y="386" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">USV-Anlage</text>
+<text x="120" y="320" text-anchor="end" font-size="14" font-weight="700">Rack</text>
+<text x="120" y="338" text-anchor="end" font-size="13" fill="#555">(Serverschrank)</text>
+</svg>

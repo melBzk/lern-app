@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" font-family="system-ui, sans-serif" fill="#222" role="img">
+<title>Was eine Angabe sagt und was nicht, fünf Zeilen mit grünem Haken und rotem Kreuz. Takt in GHz: sagt Takte pro Sekunde, nicht wie schnell die CPU wirklich ist. Anzahl Kerne: sagt wie viele Rechenwerke, nicht dass sich die Leistung addiert. TDP in Watt: sagt Abwärme unter Volllast, nicht den Verbrauch bei wenig Arbeit. 64 Bit: sagt mehr als 4 GB RAM nutzbar, nicht doppelt so schnell. Integrierte Grafik: sagt Bild ohne Grafikkarte, nicht dass sie für 3D und Spiele reicht.</title>
+<rect width="400" height="520" fill="#fff"/>
+<text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700">Was eine Angabe sagt – und was nicht</text>
+<g font-size="14">
+<rect x="10" y="44" width="380" height="88" rx="10" fill="#f4f5f7"/>
+<text x="24" y="68" font-size="15" font-weight="700">Takt (GHz)</text>
+<text x="24" y="92"><tspan fill="#2f9e44" font-weight="700">✓</tspan> Takte pro Sekunde</text>
+<text x="24" y="116"><tspan fill="#c62828" font-weight="700">✗</tspan> wie schnell die CPU wirklich ist</text>
+<rect x="10" y="138" width="380" height="88" rx="10" fill="#f4f5f7"/>
+<text x="24" y="162" font-size="15" font-weight="700">Anzahl Kerne</text>
+<text x="24" y="186"><tspan fill="#2f9e44" font-weight="700">✓</tspan> wie viele Rechenwerke da sind</text>
+<text x="24" y="210"><tspan fill="#c62828" font-weight="700">✗</tspan> Leistung addiert sich einfach</text>
+<rect x="10" y="232" width="380" height="88" rx="10" fill="#f4f5f7"/>
+<text x="24" y="256" font-size="15" font-weight="700">TDP (W)</text>
+<text x="24" y="280"><tspan fill="#2f9e44" font-weight="700">✓</tspan> Abwärme unter Volllast</text>
+<text x="24" y="304"><tspan fill="#c62828" font-weight="700">✗</tspan> Verbrauch bei wenig Arbeit</text>
+<rect x="10" y="326" width="380" height="88" rx="10" fill="#f4f5f7"/>
+<text x="24" y="350" font-size="15" font-weight="700">64 Bit</text>
+<text x="24" y="374"><tspan fill="#2f9e44" font-weight="700">✓</tspan> mehr als 4 GB RAM nutzbar</text>
+<text x="24" y="398"><tspan fill="#c62828" font-weight="700">✗</tspan> alles doppelt so schnell</text>
+<rect x="10" y="420" width="380" height="88" rx="10" fill="#f4f5f7"/>
+<text x="24" y="444" font-size="15" font-weight="700">Integrierte Grafik</text>
+<text x="24" y="468"><tspan fill="#2f9e44" font-weight="700">✓</tspan> Bild auch ohne Grafikkarte</text>
+<text x="24" y="492"><tspan fill="#c62828" font-weight="700">✗</tspan> reicht für 3D und Spiele</text>
+</g>
+</svg>

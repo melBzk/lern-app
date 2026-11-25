@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 382" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Pipeline-Zeitplan, Takt 1 bis 7. Befehl 1 belegt Takt 1 bis 5 mit L laden, D decodieren, O Operanden laden, A ausführen, S zurückspeichern. Befehl 2 ist um 1 Takt versetzt (Takt 2 bis 6), Befehl 3 um 2 Takte (Takt 3 bis 7). Rahmen um Takt 3: hier arbeiten 3 Einheiten gleichzeitig. Ab Takt 5 wird in jedem Takt ein Befehl fertig.</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker><marker id="o" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E07B00"/></marker><marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6b4f"/></marker><marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker></defs>
+<rect width="400" height="382" fill="#fff"/>
+<text x="200" y="26" font-size="16" text-anchor="middle" font-weight="700">Pipelining im Zeitplan</text>
+<text x="188.0" y="56" font-size="13" text-anchor="middle" font-weight="700">hier arbeiten 3 Einheiten gleichzeitig</text>
+<text x="8" y="88" font-size="13" font-weight="700">Takt</text>
+<text x="100.0" y="88" font-size="13" text-anchor="middle" font-weight="700">1</text>
+<text x="144.0" y="88" font-size="13" text-anchor="middle" font-weight="700">2</text>
+<text x="188.0" y="88" font-size="13" text-anchor="middle" font-weight="700">3</text>
+<text x="232.0" y="88" font-size="13" text-anchor="middle" font-weight="700">4</text>
+<text x="276.0" y="88" font-size="13" text-anchor="middle" font-weight="700">5</text>
+<text x="320.0" y="88" font-size="13" text-anchor="middle" font-weight="700">6</text>
+<text x="364.0" y="88" font-size="13" text-anchor="middle" font-weight="700">7</text>
+<text x="8" y="123" font-size="14" font-weight="700">Befehl 1</text>
+<rect x="79" y="98" width="42" height="40" rx="4" fill="#dbe6fb" stroke="#3a6ed8" stroke-width="2"/><text x="100.0" y="124.0" font-size="16" text-anchor="middle" font-weight="700">L</text>
+<rect x="123" y="98" width="42" height="40" rx="4" fill="#ece0f5" stroke="#7b3fa0" stroke-width="2"/><text x="144.0" y="124.0" font-size="16" text-anchor="middle" font-weight="700">D</text>
+<rect x="167" y="98" width="42" height="40" rx="4" fill="#fdebd3" stroke="#E07B00" stroke-width="2"/><text x="188.0" y="124.0" font-size="16" text-anchor="middle" font-weight="700">O</text>
+<rect x="211" y="98" width="42" height="40" rx="4" fill="#f9dcdc" stroke="#c62828" stroke-width="2"/><text x="232.0" y="124.0" font-size="16" text-anchor="middle" font-weight="700">A</text>
+<rect x="255" y="98" width="42" height="40" rx="4" fill="#dcefe4" stroke="#2f6b4f" stroke-width="2"/><text x="276.0" y="124.0" font-size="16" text-anchor="middle" font-weight="700">S</text>
+<rect x="299" y="98" width="42" height="40" rx="4" fill="#fff" stroke="#e3e3e3" stroke-width="1.5"/>
+<rect x="343" y="98" width="42" height="40" rx="4" fill="#fff" stroke="#e3e3e3" stroke-width="1.5"/>
+<text x="8" y="169" font-size="14" font-weight="700">Befehl 2</text>
+<rect x="79" y="144" width="42" height="40" rx="4" fill="#fff" stroke="#e3e3e3" stroke-width="1.5"/>
+<rect x="123" y="144" width="42" height="40" rx="4" fill="#dbe6fb" stroke="#3a6ed8" stroke-width="2"/><text x="144.0" y="170.0" font-size="16" text-anchor="middle" font-weight="700">L</text>
+<rect x="167" y="144" width="42" height="40" rx="4" fill="#ece0f5" stroke="#7b3fa0" stroke-width="2"/><text x="188.0" y="170.0" font-size="16" text-anchor="middle" font-weight="700">D</text>
+<rect x="211" y="144" width="42" height="40" rx="4" fill="#fdebd3" stroke="#E07B00" stroke-width="2"/><text x="232.0" y="170.0" font-size="16" text-anchor="middle" font-weight="700">O</text>
+<rect x="255" y="144" width="42" height="40" rx="4" fill="#f9dcdc" stroke="#c62828" stroke-width="2"/><text x="276.0" y="170.0" font-size="16" text-anchor="middle" font-weight="700">A</text>
+<rect x="299" y="144" width="42" height="40" rx="4" fill="#dcefe4" stroke="#2f6b4f" stroke-width="2"/><text x="320.0" y="170.0" font-size="16" text-anchor="middle" font-weight="700">S</text>
+<rect x="343" y="144" width="42" height="40" rx="4" fill="#fff" stroke="#e3e3e3" stroke-width="1.5"/>
+<text x="8" y="215" font-size="14" font-weight="700">Befehl 3</text>
+<rect x="79" y="190" width="42" height="40" rx="4" fill="#fff" stroke="#e3e3e3" stroke-width="1.5"/>
+<rect x="123" y="190" width="42" height="40" rx="4" fill="#fff" stroke="#e3e3e3" stroke-width="1.5"/>
+<rect x="167" y="190" width="42" height="40" rx="4" fill="#dbe6fb" stroke="#3a6ed8" stroke-width="2"/><text x="188.0" y="216.0" font-size="16" text-anchor="middle" font-weight="700">L</text>
+<rect x="211" y="190" width="42" height="40" rx="4" fill="#ece0f5" stroke="#7b3fa0" stroke-width="2"/><text x="232.0" y="216.0" font-size="16" text-anchor="middle" font-weight="700">D</text>
+<rect x="255" y="190" width="42" height="40" rx="4" fill="#fdebd3" stroke="#E07B00" stroke-width="2"/><text x="276.0" y="216.0" font-size="16" text-anchor="middle" font-weight="700">O</text>
+<rect x="299" y="190" width="42" height="40" rx="4" fill="#f9dcdc" stroke="#c62828" stroke-width="2"/><text x="320.0" y="216.0" font-size="16" text-anchor="middle" font-weight="700">A</text>
+<rect x="343" y="190" width="42" height="40" rx="4" fill="#dcefe4" stroke="#2f6b4f" stroke-width="2"/><text x="364.0" y="216.0" font-size="16" text-anchor="middle" font-weight="700">S</text>
+<rect x="163" y="66" width="50" height="172" rx="6" fill="none" stroke="#111" stroke-width="3"/>
+<circle cx="276.0" cy="256" r="11" fill="#2f6b4f"/><path d="M271.0,256 l3.5,4 l7,-8" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="320.0" cy="256" r="11" fill="#2f6b4f"/><path d="M315.0,256 l3.5,4 l7,-8" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="364.0" cy="256" r="11" fill="#2f6b4f"/><path d="M359.0,256 l3.5,4 l7,-8" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="254" y1="276" x2="386" y2="276" stroke="#2f6b4f" stroke-width="3" marker-end="url(#g)"/>
+<text x="200" y="300" font-size="15" text-anchor="middle" font-weight="700" fill="#2f6b4f">ab Takt 5 wird in jedem Takt</text>
+<text x="200" y="320" font-size="15" text-anchor="middle" font-weight="700" fill="#2f6b4f">ein Befehl fertig</text>
+<text x="200" y="348" font-size="13" text-anchor="middle" fill="#444">L laden · D decodieren · O Operanden laden</text>
+<text x="200" y="367" font-size="13" text-anchor="middle" fill="#444">A ausführen · S zurückspeichern</text>
+</svg>

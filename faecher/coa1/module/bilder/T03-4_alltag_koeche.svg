@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 540" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Vergleich Küche. Oben: 1 Koch hetzt schwitzend zwischen drei Töpfen hin und her. Unten: 4 Köche, jeder an seinem eigenen Brett mit einem eigenen Gericht; das eigene Brett entspricht dem L1-Cache. Hinten ein gemeinsamer Vorratsschrank für alle; er entspricht dem L3-Cache.</title>
+<defs>
+<marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker>
+<g id="koch">
+  <rect x="-11" y="-34" width="22" height="14" rx="4" fill="#fff" stroke="#555" stroke-width="1.5"/>
+  <circle cx="-6" cy="-34" r="7" fill="#fff" stroke="#555" stroke-width="1.5"/>
+  <circle cx="6" cy="-34" r="7" fill="#fff" stroke="#555" stroke-width="1.5"/>
+  <rect x="-10" y="-33" width="20" height="10" fill="#fff"/>
+  <circle cx="0" cy="-6" r="13" fill="#f0c9a0"/>
+  <path d="M-24,46 Q-24,10 0,10 Q24,10 24,46 Z" fill="#9aa0a6"/>
+</g>
+<g id="topf">
+  <rect x="-26" y="0" width="52" height="30" rx="4" fill="#555"/>
+  <rect x="-32" y="-4" width="64" height="7" rx="3" fill="#333"/>
+  <path d="M-10,-10 q-5,-7 0,-14 M2,-10 q-5,-7 0,-14 M14,-10 q-5,-7 0,-14" fill="none" stroke="#aaa" stroke-width="2"/>
+</g>
+</defs>
+<rect width="400" height="540" fill="#fff"/>
+<text x="200" y="26" font-size="17" text-anchor="middle" font-weight="700">Mehr Köche in der Küche</text>
+
+<!-- Feld 1 -->
+<rect x="10" y="40" width="380" height="206" rx="10" fill="#fff" stroke="#ccc" stroke-width="1.5"/>
+<text x="24" y="66" font-size="16" font-weight="700">1 Koch</text>
+<use xlink:href="#koch" x="200" y="98"/>
+<path d="M222,74 q4,7 0,10 q-4,-3 0,-10 z M230,88 q4,7 0,10 q-4,-3 0,-10 z" fill="#3a6ed8"/>
+<path d="M178,74 q4,7 0,10 q-4,-3 0,-10 z" fill="#3a6ed8"/>
+<line x1="166" y1="128" x2="100" y2="128" stroke="#333" stroke-width="2.5" marker-end="url(#a)"/>
+<line x1="234" y1="128" x2="300" y2="128" stroke="#333" stroke-width="2.5" marker-end="url(#a)"/>
+<use xlink:href="#topf" x="80" y="176"/>
+<use xlink:href="#topf" x="200" y="176"/>
+<use xlink:href="#topf" x="320" y="176"/>
+<text x="200" y="232" font-size="14" text-anchor="middle" fill="#c62828" font-weight="700">hetzt zwischen 3 Töpfen hin und her</text>
+
+<!-- Feld 2 -->
+<rect x="10" y="258" width="380" height="272" rx="10" fill="#fff" stroke="#ccc" stroke-width="1.5"/>
+<text x="24" y="284" font-size="16" font-weight="700">4 Köche</text>
+<!-- Schrank -->
+<rect x="110" y="292" width="270" height="62" fill="#f6ecd2" stroke="#7a6a48" stroke-width="2"/>
+<rect x="110" y="322" width="270" height="4" fill="#7a6a48"/>
+<g fill="#E07B00"><rect x="122" y="300" width="14" height="22"/><rect x="190" y="304" width="14" height="18"/><rect x="300" y="300" width="14" height="22"/></g>
+<g fill="#2f9e44"><rect x="140" y="304" width="14" height="18"/><rect x="250" y="300" width="14" height="22"/><rect x="356" y="304" width="14" height="18"/></g>
+<g fill="#c62828"><circle cx="170" cy="342" r="8"/><circle cx="228" cy="342" r="8"/><circle cx="330" cy="342" r="8"/></g>
+<text x="245" y="374" font-size="15" text-anchor="middle" font-weight="700" fill="#1f6b30">gemeinsamer Schrank = L3</text>
+
+<use xlink:href="#koch" x="62" y="420"/>
+<use xlink:href="#koch" x="154" y="420"/>
+<use xlink:href="#koch" x="246" y="420"/>
+<use xlink:href="#koch" x="338" y="420"/>
+<!-- Bretter mit je eigenem Gericht -->
+<rect x="27" y="466" width="70" height="12" rx="3" fill="#d9a066" stroke="#2f9e44" stroke-width="2.5"/>
+<rect x="119" y="466" width="70" height="12" rx="3" fill="#d9a066"/>
+<rect x="211" y="466" width="70" height="12" rx="3" fill="#d9a066"/>
+<rect x="303" y="466" width="70" height="12" rx="3" fill="#d9a066"/>
+<circle cx="62" cy="462" r="6" fill="#c62828"/>
+<rect x="146" y="457" width="16" height="9" rx="2" fill="#2f9e44"/>
+<path d="M238,466 L246,454 L254,466 Z" fill="#E07B00"/>
+<ellipse cx="338" cy="461" rx="11" ry="5" fill="#8e5cc4"/>
+<line x1="62" y1="482" x2="62" y2="496" stroke="#2f9e44" stroke-width="2"/>
+<text x="24" y="514" font-size="15" font-weight="700" fill="#1f6b30">eigenes Brett = L1</text>
+<text x="376" y="514" font-size="13" text-anchor="end" fill="#555">jeder sein eigenes Gericht</text>
+</svg>

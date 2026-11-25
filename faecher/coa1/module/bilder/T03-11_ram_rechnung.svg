@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 430" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Rechenweg zum RAM-Balken aus dem Unterricht. Oben der Balken: grau 296, grün 12723, orange 313, dunkelblau 15209, hellblau 4227 MB. Schritt 1: Gesamt gleich installiert minus reserviert, 32768 minus 296 gleich 32472 MB. Schritt 2: Probe, 12723 plus 313 plus 15209 plus 4227 gleich 32472. Schritt 3: Verfügbar gleich Standby plus Frei, 15209 plus 4227 gleich 19436 MB. Schritt 4: Belegt gleich 12723 geteilt durch 32472, etwa 39 Prozent. Ergebnis: noch viel Blau übrig, genug Reserve.</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker><marker id="o" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E07B00"/></marker><marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6b4f"/></marker><marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker><marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker></defs>
+<rect width="400" height="430" fill="#fff"/>
+<text x="200" y="26" font-size="17" text-anchor="middle" font-weight="700">Den RAM-Balken nachrechnen</text>
+<rect x="15" y="44" width="6" height="32" rx="0" fill="#9a9a9a" stroke="none" stroke-width="0"/>
+<rect x="21" y="44" width="142" height="32" rx="0" fill="#3fa34d" stroke="none" stroke-width="0"/>
+<rect x="163" y="44" width="6" height="32" rx="0" fill="#e08a1e" stroke="none" stroke-width="0"/>
+<rect x="169" y="44" width="170" height="32" rx="0" fill="#2f5fb3" stroke="none" stroke-width="0"/>
+<rect x="339" y="44" width="46" height="32" rx="0" fill="#a9c8f0" stroke="none" stroke-width="0"/>
+<rect x="15" y="44" width="370" height="32" rx="0" fill="none" stroke="#555" stroke-width="1.5"/>
+<text x="92" y="98" font-size="13" text-anchor="middle" font-weight="700" fill="#2a7a36">12723</text>
+<text x="254" y="98" font-size="13" text-anchor="middle" font-weight="700" fill="#2f5fb3">15209</text>
+<text x="362" y="98" font-size="13" text-anchor="middle" font-weight="700" fill="#4a78b8">4227</text>
+<text x="20" y="98" font-size="13" font-weight="700" fill="#666">296</text>
+<circle cx="28" cy="134" r="12" fill="#E07B00" stroke="none" stroke-width="2"/><text x="28" y="140" font-size="16" text-anchor="middle" font-weight="700" fill="#fff">1</text>
+<text x="50" y="130" font-size="14" fill="#333">Gesamt = installiert − reserviert (grau)</text>
+<text x="50" y="152" font-size="16" font-weight="700" fill="#222">32768 − 296 = 32472 MB</text>
+<circle cx="28" cy="198" r="12" fill="#E07B00" stroke="none" stroke-width="2"/><text x="28" y="204" font-size="16" text-anchor="middle" font-weight="700" fill="#fff">2</text>
+<text x="50" y="194" font-size="14" fill="#333">Probe: grün + orange + dunkel- + hellblau</text>
+<text x="50" y="216" font-size="16" font-weight="700" fill="#222">12723 + 313 + 15209 + 4227 = 32472</text>
+<circle cx="28" cy="262" r="12" fill="#E07B00" stroke="none" stroke-width="2"/><text x="28" y="268" font-size="16" text-anchor="middle" font-weight="700" fill="#fff">3</text>
+<text x="50" y="258" font-size="14" fill="#333">Verfügbar = Standby + Frei</text>
+<text x="50" y="280" font-size="16" font-weight="700" fill="#2f5fb3">15209 + 4227 = 19436 MB</text>
+<circle cx="28" cy="326" r="12" fill="#E07B00" stroke="none" stroke-width="2"/><text x="28" y="332" font-size="16" text-anchor="middle" font-weight="700" fill="#fff">4</text>
+<text x="50" y="322" font-size="14" fill="#333">Belegt = grün ÷ Gesamt</text>
+<text x="50" y="344" font-size="16" font-weight="700" fill="#2a7a36">12723 ÷ 32472 ≈ 39 %</text>
+<rect x="14" y="370" width="372" height="46" rx="8" fill="#dcefe4" stroke="#2f6b4f" stroke-width="2"/>
+<text x="200" y="398" font-size="14" text-anchor="middle" font-weight="700" fill="#2f6b4f">noch viel Blau übrig → genug Reserve</text>
+</svg>

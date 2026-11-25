@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 440" font-family="system-ui, sans-serif" fill="#222">
+<title>Vergleich Bus und Straße: Oben eine Straße mit Häusern. Das Auto mit Ladung auf der Straße ist der Datenbus, die Hausnummer am Haus ist der Adressbus, die Ampel ist der Steuerbus. Unten: Wo der Vergleich hinkt. Auf der Straße fahren viele Autos gleichzeitig, auf dem Datenbus sendet immer nur ein Gerät. Adress- und Steuerbus sind Einbahnstraßen, nur von der CPU weg.</title>
+<defs>
+<marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker>
+</defs>
+<rect width="400" height="440" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">Der Bus als Straße</text>
+<!-- Häuser -->
+<g stroke="#555" stroke-width="2" fill="#f4f1ee">
+<path d="M40,120 L40,82 L70,58 L100,82 L100,120 Z"/>
+<path d="M150,120 L150,82 L180,58 L210,82 L210,120 Z"/>
+<path d="M260,120 L260,82 L290,58 L320,82 L320,120 Z"/>
+</g>
+<g font-size="15" font-weight="700" text-anchor="middle"><text x="70" y="106">1</text><text x="180" y="106">2</text></g>
+<rect x="276" y="90" width="28" height="24" rx="3" fill="#3a6ed8"/><text x="290" y="108" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">3</text>
+<!-- Straße -->
+<rect x="10" y="126" width="380" height="56" fill="#d9d9d9"/>
+<line x1="10" y1="154" x2="390" y2="154" stroke="#fff" stroke-width="3" stroke-dasharray="16 12"/>
+<!-- Auto mit Ladung -->
+<rect x="110" y="134" width="70" height="24" rx="5" fill="#c62828"/>
+<rect x="118" y="138" width="22" height="14" fill="#fff"/><text x="129" y="150" text-anchor="middle" font-size="13" font-weight="700" fill="#c62828">01</text>
+<circle cx="124" cy="160" r="5" fill="#333"/><circle cx="166" cy="160" r="5" fill="#333"/>
+<line x1="186" y1="146" x2="236" y2="146" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+<!-- Ampel -->
+<rect x="350" y="64" width="22" height="50" rx="4" fill="#333"/><circle cx="361" cy="77" r="6" fill="#e53935"/><circle cx="361" cy="100" r="6" fill="#43a047"/>
+<line x1="361" y1="114" x2="361" y2="126" stroke="#333" stroke-width="3"/>
+<!-- Zuordnung -->
+<rect x="10" y="196" width="380" height="36" rx="8" fill="#fdecea" stroke="#c62828" stroke-width="1.5"/>
+<text x="22" y="219" font-size="15" font-weight="700" fill="#c62828">Datenbus</text><text x="130" y="219" font-size="14">= Straße mit der Ladung</text>
+<rect x="10" y="238" width="380" height="36" rx="8" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="1.5"/>
+<text x="22" y="261" font-size="15" font-weight="700" fill="#3a6ed8">Adressbus</text><text x="130" y="261" font-size="14">= Hausnummer</text>
+<rect x="10" y="280" width="380" height="36" rx="8" fill="#f3e9f8" stroke="#7b3fa0" stroke-width="1.5"/>
+<text x="22" y="303" font-size="15" font-weight="700" fill="#7b3fa0">Steuerbus</text><text x="130" y="303" font-size="14">= Ampel</text>
+<!-- Hinkt -->
+<text x="10" y="346" font-size="15" font-weight="700" fill="#E07B00">Wo der Vergleich hinkt:</text>
+<rect x="10" y="356" width="380" height="76" rx="8" fill="#fdf0e0" stroke="#E07B00" stroke-width="2"/>
+<text x="22" y="380" font-size="14">Straße: viele Autos gleichzeitig.</text>
+<text x="22" y="399" font-size="14" font-weight="700">Datenbus: immer nur 1 Gerät sendet.</text>
+<text x="22" y="421" font-size="14">Adress- und Steuerbus: Einbahnstraßen.</text>
+</svg>

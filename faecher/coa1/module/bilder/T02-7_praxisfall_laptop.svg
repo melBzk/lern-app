@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 330" font-family="system-ui, sans-serif" fill="#222">
+<title>Szene: Ein vier Jahre alter Laptop mit drei Beschwerden: sehr heiß (Thermometer), Lüfter laut (Schallwellen), Absturz bei großen Programmen (Warnzeichen). Darunter die Frage: Was hilft auf Dauer?</title>
+<rect width="400" height="330" fill="#fff"/>
+<text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700">Der heiße Laptop</text>
+<!-- Laptop -->
+<rect x="120" y="54" width="160" height="100" rx="6" fill="#fff" stroke="#333" stroke-width="3"/>
+<rect x="130" y="64" width="140" height="80" fill="#e3ecfb"/>
+<path d="M100,154 H300 L312,170 H88 Z" fill="#cfd8dc" stroke="#333" stroke-width="2.5"/>
+<text x="200" y="110" text-anchor="middle" font-size="15" font-weight="700" fill="#2550a8">4 Jahre alt</text>
+<!-- Beschwerden -->
+<g fill="#f4f1ee"><rect x="10" y="190" width="120" height="92" rx="10"/><rect x="140" y="190" width="120" height="92" rx="10"/><rect x="270" y="190" width="120" height="92" rx="10"/></g>
+<rect x="64" y="200" width="12" height="40" rx="6" fill="#fff" stroke="#d43c3c" stroke-width="2"/>
+<rect x="67" y="216" width="6" height="24" fill="#d43c3c"/><circle cx="70" cy="244" r="8" fill="#d43c3c"/>
+<text x="70" y="272" text-anchor="middle" font-size="14" font-weight="700">sehr heiß</text>
+<circle cx="188" cy="224" r="16" fill="#90a4ae"/><circle cx="188" cy="224" r="4" fill="#333"/>
+<g fill="none" stroke="#D4607A" stroke-width="3" stroke-linecap="round"><path d="M212,214 q6,10 0,20"/><path d="M222,208 q10,16 0,32"/></g>
+<text x="200" y="272" text-anchor="middle" font-size="14" font-weight="700">Lüfter laut</text>
+<polygon points="330,202 352,242 308,242" fill="#fff3c4" stroke="#c99a06" stroke-width="2.5" stroke-linejoin="round"/>
+<text x="330" y="238" text-anchor="middle" font-size="18" font-weight="700" fill="#8a6a04">!</text>
+<text x="330" y="272" text-anchor="middle" font-size="14" font-weight="700">stürzt ab</text>
+<text x="200" y="314" text-anchor="middle" font-size="15" font-weight="700" fill="#D4607A">Was hilft auf Dauer?</text>
+</svg>

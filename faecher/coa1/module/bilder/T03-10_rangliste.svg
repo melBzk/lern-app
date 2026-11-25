@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 450" font-family="system-ui, sans-serif">
+  <title>Schematische CPU-Rangliste mit PassMark-Werten als Balkendiagramm. Fünf Balken für Prozessor A bis E werden von oben nach unten kürzer: absteigend sortiert, oben steht der schnellste. Rechts eine Spalte Preis. Bei Prozessor B und Prozessor D sind Häkchen gesetzt, unten ein Knopf vergleichen. Keine echten Modellnamen und keine echten Zahlen.</title>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d63c3c"/></marker>
+  </defs>
+  <rect width="400" height="450" fill="#fff"/>
+  <text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700" fill="#222">CPU-Rangliste (PassMark-Werte)</text>
+
+  <!-- Pfeil absteigend -->
+  <line x1="18" y1="70" x2="18" y2="318" stroke="#d63c3c" stroke-width="3.5" marker-end="url(#a)"/>
+  <text x="34" y="58" font-size="14" font-weight="700" fill="#d63c3c">absteigend sortiert: oben = schnellster</text>
+
+  <text x="360" y="82" text-anchor="middle" font-size="14" font-weight="700" fill="#222">Preis</text>
+  <line x1="330" y1="70" x2="330" y2="320" stroke="#ccc" stroke-width="1.5"/>
+
+  <g font-size="14" fill="#222">
+    <!-- A -->
+    <rect x="34" y="92" width="16" height="16" rx="3" fill="#fff" stroke="#555" stroke-width="2"/>
+    <text x="58" y="105" font-weight="700">Prozessor A</text>
+    <rect x="34" y="113" width="280" height="18" rx="4" fill="#3a6ed8"/>
+    <text x="360" y="127" text-anchor="middle">… €</text>
+    <!-- B -->
+    <rect x="34" y="142" width="16" height="16" rx="3" fill="#1f9d55" stroke="#1f9d55" stroke-width="2"/>
+    <path d="M37,150 L41,155 L48,145" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="58" y="155" font-weight="700">Prozessor B</text>
+    <rect x="34" y="163" width="235" height="18" rx="4" fill="#3a6ed8"/>
+    <text x="360" y="177" text-anchor="middle">… €</text>
+    <!-- C -->
+    <rect x="34" y="192" width="16" height="16" rx="3" fill="#fff" stroke="#555" stroke-width="2"/>
+    <text x="58" y="205" font-weight="700">Prozessor C</text>
+    <rect x="34" y="213" width="190" height="18" rx="4" fill="#3a6ed8"/>
+    <text x="360" y="227" text-anchor="middle">… €</text>
+    <!-- D -->
+    <rect x="34" y="242" width="16" height="16" rx="3" fill="#1f9d55" stroke="#1f9d55" stroke-width="2"/>
+    <path d="M37,250 L41,255 L48,245" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="58" y="255" font-weight="700">Prozessor D</text>
+    <rect x="34" y="263" width="145" height="18" rx="4" fill="#3a6ed8"/>
+    <text x="360" y="277" text-anchor="middle">… €</text>
+    <!-- E -->
+    <rect x="34" y="292" width="16" height="16" rx="3" fill="#fff" stroke="#555" stroke-width="2"/>
+    <text x="58" y="305" font-weight="700">Prozessor E</text>
+    <rect x="34" y="313" width="100" height="18" rx="4" fill="#3a6ed8"/>
+    <text x="360" y="327" text-anchor="middle">… €</text>
+  </g>
+
+  <!-- Vergleichen -->
+  <text x="200" y="370" text-anchor="middle" font-size="14" fill="#222">B und D angehakt, dann:</text>
+  <rect x="120" y="382" width="160" height="42" rx="21" fill="#1f9d55"/>
+  <text x="200" y="409" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">vergleichen</text>
+</svg>

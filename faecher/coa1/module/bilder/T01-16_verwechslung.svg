@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 440" font-family="system-ui, sans-serif" fill="#222" role="img">
+<title>Sechs Paare, die gern durcheinandergehen. Pixel ist die Anzahl der Punkte, zum Beispiel 1920 mal 1080, dpi sind Punkte pro Zoll. Ein Schwarz-Weiß-Punkt ist 1 Bit, Byte erhält man erst mit geteilt durch 8. Zoll in cm: mal 2,54, cm in Zoll: geteilt durch 2,54. Halbe dpi heißt halbe Breite mal halbe Höhe, also ein Viertel Speicher, nicht die Hälfte. Geteilt durch 1024 ergibt KiB und MiB wie im Buch, geteilt durch 1000 ergibt KB und MB wie beim Hersteller. Ein Farb-Pixel besteht aus 3 LCD-Zellen: rot, grün, blau.</title>
+<rect width="400" height="440" fill="#fff"/>
+<text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700">6 Paare, die man verwechselt</text>
+<g fill="#f4f1ee"><rect x="10" y="42" width="380" height="60" rx="10"/><rect x="10" y="106" width="380" height="60" rx="10"/><rect x="10" y="170" width="380" height="60" rx="10"/><rect x="10" y="234" width="380" height="60" rx="10"/><rect x="10" y="298" width="380" height="60" rx="10"/><rect x="10" y="362" width="380" height="60" rx="10"/></g>
+<g fill="#fff" stroke="#9fb3dc" stroke-width="1.5">
+<rect x="18" y="48" width="166" height="48" rx="7"/><rect x="216" y="48" width="166" height="48" rx="7"/>
+<rect x="18" y="112" width="166" height="48" rx="7"/><rect x="216" y="112" width="166" height="48" rx="7"/>
+<rect x="18" y="176" width="166" height="48" rx="7"/><rect x="216" y="176" width="166" height="48" rx="7"/>
+<rect x="18" y="240" width="166" height="48" rx="7"/><rect x="216" y="240" width="166" height="48" rx="7" stroke="#e8590c" stroke-width="2.5"/>
+<rect x="18" y="304" width="166" height="48" rx="7"/><rect x="216" y="304" width="166" height="48" rx="7"/>
+<rect x="18" y="368" width="166" height="48" rx="7"/><rect x="216" y="368" width="166" height="48" rx="7"/>
+</g>
+<g font-size="18" font-weight="700" fill="#555" text-anchor="middle"><text x="200" y="78">↔</text><text x="200" y="142">↔</text><text x="200" y="206">↔</text><text x="200" y="270">→</text><text x="200" y="334">↔</text><text x="200" y="398">=</text></g>
+<g text-anchor="middle">
+<text x="101" y="68" font-size="15" font-weight="700">Pixel</text><text x="101" y="87" font-size="13">Anzahl: 1920 × 1080</text>
+<text x="299" y="68" font-size="15" font-weight="700">dpi</text><text x="299" y="87" font-size="13">Punkte pro Zoll</text>
+<text x="101" y="132" font-size="15" font-weight="700">Bit</text><text x="101" y="151" font-size="13">1 S/W-Punkt = 1 Bit</text>
+<text x="299" y="132" font-size="15" font-weight="700">Byte</text><text x="299" y="151" font-size="13">erst Bit ÷ 8</text>
+<text x="101" y="196" font-size="15" font-weight="700">Zoll → cm</text><text x="101" y="215" font-size="13">mal 2,54</text>
+<text x="299" y="196" font-size="15" font-weight="700">cm → Zoll</text><text x="299" y="215" font-size="13">geteilt durch 2,54</text>
+<text x="101" y="260" font-size="15" font-weight="700">halbe dpi</text><text x="101" y="279" font-size="13">½ breit × ½ hoch</text>
+<text x="299" y="260" font-size="15" font-weight="700" fill="#e8590c">¼ Speicher</text><text x="299" y="279" font-size="13">nicht die Hälfte!</text>
+<text x="101" y="324" font-size="15" font-weight="700">÷ 1024</text><text x="101" y="343" font-size="13">Buch: KiB, MiB</text>
+<text x="299" y="324" font-size="15" font-weight="700">÷ 1000</text><text x="299" y="343" font-size="13">Hersteller: KB, MB</text>
+<text x="101" y="388" font-size="15" font-weight="700">1 Farb-Pixel</text><text x="101" y="407" font-size="13">ein Bildpunkt</text>
+<text x="299" y="388" font-size="15" font-weight="700">3 LCD-Zellen</text>
+</g>
+<rect x="262" y="397" width="26" height="12" fill="#e03131"/><rect x="290" y="397" width="26" height="12" fill="#2f9e44"/><rect x="318" y="397" width="26" height="12" fill="#3a6ed8"/>
+</svg>

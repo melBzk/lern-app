@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 340" font-family="system-ui, sans-serif" fill="#222" role="img">
+<title>Balkendiagramm in Terawattstunden (TWh). Rechenzentren weltweit 2024: 415 TWh. Deutschland, ganzer Strom 2024: ca. 512 TWh; davon ist ein Stück so lang wie die 415 TWh der Rechenzentren eingefärbt, das sind etwa vier Fünftel. Rechenzentren weltweit 2030, Prognose der IEA: ca. 945 TWh; ein Pfeil vom ersten zum letzten Balken sagt: mehr als doppelt so viel.</title>
+<rect width="400" height="340" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">Strom pro Jahr in TWh</text>
+
+<!-- 1 Rechenzentren 2024 -->
+<text x="20" y="62" font-size="14" font-weight="700">Rechenzentren weltweit 2024</text>
+<rect x="20" y="70" width="123" height="32" fill="#3a6ed8"/>
+<text x="151" y="92" font-size="15" font-weight="700">415 TWh</text>
+
+<!-- 2 Deutschland -->
+<text x="20" y="140" font-size="14" font-weight="700">Deutschland, ganzer Strom 2024</text>
+<rect x="20" y="148" width="152" height="32" fill="#cfd6dd"/>
+<rect x="20" y="148" width="123" height="32" fill="#3a6ed8"/>
+<text x="81" y="170" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">≈ 4/5</text>
+<text x="180" y="170" font-size="15" font-weight="700">ca. 512 TWh</text>
+
+<!-- 3 Prognose 2030 -->
+<text x="20" y="218" font-size="14" font-weight="700">Rechenzentren weltweit 2030</text>
+<text x="20" y="236" font-size="13" fill="#555">(Prognose der IEA)</text>
+<rect x="20" y="244" width="280" height="32" fill="#a3bcf0" stroke="#3a6ed8" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="292" y="266" text-anchor="end" font-size="15" font-weight="700">ca. 945 TWh</text>
+
+<!-- Pfeil -->
+<path d="M226,86 H376 V230" stroke="#E07B00" stroke-width="3" fill="none"/>
+<path d="M368,228 H384 L376,242 Z" fill="#E07B00"/>
+<text x="368" y="150" text-anchor="end" font-size="14" font-weight="700" fill="#c25e00">mehr als</text>
+<text x="368" y="168" text-anchor="end" font-size="14" font-weight="700" fill="#c25e00">doppelt</text>
+
+<text x="20" y="310" font-size="13" fill="#555">1 TWh = 1 Milliarde kWh</text>
+</svg>

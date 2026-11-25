@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 450" font-family="system-ui, sans-serif" fill="#222">
+<title>Handy-Ladegerät als kleines Netzteil: Auf dem Gerät steht Input 230 V ~ 50 Hz und Output 5 V =. Erklärt: V (Volt) = die Spannung, wie stark der Strom drückt. Hz (Hertz) = Schwingungen pro Sekunde, das Netz schwingt 50-mal pro Sekunde. W (Watt) = die Leistung, wie viel Strom ein Gerät verbraucht. Wo der Vergleich hinkt: Das Ladegerät liefert eine Spannung, das PC-Netzteil mehrere gleichzeitig (3,3 V, 5 V, 12 V) und schafft bis über 1000 Watt.</title>
+<rect width="400" height="450" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">Ein kleines Netzteil: das Ladegerät</text>
+<!-- Ladegerät -->
+<rect x="20" y="58" width="22" height="10" fill="#999"/><rect x="20" y="82" width="22" height="10" fill="#999"/>
+<rect x="42" y="44" width="180" height="120" rx="12" fill="#f4f1ee" stroke="#555" stroke-width="2"/>
+<text x="58" y="76" font-size="14" fill="#555">Input</text>
+<text x="58" y="100" font-size="17" font-weight="700">230 V <tspan fill="#3a6ed8" font-size="22">~</tspan> 50 Hz</text>
+<text x="58" y="128" font-size="14" fill="#555">Output</text>
+<text x="58" y="152" font-size="17" font-weight="700">5 V <tspan fill="#1c6b3c" font-size="20">=</tspan></text>
+<path d="M222,104 C260,104 260,140 300,140" fill="none" stroke="#555" stroke-width="3"/>
+<rect x="300" y="96" width="50" height="90" rx="8" fill="#fff" stroke="#555" stroke-width="2"/><rect x="307" y="106" width="36" height="66" rx="2" fill="#e8f0fe"/>
+<!-- Einheiten -->
+<g font-size="14">
+<rect x="10" y="184" width="380" height="44" rx="8" fill="#e8f0fe"/>
+<text x="22" y="212" font-size="17" font-weight="700" fill="#3a6ed8">V</text><text x="46" y="212"><tspan font-weight="700">Volt</tspan> = Spannung: wie stark es „drückt“</text>
+<rect x="10" y="234" width="380" height="44" rx="8" fill="#e8f0fe"/>
+<text x="22" y="262" font-size="17" font-weight="700" fill="#3a6ed8">Hz</text><text x="46" y="262"><tspan font-weight="700">Hertz</tspan> = Schwingungen pro Sekunde (Netz: 50)</text>
+<rect x="10" y="284" width="380" height="44" rx="8" fill="#e8f0fe"/>
+<text x="22" y="312" font-size="17" font-weight="700" fill="#3a6ed8">W</text><text x="46" y="312"><tspan font-weight="700">Watt</tspan> = Leistung: wie viel Strom verbraucht</text>
+</g>
+<!-- hinkt -->
+<rect x="10" y="342" width="380" height="98" rx="10" fill="#fdf0e0" stroke="#E07B00" stroke-width="2"/>
+<text x="22" y="366" font-size="15" font-weight="700" fill="#E07B00">Wo der Vergleich hinkt:</text>
+<text x="22" y="390" font-size="14">Ladegerät: <tspan font-weight="700">1</tspan> Spannung.</text>
+<text x="22" y="412" font-size="14">PC-Netzteil: <tspan font-weight="700">3,3 V, 5 V, 12 V</tspan> gleichzeitig,</text>
+<text x="22" y="432" font-size="14">bis über <tspan font-weight="700">1.000 Watt</tspan>.</text>
+</svg>

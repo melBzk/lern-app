@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Ablauf von oben nach unten: Die CPU braucht Daten. Im L1? Ja: sofort da. Nein: Im L2? Ja: schnell da. Nein: Im L3 (falls vorhanden)? Ja: noch recht schnell. Nein: Arbeitsspeicher – langer Weg. Eine Uhr am Rand läuft mit jedem Schritt weiter.</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker></defs>
+<rect width="400" height="480" fill="#fff"/>
+<text x="200" y="26" font-size="17" text-anchor="middle" font-weight="700">Wo sucht die CPU zuerst?</text>
+<!-- Start -->
+<rect x="95" y="42" width="170" height="38" rx="19" fill="#3a6ed8"/>
+<text x="180" y="66" font-size="15" text-anchor="middle" font-weight="700" fill="#fff">CPU braucht Daten</text>
+<line x1="180" y1="80" x2="180" y2="98" stroke="#333" stroke-width="2.5" marker-end="url(#a)"/>
+<!-- L1 -->
+<path d="M180,100 L250,135 L180,170 L110,135 Z" fill="#fff" stroke="#222" stroke-width="2"/>
+<text x="180" y="140" font-size="15" text-anchor="middle" font-weight="700">Im L1?</text>
+<line x1="250" y1="135" x2="276" y2="135" stroke="#2f6b4f" stroke-width="2.5" marker-end="url(#a)"/>
+<text x="262" y="127" font-size="13" text-anchor="middle" font-weight="700" fill="#2f6b4f">Ja</text>
+<rect x="278" y="114" width="114" height="42" rx="6" fill="#2f6b4f"/>
+<text x="335" y="140" font-size="14" text-anchor="middle" font-weight="700" fill="#fff">sofort da</text>
+<line x1="180" y1="170" x2="180" y2="198" stroke="#333" stroke-width="2.5" marker-end="url(#a)"/>
+<text x="188" y="189" font-size="13" font-weight="700" fill="#c62828">Nein</text>
+<!-- L2 -->
+<path d="M180,200 L250,235 L180,270 L110,235 Z" fill="#fff" stroke="#222" stroke-width="2"/>
+<text x="180" y="240" font-size="15" text-anchor="middle" font-weight="700">Im L2?</text>
+<line x1="250" y1="235" x2="276" y2="235" stroke="#2f6b4f" stroke-width="2.5" marker-end="url(#a)"/>
+<text x="262" y="227" font-size="13" text-anchor="middle" font-weight="700" fill="#2f6b4f">Ja</text>
+<rect x="278" y="214" width="114" height="42" rx="6" fill="#4f8a6a"/>
+<text x="335" y="240" font-size="14" text-anchor="middle" font-weight="700" fill="#fff">schnell da</text>
+<line x1="180" y1="270" x2="180" y2="298" stroke="#333" stroke-width="2.5" marker-end="url(#a)"/>
+<text x="188" y="289" font-size="13" font-weight="700" fill="#c62828">Nein</text>
+<!-- L3 -->
+<path d="M180,300 L264,340 L180,380 L96,340 Z" fill="#fff" stroke="#222" stroke-width="2"/>
+<text x="180" y="338" font-size="15" text-anchor="middle" font-weight="700">Im L3?</text>
+<text x="180" y="355" font-size="13" text-anchor="middle" fill="#555">(falls vorhanden)</text>
+<line x1="264" y1="340" x2="277" y2="340" stroke="#2f6b4f" stroke-width="2.5" marker-end="url(#a)"/>
+<text x="270" y="332" font-size="13" text-anchor="middle" font-weight="700" fill="#2f6b4f">Ja</text>
+<rect x="278" y="316" width="114" height="48" rx="6" fill="#8fbfa4"/>
+<text x="335" y="337" font-size="14" text-anchor="middle" font-weight="700">noch recht</text>
+<text x="335" y="355" font-size="14" text-anchor="middle" font-weight="700">schnell</text>
+<line x1="180" y1="380" x2="180" y2="408" stroke="#333" stroke-width="2.5" marker-end="url(#a)"/>
+<text x="188" y="399" font-size="13" font-weight="700" fill="#c62828">Nein</text>
+<!-- RAM -->
+<rect x="82" y="410" width="196" height="50" rx="6" fill="#c62828"/>
+<text x="180" y="431" font-size="15" text-anchor="middle" font-weight="700" fill="#fff">Arbeitsspeicher –</text>
+<text x="180" y="450" font-size="15" text-anchor="middle" font-weight="700" fill="#fff">langer Weg</text>
+<line x1="44" y1="157" x2="44" y2="410" stroke="#bbb" stroke-width="2" stroke-dasharray="4 4"/>
+<!-- Uhren -->
+<g stroke="#444" stroke-width="2">
+<circle cx="44" cy="135" r="18" fill="#fff"/>
+<path d="M44,135 L44,117 A18,18 0 0 1 56.7,122.3 Z" fill="#E07B00" stroke="none"/>
+<circle cx="44" cy="235" r="18" fill="#fff"/>
+<path d="M44,235 L44,217 A18,18 0 0 1 62,235 Z" fill="#E07B00" stroke="none"/>
+<circle cx="44" cy="340" r="18" fill="#fff"/>
+<path d="M44,340 L44,322 A18,18 0 0 1 44,358 Z" fill="#E07B00" stroke="none"/>
+<circle cx="44" cy="435" r="18" fill="#fff"/>
+<path d="M44,435 L44,417 A18,18 0 1 1 28.4,426 Z" fill="#c62828" stroke="none"/>
+</g>
+<g fill="none" stroke="#444" stroke-width="2">
+<circle cx="44" cy="135" r="18"/><circle cx="44" cy="235" r="18"/><circle cx="44" cy="340" r="18"/><circle cx="44" cy="435" r="18"/>
+</g>
+<text x="44" y="98" font-size="13" text-anchor="middle" font-weight="700" fill="#555">Zeit</text>
+</svg>

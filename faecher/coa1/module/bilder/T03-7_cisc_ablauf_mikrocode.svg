@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 610" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Ablauf in einem CISC-Prozessor von oben nach unten: 1 CISC-Befehl, zum Beispiel Zahl im Speicher um 5 erhöhen. 2 Decoder (Befehlsdecoder im Steuerwerk) zerlegt den Befehl. 3 Mikrocode = kleine Arbeitsschritte 1 bis 4. 4 Nanoprozessor = Prozessor im Prozessor, führt die Schritte nacheinander aus. Darunter eine Uhr mit Taktkurve: braucht mehrere Takte, bei klassischen CISC-Prozessoren laut Skript meist 4 bis 10.</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker><marker id="o" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E07B00"/></marker><marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6b4f"/></marker><marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker></defs>
+<rect width="400" height="610" fill="#fff"/>
+<text x="200" y="28" font-size="17" text-anchor="middle" font-weight="700">So arbeitet ein CISC-Prozessor innen</text>
+<rect x="20" y="46" width="360" height="68" rx="10" fill="#fff3bf" stroke="#c9a400" stroke-width="2.5"/>
+<circle cx="44" cy="80" r="14" fill="#E07B00"/><text x="44" y="86" font-size="16" text-anchor="middle" font-weight="700" fill="#fff">1</text>
+<text x="66" y="74" font-size="15" font-weight="700">CISC-Befehl</text>
+<text x="66" y="96" font-size="13">z. B. „Zahl im Speicher um 5 erhöhen“</text>
+<line x1="200" y1="116" x2="200" y2="140" stroke="#333" stroke-width="2.5" marker-end="url(#a)"/>
+<rect x="20" y="144" width="360" height="78" rx="10" fill="#eaf1fc" stroke="#3a6ed8" stroke-width="2.5"/>
+<circle cx="44" cy="183" r="14" fill="#E07B00"/><text x="44" y="189" font-size="16" text-anchor="middle" font-weight="700" fill="#fff">2</text>
+<text x="66" y="168" font-size="15" font-weight="700">Decoder</text>
+<text x="66" y="189" font-size="13">(Befehlsdecoder im Steuerwerk)</text>
+<text x="66" y="210" font-size="14" font-weight="700" fill="#3a6ed8">zerlegt den Befehl</text>
+<line x1="200" y1="224" x2="200" y2="248" stroke="#333" stroke-width="2.5" marker-end="url(#a)"/>
+<rect x="20" y="252" width="360" height="100" rx="10" fill="#f1f3f5" stroke="#888" stroke-width="2.5"/>
+<circle cx="44" cy="278" r="14" fill="#E07B00"/><text x="44" y="284" font-size="16" text-anchor="middle" font-weight="700" fill="#fff">3</text>
+<text x="66" y="284" font-size="15" font-weight="700">Mikrocode = kleine Arbeitsschritte</text>
+<rect x="86" y="300" width="44" height="40" rx="4" fill="#fff" stroke="#555" stroke-width="2"/>
+<text x="108" y="326" font-size="16" text-anchor="middle" font-weight="700">1</text>
+<line x1="133" y1="320" x2="154" y2="320" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+<rect x="158" y="300" width="44" height="40" rx="4" fill="#fff" stroke="#555" stroke-width="2"/>
+<text x="180" y="326" font-size="16" text-anchor="middle" font-weight="700">2</text>
+<line x1="205" y1="320" x2="226" y2="320" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+<rect x="230" y="300" width="44" height="40" rx="4" fill="#fff" stroke="#555" stroke-width="2"/>
+<text x="252" y="326" font-size="16" text-anchor="middle" font-weight="700">3</text>
+<line x1="277" y1="320" x2="298" y2="320" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+<rect x="302" y="300" width="44" height="40" rx="4" fill="#fff" stroke="#555" stroke-width="2"/>
+<text x="324" y="326" font-size="16" text-anchor="middle" font-weight="700">4</text>
+<line x1="200" y1="354" x2="200" y2="378" stroke="#333" stroke-width="2.5" marker-end="url(#a)"/>
+<rect x="20" y="382" width="360" height="80" rx="10" fill="#e3f0e9" stroke="#2f6b4f" stroke-width="2.5"/>
+<circle cx="44" cy="422" r="14" fill="#E07B00"/><text x="44" y="428" font-size="16" text-anchor="middle" font-weight="700" fill="#fff">4</text>
+<text x="66" y="406" font-size="15" font-weight="700">Nanoprozessor</text>
+<text x="66" y="427" font-size="13">= Prozessor im Prozessor</text>
+<text x="66" y="449" font-size="14" font-weight="700" fill="#2f6b4f">führt die Schritte nacheinander aus</text>
+<circle cx="48" cy="520" r="24" fill="#fff" stroke="#333" stroke-width="3"/><line x1="48" y1="520" x2="48" y2="503" stroke="#333" stroke-width="3"/><line x1="48" y1="520" x2="63" y2="520" stroke="#333" stroke-width="3"/><circle cx="48" cy="520" r="3" fill="#333"/>
+<path d="M92,534 V506 h24 V534 h24 V506 h24 V534 h24 V506 h24 V534 h24 V506 h24 V534 h24 V506 h24 V534 h24 V506 h24 V534 h24" fill="none" stroke="#333" stroke-width="3"/>
+<text x="92" y="570" font-size="16" font-weight="700" fill="#E07B00">braucht mehrere Takte</text>
+<text x="92" y="592" font-size="13" fill="#444">(klassisches CISC, Skript: 4 bis 10 Takte)</text>
+</svg>

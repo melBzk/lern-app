@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 470" font-family="system-ui, sans-serif" fill="#222">
+<title>Die CPU liest von der Tastatur in fünf Schritten: 1. CPU legt die Adresse der Tastatur auf den Adressbus. 2. CPU legt den Lesebefehl auf den Steuerbus. 3. Die Tastatur legt ihre Daten auf den Datenbus. 4. Die CPU liest die Daten. 5. Die CPU löscht Adresse und Lesebefehl. Das passiert bei jeder Übertragung neu.</title>
+<defs>
+<marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker>
+<marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker>
+<marker id="p" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7b3fa0"/></marker>
+</defs>
+<rect width="400" height="470" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">Die CPU liest von der Tastatur</text>
+<!-- CPU und Tastatur -->
+<rect x="10" y="44" width="70" height="44" rx="8" fill="#e3f0e9" stroke="#2f6b4f" stroke-width="2.5"/>
+<text x="45" y="72" text-anchor="middle" font-size="16" font-weight="700" fill="#2f6b4f">CPU</text>
+<rect x="300" y="44" width="90" height="44" rx="8" fill="#fff" stroke="#222" stroke-width="2"/>
+<text x="345" y="72" text-anchor="middle" font-size="14" font-weight="700">Tastatur</text>
+<!-- Schritt 1 -->
+<circle cx="24" cy="124" r="13" fill="#3a6ed8"/><text x="24" y="129" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">1</text>
+<line x1="46" y1="124" x2="384" y2="124" stroke="#3a6ed8" stroke-width="4" marker-end="url(#b)"/>
+<text x="46" y="114" font-size="14" font-weight="700" fill="#3a6ed8">Adressbus:</text><text x="132" y="114" font-size="14">„Tastatur!“</text>
+<!-- Schritt 2 -->
+<circle cx="24" cy="180" r="13" fill="#7b3fa0"/><text x="24" y="185" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">2</text>
+<line x1="46" y1="180" x2="384" y2="180" stroke="#7b3fa0" stroke-width="4" marker-end="url(#p)"/>
+<text x="46" y="170" font-size="14" font-weight="700" fill="#7b3fa0">Steuerbus:</text><text x="132" y="170" font-size="14">„lesen!“</text>
+<!-- Schritt 3 -->
+<circle cx="24" cy="236" r="13" fill="#c62828"/><text x="24" y="241" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">3</text>
+<line x1="384" y1="236" x2="46" y2="236" stroke="#c62828" stroke-width="6" marker-end="url(#r)"/>
+<text x="46" y="226" font-size="14" font-weight="700" fill="#c62828">Datenbus:</text><text x="132" y="226" font-size="14">Tastatur schickt Daten</text>
+<!-- Schritt 4 -->
+<circle cx="24" cy="292" r="13" fill="#2f6b4f"/><text x="24" y="297" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">4</text>
+<text x="46" y="297" font-size="15" font-weight="700">CPU liest die Daten</text>
+<!-- Schritt 5 -->
+<circle cx="24" cy="342" r="13" fill="#555"/><text x="24" y="347" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">5</text>
+<text x="46" y="347" font-size="15" font-weight="700">CPU löscht Adresse + Lesebefehl</text>
+<!-- Wiederholung -->
+<rect x="10" y="380" width="380" height="76" rx="10" fill="#fdf0e0" stroke="#E07B00" stroke-width="2"/>
+<path d="M44,432 a16,16 0 1 1 16,-16" fill="none" stroke="#E07B00" stroke-width="3"/>
+<path d="M54,412 L60,420 L66,410 Z" fill="#E07B00"/>
+<text x="82" y="410" font-size="15" font-weight="700" fill="#E07B00">Bei jeder Übertragung</text>
+<text x="82" y="432" font-size="15" font-weight="700" fill="#E07B00">wieder von vorn.</text>
+</svg>

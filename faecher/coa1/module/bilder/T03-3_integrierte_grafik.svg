@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 350" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Integrierte Grafik oder eigene Grafikkarte. Links ein Prozessor-Chip mit eingebautem Feld Grafik; ein Pfeil zum Arbeitsspeicher: Die Grafik teilt sich den RAM. Haken: reicht für Büro und mehrere Bildschirme. Rechts eine eigene Grafikkarte mit eigenem schnellem Grafikspeicher. Haken: für 3D-Design und Spiele.</title>
+<defs>
+<marker id="o" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E07B00"/></marker>
+</defs>
+<rect width="400" height="350" fill="#fff"/>
+<text x="200" y="26" font-size="17" text-anchor="middle" font-weight="700">Wer macht das Bild?</text>
+<line x1="200" y1="40" x2="200" y2="336" stroke="#ccc" stroke-width="1.5"/>
+
+<!-- Links: integrierte Grafik -->
+<text x="100" y="58" font-size="15" text-anchor="middle" font-weight="700">Integrierte Grafik</text>
+<rect x="30" y="70" width="140" height="100" rx="8" fill="#555"/>
+<text x="100" y="94" font-size="14" text-anchor="middle" font-weight="700" fill="#fff">Prozessor</text>
+<rect x="58" y="108" width="84" height="46" rx="5" fill="#E07B00"/>
+<text x="100" y="137" font-size="15" text-anchor="middle" font-weight="700" fill="#fff">Grafik</text>
+<line x1="70" y1="172" x2="70" y2="218" stroke="#E07B00" stroke-width="3" marker-end="url(#o)"/>
+<text x="82" y="192" font-size="13" font-weight="700" fill="#b35f00">teilt sich</text>
+<text x="82" y="209" font-size="13" font-weight="700" fill="#b35f00">den RAM</text>
+<rect x="24" y="222" width="152" height="30" rx="3" fill="#2f6b4f"/>
+<g fill="#1d4532"><rect x="34" y="228" width="22" height="18"/><rect x="64" y="228" width="22" height="18"/><rect x="114" y="228" width="22" height="18"/><rect x="144" y="228" width="22" height="18"/></g>
+<text x="100" y="272" font-size="13" text-anchor="middle" fill="#555">Arbeitsspeicher (RAM)</text>
+<circle cx="24" cy="304" r="12" fill="#2f9e44"/>
+<polyline points="18,304 22,309 30,299" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="44" y="300" font-size="14" font-weight="700">Büro,</text>
+<text x="44" y="318" font-size="14" font-weight="700">mehrere Bildschirme</text>
+
+<!-- Rechts: Grafikkarte -->
+<text x="300" y="58" font-size="15" text-anchor="middle" font-weight="700">Eigene Grafikkarte</text>
+<rect x="212" y="74" width="176" height="96" rx="6" fill="#2f6b4f"/>
+<g fill="#d4a017"><rect x="232" y="170" width="6" height="10"/><rect x="242" y="170" width="6" height="10"/><rect x="252" y="170" width="6" height="10"/><rect x="262" y="170" width="6" height="10"/><rect x="272" y="170" width="6" height="10"/><rect x="282" y="170" width="6" height="10"/><rect x="292" y="170" width="6" height="10"/><rect x="302" y="170" width="6" height="10"/><rect x="312" y="170" width="6" height="10"/></g>
+<circle cx="258" cy="122" r="32" fill="#333"/>
+<circle cx="258" cy="122" r="7" fill="#777"/>
+<path d="M258,122 L258,96 M258,122 L281,135 M258,122 L235,135" stroke="#777" stroke-width="5" stroke-linecap="round"/>
+<g fill="#E07B00" stroke="#fff" stroke-width="1.5"><rect x="310" y="86" width="30" height="30" rx="2"/><rect x="346" y="86" width="30" height="30" rx="2"/><rect x="310" y="124" width="30" height="30" rx="2"/><rect x="346" y="124" width="30" height="30" rx="2"/></g>
+<line x1="343" y1="156" x2="343" y2="196" stroke="#E07B00" stroke-width="2.5"/>
+<text x="300" y="214" font-size="14" text-anchor="middle" font-weight="700" fill="#b35f00">eigener schneller</text>
+<text x="300" y="232" font-size="14" text-anchor="middle" font-weight="700" fill="#b35f00">Grafikspeicher</text>
+<circle cx="224" cy="304" r="12" fill="#2f9e44"/>
+<polyline points="218,304 222,309 230,299" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="244" y="309" font-size="14" font-weight="700">3D-Design, Spiele</text>
+</svg>

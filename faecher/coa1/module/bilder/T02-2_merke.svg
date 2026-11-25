@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" font-family="system-ui, sans-serif" fill="#222" role="img">
+<title>Die fünf Merksätze als Zeilen mit Symbol. 1: USB heißt Universal Serial Bus, bis zu 127 Geräte. 2: USB wird auf USB-C vereinheitlicht, für alte Geräte gibt es Adapter. 3: USB4 entstand aus Thunderbolt und USB, 40 Gbit/s. 4: FireWire, IEEE 1394, war für Video von der Kamera, heute durch USB ersetzt. 5: eSATA ist SATA nach außen, schnell, aber ohne Strom, heute kaum noch.</title>
+<rect width="400" height="400" fill="#fff"/>
+<text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700">Das Wichtigste</text>
+<g fill="#f4f1ee"><rect x="10" y="42" width="380" height="66" rx="10"/><rect x="10" y="114" width="380" height="66" rx="10"/><rect x="10" y="186" width="380" height="66" rx="10"/><rect x="10" y="258" width="380" height="66" rx="10"/><rect x="10" y="330" width="380" height="66" rx="10"/></g>
+<!-- 1 USB 127 -->
+<rect x="24" y="56" width="60" height="22" rx="2" fill="#d0d0d0" stroke="#555" stroke-width="2"/><rect x="31" y="60" width="46" height="8" fill="#fafafa" stroke="#888"/>
+<text x="54" y="98" text-anchor="middle" font-size="14" font-weight="700" fill="#3a6ed8">127</text>
+<text x="100" y="70" font-size="15" font-weight="700">USB = Universal Serial Bus</text>
+<text x="100" y="92" font-size="13">bis zu <tspan font-weight="700">127 Geräte</tspan></text>
+<!-- 2 USB-C + Adapter -->
+<rect x="20" y="134" width="40" height="18" rx="9" fill="#d0d0d0" stroke="#2e9d5b" stroke-width="2.5"/>
+<text x="68" y="149" text-anchor="middle" font-size="14" font-weight="700" fill="#555">↔</text>
+<rect x="76" y="134" width="20" height="18" rx="2" fill="#d0d0d0" stroke="#555" stroke-width="1.5"/>
+<text x="100" y="142" font-size="15" font-weight="700">alles wird USB-C</text>
+<text x="100" y="164" font-size="13">für alte Geräte: Adapter USB-C ↔ USB-A</text>
+<!-- 3 USB4 -->
+<rect x="22" y="200" width="64" height="38" rx="6" fill="#fff" stroke="#3a6ed8" stroke-width="2"/>
+<text x="54" y="216" text-anchor="middle" font-size="13" font-weight="700" fill="#2550a8">USB4</text>
+<text x="54" y="232" text-anchor="middle" font-size="13" fill="#2550a8">40 Gbit/s</text>
+<text x="100" y="214" font-size="15" font-weight="700">USB4 = Thunderbolt + USB</text>
+<text x="100" y="236" font-size="13">40 Gbit/s, Stecker USB-C</text>
+<!-- 4 FireWire Kamera -->
+<rect x="26" y="276" width="40" height="28" rx="4" fill="#555"/><circle cx="46" cy="290" r="9" fill="#9cc3f5" stroke="#333" stroke-width="2"/><path d="M66,284 L80,276 V304 L66,296 Z" fill="#555"/>
+<text x="100" y="286" font-size="15" font-weight="700">FireWire (IEEE 1394)</text>
+<text x="100" y="308" font-size="13">Video von der Kamera – heute USB</text>
+<!-- 5 eSATA -->
+<path d="M22,346 H86 V358 H80 V362 H28 V358 H22 Z" fill="#d0d0d0" stroke="#555" stroke-width="2"/>
+<path d="M58,366 L52,378 H58 L55,388 L64,374 H58 L61,366 Z" fill="#e0a54a"/><line x1="48" y1="388" x2="68" y2="366" stroke="#c62828" stroke-width="2.5"/>
+<text x="100" y="358" font-size="15" font-weight="700">eSATA = SATA nach außen</text>
+<text x="100" y="380" font-size="13">schnell, aber ohne Strom – heute kaum</text>
+</svg>

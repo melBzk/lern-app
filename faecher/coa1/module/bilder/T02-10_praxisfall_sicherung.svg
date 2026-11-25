@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 350" font-family="system-ui, sans-serif" fill="#222">
+<title>Ausgangslage Praxisfall: Ein kleines Büro will jeden Abend alle Daten sichern, etwa 2 TB gleich 2000 GB. Die Sicherung soll außer Haus gelagert werden. Zur Wahl stehen A DVDs, B Blu-rays, C Magnetband, D Disketten. Welches Medium passt?</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker></defs>
+<rect width="400" height="350" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">Das Büro will jeden Abend sichern</text>
+<!-- Büro -->
+<path d="M20,150 L20,90 L80,56 L140,90 L140,150 Z" fill="#f4f1ee" stroke="#555" stroke-width="2"/>
+<rect x="48" y="104" width="64" height="34" rx="3" fill="#fff" stroke="#555" stroke-width="1.5"/>
+<text x="80" y="126" text-anchor="middle" font-size="14" font-weight="700">2 TB</text>
+<text x="80" y="172" text-anchor="middle" font-size="14" font-weight="700">Büro</text>
+<!-- Mond -->
+<path d="M196,52 a16,16 0 1 0 14,24 a12,12 0 1 1 -14,-24 Z" fill="#d9a400"/>
+<text x="210" y="104" text-anchor="middle" font-size="14" font-weight="700">jeden Abend</text>
+<line x1="150" y1="124" x2="262" y2="124" stroke="#333" stroke-width="2.5" marker-end="url(#a)"/>
+<!-- außer Haus -->
+<rect x="272" y="84" width="112" height="70" rx="8" fill="#fff" stroke="#E07B00" stroke-width="2.5" stroke-dasharray="6 4"/>
+<text x="328" y="114" text-anchor="middle" font-size="14" font-weight="700" fill="#E07B00">außer Haus</text>
+<text x="328" y="134" text-anchor="middle" font-size="14" fill="#E07B00">lagern</text>
+<!-- Optionen -->
+<text x="200" y="210" text-anchor="middle" font-size="15" font-weight="700">Welches Medium?</text>
+<g font-size="15" font-weight="700" text-anchor="middle">
+<rect x="8" y="226" width="90" height="116" rx="10" fill="#f4f1ee"/>
+<circle cx="54" cy="270" r="22" fill="#fff" stroke="#d9791f" stroke-width="2"/><circle cx="54" cy="270" r="5" fill="#d9791f"/>
+<text x="54" y="314">A</text><text x="54" y="332">DVDs</text>
+<rect x="102" y="226" width="96" height="116" rx="10" fill="#f4f1ee"/>
+<circle cx="150" cy="270" r="22" fill="#fff" stroke="#3a6ed8" stroke-width="2"/><circle cx="150" cy="270" r="5" fill="#3a6ed8"/>
+<text x="150" y="314">B</text><text x="150" y="332">Blu-rays</text>
+<rect x="202" y="226" width="98" height="116" rx="10" fill="#f4f1ee"/>
+<rect x="222" y="252" width="58" height="38" rx="4" fill="#555"/><circle cx="238" cy="271" r="10" fill="#c9a36b"/><circle cx="264" cy="271" r="10" fill="#c9a36b"/>
+<text x="251" y="314">C</text><text x="251" y="332">Magnetband</text>
+<rect x="304" y="226" width="88" height="116" rx="10" fill="#f4f1ee"/>
+<rect x="328" y="248" width="40" height="44" rx="3" fill="#3a3f4a"/><rect x="338" y="248" width="20" height="14" fill="#c9ccd1"/>
+<text x="348" y="314">D</text><text x="348" y="332">Disketten</text>
+</g>
+</svg>

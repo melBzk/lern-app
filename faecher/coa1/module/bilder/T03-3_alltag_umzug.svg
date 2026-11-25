@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 350" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Alltagsvergleich Umzug: Vier kräftige Möbelpacker mit Kisten, beschriftet Kerne, Takt, Cache und RAM. Vor ihnen ein sehr schmales Treppenhaus, rot markiert: der Flaschenhals, zum Beispiel eine langsame Anbindung. Davor stauen sich Kisten. Unten: Das langsamste Teil bestimmt das Tempo.</title>
+<rect width="400" height="350" fill="#fff"/>
+<text x="200" y="26" font-size="17" text-anchor="middle" font-weight="700">Umzug mit engem Treppenhaus</text>
+
+<!-- Beschriftung Flaschenhals -->
+<text x="392" y="66" font-size="15" text-anchor="end" font-weight="700" fill="#c62828">Flaschenhals,</text>
+<text x="392" y="84" font-size="13" text-anchor="end" fill="#c62828">z. B. langsame Anbindung</text>
+<line x1="356" y1="90" x2="356" y2="118" stroke="#c62828" stroke-width="2"/>
+
+<!-- Haus mit Treppenhaus -->
+<rect x="322" y="120" width="72" height="140" fill="#f4f1ee" stroke="#555" stroke-width="2"/>
+<rect x="346" y="150" width="20" height="110" fill="#fff" stroke="#c62828" stroke-width="3.5"/>
+<polyline points="346,250 352,250 352,236 358,236 358,222 364,222 364,208" fill="none" stroke="#999" stroke-width="2"/>
+
+<!-- Packer: Körper + Kopf + Kiste -->
+<g>
+<circle cx="36" cy="172" r="11" fill="#555"/>
+<rect x="20" y="185" width="32" height="44" rx="10" fill="#555"/>
+<rect x="17" y="229" width="11" height="31" rx="3" fill="#555"/><rect x="44" y="229" width="11" height="31" rx="3" fill="#555"/>
+<rect x="34" y="190" width="34" height="28" rx="2" fill="#c8a27a" stroke="#8d6e63" stroke-width="2"/>
+</g>
+<g>
+<circle cx="102" cy="172" r="11" fill="#555"/>
+<rect x="86" y="185" width="32" height="44" rx="10" fill="#555"/>
+<rect x="83" y="229" width="11" height="31" rx="3" fill="#555"/><rect x="110" y="229" width="11" height="31" rx="3" fill="#555"/>
+<rect x="100" y="190" width="34" height="28" rx="2" fill="#c8a27a" stroke="#8d6e63" stroke-width="2"/>
+</g>
+<g>
+<circle cx="168" cy="172" r="11" fill="#555"/>
+<rect x="152" y="185" width="32" height="44" rx="10" fill="#555"/>
+<rect x="149" y="229" width="11" height="31" rx="3" fill="#555"/><rect x="176" y="229" width="11" height="31" rx="3" fill="#555"/>
+<rect x="166" y="190" width="34" height="28" rx="2" fill="#c8a27a" stroke="#8d6e63" stroke-width="2"/>
+</g>
+<g>
+<circle cx="234" cy="172" r="11" fill="#555"/>
+<rect x="218" y="185" width="32" height="44" rx="10" fill="#555"/>
+<rect x="215" y="229" width="11" height="31" rx="3" fill="#555"/><rect x="242" y="229" width="11" height="31" rx="3" fill="#555"/>
+<rect x="232" y="190" width="34" height="28" rx="2" fill="#c8a27a" stroke="#8d6e63" stroke-width="2"/>
+</g>
+
+<!-- Stau aus Kisten -->
+<rect x="272" y="232" width="28" height="28" rx="2" fill="#c8a27a" stroke="#8d6e63" stroke-width="2"/>
+<rect x="302" y="232" width="28" height="28" rx="2" fill="#c8a27a" stroke="#8d6e63" stroke-width="2"/>
+<rect x="286" y="204" width="28" height="28" rx="2" fill="#c8a27a" stroke="#8d6e63" stroke-width="2"/>
+<text x="301" y="190" font-size="13" text-anchor="middle" font-weight="700" fill="#c62828">Stau</text>
+
+<!-- Boden -->
+<line x1="6" y1="261" x2="394" y2="261" stroke="#555" stroke-width="2.5"/>
+
+<!-- Namen -->
+<text x="40" y="284" font-size="15" text-anchor="middle" font-weight="700" fill="#2a56b0">Kerne</text>
+<text x="106" y="284" font-size="15" text-anchor="middle" font-weight="700" fill="#2a56b0">Takt</text>
+<text x="172" y="284" font-size="15" text-anchor="middle" font-weight="700" fill="#2a56b0">Cache</text>
+<text x="238" y="284" font-size="15" text-anchor="middle" font-weight="700" fill="#2a56b0">RAM</text>
+
+<rect x="10" y="304" width="380" height="34" rx="8" fill="#fdecea"/>
+<text x="200" y="327" font-size="15" text-anchor="middle" font-weight="700">Das langsamste Teil bestimmt das Tempo.</text>
+</svg>

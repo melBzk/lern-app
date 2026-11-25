@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>AMD PRO – Prozessoren für Firmen. Ein Aktenkoffer mit einem Ryzen-PRO-Prozessor. Darunter vier Punkte: 1 viele gleiche PCs, einheitlicher Funktionsumfang. 2 Zahnrad mit Uhr, Ersatzteile garantiert verfügbar. 3 Arbeitsspeicher-Riegel mit Schloss, Daten im Arbeitsspeicher verschlüsselt. 4 kleiner Bildschirm, Radeon-Grafik eingebaut. Unten ein grünes Blatt: GE bedeutet besonders energieeffizient.</title>
+<rect width="400" height="520" fill="#fff"/>
+<text x="16" y="26" font-size="17" font-weight="700">AMD PRO – für Firmen</text>
+
+<!-- Koffer -->
+<path d="M170,58 L170,46 L230,46 L230,58" fill="none" stroke="#5d4037" stroke-width="6" stroke-linejoin="round"/>
+<rect x="120" y="58" width="160" height="88" rx="10" fill="#8d6e63" stroke="#5d4037" stroke-width="2"/>
+<rect x="160" y="74" width="80" height="56" rx="4" fill="#555" stroke="#fff" stroke-width="2"/>
+<text x="200" y="98" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">Ryzen</text>
+<text x="200" y="117" text-anchor="middle" font-size="15" font-weight="700" fill="#E07B00">PRO</text>
+<line x1="200" y1="146" x2="200" y2="166" stroke="#999" stroke-width="2"/>
+
+<!-- 1 gleiche PCs -->
+<rect x="10" y="168" width="380" height="62" rx="8" fill="#fafafa" stroke="#ddd"/>
+<g fill="#3a6ed8">
+<rect x="22" y="184" width="22" height="16" rx="2"/><rect x="30" y="200" width="6" height="6"/><rect x="25" y="206" width="16" height="3"/>
+<rect x="50" y="184" width="22" height="16" rx="2"/><rect x="58" y="200" width="6" height="6"/><rect x="53" y="206" width="16" height="3"/>
+<rect x="78" y="184" width="22" height="16" rx="2"/><rect x="86" y="200" width="6" height="6"/><rect x="81" y="206" width="16" height="3"/>
+</g>
+<text x="118" y="196" font-weight="700">1 einheitlicher Funktions-</text>
+<text x="118" y="216" font-weight="700">umfang aller Modelle</text>
+
+<!-- 2 Ersatzteile -->
+<rect x="10" y="240" width="380" height="62" rx="8" fill="#fafafa" stroke="#ddd"/>
+<circle cx="50" cy="271" r="14" fill="none" stroke="#555" stroke-width="7" stroke-dasharray="5 4"/>
+<circle cx="50" cy="271" r="8" fill="#555"/>
+<circle cx="78" cy="281" r="12" fill="#fff" stroke="#3a6ed8" stroke-width="2.5"/>
+<path d="M78,274 L78,281 L84,284" fill="none" stroke="#3a6ed8" stroke-width="2.5" stroke-linecap="round"/>
+<text x="118" y="268" font-weight="700">2 Ersatzteile garantiert</text>
+<text x="118" y="288" font-weight="700">verfügbar</text>
+
+<!-- 3 verschlüsselter RAM -->
+<rect x="10" y="312" width="380" height="62" rx="8" fill="#fafafa" stroke="#ddd"/>
+<rect x="20" y="332" width="60" height="20" rx="2" fill="#2e7d32"/>
+<rect x="26" y="336" width="8" height="10" fill="#111"/><rect x="38" y="336" width="8" height="10" fill="#111"/><rect x="50" y="336" width="8" height="10" fill="#111"/><rect x="62" y="336" width="8" height="10" fill="#111"/>
+<path d="M20,352 L80,352" stroke="#c49000" stroke-width="3" stroke-dasharray="2 2"/>
+<path d="M86,338 L86,332 A8,8 0 0,1 102,332 L102,338" fill="none" stroke="#555" stroke-width="3"/>
+<rect x="82" y="338" width="24" height="20" rx="3" fill="#c49000"/>
+<text x="118" y="340" font-weight="700">3 Daten im Arbeitsspeicher</text>
+<text x="118" y="360" font-weight="700">verschlüsselt (Echtzeit)</text>
+
+<!-- 4 Radeon-Grafik -->
+<rect x="10" y="384" width="380" height="62" rx="8" fill="#fafafa" stroke="#ddd"/>
+<rect x="30" y="398" width="54" height="34" rx="3" fill="#555"/>
+<rect x="35" y="403" width="44" height="24" fill="#ffcc80"/>
+<path d="M38,424 L50,412 L58,420 L66,410 L76,424 Z" fill="#E07B00"/>
+<text x="118" y="420" font-weight="700">4 Radeon-Grafik eingebaut</text>
+
+<!-- GE -->
+<path d="M30,494 C30,470 50,460 74,460 C74,484 58,496 30,494 Z" fill="#2e7d32"/>
+<path d="M32,492 C44,482 56,474 70,464" fill="none" stroke="#fff" stroke-width="2"/>
+<text x="88" y="476" font-size="15" font-weight="700" fill="#2e7d32">GE = besonders</text>
+<text x="88" y="496" font-size="15" font-weight="700" fill="#2e7d32">energieeffizient</text>
+</svg>

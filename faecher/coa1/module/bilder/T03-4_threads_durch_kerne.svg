@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" font-family="system-ui, sans-serif" fill="#222" role="img">
+<title>Kerne und Threads im Datenblatt lesen, Ablauf von oben nach unten: 1 Kerne und Threads ablesen, Threads stehen oft in Klammern, z. B. 8 (16). 2 Threads geteilt durch Kerne rechnen. 3 Ergebnis 2: jeder Kern hat 2 Threads, z. B. 16 geteilt durch 8. Ergebnis 1: kein Kern hat 2 Threads. Ergebnis zwischen 1 und 2, z. B. 20 geteilt durch 14: nur ein Teil der Kerne hat 2 Threads. Hinweis: Threads im Datenblatt = logische Prozessoren.</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker></defs>
+<rect width="400" height="500" fill="#fff"/>
+<text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700">Kerne und Threads lesen</text>
+<circle cx="26" cy="66" r="13" fill="#3a6ed8"/><text x="26" y="71" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">1</text>
+<text x="48" y="62" font-size="15" font-weight="700">ablesen</text>
+<rect x="160" y="44" width="120" height="40" rx="6" fill="#fff" stroke="#555" stroke-width="2"/>
+<text x="192" y="71" font-size="18" font-weight="700">8 <tspan fill="#E07B00">(16)</tspan></text>
+<text x="48" y="82" font-size="13" fill="#555">Kerne (Threads)</text>
+<line x1="200" y1="92" x2="200" y2="112" stroke="#555" stroke-width="2" marker-end="url(#a)"/>
+<circle cx="26" cy="138" r="13" fill="#3a6ed8"/><text x="26" y="143" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">2</text>
+<rect x="90" y="118" width="220" height="40" rx="20" fill="#fff4e0" stroke="#E07B00" stroke-width="2.5"/>
+<text x="200" y="144" text-anchor="middle" font-size="16" font-weight="700">Threads ÷ Kerne = ?</text>
+<path d="M150,160 L70,196 M200,160 V196 M250,160 L330,196" stroke="#555" stroke-width="2" marker-end="url(#a)"/>
+<circle cx="26" cy="176" r="13" fill="#3a6ed8"/><text x="26" y="181" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">3</text>
+<rect x="10" y="204" width="120" height="180" rx="10" fill="#e6f4ea" stroke="#2f9e44" stroke-width="2"/>
+<text x="70" y="236" text-anchor="middle" font-size="24" font-weight="700" fill="#2f9e44">2</text>
+<rect x="30" y="252" width="26" height="26" rx="3" fill="#3a6ed8"/><path d="M34,260 H52 M34,270 H52" stroke="#fff" stroke-width="2.5"/>
+<rect x="64" y="252" width="26" height="26" rx="3" fill="#3a6ed8"/><path d="M68,260 H86 M68,270 H86" stroke="#fff" stroke-width="2.5"/>
+<text x="70" y="306" text-anchor="middle" font-size="14" font-weight="700">jeder Kern</text>
+<text x="70" y="324" text-anchor="middle" font-size="14">2 Threads</text>
+<text x="70" y="364" text-anchor="middle" font-size="14" fill="#555">16 ÷ 8 = 2</text>
+<rect x="140" y="204" width="120" height="180" rx="10" fill="#f4f5f7" stroke="#9aa3ad" stroke-width="2"/>
+<text x="200" y="236" text-anchor="middle" font-size="24" font-weight="700" fill="#555">1</text>
+<rect x="160" y="252" width="26" height="26" rx="3" fill="#9aa3ad"/><path d="M164,265 H182" stroke="#fff" stroke-width="2.5"/>
+<rect x="194" y="252" width="26" height="26" rx="3" fill="#9aa3ad"/><path d="M198,265 H216" stroke="#fff" stroke-width="2.5"/>
+<text x="200" y="306" text-anchor="middle" font-size="14" font-weight="700">kein Kern</text>
+<text x="200" y="324" text-anchor="middle" font-size="14">2 Threads</text>
+<rect x="270" y="204" width="120" height="180" rx="10" fill="#fff4e0" stroke="#E07B00" stroke-width="2"/>
+<text x="330" y="226" text-anchor="middle" font-size="14" font-weight="700" fill="#c25e00">zwischen</text><text x="330" y="245" text-anchor="middle" font-size="18" font-weight="700" fill="#c25e00">1 und 2</text>
+<rect x="290" y="252" width="26" height="26" rx="3" fill="#3a6ed8"/><path d="M294,260 H312 M294,270 H312" stroke="#fff" stroke-width="2.5"/>
+<rect x="324" y="252" width="26" height="26" rx="3" fill="#9aa3ad"/><path d="M328,265 H346" stroke="#fff" stroke-width="2.5"/>
+<text x="330" y="306" text-anchor="middle" font-size="14" font-weight="700">nur ein Teil</text>
+<text x="330" y="324" text-anchor="middle" font-size="14">hat 2 Threads</text>
+<text x="330" y="364" text-anchor="middle" font-size="14" fill="#555">20 ÷ 14</text>
+<rect x="10" y="400" width="380" height="84" rx="10" fill="#e3ecfb"/>
+<text x="200" y="430" text-anchor="middle" font-size="15" font-weight="700">„Threads“ im Datenblatt</text>
+<text x="200" y="454" text-anchor="middle" font-size="15">= logische Prozessoren</text>
+<text x="200" y="474" text-anchor="middle" font-size="13" fill="#555">Unterricht: CPU-Z Threads 20 = Task-Manager 20</text>
+</svg>

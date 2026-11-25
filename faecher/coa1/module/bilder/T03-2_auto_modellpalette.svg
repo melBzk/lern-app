@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 420" font-family="system-ui, sans-serif" role="img">
+  <title>Vergleich mit Fahrzeugen: Kleinwagen, sparsam, entspricht Atom. Familienauto bis Sportwagen entspricht Core i3 bis i9. Lieferwagen mit viel Ladung entspricht Xeon für die Workstation. Lkw mit schwerer Last für viele entspricht Xeon für den Server. Beispiel Intel: ein Hersteller, viele Zwecke.</title>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker>
+  </defs>
+  <rect width="400" height="420" fill="#fff"/>
+  <text x="200" y="28" text-anchor="middle" font-size="18" font-weight="700" fill="#222">Eine Modellpalette – wie beim Auto</text>
+
+  <!-- 1 Kleinwagen -->
+  <path d="M22,92 V80 Q24,70 36,68 L44,58 H70 L80,68 Q92,70 92,80 V92 Z" fill="#7ea0e8" stroke="#3a5bb0" stroke-width="2"/>
+  <circle cx="38" cy="92" r="8" fill="#333"/><circle cx="76" cy="92" r="8" fill="#333"/>
+  <text x="108" y="74" font-size="15" font-weight="700" fill="#222">Kleinwagen</text>
+  <text x="108" y="93" font-size="14" fill="#444">sparsam</text>
+  <line x1="236" y1="80" x2="272" y2="80" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+  <rect x="280" y="56" width="110" height="48" rx="10" fill="#eef4ff" stroke="#3a6ed8" stroke-width="2"/>
+  <text x="335" y="86" text-anchor="middle" font-size="16" font-weight="700" fill="#222">Atom</text>
+
+  <!-- 2 Familienauto bis Sportwagen -->
+  <path d="M12,180 V170 Q14,162 26,160 L42,148 H76 L92,160 Q102,162 102,170 V180 Z" fill="#7ea0e8" stroke="#3a5bb0" stroke-width="2"/>
+  <circle cx="30" cy="180" r="8" fill="#333"/><circle cx="84" cy="180" r="8" fill="#333"/>
+  <text x="108" y="162" font-size="15" font-weight="700" fill="#222">Familienauto</text>
+  <text x="108" y="181" font-size="15" font-weight="700" fill="#222">bis Sportwagen</text>
+  <line x1="236" y1="168" x2="272" y2="168" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+  <rect x="280" y="144" width="110" height="48" rx="10" fill="#eef4ff" stroke="#3a6ed8" stroke-width="2"/>
+  <text x="335" y="174" text-anchor="middle" font-size="16" font-weight="700" fill="#222">Core i3 … i9</text>
+
+  <!-- 3 Lieferwagen -->
+  <path d="M14,268 V226 Q14,222 18,222 H72 L88,240 Q100,242 100,252 V268 Z" fill="#9aa3ad" stroke="#5f6770" stroke-width="2"/>
+  <path d="M74,226 L86,240 H74 Z" fill="#fff" stroke="#5f6770" stroke-width="1.5"/>
+  <circle cx="32" cy="268" r="8" fill="#333"/><circle cx="82" cy="268" r="8" fill="#333"/>
+  <text x="108" y="250" font-size="15" font-weight="700" fill="#222">Lieferwagen</text>
+  <text x="108" y="269" font-size="14" fill="#444">viel Ladung</text>
+  <line x1="236" y1="256" x2="272" y2="256" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+  <rect x="280" y="226" width="110" height="56" rx="10" fill="#eef4ff" stroke="#3a6ed8" stroke-width="2"/>
+  <text x="335" y="250" text-anchor="middle" font-size="16" font-weight="700" fill="#222">Xeon</text>
+  <text x="335" y="270" text-anchor="middle" font-size="13" fill="#444">(Workstation)</text>
+
+  <!-- 4 Lkw -->
+  <rect x="10" y="306" width="62" height="42" rx="2" fill="#9aa3ad" stroke="#5f6770" stroke-width="2"/>
+  <path d="M74,348 V318 H90 L100,330 V348 Z" fill="#7ea0e8" stroke="#3a5bb0" stroke-width="2"/>
+  <circle cx="26" cy="350" r="8" fill="#333"/><circle cx="50" cy="350" r="8" fill="#333"/><circle cx="88" cy="350" r="8" fill="#333"/>
+  <text x="108" y="320" font-size="15" font-weight="700" fill="#222">Lkw</text>
+  <text x="108" y="339" font-size="14" fill="#444">schwere Last</text>
+  <text x="108" y="357" font-size="14" fill="#444">für viele</text>
+  <line x1="236" y1="336" x2="272" y2="336" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+  <rect x="280" y="308" width="110" height="56" rx="10" fill="#fff4ec" stroke="#E07B00" stroke-width="2"/>
+  <text x="335" y="332" text-anchor="middle" font-size="16" font-weight="700" fill="#222">Xeon</text>
+  <text x="335" y="352" text-anchor="middle" font-size="13" fill="#444">(Server)</text>
+
+  <!-- Hinweis -->
+  <rect x="10" y="378" width="380" height="34" rx="8" fill="#f4f5f7" stroke="#9aa3ad" stroke-width="1.5"/>
+  <text x="200" y="400" text-anchor="middle" font-size="15" font-weight="700" fill="#222">Beispiel Intel: ein Hersteller – viele Zwecke</text>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 380" font-family="system-ui, sans-serif" fill="#222" role="img">
+<title>Ausgangslage, ohne Lösung: Links ein Laptop mit dem Schild Intel Core i7, rechts ein Tablet mit dem Schild ARM. Darunter die Kollegin mit Sprechblase: Ist der Laptop also ein reiner CISC-Rechner?</title>
+<rect width="400" height="380" fill="#fff"/>
+<text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700">Die Frage der Kollegin</text>
+<rect x="30" y="52" width="150" height="96" rx="6" fill="#fff" stroke="#555" stroke-width="2.5"/><rect x="40" y="62" width="130" height="76" fill="#f4f5f7"/>
+<path d="M14,158 H196 L186,148 H24 Z" fill="#cfd6dd" stroke="#555" stroke-width="2"/>
+<rect x="40" y="172" width="130" height="34" rx="6" fill="#fff4e0" stroke="#E07B00" stroke-width="2"/><text x="105" y="195" text-anchor="middle" font-size="15" font-weight="700">Intel Core i7</text>
+<text x="105" y="106" text-anchor="middle" font-size="15" fill="#555">Laptop</text>
+<rect x="248" y="52" width="104" height="104" rx="10" fill="#fff" stroke="#555" stroke-width="2.5"/><rect x="258" y="62" width="84" height="84" fill="#f4f5f7"/>
+<text x="300" y="108" text-anchor="middle" font-size="15" fill="#555">Tablet</text>
+<rect x="250" y="172" width="100" height="34" rx="6" fill="#e3ecfb" stroke="#3a6ed8" stroke-width="2"/><text x="300" y="195" text-anchor="middle" font-size="15" font-weight="700">ARM</text>
+<circle cx="52" cy="256" r="20" fill="#cfd6dd" stroke="#555" stroke-width="2"/><path d="M22,324 q0,-40 30,-40 q30,0 30,40 z" fill="#cfd6dd" stroke="#555" stroke-width="2"/>
+<path d="M100,230 H382 a8,8 0 0 1 8,8 V298 a8,8 0 0 1 -8,8 H110 a8,8 0 0 1 -8,-8 V266 L88,256 L102,248 V238 a8,8 0 0 1 8,-8 z" fill="#f4f5f7" stroke="#9aa3ad" stroke-width="1.5"/>
+<text x="118" y="262" font-size="15">„Ist der Laptop also ein</text>
+<text x="118" y="286" font-size="15" font-weight="700">reiner CISC-Rechner?“</text>
+<text x="200" y="356" text-anchor="middle" font-size="15" font-weight="700" fill="#3a6ed8">Was antwortest du?</text>
+</svg>

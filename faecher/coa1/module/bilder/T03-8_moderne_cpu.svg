@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 428" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Oben ein Kern mit zwei Bändern aus den Einheiten L, D, O, A, S; die Befehle laufen versetzt (Pipelining) und die Bänder sind doppelt (superskalar). Unten zwei CPUs mit gleichem Takt, die Pipeline läuft schon voll (Anlaufphase vorbei), betrachtet werden je 4 weitere Takte: CPU A schafft 1 Befehl pro Takt, also 4 fertige Befehle; CPU B schafft 2 Befehle pro Takt, also 8 fertige Befehle. Im Idealfall doppelt so viele, der Takt allein sagt wenig.</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker><marker id="o" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E07B00"/></marker><marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6b4f"/></marker><marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker><marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker></defs>
+<rect width="400" height="428" fill="#fff"/>
+<text x="200" y="26" font-size="17" text-anchor="middle" font-weight="700">Moderne CPUs: beides in einem Kern</text>
+<rect x="14" y="42" width="372" height="150" rx="12" fill="#f6f6f6" stroke="#333" stroke-width="2"/>
+<text x="28" y="64" font-size="15" font-weight="700">ein Kern</text>
+<text x="28" y="93" font-size="13" font-weight="700" fill="#555">Band 1</text>
+<rect x="96" y="76" width="38" height="22" rx="3" fill="#dbe6fb" stroke="#3a6ed8" stroke-width="1.5"/>
+<text x="115" y="92" font-size="13" text-anchor="middle" font-weight="700">L</text>
+<rect x="136" y="76" width="38" height="22" rx="3" fill="#ece0f5" stroke="#7b3fa0" stroke-width="1.5"/>
+<text x="155" y="92" font-size="13" text-anchor="middle" font-weight="700">D</text>
+<rect x="176" y="76" width="38" height="22" rx="3" fill="#fdebd3" stroke="#E07B00" stroke-width="1.5"/>
+<text x="195" y="92" font-size="13" text-anchor="middle" font-weight="700">O</text>
+<rect x="216" y="76" width="38" height="22" rx="3" fill="#f9dcdc" stroke="#c62828" stroke-width="1.5"/>
+<text x="235" y="92" font-size="13" text-anchor="middle" font-weight="700">A</text>
+<rect x="256" y="76" width="38" height="22" rx="3" fill="#dcefe4" stroke="#2f6b4f" stroke-width="1.5"/>
+<text x="275" y="92" font-size="13" text-anchor="middle" font-weight="700">S</text>
+<rect x="136" y="100" width="38" height="22" rx="3" fill="#dbe6fb" stroke="#3a6ed8" stroke-width="1.5"/>
+<text x="155" y="116" font-size="13" text-anchor="middle" font-weight="700">L</text>
+<rect x="176" y="100" width="38" height="22" rx="3" fill="#ece0f5" stroke="#7b3fa0" stroke-width="1.5"/>
+<text x="195" y="116" font-size="13" text-anchor="middle" font-weight="700">D</text>
+<rect x="216" y="100" width="38" height="22" rx="3" fill="#fdebd3" stroke="#E07B00" stroke-width="1.5"/>
+<text x="235" y="116" font-size="13" text-anchor="middle" font-weight="700">O</text>
+<rect x="256" y="100" width="38" height="22" rx="3" fill="#f9dcdc" stroke="#c62828" stroke-width="1.5"/>
+<text x="275" y="116" font-size="13" text-anchor="middle" font-weight="700">A</text>
+<rect x="296" y="100" width="38" height="22" rx="3" fill="#dcefe4" stroke="#2f6b4f" stroke-width="1.5"/>
+<text x="315" y="116" font-size="13" text-anchor="middle" font-weight="700">S</text>
+<text x="28" y="149" font-size="13" font-weight="700" fill="#555">Band 2</text>
+<rect x="96" y="132" width="38" height="22" rx="3" fill="#dbe6fb" stroke="#3a6ed8" stroke-width="1.5"/>
+<text x="115" y="148" font-size="13" text-anchor="middle" font-weight="700">L</text>
+<rect x="136" y="132" width="38" height="22" rx="3" fill="#ece0f5" stroke="#7b3fa0" stroke-width="1.5"/>
+<text x="155" y="148" font-size="13" text-anchor="middle" font-weight="700">D</text>
+<rect x="176" y="132" width="38" height="22" rx="3" fill="#fdebd3" stroke="#E07B00" stroke-width="1.5"/>
+<text x="195" y="148" font-size="13" text-anchor="middle" font-weight="700">O</text>
+<rect x="216" y="132" width="38" height="22" rx="3" fill="#f9dcdc" stroke="#c62828" stroke-width="1.5"/>
+<text x="235" y="148" font-size="13" text-anchor="middle" font-weight="700">A</text>
+<rect x="256" y="132" width="38" height="22" rx="3" fill="#dcefe4" stroke="#2f6b4f" stroke-width="1.5"/>
+<text x="275" y="148" font-size="13" text-anchor="middle" font-weight="700">S</text>
+<rect x="136" y="156" width="38" height="22" rx="3" fill="#dbe6fb" stroke="#3a6ed8" stroke-width="1.5"/>
+<text x="155" y="172" font-size="13" text-anchor="middle" font-weight="700">L</text>
+<rect x="176" y="156" width="38" height="22" rx="3" fill="#ece0f5" stroke="#7b3fa0" stroke-width="1.5"/>
+<text x="195" y="172" font-size="13" text-anchor="middle" font-weight="700">D</text>
+<rect x="216" y="156" width="38" height="22" rx="3" fill="#fdebd3" stroke="#E07B00" stroke-width="1.5"/>
+<text x="235" y="172" font-size="13" text-anchor="middle" font-weight="700">O</text>
+<rect x="256" y="156" width="38" height="22" rx="3" fill="#f9dcdc" stroke="#c62828" stroke-width="1.5"/>
+<text x="275" y="172" font-size="13" text-anchor="middle" font-weight="700">A</text>
+<rect x="296" y="156" width="38" height="22" rx="3" fill="#dcefe4" stroke="#2f6b4f" stroke-width="1.5"/>
+<text x="315" y="172" font-size="13" text-anchor="middle" font-weight="700">S</text>
+<text x="200" y="210" font-size="13" text-anchor="middle" font-weight="700" fill="#333">versetzt = Pipelining · doppelt = superskalar</text>
+<text x="200" y="234" font-size="15" text-anchor="middle" font-weight="700">Gleicher Takt, Pipeline läuft schon voll –</text>
+<text x="200" y="252" font-size="14" text-anchor="middle" fill="#444">in je 4 weiteren Takten fertig:</text>
+<line x1="29.200000000000003" y1="261" x2="29.200000000000003" y2="266" stroke="#888" stroke-width="2"/><line x1="29.200000000000003" y1="302" x2="29.200000000000003" y2="307" stroke="#888" stroke-width="2"/><line x1="17" y1="273.2" x2="22" y2="273.2" stroke="#888" stroke-width="2"/><line x1="58" y1="273.2" x2="63" y2="273.2" stroke="#888" stroke-width="2"/><line x1="36.4" y1="261" x2="36.4" y2="266" stroke="#888" stroke-width="2"/><line x1="36.4" y1="302" x2="36.4" y2="307" stroke="#888" stroke-width="2"/><line x1="17" y1="280.4" x2="22" y2="280.4" stroke="#888" stroke-width="2"/><line x1="58" y1="280.4" x2="63" y2="280.4" stroke="#888" stroke-width="2"/><line x1="43.6" y1="261" x2="43.6" y2="266" stroke="#888" stroke-width="2"/><line x1="43.6" y1="302" x2="43.6" y2="307" stroke="#888" stroke-width="2"/><line x1="17" y1="287.6" x2="22" y2="287.6" stroke="#888" stroke-width="2"/><line x1="58" y1="287.6" x2="63" y2="287.6" stroke="#888" stroke-width="2"/><line x1="50.8" y1="261" x2="50.8" y2="266" stroke="#888" stroke-width="2"/><line x1="50.8" y1="302" x2="50.8" y2="307" stroke="#888" stroke-width="2"/><line x1="17" y1="294.8" x2="22" y2="294.8" stroke="#888" stroke-width="2"/><line x1="58" y1="294.8" x2="63" y2="294.8" stroke="#888" stroke-width="2"/><rect x="22" y="266" width="36" height="36" rx="3" fill="#3a3f4a" stroke="#222" stroke-width="1.5"/>
+<text x="80" y="272" font-size="14" font-weight="700" fill="#3a6ed8">CPU A: 1 Befehl pro Takt</text>
+<rect x="80" y="282" width="26" height="26" rx="3" fill="#dcefe4" stroke="#2f6b4f" stroke-width="1.5"/>
+<circle cx="93" cy="295" r="8" fill="#2f6b4f" stroke="none" stroke-width="2"/><path d="M89.4,295 l2.56,2.88 l5.12,-5.76" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="110" y="282" width="26" height="26" rx="3" fill="#dcefe4" stroke="#2f6b4f" stroke-width="1.5"/>
+<circle cx="123" cy="295" r="8" fill="#2f6b4f" stroke="none" stroke-width="2"/><path d="M119.4,295 l2.56,2.88 l5.12,-5.76" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="140" y="282" width="26" height="26" rx="3" fill="#dcefe4" stroke="#2f6b4f" stroke-width="1.5"/>
+<circle cx="153" cy="295" r="8" fill="#2f6b4f" stroke="none" stroke-width="2"/><path d="M149.4,295 l2.56,2.88 l5.12,-5.76" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="170" y="282" width="26" height="26" rx="3" fill="#dcefe4" stroke="#2f6b4f" stroke-width="1.5"/>
+<circle cx="183" cy="295" r="8" fill="#2f6b4f" stroke="none" stroke-width="2"/><path d="M179.4,295 l2.56,2.88 l5.12,-5.76" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="206" y="301" font-size="14" font-weight="700">4 fertig</text>
+<line x1="29.200000000000003" y1="331" x2="29.200000000000003" y2="336" stroke="#888" stroke-width="2"/><line x1="29.200000000000003" y1="372" x2="29.200000000000003" y2="377" stroke="#888" stroke-width="2"/><line x1="17" y1="343.2" x2="22" y2="343.2" stroke="#888" stroke-width="2"/><line x1="58" y1="343.2" x2="63" y2="343.2" stroke="#888" stroke-width="2"/><line x1="36.4" y1="331" x2="36.4" y2="336" stroke="#888" stroke-width="2"/><line x1="36.4" y1="372" x2="36.4" y2="377" stroke="#888" stroke-width="2"/><line x1="17" y1="350.4" x2="22" y2="350.4" stroke="#888" stroke-width="2"/><line x1="58" y1="350.4" x2="63" y2="350.4" stroke="#888" stroke-width="2"/><line x1="43.6" y1="331" x2="43.6" y2="336" stroke="#888" stroke-width="2"/><line x1="43.6" y1="372" x2="43.6" y2="377" stroke="#888" stroke-width="2"/><line x1="17" y1="357.6" x2="22" y2="357.6" stroke="#888" stroke-width="2"/><line x1="58" y1="357.6" x2="63" y2="357.6" stroke="#888" stroke-width="2"/><line x1="50.8" y1="331" x2="50.8" y2="336" stroke="#888" stroke-width="2"/><line x1="50.8" y1="372" x2="50.8" y2="377" stroke="#888" stroke-width="2"/><line x1="17" y1="364.8" x2="22" y2="364.8" stroke="#888" stroke-width="2"/><line x1="58" y1="364.8" x2="63" y2="364.8" stroke="#888" stroke-width="2"/><rect x="22" y="336" width="36" height="36" rx="3" fill="#3a3f4a" stroke="#222" stroke-width="1.5"/>
+<text x="80" y="342" font-size="14" font-weight="700" fill="#E07B00">CPU B: 2 Befehle pro Takt</text>
+<rect x="80" y="352" width="26" height="26" rx="3" fill="#dcefe4" stroke="#2f6b4f" stroke-width="1.5"/>
+<circle cx="93" cy="365" r="8" fill="#2f6b4f" stroke="none" stroke-width="2"/><path d="M89.4,365 l2.56,2.88 l5.12,-5.76" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="110" y="352" width="26" height="26" rx="3" fill="#dcefe4" stroke="#2f6b4f" stroke-width="1.5"/>
+<circle cx="123" cy="365" r="8" fill="#2f6b4f" stroke="none" stroke-width="2"/><path d="M119.4,365 l2.56,2.88 l5.12,-5.76" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="140" y="352" width="26" height="26" rx="3" fill="#dcefe4" stroke="#2f6b4f" stroke-width="1.5"/>
+<circle cx="153" cy="365" r="8" fill="#2f6b4f" stroke="none" stroke-width="2"/><path d="M149.4,365 l2.56,2.88 l5.12,-5.76" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="170" y="352" width="26" height="26" rx="3" fill="#dcefe4" stroke="#2f6b4f" stroke-width="1.5"/>
+<circle cx="183" cy="365" r="8" fill="#2f6b4f" stroke="none" stroke-width="2"/><path d="M179.4,365 l2.56,2.88 l5.12,-5.76" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="200" y="352" width="26" height="26" rx="3" fill="#dcefe4" stroke="#2f6b4f" stroke-width="1.5"/>
+<circle cx="213" cy="365" r="8" fill="#2f6b4f" stroke="none" stroke-width="2"/><path d="M209.4,365 l2.56,2.88 l5.12,-5.76" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="230" y="352" width="26" height="26" rx="3" fill="#dcefe4" stroke="#2f6b4f" stroke-width="1.5"/>
+<circle cx="243" cy="365" r="8" fill="#2f6b4f" stroke="none" stroke-width="2"/><path d="M239.4,365 l2.56,2.88 l5.12,-5.76" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="260" y="352" width="26" height="26" rx="3" fill="#dcefe4" stroke="#2f6b4f" stroke-width="1.5"/>
+<circle cx="273" cy="365" r="8" fill="#2f6b4f" stroke="none" stroke-width="2"/><path d="M269.4,365 l2.56,2.88 l5.12,-5.76" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="290" y="352" width="26" height="26" rx="3" fill="#dcefe4" stroke="#2f6b4f" stroke-width="1.5"/>
+<circle cx="303" cy="365" r="8" fill="#2f6b4f" stroke="none" stroke-width="2"/><path d="M299.4,365 l2.56,2.88 l5.12,-5.76" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="326" y="371" font-size="14" font-weight="700">8 fertig</text>
+<text x="200" y="412" font-size="13" text-anchor="middle" fill="#444">im Idealfall doppelt so viele – der Takt allein sagt wenig</text>
+</svg>

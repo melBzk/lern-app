@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 460" font-family="system-ui, sans-serif" role="img">
+  <title>Thermodrucker, Stärken und Schwächen. Stärken: keine Verstopfungen, keine Tinte und kein Toner zum Nachfüllen, wartungsarm und günstig. Schwächen: nicht dokumentenecht; Sonne und Hitze verändern die Schrift, sie verblasst oder das Papier wird schwarz; Thermopapier darf nicht ins Altpapier, sondern in den Restmüll.</title>
+  <rect width="400" height="460" fill="#fff"/>
+  <text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700" fill="#222">Kassenzettel-Drucker: + und –</text>
+
+  <rect x="8" y="40" width="384" height="190" rx="12" fill="#e8f6ee" stroke="#1f9d55" stroke-width="2"/>
+  <text x="20" y="64" font-size="16" font-weight="700" fill="#14653a">+ Stärken</text>
+  <!-- keine Verstopfung -->
+  <rect x="24" y="80" width="40" height="18" rx="3" fill="#3a3f4a"/><g fill="#333"><rect x="30" y="98" width="6" height="5"/><rect x="42" y="98" width="6" height="5"/><rect x="54" y="98" width="6" height="5"/></g>
+  <path d="M70,96 l5,5 l10,-12" fill="none" stroke="#1f9d55" stroke-width="3.5"/>
+  <text font-size="14" font-weight="700" fill="#14653a" x="100" y="98">keine Verstopfungen</text>
+  <!-- keine Tinte -->
+  <rect x="26" y="126" width="22" height="30" rx="3" fill="#1fa3c9"/><rect x="50" y="126" width="22" height="30" rx="3" fill="#111"/>
+  <line x1="20" y1="160" x2="78" y2="122" stroke="#d63c3c" stroke-width="3.5"/>
+  <text font-size="14" font-weight="700" fill="#14653a" x="100" y="140">keine Tinte, kein Toner</text><text font-size="13" fill="#333" x="100" y="158">zum Nachfüllen</text>
+  <!-- wartungsarm -->
+  <circle cx="46" cy="198" r="15" fill="none" stroke="#3a3f4a" stroke-width="7" stroke-dasharray="6 5"/><circle cx="46" cy="198" r="11" fill="#3a3f4a"/><circle cx="46" cy="198" r="4" fill="#e8f6ee"/>
+  <text font-size="14" font-weight="700" fill="#14653a" x="100" y="204">wartungsarm und günstig</text>
+
+  <rect x="8" y="240" width="384" height="212" rx="12" fill="#fdecec" stroke="#d63c3c" stroke-width="2"/>
+  <text x="20" y="264" font-size="16" font-weight="700" fill="#a32020">– Schwächen</text>
+  <!-- Sonne -> Zettel -->
+  <circle cx="38" cy="296" r="11" fill="#f2c200"/><g stroke="#f2c200" stroke-width="2.5"><line x1="38" y1="278" x2="38" y2="272"/><line x1="56" y1="296" x2="62" y2="296"/><line x1="20" y1="296" x2="14" y2="296"/><line x1="38" y1="314" x2="38" y2="320"/></g>
+  <path d="M70,280 h26 v34 l-4,-3 l-5,3 l-4,-3 l-5,3 l-4,-3 l-4,3 z" fill="#fff" stroke="#999"/>
+  <g stroke="#ccc" stroke-width="2"><line x1="74" y1="290" x2="92" y2="290"/><line x1="74" y1="298" x2="88" y2="298"/></g>
+  <text font-size="14" font-weight="700" fill="#a32020" x="110" y="292">Sonne, Hitze: Schrift verblasst</text><text font-size="13" fill="#333" x="110" y="310">oder das Papier wird schwarz</text>
+  <!-- nicht dokumentenecht -->
+  <rect x="26" y="336" width="34" height="40" fill="#fff" stroke="#333"/><line x1="20" y1="380" x2="66" y2="332" stroke="#d63c3c" stroke-width="3.5"/>
+  <text font-size="14" font-weight="700" fill="#a32020" x="110" y="362">nicht dokumentenecht</text>
+  <!-- Altpapier -->
+  <path d="M24,396 h40 l-5,46 h-30 z" fill="#1fa3c9" opacity="0.8"/><rect x="20" y="390" width="48" height="7" rx="2" fill="#1a7fa0"/>
+  <line x1="16" y1="446" x2="72" y2="386" stroke="#d63c3c" stroke-width="3.5"/>
+  <text font-size="14" font-weight="700" fill="#a32020" x="110" y="414">nicht ins Altpapier</text><text font-size="13" fill="#333" x="110" y="434">sondern Restmüll</text>
+</svg>

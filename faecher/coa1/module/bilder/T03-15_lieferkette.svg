@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" font-family="system-ui, sans-serif" fill="#222" role="img">
+<title>Die Kette von oben nach unten: Trumpf liefert den Laser und Zeiss die Spiegel. ASML baut daraus die Maschine. TSMC in Taiwan fertigt damit die Chips, als Auftragsfertiger. Die fertigen Chips gehen an Nvidia: Nvidia entwirft den Chip und verkauft ihn. Ein gestrichelter Pfeil führt von Nvidia zurück zu TSMC: der Bauplan.</title>
+<rect width="400" height="400" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">Wer macht was?</text>
+
+<!-- 1 Zulieferer -->
+<rect x="20" y="42" width="128" height="58" rx="10" fill="#f4f5f7" stroke="#555" stroke-width="1.5"/>
+<text x="84" y="66" text-anchor="middle" font-size="15" font-weight="700">Trumpf</text>
+<text x="84" y="87" text-anchor="middle" font-size="13">Laser</text>
+<text x="170" y="78" text-anchor="middle" font-size="20" font-weight="700" fill="#555">+</text>
+<rect x="192" y="42" width="128" height="58" rx="10" fill="#f4f5f7" stroke="#555" stroke-width="1.5"/>
+<text x="256" y="66" text-anchor="middle" font-size="15" font-weight="700">Zeiss</text>
+<text x="256" y="87" text-anchor="middle" font-size="13">Spiegel</text>
+<path d="M170,102 V118" stroke="#555" stroke-width="3"/><path d="M163,116 L170,128 L177,116 Z" fill="#555"/>
+
+<!-- 2 ASML -->
+<rect x="40" y="130" width="260" height="52" rx="10" fill="#fff4e0" stroke="#E07B00" stroke-width="2.5"/>
+<text x="170" y="153" text-anchor="middle" font-size="15" font-weight="700">ASML</text>
+<text x="170" y="173" text-anchor="middle" font-size="13">baut die Maschine</text>
+<path d="M170,184 V200" stroke="#555" stroke-width="3"/><path d="M163,198 L170,210 L177,198 Z" fill="#555"/>
+
+<!-- 3 TSMC -->
+<rect x="40" y="212" width="260" height="70" rx="10" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<text x="170" y="236" text-anchor="middle" font-size="15" font-weight="700">TSMC (Taiwan)</text>
+<text x="170" y="255" text-anchor="middle" font-size="13">fertigt die Chips</text>
+<text x="170" y="273" text-anchor="middle" font-size="13" fill="#3a6ed8" font-weight="700">= Auftragsfertiger</text>
+<path d="M170,284 V306" stroke="#555" stroke-width="3"/><path d="M163,304 L170,316 L177,304 Z" fill="#555"/>
+<text x="180" y="302" font-size="13" fill="#555">fertige Chips</text>
+
+<!-- 4 Nvidia -->
+<rect x="40" y="318" width="260" height="58" rx="10" fill="#f4f5f7" stroke="#555" stroke-width="1.5"/>
+<text x="170" y="342" text-anchor="middle" font-size="15" font-weight="700">Nvidia</text>
+<text x="170" y="362" text-anchor="middle" font-size="13">entwirft den Chip, verkauft ihn</text>
+
+<!-- Bauplan -->
+<path d="M302,347 H330 V247 H316" stroke="#2e7d32" stroke-width="3" fill="none" stroke-dasharray="7 5"/>
+<path d="M318,240 L304,247 L318,254 Z" fill="#2e7d32"/>
+<text x="356" y="298" font-size="14" font-weight="700" fill="#2e7d32" transform="rotate(-90 356 298)" text-anchor="middle">Bauplan</text>
+</svg>

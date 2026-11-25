@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 380" font-family="system-ui, sans-serif" role="img">
+  <title>Der TÜV prüft auch Computer und Elektronik, und zwar fünf Dinge: Sicherheit, Funktion, Qualität, Umweltverträglichkeit und Bedienungsfreundlichkeit.</title>
+  <rect width="400" height="380" fill="#fff"/>
+  <text x="200" y="26" text-anchor="middle" font-size="18" font-weight="700" fill="#222">TÜV prüft 5 Dinge</text>
+  <text x="200" y="48" text-anchor="middle" font-size="13" fill="#333">auch bei Computern und Elektronik</text>
+
+  <rect x="14" y="160" width="92" height="56" rx="8" fill="#fff" stroke="#222" stroke-width="2.5"/>
+  <text x="60" y="195" text-anchor="middle" font-size="20" font-weight="700" fill="#222">TÜV</text>
+  <g stroke="#E07B00" stroke-width="3" fill="none">
+    <path d="M106,188 C130,188 126,88 150,88"/><path d="M106,188 C130,188 126,138 150,138"/><path d="M106,188 L150,188"/><path d="M106,188 C130,188 126,238 150,238"/><path d="M106,188 C130,188 126,288 150,288"/></g>
+  <g fill="#f3f4f6" stroke="#bbb"><rect x="150" y="68" width="240" height="40" rx="10"/><rect x="150" y="118" width="240" height="40" rx="10"/><rect x="150" y="168" width="240" height="40" rx="10"/><rect x="150" y="218" width="240" height="40" rx="10"/><rect x="150" y="268" width="240" height="40" rx="10"/></g>
+  <g font-size="15" font-weight="700" fill="#222">
+    <text x="166" y="93">Sicherheit</text><text x="166" y="143">Funktion</text><text x="166" y="193">Qualität</text><text x="166" y="243">Umweltverträglichkeit</text><text x="166" y="293">Bedienungsfreundlichkeit</text></g>
+  <rect x="96" y="326" width="208" height="40" rx="20" fill="#fff4e5" stroke="#E07B00" stroke-width="2"/>
+  <text x="200" y="352" text-anchor="middle" font-size="15" font-weight="700" fill="#b35f00">prüft noch breiter</text>
+</svg>

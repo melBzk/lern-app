@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 425" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Speicherpyramide von oben schmal nach unten breit: Register, L1-Cache (1,2 MB), L2-Cache (11,5 MB), L3-Cache (24 MB) liegen in der CPU; darunter Arbeitsspeicher RAM (32 GB) und ganz unten Festplatte oder SSD (1 TB). Nach oben schneller, teurer, kleiner; nach unten größer, billiger, langsamer. Eine gestrichelte Linie trennt den flüchtigen RAM (ohne Strom leer) von der nichtflüchtigen Festplatte (Inhalt bleibt).</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker></defs>
+<rect width="400" height="425" fill="#fff"/>
+<text x="200" y="26" font-size="17" text-anchor="middle" font-weight="700">Die Speicherpyramide</text>
+<!-- in der CPU -->
+<rect x="46" y="44" width="306" height="194" rx="12" fill="#fdf0e0" stroke="#E07B00" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="56" y="68" font-size="14" font-weight="700" fill="#E07B00">in der CPU</text>
+<rect x="150" y="56" width="70" height="38" rx="6" fill="#3a6ed8"/>
+<text x="185" y="80" font-size="14" text-anchor="middle" font-weight="700" fill="#fff">Register</text>
+<rect x="130" y="100" width="110" height="38" rx="6" fill="#5b86e0"/>
+<text x="185" y="124" font-size="15" text-anchor="middle" font-weight="700" fill="#fff">L1-Cache</text>
+<text x="248" y="124" font-size="14" font-weight="700">1,2 MB</text>
+<rect x="110" y="144" width="150" height="38" rx="6" fill="#7ea0e8"/>
+<text x="185" y="168" font-size="15" text-anchor="middle" font-weight="700" fill="#fff">L2-Cache</text>
+<text x="268" y="168" font-size="14" font-weight="700">11,5 MB</text>
+<rect x="90" y="188" width="190" height="38" rx="6" fill="#a3bcf0"/>
+<text x="185" y="212" font-size="15" text-anchor="middle" font-weight="700">L3-Cache</text>
+<text x="288" y="212" font-size="14" font-weight="700">24 MB</text>
+<!-- RAM -->
+<rect x="70" y="252" width="230" height="40" rx="6" fill="#c9c3bd"/>
+<text x="185" y="277" font-size="15" text-anchor="middle" font-weight="700">Arbeitsspeicher (RAM)</text>
+<text x="308" y="277" font-size="14" font-weight="700">32 GB</text>
+<!-- Grenze flüchtig / nichtflüchtig -->
+<path d="M70,301 L64,313 L69,313 L65,324 L76,309 L71,309 L75,301 Z" fill="#E0B000" stroke="#222" stroke-width="1"/>
+<line x1="60" y1="304" x2="80" y2="322" stroke="#c62828" stroke-width="2.5"/>
+<line x1="80" y1="304" x2="60" y2="322" stroke="#c62828" stroke-width="2.5"/>
+<text x="88" y="318" font-size="14" font-weight="700" fill="#c62828">flüchtig – ohne Strom leer</text>
+<line x1="52" y1="330" x2="348" y2="330" stroke="#222" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="88" y="349" font-size="14" font-weight="700" fill="#2f6b4f">nichtflüchtig – bleibt</text>
+<!-- SSD -->
+<rect x="55" y="358" width="260" height="42" rx="6" fill="#9e9a95"/>
+<text x="185" y="384" font-size="15" text-anchor="middle" font-weight="700" fill="#fff">Festplatte / SSD</text>
+<text x="322" y="384" font-size="14" font-weight="700">1 TB</text>
+<!-- Pfeile -->
+<line x1="18" y1="400" x2="18" y2="58" stroke="#222" stroke-width="2.5" marker-end="url(#a)"/>
+<text x="40" y="228" font-size="14" text-anchor="middle" font-weight="700" transform="rotate(-90 40 228)">schneller · teurer · kleiner</text>
+<line x1="384" y1="58" x2="384" y2="400" stroke="#222" stroke-width="2.5" marker-end="url(#a)"/>
+<text x="362" y="228" font-size="14" text-anchor="middle" font-weight="700" transform="rotate(90 362 228)">größer · billiger · langsamer</text>
+<text x="200" y="418" font-size="13" text-anchor="middle" fill="#555">Größen: Laptop aus dem Unterricht</text>
+</svg>

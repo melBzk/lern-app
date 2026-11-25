@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 380" font-family="system-ui, sans-serif" fill="#222" role="img">
+<title>Ausgangslage im Praxisfall: Jeden Abend werden 200 GB auf eine externe USB-3-Festplatte gesichert, das dauert ewig. Am PC steckt die Platte in einer roten USB-Buchse. Daneben sind zwei blaue USB-Buchsen frei. Frage: Warum so langsam?</title>
+<rect width="400" height="380" fill="#fff"/>
+<text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700">Die Sicherung dauert ewig</text>
+<!-- PC Rückseite -->
+<rect x="20" y="50" width="150" height="230" rx="6" fill="#dee2e6" stroke="#555" stroke-width="2.5"/>
+<rect x="36" y="70" width="118" height="120" rx="3" fill="#cfd8dc" stroke="#555" stroke-width="2"/>
+<!-- rote Buchse belegt -->
+<rect x="50" y="86" width="44" height="18" rx="2" fill="#d63c3c" stroke="#555" stroke-width="1.5"/><rect x="56" y="91" width="32" height="7" fill="#fafafa"/>
+<!-- blaue frei -->
+<rect x="50" y="120" width="44" height="18" rx="2" fill="#3a6ed8" stroke="#555" stroke-width="1.5"/><rect x="56" y="125" width="32" height="7" fill="#fafafa"/>
+<rect x="50" y="154" width="44" height="18" rx="2" fill="#3a6ed8" stroke="#555" stroke-width="1.5"/><rect x="56" y="159" width="32" height="7" fill="#fafafa"/>
+<text x="124" y="134" font-size="13" font-weight="700" fill="#2550a8">frei</text>
+<text x="124" y="168" font-size="13" font-weight="700" fill="#2550a8">frei</text>
+<!-- Kabel -->
+<path d="M94,95 C200,95 190,150 240,150" fill="none" stroke="#333" stroke-width="4"/>
+<!-- Festplatte -->
+<rect x="240" y="120" width="140" height="70" rx="8" fill="#495057"/>
+<circle cx="360" cy="176" r="4" fill="#7fe08a"/>
+<text x="310" y="150" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">externe</text>
+<text x="310" y="168" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">USB-3-Platte</text>
+<text x="310" y="214" text-anchor="middle" font-size="14" font-weight="700">200 GB jeden Abend</text>
+<!-- Sanduhr -->
+<path d="M290,232 H330 L314,254 L330,276 H290 L306,254 Z" fill="#fff3c4" stroke="#c99a06" stroke-width="2.5"/>
+<path d="M298,272 H322 L310,262 Z" fill="#c99a06"/>
+<text x="95" y="300" text-anchor="middle" font-size="13">PC hinten</text>
+<!-- Frage -->
+<rect x="50" y="316" width="300" height="52" rx="14" fill="#fff3c4" stroke="#c99a06" stroke-width="1.5"/>
+<text x="200" y="348" text-anchor="middle" font-size="17" font-weight="700">Warum so langsam?</text>
+</svg>

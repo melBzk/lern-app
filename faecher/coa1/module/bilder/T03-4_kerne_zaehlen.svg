@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 470" font-family="system-ui, sans-serif" fill="#222" role="img">
+<title>Kerne zählen: Dual-Core 2 Kerne, Triple-Core 3, Quad-Core 4, Hexa-Core 6, Octa-Core 8, jeweils als Reihe blauer Kästchen. Mehr als 8 Kerne: einfach Multicore. Darunter ein Angebotsschild Intel Core i9 10900K 10x 3.70GHz; das 10x ist markiert und bedeutet 10 Kerne.</title>
+<rect width="400" height="470" fill="#fff"/>
+<text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700">Kerne zählen</text>
+<g font-size="15">
+<rect x="10" y="44" width="380" height="250" rx="10" fill="#f4f5f7"/>
+<text x="24" y="76" font-weight="700">Dual-Core</text><text x="140" y="76" font-weight="700" fill="#3a6ed8">2</text>
+<rect x="170" y="60" width="20" height="20" rx="3" fill="#3a6ed8"/><rect x="194" y="60" width="20" height="20" rx="3" fill="#3a6ed8"/>
+<text x="24" y="120" font-weight="700">Triple-Core</text><text x="140" y="120" font-weight="700" fill="#3a6ed8">3</text>
+<rect x="170" y="104" width="20" height="20" rx="3" fill="#3a6ed8"/><rect x="194" y="104" width="20" height="20" rx="3" fill="#3a6ed8"/><rect x="218" y="104" width="20" height="20" rx="3" fill="#3a6ed8"/>
+<text x="24" y="164" font-weight="700">Quad-Core</text><text x="140" y="164" font-weight="700" fill="#3a6ed8">4</text>
+<rect x="170" y="148" width="20" height="20" rx="3" fill="#3a6ed8"/><rect x="194" y="148" width="20" height="20" rx="3" fill="#3a6ed8"/><rect x="218" y="148" width="20" height="20" rx="3" fill="#3a6ed8"/><rect x="242" y="148" width="20" height="20" rx="3" fill="#3a6ed8"/>
+<text x="24" y="208" font-weight="700">Hexa-Core</text><text x="140" y="208" font-weight="700" fill="#3a6ed8">6</text>
+<rect x="170" y="192" width="20" height="20" rx="3" fill="#3a6ed8"/><rect x="194" y="192" width="20" height="20" rx="3" fill="#3a6ed8"/><rect x="218" y="192" width="20" height="20" rx="3" fill="#3a6ed8"/><rect x="242" y="192" width="20" height="20" rx="3" fill="#3a6ed8"/><rect x="266" y="192" width="20" height="20" rx="3" fill="#3a6ed8"/><rect x="290" y="192" width="20" height="20" rx="3" fill="#3a6ed8"/>
+<text x="24" y="252" font-weight="700">Octa-Core</text><text x="140" y="252" font-weight="700" fill="#3a6ed8">8</text>
+<rect x="170" y="236" width="20" height="20" rx="3" fill="#3a6ed8"/><rect x="194" y="236" width="20" height="20" rx="3" fill="#3a6ed8"/><rect x="218" y="236" width="20" height="20" rx="3" fill="#3a6ed8"/><rect x="242" y="236" width="20" height="20" rx="3" fill="#3a6ed8"/><rect x="266" y="236" width="20" height="20" rx="3" fill="#3a6ed8"/><rect x="290" y="236" width="20" height="20" rx="3" fill="#3a6ed8"/><rect x="314" y="236" width="20" height="20" rx="3" fill="#3a6ed8"/><rect x="338" y="236" width="20" height="20" rx="3" fill="#3a6ed8"/>
+<text x="24" y="282" font-size="14" fill="#555">mehr als 8 Kerne: einfach „Multicore“</text>
+</g>
+<text x="200" y="330" text-anchor="middle" font-size="15" font-weight="700">Im Angebot steht oft nur eine Ziffer</text>
+<rect x="20" y="344" width="360" height="50" rx="8" fill="#fff" stroke="#555" stroke-width="2"/>
+<text x="34" y="375" font-size="15">Intel Core i9 10900K</text>
+<rect x="196" y="356" width="42" height="28" rx="5" fill="#fff4e0" stroke="#E07B00" stroke-width="2.5"/>
+<text x="217" y="376" text-anchor="middle" font-size="15" font-weight="700" fill="#c25e00">10x</text>
+<text x="248" y="375" font-size="15">3.70GHz</text>
+<path d="M217,394 V420" stroke="#E07B00" stroke-width="3"/>
+<text x="217" y="446" text-anchor="middle" font-size="17" font-weight="700" fill="#c25e00">= 10 Kerne</text>
+</svg>

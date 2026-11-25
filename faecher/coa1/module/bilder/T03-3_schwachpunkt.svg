@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 440" font-family="system-ui, sans-serif" fill="#222" role="img">
+<title>Ein Schwachpunkt bremst alles. Oben: der Prozessor in der Mitte, links mit eigener Anbindung zum Chipsatz, rechts mit eigener Anbindung zum Arbeitsspeicher (der Speichercontroller sitzt heute in der CPU). Die Anbindung zum Arbeitsspeicher ist rot und dünn: eng, ein Schwachpunkt, die ganze Leistung bricht ein. Unten zwei Schritte: 1 erwarten – mehr Kerne, höherer Takt, viel Cache lassen mehr Leistung erwarten. 2 wissen – sicher erst durch Messen mit Benchmarks, dargestellt als Messbalken.</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker></defs>
+<rect width="400" height="440" fill="#fff"/>
+<text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700">Ein Schwachpunkt bremst alles</text>
+<rect x="20" y="56" width="96" height="64" rx="8" fill="#e3ecfb" stroke="#3a6ed8" stroke-width="2"/><text x="68" y="94" text-anchor="middle" font-size="15" font-weight="700">Chipsatz</text>
+<rect x="152" y="56" width="96" height="64" rx="8" fill="#5b6470"/><text x="200" y="94" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">CPU</text>
+<rect x="284" y="56" width="96" height="64" rx="8" fill="#e6f4ea" stroke="#2f9e44" stroke-width="2"/><text x="332" y="94" text-anchor="middle" font-size="15" font-weight="700">RAM</text>
+<path d="M116,88 H152" stroke="#9aa3ad" stroke-width="12"/>
+<path d="M248,88 H284" stroke="#c62828" stroke-width="3"/>
+<text x="266" y="78" text-anchor="middle" font-size="14" font-weight="700" fill="#c62828">eng!</text>
+<path d="M134,96 V132 M266,92 V132" stroke="#9aa3ad" stroke-width="1.5" stroke-dasharray="3 3"/>
+<text x="134" y="152" text-anchor="middle" font-size="14" fill="#555">Anbindung</text>
+<text x="266" y="152" text-anchor="middle" font-size="14" font-weight="700" fill="#c62828">Anbindung</text>
+<rect x="40" y="166" width="320" height="40" rx="8" fill="#fdecec" stroke="#c62828" stroke-width="2"/>
+<text x="200" y="192" text-anchor="middle" font-size="15" font-weight="700" fill="#c62828">ganze Leistung bricht ein</text>
+<circle cx="30" cy="254" r="14" fill="#3a6ed8"/><text x="30" y="259" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">1</text>
+<text x="54" y="250" font-size="16" font-weight="700">erwarten</text>
+<text x="54" y="272" font-size="14">mehr Kerne ↑ · höherer Takt ↑ · viel Cache ↑</text>
+<text x="54" y="292" font-size="14">→ wohl mehr Leistung?</text>
+<line x1="200" y1="304" x2="200" y2="326" stroke="#555" stroke-width="2" marker-end="url(#a)"/>
+<circle cx="30" cy="350" r="14" fill="#E07B00"/><text x="30" y="355" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">2</text>
+<text x="54" y="346" font-size="16" font-weight="700" fill="#c25e00">wissen: Benchmark messen</text>
+<rect x="54" y="364" width="250" height="18" rx="3" fill="#E07B00"/><text x="312" y="378" font-size="14">CPU A</text>
+<rect x="54" y="390" width="170" height="18" rx="3" fill="#9aa3ad"/><text x="232" y="404" font-size="14">CPU B</text>
+<text x="54" y="430" font-size="13" fill="#555">Messwerte vergleichen (mehr in T03-10)</text>
+</svg>

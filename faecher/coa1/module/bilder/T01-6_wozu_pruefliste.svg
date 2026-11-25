@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 424" font-family="system-ui, sans-serif" font-size="14" fill="#222" role="img">
+<title>Klemmbrett mit fünf Punkten zum Abhaken: Bauart (Hand-, Einzugs- oder Flachbettscanner), optische Auflösung (nicht die interpolierte), TWAIN-Treiber (freie Wahl der Software), Durchlichteinheit (für Dias und Negative), Anschluss (Standard ist USB; Kombigeräte hängen oft direkt am Firmennetz).</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker><marker id="o" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E07B00"/></marker><marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6b4f"/></marker><marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker><marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker></defs>
+<rect width="400" height="424" fill="#fff"/>
+<text x="200" y="28" font-size="17" text-anchor="middle" font-weight="700" fill="#222">Prüfliste: Scanner fürs Büro</text>
+<rect x="20" y="50" width="360" height="360" rx="8" fill="#fbf7ee" stroke="#8a6200" stroke-width="2.5"/><rect x="170.0" y="42" width="60" height="16" rx="4" fill="#8a6200" stroke="none" stroke-width="0"/>
+<rect x="36" y="76" width="328" height="54" rx="8" fill="#fff" stroke="#ccc" stroke-width="1.5"/>
+<rect x="50" y="93" width="20" height="20" rx="3" fill="#fff" stroke="#333" stroke-width="2"/>
+<text x="84" y="100" font-size="15" font-weight="700" fill="#222">Bauart</text>
+<text x="84" y="120" font-size="13" fill="#444">Hand, Einzug oder Flachbett?</text>
+<rect x="36" y="140" width="328" height="54" rx="8" fill="#fff" stroke="#ccc" stroke-width="1.5"/>
+<rect x="50" y="157" width="20" height="20" rx="3" fill="#fff" stroke="#333" stroke-width="2"/>
+<text x="84" y="164" font-size="15" font-weight="700" fill="#222">optische Auflösung</text>
+<text x="84" y="184" font-size="13" fill="#444">nicht die interpolierte</text>
+<rect x="36" y="204" width="328" height="54" rx="8" fill="#fff" stroke="#ccc" stroke-width="1.5"/>
+<rect x="50" y="221" width="20" height="20" rx="3" fill="#fff" stroke="#333" stroke-width="2"/>
+<text x="84" y="228" font-size="15" font-weight="700" fill="#222">TWAIN-Treiber</text>
+<text x="84" y="248" font-size="13" fill="#444">freie Wahl der Software</text>
+<rect x="36" y="268" width="328" height="54" rx="8" fill="#fff" stroke="#ccc" stroke-width="1.5"/>
+<rect x="50" y="285" width="20" height="20" rx="3" fill="#fff" stroke="#333" stroke-width="2"/>
+<text x="84" y="292" font-size="15" font-weight="700" fill="#222">Durchlichteinheit</text>
+<text x="84" y="312" font-size="13" fill="#444">für Dias und Negative</text>
+<rect x="36" y="332" width="328" height="54" rx="8" fill="#fff" stroke="#ccc" stroke-width="1.5"/>
+<rect x="50" y="349" width="20" height="20" rx="3" fill="#fff" stroke="#333" stroke-width="2"/>
+<text x="84" y="356" font-size="15" font-weight="700" fill="#222">Anschluss</text>
+<text x="84" y="376" font-size="13" fill="#444">Standard USB; Kombigeräte oft am Firmennetz</text>
+</svg>

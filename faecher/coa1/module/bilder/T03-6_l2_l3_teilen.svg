@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 470" font-family="system-ui, sans-serif" fill="#222" role="img">
+<title>L2 und L3 beim Laptop aus dem Unterricht, schematisch. Links 6 P-Kerne, jeder mit eigenem L2 von 1,25 MB: 6 mal 1,25 = 7,5 MB. Rechts 8 E-Kerne in zwei Gruppen zu je 4; jede Gruppe teilt sich einen L2 von 2 MB: 2 mal 2 = 4 MB. Summe L2: 7,5 plus 4 = 11,5 MB. Unten ein breiter L3 von 24 MB für alle 14 Kerne.</title>
+<rect width="400" height="470" fill="#fff"/>
+<text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700">L2 und L3: wer teilt sich was?</text>
+<text x="100" y="56" text-anchor="middle" font-size="15" font-weight="700" fill="#E07B00">6 P-Kerne</text>
+<text x="300" y="56" text-anchor="middle" font-size="15" font-weight="700" fill="#2f9e44">8 E-Kerne</text>
+<g>
+<rect x="14" y="68" width="56" height="34" rx="4" fill="#E07B00"/><rect x="72" y="68" width="56" height="34" rx="4" fill="#E07B00"/><rect x="130" y="68" width="56" height="34" rx="4" fill="#E07B00"/>
+<rect x="14" y="106" width="56" height="22" rx="3" fill="#fde2c2" stroke="#E07B00"/><rect x="72" y="106" width="56" height="22" rx="3" fill="#fde2c2" stroke="#E07B00"/><rect x="130" y="106" width="56" height="22" rx="3" fill="#fde2c2" stroke="#E07B00"/>
+<rect x="14" y="140" width="56" height="34" rx="4" fill="#E07B00"/><rect x="72" y="140" width="56" height="34" rx="4" fill="#E07B00"/><rect x="130" y="140" width="56" height="34" rx="4" fill="#E07B00"/>
+<rect x="14" y="178" width="56" height="22" rx="3" fill="#fde2c2" stroke="#E07B00"/><rect x="72" y="178" width="56" height="22" rx="3" fill="#fde2c2" stroke="#E07B00"/><rect x="130" y="178" width="56" height="22" rx="3" fill="#fde2c2" stroke="#E07B00"/>
+</g>
+<g font-size="13" text-anchor="middle" font-weight="700"><text x="42" y="122">1,25</text><text x="100" y="122">1,25</text><text x="158" y="122">1,25</text><text x="42" y="194">1,25</text><text x="100" y="194">1,25</text><text x="158" y="194">1,25</text></g>
+<text x="100" y="224" text-anchor="middle" font-size="14">jeder Kern: eigener L2</text>
+<g fill="#2f9e44">
+<rect x="214" y="68" width="40" height="30" rx="4"/><rect x="258" y="68" width="40" height="30" rx="4"/><rect x="302" y="68" width="40" height="30" rx="4"/><rect x="346" y="68" width="40" height="30" rx="4"/>
+<rect x="214" y="140" width="40" height="30" rx="4"/><rect x="258" y="140" width="40" height="30" rx="4"/><rect x="302" y="140" width="40" height="30" rx="4"/><rect x="346" y="140" width="40" height="30" rx="4"/>
+</g>
+<rect x="214" y="102" width="172" height="26" rx="3" fill="#d3eedb" stroke="#2f9e44"/><text x="300" y="120" text-anchor="middle" font-size="13" font-weight="700">L2 2 MB gemeinsam</text>
+<rect x="214" y="174" width="172" height="26" rx="3" fill="#d3eedb" stroke="#2f9e44"/><text x="300" y="192" text-anchor="middle" font-size="13" font-weight="700">L2 2 MB gemeinsam</text>
+<text x="300" y="224" text-anchor="middle" font-size="14">je 4 Kerne teilen einen L2</text>
+<rect x="10" y="240" width="380" height="96" rx="10" fill="#f4f5f7"/>
+<text x="24" y="266" font-size="15">6 × 1,25 MB = <tspan font-weight="700">7,5 MB</tspan></text>
+<text x="24" y="290" font-size="15">2 × 2 MB = <tspan font-weight="700">4 MB</tspan></text>
+<text x="24" y="320" font-size="16" font-weight="700">L2 gesamt: 7,5 + 4 = <tspan fill="#3a6ed8">11,5 MB</tspan> ✔</text>
+<rect x="10" y="350" width="380" height="64" rx="10" fill="#e3ecfb" stroke="#3a6ed8" stroke-width="2.5"/>
+<text x="200" y="378" text-anchor="middle" font-size="16" font-weight="700">L3: 24 MB</text>
+<text x="200" y="400" text-anchor="middle" font-size="14">einmal für alle 14 Kerne</text>
+<text x="200" y="444" text-anchor="middle" font-size="13" fill="#555">schematisch, Werte aus CPU-Z im Unterricht</text>
+</svg>

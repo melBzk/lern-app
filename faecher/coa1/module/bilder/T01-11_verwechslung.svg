@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 470" font-family="system-ui, sans-serif" role="img">
+  <title>Was gern durcheinandergeht. Kopfhörer: nur Ausgabe. Headset: Ein- und Ausgabe, wegen des Mikrofons. Braille-Gerät: Ausgabe. Sondertastatur für Sehbehinderte: Eingabe. Roboter: Ausgabe, er bewegt etwas. Sensor: Eingabe, er misst etwas. Monitor: Bild auf eigenem Bildschirm. Beamer: wirft das Bild an Wand oder Leinwand. 5.1 gegen 7.1: 7.1 hat 2 Lautsprecher mehr.</title>
+  <rect width="400" height="470" fill="#fff"/>
+  <text x="200" y="26" text-anchor="middle" font-size="18" font-weight="700" fill="#222">Was gern durcheinandergeht</text>
+
+  <!-- Zeile 1 -->
+  <rect fill="#f3f4f6" stroke="#bbb" x="8" y="40" width="174" height="74" rx="10"/><rect fill="#f3f4f6" stroke="#bbb" x="218" y="40" width="174" height="74" rx="10"/>
+  <text font-size="22" font-weight="700" fill="#555" text-anchor="middle" x="200" y="84">≠</text>
+  <text font-size="14" font-weight="700" fill="#222" text-anchor="middle" x="95" y="66">Kopfhörer</text>
+  <rect x="55" y="78" width="80" height="24" rx="12" fill="#E07B00"/><text font-size="13" font-weight="700" fill="#fff" text-anchor="middle" x="95" y="95">Ausgabe</text>
+  <text font-size="14" font-weight="700" fill="#222" text-anchor="middle" x="305" y="66">Headset</text>
+  <rect x="226" y="78" width="70" height="24" rx="12" fill="#2f6b4f"/><text font-size="13" font-weight="700" fill="#fff" text-anchor="middle" x="261" y="95">Eingabe</text>
+  <rect x="300" y="78" width="84" height="24" rx="12" fill="#E07B00"/><text font-size="13" font-weight="700" fill="#fff" text-anchor="middle" x="342" y="95">+ Ausgabe</text>
+
+  <!-- Zeile 2 -->
+  <rect fill="#f3f4f6" stroke="#bbb" x="8" y="124" width="174" height="74" rx="10"/><rect fill="#f3f4f6" stroke="#bbb" x="218" y="124" width="174" height="74" rx="10"/>
+  <text font-size="22" font-weight="700" fill="#555" text-anchor="middle" x="200" y="168">≠</text>
+  <text font-size="14" font-weight="700" fill="#222" text-anchor="middle" x="95" y="150">Braille-Gerät</text>
+  <rect x="55" y="162" width="80" height="24" rx="12" fill="#E07B00"/><text font-size="13" font-weight="700" fill="#fff" text-anchor="middle" x="95" y="179">Ausgabe</text>
+  <text font-size="14" font-weight="700" fill="#222" text-anchor="middle" x="305" y="150">Sondertastatur</text>
+  <rect x="265" y="162" width="80" height="24" rx="12" fill="#2f6b4f"/><text font-size="13" font-weight="700" fill="#fff" text-anchor="middle" x="305" y="179">Eingabe</text>
+
+  <!-- Zeile 3 -->
+  <rect fill="#f3f4f6" stroke="#bbb" x="8" y="208" width="174" height="74" rx="10"/><rect fill="#f3f4f6" stroke="#bbb" x="218" y="208" width="174" height="74" rx="10"/>
+  <text font-size="22" font-weight="700" fill="#555" text-anchor="middle" x="200" y="252">≠</text>
+  <text font-size="14" font-weight="700" fill="#222" text-anchor="middle" x="95" y="234">Roboter: bewegt</text>
+  <rect x="55" y="246" width="80" height="24" rx="12" fill="#E07B00"/><text font-size="13" font-weight="700" fill="#fff" text-anchor="middle" x="95" y="263">Ausgabe</text>
+  <text font-size="14" font-weight="700" fill="#222" text-anchor="middle" x="305" y="234">Sensor: misst</text>
+  <rect x="265" y="246" width="80" height="24" rx="12" fill="#2f6b4f"/><text font-size="13" font-weight="700" fill="#fff" text-anchor="middle" x="305" y="263">Eingabe</text>
+
+  <!-- Zeile 4 Monitor/Beamer -->
+  <rect fill="#f3f4f6" stroke="#bbb" x="8" y="292" width="174" height="84" rx="10"/><rect fill="#f3f4f6" stroke="#bbb" x="218" y="292" width="174" height="84" rx="10"/>
+  <text font-size="22" font-weight="700" fill="#555" text-anchor="middle" x="200" y="340">≠</text>
+  <rect x="73" y="302" width="44" height="30" rx="3" fill="#3a3f4a"/><rect x="77" y="306" width="36" height="22" fill="#dbeefc"/>
+  <text font-size="14" font-weight="700" fill="#222" text-anchor="middle" x="95" y="352">Monitor</text><text x="95" y="368" text-anchor="middle" font-size="13" fill="#333">eigener Bildschirm</text>
+  <rect x="250" y="312" width="28" height="16" rx="3" fill="#3a3f4a"/><path d="M278,316 L350,302 L350,334 L278,324 z" fill="#f2c200" opacity="0.35"/><rect x="350" y="302" width="5" height="32" fill="#fff" stroke="#999"/>
+  <text font-size="14" font-weight="700" fill="#222" text-anchor="middle" x="305" y="352">Beamer</text><text x="305" y="368" text-anchor="middle" font-size="13" fill="#333">wirft Bild an die Wand</text>
+
+  <!-- Zeile 5 5.1/7.1 -->
+  <rect fill="#f3f4f6" stroke="#bbb" x="8" y="386" width="174" height="76" rx="10"/><rect fill="#f3f4f6" stroke="#bbb" x="218" y="386" width="174" height="76" rx="10"/>
+  <text font-size="22" font-weight="700" fill="#555" text-anchor="middle" x="200" y="430">≠</text>
+  <text x="95" y="418" text-anchor="middle" font-size="20" font-weight="700" fill="#222">5.1</text>
+  <text x="95" y="444" text-anchor="middle" font-size="13" fill="#333">5 + 1 Subwoofer</text>
+  <text x="305" y="418" text-anchor="middle" font-size="20" font-weight="700" fill="#222">7.1</text>
+  <text x="305" y="444" text-anchor="middle" font-size="14" font-weight="700" fill="#b35f00">2 Lautsprecher mehr</text>
+</svg>

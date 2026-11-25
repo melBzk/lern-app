@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 378" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Ausgangslage: Ein Kunde fragt: A ist doch schneller, oder? Ich will Videos schneiden. Laptop A mit 4,4 GHz, Laptop B mit 3,8 GHz von einem anderen Hersteller. Ein Fragezeichen.</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker><marker id="o" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E07B00"/></marker><marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6b4f"/></marker><marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker><marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker></defs>
+<rect width="400" height="378" fill="#fff"/>
+<text x="200" y="26" font-size="17" text-anchor="middle" font-weight="700">Zwei Laptops – welcher?</text>
+<circle cx="40" cy="63.8" r="9.1" fill="#555" stroke="none" stroke-width="2"/><path d="M24.4,95.0 Q40,66.4 55.6,95.0" fill="#555" stroke="#555" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M80,44 H374 Q382,44 382,52 V90 Q382,98 374,98 H106 L94,110 L96,98 H80 Q72,98 72,90 V52 Q72,44 80,44 Z" fill="#fff" stroke="#555" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="86" y="66" font-size="14" font-weight="700">„A ist doch schneller, oder?</text>
+<text x="86" y="86" font-size="14" font-weight="700">Ich will Videos schneiden.“</text>
+<rect x="44.0" y="155.6" width="120" height="74.4" rx="4" fill="#333" stroke="#333" stroke-width="1"/><rect x="48.0" y="159.6" width="112" height="66.4" rx="2" fill="#eef2f7" stroke="none" stroke-width="0"/><path d="M36.0,238 L44.0,230 L164.0,230 L172.0,238 Z" fill="#9aa3ad" stroke="#555" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="104" y="192" font-size="16" text-anchor="middle" font-weight="700">Laptop A</text>
+<rect x="40" y="256" width="128" height="64" rx="6" fill="#fff" stroke="#555" stroke-width="1.5"/>
+<text x="104" y="294" font-size="17" text-anchor="middle" font-weight="700" fill="#3a6ed8">4,4 GHz</text>
+<rect x="236.0" y="155.6" width="120" height="74.4" rx="4" fill="#333" stroke="#333" stroke-width="1"/><rect x="240.0" y="159.6" width="112" height="66.4" rx="2" fill="#eef2f7" stroke="none" stroke-width="0"/><path d="M228.0,238 L236.0,230 L356.0,230 L364.0,238 Z" fill="#9aa3ad" stroke="#555" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="296" y="192" font-size="16" text-anchor="middle" font-weight="700">Laptop B</text>
+<rect x="232" y="256" width="128" height="64" rx="6" fill="#fff" stroke="#555" stroke-width="1.5"/>
+<text x="296" y="280" font-size="17" text-anchor="middle" font-weight="700" fill="#E07B00">3,8 GHz</text>
+<text x="296" y="304" font-size="13" text-anchor="middle" fill="#444">anderer Hersteller</text>
+<circle cx="200" cy="350" r="18" fill="#E07B00" stroke="none" stroke-width="2"/><text x="200" y="358.1" font-size="23" text-anchor="middle" font-weight="700" fill="#fff">?</text>
+</svg>

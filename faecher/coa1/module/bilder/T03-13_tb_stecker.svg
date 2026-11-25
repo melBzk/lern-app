@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 340" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Thunderbolt-Stecker. Früher bei Thunderbolt 1 und 2: Stecker wie Mini-DisplayPort. Heute bei vielen Notebooks: über USB-C. Adapter gibt es auf DisplayPort, DVI, HDMI und VGA. Neuer als das Buch: Thunderbolt 4 mit 40 Gbit/s, Thunderbolt 5 mit 80, mit Bandwidth Boost bis 120 Gbit/s in eine Richtung.</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker><marker id="o" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E07B00"/></marker><marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6b4f"/></marker><marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker><marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker></defs>
+<rect width="400" height="340" fill="#fff"/>
+<text x="200" y="26" font-size="17" text-anchor="middle" font-weight="700">Thunderbolt: welcher Stecker?</text>
+<rect x="8" y="42" width="188" height="130" rx="10" fill="#f6f6f6" stroke="#ddd" stroke-width="1.5"/>
+<text x="102" y="64" font-size="14" text-anchor="middle" font-weight="700">früher: TB 1 und 2</text>
+<path d="M72,86 h60 v22 l-8,10 h-44 l-8,-10 Z" fill="#cfd6de" stroke="#333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="84" y="92" width="36" height="8" rx="1" fill="#555" stroke="none" stroke-width="0"/>
+<text x="102" y="148" font-size="14" text-anchor="middle" font-weight="700" fill="#1d3f8a">wie Mini-DisplayPort</text>
+<rect x="204" y="42" width="188" height="130" rx="10" fill="#f6f6f6" stroke="#ddd" stroke-width="1.5"/>
+<text x="298" y="64" font-size="14" text-anchor="middle" font-weight="700">heute: viele Notebooks</text>
+<rect x="258" y="88" width="80" height="26" rx="13" fill="#cfd6de" stroke="#333" stroke-width="2"/>
+<rect x="272" y="97" width="52" height="8" rx="4" fill="#555" stroke="none" stroke-width="0"/>
+<text x="298" y="148" font-size="14" text-anchor="middle" font-weight="700" fill="#1d3f8a">über USB-C</text>
+<text x="200" y="204" font-size="15" text-anchor="middle" font-weight="700">Adapter auf:</text>
+<rect x="12" y="216" width="88" height="40" rx="8" fill="#dbe6fb" stroke="#3a6ed8" stroke-width="2"/>
+<text x="56" y="242" font-size="13" text-anchor="middle" font-weight="700" fill="#1d3f8a">DisplayPort</text>
+<rect x="108" y="216" width="88" height="40" rx="8" fill="#dbe6fb" stroke="#3a6ed8" stroke-width="2"/>
+<text x="152" y="242" font-size="14" text-anchor="middle" font-weight="700" fill="#1d3f8a">DVI</text>
+<rect x="204" y="216" width="88" height="40" rx="8" fill="#dbe6fb" stroke="#3a6ed8" stroke-width="2"/>
+<text x="248" y="242" font-size="14" text-anchor="middle" font-weight="700" fill="#1d3f8a">HDMI</text>
+<rect x="300" y="216" width="88" height="40" rx="8" fill="#dbe6fb" stroke="#3a6ed8" stroke-width="2"/>
+<text x="344" y="242" font-size="14" text-anchor="middle" font-weight="700" fill="#1d3f8a">VGA</text>
+<rect x="14" y="276" width="372" height="50" rx="8" fill="#f1f3f5" stroke="#999" stroke-width="1.5"/>
+<text x="200" y="298" font-size="13" text-anchor="middle" fill="#444">neuer als das Buch:</text>
+<text x="200" y="318" font-size="14" text-anchor="middle" font-weight="700" fill="#333">TB 4: 40 Gbit/s · TB 5: 80 (bis 120) Gbit/s</text>
+</svg>

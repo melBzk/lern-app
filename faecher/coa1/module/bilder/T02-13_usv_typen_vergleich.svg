@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 470" font-family="system-ui, sans-serif" fill="#222">
+<title>Die drei USV-Typen nebeneinander. Online: Normalbetrieb immer über Gleich- und Wechselrichter, keine Umschaltung, immer saubere Spannung, am teuersten, Fachname VFI. Line-Interactive: gefiltert, Umschaltzeit 2 bis 4 ms, schützt vor Über- und Unterspannung, günstiger als Online, Fachname VI. Offline: nur gefiltert, direkt durch, Umschaltzeit bis 10 ms, schützt vor Überspannung, am günstigsten, Fachname VFD.</title>
+<rect width="400" height="470" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">Drei USV-Typen im Vergleich</text>
+<!-- Spalten -->
+<rect x="6" y="40" width="126" height="420" rx="10" fill="#e3f0e9" stroke="#1c6b3c" stroke-width="2"/>
+<rect x="137" y="40" width="126" height="420" rx="10" fill="#eef7f1" stroke="#1f9d55" stroke-width="2"/>
+<rect x="268" y="40" width="126" height="420" rx="10" fill="#f6fbf8" stroke="#7fbf96" stroke-width="2"/>
+<g text-anchor="middle">
+<g font-size="15" font-weight="700"><text x="69" y="64" fill="#1c6b3c">Online</text><text x="200" y="58" fill="#1f9d55">Line-</text><text x="200" y="74" fill="#1f9d55">Interactive</text><text x="331" y="64" fill="#3d7f56">Offline</text></g>
+<!-- Fachname -->
+<g font-size="22" font-weight="700"><text x="69" y="108">VFI</text><text x="200" y="108">VI</text><text x="331" y="108">VFD</text></g>
+<line x1="16" y1="122" x2="384" y2="122" stroke="#bbb" stroke-width="1"/>
+<!-- Normalbetrieb -->
+<g font-size="13" fill="#555"><text x="200" y="140">Normalbetrieb</text></g>
+<g font-size="13"><text x="69" y="160">immer über</text><text x="69" y="176">Gleich- und</text><text x="69" y="192">Wechselrichter</text>
+<text x="200" y="168">gefiltert</text>
+<text x="331" y="160">nur gefiltert,</text><text x="331" y="176">direkt durch</text></g>
+<line x1="16" y1="204" x2="384" y2="204" stroke="#bbb" stroke-width="1"/>
+<!-- Umschaltzeit -->
+<g font-size="13" fill="#555"><text x="200" y="222">Umschaltzeit</text></g>
+<g font-size="17" font-weight="700"><text x="69" y="250">keine</text><text x="200" y="250">2–4 ms</text><text x="331" y="250" fill="#c62828">bis 10 ms</text></g>
+<line x1="16" y1="266" x2="384" y2="266" stroke="#bbb" stroke-width="1"/>
+<!-- Schutz -->
+<g font-size="13" fill="#555"><text x="200" y="284">Schutz</text></g>
+<g font-size="13"><text x="69" y="306">immer saubere</text><text x="69" y="322">Spannung</text>
+<text x="200" y="306">Über- und</text><text x="200" y="322">Unterspannung</text>
+<text x="331" y="306">Überspannung</text></g>
+<line x1="16" y1="338" x2="384" y2="338" stroke="#bbb" stroke-width="1"/>
+<!-- Preis -->
+<g font-size="13" fill="#555"><text x="200" y="356">Preis</text></g>
+<g font-size="22" font-weight="700" fill="#E07B00"><text x="69" y="392">€€€</text><text x="200" y="392">€€</text><text x="331" y="392">€</text></g>
+<g font-size="13"><text x="69" y="416">am teuersten</text><text x="200" y="416">günstiger</text><text x="200" y="432">als Online</text><text x="331" y="416">am günstigsten</text></g>
+</g>
+</svg>

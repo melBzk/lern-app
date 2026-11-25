@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 470" font-family="system-ui, sans-serif" role="img">
+  <title>Merkbild weitere Drucker. Typenrad und Kugelkopf sind mechanisch: der Buchstabe schlägt durch ein Farbband. Kassenzettel-Drucker: Hitze färbt Spezialpapier, wartungsarm, aber nicht dokumentenecht. Wachsdrucker: wie Tintenstrahl, nur mit geschmolzenem Wachs. 3D-Drucker: Schicht für Schicht, auch innen komplexe Formen. Banknoten: viele Drucker sperren den Druck; Waffen aus dem 3D-Drucker: verboten.</title>
+  <rect width="400" height="470" fill="#fff"/>
+  <text x="200" y="26" text-anchor="middle" font-size="18" font-weight="700" fill="#222">Merke: weitere Drucker</text>
+
+  <rect fill="#f3f4f6" stroke="#bbb" x="8" y="40" width="384" height="78" rx="10"/>
+  <g stroke="#3a3f4a" stroke-width="2.5"><line x1="40" y1="78" x2="40" y2="58"/><line x1="40" y1="78" x2="57" y2="68"/><line x1="40" y1="78" x2="57" y2="88"/><line x1="40" y1="78" x2="40" y2="98"/><line x1="40" y1="78" x2="23" y2="88"/><line x1="40" y1="78" x2="23" y2="68"/></g>
+  <circle cx="40" cy="78" r="5" fill="#3a3f4a"/>
+  <text font-size="15" font-weight="700" fill="#222" x="82" y="64">Typenrad + Kugelkopf</text>
+  <text font-size="13" fill="#333" x="82" y="84">mechanisch</text>
+  <text font-size="14" font-weight="700" fill="#b35f00" x="82" y="104">Buchstabe schlägt durchs Farbband</text>
+
+  <rect fill="#f3f4f6" stroke="#bbb" x="8" y="126" width="384" height="78" rx="10"/>
+  <path d="M26,138 h30 v50 l-5,-4 l-5,4 l-5,-4 l-5,4 l-5,-4 l-5,4 z" fill="#fff" stroke="#333" stroke-width="1.5"/>
+  <g stroke="#333" stroke-width="2"><line x1="31" y1="150" x2="51" y2="150"/><line x1="31" y1="160" x2="47" y2="160"/></g>
+  <text font-size="15" font-weight="700" fill="#222" x="82" y="150">Kassenzettel-Drucker</text>
+  <text font-size="13" fill="#333" x="82" y="170">Hitze färbt Spezialpapier · wartungsarm</text>
+  <text x="82" y="190" font-size="14" font-weight="700" fill="#a32020">nicht dokumentenecht</text>
+
+  <rect fill="#f3f4f6" stroke="#bbb" x="8" y="212" width="384" height="78" rx="10"/>
+  <rect x="20" y="236" width="26" height="22" rx="3" fill="#f2c200" stroke="#a88600"/>
+  <path d="M62,232 C57,241 54,246 54,251 a8,8 0 0 0 16,0 C70,246 67,241 62,232 z" fill="#f2c200" stroke="#a88600"/>
+  <text font-size="15" font-weight="700" fill="#222" x="82" y="236">Wachsdrucker</text>
+  <text font-size="13" fill="#333" x="82" y="256">wie Tintenstrahl</text>
+  <text font-size="14" font-weight="700" fill="#b35f00" x="82" y="276">nur mit geschmolzenem Wachs</text>
+
+  <rect fill="#f3f4f6" stroke="#bbb" x="8" y="298" width="384" height="78" rx="10"/>
+  <g fill="#1fa3c9" stroke="#fff"><rect x="18" y="350" width="48" height="9"/><rect x="22" y="341" width="40" height="9"/><rect x="28" y="332" width="28" height="9"/><rect x="34" y="323" width="16" height="9"/></g>
+  <text font-size="15" font-weight="700" fill="#222" x="82" y="322">3D-Drucker</text>
+  <text font-size="13" fill="#333" x="82" y="342">Schicht für Schicht</text>
+  <text font-size="14" font-weight="700" fill="#b35f00" x="82" y="362">auch innen komplexe Formen</text>
+
+  <rect fill="#f3f4f6" stroke="#bbb" x="8" y="384" width="384" height="78" rx="10"/>
+  <rect x="18" y="400" width="52" height="28" rx="3" fill="#d9e7d0" stroke="#5b7f4a"/><circle cx="44" cy="414" r="8" fill="none" stroke="#5b7f4a" stroke-width="2"/>
+  <line x1="14" y1="432" x2="74" y2="396" stroke="#d63c3c" stroke-width="3.5"/>
+  <text font-size="15" font-weight="700" fill="#222" x="82" y="408">Was nicht gedruckt wird</text>
+  <text font-size="13" fill="#333" x="82" y="428">Banknoten: viele Drucker sperren</text>
+  <text x="82" y="448" font-size="14" font-weight="700" fill="#a32020">Waffen aus dem 3D-Drucker: verboten</text>
+</svg>

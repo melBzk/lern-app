@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 430" font-family="system-ui, sans-serif" fill="#222">
+<title>Merkbild Speichermedien: Drei Familien. Magnetisch: HDD und Magnetband; HDD: Kopf schwebt über drehenden Scheiben, nie öffnen; Magnetband für die Datensicherung in Firmen. Optisch: CD 700 MB, normale DVD 4,7 GB, Blu-ray 25 bis 50 GB. Flash: SSD, USB-Stick, Speicherkarte; SSD ohne bewegliche Teile, schneller, leiser, stoßfest.</title>
+<rect width="400" height="430" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">Speichermedien: das Wichtigste</text>
+<!-- magnetisch -->
+<rect x="10" y="40" width="380" height="136" rx="10" fill="#eef3fc" stroke="#3a6ed8" stroke-width="2"/>
+<text x="22" y="64" font-size="16" font-weight="700" fill="#3a6ed8">magnetisch</text>
+<rect x="24" y="76" width="44" height="38" rx="4" fill="#d9dde3" stroke="#444" stroke-width="1.5"/><circle cx="42" cy="95" r="13" fill="#9fb3cf" stroke="#3a6ed8" stroke-width="1.5"/>
+<text x="80" y="92" font-size="15" font-weight="700">HDD</text>
+<text x="124" y="92" font-size="14">Kopf schwebt über</text>
+<text x="80" y="110" font-size="14">drehenden Scheiben – <tspan font-weight="700" fill="#c62828">nie öffnen!</tspan></text>
+<rect x="24" y="126" width="44" height="30" rx="3" fill="#555"/><circle cx="36" cy="141" r="8" fill="#c9a36b"/><circle cx="56" cy="141" r="8" fill="#c9a36b"/>
+<text x="80" y="140" font-size="15" font-weight="700">Magnetband</text>
+<text x="80" y="160" font-size="14">Datensicherung in Firmen</text>
+<!-- optisch -->
+<rect x="10" y="186" width="380" height="120" rx="10" fill="#fdf2e6" stroke="#d9791f" stroke-width="2"/>
+<text x="22" y="210" font-size="16" font-weight="700" fill="#b5651d">optisch (Laser)</text>
+<g text-anchor="middle">
+<circle cx="76" cy="248" r="22" fill="#fff" stroke="#d9791f" stroke-width="2"/><circle cx="76" cy="248" r="5" fill="#d9791f"/>
+<text x="76" y="290" font-size="14" font-weight="700">CD 700 MB</text>
+<circle cx="200" cy="248" r="22" fill="#fff" stroke="#d9791f" stroke-width="2"/><circle cx="200" cy="248" r="5" fill="#d9791f"/>
+<text x="200" y="290" font-size="14" font-weight="700">DVD 4,7 GB</text>
+<circle cx="324" cy="248" r="22" fill="#fff" stroke="#3a6ed8" stroke-width="2"/><circle cx="324" cy="248" r="5" fill="#3a6ed8"/>
+<text x="324" y="290" font-size="14" font-weight="700">Blu-ray 25–50 GB</text>
+</g>
+<!-- Flash -->
+<rect x="10" y="316" width="380" height="104" rx="10" fill="#eaf6ee" stroke="#2e9e5b" stroke-width="2"/>
+<text x="22" y="340" font-size="16" font-weight="700" fill="#2e9e5b">Flash (Chips)</text>
+<text x="140" y="340" font-size="14">SSD, USB-Stick, Speicherkarte</text>
+<rect x="24" y="356" width="56" height="40" rx="4" fill="#fff" stroke="#2e9e5b" stroke-width="2"/><rect x="32" y="364" width="18" height="24" fill="#2e9e5b"/><rect x="54" y="364" width="18" height="24" fill="#2e9e5b"/>
+<text x="96" y="372" font-size="15" font-weight="700">SSD: keine beweglichen Teile</text>
+<text x="96" y="396" font-size="14">schneller · leiser · stoßfest</text>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>So arbeitet Optane, von oben nach unten: Betriebssystem, darunter das Optane-Modul im M.2-Steckplatz am PCIe-Bus, darunter die große, langsame SATA-Festplatte. Ein dicker grüner Pfeil vom Optane-Modul hoch zum Betriebssystem: oft gebrauchte Daten kommen schnell. Ein dünner grauer Pfeil von der Festplatte zum Betriebssystem: was nicht im Cache liegt, kommt langsamer von der Festplatte. Eine Sanduhr am Modul steht für die Anlernphase der Intel-Software. Hinweis: Der Nutzer merkt nichts davon.</title>
+<defs>
+<marker id="g" viewBox="0 0 10 10" refX="7" refY="5" markerUnits="strokeWidth" markerWidth="3" markerHeight="3" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2e7d32"/></marker>
+<marker id="k" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#888"/></marker>
+</defs>
+<rect width="400" height="500" fill="#fff"/>
+<text x="16" y="26" font-size="17" font-weight="700">Optane: Zwischenspeicher vor der Festplatte</text>
+
+<!-- Betriebssystem -->
+<rect x="80" y="46" width="190" height="50" rx="8" fill="#eceff1" stroke="#555" stroke-width="2"/>
+<text x="175" y="77" text-anchor="middle" font-size="16" font-weight="700">Betriebssystem</text>
+
+<!-- Optane -->
+<rect x="80" y="196" width="190" height="62" rx="8" fill="#e8f5e9" stroke="#2e7d32" stroke-width="3"/>
+<text x="175" y="222" text-anchor="middle" font-size="16" font-weight="700">Optane-Modul</text>
+<text x="175" y="244" text-anchor="middle" font-size="13">M.2-Steckplatz, PCIe</text>
+
+<!-- Festplatte -->
+<rect x="80" y="352" width="190" height="62" rx="8" fill="#eceff1" stroke="#555" stroke-width="2"/>
+<text x="175" y="378" text-anchor="middle" font-size="16" font-weight="700">SATA-Festplatte</text>
+<text x="175" y="400" text-anchor="middle" font-size="13">groß, langsam</text>
+<line x1="175" y1="258" x2="175" y2="352" stroke="#888" stroke-width="2"/>
+
+<!-- grüner Pfeil -->
+<line x1="120" y1="194" x2="120" y2="110" stroke="#2e7d32" stroke-width="9" marker-end="url(#g)"/>
+<text x="136" y="140" font-size="14" font-weight="700" fill="#2e7d32">oft gebrauchte Daten:</text>
+<text x="136" y="160" font-size="15" font-weight="700" fill="#2e7d32">schnell</text>
+
+<!-- grauer Pfeil -->
+<path d="M270,383 L320,383 L320,71 L282,71" fill="none" stroke="#888" stroke-width="2.5" marker-end="url(#k)"/>
+<text x="326" y="250" font-size="13" fill="#555">nicht im</text>
+<text x="326" y="266" font-size="13" fill="#555">Cache →</text>
+<text x="326" y="282" font-size="13" fill="#555">von der</text>
+<text x="326" y="298" font-size="13" fill="#555">Festplatte</text>
+<text x="326" y="318" font-size="13" font-weight="700" fill="#555">langsamer</text>
+
+<!-- Sanduhr -->
+<path d="M28,204 L60,204 L44,226 L60,248 L28,248 L44,226 Z" fill="#fff4e0" stroke="#E07B00" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M36,244 L52,244 L44,234 Z" fill="#E07B00"/>
+<line x1="62" y1="226" x2="80" y2="226" stroke="#E07B00" stroke-width="2"/>
+<text x="12" y="272" font-size="13" font-weight="700" fill="#b35c00">Anlernphase</text>
+
+<!-- Hinweis -->
+<rect x="60" y="440" width="280" height="40" rx="20" fill="#e8f0fe"/>
+<text x="200" y="466" text-anchor="middle" font-size="15" font-weight="700" fill="#3a6ed8">Nutzer merkt nichts davon</text>
+</svg>

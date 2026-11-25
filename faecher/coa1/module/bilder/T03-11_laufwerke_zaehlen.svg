@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 590" font-family="system-ui, sans-serif">
+  <title>Laufwerke am Unterrichts-Laptop zählen. Datenträger 0, eine SSD, trägt C:. Datenträger 1, eine SSD, trägt E: für Daten. Datenträger 2, eine externe Festplatte über USB, trägt H:. Datenträger 3, ein USB-Stick, trägt D:. Zusammen 4 Datenträger und 4 Laufwerke. Dazu abgesetzt mit Wolke: Y:, das Google-Drive-Laufwerk, ein Netzlaufwerk und kein Datenträger am PC. Eine gestrichelte Linie führt von Y: zu Datenträger 0: dort liegt der Zwischenspeicher von Google Drive, deshalb zeigt der Task-Manager Y: bei Datenträger 0 (Ergänzung zum Verstehen).</title>
+  <defs>
+    <g id="ssd"><rect x="-34" y="-22" width="68" height="44" rx="6" fill="#3d4450" stroke="#222" stroke-width="2"/><rect x="-24" y="-12" width="48" height="18" rx="2" fill="#fff"/><text y="2" text-anchor="middle" font-size="13" font-weight="700" fill="#222">SSD</text></g>
+  </defs>
+  <rect width="400" height="590" fill="#fff"/>
+  <text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700" fill="#222">4 Datenträger · 4 Laufwerke</text>
+  <text x="200" y="47" text-anchor="middle" font-size="16" font-weight="700" fill="#3a6ed8">+ 1 Netzlaufwerk</text>
+
+  <g transform="translate(0,22)">
+  <!-- Datenträger 0 -->
+  <rect x="8" y="40" width="186" height="160" rx="10" fill="#f3f4f6" stroke="#555" stroke-width="1.5"/>
+  <text x="101" y="62" text-anchor="middle" font-size="14" font-weight="700" fill="#222">Datenträger 0 – SSD</text>
+  <use xlink:href="#ssd" x="58" y="104"/>
+  <rect x="33" y="142" width="50" height="36" rx="6" fill="#3a6ed8"/>
+  <text x="58" y="167" text-anchor="middle" font-size="18" font-weight="700" fill="#fff">C:</text>
+  <rect x="104" y="80" width="84" height="66" rx="6" fill="#fff" stroke="#3a6ed8" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="146" y="100" text-anchor="middle" font-size="13" fill="#3a6ed8">Zwischen-</text>
+  <text x="146" y="117" text-anchor="middle" font-size="13" fill="#3a6ed8">speicher</text>
+  <text x="146" y="135" text-anchor="middle" font-size="13" fill="#3a6ed8">hier 💡</text>
+
+  <!-- Datenträger 1 -->
+  <rect x="206" y="40" width="186" height="160" rx="10" fill="#f3f4f6" stroke="#555" stroke-width="1.5"/>
+  <text x="299" y="62" text-anchor="middle" font-size="14" font-weight="700" fill="#222">Datenträger 1 – SSD</text>
+  <use xlink:href="#ssd" x="299" y="104"/>
+  <rect x="249" y="142" width="100" height="36" rx="6" fill="#3a6ed8"/>
+  <text x="299" y="167" text-anchor="middle" font-size="18" font-weight="700" fill="#fff">E: Daten</text>
+
+  <!-- Datenträger 2 -->
+  <rect x="8" y="212" width="186" height="170" rx="10" fill="#f3f4f6" stroke="#555" stroke-width="1.5"/>
+  <text x="101" y="234" text-anchor="middle" font-size="14" font-weight="700" fill="#222">Datenträger 2 – USB</text>
+  <text x="101" y="252" text-anchor="middle" font-size="14" font-weight="700" fill="#222">externe Festplatte</text>
+  <rect x="68" y="266" width="66" height="50" rx="10" fill="#555"/>
+  <rect x="80" y="278" width="42" height="16" rx="2" fill="#fff"/>
+  <path d="M134,296 Q150,296 150,312 L150,322" fill="none" stroke="#555" stroke-width="3"/>
+  <rect x="76" y="328" width="50" height="36" rx="6" fill="#3a6ed8"/>
+  <text x="101" y="353" text-anchor="middle" font-size="18" font-weight="700" fill="#fff">H:</text>
+
+  <!-- Datenträger 3 -->
+  <rect x="206" y="212" width="186" height="170" rx="10" fill="#f3f4f6" stroke="#555" stroke-width="1.5"/>
+  <text x="299" y="234" text-anchor="middle" font-size="14" font-weight="700" fill="#222">Datenträger 3 –</text>
+  <text x="299" y="252" text-anchor="middle" font-size="14" font-weight="700" fill="#222">USB-Stick</text>
+  <rect x="254" y="282" width="16" height="18" fill="#ccc" stroke="#555" stroke-width="1.5"/>
+  <rect x="270" y="274" width="76" height="34" rx="6" fill="#3a6ed8" stroke="#2a4f9e" stroke-width="1.5"/>
+  <rect x="274" y="328" width="50" height="36" rx="6" fill="#3a6ed8"/>
+  <text x="299" y="353" text-anchor="middle" font-size="18" font-weight="700" fill="#fff">D:</text>
+
+  <!-- Verbindung Y: zum Zwischenspeicher auf Datenträger 0 -->
+  <path d="M200,420 V113 H190" fill="none" stroke="#3a6ed8" stroke-width="2.5" stroke-dasharray="6 4"/>
+
+  <!-- abgesetzt: Y: Google Drive -->
+  <line x1="8" y1="402" x2="392" y2="402" stroke="#bbb" stroke-width="2" stroke-dasharray="6 5"/>
+  <rect x="20" y="420" width="360" height="104" rx="10" fill="#fff" stroke="#3a6ed8" stroke-width="2" stroke-dasharray="6 4"/>
+  <path d="M52,500 Q32,500 32,482 Q32,462 54,464 Q58,440 84,444 Q102,428 122,446 Q146,444 146,468 Q160,474 154,490 Q150,500 136,500 Z" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+  <text x="92" y="482" text-anchor="middle" font-size="22" font-weight="700" fill="#d63c3c">Y:</text>
+  <text x="168" y="450" font-size="16" font-weight="700" fill="#222">Google Drive</text>
+  <text x="168" y="472" font-size="14" font-weight="700" fill="#3a6ed8">Netzlaufwerk</text>
+  <text x="168" y="494" font-size="14" font-weight="700" fill="#d63c3c">kein Datenträger</text>
+  <text x="168" y="512" font-size="14" font-weight="700" fill="#d63c3c">am PC</text>
+  <text x="200" y="552" text-anchor="middle" font-size="14" fill="#222">Buchstabe ja – Daten liegen in der Cloud</text>
+  </g>
+</svg>

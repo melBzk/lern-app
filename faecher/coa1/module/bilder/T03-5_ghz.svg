@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 460" font-family="system-ui, sans-serif" fill="#222" role="img">
+<title>Geschwindigkeit in GHz. Oben eine Taktwelle: 1 GHz = 1 Milliarde Takte pro Sekunde = 1000 MHz. Darunter eine Skala von 0 bis 5 GHz: heute üblich Grundtakt ca. 2 bis 4 GHz (blau), Turbo als oranger Pfeil vom Ende des Grundtakts nach oben bis ca. 5 GHz (gemeint ist nur der Höchstwert); Beispielwerte, keine Norm. Ablesen im Task-Manager unter Leistung, CPU, oder im Angebot. Unten rot: Nicht 2 Milliarden GHz, sondern 2 GHz = 2 Milliarden Takte pro Sekunde.</title>
+<defs><marker id="t" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#E07B00"/></marker></defs>
+<rect width="400" height="460" fill="#fff"/>
+<text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700">Geschwindigkeit in GHz</text>
+<rect x="10" y="44" width="380" height="120" rx="10" fill="#f4f5f7"/>
+<path d="M30,100 V70 H44 V100 H58 V70 H72 V100 H86 V70 H100 V100 H114 V70 H128 V100 H142 V70 H156 V100 H170 V70 H184 V100" stroke="#3a6ed8" stroke-width="2.5" fill="none"/>
+<text x="196" y="92" font-size="15">… in 1 Sekunde</text>
+<text x="24" y="128" font-size="16" font-weight="700">1 GHz = 1 Milliarde Takte/s</text>
+<text x="24" y="152" font-size="16" font-weight="700" fill="#3a6ed8">= 1000 MHz</text>
+<text x="200" y="196" text-anchor="middle" font-size="15" font-weight="700">Heute üblich (Beispielwerte)</text>
+<line x1="30" y1="250" x2="370" y2="250" stroke="#555" stroke-width="2"/>
+<g font-size="14" text-anchor="middle" fill="#555"><text x="30" y="272">0</text><text x="98" y="272">1</text><text x="166" y="272">2</text><text x="234" y="272">3</text><text x="302" y="272">4</text><text x="370" y="272">5 GHz</text></g>
+<g stroke="#555" stroke-width="2"><path d="M30,244 v12 M98,244 v12 M166,244 v12 M234,244 v12 M302,244 v12 M370,244 v12"/></g>
+<rect x="166" y="222" width="136" height="22" rx="3" fill="#3a6ed8"/>
+<text x="234" y="238" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">Grundtakt 2–4</text>
+<line x1="302" y1="233" x2="368" y2="233" stroke="#E07B00" stroke-width="4" marker-end="url(#t)"/>
+<line x1="370" y1="218" x2="370" y2="244" stroke="#E07B00" stroke-width="3"/>
+<text x="392" y="210" text-anchor="end" font-size="14" font-weight="700" fill="#c25e00">Turbo: bis ca. 5</text>
+<text x="200" y="306" text-anchor="middle" font-size="14">ablesen: Task-Manager (Leistung → CPU) oder Angebot</text>
+<rect x="10" y="330" width="380" height="118" rx="10" fill="#fdecec" stroke="#c62828" stroke-width="2"/>
+<text x="24" y="358" font-size="15" font-weight="700" fill="#c62828">⚠ Achtung</text>
+<text x="24" y="386" font-size="15"><tspan fill="#c62828" font-weight="700">✗</tspan> „2 Milliarden GHz“</text>
+<text x="24" y="416" font-size="15"><tspan fill="#2f9e44" font-weight="700">✓</tspan> 2 GHz = <tspan font-weight="700">2 Milliarden Takte</tspan></text>
+<text x="44" y="436" font-size="15" font-weight="700">pro Sekunde</text>
+</svg>

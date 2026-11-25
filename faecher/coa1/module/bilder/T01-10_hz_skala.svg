@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 420" font-family="system-ui, sans-serif" role="img">
+  <title>Bildwiederholrate auf einer Skala in Hertz. Für Flachbildschirme werden aus Gründen der Ergonomie ab 60 Hertz gefordert. 59 Hertz ist der niedrigste Wert, den viele Grafikkarten anbieten, praktisch gleich 60. Displays für Spieler gibt es bis 240 Hertz. Unten: Ein LCD flimmert nicht. Seine Pixel leuchten durchgehend, auch wenn regelmäßig neue Bilddaten kommen.</title>
+  <rect width="400" height="420" fill="#fff"/>
+  <text x="200" y="26" text-anchor="middle" font-size="18" font-weight="700" fill="#222">Bildwiederholrate in Hz</text>
+  <text x="200" y="48" text-anchor="middle" font-size="13" fill="#333">Hz = Bilder pro Sekunde</text>
+
+  <!-- Skala 0..240 auf x 30..370 -->
+  <rect x="30" y="96" width="340" height="16" rx="8" fill="#e5e7eb"/>
+  <rect x="115" y="96" width="255" height="16" rx="0" fill="#1f9d55" opacity="0.25"/>
+  <g stroke="#3a3f4a" stroke-width="2"><line x1="30" y1="90" x2="30" y2="118"/><line x1="115" y1="84" x2="115" y2="124"/><line x1="370" y1="84" x2="370" y2="124"/></g>
+  <text x="30" y="138" text-anchor="middle" font-size="13" fill="#333">0</text>
+  <text x="115" y="140" text-anchor="middle" font-size="16" font-weight="700" fill="#14653a">60</text>
+  <text x="370" y="140" text-anchor="middle" font-size="16" font-weight="700" fill="#b35f00">240</text>
+  <text x="115" y="78" text-anchor="middle" font-size="14" font-weight="700" fill="#14653a">ab 60 Hz gefordert</text>
+  <text x="115" y="160" text-anchor="middle" font-size="13" fill="#333">59 Hz ≈ 60 Hz</text>
+  <text x="388" y="78" text-anchor="end" font-size="14" font-weight="700" fill="#b35f00">Spieler: bis 240</text>
+
+  <!-- flimmert nicht -->
+  <rect x="8" y="186" width="384" height="222" rx="12" fill="#f3f4f6" stroke="#bbb"/>
+  <text x="200" y="214" text-anchor="middle" font-size="17" font-weight="700" fill="#222">Ein LCD flimmert nicht</text>
+  <text x="24" y="250" font-size="13" fill="#333">hell</text>
+  <line x1="60" y1="246" x2="380" y2="246" stroke="#1f9d55" stroke-width="5"/>
+  <text x="220" y="276" text-anchor="middle" font-size="14" font-weight="700" fill="#14653a">Pixel leuchtet durchgehend</text>
+  <line x1="60" y1="330" x2="380" y2="330" stroke="#3a3f4a" stroke-width="2"/>
+  <g stroke="#E07B00" stroke-width="3"><line x1="80" y1="316" x2="80" y2="330"/><line x1="130" y1="316" x2="130" y2="330"/><line x1="180" y1="316" x2="180" y2="330"/><line x1="230" y1="316" x2="230" y2="330"/><line x1="280" y1="316" x2="280" y2="330"/><line x1="330" y1="316" x2="330" y2="330"/></g>
+  <text x="220" y="354" text-anchor="middle" font-size="14" font-weight="700" fill="#b35f00">regelmäßig neue Bilddaten</text>
+  <text x="220" y="390" text-anchor="middle" font-size="13" fill="#333">umgeschaltet wird nur bei Bedarf</text>
+</svg>

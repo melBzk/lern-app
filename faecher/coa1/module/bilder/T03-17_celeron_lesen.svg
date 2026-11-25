@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Celeron – was 2 (2) verrät. Zwei Steckbriefe. Links Celeron G5900: Kerne (Threads) 2 (2), rot umkreist: Threads gleich Kerne, also kein Hyper-Threading. Turbo Strich, rot umkreist: kein Turbo Boost. Smart Cache 2 MB, TDP 58 W. Rechts Core i3-10100: Kerne (Threads) 4 (8), grün umkreist: 8 ist 2 mal 4, also Hyper-Threading. Turbo 4,3 GHz, Smart Cache 6 MB, TDP 65 W. Stand Buch 2020.</title>
+<rect width="400" height="400" fill="#fff"/>
+<text x="16" y="28" font-size="17" font-weight="700">Was „2 (2)“ verrät</text>
+<rect x="8" y="46" width="182" height="344" rx="10" fill="#fff" stroke="#555" stroke-width="2"/>
+<text x="99" y="72" text-anchor="middle" font-size="14" font-weight="700">Celeron</text>
+<text x="99" y="94" text-anchor="middle" font-size="18" font-weight="700">G5900</text>
+<line x1="18" y1="106" x2="180" y2="106" stroke="#ddd" stroke-width="1.5"/>
+<text x="20" y="128" font-size="13" fill="#555">Kerne (Threads)</text>
+<text x="28" y="154" font-size="18" font-weight="700">2 (2)</text>
+<ellipse cx="50" cy="148" rx="32" ry="17" fill="none" stroke="#c62828" stroke-width="3"/>
+<text x="20" y="186" font-size="13" font-weight="700" fill="#c62828">Threads = Kerne →</text>
+<text x="20" y="203" font-size="13" font-weight="700" fill="#c62828">kein Hyper-Threading</text>
+<text x="20" y="232" font-size="13" fill="#555">Turbo</text>
+<text x="28" y="258" font-size="18" font-weight="700">–</text>
+<ellipse cx="36" cy="252" rx="18" ry="16" fill="none" stroke="#c62828" stroke-width="3"/>
+<text x="64" y="257" font-size="13" font-weight="700" fill="#c62828">kein Turbo Boost</text>
+<text x="20" y="290" font-size="13" fill="#555">Smart Cache</text>
+<text x="20" y="310" font-size="15" font-weight="700">2 MB</text>
+<text x="20" y="340" font-size="13" fill="#555">TDP</text>
+<text x="20" y="362" font-size="15" font-weight="700">58 W</text>
+
+<rect x="210" y="46" width="182" height="344" rx="10" fill="#fff" stroke="#555" stroke-width="2"/>
+<text x="301" y="72" text-anchor="middle" font-size="14" font-weight="700">Core</text>
+<text x="301" y="94" text-anchor="middle" font-size="18" font-weight="700">i3-10100</text>
+<line x1="220" y1="106" x2="382" y2="106" stroke="#ddd" stroke-width="1.5"/>
+<text x="222" y="128" font-size="13" fill="#555">Kerne (Threads)</text>
+<text x="230" y="154" font-size="18" font-weight="700">4 (8)</text>
+<ellipse cx="252" cy="148" rx="32" ry="17" fill="none" stroke="#2e7d32" stroke-width="3"/>
+<text x="222" y="186" font-size="13" font-weight="700" fill="#2e7d32">8 = 2 × 4 →</text>
+<text x="222" y="203" font-size="13" font-weight="700" fill="#2e7d32">Hyper-Threading</text>
+<text x="222" y="232" font-size="13" fill="#555">Turbo</text>
+<text x="230" y="258" font-size="18" font-weight="700">4,3 GHz</text>
+<text x="222" y="290" font-size="13" fill="#555">Smart Cache</text>
+<text x="222" y="310" font-size="15" font-weight="700">6 MB</text>
+<text x="222" y="340" font-size="13" fill="#555">TDP</text>
+<text x="222" y="362" font-size="15" font-weight="700">65 W</text>
+
+<g transform="rotate(-6 330 24)">
+<rect x="270" y="8" width="118" height="30" rx="4" fill="#fff" stroke="#666" stroke-width="2"/>
+<text x="329" y="29" text-anchor="middle" font-size="13" font-weight="700" fill="#666">Stand Buch 2020</text>
+</g>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 326" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Vier Anzeigen für CPU, RAM, Speicher und Netz: Monitoring heißt Auslastung überwachen, Stoff der AP2. Darunter: bei Serviceanfragen die Fehlerursache suchen (Lernfeld 6). Und: die Bordmittel sind auf jedem Windows-PC schon da.</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker><marker id="o" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E07B00"/></marker><marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6b4f"/></marker><marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker><marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker></defs>
+<rect width="400" height="326" fill="#fff"/>
+<text x="200" y="26" font-size="17" text-anchor="middle" font-weight="700">Monitoring = Auslastung überwachen</text>
+<path d="M22,100 A34,34 0 0 1 90,100" fill="none" stroke="#ddd" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M22,100 A34,34 0 0 1 50.68122818863215,66.41859641976532" fill="none" stroke="#3a6ed8" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="56" y="124" font-size="14" text-anchor="middle" font-weight="700">CPU</text>
+<path d="M118,100 A34,34 0 0 1 186,100" fill="none" stroke="#ddd" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M118,100 A34,34 0 0 1 162.5065778087482,67.66407844596478" fill="none" stroke="#3fa34d" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="152" y="124" font-size="14" text-anchor="middle" font-weight="700">RAM</text>
+<path d="M214,100 A34,34 0 0 1 282,100" fill="none" stroke="#ddd" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M214,100 A34,34 0 0 1 228.01530142205593,72.4934221912518" fill="none" stroke="#7b3fa0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="248" y="124" font-size="14" text-anchor="middle" font-weight="700">Speicher</text>
+<path d="M310,100 A34,34 0 0 1 378,100" fill="none" stroke="#ddd" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M310,100 A34,34 0 0 1 316.4934221912518,80.01530142205591" fill="none" stroke="#E07B00" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="344" y="124" font-size="14" text-anchor="middle" font-weight="700">Netz</text>
+<rect x="14" y="140" width="372" height="34" rx="8" fill="#f1f3f5" stroke="#999" stroke-width="1.5"/>
+<text x="200" y="162" font-size="14" text-anchor="middle" font-weight="700" fill="#555">Stoff der AP2</text>
+<circle cx="44" cy="209.2" r="8.4" fill="#555" stroke="none" stroke-width="2"/><path d="M29.6,238.0 Q44,211.6 58.4,238.0" fill="#555" stroke="#555" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="86" y="214" font-size="14" font-weight="700">Serviceanfrage: Fehlerursache suchen</text>
+<text x="86" y="234" font-size="13" fill="#444">(Lernfeld 6)</text>
+<rect x="18.0" y="269.76" width="52" height="32.24" rx="4" fill="#333" stroke="#333" stroke-width="1"/><rect x="22.0" y="273.76" width="44" height="24.240000000000002" rx="2" fill="#eef2f7" stroke="none" stroke-width="0"/><path d="M10.0,310 L18.0,302 L70.0,302 L78.0,310 Z" fill="#9aa3ad" stroke="#555" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="70" cy="268" r="9" fill="#2f6b4f" stroke="none" stroke-width="2"/><path d="M65.95,268 l2.88,3.2399999999999998 l5.76,-6.4799999999999995" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="86" y="284" font-size="14" font-weight="700" fill="#2f6b4f">Bordmittel sind auf jedem</text>
+<text x="86" y="304" font-size="14" font-weight="700" fill="#2f6b4f">Windows-PC schon da</text>
+</svg>

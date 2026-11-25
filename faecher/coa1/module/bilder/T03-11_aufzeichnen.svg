@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 470" font-family="system-ui, sans-serif">
+  <title>Aufzeichnen und später auswerten. Ein roter Aufnahme-Punkt zeigt: Der Datensammlersatz läuft mit. Darunter ein Zeitstrahl von 8 Uhr bis 18 Uhr mit einer Messkurve, die vormittags niedrig ist und nachmittags stark ansteigt. Am Ende ein Blatt Papier mit Diagramm: Bericht, später ansehen.</title>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker>
+  </defs>
+  <rect width="400" height="470" fill="#fff"/>
+  <text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700" fill="#222">Aufzeichnen, später auswerten</text>
+
+  <!-- Aufnahme -->
+  <circle cx="40" cy="66" r="13" fill="#d63c3c"/>
+  <circle cx="40" cy="66" r="19" fill="none" stroke="#d63c3c" stroke-width="2" opacity="0.5"/>
+  <text x="68" y="62" font-size="15" font-weight="700" fill="#d63c3c">Datensammlersatz:</text>
+  <text x="68" y="81" font-size="15" fill="#222">läuft mit</text>
+
+  <!-- Diagramm -->
+  <rect x="20" y="104" width="364" height="172" rx="8" fill="#f8f9fa" stroke="#ddd"/>
+  <line x1="40" y1="250" x2="370" y2="250" stroke="#555" stroke-width="2"/>
+  <g stroke="#555" stroke-width="2">
+    <line x1="50" y1="250" x2="50" y2="257"/><line x1="112" y1="250" x2="112" y2="257"/>
+    <line x1="174" y1="250" x2="174" y2="257"/><line x1="236" y1="250" x2="236" y2="257"/>
+    <line x1="298" y1="250" x2="298" y2="257"/><line x1="360" y1="250" x2="360" y2="257"/>
+  </g>
+  <g font-size="13" fill="#222" text-anchor="middle">
+    <text x="50" y="271">8 Uhr</text><text x="112" y="271">10</text><text x="174" y="271">12</text>
+    <text x="236" y="271">14</text><text x="298" y="271">16</text><text x="350" y="271">18 Uhr</text>
+  </g>
+  <path d="M50,232 L70,228 L90,234 L112,226 L134,232 L156,224 L174,230 L196,222 L214,214 L236,190 L252,170 L270,150 L290,136 L310,128 L330,140 L346,124 L360,132" fill="none" stroke="#d63c3c" stroke-width="3.5" stroke-linejoin="round"/>
+  <text x="278" y="122" text-anchor="middle" font-size="14" font-weight="700" fill="#d63c3c">nachmittags hoch</text>
+
+  <line x1="200" y1="286" x2="200" y2="318" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+
+  <!-- Bericht -->
+  <path d="M120,326 L196,326 L214,344 L214,448 L120,448 Z" fill="#fff" stroke="#555" stroke-width="2"/>
+  <path d="M196,326 L196,344 L214,344" fill="none" stroke="#555" stroke-width="2"/>
+  <line x1="132" y1="430" x2="202" y2="430" stroke="#999" stroke-width="2"/>
+  <line x1="132" y1="360" x2="132" y2="430" stroke="#999" stroke-width="2"/>
+  <path d="M134,420 L150,418 L166,414 L178,396 L190,378 L202,374" fill="none" stroke="#d63c3c" stroke-width="2.5"/>
+  <text x="228" y="382" font-size="15" font-weight="700" fill="#222">Bericht:</text>
+  <text x="228" y="403" font-size="15" fill="#222">später ansehen</text>
+</svg>

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 490" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Das ganze Gehäuse zählt: zwei PC-Gehäuse von der Seite. Links schlecht: Keine Luft kommt rein oder raus, eine rote Wärmewolke füllt das Gehäuse, alle Lüfter laufen auf MAX, ein Warndreieck zeigt Überhitzung. Rechts gut: Vorne unten kommt blaue Frischluft herein, strömt an Festplatte, Grafikkarte, Leistungsreglern auf dem Mainboard und CPU vorbei und geht hinten oben als warme Luft hinaus.</title>
+<defs>
+<marker id="o" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E07B00"/></marker>
+<marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker>
+</defs>
+<rect width="400" height="490" fill="#fff"/>
+<text x="100" y="30" font-size="17" text-anchor="middle" font-weight="700" fill="#c62828">schlecht</text>
+<text x="300" y="30" font-size="17" text-anchor="middle" font-weight="700" fill="#2e7d32">gut</text>
+<line x1="200" y1="12" x2="200" y2="480" stroke="#ccc" stroke-width="1.5"/>
+
+<!-- links: schlecht -->
+<rect x="8" y="64" width="184" height="360" rx="6" fill="#fafafa" stroke="#555" stroke-width="2.5"/>
+<rect x="180" y="80" width="12" height="44" rx="3" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<rect x="8" y="356" width="12" height="48" rx="3" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<rect x="70" y="100" width="20" height="10" fill="#333"/><rect x="70" y="115" width="20" height="10" fill="#333"/><rect x="70" y="130" width="20" height="10" fill="#333"/>
+<rect x="100" y="96" width="48" height="48" rx="4" fill="#9aa5b1" stroke="#555" stroke-width="1.5"/>
+<circle cx="124" cy="120" r="14" fill="none" stroke="#fff" stroke-width="2.5"/>
+<rect x="36" y="250" width="140" height="24" rx="3" fill="#555"/>
+<rect x="26" y="300" width="74" height="34" rx="3" fill="#777"/>
+
+<ellipse cx="100" cy="240" rx="86" ry="160" fill="#c62828" opacity="0.22"/>
+<g font-size="13" font-weight="700" fill="#c62828">
+<text x="176" y="142" text-anchor="end">MAX!</text>
+<text x="124" y="90" text-anchor="middle">MAX!</text>
+<text x="24" y="350">MAX!</text>
+</g>
+<path d="M100,176 L136,236 L64,236 Z" fill="#f2c200" stroke="#222" stroke-width="2.5" stroke-linejoin="round"/>
+<text x="100" y="230" text-anchor="middle" font-size="26" font-weight="700">!</text>
+<text x="100" y="452" text-anchor="middle" font-weight="700" fill="#c62828">Überhitzung</text>
+<text x="100" y="470" text-anchor="middle" font-size="13">obwohl alle Lüfter</text>
+<text x="100" y="486" text-anchor="middle" font-size="13">auf MAX drehen</text>
+
+<!-- rechts: gut -->
+<rect x="208" y="64" width="184" height="360" rx="6" fill="#fafafa" stroke="#555" stroke-width="2.5"/>
+<rect x="380" y="80" width="12" height="44" rx="3" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<rect x="208" y="356" width="12" height="48" rx="3" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<rect x="270" y="100" width="20" height="10" fill="#333"/><rect x="270" y="115" width="20" height="10" fill="#333"/><rect x="270" y="130" width="20" height="10" fill="#333"/>
+<rect x="300" y="96" width="48" height="48" rx="4" fill="#9aa5b1" stroke="#555" stroke-width="1.5"/>
+<circle cx="324" cy="120" r="14" fill="none" stroke="#fff" stroke-width="2.5"/>
+<rect x="236" y="250" width="140" height="24" rx="3" fill="#555"/>
+<rect x="226" y="300" width="74" height="34" rx="3" fill="#777"/>
+<text x="324" y="162" text-anchor="middle" font-weight="700">CPU</text>
+<text x="306" y="267" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">Grafikkarte</text>
+<text x="263" y="322" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">Festplatte</text>
+<line x1="280" y1="142" x2="264" y2="180" stroke="#777" stroke-width="1.3"/>
+<text x="222" y="196" font-size="13" font-weight="700">Leistungsregler</text>
+<text x="222" y="212" font-size="13">auf dem Mainboard</text>
+
+<line x1="210" y1="368" x2="252" y2="368" stroke="#3a6ed8" stroke-width="4" marker-end="url(#b)"/>
+<line x1="210" y1="392" x2="252" y2="392" stroke="#3a6ed8" stroke-width="4" marker-end="url(#b)"/>
+<path d="M262,380 C320,370 360,330 360,290" fill="none" stroke="#3a6ed8" stroke-width="3" marker-end="url(#b)"/>
+<path d="M360,240 C360,200 340,190 360,130" fill="none" stroke="#E07B00" stroke-width="3" marker-end="url(#o)"/>
+<line x1="380" y1="102" x2="398" y2="102" stroke="#E07B00" stroke-width="4" marker-end="url(#o)"/>
+<text x="396" y="56" text-anchor="end" font-weight="700" fill="#E07B00">warme Luft raus</text>
+<text x="208" y="452" font-weight="700" fill="#3a6ed8">Frischluft rein</text>
+<text x="208" y="470" font-size="13">vorne unten</text>
+</svg>

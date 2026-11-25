@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480" font-family="system-ui, sans-serif" fill="#222" role="img">
+<title>Rechenweg Millisekunden gegen Nanosekunden. Festplatte antwortet im Millisekundenbereich, Arbeitsspeicher im Nanosekundenbereich. 1: 1 s = 1000 ms. 2: 1 s = 1 000 000 000 ns. 3: 1 ms = 1 000 000 000 ns geteilt durch 1000 = 1 000 000 ns. Ergebnis: zwischen den Einheiten liegt der Faktor eine Million. Hinweis: wie viel schneller ein echter RAM ist, hängt vom Gerät ab, das Buch nennt keinen Faktor, also nicht tausendmal.</title>
+<rect width="400" height="480" fill="#fff"/>
+<text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700">Millisekunden gegen Nanosekunden</text>
+<rect x="10" y="44" width="185" height="64" rx="10" fill="#f4f5f7"/>
+<text x="102" y="70" text-anchor="middle" font-size="15" font-weight="700">Festplatte</text>
+<text x="102" y="94" text-anchor="middle" font-size="15">Millisekunden (ms)</text>
+<rect x="205" y="44" width="185" height="64" rx="10" fill="#e6f4ea" stroke="#2f9e44" stroke-width="2"/>
+<text x="297" y="70" text-anchor="middle" font-size="15" font-weight="700">Arbeitsspeicher</text>
+<text x="297" y="94" text-anchor="middle" font-size="15">Nanosekunden (ns)</text>
+<circle cx="26" cy="144" r="13" fill="#3a6ed8"/><text x="26" y="149" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">1</text>
+<text x="50" y="140" font-size="14" fill="#555">Milli = Tausendstel</text>
+<text x="50" y="160" font-size="16" font-weight="700">1 s = 1000 ms</text>
+<circle cx="26" cy="204" r="13" fill="#3a6ed8"/><text x="26" y="209" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">2</text>
+<text x="50" y="200" font-size="14" fill="#555">Nano = Milliardstel</text>
+<text x="50" y="220" font-size="16" font-weight="700">1 s = 1 000 000 000 ns</text>
+<circle cx="26" cy="264" r="13" fill="#3a6ed8"/><text x="26" y="269" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">3</text>
+<text x="50" y="260" font-size="14" fill="#555">teilen durch 1000</text>
+<text x="50" y="280" font-size="16" font-weight="700">1 ms = 1 000 000 ns</text>
+<rect x="30" y="304" width="340" height="56" rx="10" fill="#fff4e0" stroke="#E07B00" stroke-width="2.5"/>
+<text x="200" y="328" text-anchor="middle" font-size="15">zwischen den Einheiten:</text>
+<text x="200" y="350" text-anchor="middle" font-size="17" font-weight="700" fill="#c25e00">Faktor eine Million</text>
+<rect x="10" y="378" width="380" height="90" rx="10" fill="#fdecec" stroke="#c62828" stroke-width="2"/>
+<text x="24" y="404" font-size="15" font-weight="700" fill="#c62828">⚠ „RAM tausendmal schneller“?</text>
+<text x="24" y="428" font-size="14">Das Buch nennt keinen Faktor – hängt</text>
+<text x="24" y="448" font-size="14">vom Gerät ab. Klausur: „viel schneller“</text>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 460" font-family="system-ui, sans-serif" fill="#222">
+<title>Merkhilfe für die Reihenfolge der Stufen: Kleine Mäuse gehen täglich putzen, essen zuletzt Yoghurt. Die Anfangsbuchstaben ergeben Kilo, Mega, Giga, Tera, Peta, Exa, Zetta, Yotta. Ganz unten: 1 Byte = 8 Bit. Jede Stufe ist 1024-mal die darunter. Zetta kommt vor Yotta.</title>
+<rect width="400" height="460" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">Die Reihenfolge merken</text>
+<text x="200" y="48" text-anchor="middle" font-size="14" fill="#555">jede Zeile = vorige × 1024</text>
+<g font-size="15">
+<g fill="#e8f0fe"><rect x="10" y="60" width="380" height="40" rx="8"/><rect x="10" y="104" width="380" height="40" rx="8"/><rect x="10" y="148" width="380" height="40" rx="8"/><rect x="10" y="192" width="380" height="40" rx="8"/><rect x="10" y="236" width="380" height="40" rx="8"/><rect x="10" y="280" width="380" height="40" rx="8"/></g>
+<g fill="#fdf0e0"><rect x="10" y="324" width="380" height="40" rx="8"/><rect x="10" y="368" width="380" height="40" rx="8"/></g>
+<g font-size="20" font-weight="700" fill="#3a6ed8" text-anchor="middle">
+<text x="34" y="87">K</text><text x="34" y="131">M</text><text x="34" y="175">G</text><text x="34" y="219">T</text><text x="34" y="263">P</text><text x="34" y="307">E</text>
+</g>
+<g font-size="20" font-weight="700" fill="#E07B00" text-anchor="middle"><text x="34" y="351">Z</text><text x="34" y="395">Y</text></g>
+<text x="62" y="86"><tspan font-weight="700">K</tspan>leine</text><text x="200" y="86" font-weight="700">KB · Kilo</text>
+<text x="62" y="130"><tspan font-weight="700">M</tspan>äuse</text><text x="200" y="130" font-weight="700">MB · Mega</text>
+<text x="62" y="174"><tspan font-weight="700">g</tspan>ehen</text><text x="200" y="174" font-weight="700">GB · Giga</text>
+<text x="62" y="218"><tspan font-weight="700">t</tspan>äglich</text><text x="200" y="218" font-weight="700">TB · Tera</text>
+<text x="62" y="262"><tspan font-weight="700">p</tspan>utzen,</text><text x="200" y="262" font-weight="700">PB · Peta</text>
+<text x="62" y="306"><tspan font-weight="700">e</tspan>ssen</text><text x="200" y="306" font-weight="700">EB · Exa</text>
+<text x="62" y="350"><tspan font-weight="700">z</tspan>uletzt</text><text x="200" y="350" font-weight="700">ZB · Zetta</text>
+<text x="62" y="394"><tspan font-weight="700">Y</tspan>oghurt.</text><text x="200" y="394" font-weight="700">YB · Yotta</text>
+</g>
+<text x="380" y="350" text-anchor="end" font-size="13" font-weight="700" fill="#E07B00">Z vor Y!</text>
+<text x="200" y="440" text-anchor="middle" font-size="14">Start: <tspan font-weight="700">1 Byte = 8 Bit</tspan>, dann 1 KB = 1024 Byte</text>
+</svg>

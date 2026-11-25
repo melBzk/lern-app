@@ -93,7 +93,7 @@ function norm(s) { return s.toLowerCase().replace(/[„“"'().,!?]/g, "").repla
 // Klammerzusatz darf fehlen oder allein stehen ("1 Byte (8 Bit)", "Kibibyte (KiB)")
 function textKey(s) {
   return s.toLowerCase().trim().replace(/^(der|die|das|den|dem|des|ein|eine|einen|the|a|an)\s+/, "")
-    .replace(/[„“"'.,!?()]/g, "").replace(/[-–_\/\s]+/g, "");
+    .replace(/[„“”"'’‘‚«».,!?()]/g, "").replace(/[-–_\/\s]+/g, "");  // ’‘ usw.: iPhone setzt typografische Zeichen
 }
 function textMatch(input, accept) {
   const varianten = [input, input.replace(/\([^)]*\)/g, " "), ...(input.match(/\(([^)]*)\)/g) || [])];
@@ -234,12 +234,8 @@ function homeView() {
         <div class="stat"><div class="num">${state.days[today()] || 0}</div><div class="lbl">heute beantwortet</div></div>
         <div class="stat"><div class="num">${pct(s.mastered, s.total)}%</div><div class="lbl">sicher gelernt</div></div>
       </div>
-      <h2 class="heute">Heute lernen – wie viel Zeit hast du?</h2>
-      <div class="zeitwahl">
-        ${[[5, 8], [15, 20], [30, 35]].map(([min, n]) => `<button class="btn primary" data-n="${n}">${min} Min.<small>≈ ${n} Fragen</small></button>`).join("")}
-      </div>
-      <p class="muted klein">${due.length} fällig · ${weakQ.length} Fehler · neue Fragen nur aus Themen, die du schon gelesen hast</p>
-      ${nm ? `<button class="btn dark" id="neu">🃏 Nächstes Thema lesen <small>${esc(fachById(nm.fach).name)} · ${esc(nm.titel)} · ca. ${minuten(nm)} Min.</small></button>` : ""}
+      ${nm ? `<button class="btn primary" id="neu">📖 Weiterlesen: nächstes Thema <small>${esc(fachById(nm.fach).name)} · ${esc(nm.titel)} · ca. ${minuten(nm)} Min.</small></button>` : ""}
+      <button class="btn dark" id="wdh">🧠 Quiz: Wiederholen <small>${due.length || weakQ.length ? `${due.length} fällig · ${weakQ.length} zuletzt falsch` : "Fragen aus Themen, die du schon gelesen hast"}</small></button>
       ${weakQ.length ? `<button class="btn ghost" id="weak">Fehler-Stapel üben <small>${weakQ.length} Fragen, die zuletzt falsch waren${hyper.length ? ` · ${hyper.length} davon warst du dir sicher` : ""}</small></button>` : ""}
     </div>
 
@@ -269,7 +265,7 @@ function homeView() {
     <details class="card group einstellungen">
       <summary><div class="name"><b>ℹ️ So funktioniert's · ⚙️ Einstellungen</b></div><div class="chev">›</div></summary>
       <p class="muted">1. <b>Lernkarten lesen</b> (ein Thema, ca. 10 Min.) – danach gleich das Quiz dazu.<br>
-      2. <b>Jeden Tag „Heute lernen“</b> – kurz und regelmäßig wirkt am stärksten.<br>
+      2. <b>„Quiz: Wiederholen“</b> – so oft du magst; kurz und regelmäßig wirkt am stärksten.<br>
       Jede Frage liegt in einem von 5 Fächern der Lernkartei. Richtig und sicher → ein Fach weiter (1, 2, 4, 8, 16 Tage). Richtig, aber unsicher → morgen nochmal. Falsch → zurück in Fach 1 und in derselben Runde wieder, bis es sitzt. Ab Fach 4 gilt eine Frage als „sicher“.</p>
       <div class="boxes">${[1, 2, 3, 4, 5].map(b => `<div class="b"><span>${AKT.filter(Q => card(Q)?.box === b).length}</span>Fach ${b}</div>`).join("")}</div>
       <label class="schalter"><input type="checkbox" id="pref-sicher" ${state.prefs.sicherheit ? "checked" : ""}> Vor der Auflösung fragen: „Wie sicher bist du?“</label>
@@ -279,10 +275,10 @@ function homeView() {
     </details>`;
 
   on("wissen", () => go(wissenView));
-  app.querySelectorAll(".zeitwahl button").forEach(b => b.onclick = () => {
-    const list = heuteRunde(+b.dataset.n);
-    if (list.length) startQuiz("Heute · " + b.textContent.trim().split(/\s/)[0] + " Min.", list);
-    else alert(nm ? "Für heute ist alles wiederholt 🎉 Lies als Nächstes ein neues Thema." : "Für heute ist alles erledigt 🎉");
+  on("wdh", () => {
+    const list = heuteRunde(20);
+    if (list.length) startQuiz("Wiederholen", list);
+    else alert(nm ? "Gerade ist nichts zu wiederholen 🎉 Lies als Nächstes ein neues Thema." : "Für heute ist alles erledigt 🎉");
   });
   on("neu", () => go(kartenView, nm));
   on("weak", () => startQuiz("Fehler-Stapel", shuffle(weakQ).sort((a, b) => isHyper(b) - isHyper(a)).slice(0, 15)));
@@ -446,24 +442,29 @@ function fachView(f) {
         <div class="stat hl"><div class="num">${fs.mastered}</div><div class="lbl">sicher</div></div>
         <div class="stat"><div class="num">${fs.quote === null ? "–" : pct(fs.quote * 100, 100) + "%"}</div><div class="lbl">Trefferquote</div></div>
       </div>
-      ${nm ? modulKnopf(nm, "next-modul").replace("Lernkarten lesen", "Nächstes Thema: " + esc(nm.titel)) : ""}
-      <button class="btn ${nm ? "dark" : "primary"}" id="mix">${f.name} gemischt üben <small>${ROUND_SIZE} Fragen: Fehler und Fällige zuerst, Neue nur aus gelesenen Themen</small></button>
-      ${f.wissensbasis && f.allgemein ? `<button class="btn ghost" id="general">📖 Klausurtipps & Fallen</button>` : ""}
+      ${nm ? modulKnopf(nm, "next-modul").replace("🃏 Lernkarten lesen", "📖 Weiterlesen: " + esc(nm.titel)) : ""}
+      ${fachModule(f).length ? `<div class="kacheln">
+        <button class="kachel" id="lesen"><span class="ki">📖</span><b>Lesen</b><small>Lernkarten mit Bildern · Thema frei wählen</small></button>
+        <button class="kachel" id="ueben"><span class="ki">🧠</span><b>Quiz</b><small>Fragen beantworten · nach Tag oder Thema</small></button>
+      </div>` : ""}
+      <button class="btn ${nm || fachModule(f).length ? "ghost" : "primary"}" id="mix">🧠 Quiz gemischt <small>${ROUND_SIZE} Fragen: Fehler und Fällige zuerst, Neue nur aus gelesenen Themen</small></button>
+      ${f.wissensbasis && f.allgemein ? `<button class="btn ghost" id="general">⚠️ Klausurtipps & Fallen</button>` : ""}
     </div>
     ${f.bloecke ? `<div class="card">
       <h2>🗓 Nach Unterrichtstag</h2>
-      <p class="muted">Hier geht's lang: Lernkarten und Quiz zu jedem Unterrichtstag, der neueste oben.</p>
+      <p class="muted">Lernkarten und Quiz zu jedem Unterrichtstag, der neueste oben.</p>
       ${f.bloecke.slice().reverse().map(b => {
         const i = f.bloecke.indexOf(b), bs = stats(blockFragen(f, b));
+        const bm = b.themen.map(d => modulZuThema(f, d)).filter(Boolean);
         return `<div class="row" data-b="${i}">
           <div class="name">${esc(b.name)}${bs.weak ? ' <span class="pill">⚠ üben</span>' : ""}
-            <div class="meta">${esc(b.datum || "")} · ${bs.total} Fragen · ${bs.seen} gesehen · ${bs.mastered} sicher</div>
+            <div class="meta">${esc(b.datum || "")} · 📖 ${bm.filter(gelesen).length}/${bm.length} Themen gelesen · 🧠 ${bs.total} Fragen, ${bs.mastered} sicher</div>
             <div class="bar"><div class="fill" style="width:${pct(bs.mastered, bs.total)}%"></div></div>
           </div><div class="chev">›</div></div>`;
       }).join("")}
     </div>` : ""}
     ${f.bloecke && (gruppen.length || archivDs.length) ? `<h3 class="abschnitt">Weitere Wege zum Üben</h3>` : ""}
-    ${f.gruppen ? gruppenHtml : `<div class="card"><h2>Themen</h2>${themenListe(f, Object.keys(f.themen))}</div>`}
+    ${f.gruppen ? gruppenHtml.replace("<b>Buchkapitel", "<b>📚 Buchkapitel").replace(/(<b>📚 Buchkapitel[^<]*<\/b>)/, '$1<div class="meta">Kurz-Zusammenfassung (Text) und Quiz je Kapitel – mit Bildern lernst du unter „Lesen“</div>') : `<div class="card"><h2>Themen</h2>${themenListe(f, Object.keys(f.themen))}</div>`}
     ${archivDs.length ? `<details class="card group" data-g="${f.id}-archiv" ${openGroups.has(f.id + "-archiv") ? "open" : ""}>
       <summary><div class="name"><b>🗄 Archiv: ältere Fragen</b>
         <div class="meta">${archivFragen(f).length} Fragen, deren Inhalt jetzt in den Lernkarten steckt · nicht mehr in „Heute lernen“</div>
@@ -474,16 +475,105 @@ function fachView(f) {
     el.open ? openGroups.add(el.dataset.g) : openGroups.delete(el.dataset.g);
   });
   on("next-modul", () => go(kartenView, nm));
-  on("mix", () => {
-    // gleiche Regel wie „Heute lernen“: Fehler → fällig → neu (nur aus gelesenen Themen) → Rest
-    const rang = Q => isWrongLast(Q) ? 0 : isDue(Q) ? 1 : isNew(Q) ? (neuErlaubt(Q) ? 2 : 9) : 3;
-    const pick = [0, 1, 2, 3].flatMap(r => shuffle(list.filter(Q => rang(Q) === r))).slice(0, ROUND_SIZE);
-    if (pick.length) startQuiz(f.name + " gemischt", shuffle(pick));
-    else alert("Noch keine Fragen frei – lies zuerst das nächste Thema in den Lernkarten.");
-  });
+  on("lesen", () => go(lesenView, f));
+  on("ueben", () => go(uebenView, f));
+  on("mix", () => mixQuiz(f));
   on("general", () => openNotes(f, f.allgemein, "Klausurtipps & Fallen"));
   app.querySelectorAll(".row").forEach(el => el.onclick = () =>
     el.dataset.b ? go(blockView, f, +el.dataset.b) : go(themaView, f, el.dataset.d));
+}
+
+// Gemischtes Quiz eines Fachs – gleiche Regel wie „Wiederholen“: Fehler → fällig → neu (nur aus gelesenen Themen) → Rest
+function mixQuiz(f) {
+  const list = fachFragen(f);
+  const rang = Q => isWrongLast(Q) ? 0 : isDue(Q) ? 1 : isNew(Q) ? (neuErlaubt(Q) ? 2 : 9) : 3;
+  const pick = [0, 1, 2, 3].flatMap(r => shuffle(list.filter(Q => rang(Q) === r))).slice(0, ROUND_SIZE);
+  if (pick.length) startQuiz(f.name + " gemischt", shuffle(pick));
+  else alert("Noch keine Fragen frei – lies zuerst das nächste Thema in den Lernkarten.");
+}
+
+// ---------- Lesen: alle Lernkarten-Themen eines Fachs zum freien Auswählen ----------
+const fachModule = f => MODULE.filter(m => m.fach === f.id);
+const ersteBild = m => (m.md.match(/!\[[^\]]*\]\(([^)\s]+)\)/) || [])[1];
+// Lernmodule nach Unterrichtstag gruppieren (neuester oben); Module ohne Tag → „Weitere Themen“
+function modulGruppen(f) {
+  const alle = fachModule(f), genutzt = new Set();
+  const gr = (f.bloecke || []).map(b => {
+    const ms = b.themen.map(d => modulZuThema(f, d)).filter(Boolean);
+    ms.forEach(m => genutzt.add(m));
+    return { name: b.name, datum: b.datum, module: ms };
+  }).filter(g => g.module.length).reverse();
+  const rest = alle.filter(m => !genutzt.has(m));
+  if (rest.length) gr.push({ name: "Weitere Themen", module: rest });
+  return gr;
+}
+function modulZeile(m) {
+  const r = state.read[modulKey(m)] || {};
+  const status = r.fertig ? "✓ gelesen" : r.karte ? `▶ weiter bei Karte ${r.karte + 1}` : '<span class="hl">● neu</span>';
+  const bild = ersteBild(m);
+  return `<div class="row lese" data-nr="${esc(m.nr)}">
+    ${bild ? `<img class="thumb" src="${esc(bild)}" alt="" loading="lazy">` : `<div class="thumb leer">📖</div>`}
+    <div class="name"><b>${m.reihenfolge}. ${esc(m.titel)}</b>
+      <div class="meta">${status} · ${m.karten.length} Karten · ca. ${minuten(m)} Min.</div></div>
+    <div class="chev">›</div></div>`;
+}
+function lesenView(f) {
+  setTitle(f.name + " · Lesen", "Lernkarten");
+  const gruppen = modulGruppen(f);
+  const nm = naechstesModul(f.id); // Gruppe mit dem nächsten ungelesenen Thema aufgeklappt
+  const offen = gruppen.find(g => g.module.includes(nm)) || gruppen[0];
+  app.innerHTML = `<p class="muted hinweis">Tippe ein Thema an, um es zu lesen – in beliebiger Reihenfolge. Danach kommt das Quiz dazu.</p>
+    ${gruppen.map((g, i) => `<details class="card group" data-g="${f.id}-lesen-${i}" ${g === offen || openGroups.has(f.id + "-lesen-" + i) ? "open" : ""}>
+      <summary><div class="name"><b>${esc(g.name)}</b>
+        <div class="meta">${g.datum ? esc(g.datum) + " · " : ""}${g.module.filter(gelesen).length}/${g.module.length} gelesen</div>
+        <div class="bar"><div class="fill" style="width:${pct(g.module.filter(gelesen).length, g.module.length)}%"></div></div>
+      </div><div class="chev">›</div></summary>
+      ${g.module.map(modulZeile).join("")}
+    </details>`).join("")}`;
+  app.querySelectorAll("details.group").forEach(el => el.ontoggle = () => {
+    el.open ? openGroups.add(el.dataset.g) : openGroups.delete(el.dataset.g);
+  });
+  app.querySelectorAll(".row.lese").forEach(el => el.onclick = () => go(kartenView, modulById(f.id, el.dataset.nr)));
+}
+
+// ---------- Quiz-Auswahl eines Fachs ----------
+function uebenView(f) {
+  setTitle(f.name + " · Quiz", "Fragen üben");
+  const list = fachFragen(f), wrong = list.filter(isWrongLast);
+  app.innerHTML = `
+    <div class="card">
+      <p class="muted">Im Quiz beantwortest du Fragen – wie Karteikarten zum Abfragen. Neue Fragen kommen erst, wenn du das Thema gelesen hast.</p>
+      <button class="btn primary" id="mix">🧠 Gemischt: ${ROUND_SIZE} Fragen <small>Fehler und Fällige zuerst</small></button>
+      ${wrong.length ? `<button class="btn dark" id="wrong">Nur meine Fehler <small>${wrong.length} Fragen, die zuletzt falsch waren</small></button>` : ""}
+    </div>
+    ${(f.bloecke || []).slice().reverse().map(b => {
+      const i = f.bloecke.indexOf(b), bs = stats(blockFragen(f, b));
+      return `<details class="card group" data-g="${f.id}-ueben-${i}" ${openGroups.has(f.id + "-ueben-" + i) ? "open" : ""}>
+        <summary><div class="name"><b>${esc(b.name)}</b>
+          <div class="meta">${esc(b.datum || "")} · ${bs.total} Fragen · ${bs.mastered} sicher</div>
+          <div class="bar"><div class="fill" style="width:${pct(bs.mastered, bs.total)}%"></div></div>
+        </div><div class="chev">›</div></summary>
+        <button class="btn dark small" data-b="${i}">🧠 Quiz zum ganzen Tag (20 Fragen)</button>
+        ${themenListe(f, b.themen)}
+      </details>`;
+    }).join("")}`;
+  app.querySelectorAll("details.group").forEach(el => el.ontoggle = () => {
+    el.open ? openGroups.add(el.dataset.g) : openGroups.delete(el.dataset.g);
+  });
+  on("mix", () => mixQuiz(f));
+  on("wrong", () => startQuiz(f.name + " · Fehler", shuffle(wrong).slice(0, 20)));
+  app.querySelectorAll("button[data-b]").forEach(el => el.onclick = () => go(blockView, f, +el.dataset.b));
+  app.querySelectorAll(".row").forEach(el => el.onclick = () => go(themaView, f, el.dataset.d));
+}
+
+// Buchkapitel → passende Lernmodule (über die Buchseiten-Fundstellen „B S. 112“ in den Karten)
+function moduleZuKapitel(f, d) {
+  const s = (f.kapitelSeiten || {})[d];
+  if (!s) return [];
+  return fachModule(f).map(m => {
+    const n = [...m.md.matchAll(/B S\. (\d+)/g)].filter(x => +x[1] >= s[0] && +x[1] <= s[1]).length;
+    return [m, n];
+  }).filter(([, n]) => n >= 3).map(([m]) => m); // Reihenfolge = Lernreihenfolge
 }
 
 // ---------- Themenblock (Roter Faden) ----------
@@ -505,13 +595,15 @@ function blockView(f, i) {
         <div class="stat hl"><div class="num">${ts.mastered}</div><div class="lbl">sicher</div></div>
         <div class="stat"><div class="num">${ts.quote === null ? "–" : pct(ts.quote * 100, 100) + "%"}</div><div class="lbl">Trefferquote</div></div>
       </div>
-      ${blockModule.length ? (naechstes ? modulKnopf(naechstes, "karten").replace("Lernkarten lesen", "Lernkarten der Reihe nach") : `<button class="btn ghost" id="karten">🃏 Lernkarten <small>alle ${blockModule.length} Themen gelesen ✓ – nochmal von vorn</small></button>`) : ""}
-      <button class="btn ${naechstes ? "dark" : "primary"}" id="quiz">Quiz: 20 Fragen <small>Fehler und Fällige zuerst, Neue aus gelesenen Themen</small></button>
-      ${f.wissensbasis && b.themen.some(d => (f.kapitel || {})[d]) ? `<button class="btn ghost" id="notes">📖 Lernzettel zum Block lesen</button>` : ""}
-      <button class="btn dark" id="all">Alle ${ts.total} Fragen üben</button>
-      ${wrong.length ? `<button class="btn dark" id="wrong">Nur Fehler üben <small>${wrong.length} Fragen</small></button>` : ""}
+      ${blockModule.length ? (naechstes ? modulKnopf(naechstes, "karten").replace("🃏 Lernkarten lesen", "📖 Weiterlesen: " + esc(naechstes.titel)) : `<button class="btn ghost" id="karten">📖 Lernkarten <small>alle ${blockModule.length} Themen gelesen ✓ – nochmal von vorn</small></button>`) : ""}
+      <button class="btn ${naechstes ? "dark" : "primary"}" id="quiz">🧠 Quiz: 20 Fragen <small>Fehler und Fällige zuerst, Neue aus gelesenen Themen</small></button>
+      ${f.wissensbasis && b.themen.some(d => (f.kapitel || {})[d]) ? `<button class="btn ghost" id="notes">📄 Lernzettel zum Block lesen</button>` : ""}
+      <button class="btn ghost" id="all">🧠 Alle ${ts.total} Fragen üben</button>
+      ${wrong.length ? `<button class="btn dark" id="wrong">🧠 Nur Fehler üben <small>${wrong.length} Fragen</small></button>` : ""}
     </div>
-    <div class="card"><h2>Themen in diesem Block</h2>${themenListe(f, b.themen)}</div>`;
+    ${blockModule.length ? `<div class="card"><h2>📖 Themen zum Lesen</h2><p class="muted">Frei wählbar – antippen zum Lesen.</p>${blockModule.map(modulZeile).join("")}</div>
+    <div class="card"><h2>🧠 Quiz je Thema</h2>${themenListe(f, b.themen)}</div>`
+    : `<div class="card"><h2>Themen in diesem Block</h2>${themenListe(f, b.themen)}</div>`}`;
   on("quiz", () => {
     // Reihenfolge: zuletzt falsch → fällig → neu → Rest; je Gruppe gemischt
     // neue Fragen nur aus Themen, deren Lernkarten schon gelesen sind
@@ -524,7 +616,8 @@ function blockView(f, i) {
   on("karten", () => go(kartenView, naechstes || blockModule[0]));
   on("all", () => startQuiz(kurz.trim() + " · alle", shuffle(list)));
   on("wrong", () => startQuiz(kurz.trim() + " · Fehler", shuffle(wrong)));
-  app.querySelectorAll(".row").forEach(el => el.onclick = () => go(themaView, f, el.dataset.d));
+  app.querySelectorAll(".row").forEach(el => el.onclick = () =>
+    el.dataset.nr ? go(kartenView, modulById(f.id, el.dataset.nr)) : go(themaView, f, el.dataset.d));
 }
 
 // ---------- Themen-Seite ----------
@@ -536,6 +629,7 @@ function themaView(f, d) {
   const hasNotes = f.wissensbasis && f.kapitel && f.kapitel[d];
   const wrong = list.filter(isWrongLast);
   const mod = modulZuThema(f, d);
+  const kapMods = mod ? [] : moduleZuKapitel(f, d);
 
   app.innerHTML = `
     ${ts.weak ? `<div class="card warn">
@@ -548,11 +642,15 @@ function themaView(f, d) {
         <div class="stat hl"><div class="num">${ts.mastered}</div><div class="lbl">sicher</div></div>
         <div class="stat"><div class="num">${ts.quote === null ? "–" : pct(ts.quote * 100, 100) + "%"}</div><div class="lbl">Trefferquote</div></div>
       </div>
-      ${mod ? modulKnopf(mod, "karten") : ""}
-      ${hasNotes ? `<button class="btn ${ts.weak ? "primary" : "ghost"}" id="notes">📖 Lernzettel lesen <small>aus deiner Wissensbasis</small></button>` : ""}
-      <button class="btn ${ts.weak || (mod && !gelesen(mod)) ? "dark" : "primary"}" id="all">Alle ${ts.total} Fragen üben</button>
-      ${wrong.length ? `<button class="btn dark" id="wrong">Nur Fehler üben <small>${wrong.length} Fragen</small></button>` : ""}
-    </div>`;
+      ${mod ? modulKnopf(mod, "karten").replace("🃏 Lernkarten lesen", "📖 Lernkarten lesen") : ""}
+      ${hasNotes ? `<button class="btn ${ts.weak ? "primary" : "ghost"}" id="notes">📄 Kurz-Zusammenfassung lesen <small>Text aus deiner Wissensbasis</small></button>` : ""}
+      <button class="btn ${ts.weak || (mod && !gelesen(mod)) ? "dark" : "primary"}" id="all">🧠 Quiz: alle ${ts.total} Fragen</button>
+      ${wrong.length ? `<button class="btn dark" id="wrong">🧠 Nur Fehler üben <small>${wrong.length} Fragen</small></button>` : ""}
+    </div>
+    ${!mod && kapMods.length ? `<div class="card"><h2>📖 Mit Bildern lernen</h2>
+      <p class="muted">Diese Lernkarten behandeln dasselbe Buchkapitel – Schritt für Schritt und mit Schaubildern.</p>
+      ${kapMods.map(modulZeile).join("")}</div>` : ""}`;
+  app.querySelectorAll(".row.lese").forEach(el => el.onclick = () => go(kartenView, modulById(f.id, el.dataset.nr)));
   on("notes", () => openNotes(f, [f.kapitel[d]], f.themen[d]));
   on("karten", () => go(kartenView, mod));
   on("all", () => startQuiz(kurz.trim(), shuffle(list)));
@@ -591,6 +689,7 @@ function kartenView(m) {
         <h2>🎉 Geschafft!</h2>
         <p class="muted">Jetzt gleich abfragen – das festigt das Gelesene am stärksten.</p>
         ${fragen.length ? `<button class="btn primary" id="mquiz">Quiz zu diesem Thema <small>${fragen.length} Fragen</small></button>` : ""}
+        <button class="btn ghost" id="anderes">📖 Anderes Thema wählen</button>
         <button class="btn ghost" id="zurueck">Zur Übersicht</button>
         ${state.prefs.quellen ? `<div class="quellenliste"><b>Quellen dieses Themas</b>${Object.entries(m.quellen || {}).map(([k, v]) => `<div>${esc(k)} = ${esc(v)}</div>`).join("")}</div>` : ""}
       </div>` : ""}
@@ -605,6 +704,7 @@ function kartenView(m) {
     on("weiter", () => { if (i < m.karten.length - 1) { i++; zeige(); } });
     on("mquiz", () => { history.pop(); startQuiz(m.titel, fragen.slice().sort((a, b) => (a.lv || 1) - (b.lv || 1))); });
     on("zurueck", () => { history.pop(); render(); });
+    on("anderes", () => { history.pop(); go(lesenView, fachById(m.fach)); });
     document.getElementById("qz").onchange = e => { state.prefs.quellen = e.target.checked; save(); zeige(); };
     // Wischen auf dem iPhone
     const k = document.getElementById("karte");
@@ -900,7 +1000,7 @@ function inline(s) {
     .replace(/\*\*(.+?)\*\*/g, "<b>$1</b>")
     .replace(/(^|[^*])\*([^*\s][^*]*?)\*/g, "$1<i>$2</i>")
     .replace(/`([^`]+)`/g, "<code>$1</code>")
-    .replace(/〔([^〕]*)〕/g, '<span class="qz">$1</span>') // Quellenzeichen – nur sichtbar, wenn eingeschaltet
+    .replace(/[ \t]*〔([^〕]*)〕/g, '<span class="qz"> $1</span>') // Quellenzeichen – nur sichtbar, wenn eingeschaltet (Leerzeichen davor mit ausblenden, sonst „leitet .“)
     .replace(/&lt;(\/?(?:b|i|strong|em|br\s*\/?))&gt;/g, "<$1>"); // einfache Formatierung erlauben
 }
 function markdown(md) {

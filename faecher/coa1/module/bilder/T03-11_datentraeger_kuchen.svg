@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 560" font-family="system-ui, sans-serif">
+  <title>Datenträger, Partition, Laufwerk. Oben eine SSD: Datenträger ist das Gerät, das du kaufst. Pfeil nach unten: Partitionieren heißt in Stücke teilen. Die SSD als runder Kuchen in drei Stücke geschnitten. Unter jedem Stück ein Buchstaben-Schild: C: Betriebssystem (200 GB), P: Programme, E: Daten. Laufwerk ist ein Stück mit Buchstabe.</title>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker>
+  </defs>
+  <rect width="400" height="560" fill="#fff"/>
+
+  <!-- SSD -->
+  <rect x="30" y="20" width="120" height="76" rx="8" fill="#3d4450" stroke="#222" stroke-width="2"/>
+  <rect x="44" y="34" width="92" height="30" rx="3" fill="#fff"/>
+  <text x="90" y="55" text-anchor="middle" font-size="16" font-weight="700" fill="#222">SSD</text>
+  <rect x="58" y="96" width="64" height="8" fill="#c9a640"/>
+  <text x="166" y="50" font-size="16" font-weight="700" fill="#3a6ed8">Datenträger</text>
+  <text x="166" y="71" font-size="14" fill="#222">= das Gerät,</text>
+  <text x="166" y="90" font-size="14" fill="#222">das du kaufst</text>
+
+  <line x1="90" y1="112" x2="90" y2="150" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+  <text x="108" y="132" font-size="15" font-weight="700" fill="#d63c3c">Partitionieren</text>
+  <text x="108" y="151" font-size="14" fill="#222">= in Stücke teilen</text>
+
+  <!-- Kuchen: Mitte 200,270 r 95. C 40 %, D 25 %, E 35 % -->
+  <g stroke="#fff" stroke-width="4">
+    <path d="M200,270 L200,175 A95,95 0 0 1 255.8,346.9 Z" fill="#3a6ed8"/>
+    <path d="M200,270 L255.8,346.9 A95,95 0 0 1 123.1,325.9 Z" fill="#e08a1e"/>
+    <path d="M200,270 L123.1,325.9 A95,95 0 0 1 200,175 Z" fill="#1f9d55"/>
+  </g>
+  <g font-size="26" font-weight="700" fill="#fff" text-anchor="middle">
+    <text x="252" y="262">C:</text>
+    <text x="191" y="333">P:</text>
+    <text x="151" y="254">E:</text>
+  </g>
+
+  <!-- Schilder -->
+  <g text-anchor="middle">
+    <rect x="12" y="388" width="120" height="86" rx="8" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2.5"/>
+    <text x="72" y="414" font-size="20" font-weight="700" fill="#3a6ed8">C:</text>
+    <text x="72" y="436" font-size="13" fill="#222">Betriebssystem</text>
+    <text x="72" y="455" font-size="13" fill="#222">(200 GB)</text>
+
+    <rect x="140" y="388" width="120" height="86" rx="8" fill="#fff4e5" stroke="#e08a1e" stroke-width="2.5"/>
+    <text x="200" y="414" font-size="20" font-weight="700" fill="#b8650a">P:</text>
+    <text x="200" y="440" font-size="14" fill="#222">Programme</text>
+
+    <rect x="268" y="388" width="120" height="86" rx="8" fill="#e9f7ee" stroke="#1f9d55" stroke-width="2.5"/>
+    <text x="328" y="414" font-size="20" font-weight="700" fill="#1a7a44">E:</text>
+    <text x="328" y="440" font-size="14" fill="#222">Daten</text>
+  </g>
+
+  <rect x="12" y="492" width="376" height="54" rx="10" fill="#f3f4f6" stroke="#ddd"/>
+  <text x="150" y="525" text-anchor="end" font-size="16" font-weight="700" fill="#3a6ed8">Laufwerk</text>
+  <text x="156" y="525" font-size="16" fill="#222">= Stück mit Buchstabe</text>
+</svg>
