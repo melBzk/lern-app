@@ -61,6 +61,8 @@ function modulIkon(m) {
   const f = fachById(m.fach), Q = f && ALL.find(Q => Q.fach === m.fach && Q.m === m.nr);
   return f && Q ? ikon(f, Q.d) : "📖";
 }
+// Alle Themen eines Tages als antippbare Symbole (direkt zu den Lernkarten); gelesen = Haken, Extra = blass
+const ikonLeiste = ms => ms.length ? `<div class="ikonleiste">${ms.map(m => `<button class="${gelesen(m) ? "gelesen" : ""}${m.extra ? " extra" : ""}" data-nr="${esc(m.nr)}" title="${esc((m.extra ? "" : m.reihenfolge + ". ") + m.titel)}" aria-label="${esc(m.titel)}">${modulIkon(m)}</button>`).join("")}</div>` : "";
 const ikonHtml = i => `<div class="ikon" aria-hidden="true">${i}</div>`;
 const minuten = m => Math.max(3, Math.round(m.karten.length * 0.6)); // ca. 35 s je Karte
 
@@ -249,7 +251,7 @@ function homeView() {
         <div class="stat"><div class="num">${state.days[today()] || 0}</div><div class="lbl">heute beantwortet</div></div>
         <div class="stat"><div class="num">${pct(s.mastered, s.total)}%</div><div class="lbl">sicher gelernt</div></div>
       </div>
-      ${nm ? `<button class="btn primary" id="neu">📖 Weiterlesen: nächstes Thema <small>${esc(fachById(nm.fach).name)} · ${esc(nm.titel)} · ca. ${minuten(nm)} Min.</small></button>` : ""}
+      ${nm ? `<button class="btn primary" id="neu">${modulIkon(nm)} Weiterlesen: nächstes Thema <small>${esc(fachById(nm.fach).name)} · ${esc(nm.titel)} · ca. ${minuten(nm)} Min.</small></button>` : ""}
       <button class="btn dark" id="wdh">🧠 Quiz: Wiederholen <small>${due.length || weakQ.length ? `${due.length} fällig · ${weakQ.length} zuletzt falsch` : "Fragen aus Themen, die du schon gelesen hast"}</small></button>
       ${weakQ.length ? `<button class="btn ghost" id="weak">Fehler-Stapel üben <small>${weakQ.length} Fragen, die zuletzt falsch waren${hyper.length ? ` · ${hyper.length} davon warst du dir sicher` : ""}</small></button>` : ""}
     </div>
@@ -457,7 +459,7 @@ function fachView(f) {
         <div class="stat hl"><div class="num">${fs.mastered}</div><div class="lbl">sicher</div></div>
         <div class="stat"><div class="num">${fs.quote === null ? "–" : pct(fs.quote * 100, 100) + "%"}</div><div class="lbl">Trefferquote</div></div>
       </div>
-      ${nm ? modulKnopf(nm, "next-modul").replace("🃏 Lernkarten lesen", "📖 Weiterlesen: " + esc(nm.titel)) : ""}
+      ${nm ? modulKnopf(nm, "next-modul").replace("🃏 Lernkarten lesen", modulIkon(nm) + " Weiterlesen: " + esc(nm.titel)) : ""}
       ${fachModule(f).length ? `<div class="kacheln">
         <button class="kachel" id="lesen"><span class="ki">📖</span><b>Lesen</b><small>Lernkarten mit Bildern · Thema frei wählen</small></button>
         <button class="kachel" id="ueben"><span class="ki">🧠</span><b>Quiz</b><small>Fragen beantworten · nach Tag oder Thema</small></button>
@@ -475,7 +477,7 @@ function fachView(f) {
           <div class="name">${esc(b.name)}${bs.weak ? ' <span class="pill">⚠ üben</span>' : ""}
             <div class="meta">${esc(b.datum || "")} · 📖 ${bm.filter(gelesen).length}/${bm.length} Themen gelesen · 🧠 ${bs.total} Fragen, ${bs.mastered} sicher</div>
             <div class="bar"><div class="fill" style="width:${pct(bs.mastered, bs.total)}%"></div></div>
-          </div><div class="chev">›</div></div>`;
+          </div><div class="chev">›</div></div>${ikonLeiste(alleBm)}`;
       }).join("")}
     </div>` : ""}
     ${f.bloecke && (gruppen.length || archivDs.length) ? `<h3 class="abschnitt">Weitere Wege zum Üben</h3>` : ""}
@@ -489,6 +491,7 @@ function fachView(f) {
   app.querySelectorAll("details.group").forEach(el => el.ontoggle = () => {
     el.open ? openGroups.add(el.dataset.g) : openGroups.delete(el.dataset.g);
   });
+  app.querySelectorAll(".ikonleiste button").forEach(el => el.onclick = () => go(kartenView, modulById(f.id, el.dataset.nr)));
   on("next-modul", () => go(kartenView, nm));
   on("lesen", () => go(lesenView, f));
   on("ueben", () => go(uebenView, f));
@@ -611,7 +614,7 @@ function blockView(f, i) {
         <div class="stat hl"><div class="num">${ts.mastered}</div><div class="lbl">sicher</div></div>
         <div class="stat"><div class="num">${ts.quote === null ? "–" : pct(ts.quote * 100, 100) + "%"}</div><div class="lbl">Trefferquote</div></div>
       </div>
-      ${blockModule.length ? (naechstes ? modulKnopf(naechstes, "karten").replace("🃏 Lernkarten lesen", "📖 Weiterlesen: " + esc(naechstes.titel)) : `<button class="btn ghost" id="karten">📖 Lernkarten <small>alle ${blockModule.length} Themen gelesen ✓ – nochmal von vorn</small></button>`) : ""}
+      ${blockModule.length ? (naechstes ? modulKnopf(naechstes, "karten").replace("🃏 Lernkarten lesen", modulIkon(naechstes) + " Weiterlesen: " + esc(naechstes.titel)) : `<button class="btn ghost" id="karten">📖 Lernkarten <small>alle ${blockModule.length} Themen gelesen ✓ – nochmal von vorn</small></button>`) : ""}
       <button class="btn ${naechstes ? "dark" : "primary"}" id="quiz">🧠 Quiz: 20 Fragen <small>Fehler und Fällige zuerst, Neue aus gelesenen Themen</small></button>
       ${f.wissensbasis && b.themen.some(d => (f.kapitel || {})[d]) ? `<button class="btn ghost" id="notes">📄 Lernzettel zum Block lesen</button>` : ""}
       <button class="btn ghost" id="all">🧠 Alle ${ts.total} Fragen üben</button>
