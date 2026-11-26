@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 620" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Oben die CPU mit Zahnrädern: Sie rechnet ständig. Links ein Gerät hebt die Hand: normaler Interrupt. Die CPU zeigt ein Schild: Moment – kann ich ausblenden, also maskieren. Rechts eine rote Alarmglocke: NMI, Hardwarefehler. Nicht ausblendbar, die CPU muss sofort reagieren. Ein dicker Pfeil führt zu einem blauen Bildschirm: Windows stoppt – Blue Screen of Death.</title>
+<defs>
+<marker id="k" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker>
+<marker id="r" viewBox="0 0 10 10" refX="5" refY="5" markerUnits="userSpaceOnUse" markerWidth="22" markerHeight="22" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker>
+</defs>
+<rect width="400" height="620" fill="#fff"/>
+<text x="200" y="26" font-size="17" font-weight="700" text-anchor="middle">NMI – Unterbrechung, die nicht warten kann</text>
+
+<!-- CPU -->
+<rect x="140" y="44" width="120" height="90" rx="8" fill="#555"/>
+<g stroke="#555" stroke-width="3"><line x1="156" y1="134" x2="156" y2="144"/><line x1="176" y1="134" x2="176" y2="144"/><line x1="196" y1="134" x2="196" y2="144"/><line x1="216" y1="134" x2="216" y2="144"/><line x1="236" y1="134" x2="236" y2="144"/></g>
+<circle cx="180" cy="84" r="16" fill="none" stroke="#c9ced4" stroke-width="7" stroke-dasharray="5 4"/><circle cx="180" cy="84" r="9" fill="#c9ced4"/>
+<circle cx="220" cy="98" r="12" fill="none" stroke="#c9ced4" stroke-width="6" stroke-dasharray="4 3.5"/><circle cx="220" cy="98" r="6" fill="#c9ced4"/>
+<text x="200" y="124" text-anchor="middle" fill="#fff" font-weight="700" font-size="13">CPU</text>
+<text x="200" y="166" text-anchor="middle" font-weight="700">rechnet ständig</text>
+
+<line x1="40" y1="182" x2="360" y2="182" stroke="#ccc" stroke-width="1.5"/>
+
+<!-- links: normaler Interrupt -->
+<text x="100" y="208" text-anchor="middle" font-weight="700" font-size="15">normaler Interrupt</text>
+<!-- Gerät mit Hand -->
+<rect x="30" y="250" width="70" height="50" rx="6" fill="#eceff1" stroke="#555" stroke-width="2"/>
+<text x="65" y="280" text-anchor="middle" font-size="13">Gerät</text>
+<line x1="86" y1="250" x2="96" y2="236" stroke="#555" stroke-width="3"/>
+<rect x="90" y="222" width="14" height="16" rx="4" fill="#3a6ed8"/>
+<g stroke="#3a6ed8" stroke-width="3.5" stroke-linecap="round"><line x1="93" y1="222" x2="93" y2="214"/><line x1="97" y1="222" x2="97" y2="212"/><line x1="101" y1="222" x2="101" y2="214"/></g>
+<!-- Schild der CPU -->
+<rect x="112" y="236" width="80" height="66" rx="6" fill="#fff" stroke="#3a6ed8" stroke-width="2"/>
+<text x="152" y="258" text-anchor="middle" font-weight="700" font-size="13" fill="#3a6ed8">Moment –</text>
+<text x="152" y="275" text-anchor="middle" font-size="13">kann ich</text>
+<text x="152" y="292" text-anchor="middle" font-size="13">ausblenden</text>
+<text x="100" y="330" text-anchor="middle" font-size="13" fill="#555">= maskierbar</text>
+
+<!-- rechts: NMI -->
+<text x="300" y="208" text-anchor="middle" font-weight="700" font-size="15" fill="#c62828">NMI</text>
+<!-- Glocke -->
+<path d="M276,280 C276,248 284,230 300,230 C316,230 324,248 324,280 L332,290 L268,290 Z" fill="#c62828"/>
+<circle cx="300" cy="298" r="6" fill="#c62828"/>
+<rect x="296" y="222" width="8" height="10" rx="3" fill="#c62828"/>
+<g stroke="#c62828" stroke-width="3" stroke-linecap="round"><path d="M262,240 L252,232"/><path d="M258,262 L246,262"/><path d="M338,240 L348,232"/><path d="M342,262 L354,262"/></g>
+<text x="300" y="330" text-anchor="middle" font-weight="700" fill="#c62828">Hardwarefehler!</text>
+<text x="300" y="350" text-anchor="middle" font-size="13">nicht ausblendbar:</text>
+<text x="300" y="368" text-anchor="middle" font-size="13">sofort reagieren</text>
+
+<!-- Pfeil -->
+<line x1="300" y1="382" x2="300" y2="420" stroke="#c62828" stroke-width="9" marker-end="url(#r)"/>
+
+<!-- Bluescreen -->
+<rect x="40" y="436" width="320" height="140" rx="8" fill="#1f5fbf"/>
+<g stroke="#fff" stroke-width="3" stroke-linecap="round" opacity="0.6"><line x1="64" y1="540" x2="230" y2="540"/><line x1="64" y1="556" x2="180" y2="556"/></g>
+<text x="200" y="476" text-anchor="middle" fill="#fff" font-weight="700" font-size="16">Windows stoppt</text>
+<text x="200" y="506" text-anchor="middle" fill="#fff" font-weight="700" font-size="17">Blue Screen of Death</text>
+<rect x="190" y="576" width="20" height="12" fill="#555"/><rect x="160" y="588" width="80" height="5" fill="#555"/>
+<text x="200" y="612" text-anchor="middle" font-size="13" fill="#555">Stopcode: 0x80 NMI_HARDWARE_FAILURE</text>
+</svg>

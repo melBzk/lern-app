@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 540" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Praxisfall: Links ein großes E-ATX-Mainboard vor einem Midi-Tower, es ragt über den Rand des Gehäuses hinaus, rotes X: zu groß. Rechts ein kleineres ATX-Board mit Sockel AM5, es passt genau in den Midi-Tower, grüner Haken. Unten das Etikett aus dem Gehäuse-Datenblatt: passt Mini-ITX, microATX, ATX.</title>
+<rect width="400" height="540" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">Welches Board passt in den Midi-Tower?</text>
+<line x1="222" y1="50" x2="222" y2="470" stroke="#ccc" stroke-width="1.5"/>
+
+<!-- links: E-ATX -->
+<rect x="20" y="70" width="140" height="290" rx="6" fill="#eceff1" stroke="#333" stroke-width="3.5"/>
+<rect x="32" y="86" width="116" height="258" rx="3" fill="none" stroke="#9aa5b1" stroke-width="2" stroke-dasharray="6 4"/>
+<rect x="34" y="104" width="180" height="170" rx="3" fill="#cfe0fb" fill-opacity="0.92" stroke="#3a6ed8" stroke-width="2.5"/>
+<rect x="60" y="124" width="28" height="28" rx="2" fill="#9aa5b1"/>
+<g fill="#555"><rect x="104" y="120" width="5" height="60"/><rect x="114" y="120" width="5" height="60"/><rect x="50" y="208" width="120" height="6"/><rect x="50" y="236" width="120" height="6"/></g>
+<text x="124" y="199" text-anchor="middle" font-size="16" font-weight="700" fill="#2550a8">E-ATX</text>
+<path d="M164,104 V96 H214 V104" fill="none" stroke="#c62828" stroke-width="2"/>
+<text x="190" y="90" text-anchor="middle" font-size="13" font-weight="700" fill="#c62828">ragt raus</text>
+<text x="90" y="384" text-anchor="middle" font-size="15" font-weight="700">Midi-Tower</text>
+<g stroke="#c62828" stroke-width="6" stroke-linecap="round"><line x1="74" y1="402" x2="106" y2="434"/><line x1="106" y1="402" x2="74" y2="434"/></g>
+<text x="90" y="462" text-anchor="middle" font-size="15" font-weight="700" fill="#c62828">zu groß</text>
+
+<!-- rechts: ATX -->
+<rect x="246" y="70" width="140" height="290" rx="6" fill="#eceff1" stroke="#333" stroke-width="3.5"/>
+<rect x="258" y="86" width="116" height="258" rx="3" fill="none" stroke="#9aa5b1" stroke-width="2" stroke-dasharray="6 4"/>
+<rect x="262" y="104" width="108" height="170" rx="3" fill="#e3f0e9" stroke="#2f6b4f" stroke-width="2.5"/>
+<rect x="276" y="122" width="30" height="30" rx="2" fill="#9aa5b1"/>
+<g fill="#555"><rect x="322" y="120" width="5" height="60"/><rect x="332" y="120" width="5" height="60"/><rect x="274" y="208" width="84" height="6"/><rect x="274" y="236" width="84" height="6"/></g>
+<text x="316" y="296" text-anchor="middle" font-size="16" font-weight="700" fill="#1b4d36">ATX</text>
+<text x="316" y="316" text-anchor="middle" font-size="14" font-weight="700" fill="#1b4d36">Sockel AM5</text>
+<text x="316" y="384" text-anchor="middle" font-size="15" font-weight="700">Midi-Tower</text>
+<path d="M298,418 l12,12 l22,-24" fill="none" stroke="#2e7d32" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="316" y="462" text-anchor="middle" font-size="15" font-weight="700" fill="#2e7d32">passt</text>
+
+<!-- Etikett -->
+<rect x="30" y="484" width="340" height="44" rx="8" fill="#fffbe6" stroke="#b5a35a" stroke-width="2"/>
+<circle cx="48" cy="506" r="5" fill="#fff" stroke="#b5a35a" stroke-width="2"/>
+<text x="206" y="502" text-anchor="middle" font-size="13" fill="#444">Datenblatt des Gehäuses:</text>
+<text x="206" y="520" text-anchor="middle" font-size="14" font-weight="700">passt: Mini-ITX, microATX, ATX</text>
+</svg>

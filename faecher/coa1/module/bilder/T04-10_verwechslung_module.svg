@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 410" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Vier Modularten untereinander. Normal: 8 Chips. ECC: 9 Chips, der neunte rot. Registered: 9 Chips plus 2 blaue Register-Chips. Fully Buffered: Chips plus ein orangefarbener Puffer. Ein roter Pfeil führt vom Registered-Modul zum ECC-Modul: hat immer auch ECC, darum oft verwechselt.</title>
+<rect width="400" height="410" fill="#fff"/>
+<text x="16" y="26" font-size="17" font-weight="700">ECC, Registered oder Fully Buffered?</text>
+
+<!-- 1 normal -->
+<text x="20" y="58"><tspan font-weight="700">normal</tspan> – 8 Chips</text>
+<rect x="20" y="66" width="260" height="42" rx="3" fill="#2e7d32"/>
+<g fill="#222">
+<rect x="28" y="73" width="21" height="28" rx="1"/><rect x="55" y="73" width="21" height="28" rx="1"/><rect x="82" y="73" width="21" height="28" rx="1"/><rect x="109" y="73" width="21" height="28" rx="1"/>
+<rect x="136" y="73" width="21" height="28" rx="1"/><rect x="163" y="73" width="21" height="28" rx="1"/><rect x="190" y="73" width="21" height="28" rx="1"/><rect x="217" y="73" width="21" height="28" rx="1"/>
+</g>
+
+<!-- 2 ECC -->
+<text x="20" y="144"><tspan font-weight="700">ECC</tspan> – 9 Chips</text>
+<rect x="20" y="152" width="260" height="42" rx="3" fill="#2e7d32"/>
+<g fill="#222">
+<rect x="28" y="159" width="21" height="28" rx="1"/><rect x="55" y="159" width="21" height="28" rx="1"/><rect x="82" y="159" width="21" height="28" rx="1"/><rect x="109" y="159" width="21" height="28" rx="1"/>
+<rect x="136" y="159" width="21" height="28" rx="1"/><rect x="163" y="159" width="21" height="28" rx="1"/><rect x="190" y="159" width="21" height="28" rx="1"/><rect x="217" y="159" width="21" height="28" rx="1"/>
+</g>
+<rect x="246" y="159" width="21" height="28" rx="1" fill="#c62828" stroke="#fff" stroke-width="1.2"/>
+
+<!-- 3 Registered -->
+<text x="20" y="230"><tspan font-weight="700">Registered</tspan> – 9 + 2 Register-Chips</text>
+<rect x="20" y="238" width="260" height="56" rx="3" fill="#2e7d32"/>
+<g fill="#222">
+<rect x="28" y="245" width="21" height="26" rx="1"/><rect x="55" y="245" width="21" height="26" rx="1"/><rect x="82" y="245" width="21" height="26" rx="1"/><rect x="109" y="245" width="21" height="26" rx="1"/>
+<rect x="136" y="245" width="21" height="26" rx="1"/><rect x="163" y="245" width="21" height="26" rx="1"/><rect x="190" y="245" width="21" height="26" rx="1"/><rect x="217" y="245" width="21" height="26" rx="1"/>
+</g>
+<rect x="246" y="245" width="21" height="26" rx="1" fill="#c62828" stroke="#fff" stroke-width="1.2"/>
+<rect x="110" y="276" width="22" height="13" rx="1" fill="#3a6ed8" stroke="#fff" stroke-width="1.2"/>
+<rect x="166" y="276" width="22" height="13" rx="1" fill="#3a6ed8" stroke="#fff" stroke-width="1.2"/>
+
+<!-- 4 Fully Buffered -->
+<text x="20" y="330"><tspan font-weight="700">Fully Buffered</tspan> – Chips + Puffer</text>
+<rect x="20" y="338" width="260" height="56" rx="3" fill="#2e7d32"/>
+<g fill="#222">
+<rect x="28" y="345" width="21" height="26" rx="1"/><rect x="55" y="345" width="21" height="26" rx="1"/><rect x="82" y="345" width="21" height="26" rx="1"/><rect x="109" y="345" width="21" height="26" rx="1"/>
+<rect x="163" y="345" width="21" height="26" rx="1"/><rect x="190" y="345" width="21" height="26" rx="1"/><rect x="217" y="345" width="21" height="26" rx="1"/><rect x="244" y="345" width="21" height="26" rx="1"/>
+</g>
+<rect x="128" y="372" width="44" height="18" rx="2" fill="#E07B00" stroke="#fff" stroke-width="1.2"/>
+
+<!-- Verwechslungs-Pfeil -->
+<path d="M286,266 C318,250 318,190 298,176" fill="none" stroke="#c62828" stroke-width="3"/>
+<path d="M305,170 L290,170 L297,184 Z" fill="#c62828"/>
+<g font-size="13" font-weight="700" fill="#c62828">
+<text x="322" y="196">hat immer</text>
+<text x="322" y="212">auch ECC –</text>
+<text x="322" y="228">darum oft</text>
+<text x="322" y="244">verwechselt</text>
+</g>
+</svg>

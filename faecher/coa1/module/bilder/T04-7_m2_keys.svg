@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 545" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>M.2: die Kerbe entscheidet. Vier M.2-Karten mit markierter Kerbe an der Kontaktleiste: Key M (Kerbe rechts) für SSD mit NVMe über PCIe x4, am schnellsten. Key B (Kerbe links) für SSD mit SATA oder PCIe x2, also 2 Lanes. Key B+M: SSD mit beiden Kerben, passt in beide. Key A oder Key E (zwei Arten, gleicher Zweck): WLAN, Bluetooth, Mobilfunk (LTE). Unten ein Steckplatz Key M mit Steg: die Karte mit Key M passt (grüner Haken), die Karte mit Key A/E passt nicht (rotes X).</title>
+<rect width="400" height="545" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="16" font-weight="700">M.2: Die Kerbe entscheidet</text>
+
+<!-- Zeile 1: Key M -->
+<path d="M16,48 H116 V98 H102.5 V86 H95.5 V98 H16 Z" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<rect x="30" y="56" width="26" height="22" rx="2" fill="#555"/><rect x="64" y="56" width="26" height="22" rx="2" fill="#555"/>
+<rect x="18" y="90" width="76" height="7" fill="#c9a227"/><rect x="104" y="90" width="10" height="7" fill="#c9a227"/>
+<path d="M95.5,98 V86 H102.5 V98" fill="none" stroke="#c62828" stroke-width="2.5"/>
+<text x="132" y="64" font-size="16" font-weight="700">Key M</text><text x="190" y="64" font-size="13" fill="#c62828">(Kerbe rechts)</text>
+<text x="132" y="84" font-size="14">SSD: NVMe über PCIe x4</text>
+<text x="132" y="102" font-size="14" font-weight="700" fill="#3a6ed8">am schnellsten</text>
+<line x1="12" y1="116" x2="388" y2="116" stroke="#ddd" stroke-width="1.5"/>
+
+<!-- Zeile 2: Key B -->
+<path d="M16,130 H116 V180 H40.5 V168 H33.5 V180 H16 Z" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<rect x="46" y="138" width="26" height="22" rx="2" fill="#555"/><rect x="80" y="138" width="26" height="22" rx="2" fill="#555"/>
+<rect x="18" y="172" width="14" height="7" fill="#c9a227"/><rect x="42" y="172" width="72" height="7" fill="#c9a227"/>
+<path d="M33.5,180 V168 H40.5 V180" fill="none" stroke="#c62828" stroke-width="2.5"/>
+<text x="132" y="148" font-size="16" font-weight="700">Key B</text><text x="186" y="148" font-size="13" fill="#c62828">(Kerbe links)</text>
+<text x="132" y="168" font-size="14">SSD mit SATA</text>
+<text x="132" y="186" font-size="14">oder PCIe x2 (2 Lanes)</text>
+<line x1="12" y1="198" x2="388" y2="198" stroke="#ddd" stroke-width="1.5"/>
+
+<!-- Zeile 3: Key B+M -->
+<path d="M16,212 H116 V262 H102.5 V250 H95.5 V262 H40.5 V250 H33.5 V262 H16 Z" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<rect x="46" y="220" width="26" height="22" rx="2" fill="#555"/>
+<rect x="18" y="254" width="14" height="7" fill="#c9a227"/><rect x="42" y="254" width="52" height="7" fill="#c9a227"/><rect x="104" y="254" width="10" height="7" fill="#c9a227"/>
+<path d="M33.5,262 V250 H40.5 V262 M95.5,262 V250 H102.5 V262" fill="none" stroke="#c62828" stroke-width="2.5"/>
+<text x="132" y="230" font-size="16" font-weight="700">Key B+M</text><text x="208" y="230" font-size="13" fill="#c62828">(beide Kerben)</text>
+<text x="132" y="250" font-size="14">SSD mit zwei Kerben,</text>
+<text x="132" y="268" font-size="14">passt in beide</text>
+<line x1="12" y1="280" x2="388" y2="280" stroke="#ddd" stroke-width="1.5"/>
+
+<!-- Zeile 4: Key A / Key E -->
+<path d="M16,294 H116 V344 H56.5 V332 H49.5 V344 H34.5 V332 H27.5 V344 H16 Z" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<rect x="18" y="336" width="8" height="7" fill="#c9a227"/><rect x="36" y="336" width="12" height="7" fill="#c9a227"/><rect x="58" y="336" width="56" height="7" fill="#c9a227"/>
+<path d="M27.5,344 V332 H34.5 V344 M49.5,344 V332 H56.5 V344" fill="none" stroke="#c62828" stroke-width="2.5"/>
+<circle cx="86" cy="320" r="3" fill="#3a6ed8"/>
+<path d="M77,311 A12.7,12.7 0 0,1 95,311 M71,305 A21.2,21.2 0 0,1 101,305" fill="none" stroke="#3a6ed8" stroke-width="2.5" stroke-linecap="round"/>
+<text x="132" y="312" font-size="16" font-weight="700">Key A / Key E</text><text x="252" y="312" font-size="13" fill="#c62828">(2 Arten)</text>
+<text x="132" y="332" font-size="14">WLAN, Bluetooth,</text>
+<text x="132" y="350" font-size="14">Mobilfunk (LTE)</text>
+
+<!-- Steckplatz-Probe -->
+<rect x="8" y="366" width="384" height="172" rx="8" fill="#eceff1"/>
+<text x="200" y="388" text-anchor="middle" font-size="15" font-weight="700">Steckplatz für Key M (mit Steg)</text>
+<!-- passt -->
+<path d="M30,400 H130 V440 H116.5 V428 H109.5 V440 H30 Z" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<rect x="32" y="432" width="76" height="7" fill="#c9a227"/><rect x="118" y="432" width="10" height="7" fill="#c9a227"/>
+<text x="68" y="422" text-anchor="middle" font-size="14" font-weight="700">Key M</text>
+<line x1="80" y1="444" x2="80" y2="456" stroke="#555" stroke-width="2.5"/>
+<polygon points="74,455 86,455 80,462" fill="#555"/>
+<rect x="24" y="464" width="112" height="24" rx="3" fill="#555"/>
+<rect x="28" y="464" width="104" height="11" fill="#fff"/>
+<rect x="110" y="464" width="6" height="11" fill="#c62828"/>
+<path d="M150,444 L160,456 L180,428" fill="none" stroke="#2e7d32" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="80" y="512" text-anchor="middle" font-size="15" font-weight="700" fill="#2e7d32">passt</text>
+<text x="80" y="530" text-anchor="middle" font-size="13" fill="#444">Kerbe trifft Steg</text>
+<!-- passt nicht -->
+<path d="M220,400 H320 V440 H260.5 V428 H253.5 V440 H238.5 V428 H231.5 V440 H220 Z" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<rect x="222" y="432" width="8" height="7" fill="#c9a227"/><rect x="240" y="432" width="12" height="7" fill="#c9a227"/><rect x="262" y="432" width="56" height="7" fill="#c9a227"/>
+<text x="290" y="422" text-anchor="middle" font-size="14" font-weight="700">Key A/E</text>
+<line x1="270" y1="444" x2="270" y2="456" stroke="#555" stroke-width="2.5"/>
+<polygon points="264,455 276,455 270,462" fill="#555"/>
+<rect x="214" y="464" width="112" height="24" rx="3" fill="#555"/>
+<rect x="218" y="464" width="104" height="11" fill="#fff"/>
+<rect x="300" y="464" width="6" height="11" fill="#c62828"/>
+<path d="M342,430 L366,454 M366,430 L342,454" stroke="#c62828" stroke-width="6" stroke-linecap="round"/>
+<text x="270" y="512" text-anchor="middle" font-size="15" font-weight="700" fill="#c62828">passt nicht</text>
+<text x="270" y="530" text-anchor="middle" font-size="13" fill="#444">Steg trifft Kontakte</text>
+</svg>

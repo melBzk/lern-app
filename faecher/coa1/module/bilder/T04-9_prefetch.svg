@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 440" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Prefetch: Pro Zugriff holt der Speicher mehrere Datenwörter aus den langsamen Speicherzellen in einen schnellen Puffer für Ein- und Ausgabe, von dort gehen sie zum Prozessor. DDR 2 Datenwörter pro Zugriff, DDR2 4, DDR3 8, DDR4 ebenfalls 8, aber mit geschickterem Zugriff auf die Speicherbänke. Eine Kiste steht für ein Datenwort.</title>
+<defs><marker id="p" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker></defs>
+<rect width="400" height="440" fill="#fff"/>
+
+<!-- Spaltenköpfe -->
+<g text-anchor="middle" font-size="13" font-weight="700">
+<text x="51" y="22">Speicher-</text><text x="51" y="38">zellen</text>
+<text x="291" y="22">Puffer</text>
+<text x="364" y="22">zum</text><text x="364" y="38">Pro-</text><text x="364" y="54">zessor</text>
+</g>
+<g text-anchor="middle" font-size="13" fill="#555">
+<text x="51" y="54">(langsam)</text>
+<text x="291" y="38">(Ein-/Ausgabe,</text><text x="291" y="54">schnell)</text>
+</g>
+
+<!-- Zeile DDR -->
+<text x="10" y="90" font-weight="700">DDR: 2 Kisten pro Zugriff</text>
+<rect x="10" y="100" width="82" height="32" rx="4" fill="#9aa5b1"/>
+<g fill="#D4607A"><rect x="102" y="110" width="12" height="12"/><rect x="117" y="110" width="12" height="12"/></g>
+<line x1="226" y1="116" x2="252" y2="116" stroke="#333" stroke-width="2" marker-end="url(#p)"/>
+<rect x="256" y="100" width="70" height="32" rx="4" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<line x1="332" y1="116" x2="388" y2="116" stroke="#333" stroke-width="3" marker-end="url(#p)"/>
+
+<!-- Zeile DDR2 -->
+<text x="10" y="166" font-weight="700">DDR2: 4 Kisten</text>
+<rect x="10" y="176" width="82" height="32" rx="4" fill="#9aa5b1"/>
+<g fill="#D4607A"><rect x="102" y="186" width="12" height="12"/><rect x="117" y="186" width="12" height="12"/><rect x="132" y="186" width="12" height="12"/><rect x="147" y="186" width="12" height="12"/></g>
+<line x1="226" y1="192" x2="252" y2="192" stroke="#333" stroke-width="2" marker-end="url(#p)"/>
+<rect x="256" y="176" width="70" height="32" rx="4" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<line x1="332" y1="192" x2="388" y2="192" stroke="#333" stroke-width="3" marker-end="url(#p)"/>
+
+<!-- Zeile DDR3 -->
+<text x="10" y="242" font-weight="700">DDR3: 8 Kisten</text>
+<rect x="10" y="252" width="82" height="32" rx="4" fill="#9aa5b1"/>
+<g fill="#D4607A"><rect x="102" y="262" width="12" height="12"/><rect x="117" y="262" width="12" height="12"/><rect x="132" y="262" width="12" height="12"/><rect x="147" y="262" width="12" height="12"/><rect x="162" y="262" width="12" height="12"/><rect x="177" y="262" width="12" height="12"/><rect x="192" y="262" width="12" height="12"/><rect x="207" y="262" width="12" height="12"/></g>
+<line x1="226" y1="268" x2="252" y2="268" stroke="#333" stroke-width="2" marker-end="url(#p)"/>
+<rect x="256" y="252" width="70" height="32" rx="4" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<line x1="332" y1="268" x2="388" y2="268" stroke="#333" stroke-width="3" marker-end="url(#p)"/>
+
+<!-- Zeile DDR4 -->
+<text x="10" y="318" font-weight="700">DDR4: 8 Kisten</text>
+<rect x="10" y="328" width="82" height="32" rx="4" fill="#9aa5b1"/>
+<g fill="#D4607A"><rect x="102" y="338" width="12" height="12"/><rect x="117" y="338" width="12" height="12"/><rect x="132" y="338" width="12" height="12"/><rect x="147" y="338" width="12" height="12"/><rect x="162" y="338" width="12" height="12"/><rect x="177" y="338" width="12" height="12"/><rect x="192" y="338" width="12" height="12"/><rect x="207" y="338" width="12" height="12"/></g>
+<line x1="226" y1="344" x2="252" y2="344" stroke="#333" stroke-width="2" marker-end="url(#p)"/>
+<rect x="256" y="328" width="70" height="32" rx="4" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<line x1="332" y1="344" x2="388" y2="344" stroke="#333" stroke-width="3" marker-end="url(#p)"/>
+<text x="10" y="380">+ geschickterer Zugriff auf die Speicherbänke</text>
+
+<!-- Erklärung Kiste -->
+<rect x="10" y="400" width="380" height="32" rx="8" fill="#eceff1"/>
+<rect x="24" y="410" width="12" height="12" fill="#D4607A"/>
+<text x="46" y="421">1 Kiste = 1 Datenwort</text>
+</svg>

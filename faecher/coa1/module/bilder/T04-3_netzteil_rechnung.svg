@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 540" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Netzteil-Rechnung als Balken im gleichen Maßstab. Links gestapelt: Prozessor 140 W, Grafikkarte 300 W, SSD 4 W, Festplatte 12 W, zusammen 456 W. Rechts ein Netzteil-Balken mit 650 W; darin grün der gute Bereich von 40 bis 80 Prozent, also 260 bis 520 W. Die 456 W liegen bei etwa 70 Prozent, im grünen Bereich. Unten die Rechnung: 456 geteilt durch 0,8 gleich 570 W, gewählt wird ein 650-W-Netzteil mit Reserve.</title>
+<rect width="400" height="540" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">Wie stark muss das Netzteil sein?</text>
+
+<!-- Achse -->
+<line x1="10" y1="440" x2="390" y2="440" stroke="#333" stroke-width="2"/>
+<text x="20" y="458" font-size="13" fill="#555">0 W</text>
+
+<!-- Stapel: 0,5 px pro Watt -->
+<text x="155" y="104" text-anchor="middle" font-size="14" font-weight="700">Teile</text>
+<text x="155" y="122" text-anchor="middle" font-size="14" font-weight="700">zusammen</text>
+<rect x="110" y="370" width="90" height="70" fill="#455a64"/>
+<text x="155" y="400" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">Prozessor</text>
+<text x="155" y="418" text-anchor="middle" font-size="13" fill="#fff">140 W</text>
+<rect x="110" y="220" width="90" height="150" fill="#3a6ed8"/>
+<text x="155" y="292" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">Grafikkarte</text>
+<text x="155" y="310" text-anchor="middle" font-size="13" fill="#fff">300 W</text>
+<rect x="110" y="218" width="90" height="2" fill="#b45f06"/>
+<rect x="110" y="212" width="90" height="6" fill="#e0a000"/>
+<g stroke="#555" stroke-width="1.5"><line x1="106" y1="215" x2="86" y2="190"/><line x1="106" y1="219" x2="86" y2="240"/></g>
+<text x="82" y="180" text-anchor="end" font-size="13">Festplatte</text>
+<text x="82" y="196" text-anchor="end" font-size="13">12 W</text>
+<text x="82" y="246" text-anchor="end" font-size="13">SSD 4 W</text>
+<text x="155" y="160" text-anchor="middle" font-size="13">Summe</text>
+<text x="155" y="180" text-anchor="middle" font-size="18" font-weight="700" fill="#D4607A">456 W</text>
+
+<!-- Netzteil-Balken 650 W -->
+<text x="290" y="88" text-anchor="middle" font-size="14" font-weight="700">Netzteil</text>
+<text x="290" y="106" text-anchor="middle" font-size="14" font-weight="700">650 W</text>
+<rect x="250" y="115" width="80" height="325" fill="#eceff1" stroke="#555" stroke-width="2"/>
+<rect x="251" y="180" width="78" height="130" fill="#c8e6c9"/>
+<g stroke="#2e7d32" stroke-width="2"><line x1="250" y1="180" x2="336" y2="180"/><line x1="250" y1="310" x2="336" y2="310"/></g>
+<text x="340" y="185" font-size="13" font-weight="700" fill="#2e7d32">520 W</text>
+<text x="340" y="315" font-size="13" font-weight="700" fill="#2e7d32">260 W</text>
+<text x="340" y="232" font-size="13" fill="#2e7d32">guter</text>
+<text x="340" y="248" font-size="13" fill="#2e7d32">Bereich</text>
+<text x="340" y="264" font-size="13" font-weight="700" fill="#2e7d32">40–80 %</text>
+
+<!-- 456 W Linie -->
+<line x1="200" y1="212" x2="330" y2="212" stroke="#D4607A" stroke-width="3" stroke-dasharray="7 4"/>
+<text x="290" y="236" text-anchor="middle" font-size="16" font-weight="700" fill="#a83a55">≈ 70 %</text>
+<path d="M276,252 l6,6 l12,-13" fill="none" stroke="#2e7d32" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+<!-- Rechnung -->
+<rect x="10" y="468" width="380" height="62" rx="8" fill="#fbe3e9"/>
+<text x="200" y="494" text-anchor="middle" font-size="16" font-weight="700">456 ÷ 0,8 = 570 W → 650-W-Netzteil</text>
+<text x="200" y="516" text-anchor="middle" font-size="13" fill="#444">Reserve: Mainboard, RAM und Lüfter fehlen in der Tabelle</text>
+</svg>

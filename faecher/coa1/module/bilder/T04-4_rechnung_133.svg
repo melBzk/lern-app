@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 540" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Rechenweg für die PCI-Datenrate in drei Stufen: 33 MHz sind 33 Millionen Takte pro Sekunde; mal 32 Leitungen ergibt 1056 Millionen Bit pro Sekunde; geteilt durch 8 ergibt 132 Millionen Byte pro Sekunde, gerundet etwa 133 MB/s. Darunter eine Tabelle: 32 Bit und 33 MHz ergeben 133 MB/s, 32 Bit und 66 MHz 266 MB/s, 64 Bit und 66 MHz 533 MB/s.</title>
+<rect width="400" height="540" fill="#fff"/>
+<text x="200" y="26" font-size="17" text-anchor="middle" font-weight="700">Woher kommen die 133 MB/s?</text>
+
+<!-- Stufe 1 -->
+<rect x="30" y="44" width="340" height="62" rx="8" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<text x="200" y="72" text-anchor="middle" font-size="19" font-weight="700">33 MHz</text>
+<text x="200" y="94" text-anchor="middle">= 33 Millionen Takte pro Sekunde</text>
+<line x1="80" y1="108" x2="80" y2="134" stroke="#555" stroke-width="4"/><path d="M71,132 L89,132 L80,146 Z" fill="#555"/>
+<text x="104" y="132" font-size="16" font-weight="700" fill="#3a6ed8">× 32 Leitungen (32 Bit)</text>
+
+<!-- Stufe 2 -->
+<rect x="30" y="150" width="340" height="50" rx="8" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<text x="200" y="182" text-anchor="middle" font-size="18" font-weight="700">1056 Millionen Bit/s</text>
+<line x1="80" y1="202" x2="80" y2="228" stroke="#555" stroke-width="4"/><path d="M71,226 L89,226 L80,240 Z" fill="#555"/>
+<text x="104" y="226" font-size="16" font-weight="700" fill="#3a6ed8">÷ 8 (8 Bit = 1 Byte)</text>
+
+<!-- Stufe 3 -->
+<rect x="30" y="244" width="340" height="76" rx="8" fill="#fdecea" stroke="#c62828" stroke-width="3"/>
+<text x="200" y="274" text-anchor="middle" font-size="18" font-weight="700">132 Millionen Byte/s</text>
+<text x="200" y="304" text-anchor="middle" font-size="21" font-weight="700" fill="#c62828">≈ 133 MB/s</text>
+<text x="200" y="342" text-anchor="middle" font-size="13" fill="#555">133 statt 132: Der Takt ist genauer 33,3 MHz.</text>
+
+<!-- Tabelle -->
+<text x="200" y="384" text-anchor="middle" font-size="15" font-weight="700">PCI-Datenraten im Buch</text>
+<rect x="30" y="396" width="340" height="34" fill="#555"/>
+<g font-weight="700" fill="#fff" text-anchor="middle"><text x="87" y="418">Busbreite</text><text x="200" y="418">Takt</text><text x="313" y="418">Datenrate</text></g>
+<rect x="30" y="430" width="340" height="34" fill="#fdecea"/>
+<rect x="30" y="464" width="340" height="34" fill="#fff"/>
+<rect x="30" y="498" width="340" height="34" fill="#eceff1"/>
+<rect x="30" y="396" width="340" height="136" fill="none" stroke="#555" stroke-width="2"/>
+<g stroke="#bbb" stroke-width="1.5"><line x1="144" y1="430" x2="144" y2="532"/><line x1="256" y1="430" x2="256" y2="532"/></g>
+<g text-anchor="middle" font-size="15">
+<text x="87" y="452">32 Bit</text><text x="200" y="452">33 MHz</text><text x="313" y="452" font-weight="700" fill="#c62828">133 MB/s</text>
+<text x="87" y="486">32 Bit</text><text x="200" y="486">66 MHz</text><text x="313" y="486" font-weight="700">266 MB/s</text>
+<text x="87" y="520">64 Bit</text><text x="200" y="520">66 MHz</text><text x="313" y="520" font-weight="700">533 MB/s</text>
+</g>
+</svg>

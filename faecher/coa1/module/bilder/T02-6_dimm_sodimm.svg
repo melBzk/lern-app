@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>DIMM und SO-DIMM. Oben ein langer RAM-Riegel: DIMM, Dual Inline Memory Module, für den Desktop-PC. Daneben eine Seitenansicht: Kontakte auf beiden Seiten. Darunter ein deutlich kürzerer Riegel: SO-DIMM, Small Outline DIMM, für Notebooks. Rotes X: Der SO-DIMM passt nicht in den Desktop-Steckplatz. Unten ein Mainboard-Ausschnitt mit vier Steckplätzen, beschriftet DIMM_A1, DIMM_A2, DIMM_B1, DIMM_B2: die DIMM-Steckplätze, englisch Slots.</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker></defs>
+<rect width="400" height="480" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">DIMM und SO-DIMM</text>
+
+<!-- DIMM -->
+<text x="20" y="56" font-size="16" font-weight="700">DIMM <tspan font-weight="400" font-size="15">– Desktop-PC</tspan></text>
+<text x="20" y="74" font-size="13" fill="#444">Dual Inline Memory Module</text>
+<path d="M20,84 H320 V132 H176 V124 H168 V132 H20 Z" fill="#2e7d32"/>
+<g fill="#1a1a1a"><rect x="32" y="92" width="28" height="20"/><rect x="72" y="92" width="28" height="20"/><rect x="112" y="92" width="28" height="20"/><rect x="198" y="92" width="28" height="20"/><rect x="238" y="92" width="28" height="20"/><rect x="278" y="92" width="28" height="20"/></g>
+<rect x="26" y="120" width="140" height="9" fill="#c9a227"/><rect x="178" y="120" width="136" height="9" fill="#c9a227"/>
+<!-- Seitenansicht -->
+<rect x="356" y="84" width="10" height="48" fill="#2e7d32"/>
+<rect x="351" y="112" width="5" height="20" fill="#c9a227"/><rect x="366" y="112" width="5" height="20" fill="#c9a227"/>
+<text x="361" y="78" text-anchor="middle" font-size="13" fill="#444">Seite</text>
+<line x1="226" y1="151" x2="348" y2="128" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+<text x="20" y="156" font-size="14">Kontakte auf <tspan font-weight="700">beiden Seiten</tspan></text>
+
+<!-- SO-DIMM -->
+<text x="20" y="196" font-size="16" font-weight="700">SO-DIMM <tspan font-weight="400" font-size="15">– Notebook</tspan></text>
+<text x="20" y="214" font-size="13" fill="#444">Small Outline DIMM</text>
+<path d="M20,224 H170 V264 H72 V256 H64 V264 H20 Z" fill="#2e7d32"/>
+<g fill="#1a1a1a"><rect x="30" y="230" width="26" height="18"/><rect x="80" y="230" width="26" height="18"/><rect x="128" y="230" width="26" height="18"/></g>
+<rect x="24" y="253" width="38" height="8" fill="#c9a227"/><rect x="74" y="253" width="92" height="8" fill="#c9a227"/>
+<line x1="95" y1="270" x2="95" y2="316" stroke="#c62828" stroke-width="2.5" stroke-dasharray="5 4"/>
+<g stroke="#c62828" stroke-width="5" stroke-linecap="round"><line x1="190" y1="236" x2="214" y2="260"/><line x1="214" y1="236" x2="190" y2="260"/></g>
+<text x="226" y="246" font-size="15" font-weight="700" fill="#c62828">passt nicht in den</text>
+<text x="226" y="264" font-size="15" font-weight="700" fill="#c62828">Desktop-Steckplatz</text>
+
+<!-- Mainboard -->
+<rect x="10" y="300" width="380" height="132" rx="6" fill="#e3f0e9" stroke="#2f6b4f" stroke-width="2"/>
+<g fill="#222"><rect x="30" y="316" width="270" height="14" rx="2"/><rect x="30" y="344" width="270" height="14" rx="2"/><rect x="30" y="372" width="270" height="14" rx="2"/><rect x="30" y="400" width="270" height="14" rx="2"/></g>
+<g font-size="13" font-weight="700" fill="#1b4d36"><text x="308" y="328">DIMM_A1</text><text x="308" y="356">DIMM_A2</text><text x="308" y="384">DIMM_B1</text><text x="308" y="412">DIMM_B2</text></g>
+<line x1="150" y1="448" x2="150" y2="418" stroke="#333" stroke-width="2.5" marker-end="url(#a)"/>
+<text x="200" y="468" text-anchor="middle" font-size="15" font-weight="700">DIMM-Steckplatz (Slot)</text>
+</svg>

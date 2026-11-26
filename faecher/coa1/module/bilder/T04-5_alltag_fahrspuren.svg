@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 540" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>PCIe wie eine Autobahn von oben, drei Streifen untereinander. Oben x1: eine Fahrspur, kleine Autos mit 0 oder 1 fahren hintereinander zur WLAN-Karte, Beschriftung 1 Lane. Mitte x4: vier Spuren nebeneinander, viermal so viele Autos gleichzeitig. Unten x16: sechzehn schmale Spuren voller Autos zur Grafikkarte. Unten der Satz: Mehr Spuren gleich mehr Daten gleichzeitig.</title>
+<defs>
+<marker id="k" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker>
+<g id="auto"><rect x="0" y="0" width="30" height="22" rx="5" fill="#3a6ed8"/></g>
+<g id="reihe16">
+<rect x="82" y="2" width="16" height="5" rx="2" fill="#3a6ed8"/><rect x="120" y="2" width="16" height="5" rx="2" fill="#3a6ed8"/><rect x="158" y="2" width="16" height="5" rx="2" fill="#3a6ed8"/><rect x="196" y="2" width="16" height="5" rx="2" fill="#3a6ed8"/><rect x="234" y="2" width="16" height="5" rx="2" fill="#3a6ed8"/><rect x="272" y="2" width="16" height="5" rx="2" fill="#3a6ed8"/>
+</g>
+</defs>
+<rect width="400" height="540" fill="#fff"/>
+<text x="200" y="26" font-size="17" text-anchor="middle" font-weight="700">PCIe = Autobahn für Bits</text>
+
+<!-- Streifen 1: x1 -->
+<text x="10" y="78" font-size="22" font-weight="700">x1</text>
+<text x="10" y="98" font-size="13" fill="#444">1 Lane</text>
+<rect x="70" y="62" width="234" height="40" fill="#555"/>
+<g font-size="14" font-weight="700" fill="#fff" text-anchor="middle">
+<use xlink:href="#auto" x="84" y="71"/><text x="99" y="87">1</text>
+<use xlink:href="#auto" x="134" y="71"/><text x="149" y="87">0</text>
+<use xlink:href="#auto" x="184" y="71"/><text x="199" y="87">1</text>
+<use xlink:href="#auto" x="234" y="71"/><text x="249" y="87">1</text>
+</g>
+<line x1="304" y1="82" x2="312" y2="82" stroke="#222" stroke-width="2.5"/><path d="M310,82 m0,-6 l10,6 l-10,6 z" fill="#222"/>
+<rect x="322" y="60" width="72" height="44" rx="6" fill="#eceff1"/>
+<text x="358" y="79" text-anchor="middle" font-size="13" font-weight="700">WLAN-</text>
+<text x="358" y="96" text-anchor="middle" font-size="13" font-weight="700">Karte</text>
+<text x="70" y="124" font-size="13" fill="#444">Bits fahren hintereinander (seriell)</text>
+
+<!-- Streifen 2: x4 -->
+<text x="10" y="200" font-size="22" font-weight="700">x4</text>
+<text x="10" y="220" font-size="13" fill="#444">4 Lanes</text>
+<rect x="70" y="150" width="234" height="120" fill="#555"/>
+<g stroke="#fff" stroke-width="2" stroke-dasharray="12 10"><line x1="70" y1="180" x2="304" y2="180"/><line x1="70" y1="210" x2="304" y2="210"/><line x1="70" y1="240" x2="304" y2="240"/></g>
+<g font-size="14" font-weight="700" fill="#fff" text-anchor="middle">
+<use xlink:href="#auto" x="84" y="154"/><text x="99" y="170">0</text>
+<use xlink:href="#auto" x="144" y="154"/><text x="159" y="170">1</text>
+<use xlink:href="#auto" x="214" y="154"/><text x="229" y="170">1</text>
+<use xlink:href="#auto" x="104" y="184"/><text x="119" y="200">1</text>
+<use xlink:href="#auto" x="174" y="184"/><text x="189" y="200">0</text>
+<use xlink:href="#auto" x="244" y="184"/><text x="259" y="200">0</text>
+<use xlink:href="#auto" x="84" y="214"/><text x="99" y="230">1</text>
+<use xlink:href="#auto" x="154" y="214"/><text x="169" y="230">1</text>
+<use xlink:href="#auto" x="224" y="214"/><text x="239" y="230">0</text>
+<use xlink:href="#auto" x="124" y="244"/><text x="139" y="260">0</text>
+<use xlink:href="#auto" x="194" y="244"/><text x="209" y="260">1</text>
+<use xlink:href="#auto" x="264" y="244"/><text x="279" y="260">1</text>
+</g>
+<line x1="304" y1="210" x2="312" y2="210" stroke="#222" stroke-width="2.5"/><path d="M310,210 m0,-6 l10,6 l-10,6 z" fill="#222"/>
+
+<!-- Streifen 3: x16 -->
+<text x="10" y="390" font-size="22" font-weight="700" fill="#E07B00">x16</text>
+<text x="10" y="410" font-size="13" fill="#444">16 Lanes</text>
+<rect x="70" y="320" width="234" height="144" fill="#555"/>
+<g stroke="#fff" stroke-width="1" stroke-dasharray="8 8">
+<line x1="70" y1="329" x2="304" y2="329"/><line x1="70" y1="338" x2="304" y2="338"/><line x1="70" y1="347" x2="304" y2="347"/><line x1="70" y1="356" x2="304" y2="356"/><line x1="70" y1="365" x2="304" y2="365"/><line x1="70" y1="374" x2="304" y2="374"/><line x1="70" y1="383" x2="304" y2="383"/><line x1="70" y1="392" x2="304" y2="392"/><line x1="70" y1="401" x2="304" y2="401"/><line x1="70" y1="410" x2="304" y2="410"/><line x1="70" y1="419" x2="304" y2="419"/><line x1="70" y1="428" x2="304" y2="428"/><line x1="70" y1="437" x2="304" y2="437"/><line x1="70" y1="446" x2="304" y2="446"/><line x1="70" y1="455" x2="304" y2="455"/>
+</g>
+<use xlink:href="#reihe16" x="0" y="320"/><use xlink:href="#reihe16" x="14" y="329"/><use xlink:href="#reihe16" x="4" y="338"/><use xlink:href="#reihe16" x="16" y="347"/>
+<use xlink:href="#reihe16" x="8" y="356"/><use xlink:href="#reihe16" x="0" y="365"/><use xlink:href="#reihe16" x="12" y="374"/><use xlink:href="#reihe16" x="2" y="383"/>
+<use xlink:href="#reihe16" x="16" y="392"/><use xlink:href="#reihe16" x="6" y="401"/><use xlink:href="#reihe16" x="10" y="410"/><use xlink:href="#reihe16" x="0" y="419"/>
+<use xlink:href="#reihe16" x="14" y="428"/><use xlink:href="#reihe16" x="4" y="437"/><use xlink:href="#reihe16" x="16" y="446"/><use xlink:href="#reihe16" x="8" y="455"/>
+<line x1="304" y1="392" x2="312" y2="392" stroke="#222" stroke-width="2.5"/><path d="M310,392 m0,-6 l10,6 l-10,6 z" fill="#222"/>
+<rect x="322" y="364" width="72" height="56" rx="6" fill="#fff3e0" stroke="#E07B00" stroke-width="2"/>
+<text x="358" y="388" text-anchor="middle" font-size="13" font-weight="700">Grafik-</text>
+<text x="358" y="406" text-anchor="middle" font-size="13" font-weight="700">karte</text>
+
+<rect x="10" y="488" width="380" height="40" rx="8" fill="#eceff1"/>
+<text x="200" y="514" text-anchor="middle" font-size="16" font-weight="700">Mehr Spuren = mehr Daten gleichzeitig</text>
+</svg>

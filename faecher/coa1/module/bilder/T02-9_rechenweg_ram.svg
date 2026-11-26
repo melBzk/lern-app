@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 460" font-family="system-ui, sans-serif" fill="#222">
-<title>Rechenweg in drei Schritten für Arbeitsspeicher DDR5-6000 mit 64 Datenleitungen: 1. Takt umrechnen: 6000 MHz = 6000 mal 1 Million = 6 Milliarden Takte pro Sekunde, pro Leitung. 2. Mal Busbreite: 64 mal 6 Milliarden = 384 Milliarden Bit pro Sekunde. 3. In Byte: geteilt durch 8 = 48 Milliarden Byte pro Sekunde = 48 GB/s. Theoretischer Höchstwert.</title>
+<title>Rechenweg in drei Schritten für Arbeitsspeicher DDR5-6000 mit 64 Datenleitungen: 1. Umrechnen: 6000 Millionen Übertragungen pro Sekunde = 6000 mal 1 Million = 6 Milliarden Übertragungen pro Sekunde, pro Leitung. Der I/O-Takt ist nur 3000 MHz, weil DDR zweimal pro Takt überträgt. 2. Mal Busbreite: 64 mal 6 Milliarden = 384 Milliarden Bit pro Sekunde. 3. In Byte: geteilt durch 8 = 48 Milliarden Byte pro Sekunde = 48 GB/s. Theoretischer Höchstwert.</title>
 <defs>
 <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker>
 </defs>
@@ -7,17 +7,18 @@
 <text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">DDR5-6000: Bit pro Sekunde?</text>
 <!-- Ausgangswerte -->
 <rect x="10" y="40" width="185" height="50" rx="8" fill="#fff" stroke="#E07B00" stroke-width="2"/>
-<text x="102" y="62" text-anchor="middle" font-size="13" fill="#555">Takt</text>
-<text x="102" y="81" text-anchor="middle" font-size="16" font-weight="700">6000 MHz</text>
+<text x="102" y="62" text-anchor="middle" font-size="13" fill="#555">Übertragungen/s</text>
+<text x="102" y="81" text-anchor="middle" font-size="16" font-weight="700">6000 Mio.</text>
 <rect x="205" y="40" width="185" height="50" rx="8" fill="#fff" stroke="#c62828" stroke-width="2"/>
 <text x="297" y="62" text-anchor="middle" font-size="13" fill="#555">Datenleitungen</text>
 <text x="297" y="81" text-anchor="middle" font-size="16" font-weight="700">64</text>
 <!-- Schritt 1 -->
 <circle cx="26" cy="128" r="14" fill="#E07B00"/><text x="26" y="133" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">1</text>
-<text x="50" y="122" font-size="15" font-weight="700">Takt umrechnen (Mega = 1 Million)</text>
+<text x="50" y="122" font-size="15" font-weight="700">umrechnen (Mio. = 1 Million)</text>
 <rect x="50" y="132" width="340" height="36" rx="6" fill="#fdf0e0"/>
-<text x="62" y="156" font-size="15">6000 × 1 Million = <tspan font-weight="700">6 Mrd. Takte/s</tspan></text>
-<text x="390" y="186" text-anchor="end" font-size="13" fill="#555">pro Leitung</text>
+<text x="62" y="156" font-size="15">6000 × 1 Million = <tspan font-weight="700">6 Mrd./s</tspan></text>
+<text x="50" y="186" font-size="12" fill="#555">I/O-Takt nur 3000 MHz (DDR: 2 × pro Takt)</text>
+<text x="390" y="122" text-anchor="end" font-size="13" fill="#555">pro Leitung</text>
 <line x1="200" y1="190" x2="200" y2="208" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
 <!-- Schritt 2 -->
 <circle cx="26" cy="232" r="14" fill="#c62828"/><text x="26" y="237" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">2</text>

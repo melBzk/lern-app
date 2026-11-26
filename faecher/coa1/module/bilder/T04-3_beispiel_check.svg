@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 512" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Prüfliste für einen PC mit dem Prozessor Intel Core i9-10850K, sieben Zeilen mit grünen Häkchen. Sockel LGA 1200: Mainboard mit LGA 1200. BIOS: CPU-Support-Liste prüfen. K bedeutet übertaktbar: Chipsatz mit Übertakten, falls gewünscht. RAM DDR4 bis 2933: Kit 2 mal DDR4-2933. Gehäuse Midi-Tower: ATX-Board. TDP 125 W: Kühler mit Lüfter, nicht lüfterlos. Netzteil laut Rechnung: 650 W mit PCIe-Steckern 8-polig und 6-polig (75 plus 75 plus 150 gleich 300 W für die Grafikkarte).</title>
+<rect width="400" height="512" fill="#fff"/>
+<rect x="14" y="14" width="56" height="56" rx="5" fill="#455a64"/>
+<rect x="28" y="28" width="28" height="28" rx="2" fill="#9aa5b1"/>
+<g stroke="#455a64" stroke-width="2.5"><path d="M22,8 v6 M34,8 v6 M50,8 v6 M62,8 v6 M22,70 v6 M34,70 v6 M50,70 v6 M62,70 v6"/></g>
+<text x="86" y="36" font-size="13" fill="#444">gewählter Prozessor</text>
+<text x="86" y="60" font-size="19" font-weight="700" fill="#D4607A">Core i9-10850K</text>
+<g font-size="13" fill="#555" font-weight="700"><text x="46" y="96">Daten</text><text x="200" y="96">Entscheidung</text></g>
+<rect x="10" y="104" width="380" height="56" fill="#f1f4f5"/>
+<path d="M18,132 l6,6 l12,-13" fill="none" stroke="#2e7d32" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="46" y="128" font-weight="700">Sockel</text>
+<text x="46" y="147">LGA 1200</text>
+<text x="176" y="137" font-size="16" fill="#777">→</text>
+<text x="200" y="128" font-weight="700">Mainboard mit</text>
+<text x="200" y="147" font-weight="700" fill="#222">LGA 1200</text>
+<path d="M18,188 l6,6 l12,-13" fill="none" stroke="#2e7d32" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="46" y="184" font-weight="700">BIOS</text>
+<text x="176" y="193" font-size="16" fill="#777">→</text>
+<text x="200" y="184" font-weight="700">CPU-Support-Liste</text>
+<text x="200" y="203" font-weight="700" fill="#222">prüfen</text>
+<rect x="10" y="216" width="380" height="56" fill="#f1f4f5"/>
+<path d="M18,244 l6,6 l12,-13" fill="none" stroke="#2e7d32" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="46" y="240" font-weight="700">„K“ =</text>
+<text x="46" y="259">übertaktbar</text>
+<text x="176" y="249" font-size="16" fill="#777">→</text>
+<text x="200" y="240" font-weight="700">Chipsatz mit Übertakten</text>
+<text x="200" y="259" font-weight="400" fill="#444">(falls gewünscht)</text>
+<path d="M18,300 l6,6 l12,-13" fill="none" stroke="#2e7d32" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="46" y="296" font-weight="700">RAM</text>
+<text x="46" y="315">DDR4 bis 2933</text>
+<text x="176" y="305" font-size="16" fill="#777">→</text>
+<text x="200" y="296" font-weight="700">Kit</text>
+<text x="200" y="315" font-weight="700" fill="#222">2 × DDR4-2933</text>
+<rect x="10" y="328" width="380" height="56" fill="#f1f4f5"/>
+<path d="M18,356 l6,6 l12,-13" fill="none" stroke="#2e7d32" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="46" y="352" font-weight="700">Gehäuse</text>
+<text x="46" y="371">Midi-Tower</text>
+<text x="176" y="361" font-size="16" fill="#777">→</text>
+<text x="200" y="361" font-weight="700">ATX-Board</text>
+<path d="M18,412 l6,6 l12,-13" fill="none" stroke="#2e7d32" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="46" y="408" font-weight="700">TDP</text>
+<text x="46" y="427">125 W</text>
+<text x="176" y="417" font-size="16" fill="#777">→</text>
+<text x="200" y="408" font-weight="700">Kühler mit Lüfter</text>
+<text x="200" y="427" font-weight="400" fill="#444">(nicht lüfterlos)</text>
+<rect x="10" y="440" width="380" height="56" fill="#f1f4f5"/>
+<path d="M18,468 l6,6 l12,-13" fill="none" stroke="#2e7d32" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="46" y="464" font-weight="700">Netzteil</text>
+<text x="46" y="483">laut Rechnung</text>
+<text x="176" y="473" font-size="16" fill="#777">→</text>
+<text x="200" y="464" font-weight="700">650 W, PCIe-Stecker</text>
+<text x="200" y="483" font-weight="700" fill="#222">8-polig + 6-polig</text>
+<rect x="10" y="104" width="380" height="392" fill="none" stroke="#9aa5b1" stroke-width="1.5"/>
+</svg>

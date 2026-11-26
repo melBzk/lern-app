@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 500" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Wie viel Arbeitsspeicher kann das Betriebssystem nutzen? Zwei Gläser. Links ein kleines Glas: 32-Bit-Betriebssystem, Strich bei maximal 4 GB, gefüllt sind nur 3 bis 3,5 GB nutzbar; daneben liegen zwei RAM-Riegel, die nicht hineinpassen: bleibt ungenutzt. Rechts ein großes Glas: 64-Bit-Betriebssystem, gefüllt bis 8 bis 16 GB, üblich; weiter oben ein Strich: mehr für Spiele und virtuelle Maschinen.</title>
+<defs>
+<g id="riegel">
+<rect x="0" y="0" width="70" height="18" rx="2" fill="#2a7f62"/>
+<rect x="6" y="4" width="10" height="8" fill="#1b1b1b"/><rect x="21" y="4" width="10" height="8" fill="#1b1b1b"/><rect x="39" y="4" width="10" height="8" fill="#1b1b1b"/><rect x="54" y="4" width="10" height="8" fill="#1b1b1b"/>
+<rect x="2" y="14" width="66" height="4" fill="#d9a400"/><rect x="30" y="13" width="3" height="5" fill="#fff"/>
+</g>
+</defs>
+<rect width="400" height="500" fill="#fff"/>
+<text x="200" y="28" font-size="17" text-anchor="middle" font-weight="700">Wie viel RAM kann genutzt werden?</text>
+
+<!-- 32 Bit: kleines Glas (gleicher Maßstab wie rechts: 12,5 px pro GB, Boden y=418) -->
+<text x="95" y="206" font-size="13" text-anchor="middle" fill="#444">Beispiel: 8 GB eingebaut</text>
+<use xlink:href="#riegel" x="22" y="222"/>
+<use xlink:href="#riegel" x="100" y="222"/>
+<text x="95" y="266" font-size="14" text-anchor="middle" fill="#c62828" font-weight="700">bleibt ungenutzt</text>
+<path d="M50,340 V410 Q50,420 60,420 H130 Q140,420 140,410 V340" fill="none" stroke="#555" stroke-width="3"/>
+<path d="M53,374 H137 V408 Q137,417 128,417 H62 Q53,417 53,408 Z" fill="#a5d6a7"/>
+<line x1="44" y1="368" x2="146" y2="368" stroke="#c62828" stroke-width="3"/>
+<text x="95" y="358" font-size="14" text-anchor="middle" font-weight="700" fill="#c62828">max. 4 GB</text>
+<text x="95" y="394" font-size="14" text-anchor="middle" font-weight="700">3–3,5 GB</text>
+<text x="95" y="411" font-size="13" text-anchor="middle" font-weight="700">nutzbar</text>
+<text x="95" y="448" font-size="15" text-anchor="middle" font-weight="700">32-Bit-</text>
+<text x="95" y="466" font-size="15" text-anchor="middle" font-weight="700">Betriebssystem</text>
+
+<!-- 64 Bit: großes Glas -->
+<path d="M218,70 V410 Q218,420 228,420 H308 Q318,420 318,410 V70" fill="none" stroke="#555" stroke-width="3"/>
+<path d="M221,218 H315 V408 Q315,417 306,417 H230 Q221,417 221,408 Z" fill="#a5d6a7"/>
+<rect x="221" y="218" width="94" height="100" fill="#E07B00" opacity="0.85"/>
+<line x1="318" y1="218" x2="330" y2="218" stroke="#222" stroke-width="2"/>
+<line x1="318" y1="318" x2="330" y2="318" stroke="#222" stroke-width="2"/>
+<text x="334" y="262" font-size="14" font-weight="700" fill="#E07B00">8–16 GB</text>
+<text x="334" y="280" font-size="14" font-weight="700" fill="#E07B00">üblich</text>
+<line x1="212" y1="120" x2="330" y2="120" stroke="#555" stroke-width="2" stroke-dasharray="6 5"/>
+<text x="334" y="112" font-size="14" font-weight="700">mehr:</text>
+<text x="334" y="130" font-size="13">Spiele,</text>
+<text x="334" y="147" font-size="13">virtuelle</text>
+<text x="334" y="164" font-size="13">Maschinen</text>
+<text x="268" y="448" font-size="15" text-anchor="middle" font-weight="700">64-Bit-</text>
+<text x="268" y="466" font-size="15" text-anchor="middle" font-weight="700">Betriebssystem</text>
+</svg>

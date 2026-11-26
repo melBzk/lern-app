@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 540" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Grafikspeicher auf der Grafikkarte, schematisch von oben. In der Mitte der große Grafikchip, rundherum sechs Speicherchips mit der Aufschrift GDDR. Zwischen Grafikchip und Speicher laufen breite Bänder aus Leiterbahnen: das Speicherinterface, also die Anbindung; je breiter, desto mehr Daten gleichzeitig. Unten vier Schieberegler für Takt, Speichertechnik, Breite der Anbindung und Größe; darunter: alles muss zum Grafikchip passen.</title>
+<rect width="400" height="540" fill="#fff"/>
+<text x="16" y="26" font-size="17" font-weight="700">Grafikkarte von oben</text>
+
+<!-- Platine -->
+<rect x="14" y="44" width="372" height="226" rx="8" fill="#2e7d32"/>
+<g fill="#c9a227"><rect x="80" y="270" width="200" height="10"/></g>
+<g stroke="#2e7d32" stroke-width="2"><path d="M100,270 v10 M120,270 v10 M140,270 v10 M160,270 v10 M180,270 v10 M200,270 v10 M220,270 v10 M240,270 v10 M260,270 v10"/></g>
+
+<!-- Leiterbahn-Bänder (Speicherinterface) -->
+<g stroke="#f9a825" stroke-width="2">
+<path d="M160,140 H96 M160,146 H96 M160,152 H96 M160,158 H96"/>
+<path d="M160,196 H96 M160,202 H96 M160,208 H96 M160,214 H96"/>
+<path d="M240,140 H304 M240,146 H304 M240,152 H304 M240,158 H304"/>
+<path d="M240,196 H304 M240,202 H304 M240,208 H304 M240,214 H304"/>
+<path d="M188,128 V96 M194,128 V96 M200,128 V96 M206,128 V96 M212,128 V96"/>
+<path d="M188,226 V246 M194,226 V246 M200,226 V246 M206,226 V246 M212,226 V246"/>
+</g>
+
+<!-- Grafikchip -->
+<rect x="160" y="128" width="80" height="98" rx="4" fill="#9aa5b1" stroke="#555" stroke-width="2"/>
+<rect x="174" y="146" width="52" height="62" rx="2" fill="#555"/>
+<text x="200" y="174" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">Grafik-</text>
+<text x="200" y="191" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">chip</text>
+
+<!-- Speicherchips GDDR -->
+<g fill="#555">
+<rect x="34" y="132" width="62" height="34" rx="3"/>
+<rect x="34" y="188" width="62" height="34" rx="3"/>
+<rect x="304" y="132" width="62" height="34" rx="3"/>
+<rect x="304" y="188" width="62" height="34" rx="3"/>
+<rect x="169" y="58" width="62" height="38" rx="3"/>
+<rect x="169" y="232" width="62" height="34" rx="3"/>
+</g>
+<g font-size="13" font-weight="700" fill="#fff" text-anchor="middle">
+<text x="65" y="154">GDDR</text><text x="65" y="210">GDDR</text>
+<text x="335" y="154">GDDR</text><text x="335" y="210">GDDR</text>
+<text x="200" y="82">GDDR</text><text x="200" y="254">GDDR</text>
+</g>
+
+<!-- Beschriftung Speicherinterface -->
+<line x1="128" y1="214" x2="110" y2="298" stroke="#c62828" stroke-width="2"/>
+<circle cx="128" cy="214" r="4" fill="#c62828"/>
+<text x="14" y="312" font-weight="700" fill="#c62828">Speicherinterface (Anbindung)</text>
+<text x="14" y="330">je breiter, desto mehr Daten gleichzeitig</text>
+
+<!-- Schieberegler -->
+<line x1="8" y1="350" x2="392" y2="350" stroke="#ccc" stroke-width="1.5"/>
+<text x="14" y="374" font-size="13" fill="#444">Das Tempo hängt ab von:</text>
+<g stroke="#9aa5b1" stroke-width="6" stroke-linecap="round">
+<line x1="206" y1="396" x2="380" y2="396"/><line x1="206" y1="428" x2="380" y2="428"/>
+<line x1="206" y1="460" x2="380" y2="460"/><line x1="206" y1="492" x2="380" y2="492"/>
+</g>
+<g fill="#3a6ed8" stroke="#fff" stroke-width="2">
+<circle cx="320" cy="396" r="10"/><circle cx="290" cy="428" r="10"/><circle cx="340" cy="460" r="10"/><circle cx="270" cy="492" r="10"/>
+</g>
+<g font-weight="700">
+<text x="14" y="401">Takt</text>
+<text x="14" y="433">Speichertechnik</text>
+<text x="14" y="465">Breite der Anbindung</text>
+<text x="14" y="497">Größe</text>
+</g>
+<text x="200" y="528" text-anchor="middle" font-weight="700" fill="#c62828">alles muss zum Grafikchip passen</text>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 450" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Die vier PCIe-Steckplatzgrößen untereinander, links bündig, ungefähr maßstäblich. x1 mit 1 Lane ist am kürzesten, zum Beispiel für eine WLAN-Karte. x4 mit 4 Lanes ist länger, x8 mit 8 Lanes noch länger, x16 mit 16 Lanes am längsten, für die Grafikkarte (PEG). Alle haben die Kerbe an derselben Stelle nahe dem linken Ende. Unten ein Kasten: Gültiger Standard sind nur x1, x4, x8 und x16.</title>
+<rect width="400" height="450" fill="#fff"/>
+<text x="200" y="26" font-size="17" text-anchor="middle" font-weight="700">Vier Steckplatzgrößen</text>
+<text x="200" y="47" text-anchor="middle" font-size="13" fill="#444">mehr Lanes = längerer Steckplatz, mehr Kontakte</text>
+
+<!-- Kerbenlinie -->
+<g stroke="#c62828" stroke-width="1.5" stroke-dasharray="4 4"><line x1="56.5" y1="118" x2="56.5" y2="138"/><line x1="56.5" y1="186" x2="56.5" y2="206"/><line x1="56.5" y1="254" x2="56.5" y2="274"/><line x1="56.5" y1="324" x2="56.5" y2="338"/></g>
+
+<!-- x1 -->
+<text x="20" y="84"><tspan font-weight="700" font-size="16">x1</tspan> – 1 Lane – z. B. WLAN-Karte</text>
+<rect x="20" y="94" width="34" height="22" rx="3" fill="#333"/><rect x="59" y="94" width="39" height="22" rx="3" fill="#333"/>
+<line x1="24" y1="105" x2="94" y2="105" stroke="#d4a017" stroke-width="8" stroke-dasharray="2 2.5"/>
+<rect x="53" y="94" width="7" height="22" fill="#fff"/>
+
+<!-- x4 -->
+<text x="20" y="152"><tspan font-weight="700" font-size="16">x4</tspan> – 4 Lanes</text>
+<rect x="20" y="162" width="34" height="22" rx="3" fill="#333"/><rect x="59" y="162" width="80" height="22" rx="3" fill="#333"/>
+<line x1="24" y1="173" x2="135" y2="173" stroke="#d4a017" stroke-width="8" stroke-dasharray="2 2.5"/>
+<rect x="53" y="162" width="7" height="22" fill="#fff"/>
+
+<!-- x8 -->
+<text x="20" y="220"><tspan font-weight="700" font-size="16">x8</tspan> – 8 Lanes</text>
+<rect x="20" y="230" width="34" height="22" rx="3" fill="#333"/><rect x="59" y="230" width="130" height="22" rx="3" fill="#333"/>
+<line x1="24" y1="241" x2="185" y2="241" stroke="#d4a017" stroke-width="8" stroke-dasharray="2 2.5"/>
+<rect x="53" y="230" width="7" height="22" fill="#fff"/>
+
+<!-- x16 -->
+<text x="20" y="288" fill="#E07B00"><tspan font-weight="700" font-size="16">x16</tspan> – 16 Lanes – Grafikkarte (PEG)</text>
+<rect x="20" y="298" width="34" height="22" rx="3" fill="#333"/><rect x="59" y="298" width="226" height="22" rx="3" fill="#333"/>
+<line x1="24" y1="309" x2="281" y2="309" stroke="#d4a017" stroke-width="8" stroke-dasharray="2 2.5"/>
+<rect x="53" y="298" width="7" height="22" fill="#fff"/>
+<rect x="18" y="295" width="270" height="28" rx="5" fill="none" stroke="#E07B00" stroke-width="2.5"/>
+
+<text x="62" y="352" font-size="13" font-weight="700" fill="#c62828">Kerbe – immer an derselben Stelle</text>
+
+<rect x="20" y="372" width="360" height="62" rx="8" fill="#eceff1"/>
+<text x="200" y="397" text-anchor="middle" font-size="15" font-weight="700">Gültiger Standard:</text>
+<text x="200" y="421" text-anchor="middle" font-size="16" font-weight="700" fill="#E07B00">nur x1, x4, x8, x16</text>
+</svg>

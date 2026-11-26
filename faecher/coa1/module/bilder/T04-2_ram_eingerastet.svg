@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Zwei RAM-Steckplätze von vorne. Links falsch: Der Riegel steht schief, eine Halteklammer ist offen, die Kontakte berühren auf einer Seite nicht. Rotes Etikett: nicht erkannt, 8 GB fehlen, Windows zeigt 8 GB. Rechts richtig: Der Riegel steht gerade und ganz unten, beide Klammern sind zu. Grünes Etikett: erkannt, Windows zeigt 16 GB.</title>
+<defs>
+<g id="riegel">
+<rect x="0" y="0" width="140" height="72" rx="3" fill="#2e7d32"/>
+<rect x="12" y="14" width="22" height="28" fill="#222"/><rect x="42" y="14" width="22" height="28" fill="#222"/><rect x="76" y="14" width="22" height="28" fill="#222"/><rect x="106" y="14" width="22" height="28" fill="#222"/>
+<rect x="4" y="62" width="132" height="10" fill="#D4A017"/>
+<rect x="64" y="64" width="6" height="8" fill="#fff"/>
+</g>
+</defs>
+<rect width="400" height="500" fill="#fff"/>
+<text x="200" y="26" font-size="17" font-weight="700" text-anchor="middle">Eingerastet oder nicht?</text>
+
+<!-- ===== links: falsch ===== -->
+<text x="100" y="62" text-anchor="middle" font-weight="700" font-size="16" fill="#c62828">✗ halb drin</text>
+<!-- Steckplatz -->
+<rect x="34" y="236" width="150" height="26" rx="2" fill="#555"/>
+<rect x="44" y="236" width="130" height="8" fill="#222"/>
+<!-- Riegel schief -->
+<g transform="rotate(9 184 236)"><use href="#riegel" x="42" y="164"/></g>
+<!-- Klammer links offen (nach außen gekippt) -->
+<g transform="rotate(-24 34 262)"><rect x="26" y="196" width="10" height="66" rx="2" fill="#bbb" stroke="#555" stroke-width="1.5"/></g>
+<!-- Klammer rechts zu -->
+<rect x="184" y="188" width="10" height="74" rx="2" fill="#bbb" stroke="#555" stroke-width="1.5"/>
+<!-- Lücke markieren -->
+<g stroke="#c62828" stroke-width="2.5" fill="none"><ellipse cx="72" cy="226" rx="32" ry="22"/></g>
+<text x="80" y="292" text-anchor="middle" font-size="13" fill="#c62828" font-weight="700">kein Kontakt</text>
+<text x="20" y="96" font-size="13" fill="#c62828" font-weight="700">Klammer offen</text>
+<path d="M40,102 L14,192" stroke="#c62828" stroke-width="1.5"/>
+
+<rect x="10" y="318" width="180" height="104" rx="10" fill="#fdecea" stroke="#c62828" stroke-width="2.5"/>
+<text x="100" y="346" text-anchor="middle" font-weight="700" fill="#c62828" font-size="15">nicht erkannt</text>
+<text x="100" y="370" text-anchor="middle" font-weight="700" fill="#c62828">8 GB fehlen</text>
+<text x="100" y="402" text-anchor="middle">Windows: 8 GB</text>
+
+<!-- ===== rechts: richtig ===== -->
+<text x="300" y="62" text-anchor="middle" font-weight="700" font-size="16" fill="#2e7d32">✓ ganz drin</text>
+<rect x="220" y="236" width="160" height="26" rx="2" fill="#555"/>
+<rect x="232" y="236" width="136" height="8" fill="#222"/>
+<use href="#riegel" x="230" y="172"/>
+<rect x="212" y="188" width="10" height="74" rx="2" fill="#bbb" stroke="#555" stroke-width="1.5"/>
+<rect x="378" y="188" width="10" height="74" rx="2" fill="#bbb" stroke="#555" stroke-width="1.5"/>
+<text x="300" y="96" text-anchor="middle" font-size="13" fill="#2e7d32" font-weight="700">beide Klammern zu</text>
+<path d="M240,102 L218,182 M360,102 L382,182" stroke="#2e7d32" stroke-width="1.5"/>
+<text x="300" y="292" text-anchor="middle" font-size="13" fill="#2e7d32" font-weight="700">Kontakte ganz unten</text>
+
+<rect x="210" y="318" width="180" height="104" rx="10" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2.5"/>
+<text x="300" y="346" text-anchor="middle" font-weight="700" fill="#2e7d32" font-size="15">erkannt</text>
+<text x="300" y="370" text-anchor="middle" font-weight="700" fill="#2e7d32">8 GB + 8 GB</text>
+<text x="300" y="402" text-anchor="middle">Windows: 16 GB</text>
+
+<text x="200" y="460" text-anchor="middle" font-weight="700" font-size="15">Fehlt RAM nach dem Einbau?</text>
+<text x="200" y="482" text-anchor="middle">Fast immer: Modul nicht eingerastet.</text>
+</svg>

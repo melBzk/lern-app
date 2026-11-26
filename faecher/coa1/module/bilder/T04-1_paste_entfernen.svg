@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 540" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Alte Wärmeleitpaste entfernen in vier Schritten. 1: Tuch mit Isopropanol anfeuchten, feucht, nicht nass. 2: Alte Paste vom Metalldeckel der CPU abwischen, die Ränder mit dem Wattestäbchen. 3: Ganz trocknen lassen. 4: Neue Paste, dann den Kühler aufsetzen. Unten durchgestrichen: ein Finger auf der Paste. Paste nicht mit den Fingern berühren.</title>
+<rect width="400" height="540" fill="#fff"/>
+<text x="200" y="28" font-size="17" text-anchor="middle" font-weight="700">Alte Wärmeleitpaste entfernen</text>
+<g fill="#fff" stroke="#ccc" stroke-width="1.5">
+<rect x="10" y="44" width="185" height="206" rx="10"/><rect x="205" y="44" width="185" height="206" rx="10"/>
+<rect x="10" y="260" width="185" height="206" rx="10"/><rect x="205" y="260" width="185" height="206" rx="10"/>
+</g>
+<g fill="#3a6ed8"><circle cx="30" cy="64" r="13"/><circle cx="225" cy="64" r="13"/><circle cx="30" cy="280" r="13"/><circle cx="225" cy="280" r="13"/></g>
+<g font-weight="700" fill="#fff" text-anchor="middle"><text x="30" y="69">1</text><text x="225" y="69">2</text><text x="30" y="285">3</text><text x="225" y="285">4</text></g>
+<!-- Pfeile -->
+<path d="M196,140 L204,147 L196,154 Z" fill="#3a6ed8"/>
+<path d="M196,356 L204,363 L196,370 Z" fill="#3a6ed8"/>
+
+<!-- 1 Anfeuchten -->
+<g transform="translate(10,44)">
+<g transform="rotate(-40 70 70)">
+<rect x="56" y="34" width="34" height="62" rx="5" fill="#e3f2fd" stroke="#3a6ed8" stroke-width="2.5"/>
+<rect x="66" y="22" width="14" height="13" fill="#3a6ed8"/>
+</g>
+<g fill="#3a6ed8"><path d="M108,62 Q104,70 108,72 Q112,70 108,62 Z"/><path d="M116,78 Q112,86 116,88 Q120,86 116,78 Z"/></g>
+<path d="M78,112 Q98,104 118,112 T160,112 L158,138 Q138,130 118,138 T80,138 Z" fill="#fff" stroke="#555" stroke-width="2"/>
+<circle cx="120" cy="122" r="7" fill="#bbdefb"/>
+<text x="92" y="168" text-anchor="middle" font-size="14" font-weight="700">Tuch mit Isopropanol</text>
+<text x="92" y="190" text-anchor="middle" font-size="14" font-weight="700" fill="#E07B00">feucht, nicht nass</text>
+</g>
+
+<!-- 2 Abwischen -->
+<g transform="translate(205,44)">
+<rect x="44" y="30" width="98" height="98" rx="4" fill="#555"/>
+<rect x="56" y="42" width="74" height="74" rx="3" fill="#c9ced4"/>
+<path d="M92,58 Q122,56 122,80 Q124,104 96,104 Q92,90 92,58 Z" fill="#8d8d8d"/>
+<path d="M60,58 Q74,50 88,58 T96,70 L94,104 Q80,96 68,104 T58,98 Z" fill="#fff" stroke="#555" stroke-width="2"/>
+<line x1="150" y1="146" x2="132" y2="122" stroke="#555" stroke-width="3" stroke-linecap="round"/>
+<ellipse cx="130" cy="118" rx="5" ry="7" fill="#fff" stroke="#555" stroke-width="1.5" transform="rotate(-37 130 118)"/>
+<text x="92" y="168" text-anchor="middle" font-size="14" font-weight="700">alte Paste abwischen</text>
+<text x="92" y="190" text-anchor="middle" font-size="14">Rand: Wattestäbchen</text>
+</g>
+
+<!-- 3 Trocknen -->
+<g transform="translate(10,260)">
+<circle cx="92" cy="80" r="44" fill="#fff" stroke="#3a6ed8" stroke-width="4"/>
+<g stroke="#3a6ed8" stroke-width="3" stroke-linecap="round"><line x1="92" y1="44" x2="92" y2="50"/><line x1="92" y1="110" x2="92" y2="116"/><line x1="56" y1="80" x2="62" y2="80"/><line x1="122" y1="80" x2="128" y2="80"/></g>
+<g stroke="#222" stroke-width="4" stroke-linecap="round"><line x1="92" y1="80" x2="92" y2="56"/><line x1="92" y1="80" x2="110" y2="90"/></g>
+<text x="92" y="168" text-anchor="middle" font-size="14" font-weight="700">ganz trocknen</text>
+<text x="92" y="190" text-anchor="middle" font-size="14" font-weight="700">lassen</text>
+</g>
+
+<!-- 4 Neue Paste + Kühler -->
+<g transform="translate(205,260)">
+<rect x="46" y="54" width="94" height="8" fill="#9aa5b1"/>
+<g fill="#9aa5b1"><rect x="46" y="30" width="7" height="24"/><rect x="60" y="30" width="7" height="24"/><rect x="74" y="30" width="7" height="24"/><rect x="88" y="30" width="7" height="24"/><rect x="102" y="30" width="7" height="24"/><rect x="116" y="30" width="7" height="24"/><rect x="133" y="30" width="7" height="24"/></g>
+<line x1="93" y1="68" x2="93" y2="84" stroke="#3a6ed8" stroke-width="3.5"/>
+<path d="M85,82 L101,82 L93,94 Z" fill="#3a6ed8"/>
+<ellipse cx="93" cy="104" rx="10" ry="5" fill="#8d8d8d"/>
+<rect x="56" y="108" width="74" height="10" fill="#c9ced4" stroke="#555" stroke-width="1.5"/>
+<rect x="48" y="118" width="90" height="10" fill="#555"/>
+<text x="92" y="168" text-anchor="middle" font-size="14" font-weight="700">neue Paste,</text>
+<text x="92" y="190" text-anchor="middle" font-size="14" font-weight="700">dann Kühler drauf</text>
+</g>
+
+<!-- Nicht mit Fingern -->
+<rect x="10" y="476" width="380" height="56" rx="10" fill="#ffebee" stroke="#c62828" stroke-width="2"/>
+<ellipse cx="74" cy="512" rx="16" ry="6" fill="#8d8d8d"/>
+<rect x="40" y="486" width="40" height="18" rx="9" fill="#f2d3b3" stroke="#8a6b4b" stroke-width="2" transform="rotate(20 60 495)"/>
+<line x1="34" y1="526" x2="104" y2="482" stroke="#c62828" stroke-width="4.5" stroke-linecap="round"/>
+<text x="120" y="500" font-size="14" font-weight="700" fill="#c62828">Paste nie mit den</text>
+<text x="120" y="520" font-size="14" font-weight="700" fill="#c62828">Fingern berühren</text>
+</svg>

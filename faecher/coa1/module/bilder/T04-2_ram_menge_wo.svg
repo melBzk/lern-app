@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 540" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Vier Applets der Systemsteuerung im Raster. System mit grünem Häkchen: zeigt den installierten RAM, zum Beispiel 16 GB, schnell mit Windows plus Pause. Geräte-Manager mit rotem Kreuz: listet Prozessoren, Netzwerkadapter, Speichercontroller (gemeint sind Laufwerke, nicht der RAM), aber nicht die RAM-Menge. Sicherheit und Wartung, früher Wartungscenter, mit rotem Kreuz: letzte Wartung. Geräte und Drucker mit rotem Kreuz: Maus, Kamera.</title>
+<rect width="400" height="540" fill="#fff"/>
+<text x="200" y="26" font-size="17" font-weight="700" text-anchor="middle">Wo steht die RAM-Menge?</text>
+
+<!-- Kachel 1: System -->
+<rect x="10" y="44" width="186" height="230" rx="10" fill="#e8f5e9" stroke="#2e7d32" stroke-width="3"/>
+<circle cx="172" cy="68" r="15" fill="#2e7d32"/><path d="M164,68 l5,6 l10,-12" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="24" y="58" width="40" height="28" rx="3" fill="#3a6ed8"/><rect x="40" y="86" width="8" height="5" fill="#555"/><rect x="32" y="91" width="24" height="3" fill="#555"/>
+<text x="74" y="80" font-weight="700" font-size="17">System</text>
+<rect x="22" y="110" width="162" height="70" rx="6" fill="#fff" stroke="#2e7d32" stroke-width="1.5"/>
+<text x="103" y="136" text-anchor="middle" font-size="13">Installierter RAM:</text>
+<text x="103" y="164" text-anchor="middle" font-weight="700" font-size="20" fill="#2e7d32">16 GB</text>
+<text x="103" y="212" text-anchor="middle" font-weight="700">schnell:</text>
+<rect x="30" y="224" width="70" height="28" rx="5" fill="#fff" stroke="#222" stroke-width="1.5"/>
+<text x="65" y="243" text-anchor="middle" font-size="13" font-weight="700">Windows</text>
+<text x="113" y="243" text-anchor="middle" font-weight="700">+</text>
+<rect x="126" y="224" width="54" height="28" rx="5" fill="#fff" stroke="#222" stroke-width="1.5"/>
+<text x="153" y="243" text-anchor="middle" font-size="13" font-weight="700">Pause</text>
+
+<!-- Kachel 2: Geräte-Manager -->
+<rect x="204" y="44" width="186" height="230" rx="10" fill="#fff" stroke="#999" stroke-width="2"/>
+<circle cx="366" cy="68" r="15" fill="#c62828"/><path d="M360,62 l12,12 M372,62 l-12,12" stroke="#fff" stroke-width="3.5" stroke-linecap="round"/>
+<text x="218" y="80" font-weight="700" font-size="16">Geräte-</text>
+<text x="218" y="100" font-weight="700" font-size="16">Manager</text>
+<g font-size="13">
+<text x="218" y="134">› Prozessoren</text>
+<text x="218" y="158">› Netzwerkadapter</text>
+<text x="218" y="182">› Speicher-</text>
+<text x="230" y="198">controller</text>
+<text x="218" y="216" font-size="12" fill="#555">(= Laufwerke, nicht RAM)</text>
+</g>
+<text x="297" y="244" text-anchor="middle" font-weight="700" fill="#c62828" font-size="13">keine RAM-Menge</text>
+
+<!-- Kachel 3: Sicherheit und Wartung -->
+<rect x="10" y="286" width="186" height="230" rx="10" fill="#fff" stroke="#999" stroke-width="2"/>
+<circle cx="172" cy="310" r="15" fill="#c62828"/><path d="M166,304 l12,12 M178,304 l-12,12" stroke="#fff" stroke-width="3.5" stroke-linecap="round"/>
+<text x="24" y="322" font-weight="700" font-size="16">Sicherheit</text>
+<text x="24" y="342" font-weight="700" font-size="16">und Wartung</text>
+<text x="24" y="362" font-size="13" fill="#555">früher: Wartungscenter</text>
+<!-- Kalender -->
+<rect x="70" y="378" width="66" height="60" rx="5" fill="#fff" stroke="#555" stroke-width="2"/>
+<rect x="70" y="378" width="66" height="16" rx="5" fill="#555"/><rect x="70" y="388" width="66" height="6" fill="#555"/>
+<g fill="#bbb"><rect x="78" y="402" width="10" height="8"/><rect x="94" y="402" width="10" height="8"/><rect x="110" y="402" width="10" height="8"/><rect x="78" y="418" width="10" height="8"/><rect x="110" y="418" width="10" height="8"/></g>
+<rect x="94" y="418" width="10" height="8" fill="#3a6ed8"/>
+<text x="103" y="464" text-anchor="middle" font-size="13">letzte Wartung</text>
+<text x="103" y="494" text-anchor="middle" font-weight="700" fill="#c62828" font-size="13">keine RAM-Menge</text>
+
+<!-- Kachel 4: Geräte und Drucker -->
+<rect x="204" y="286" width="186" height="230" rx="10" fill="#fff" stroke="#999" stroke-width="2"/>
+<circle cx="366" cy="310" r="15" fill="#c62828"/><path d="M360,304 l12,12 M372,304 l-12,12" stroke="#fff" stroke-width="3.5" stroke-linecap="round"/>
+<text x="218" y="322" font-weight="700" font-size="16">Geräte</text>
+<text x="218" y="342" font-weight="700" font-size="16">und Drucker</text>
+<!-- Maus -->
+<rect x="236" y="380" width="36" height="54" rx="18" fill="#fff" stroke="#555" stroke-width="2"/>
+<line x1="254" y1="380" x2="254" y2="398" stroke="#555" stroke-width="2"/>
+<text x="254" y="456" text-anchor="middle" font-size="13">Maus</text>
+<!-- Kamera -->
+<circle cx="338" cy="402" r="20" fill="#fff" stroke="#555" stroke-width="2"/>
+<circle cx="338" cy="402" r="8" fill="#555"/>
+<path d="M326,422 L322,436 L354,436 L350,422" fill="none" stroke="#555" stroke-width="2"/>
+<text x="338" y="456" text-anchor="middle" font-size="13">Kamera</text>
+<text x="297" y="494" text-anchor="middle" font-weight="700" fill="#c62828" font-size="13">keine RAM-Menge</text>
+</svg>

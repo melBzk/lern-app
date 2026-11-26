@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 460" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Zwei Signale übereinander. Oben bisher mit 2 Stufen: Rechtecksignal nur hoch oder niedrig, je Schritt 1 Bit, 6 Schritte ergeben 6 Bit. Unten PAM-4 mit 4 Stufen, beschriftet 00, 01, 10, 11: Treppensignal, je Schritt 2 Bit, 6 Schritte ergeben 12 Bit. Hinweis: PAM-4 ist störanfälliger und eignet sich nur für kurze Wege.</title>
+<rect width="400" height="460" fill="#fff"/>
+
+<!-- 2 Stufen -->
+<text x="16" y="28" font-size="16" font-weight="700">2 Stufen (bisher)</text>
+<g stroke="#ddd" stroke-width="1.5"><line x1="70" y1="56" x2="70" y2="130"/><line x1="122" y1="56" x2="122" y2="130"/><line x1="174" y1="56" x2="174" y2="130"/><line x1="226" y1="56" x2="226" y2="130"/><line x1="278" y1="56" x2="278" y2="130"/><line x1="330" y1="56" x2="330" y2="130"/><line x1="382" y1="56" x2="382" y2="130"/></g>
+<g text-anchor="end" font-size="14" font-weight="700"><text x="60" y="75">1</text><text x="60" y="125">0</text></g>
+<path d="M70,70 H122 V120 H174 V70 H278 V120 H330 V70 H382" fill="none" stroke="#3a6ed8" stroke-width="4" stroke-linejoin="round"/>
+<g text-anchor="middle" font-size="16" font-weight="700" fill="#3a6ed8"><text x="96" y="152">1</text><text x="148" y="152">0</text><text x="200" y="152">1</text><text x="252" y="152">1</text><text x="304" y="152">0</text><text x="356" y="152">1</text></g>
+<text x="382" y="176" text-anchor="end" font-size="15" font-weight="700">6 Schritte = 6 Bit</text>
+
+<line x1="10" y1="194" x2="390" y2="194" stroke="#ccc" stroke-width="1.5"/>
+
+<!-- PAM-4 -->
+<text x="16" y="222" font-size="16" font-weight="700">PAM-4: 4 Stufen</text>
+<g stroke="#ddd" stroke-width="1.5"><line x1="70" y1="234" x2="70" y2="340"/><line x1="122" y1="234" x2="122" y2="340"/><line x1="174" y1="234" x2="174" y2="340"/><line x1="226" y1="234" x2="226" y2="340"/><line x1="278" y1="234" x2="278" y2="340"/><line x1="330" y1="234" x2="330" y2="340"/><line x1="382" y1="234" x2="382" y2="340"/></g>
+<g stroke="#bbb" stroke-width="1" stroke-dasharray="3 4"><line x1="70" y1="244" x2="382" y2="244"/><line x1="70" y1="274" x2="382" y2="274"/><line x1="70" y1="304" x2="382" y2="304"/><line x1="70" y1="334" x2="382" y2="334"/></g>
+<g text-anchor="end" font-size="14" font-weight="700"><text x="60" y="249">11</text><text x="60" y="279">10</text><text x="60" y="309">01</text><text x="60" y="339">00</text></g>
+<path d="M70,274 H122 V334 H174 V244 H226 V304 H278 V244 H330 V334 H382" fill="none" stroke="#E07B00" stroke-width="4" stroke-linejoin="round"/>
+<g text-anchor="middle" font-size="16" font-weight="700" fill="#E07B00"><text x="96" y="362">10</text><text x="148" y="362">00</text><text x="200" y="362">11</text><text x="252" y="362">01</text><text x="304" y="362">11</text><text x="356" y="362">00</text></g>
+<text x="382" y="386" text-anchor="end" font-size="15" font-weight="700" fill="#E07B00">6 Schritte = 12 Bit</text>
+
+<rect x="10" y="402" width="380" height="46" rx="8" fill="#eceff1"/>
+<text x="200" y="430" text-anchor="middle" font-size="15" font-weight="700" fill="#c62828">störanfälliger – nur für kurze Wege</text>
+</svg>

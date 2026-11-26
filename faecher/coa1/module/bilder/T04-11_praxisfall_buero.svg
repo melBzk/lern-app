@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Praxisfall Büro-PC. Oben der Chef mit Sprechblase: 16 GB, aber schnell! Darunter ein Mainboard-Ausschnitt mit vier Steckplätzen A1, A2, B1, B2; in A2 steckt ein Riegel DDR4-2666 mit 8 GB, die anderen sind frei. Rechts daneben schwebt ein Riegel DDR4-2133 mit 8 GB vom Kollegen, mit einem Fragezeichen: Soll der dazu?</title>
+<rect width="400" height="500" fill="#fff"/>
+<!-- Chef -->
+<circle cx="42" cy="50" r="22" fill="#d9d9d9" stroke="#222" stroke-width="2.5"/>
+<path d="M14,104 Q14,78 42,78 Q70,78 70,104 Z" fill="#555"/>
+<path d="M36,80 L42,96 L48,80 Z" fill="#E07B00"/>
+<path d="M96,22 H380 Q390,22 390,32 V78 Q390,88 380,88 H110 Q100,88 100,78 V60 L80,52 L100,44 V32 Q100,22 110,22 Z" fill="#eceff1"/>
+<text x="245" y="62" font-size="19" text-anchor="middle" font-weight="700">„16 GB, aber schnell!“</text>
+
+<!-- Board -->
+<rect x="10" y="120" width="222" height="290" rx="10" fill="#e3ebe0" stroke="#999" stroke-width="2"/>
+<g fill="#444">
+<rect x="28" y="140" width="34" height="222" rx="3"/>
+<rect x="72" y="140" width="34" height="222" rx="3"/>
+<rect x="134" y="140" width="34" height="222" rx="3"/>
+<rect x="178" y="140" width="34" height="222" rx="3"/>
+</g>
+<rect x="76" y="132" width="26" height="236" rx="2" fill="#2a7f62"/>
+<rect x="76" y="360" width="26" height="8" fill="#d9a400"/>
+<text transform="translate(89,250) rotate(-90)" text-anchor="middle" dy="5" font-size="15" font-weight="700" fill="#fff">DDR4-2666 · 8 GB</text>
+<g font-size="15" font-weight="700" text-anchor="middle">
+<text x="45" y="392">A1</text><text x="89" y="392">A2</text><text x="151" y="392">B1</text><text x="195" y="392">B2</text>
+</g>
+<text x="121" y="438" font-size="14" text-anchor="middle" fill="#444">Büro-PC · 64-Bit-Windows</text>
+
+<!-- Riegel vom Kollegen -->
+<g transform="rotate(8 312 260)">
+<rect x="296" y="150" width="30" height="230" rx="2" fill="#2a7f62" stroke="#E07B00" stroke-width="3" stroke-dasharray="8 5"/>
+<rect x="298" y="370" width="26" height="8" fill="#d9a400"/>
+<text transform="translate(311,262) rotate(-90)" text-anchor="middle" dy="5" font-size="15" font-weight="700" fill="#fff">DDR4-2133 · 8 GB</text>
+</g>
+<text x="300" y="138" font-size="40" font-weight="700" text-anchor="middle" fill="#E07B00">?</text>
+<text x="312" y="420" font-size="14" text-anchor="middle" font-weight="700">vom Kollegen</text>
+<text x="312" y="438" font-size="13" text-anchor="middle" fill="#444">(übrig)</text>
+</svg>

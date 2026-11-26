@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 470" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Warum der PC RAM und ROM braucht, in zwei Szenen. Szene 1 Einschalten: Der RAM-Riegel hat nur graue, leere Kästchen. Die CPU greift mit einem roten Pfeil zum BIOS-Chip: Im ROM steht der erste Befehl schon fest. Szene 2 Programm läuft: Ein Pfeil führt von der SSD zum RAM, Programm laden. Zwischen RAM und CPU zwei Pfeile in beide Richtungen: Befehle und Daten holen, Ergebnisse zurückschreiben.</title>
+<rect width="400" height="470" fill="#fff"/>
+<text x="16" y="26" font-size="17" font-weight="700">Warum der PC beides braucht</text>
+
+<!-- Szene 1 -->
+<circle cx="26" cy="54" r="11" fill="#c62828"/><text x="26" y="59" text-anchor="middle" fill="#fff" font-size="13" font-weight="700">1</text>
+<text x="44" y="59" font-size="16" font-weight="700">Einschalten</text>
+
+<!-- BIOS-Chip -->
+<rect x="20" y="92" width="96" height="44" rx="3" fill="#555"/>
+<g stroke="#555" stroke-width="2"><path d="M30,86 v6 M44,86 v6 M58,86 v6 M72,86 v6 M86,86 v6 M100,86 v6 M30,136 v6 M44,136 v6 M58,136 v6 M72,136 v6 M86,136 v6 M100,136 v6"/></g>
+<text x="68" y="120" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">BIOS</text>
+<!-- CPU -->
+<rect x="164" y="80" width="70" height="70" rx="4" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<rect x="182" y="98" width="34" height="34" rx="2" fill="#3a6ed8"/>
+<text x="199" y="120" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">CPU</text>
+<!-- Pfeil CPU -> BIOS -->
+<line x1="162" y1="114" x2="132" y2="114" stroke="#c62828" stroke-width="4"/>
+<polygon points="120,114 134,106 134,122" fill="#c62828"/>
+<!-- RAM leer -->
+<rect x="270" y="98" width="120" height="36" rx="3" fill="#eceff1" stroke="#555" stroke-width="2"/>
+<g fill="#fff" stroke="#9aa5b1" stroke-width="1.5">
+<rect x="278" y="106" width="18" height="20"/><rect x="300" y="106" width="18" height="20"/><rect x="322" y="106" width="18" height="20"/><rect x="344" y="106" width="18" height="20"/><rect x="366" y="106" width="18" height="20"/>
+</g>
+<rect x="276" y="134" width="108" height="5" fill="#c9a227"/>
+<text x="330" y="88" text-anchor="middle" font-weight="700">RAM</text>
+<text x="330" y="158" text-anchor="middle" font-weight="700" fill="#888">leer</text>
+
+<text x="14" y="172" font-weight="700" fill="#c62828">ROM: der erste Befehl</text>
+<text x="14" y="190" font-weight="700" fill="#c62828">steht hier schon fest</text>
+
+<line x1="8" y1="214" x2="392" y2="214" stroke="#ccc" stroke-width="1.5"/>
+
+<!-- Szene 2 -->
+<circle cx="26" cy="244" r="11" fill="#c62828"/><text x="26" y="249" text-anchor="middle" fill="#fff" font-size="13" font-weight="700">2</text>
+<text x="44" y="249" font-size="16" font-weight="700">Programm läuft</text>
+
+<!-- SSD -->
+<rect x="10" y="300" width="80" height="50" rx="5" fill="#eceff1" stroke="#555" stroke-width="2"/>
+<text x="50" y="331" text-anchor="middle" font-weight="700">SSD</text>
+<!-- Pfeil SSD -> RAM -->
+<line x1="92" y1="325" x2="128" y2="325" stroke="#555" stroke-width="3.5"/>
+<polygon points="140,325 127,318 127,332" fill="#555"/>
+<text x="100" y="286" text-anchor="middle" font-size="13">Programm laden</text>
+<!-- RAM voll -->
+<rect x="142" y="306" width="112" height="36" rx="3" fill="#eceff1" stroke="#555" stroke-width="2"/>
+<g fill="#3a6ed8">
+<rect x="149" y="314" width="18" height="20"/><rect x="170" y="314" width="18" height="20"/><rect x="191" y="314" width="18" height="20"/><rect x="212" y="314" width="18" height="20"/><rect x="233" y="314" width="18" height="20"/>
+</g>
+<rect x="148" y="342" width="100" height="5" fill="#c9a227"/>
+<text x="198" y="366" text-anchor="middle" font-weight="700">RAM</text>
+<!-- CPU -->
+<rect x="318" y="290" width="70" height="70" rx="4" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<rect x="336" y="308" width="34" height="34" rx="2" fill="#3a6ed8"/>
+<text x="353" y="330" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">CPU</text>
+<!-- RAM -> CPU (holen) -->
+<line x1="258" y1="314" x2="304" y2="314" stroke="#3a6ed8" stroke-width="3.5"/>
+<polygon points="316,314 303,307 303,321" fill="#3a6ed8"/>
+<!-- CPU -> RAM (zurückschreiben) -->
+<line x1="270" y1="336" x2="316" y2="336" stroke="#c62828" stroke-width="3.5"/>
+<polygon points="258,336 271,329 271,343" fill="#c62828"/>
+
+<text x="390" y="396" text-anchor="end" font-weight="700" fill="#3a6ed8">→ Befehle und Daten holen</text>
+<text x="390" y="418" text-anchor="end" font-weight="700" fill="#c62828">← Ergebnisse zurückschreiben</text>
+<text x="200" y="452" text-anchor="middle" font-size="13" fill="#444">darum muss der Arbeitsspeicher beschreibbar sein</text>
+</svg>

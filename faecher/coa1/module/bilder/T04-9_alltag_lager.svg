@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 420" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Vergleich: Arbeitsspeicher als Lager. Links Lager DDR3, rechts Lager DDR4, beide gleich groß mit gleich vielen Fächern, jedes Fach hat eine Nummer als Adresse. Drinnen arbeiten beide gleich schnell (Speicherzellen). Unterschied nur an der Rampe: Links ein Förderband mit 2 Kisten, Rampe I/O-Takt 800 MHz (DDR3-1600). Rechts ein Förderband mit 4 Kisten, Rampe I/O-Takt 1600 MHz (DDR4-3200).</title>
+<defs><marker id="p" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D4607A"/></marker></defs>
+<rect width="400" height="420" fill="#fff"/>
+<text x="200" y="24" text-anchor="middle" font-size="17" font-weight="700">Arbeitsspeicher = Lager</text>
+<text x="100" y="54" text-anchor="middle" font-size="17" font-weight="700" fill="#3a6ed8">DDR3</text>
+<text x="300" y="54" text-anchor="middle" font-size="17" font-weight="700" fill="#2e7d32">DDR4</text>
+
+<!-- Hallen -->
+<g fill="#f5f5f5" stroke="#555" stroke-width="2">
+<path d="M14,96 L100,64 L186,96 V246 H14 Z"/>
+<path d="M214,96 L300,64 L386,96 V246 H214 Z"/>
+</g>
+<!-- Regalfächer -->
+<g fill="#fff" stroke="#888" stroke-width="1.5">
+<rect x="24" y="108" width="46" height="30"/><rect x="77" y="108" width="46" height="30"/><rect x="130" y="108" width="46" height="30"/>
+<rect x="24" y="142" width="46" height="30"/><rect x="77" y="142" width="46" height="30"/><rect x="130" y="142" width="46" height="30"/>
+<rect x="224" y="108" width="46" height="30"/><rect x="277" y="108" width="46" height="30"/><rect x="330" y="108" width="46" height="30"/>
+<rect x="224" y="142" width="46" height="30"/><rect x="277" y="142" width="46" height="30"/><rect x="330" y="142" width="46" height="30"/>
+</g>
+<g font-size="13" text-anchor="middle" fill="#555">
+<text x="47" y="128">1</text><text x="100" y="128">2</text><text x="153" y="128">3</text>
+<text x="47" y="162">4</text><text x="100" y="162">5</text><text x="153" y="162">6</text>
+<text x="247" y="128">1</text><text x="300" y="128">2</text><text x="353" y="128">3</text>
+<text x="247" y="162">4</text><text x="300" y="162">5</text><text x="353" y="162">6</text>
+</g>
+<g text-anchor="middle">
+<text x="100" y="192" font-size="13" fill="#555">Fach-Nr. = Adresse</text>
+<text x="300" y="192" font-size="13" fill="#555">Fach-Nr. = Adresse</text>
+<text x="100" y="216">Speicherzellen:</text>
+<text x="100" y="234" font-weight="700">gleich schnell</text>
+<text x="300" y="216">Speicherzellen:</text>
+<text x="300" y="234" font-weight="700">gleich schnell</text>
+</g>
+
+<!-- Förderbänder -->
+<g fill="#c98a3c" stroke="#7a5320" stroke-width="1.5">
+<rect x="70" y="256" width="20" height="18"/><rect x="110" y="256" width="20" height="18"/>
+<rect x="232" y="256" width="20" height="18"/><rect x="266" y="256" width="20" height="18"/><rect x="300" y="256" width="20" height="18"/><rect x="334" y="256" width="20" height="18"/>
+</g>
+<g stroke="#555" stroke-width="4" stroke-linecap="round"><line x1="20" y1="278" x2="180" y2="278"/><line x1="220" y1="278" x2="380" y2="278"/></g>
+<g fill="#fff" stroke="#555" stroke-width="2">
+<circle cx="30" cy="286" r="5"/><circle cx="70" cy="286" r="5"/><circle cx="110" cy="286" r="5"/><circle cx="150" cy="286" r="5"/>
+<circle cx="230" cy="286" r="5"/><circle cx="270" cy="286" r="5"/><circle cx="310" cy="286" r="5"/><circle cx="350" cy="286" r="5"/>
+</g>
+<line x1="40" y1="304" x2="160" y2="304" stroke="#D4607A" stroke-width="2.5" marker-start="url(#p)" marker-end="url(#p)"/>
+<line x1="240" y1="304" x2="360" y2="304" stroke="#D4607A" stroke-width="2.5" marker-start="url(#p)" marker-end="url(#p)"/>
+<text x="100" y="324" text-anchor="middle" font-size="13" fill="#555">hinein und hinaus</text>
+<text x="300" y="324" text-anchor="middle" font-size="13" fill="#555">hinein und hinaus</text>
+
+<!-- Rampen-Beschriftung -->
+<g text-anchor="middle">
+<text x="100" y="350">Rampe: I/O-Takt</text>
+<text x="100" y="372" font-size="18" font-weight="700" fill="#D4607A">800 MHz</text>
+<text x="100" y="392">(DDR3-1600)</text>
+<text x="300" y="350">Rampe: I/O-Takt</text>
+<text x="300" y="372" font-size="18" font-weight="700" fill="#D4607A">1600 MHz</text>
+<text x="300" y="392">(DDR4-3200)</text>
+</g>
+<text x="200" y="414" text-anchor="middle" font-size="13" fill="#555">Unterschied nur an der Rampe</text>
+</svg>

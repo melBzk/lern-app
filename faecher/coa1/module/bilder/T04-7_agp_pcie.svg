@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 395" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>AGP und PCIe x16 im Vergleich. Links AGP (alt): Steckplatz nur für Grafik, 25 Watt aus dem Steckplatz, AGP 8x rund 2 GB/s. Rechts PCIe x16 (heute): 75 Watt aus dem Steckplatz, PCIe 3.x mit 16 Lanes rund 15,75 GB/s. Pfeil von links nach rechts: ab 2004 abgelöst.</title>
+<rect width="400" height="395" fill="#fff"/>
+<line x1="200" y1="14" x2="200" y2="340" stroke="#ccc" stroke-width="1.5"/>
+
+<!-- AGP -->
+<text x="100" y="28" text-anchor="middle" font-size="16" font-weight="700">AGP (alt)</text>
+<rect x="36" y="44" width="134" height="52" rx="3" fill="#eceff1" stroke="#555" stroke-width="2"/>
+<rect x="28" y="40" width="8" height="64" fill="#9aa5b1"/>
+<circle cx="90" cy="70" r="17" fill="none" stroke="#555" stroke-width="2.5"/>
+<path d="M90,70 L90,57 M90,70 L101,77 M90,70 L79,77" stroke="#555" stroke-width="2.5" stroke-linecap="round"/>
+<rect x="56" y="96" width="90" height="8" fill="#c9a227"/>
+<text x="100" y="130" text-anchor="middle" font-size="14">Steckplatz</text>
+<text x="100" y="148" text-anchor="middle" font-size="14" font-weight="700">nur für Grafik</text>
+<polygon points="62,166 50,190 58,190 52,210 72,182 64,182 70,166" fill="#9aa5b1"/>
+<text x="84" y="196" font-size="22" font-weight="700">25 W</text>
+<text x="100" y="226" text-anchor="middle" font-size="13" fill="#444">aus dem Steckplatz</text>
+<path d="M70,284 A30,30 0 0,1 130,284" fill="none" stroke="#555" stroke-width="4" stroke-linecap="round"/>
+<line x1="100" y1="284" x2="76" y2="272" stroke="#9aa5b1" stroke-width="4" stroke-linecap="round"/>
+<circle cx="100" cy="284" r="5" fill="#555"/>
+<text x="100" y="310" text-anchor="middle" font-size="14">AGP 8x:</text>
+<text x="100" y="330" text-anchor="middle" font-size="16" font-weight="700">rund 2 GB/s</text>
+
+<!-- PCIe x16 -->
+<text x="300" y="28" text-anchor="middle" font-size="16" font-weight="700">PCIe x16 (heute)</text>
+<rect x="236" y="44" width="134" height="52" rx="3" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<rect x="228" y="40" width="8" height="64" fill="#9aa5b1"/>
+<circle cx="290" cy="70" r="17" fill="none" stroke="#3a6ed8" stroke-width="2.5"/>
+<path d="M290,70 L290,57 M290,70 L301,77 M290,70 L279,77" stroke="#3a6ed8" stroke-width="2.5" stroke-linecap="round"/>
+<rect x="246" y="96" width="114" height="8" fill="#c9a227"/>
+<text x="300" y="130" text-anchor="middle" font-size="14">Steckplatz</text>
+<text x="300" y="148" text-anchor="middle" font-size="14" font-weight="700">PCI Express</text>
+<polygon points="262,166 250,190 258,190 252,210 272,182 264,182 270,166" fill="#c62828"/>
+<text x="284" y="196" font-size="22" font-weight="700" fill="#c62828">75 W</text>
+<text x="300" y="226" text-anchor="middle" font-size="13" fill="#444">aus dem Steckplatz</text>
+<path d="M270,284 A30,30 0 0,1 330,284" fill="none" stroke="#555" stroke-width="4" stroke-linecap="round"/>
+<line x1="300" y1="284" x2="324" y2="270" stroke="#c62828" stroke-width="4" stroke-linecap="round"/>
+<circle cx="300" cy="284" r="5" fill="#555"/>
+<text x="300" y="310" text-anchor="middle" font-size="14">PCIe 3.x, 16 Lanes:</text>
+<text x="300" y="330" text-anchor="middle" font-size="16" font-weight="700" fill="#c62828">rund 15,75 GB/s</text>
+
+<!-- abgelöst -->
+<line x1="40" y1="368" x2="346" y2="368" stroke="#555" stroke-width="3"/>
+<polygon points="344,360 360,368 344,376" fill="#555"/>
+<rect x="122" y="354" width="156" height="28" rx="14" fill="#fff" stroke="#555" stroke-width="2"/>
+<text x="200" y="373" text-anchor="middle" font-size="14" font-weight="700">ab 2004 abgelöst</text>
+</svg>

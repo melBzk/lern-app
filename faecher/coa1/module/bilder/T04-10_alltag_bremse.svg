@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 470" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Latenz wie beim Bremsen. Oben ein Auto von der Seite: Bei Markierung 1 wird gebremst, das Auto rollt noch ein Stück weiter und steht erst bei Markierung 2, der Bremswirkung. Eine Klammer zwischen beiden Markierungen heißt: Latenz gleich Verzögerung. Unten das Gleiche beim Arbeitsspeicher: Der Speichercontroller schickt „Lies!“ an den RAM-Riegel mit kleiner Uhr, die Daten kommen zurück. Auf einem Zeitstrahl liegen zwischen „Lies!“ und „Daten da“ mehrere Takte; diese Wartezeit ist die Latenz, gezählt in Takten.</title>
+<rect width="400" height="470" fill="#fff"/>
+<text x="16" y="26" font-size="17" font-weight="700">Latenz – wie beim Bremsen</text>
+
+<!-- Markierungen -->
+<line x1="132" y1="66" x2="132" y2="206" stroke="#c62828" stroke-width="2" stroke-dasharray="5 4"/>
+<line x1="362" y1="66" x2="362" y2="206" stroke="#c62828" stroke-width="2" stroke-dasharray="5 4"/>
+<circle cx="64" cy="56" r="10" fill="#c62828"/><text x="64" y="61" text-anchor="middle" fill="#fff" font-size="13" font-weight="700">1</text>
+<text x="80" y="61" font-weight="700">jetzt gebremst</text>
+<circle cx="252" cy="56" r="10" fill="#c62828"/><text x="252" y="61" text-anchor="middle" fill="#fff" font-size="13" font-weight="700">2</text>
+<text x="268" y="61" font-weight="700">Bremswirkung</text>
+
+<!-- Straße -->
+<line x1="10" y1="153" x2="390" y2="153" stroke="#555" stroke-width="2.5"/>
+
+<!-- Auto 1 (blass, Moment des Bremsens) -->
+<g opacity="0.35">
+<path d="M20,140 V124 Q20,116 28,116 H42 L56,98 H92 L110,116 H124 Q132,116 132,124 V140 Z" fill="#3a6ed8"/>
+<path d="M60,102 H74 V114 H50 Z M78,102 H90 L102,114 H78 Z" fill="#fff"/>
+<circle cx="46" cy="142" r="10" fill="#222"/><circle cx="106" cy="142" r="10" fill="#222"/>
+</g>
+<!-- rollt noch -->
+<line x1="142" y1="122" x2="232" y2="122" stroke="#555" stroke-width="2" stroke-dasharray="4 4"/>
+<path d="M230,116 L242,122 L230,128 Z" fill="#555"/>
+<text x="190" y="110" text-anchor="middle" font-size="13">rollt noch</text>
+<!-- Auto 2 (steht) -->
+<path d="M250,140 V124 Q250,116 258,116 H272 L286,98 H322 L340,116 H354 Q362,116 362,124 V140 Z" fill="#3a6ed8"/>
+<path d="M290,102 H304 V114 H280 Z M308,102 H320 L332,114 H308 Z" fill="#fff"/>
+<circle cx="276" cy="142" r="10" fill="#222"/><circle cx="336" cy="142" r="10" fill="#222"/>
+<circle cx="276" cy="142" r="4" fill="#ccc"/><circle cx="336" cy="142" r="4" fill="#ccc"/>
+
+<!-- Klammer Latenz oben -->
+<path d="M132,196 V208 H362 V196" fill="none" stroke="#c62828" stroke-width="2.5"/>
+<text x="247" y="232" text-anchor="middle" font-size="15" font-weight="700" fill="#c62828">Latenz = Verzögerung</text>
+
+<line x1="10" y1="256" x2="390" y2="256" stroke="#ccc" stroke-width="1.5"/>
+
+<!-- Arbeitsspeicher -->
+<text x="16" y="284" font-size="15" font-weight="700">Beim Arbeitsspeicher</text>
+<rect x="14" y="300" width="118" height="58" rx="5" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<text x="73" y="324" text-anchor="middle" font-size="13" font-weight="700">Speicher-</text>
+<text x="73" y="342" text-anchor="middle" font-size="13" font-weight="700">controller</text>
+<line x1="134" y1="316" x2="240" y2="316" stroke="#222" stroke-width="3"/>
+<path d="M238,308 L252,316 L238,324 Z" fill="#222"/>
+<text x="192" y="306" text-anchor="middle" font-weight="700">Lies!</text>
+<line x1="254" y1="344" x2="148" y2="344" stroke="#3a6ed8" stroke-width="3"/>
+<path d="M150,336 L136,344 L150,352 Z" fill="#3a6ed8"/>
+<text x="196" y="366" text-anchor="middle" font-weight="700" fill="#3a6ed8">Daten</text>
+<!-- RAM mit Uhr -->
+<rect x="258" y="304" width="128" height="52" rx="3" fill="#2e7d32"/>
+<g fill="#222"><rect x="266" y="312" width="22" height="30" rx="1"/><rect x="294" y="312" width="22" height="30" rx="1"/><rect x="322" y="312" width="22" height="30" rx="1"/></g>
+<circle cx="366" cy="328" r="14" fill="#fff" stroke="#E07B00" stroke-width="3"/>
+<path d="M366,328 V318 M366,328 L373,332" stroke="#222" stroke-width="2.2" stroke-linecap="round"/>
+
+<!-- Zeitstrahl mit Takten -->
+<line x1="20" y1="408" x2="380" y2="408" stroke="#555" stroke-width="2"/>
+<line x1="134" y1="396" x2="134" y2="420" stroke="#222" stroke-width="3"/>
+<line x1="330" y1="396" x2="330" y2="420" stroke="#3a6ed8" stroke-width="3"/>
+<g stroke="#555" stroke-width="1.5">
+<line x1="162" y1="403" x2="162" y2="413"/><line x1="190" y1="403" x2="190" y2="413"/><line x1="218" y1="403" x2="218" y2="413"/><line x1="246" y1="403" x2="246" y2="413"/><line x1="274" y1="403" x2="274" y2="413"/><line x1="302" y1="403" x2="302" y2="413"/>
+</g>
+<text x="128" y="392" text-anchor="end" font-size="13" font-weight="700">Lies!</text>
+<text x="330" y="392" text-anchor="middle" font-size="13" font-weight="700" fill="#3a6ed8">Daten da</text>
+<path d="M134,428 V436 H330 V428" fill="none" stroke="#c62828" stroke-width="2.5"/>
+<text x="232" y="458" text-anchor="middle" font-size="15" font-weight="700" fill="#c62828">Latenz – gezählt in Takten</text>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 430" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Leitungscode: so kommen 0 und 1 auf die Leitung. Ein Rechtecksignal über einer Leitung springt zwischen hoher und niedriger Spannung, darunter die Bits 1 0 1 1 0 0 1. Darunter zwei Beispiele: Beim Kupferkabel zählt die Höhe der Spannung, bei der Glasfaser die Stärke des Lichtimpulses.</title>
+<rect width="400" height="430" fill="#fff"/>
+<text x="200" y="26" font-size="17" text-anchor="middle" font-weight="700">Leitungscode =</text>
+<text x="200" y="48" text-anchor="middle" font-size="16">so kommen 0 und 1 auf die Leitung</text>
+
+<!-- Bit-Felder -->
+<g stroke="#ddd" stroke-width="1.5"><line x1="70" y1="92" x2="70" y2="200"/><line x1="114" y1="92" x2="114" y2="200"/><line x1="158" y1="92" x2="158" y2="200"/><line x1="202" y1="92" x2="202" y2="200"/><line x1="246" y1="92" x2="246" y2="200"/><line x1="290" y1="92" x2="290" y2="200"/><line x1="334" y1="92" x2="334" y2="200"/><line x1="378" y1="92" x2="378" y2="200"/></g>
+<text x="62" y="115" text-anchor="end" font-size="13" font-weight="700">hoch</text>
+<text x="62" y="165" text-anchor="end" font-size="13" font-weight="700">niedrig</text>
+<path d="M70,110 H114 V160 H158 V110 H246 V160 H334 V110 H378" fill="none" stroke="#3a6ed8" stroke-width="4" stroke-linejoin="round"/>
+<rect x="70" y="174" width="308" height="8" rx="4" fill="#9aa5b1"/>
+<text x="62" y="183" text-anchor="end" font-size="13" fill="#444">Leitung</text>
+<g text-anchor="middle" font-size="20" font-weight="700" fill="#E07B00">
+<text x="92" y="220">1</text><text x="136" y="220">0</text><text x="180" y="220">1</text><text x="224" y="220">1</text><text x="268" y="220">0</text><text x="312" y="220">0</text><text x="356" y="220">1</text>
+</g>
+
+<!-- Beispiel Kupfer -->
+<rect x="10" y="244" width="380" height="80" rx="8" fill="#eceff1"/>
+<line x1="24" y1="300" x2="136" y2="300" stroke="#b87333" stroke-width="6" stroke-linecap="round"/>
+<rect x="46" y="262" width="18" height="34" fill="#3a6ed8"/><rect x="92" y="284" width="18" height="12" fill="#3a6ed8"/>
+<text x="152" y="276" font-size="15" font-weight="700">Kupferkabel:</text>
+<text x="152" y="300" font-size="15">Höhe der Spannung</text>
+
+<!-- Beispiel Glasfaser -->
+<rect x="10" y="334" width="380" height="80" rx="8" fill="#eceff1"/>
+<line x1="24" y1="374" x2="136" y2="374" stroke="#9aa5b1" stroke-width="6" stroke-linecap="round"/>
+<circle cx="55" cy="374" r="13" fill="#f2c200"/><circle cx="55" cy="374" r="6" fill="#fff8d0"/>
+<circle cx="105" cy="374" r="6" fill="#f2c200" opacity="0.5"/>
+<text x="152" y="366" font-size="15" font-weight="700">Glasfaser:</text>
+<text x="152" y="390" font-size="15">Stärke des Lichtimpulses</text>
+</svg>

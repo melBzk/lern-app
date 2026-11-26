@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 490" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>IRQ-Sharing: Eine Netzwerkkarte und eine Soundkarte, beide PCI, hängen an derselben Unterbrechungs-Leitung, hier als Beispiel IRQ 11, die zur CPU führt. Jeder Steckplatz hat vier eigene INT-Leitungen A bis D; meist wird nur INTA genutzt (rot). Das BIOS verteilt die IRQ-Nummern. Grüner Haken: doppelt vergeben ist bei PCI nicht unbedingt ein Konflikt.</title>
+<rect width="400" height="490" fill="#fff"/>
+<text x="200" y="26" font-size="17" text-anchor="middle" font-weight="700">Zwei Karten teilen sich einen IRQ</text>
+
+<!-- CPU -->
+<rect x="150" y="44" width="100" height="44" rx="6" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<text x="200" y="72" text-anchor="middle" font-size="17" font-weight="700" fill="#3a6ed8">CPU</text>
+<line x1="200" y1="96" x2="200" y2="230" stroke="#c62828" stroke-width="4"/>
+<path d="M192,100 L208,100 L200,88 Z" fill="#c62828"/>
+<!-- IRQ-Schild -->
+<rect x="146" y="124" width="108" height="36" rx="6" fill="#c62828"/>
+<text x="200" y="148" text-anchor="middle" font-size="17" font-weight="700" fill="#fff">IRQ 11</text>
+<text x="262" y="140" font-size="13" fill="#555">(Beispiel:</text>
+<text x="262" y="157" font-size="13" fill="#555">dieselbe Nummer)</text>
+
+<!-- BIOS -->
+<circle cx="40" cy="116" r="10" fill="#f2c9a0" stroke="#555" stroke-width="1.5"/>
+<path d="M26,164 L30,128 L50,128 L54,164 Z" fill="#555"/>
+<rect x="50" y="128" width="44" height="22" rx="3" fill="#fff" stroke="#555" stroke-width="2"/>
+<text x="72" y="144" text-anchor="middle" font-size="13" font-weight="700">BIOS</text>
+<line x1="98" y1="140" x2="132" y2="140" stroke="#555" stroke-width="2.5" stroke-dasharray="5 4"/><path d="M130,134 L142,140 L130,146 Z" fill="#555"/>
+<text x="16" y="186" font-size="13">verteilt die</text>
+<text x="16" y="203" font-size="13">IRQ-Nummern</text>
+
+<!-- Verzweigung -->
+<line x1="47" y1="230" x2="257" y2="230" stroke="#c62828" stroke-width="4" stroke-linecap="round"/>
+<line x1="47" y1="230" x2="47" y2="292" stroke="#c62828" stroke-width="4"/>
+<line x1="257" y1="230" x2="257" y2="292" stroke="#c62828" stroke-width="4"/>
+<!-- weitere INT-Leitungen -->
+<g stroke="#9aa5b1" stroke-width="3"><line x1="79" y1="270" x2="79" y2="292"/><line x1="111" y1="270" x2="111" y2="292"/><line x1="143" y1="270" x2="143" y2="292"/><line x1="289" y1="270" x2="289" y2="292"/><line x1="321" y1="270" x2="321" y2="292"/><line x1="353" y1="270" x2="353" y2="292"/></g>
+<g font-size="13" font-weight="700" text-anchor="middle" fill="#777"><text x="79" y="264">B</text><text x="111" y="264">C</text><text x="143" y="264">D</text><text x="289" y="264">B</text><text x="321" y="264">C</text><text x="353" y="264">D</text></g>
+<g font-size="13" font-weight="700" fill="#c62828"><text x="53" y="264">A</text><text x="263" y="264">A</text></g>
+
+<!-- Karten -->
+<rect x="30" y="292" width="130" height="52" rx="4" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<text x="95" y="314" text-anchor="middle" font-weight="700">Netzwerk-</text>
+<text x="95" y="332" text-anchor="middle" font-weight="700">karte (PCI)</text>
+<rect x="240" y="292" width="130" height="52" rx="4" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<text x="305" y="314" text-anchor="middle" font-weight="700">Soundkarte</text>
+<text x="305" y="332" text-anchor="middle" font-weight="700">(PCI)</text>
+<text x="16" y="372" font-size="13">Jeder Steckplatz: 4 INT-Leitungen A bis D,</text>
+<text x="16" y="390" font-size="13">meist wird nur <tspan font-weight="700" fill="#c62828">INTA</tspan> genutzt.</text>
+
+<!-- Haken -->
+<rect x="14" y="412" width="372" height="60" rx="10" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2"/>
+<path d="M34,442 L46,454 L68,428" fill="none" stroke="#2e7d32" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="84" y="437" font-weight="700" fill="#1b5e20">Doppelt vergeben – bei PCI</text>
+<text x="84" y="459" font-weight="700" fill="#1b5e20">nicht unbedingt ein Konflikt</text>
+</svg>

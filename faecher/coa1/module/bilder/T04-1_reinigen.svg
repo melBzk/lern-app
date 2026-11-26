@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Innen reinigen. Links mit Häkchen: Eine Druckluftdose bläst in kurzen Stößen auf die Kühlrippen, ein Stift hält das Lüfterrad fest. Rechts rot durchgestrichen: Staubsauger und Gebläse, sie erzeugen statische Aufladung. Unten rot durchgestrichen: mit dem Tuch über die Platine reiben. Vorher ausschalten, Stecker ziehen, geerdet arbeiten.</title>
+<rect width="400" height="480" fill="#fff"/>
+<text x="200" y="28" font-size="17" text-anchor="middle" font-weight="700">Druckluft statt Staubsauger</text>
+
+<!-- Richtig -->
+<rect x="10" y="44" width="185" height="252" rx="10" fill="#fff" stroke="#2e7d32" stroke-width="2"/>
+<circle cx="34" cy="68" r="15" fill="#2e7d32"/>
+<path d="M26,68 L32,75 L43,61" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<!-- Lüfter -->
+<circle cx="126" cy="100" r="34" fill="#eceff1" stroke="#555" stroke-width="2.5"/>
+<g fill="#9aa5b1"><ellipse cx="126" cy="80" rx="8" ry="16"/><ellipse cx="146" cy="100" rx="16" ry="8"/><ellipse cx="126" cy="120" rx="8" ry="16"/><ellipse cx="106" cy="100" rx="16" ry="8"/></g>
+<circle cx="126" cy="100" r="7" fill="#555"/>
+<line x1="176" y1="54" x2="140" y2="88" stroke="#3a6ed8" stroke-width="6" stroke-linecap="round"/>
+<text x="102" y="152" text-anchor="middle" font-size="13">Stift hält Lüfter fest</text>
+<!-- Kühlrippen -->
+<rect x="102" y="210" width="80" height="6" fill="#9aa5b1"/>
+<g fill="#9aa5b1"><rect x="104" y="170" width="6" height="40"/><rect x="116" y="170" width="6" height="40"/><rect x="128" y="170" width="6" height="40"/><rect x="140" y="170" width="6" height="40"/><rect x="152" y="170" width="6" height="40"/><rect x="164" y="170" width="6" height="40"/><rect x="176" y="170" width="6" height="40"/></g>
+<!-- Dose -->
+<rect x="26" y="182" width="30" height="54" rx="4" fill="#cfd8dc" stroke="#555" stroke-width="2"/>
+<rect x="34" y="174" width="12" height="9" fill="#555"/>
+<line x1="44" y1="178" x2="64" y2="178" stroke="#555" stroke-width="2.5"/>
+<g fill="#fff" stroke="#3a6ed8" stroke-width="2"><circle cx="72" cy="180" r="5"/><circle cx="84" cy="186" r="5"/><circle cx="96" cy="192" r="5"/></g>
+<text x="102" y="260" text-anchor="middle" font-size="15" font-weight="700" fill="#2e7d32">Druckluft in</text>
+<text x="102" y="282" text-anchor="middle" font-size="15" font-weight="700" fill="#2e7d32">kurzen Stößen</text>
+
+<!-- Falsch: Staubsauger -->
+<rect x="205" y="44" width="185" height="252" rx="10" fill="#fff" stroke="#c62828" stroke-width="2"/>
+<rect x="222" y="168" width="84" height="54" rx="22" fill="#cfd8dc" stroke="#555" stroke-width="2"/>
+<circle cx="238" cy="224" r="9" fill="#555"/><circle cx="292" cy="224" r="9" fill="#555"/>
+<path d="M300,180 C340,170 330,120 350,100" fill="none" stroke="#555" stroke-width="6" stroke-linecap="round"/>
+<path d="M342,92 L370,82 L374,92 L350,104 Z" fill="#555"/>
+<path d="M330,64 L318,82 L326,82 L314,100 L336,76 L327,76 L338,64 Z" fill="#E07B00"/>
+<text x="300" y="124" text-anchor="end" font-size="13" font-weight="700" fill="#E07B00">statische</text>
+<text x="300" y="142" text-anchor="end" font-size="13" font-weight="700" fill="#E07B00">Aufladung</text>
+<line x1="220" y1="240" x2="378" y2="60" stroke="#c62828" stroke-width="5" stroke-linecap="round"/>
+<text x="297" y="260" text-anchor="middle" font-size="15" font-weight="700" fill="#c62828">kein Staubsauger,</text>
+<text x="297" y="282" text-anchor="middle" font-size="15" font-weight="700" fill="#c62828">kein Gebläse</text>
+
+<!-- Falsch: reiben -->
+<rect x="10" y="306" width="380" height="124" rx="10" fill="#fff" stroke="#c62828" stroke-width="2"/>
+<rect x="30" y="346" width="160" height="66" rx="3" fill="#4f8a5b"/>
+<rect x="46" y="358" width="30" height="24" rx="2" fill="#555"/><rect x="92" y="384" width="22" height="18" rx="2" fill="#555"/><rect x="132" y="360" width="40" height="10" fill="#d4a017"/>
+<path d="M84,330 Q100,322 116,330 T150,330 L148,362 Q132,354 116,362 T86,362 Z" fill="#fff" stroke="#555" stroke-width="2"/>
+<rect x="100" y="318" width="40" height="22" rx="11" fill="#f2d3b3" stroke="#8a6b4b" stroke-width="2"/>
+<g stroke="#555" stroke-width="2" stroke-linecap="round"><line x1="62" y1="336" x2="76" y2="336"/><line x1="158" y1="336" x2="172" y2="336"/></g>
+<line x1="34" y1="420" x2="186" y2="316" stroke="#c62828" stroke-width="5" stroke-linecap="round"/>
+<text x="210" y="362" font-size="15" font-weight="700" fill="#c62828">nie über die</text>
+<text x="210" y="384" font-size="15" font-weight="700" fill="#c62828">Platine reiben</text>
+
+<text x="200" y="462" text-anchor="middle" font-size="14" font-weight="700">Vorher: aus, Stecker ziehen, geerdet</text>
+</svg>

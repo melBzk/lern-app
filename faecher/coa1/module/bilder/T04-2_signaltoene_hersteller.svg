@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Zwei Lautsprecher nebeneinander spielen dasselbe Tonmuster: lang, kurz, kurz. Beim BIOS-Hersteller A bedeutet es X, beim BIOS-Hersteller B bedeutet es Y – gleiches Muster, andere Bedeutung, kein einheitlicher Standard. Unten ein Handbuch mit Lupe: die Bedeutung im Handbuch des Mainboards nachschlagen. Ausgedachtes Beispiel, kein echter Code.</title>
+<defs>
+<marker id="k" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker>
+<g id="lsp">
+<rect x="0" y="12" width="16" height="26" fill="#555"/>
+<path d="M16,12 L38,0 L38,50 L16,38 Z" fill="#555"/>
+<path d="M48,12 Q58,25 48,38" fill="none" stroke="#555" stroke-width="3" stroke-linecap="round"/>
+<path d="M56,4 Q72,25 56,46" fill="none" stroke="#555" stroke-width="3" stroke-linecap="round"/>
+</g>
+<g id="muster">
+<rect x="0" y="0" width="56" height="14" rx="7" fill="#222"/>
+<rect x="66" y="0" width="16" height="14" rx="7" fill="#222"/>
+<rect x="92" y="0" width="16" height="14" rx="7" fill="#222"/>
+</g>
+</defs>
+<rect width="400" height="520" fill="#fff"/>
+<text x="200" y="26" font-size="17" font-weight="700" text-anchor="middle">Gleiche Töne – andere Bedeutung</text>
+
+<!-- Spalte A -->
+<rect x="10" y="44" width="184" height="270" rx="10" fill="#eceff1"/>
+<use href="#lsp" x="64" y="60"/>
+<use href="#muster" x="44" y="130"/>
+<text x="102" y="170" text-anchor="middle" font-weight="700">lang – kurz – kurz</text>
+<line x1="102" y1="196" x2="102" y2="220" stroke="#222" stroke-width="2.5" marker-end="url(#k)"/>
+<text x="102" y="246" text-anchor="middle" font-weight="700" font-size="15">BIOS-Hersteller A</text>
+<rect x="30" y="260" width="144" height="38" rx="8" fill="#fff" stroke="#3a6ed8" stroke-width="2"/>
+<text x="102" y="284" text-anchor="middle" font-weight="700" fill="#3a6ed8">Bedeutung X</text>
+
+<!-- Spalte B -->
+<rect x="206" y="44" width="184" height="270" rx="10" fill="#eceff1"/>
+<use href="#lsp" x="260" y="60"/>
+<use href="#muster" x="240" y="130"/>
+<text x="298" y="170" text-anchor="middle" font-weight="700">lang – kurz – kurz</text>
+<line x1="298" y1="196" x2="298" y2="220" stroke="#222" stroke-width="2.5" marker-end="url(#k)"/>
+<text x="298" y="246" text-anchor="middle" font-weight="700" font-size="15">BIOS-Hersteller B</text>
+<rect x="226" y="260" width="144" height="38" rx="8" fill="#fff" stroke="#E07B00" stroke-width="2"/>
+<text x="298" y="284" text-anchor="middle" font-weight="700" fill="#E07B00">Bedeutung Y</text>
+
+<!-- ungleich -->
+<circle cx="200" cy="279" r="15" fill="#c62828"/>
+<text x="200" y="286" text-anchor="middle" fill="#fff" font-weight="700" font-size="20">≠</text>
+<text x="200" y="340" text-anchor="middle" font-weight="700" fill="#c62828" font-size="15">kein einheitlicher Standard</text>
+
+<!-- Handbuch mit Lupe -->
+<path d="M40,370 L110,378 L110,448 L40,440 Z" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<path d="M180,370 L110,378 L110,448 L180,440 Z" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<g stroke="#3a6ed8" stroke-width="2"><line x1="52" y1="392" x2="98" y2="397"/><line x1="52" y1="406" x2="98" y2="411"/><line x1="52" y1="420" x2="86" y2="424"/><line x1="122" y1="397" x2="168" y2="392"/></g>
+<circle cx="160" cy="420" r="17" fill="none" stroke="#222" stroke-width="4"/>
+<line x1="172" y1="432" x2="190" y2="450" stroke="#222" stroke-width="6" stroke-linecap="round"/>
+<text x="206" y="398" font-weight="700" font-size="15">Bedeutung</text>
+<text x="206" y="418" font-weight="700" font-size="15">nachschlagen:</text>
+<text x="206" y="440">im Handbuch</text>
+<text x="206" y="458">des Mainboards</text>
+<text x="200" y="500" text-anchor="middle" font-size="13" fill="#555">Ausgedachtes Muster – kein echter Code</text>
+</svg>

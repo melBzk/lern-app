@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>EEPROM und Flash: löschen mit Strom. Links ein EEPROM-Chip mit Blitz: elektrisch löschen, kein Fenster, kein UV-Licht. Rechts ein Flash-Chip, in den drei Byte-Päckchen gleichzeitig hineinfliegen: mehrere Bytes auf einmal, darum schneller. Unten ein Mainboard-Ausschnitt mit BIOS-Chip; ein Pfeil führt von einem USB-Stick zum BIOS-Chip: neue BIOS-Version aufspielen, das ist das BIOS-Update, auch Flashen genannt.</title>
+<rect width="400" height="480" fill="#fff"/>
+<text x="16" y="26" font-size="17" font-weight="700">EEPROM und Flash: löschen mit Strom</text>
+
+<!-- EEPROM -->
+<path d="M100,46 L82,78 H96 L86,104 L116,70 H102 L112,46 Z" fill="#f9a825" stroke="#555" stroke-width="1.5" stroke-linejoin="round"/>
+<rect x="46" y="116" width="108" height="50" rx="3" fill="#555"/>
+<g stroke="#555" stroke-width="2"><path d="M56,110 v6 M70,110 v6 M84,110 v6 M98,110 v6 M112,110 v6 M126,110 v6 M140,110 v6 M56,166 v6 M70,166 v6 M84,166 v6 M98,166 v6 M112,166 v6 M126,166 v6 M140,166 v6"/></g>
+<text x="100" y="147" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">EEPROM</text>
+<text x="100" y="196" text-anchor="middle" font-weight="700">elektrisch löschen</text>
+<text x="100" y="214" text-anchor="middle" font-size="13">kein Fenster, kein UV</text>
+
+<!-- Flash -->
+<g font-size="13" font-weight="700">
+<rect x="214" y="44" width="46" height="22" rx="3" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/><text x="237" y="60" text-anchor="middle" fill="#3a6ed8">Byte</text>
+<rect x="276" y="44" width="46" height="22" rx="3" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/><text x="299" y="60" text-anchor="middle" fill="#3a6ed8">Byte</text>
+<rect x="338" y="44" width="46" height="22" rx="3" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/><text x="361" y="60" text-anchor="middle" fill="#3a6ed8">Byte</text>
+</g>
+<g stroke="#3a6ed8" stroke-width="3">
+<line x1="246" y1="70" x2="268" y2="96"/><line x1="299" y1="70" x2="299" y2="96"/><line x1="352" y1="70" x2="330" y2="96"/>
+</g>
+<g fill="#3a6ed8">
+<polygon points="274,104 260,98 271,89"/><polygon points="299,106 292,94 306,94"/><polygon points="324,104 327,89 338,98"/>
+</g>
+<rect x="246" y="116" width="108" height="50" rx="3" fill="#555"/>
+<g stroke="#555" stroke-width="2"><path d="M256,110 v6 M270,110 v6 M284,110 v6 M298,110 v6 M312,110 v6 M326,110 v6 M340,110 v6 M256,166 v6 M270,166 v6 M284,166 v6 M298,166 v6 M312,166 v6 M326,166 v6 M340,166 v6"/></g>
+<text x="300" y="147" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">Flash</text>
+<text x="300" y="196" text-anchor="middle" font-weight="700">mehrere Bytes auf einmal</text>
+<text x="300" y="214" text-anchor="middle" font-weight="700" fill="#c62828">= schneller</text>
+
+<line x1="8" y1="238" x2="392" y2="238" stroke="#ccc" stroke-width="1.5"/>
+
+<!-- Mainboard-Ausschnitt -->
+<rect x="14" y="258" width="230" height="140" rx="6" fill="#2e7d32"/>
+<g stroke="#81c784" stroke-width="2" fill="none">
+<path d="M24,276 H90 V300 M24,384 H70 V350 M200,276 H234 M190,384 H234 V340"/>
+</g>
+<rect x="84" y="306" width="96" height="52" rx="3" fill="#555" stroke="#c62828" stroke-width="3"/>
+<g stroke="#bbb" stroke-width="2"><path d="M94,300 v6 M108,300 v6 M122,300 v6 M136,300 v6 M150,300 v6 M164,300 v6 M94,358 v6 M108,358 v6 M122,358 v6 M136,358 v6 M150,358 v6 M164,358 v6"/></g>
+<text x="132" y="331" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">BIOS</text>
+<text x="132" y="349" text-anchor="middle" font-size="13" fill="#fff">Flash</text>
+<text x="24" y="392" font-size="13" fill="#fff">Mainboard</text>
+
+<!-- USB-Stick -->
+<rect x="306" y="300" width="70" height="30" rx="6" fill="#3a6ed8"/>
+<rect x="286" y="306" width="20" height="18" fill="#9aa5b1" stroke="#555" stroke-width="1.5"/>
+<text x="341" y="351" text-anchor="middle" font-size="13">USB-Stick</text>
+<line x1="282" y1="315" x2="198" y2="326" stroke="#c62828" stroke-width="4"/>
+<polygon points="186,328 199,319 201,334" fill="#c62828"/>
+<text x="341" y="372" text-anchor="middle" font-size="13" fill="#444">neue Version</text>
+
+<text x="14" y="430" font-weight="700">neue BIOS-Version aufspielen</text>
+<text x="14" y="452" font-weight="700" fill="#c62828">= BIOS-Update („Flashen“)</text>
+</svg>

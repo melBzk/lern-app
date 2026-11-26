@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 450" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Den SPD-Werten vertrauen. Oben ein RAM-Riegel mit einem kleinen orange hervorgehobenen Chip: SPD-EEPROM mit den Betriebswerten des Moduls. Ein Pfeil führt zu einem PC-Bildschirm mit grünem Haken: stellt den Speicher automatisch richtig ein. Unten: Schieberegler für Timings, rot durchgestrichen, Timings nicht von Hand verschärfen. Daneben eine Waage: links ein kleines Plus, ein bisschen schneller; rechts ein großes Warnschild, unbemerkte Instabilität. Die Waage kippt zum Warnschild. Ganz unten: Wegen der großen Caches der Prozessoren merkt man niedrige Timings selten.</title>
+<rect width="400" height="450" fill="#fff"/>
+<text x="16" y="26" font-size="17" font-weight="700">Den SPD-Werten vertrauen</text>
+
+<!-- RAM mit SPD -->
+<rect x="16" y="46" width="210" height="52" rx="3" fill="#2e7d32"/>
+<g fill="#222"><rect x="24" y="54" width="28" height="34" rx="1"/><rect x="58" y="54" width="28" height="34" rx="1"/><rect x="92" y="54" width="28" height="34" rx="1"/><rect x="126" y="54" width="28" height="34" rx="1"/></g>
+<rect x="176" y="64" width="22" height="16" rx="1" fill="#E07B00" stroke="#fff" stroke-width="1.5"/>
+<path d="M187,80 V108 H150" fill="none" stroke="#E07B00" stroke-width="2"/>
+<text x="16" y="124" font-weight="700" fill="#E07B00">SPD-EEPROM:</text>
+<text x="16" y="142">Betriebswerte des Moduls</text>
+
+<!-- Pfeil zum PC -->
+<line x1="230" y1="72" x2="268" y2="72" stroke="#222" stroke-width="3"/>
+<path d="M266,64 L280,72 L266,80 Z" fill="#222"/>
+<rect x="286" y="44" width="96" height="60" rx="4" fill="#e8f0fe" stroke="#555" stroke-width="2.5"/>
+<path d="M334,104 V112 M318,114 H350" stroke="#555" stroke-width="3" stroke-linecap="round"/>
+<path d="M314,74 L328,88 L354,60" fill="none" stroke="#2e7d32" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="306" y="134" text-anchor="middle" font-size="13" font-weight="700">stellt den Speicher</text>
+<text x="306" y="150" text-anchor="middle" font-size="13" font-weight="700">automatisch richtig ein</text>
+
+<line x1="10" y1="168" x2="390" y2="168" stroke="#ccc" stroke-width="1.5"/>
+
+<text x="16" y="196" font-size="15" font-weight="700">Timings von Hand verschärfen?</text>
+
+<!-- Schieberegler, durchgestrichen -->
+<g stroke="#555" stroke-width="3" stroke-linecap="round">
+<line x1="44" y1="222" x2="44" y2="292"/><line x1="74" y1="222" x2="74" y2="292"/><line x1="104" y1="222" x2="104" y2="292"/>
+</g>
+<g fill="#3a6ed8"><rect x="34" y="262" width="20" height="10" rx="2"/><rect x="64" y="236" width="20" height="10" rx="2"/><rect x="94" y="270" width="20" height="10" rx="2"/></g>
+<circle cx="74" cy="257" r="48" fill="none" stroke="#c62828" stroke-width="5"/>
+<line x1="40" y1="291" x2="108" y2="223" stroke="#c62828" stroke-width="5" stroke-linecap="round"/>
+<text x="74" y="328" text-anchor="middle" font-weight="700" fill="#c62828">lieber nicht</text>
+
+<!-- Waage, kippt nach rechts -->
+<line x1="270" y1="226" x2="270" y2="300" stroke="#555" stroke-width="3"/>
+<rect x="250" y="298" width="40" height="6" rx="2" fill="#555"/>
+<line x1="196" y1="218" x2="344" y2="244" stroke="#555" stroke-width="3" stroke-linecap="round"/>
+<circle cx="270" cy="231" r="4" fill="#555"/>
+<path d="M196,218 L180,250 M196,218 L212,250 M344,244 L318,290 M344,244 L370,290" stroke="#555" stroke-width="1.8"/>
+<path d="M174,250 Q196,264 218,250 Z" fill="#9aa5b1" stroke="#555" stroke-width="1.5"/>
+<path d="M312,290 Q344,306 376,290 Z" fill="#9aa5b1" stroke="#555" stroke-width="1.5"/>
+<path d="M196,234 V248 M189,241 H203" stroke="#2e7d32" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M344,254 L366,288 L322,288 Z" fill="#E07B00" stroke="#E07B00" stroke-width="2" stroke-linejoin="round"/>
+<text x="344" y="284" text-anchor="middle" fill="#fff" font-size="20" font-weight="700">!</text>
+<text x="196" y="326" text-anchor="middle" font-size="13">ein bisschen</text>
+<text x="196" y="342" text-anchor="middle" font-size="13">schneller</text>
+<text x="340" y="326" text-anchor="middle" font-size="13" font-weight="700" fill="#c62828">unbemerkte</text>
+<text x="340" y="342" text-anchor="middle" font-size="13" font-weight="700" fill="#c62828">Instabilität</text>
+
+<rect x="12" y="364" width="376" height="72" rx="8" fill="#eceff1"/>
+<text x="200" y="390" text-anchor="middle">Große Caches in der CPU:</text>
+<text x="200" y="412" text-anchor="middle">niedrige Timings merkt man selten</text>
+</svg>

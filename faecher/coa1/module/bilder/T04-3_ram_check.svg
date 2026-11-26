@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 540" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Arbeitsspeicher prüfen. Oben zwei gleiche RAM-Riegel als Paket mit Schleife: Kit. Darunter vier Prüfpunkte mit Häkchen: Generation passt zum Steckplatz (Kerbe); Höchstmenge laut Handbuch, am besten online; steht auf der Speicher-Kompatibilitätsliste; schnellster offiziell zugelassener Takt. Unten ein Mainboard-Ausschnitt mit vier Steckplätzen, abwechselnd blau und grau. Die beiden Riegel stecken in den zwei blauen Plätzen, Pfeile: Dual Channel.</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2e7d32"/></marker></defs>
+<rect width="400" height="540" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">Arbeitsspeicher prüfen</text>
+
+<!-- Kit-Paket -->
+<rect x="60" y="44" width="280" height="110" rx="8" fill="#fbe3e9" stroke="#D4607A" stroke-width="2.5"/>
+<g>
+<rect x="80" y="66" width="240" height="28" rx="2" fill="#2e7d32"/>
+<rect x="80" y="108" width="240" height="28" rx="2" fill="#2e7d32"/>
+<g fill="#1a1a1a"><rect x="92" y="70" width="26" height="14"/><rect x="128" y="70" width="26" height="14"/><rect x="236" y="70" width="26" height="14"/><rect x="274" y="70" width="26" height="14"/><rect x="92" y="112" width="26" height="14"/><rect x="128" y="112" width="26" height="14"/><rect x="236" y="112" width="26" height="14"/><rect x="274" y="112" width="26" height="14"/></g>
+<g fill="#c9a227"><rect x="84" y="88" width="232" height="5"/><rect x="84" y="130" width="232" height="5"/></g>
+</g>
+<rect x="184" y="44" width="32" height="110" fill="#D4607A"/>
+<path d="M200,44 C186,33 172,35 178,44 Z M200,44 C214,33 228,35 222,44 Z" fill="#D4607A"/>
+<rect x="172" y="84" width="56" height="30" rx="6" fill="#fff" stroke="#D4607A" stroke-width="2.5"/>
+<text x="200" y="105" text-anchor="middle" font-size="17" font-weight="700" fill="#a83a55">Kit</text>
+<text x="200" y="176" text-anchor="middle" font-size="14" font-weight="700">2 gleiche Riegel</text>
+
+<!-- Prüfpunkte -->
+<g fill="none" stroke="#2e7d32" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+<path d="M24,206 l6,6 l12,-13"/><path d="M24,248 l6,6 l12,-13"/><path d="M24,290 l6,6 l12,-13"/><path d="M24,332 l6,6 l12,-13"/>
+</g>
+<text x="54" y="212" font-size="15"><tspan font-weight="700">Generation</tspan> = Steckplatz (Kerbe)</text>
+<text x="54" y="254" font-size="15"><tspan font-weight="700">Höchstmenge</tspan> laut Handbuch (online)</text>
+<text x="54" y="290" font-size="15">steht auf der</text>
+<text x="54" y="308" font-size="15" font-weight="700">Speicher-Kompatibilitätsliste</text>
+<text x="54" y="338" font-size="15"><tspan font-weight="700">schnellster</tspan> offiziell</text>
+<text x="54" y="356" font-size="15">zugelassener Takt</text>
+
+<!-- Mainboard-Ausschnitt -->
+<rect x="10" y="378" width="380" height="150" rx="8" fill="#e3f0e9" stroke="#2f6b4f" stroke-width="2"/>
+<g><rect x="160" y="400" width="210" height="14" fill="#3a6ed8"/><rect x="160" y="428" width="210" height="14" fill="#9e9e9e"/><rect x="160" y="456" width="210" height="14" fill="#3a6ed8"/><rect x="160" y="484" width="210" height="14" fill="#9e9e9e"/></g>
+<g fill="#2e7d32" stroke="#1b5e20" stroke-width="1.5"><rect x="170" y="396" width="190" height="22" rx="2"/><rect x="170" y="452" width="190" height="22" rx="2"/></g>
+<g stroke="#2e7d32" stroke-width="4" marker-end="url(#a)"><line x1="112" y1="420" x2="156" y2="408"/><line x1="112" y1="440" x2="156" y2="463"/></g>
+<text x="66" y="428" text-anchor="middle" font-size="15" font-weight="700" fill="#2e7d32">Dual</text>
+<text x="66" y="446" text-anchor="middle" font-size="15" font-weight="700" fill="#2e7d32">Channel</text>
+<text x="200" y="518" text-anchor="middle" font-size="13" fill="#444">gleiche Farbe = zusammengehörige Plätze</text>
+</svg>

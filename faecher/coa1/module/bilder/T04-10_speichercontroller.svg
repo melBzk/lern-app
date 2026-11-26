@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Wer spricht mit dem Arbeitsspeicher? Oben die CPU mit zwei Teilen: Cache und Speichercontroller, im Quiz MCC genannt. Vom Speichercontroller führt ein Pfeil nach unten zum Arbeitsspeicher mit der Sprechblase: Lies die Daten an Adresse X! Ein Pfeil zurück nach oben bringt die Daten. Daneben eine Sanduhr: Latenz ist die Wartezeit bis zur Antwort. Unten ein RAM-Riegel (DIMM) mit 8 Speicherchips und einem kleinen orange markierten Chip: SPD-EEPROM, der Steckbrief des Moduls.</title>
+<rect width="400" height="400" fill="#fff"/>
+<text x="16" y="26" font-size="17" font-weight="700">Wer spricht mit dem Arbeitsspeicher?</text>
+
+<!-- CPU -->
+<rect x="20" y="42" width="360" height="110" rx="8" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2.5"/>
+<text x="34" y="66" font-size="16" font-weight="700" fill="#3a6ed8">CPU</text>
+<rect x="36" y="78" width="120" height="58" rx="5" fill="#fff" stroke="#555" stroke-width="2"/>
+<text x="96" y="112" text-anchor="middle" font-weight="700">Cache</text>
+<rect x="176" y="74" width="190" height="66" rx="5" fill="#fff" stroke="#c62828" stroke-width="3"/>
+<text x="271" y="101" text-anchor="middle" font-weight="700" fill="#c62828">Speichercontroller</text>
+<text x="271" y="122" text-anchor="middle" font-size="13">(im Quiz: MCC)</text>
+
+<!-- Pfeile -->
+<line x1="200" y1="142" x2="200" y2="256" stroke="#222" stroke-width="3"/>
+<path d="M192,254 L200,268 L208,254 Z" fill="#222"/>
+<line x1="240" y1="268" x2="240" y2="154" stroke="#3a6ed8" stroke-width="3"/>
+<path d="M232,156 L240,142 L248,156 Z" fill="#3a6ed8"/>
+<text x="248" y="176" font-weight="700" fill="#3a6ed8">Daten</text>
+
+<!-- Sprechblase -->
+<path d="M22,166 H178 Q186,166 186,174 V184 L196,192 L186,198 V206 Q186,214 178,214 H22 Q14,214 14,206 V174 Q14,166 22,166 Z" fill="#fff" stroke="#555" stroke-width="2"/>
+<text x="100" y="186" text-anchor="middle">Lies die Daten</text>
+<text x="100" y="205" text-anchor="middle">an Adresse X!</text>
+
+<!-- Sanduhr + Latenz -->
+<path d="M252,200 H274 M252,236 H274 M255,200 C255,214 263,214 263,218 C263,222 255,222 255,236 M271,200 C271,214 263,214 263,218 C263,222 271,222 271,236" fill="none" stroke="#555" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M258,231 L263,224 L268,231 Z" fill="#E07B00"/>
+<text x="284" y="210" font-weight="700" fill="#c62828">Latenz =</text>
+<text x="284" y="228">Wartezeit bis</text>
+<text x="284" y="246">zur Antwort</text>
+
+<!-- RAM-Riegel -->
+<path d="M20,272 H380 V344 H212 V336 H200 V344 H20 Z" fill="#2e7d32"/>
+<g fill="#222">
+<rect x="32" y="282" width="28" height="36" rx="2"/><rect x="68" y="282" width="28" height="36" rx="2"/><rect x="104" y="282" width="28" height="36" rx="2"/><rect x="140" y="282" width="28" height="36" rx="2"/>
+<rect x="222" y="282" width="28" height="36" rx="2"/><rect x="258" y="282" width="28" height="36" rx="2"/><rect x="294" y="282" width="28" height="36" rx="2"/><rect x="330" y="282" width="28" height="36" rx="2"/>
+</g>
+<rect x="176" y="296" width="18" height="14" rx="1" fill="#E07B00" stroke="#fff" stroke-width="1.5"/>
+<g fill="#d4a017"><rect x="26" y="332" width="168" height="8"/><rect x="218" y="332" width="156" height="8"/></g>
+<path d="M185,310 V358 H276" fill="none" stroke="#E07B00" stroke-width="2"/>
+<text x="20" y="376" font-weight="700">Arbeitsspeicher</text>
+<text x="20" y="394">(DIMM)</text>
+<text x="380" y="376" text-anchor="end" font-weight="700" fill="#E07B00">SPD-EEPROM:</text>
+<text x="380" y="394" text-anchor="end">Steckbrief des Moduls</text>
+</svg>

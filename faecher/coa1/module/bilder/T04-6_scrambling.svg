@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Scrambling, vereinfacht. Erste Reihe: Daten 0000000011111111, das Signal springt nur einmal. Zweite Reihe: eine feste Zufallsfolge 0110100110010110, die Sender und Empfänger kennen. Regel: Ist das Zufallsbit 1, wird das Datenbit umgedreht, bei 0 bleibt es. Dritte Reihe: auf der Leitung 0110100101101001, das Signal wechselt regelmäßig zwischen 0 und 1. Die Reihenfolge bleibt, nur die Werte ändern sich. Der Empfänger verrechnet mit derselben Zufallsfolge und erhält die Originaldaten zurück. Unten ein Block ab PCIe 3.0: 2 orange Sync-Bits markieren den Blockanfang, dahinter 128 Bit verwürfelte Daten, zusammen 130 Bit, Overhead unter 2 Prozent.</title>
+<rect width="400" height="600" fill="#fff"/>
+<text x="200" y="26" font-size="17" text-anchor="middle" font-weight="700">Scrambling = verwürfeln</text>
+<text x="200" y="46" font-size="13" text-anchor="middle" fill="#444">(vereinfachtes Beispiel)</text>
+
+<!-- Reihe 1: Daten -->
+<text x="24" y="72" font-size="14" font-weight="700" fill="#3a6ed8">Daten (lange gleiche Reihen)</text>
+<g fill="#e8f0fe" stroke="#3a6ed8" stroke-width="1.5"><rect x="25" y="80" width="20" height="26" rx="3"/><rect x="47" y="80" width="20" height="26" rx="3"/><rect x="69" y="80" width="20" height="26" rx="3"/><rect x="91" y="80" width="20" height="26" rx="3"/><rect x="113" y="80" width="20" height="26" rx="3"/><rect x="135" y="80" width="20" height="26" rx="3"/><rect x="157" y="80" width="20" height="26" rx="3"/><rect x="179" y="80" width="20" height="26" rx="3"/><rect x="201" y="80" width="20" height="26" rx="3"/><rect x="223" y="80" width="20" height="26" rx="3"/><rect x="245" y="80" width="20" height="26" rx="3"/><rect x="267" y="80" width="20" height="26" rx="3"/><rect x="289" y="80" width="20" height="26" rx="3"/><rect x="311" y="80" width="20" height="26" rx="3"/><rect x="333" y="80" width="20" height="26" rx="3"/><rect x="355" y="80" width="20" height="26" rx="3"/></g>
+<g text-anchor="middle" font-size="15" font-weight="700"><text x="35" y="99">0</text><text x="57" y="99">0</text><text x="79" y="99">0</text><text x="101" y="99">0</text><text x="123" y="99">0</text><text x="145" y="99">0</text><text x="167" y="99">0</text><text x="189" y="99">0</text><text x="211" y="99">1</text><text x="233" y="99">1</text><text x="255" y="99">1</text><text x="277" y="99">1</text><text x="299" y="99">1</text><text x="321" y="99">1</text><text x="343" y="99">1</text><text x="365" y="99">1</text></g>
+<path d="M24,128 H200 V114 H376" fill="none" stroke="#c62828" stroke-width="3"/>
+
+<!-- Reihe 2: Zufallsfolge -->
+<text x="24" y="156" font-size="14" font-weight="700" fill="#E07B00">+ feste Zufallsfolge (beide kennen sie)</text>
+<g fill="#fff3e0" stroke="#E07B00" stroke-width="1.5"><rect x="25" y="164" width="20" height="26" rx="3"/><rect x="47" y="164" width="20" height="26" rx="3"/><rect x="69" y="164" width="20" height="26" rx="3"/><rect x="91" y="164" width="20" height="26" rx="3"/><rect x="113" y="164" width="20" height="26" rx="3"/><rect x="135" y="164" width="20" height="26" rx="3"/><rect x="157" y="164" width="20" height="26" rx="3"/><rect x="179" y="164" width="20" height="26" rx="3"/><rect x="201" y="164" width="20" height="26" rx="3"/><rect x="223" y="164" width="20" height="26" rx="3"/><rect x="245" y="164" width="20" height="26" rx="3"/><rect x="267" y="164" width="20" height="26" rx="3"/><rect x="289" y="164" width="20" height="26" rx="3"/><rect x="311" y="164" width="20" height="26" rx="3"/><rect x="333" y="164" width="20" height="26" rx="3"/><rect x="355" y="164" width="20" height="26" rx="3"/></g>
+<g text-anchor="middle" font-size="15" font-weight="700" fill="#E07B00"><text x="35" y="183">0</text><text x="57" y="183">1</text><text x="79" y="183">1</text><text x="101" y="183">0</text><text x="123" y="183">1</text><text x="145" y="183">0</text><text x="167" y="183">0</text><text x="189" y="183">1</text><text x="211" y="183">1</text><text x="233" y="183">0</text><text x="255" y="183">0</text><text x="277" y="183">1</text><text x="299" y="183">0</text><text x="321" y="183">1</text><text x="343" y="183">1</text><text x="365" y="183">0</text></g>
+
+<!-- Regel -->
+<rect x="20" y="198" width="360" height="26" rx="6" fill="#eceff1"/>
+<text x="200" y="216" text-anchor="middle" font-size="13" font-weight="700">Regel: Zufallsbit 1 → umdrehen · 0 → lassen</text>
+
+<!-- Reihe 3: Ergebnis -->
+<text x="24" y="246" font-size="14" font-weight="700" fill="#2e7d32">= auf der Leitung</text>
+<g fill="#e8f5e9" stroke="#2e7d32" stroke-width="1.5"><rect x="25" y="254" width="20" height="26" rx="3"/><rect x="47" y="254" width="20" height="26" rx="3"/><rect x="69" y="254" width="20" height="26" rx="3"/><rect x="91" y="254" width="20" height="26" rx="3"/><rect x="113" y="254" width="20" height="26" rx="3"/><rect x="135" y="254" width="20" height="26" rx="3"/><rect x="157" y="254" width="20" height="26" rx="3"/><rect x="179" y="254" width="20" height="26" rx="3"/><rect x="201" y="254" width="20" height="26" rx="3"/><rect x="223" y="254" width="20" height="26" rx="3"/><rect x="245" y="254" width="20" height="26" rx="3"/><rect x="267" y="254" width="20" height="26" rx="3"/><rect x="289" y="254" width="20" height="26" rx="3"/><rect x="311" y="254" width="20" height="26" rx="3"/><rect x="333" y="254" width="20" height="26" rx="3"/><rect x="355" y="254" width="20" height="26" rx="3"/></g>
+<g text-anchor="middle" font-size="15" font-weight="700"><text x="35" y="273">0</text><text x="57" y="273">1</text><text x="79" y="273">1</text><text x="101" y="273">0</text><text x="123" y="273">1</text><text x="145" y="273">0</text><text x="167" y="273">0</text><text x="189" y="273">1</text><text x="211" y="273">0</text><text x="233" y="273">1</text><text x="255" y="273">1</text><text x="277" y="273">0</text><text x="299" y="273">1</text><text x="321" y="273">0</text><text x="343" y="273">0</text><text x="365" y="273">1</text></g>
+<path d="M24,302 H46 V288 H90 V302 H112 V288 H134 V302 H178 V288 H200 V302 H222 V288 H266 V302 H288 V288 H310 V302 H354 V288 H376" fill="none" stroke="#2e7d32" stroke-width="3"/>
+<text x="200" y="326" text-anchor="middle" font-size="13" font-weight="700">Reihenfolge bleibt – nur die Werte ändern sich</text>
+
+<!-- Empfänger -->
+<rect x="10" y="338" width="380" height="58" rx="8" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1.5"/>
+<text x="200" y="362" text-anchor="middle" font-size="14" font-weight="700">Empfänger: gleiche Folge, gleiche Regel</text>
+<text x="200" y="384" text-anchor="middle" font-size="14">→ rechnet die Originaldaten zurück</text>
+
+<line x1="10" y1="412" x2="390" y2="412" stroke="#ccc" stroke-width="1.5"/>
+
+<!-- 130-Bit-Block -->
+<text x="16" y="436" font-size="15" font-weight="700">Ein Block ab PCIe 3.0 (128b/130b)</text>
+<rect x="16" y="448" width="12" height="40" rx="2" fill="#E07B00"/><rect x="31" y="448" width="12" height="40" rx="2" fill="#E07B00"/>
+<rect x="47" y="448" width="337" height="40" rx="3" fill="#3a6ed8"/>
+<text x="215" y="473" text-anchor="middle" font-weight="700" fill="#fff">128 Bit Daten (verwürfelt)</text>
+<path d="M29,494 V508 H44" fill="none" stroke="#E07B00" stroke-width="2"/>
+<text x="50" y="512" font-size="14" font-weight="700" fill="#E07B00">2 Sync-Bits = hier beginnt ein Block</text>
+<text x="16" y="538" font-size="15" font-weight="700">= 130 Bit · Overhead <tspan fill="#2e7d32">unter 2 %</tspan></text>
+
+<rect x="10" y="552" width="380" height="40" rx="8" fill="#eceff1"/>
+<text x="200" y="577" text-anchor="middle" font-size="14" font-weight="700" fill="#2e7d32">viele 0/1-Wechsel → Empfänger bleibt im Takt</text>
+</svg>

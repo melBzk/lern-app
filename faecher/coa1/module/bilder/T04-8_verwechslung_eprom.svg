@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>EPROM, EEPROM oder Flash im Vergleich. Drei Chips nebeneinander mit großem Symbol darüber. EPROM: Chip mit Glasfenster, darüber eine UV-Lampe, UV-Licht löscht. EEPROM: Chip ohne Fenster, darüber ein Blitz, elektrisch löschen. Flash: Chip ohne Fenster, darüber ein Blitz und mehrere Byte-Päckchen gleichzeitig, mehrere Bytes auf einmal; kleine Symbole für BIOS-Chip und USB-Stick. Darunter die Merkzeile: ein E mehr bedeutet elektrisch.</title>
+<rect width="400" height="400" fill="#fff"/>
+
+<!-- Spalte 1 EPROM -->
+<path d="M30,34 H110 L102,48 H38 Z" fill="#555"/>
+<g stroke="#7b1fa2" stroke-width="3.5" stroke-linecap="round">
+<line x1="70" y1="54" x2="70" y2="76"/><line x1="52" y1="54" x2="44" y2="76"/><line x1="88" y1="54" x2="96" y2="76"/>
+</g>
+<rect x="28" y="96" width="84" height="54" rx="3" fill="#555"/>
+<g stroke="#555" stroke-width="2"><path d="M38,90 v6 M52,90 v6 M66,90 v6 M80,90 v6 M94,90 v6 M38,150 v6 M52,150 v6 M66,150 v6 M80,150 v6 M94,150 v6"/></g>
+<circle cx="70" cy="123" r="15" fill="#e1bee7" stroke="#7b1fa2" stroke-width="2.5"/>
+<text x="70" y="184" text-anchor="middle" font-size="17" font-weight="700">EPROM</text>
+<text x="70" y="206" text-anchor="middle" font-weight="700" fill="#7b1fa2">UV-Licht</text>
+<text x="70" y="224" text-anchor="middle">löscht</text>
+<text x="70" y="244" text-anchor="middle" font-size="13" fill="#444">Fenster oben</text>
+
+<!-- Spalte 2 EEPROM -->
+<path d="M206,30 L186,62 H200 L190,86 L220,52 H206 L216,30 Z" fill="#f9a825" stroke="#555" stroke-width="1.5" stroke-linejoin="round"/>
+<rect x="158" y="96" width="84" height="54" rx="3" fill="#555"/>
+<g stroke="#555" stroke-width="2"><path d="M168,90 v6 M182,90 v6 M196,90 v6 M210,90 v6 M224,90 v6 M168,150 v6 M182,150 v6 M196,150 v6 M210,150 v6 M224,150 v6"/></g>
+<text x="200" y="184" text-anchor="middle" font-size="17" font-weight="700">EEPROM</text>
+<text x="200" y="206" text-anchor="middle" font-weight="700" fill="#c62828">elektrisch</text>
+<text x="200" y="224" text-anchor="middle">löschen</text>
+<text x="200" y="244" text-anchor="middle" font-size="13" fill="#444">kein Fenster</text>
+
+<!-- Spalte 3 Flash -->
+<path d="M334,26 L320,48 H330 L323,64 L344,42 H334 L341,26 Z" fill="#f9a825" stroke="#555" stroke-width="1.5" stroke-linejoin="round"/>
+<g fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2">
+<rect x="290" y="70" width="24" height="16" rx="2"/><rect x="318" y="70" width="24" height="16" rx="2"/><rect x="346" y="70" width="24" height="16" rx="2"/>
+</g>
+<rect x="288" y="96" width="84" height="54" rx="3" fill="#555"/>
+<g stroke="#555" stroke-width="2"><path d="M298,90 v6 M312,90 v6 M326,90 v6 M340,90 v6 M354,90 v6 M298,150 v6 M312,150 v6 M326,150 v6 M340,150 v6 M354,150 v6"/></g>
+<text x="330" y="184" text-anchor="middle" font-size="17" font-weight="700">Flash</text>
+<text x="330" y="206" text-anchor="middle" font-weight="700" fill="#c62828">elektrisch</text>
+<text x="330" y="224" text-anchor="middle">mehrere Bytes</text>
+<text x="330" y="242" text-anchor="middle">auf einmal</text>
+<!-- kleine Symbole BIOS + USB -->
+<rect x="290" y="256" width="40" height="22" rx="2" fill="#2e7d32"/>
+<text x="310" y="272" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">BIOS</text>
+<rect x="340" y="259" width="28" height="16" rx="4" fill="#3a6ed8"/>
+<rect x="368" y="262" width="10" height="10" fill="#9aa5b1" stroke="#555" stroke-width="1"/>
+
+<!-- Merkzeile -->
+<rect x="10" y="300" width="380" height="86" rx="8" fill="#fff8e1" stroke="#f9a825" stroke-width="2"/>
+<text x="128" y="332" font-size="18" font-weight="700"><tspan fill="#c62828">E</tspan>PROM → <tspan fill="#c62828">EE</tspan>PROM</text>
+<text x="102" y="364" font-size="17" font-weight="700">ein E mehr = <tspan fill="#c62828">elektrisch</tspan></text>
+</svg>

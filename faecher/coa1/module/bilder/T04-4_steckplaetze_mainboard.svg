@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Schematisches Mainboard von oben: oben CPU-Sockel und vier RAM-Steckplätze. Darunter die Karten-Steckplätze: ein langer PCIe-Steckplatz für die Grafikkarte, ein kurzer PCIe-Steckplatz, in den gerade eine Karte gesteckt wird, ein flacher M.2-Platz und grau gestrichelt ein PCI-Steckplatz, den es nur in alten PCs gibt. Eine rote Klammer fasst die Karten-Steckplätze zusammen: Erweiterungsbus, damit rüstet man weitere Funktionen nach.</title>
+<rect width="400" height="520" fill="#fff"/>
+<text x="200" y="26" font-size="17" text-anchor="middle" font-weight="700">Steckplätze auf dem Mainboard</text>
+<rect x="44" y="42" width="346" height="414" rx="8" fill="#eef2ee" stroke="#8a9a8a" stroke-width="2"/>
+
+<!-- CPU + RAM -->
+<rect x="62" y="60" width="88" height="88" rx="4" fill="#fff" stroke="#555" stroke-width="2"/>
+<text x="106" y="100" text-anchor="middle" font-weight="700">CPU-</text>
+<text x="106" y="118" text-anchor="middle" font-weight="700">Sockel</text>
+<g fill="#555"><rect x="172" y="56" width="10" height="100" rx="2"/><rect x="190" y="56" width="10" height="100" rx="2"/><rect x="208" y="56" width="10" height="100" rx="2"/><rect x="226" y="56" width="10" height="100" rx="2"/></g>
+<text x="250" y="94" font-weight="700">RAM-</text>
+<text x="250" y="112" font-weight="700">Steckplätze</text>
+<text x="250" y="130" font-size="13" fill="#555">(T02-6)</text>
+
+<!-- PCIe x16 -->
+<rect x="62" y="184" width="200" height="13" rx="2" fill="#3a6ed8"/>
+<text x="272" y="189" font-weight="700">PCIe</text>
+<text x="272" y="206" font-size="13">für Grafikkarte</text>
+
+<!-- Karte wird gesteckt -->
+<rect x="62" y="224" width="70" height="34" rx="3" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<text x="97" y="246" text-anchor="middle" font-size="13" font-weight="700">Karte</text>
+<rect x="70" y="258" width="54" height="6" fill="#d4a017"/>
+<line x1="97" y1="268" x2="97" y2="284" stroke="#3a6ed8" stroke-width="3.5"/><path d="M89,282 L105,282 L97,294 Z" fill="#3a6ed8"/>
+<text x="142" y="252" font-size="13" fill="#3a6ed8" font-weight="700">einstecken</text>
+
+<!-- PCIe klein -->
+<rect x="62" y="298" width="64" height="13" rx="2" fill="#3a6ed8"/>
+<text x="160" y="310" font-weight="700">PCIe klein</text>
+
+<!-- M.2 -->
+<rect x="62" y="336" width="120" height="20" rx="3" fill="#fff" stroke="#555" stroke-width="2"/>
+<circle cx="172" cy="346" r="3.5" fill="#555"/>
+<text x="196" y="351" font-weight="700">M.2 (flach)</text>
+
+<!-- PCI alt -->
+<rect x="62" y="388" width="170" height="13" rx="2" fill="none" stroke="#888" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="62" y="428" fill="#666" font-weight="700">PCI – nur in alten PCs</text>
+
+<!-- Klammer -->
+<path d="M38,180 Q28,180 28,190 L28,284 Q28,294 18,294 Q28,294 28,304 L28,396 Q28,406 38,406" fill="none" stroke="#c62828" stroke-width="3"/>
+<line x1="28" y1="406" x2="28" y2="470" stroke="#c62828" stroke-width="2"/>
+<text x="20" y="488" font-size="15" font-weight="700" fill="#c62828">Erweiterungsbus</text>
+<text x="20" y="508" font-size="14">= weitere Funktionen nachrüsten</text>
+</svg>

@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 540" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Flash steckt überall. In der Mitte ein Flash-Chip, rundherum mit Linien verbunden: USB-Stick, Speicherkarte, Digitalkamera, Smartphone, MP3-Player und der BIOS-Chip auf dem Mainboard. Etwas abgesetzt und grau: die SSD, die man zu den Massenspeichern zählt, siehe T02-10.</title>
+<rect width="400" height="540" fill="#fff"/>
+<text x="16" y="26" font-size="17" font-weight="700">Flash steckt überall</text>
+
+<!-- Verbindungslinien -->
+<g stroke="#9aa5b1" stroke-width="2.5">
+<line x1="200" y1="225" x2="80" y2="95"/><line x1="200" y1="225" x2="320" y2="95"/>
+<line x1="200" y1="225" x2="70" y2="230"/><line x1="200" y1="225" x2="330" y2="230"/>
+<line x1="200" y1="225" x2="80" y2="360"/><line x1="200" y1="225" x2="320" y2="360"/>
+</g>
+
+<!-- Flash-Chip Mitte -->
+<rect x="148" y="194" width="104" height="62" rx="4" fill="#c62828"/>
+<g stroke="#c62828" stroke-width="2.5"><path d="M160,186 v8 M174,186 v8 M188,186 v8 M202,186 v8 M216,186 v8 M230,186 v8 M244,186 v8 M160,256 v8 M174,256 v8 M188,256 v8 M202,256 v8 M216,256 v8 M230,256 v8 M244,256 v8"/></g>
+<text x="200" y="231" text-anchor="middle" font-size="17" font-weight="700" fill="#fff">Flash</text>
+
+<!-- USB-Stick oben links -->
+<rect x="40" y="70" width="66" height="30" rx="6" fill="#3a6ed8"/>
+<rect x="106" y="76" width="18" height="18" fill="#9aa5b1" stroke="#555" stroke-width="1.5"/>
+<text x="80" y="124" text-anchor="middle" font-weight="700">USB-Stick</text>
+
+<!-- Speicherkarte oben rechts -->
+<path d="M300,56 H342 V108 H290 V66 Z" fill="#555"/>
+<g fill="#c9a227"><rect x="298" y="62" width="5" height="10"/><rect x="306" y="60" width="5" height="12"/><rect x="314" y="60" width="5" height="12"/><rect x="322" y="60" width="5" height="12"/><rect x="330" y="60" width="5" height="12"/></g>
+<text x="320" y="132" text-anchor="middle" font-weight="700">Speicherkarte</text>
+
+<!-- Digitalkamera links Mitte -->
+<rect x="22" y="208" width="88" height="54" rx="6" fill="#eceff1" stroke="#555" stroke-width="2"/>
+<rect x="34" y="200" width="22" height="10" rx="2" fill="#555"/>
+<circle cx="70" cy="236" r="18" fill="#fff" stroke="#555" stroke-width="3"/>
+<circle cx="70" cy="236" r="8" fill="#555"/>
+<text x="66" y="284" text-anchor="middle" font-weight="700">Digitalkamera</text>
+
+<!-- Smartphone rechts Mitte -->
+<rect x="312" y="190" width="44" height="78" rx="7" fill="#555"/>
+<rect x="317" y="198" width="34" height="58" rx="2" fill="#e8f0fe"/>
+<circle cx="334" cy="262" r="2.5" fill="#bbb"/>
+<text x="334" y="290" text-anchor="middle" font-weight="700">Smartphone</text>
+
+<!-- MP3-Player unten links -->
+<rect x="54" y="330" width="48" height="66" rx="6" fill="#eceff1" stroke="#555" stroke-width="2"/>
+<rect x="61" y="337" width="34" height="26" rx="2" fill="#555"/>
+<path d="M76,357 V343 L86,341 V354" fill="none" stroke="#fff" stroke-width="2"/>
+<circle cx="73" cy="357" r="3" fill="#fff"/><circle cx="83" cy="354" r="3" fill="#fff"/>
+<rect x="66" y="372" width="24" height="14" rx="3" fill="#9aa5b1"/>
+<path d="M102,380 C122,380 126,404 112,410" fill="none" stroke="#555" stroke-width="2"/>
+<circle cx="110" cy="412" r="4" fill="#555"/>
+<text x="78" y="428" text-anchor="middle" font-weight="700">MP3-Player</text>
+
+<!-- BIOS-Chip auf Mainboard unten rechts -->
+<rect x="268" y="330" width="104" height="70" rx="5" fill="#2e7d32"/>
+<rect x="292" y="346" width="56" height="36" rx="2" fill="#555"/>
+<text x="320" y="369" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">BIOS</text>
+<text x="320" y="420" text-anchor="middle" font-weight="700">BIOS-Chip</text>
+<text x="320" y="437" text-anchor="middle" font-size="13">auf dem Mainboard</text>
+
+<!-- SSD abgesetzt, grau -->
+<line x1="8" y1="458" x2="392" y2="458" stroke="#ccc" stroke-width="1.5"/>
+<g opacity="0.75">
+<rect x="14" y="472" width="78" height="52" rx="5" fill="#eceff1" stroke="#9aa5b1" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="53" y="503" text-anchor="middle" font-weight="700" fill="#666">SSD</text>
+</g>
+<line x1="100" y1="498" x2="126" y2="498" stroke="#888" stroke-width="3"/>
+<polygon points="138,498 125,491 125,505" fill="#888"/>
+<text x="146" y="492" fill="#555">zählt man zu den</text>
+<text x="146" y="511" fill="#555"><tspan font-weight="700">Massenspeichern</tspan> → T02-10</text>
+</svg>

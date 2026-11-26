@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 610" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Alte PCI-Netzwerkkarte einbauen in drei Schritten. Schritt 1: An der Gehäuse-Rückwand wird ein Blech ausgebrochen (Sollbruchstelle) oder abgeschraubt. Schritt 2: Die Karte von der Seite: Platine mit Bauteilen, links das Slotblech mit drei Netzwerkbuchsen RJ45, BNC und AUI, unten goldene Kontakte mit einer Kerbe; die Kontakte gehen in den Steckplatz. Schritt 3: Im Steckplatz sitzt ein Steg (kleine Erhebung), der genau in die Kerbe passt. Eine Karte mit Kerbe an anderer Stelle passt nicht und wird mit rotem X abgewiesen.</title>
+<rect width="400" height="610" fill="#fff"/>
+<text x="200" y="26" font-size="17" text-anchor="middle" font-weight="700">Eine alte Netzwerkkarte einbauen</text>
+
+<!-- 1 Platz schaffen -->
+<text x="16" y="56" font-size="15" font-weight="700">1  Platz schaffen (Rückwand)</text>
+<rect x="20" y="68" width="136" height="116" rx="3" fill="#cfd4da" stroke="#777" stroke-width="2"/>
+<g fill="#e6e9ec" stroke="#888" stroke-width="1.5"><rect x="34" y="80" width="18" height="92"/><rect x="62" y="80" width="18" height="92"/><rect x="118" y="80" width="18" height="92"/></g>
+<rect x="90" y="80" width="18" height="92" fill="#fff" stroke="#c62828" stroke-width="2" stroke-dasharray="5 4"/>
+<line x1="112" y1="126" x2="178" y2="126" stroke="#c62828" stroke-width="3"/><path d="M176,119 L190,126 L176,133 Z" fill="#c62828"/>
+<text x="198" y="108" font-weight="700">Blech ausbrechen</text>
+<text x="198" y="126" font-size="13">(Sollbruchstelle)</text>
+<text x="198" y="150" font-weight="700">oder abschrauben</text>
+
+<!-- 2 Karte einsetzen -->
+<text x="16" y="222" font-size="15" font-weight="700">2  Karte einsetzen</text>
+<!-- Slotblech -->
+<rect x="110" y="238" width="34" height="8" rx="2" fill="#9aa5b1" stroke="#555" stroke-width="1.5"/>
+<rect x="110" y="244" width="10" height="150" fill="#9aa5b1" stroke="#555" stroke-width="1.5"/>
+<rect x="96" y="262" width="14" height="20" rx="1" fill="#222"/>
+<rect x="94" y="298" width="16" height="12" rx="2" fill="#222"/><rect x="88" y="301" width="6" height="6" fill="#222"/>
+<path d="M110,324 L100,327 L100,349 L110,352 Z" fill="#222"/>
+<g font-size="13" font-weight="700" text-anchor="end"><text x="88" y="277">RJ45</text><text x="82" y="309">BNC</text><text x="94" y="343">AUI</text></g>
+<text x="115" y="414" text-anchor="middle" font-weight="700">Slotblech</text>
+<!-- Platine -->
+<rect x="120" y="250" width="180" height="108" rx="3" fill="#dfeedd" stroke="#4b7a46" stroke-width="2"/>
+<g fill="#555"><rect x="140" y="292" width="40" height="28" rx="2"/><rect x="196" y="300" width="24" height="18" rx="2"/><rect x="236" y="288" width="44" height="34" rx="2"/></g>
+<text x="210" y="274" text-anchor="middle" font-size="13" font-weight="700">Platine mit Bauteilen</text>
+<!-- Kontakte mit Kerbe -->
+<rect x="140" y="358" width="66" height="16" fill="#d4a017"/>
+<rect x="218" y="358" width="72" height="16" fill="#d4a017"/>
+<rect x="206" y="358" width="12" height="16" fill="none" stroke="#c62828" stroke-width="2.5"/>
+<text x="306" y="364" font-size="13" font-weight="700">goldene</text>
+<text x="306" y="380" font-size="13" font-weight="700">Kontakte</text>
+<text x="212" y="400" text-anchor="middle" font-weight="700" fill="#c62828">Kerbe</text>
+<!-- Einstecken -->
+<line x1="166" y1="380" x2="166" y2="400" stroke="#3a6ed8" stroke-width="3.5"/><path d="M158,398 L174,398 L166,410 Z" fill="#3a6ed8"/>
+<!-- Steckplatz -->
+<rect x="136" y="418" width="160" height="20" rx="2" fill="#444"/>
+<rect x="207" y="408" width="10" height="14" fill="#c62828"/>
+<text x="306" y="433" font-size="13" font-weight="700">Steckplatz</text>
+<text x="212" y="456" text-anchor="middle" font-weight="700" fill="#c62828">Steg</text>
+<text x="212" y="473" text-anchor="middle" font-size="12.5" fill="#444">(kleine Erhebung im Steckplatz)</text>
+
+<!-- 3 Falsche Karte -->
+<text x="16" y="494" font-size="15" font-weight="700">3  Kerbe + Steg: nur der richtige Platz</text>
+<rect x="150" y="510" width="120" height="34" rx="3" fill="#eceff1" stroke="#888" stroke-width="2"/>
+<rect x="158" y="544" width="70" height="10" fill="#d4a017"/><rect x="238" y="544" width="24" height="10" fill="#d4a017"/>
+<rect x="136" y="572" width="160" height="16" rx="2" fill="#444"/>
+<rect x="207" y="563" width="10" height="12" fill="#c62828"/>
+<path d="M176,508 L244,592 M244,508 L176,592" stroke="#c62828" stroke-width="6" stroke-linecap="round"/>
+<text x="306" y="540" font-weight="700" fill="#c62828">falsche</text>
+<text x="306" y="558" font-weight="700" fill="#c62828">Karte:</text>
+<text x="306" y="576" font-size="13">passt nicht</text>
+</svg>

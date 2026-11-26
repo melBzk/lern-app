@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 560" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Begriffs-Übersicht mit acht Symbolen in zwei Spalten, je mit kurzem Satz: Erweiterungsbus (Mainboard mit hervorgehobener Steckleiste) – Steckplätze für Karten. Slotblech (Metallwinkel mit Buchsen) – Blech mit Buchsen hinten. ISA und EISA (Grabstein) – alte Vorgänger von PCI. PCI (Steckkarte) – Steckplatz vor PCIe. PCI-Bridge (Brücke zwischen CPU und Bus) – Chip führt CPU-Aufträge aus. Bus-Master (Karte mit Krone) – Karte hat kurz die Kontrolle. IRQ-Sharing (zwei Karten an einem IRQ-Schild) – 2 Karten, 1 IRQ-Nummer. PCI-X (Server-Schrank mit langer Karte) – schnelles PCI für Server.</title>
+<rect width="400" height="560" fill="#fff"/>
+<text x="200" y="28" font-size="17" text-anchor="middle" font-weight="700">Die 8 neuen Wörter</text>
+<g stroke="#ddd" stroke-width="1.5"><line x1="200" y1="44" x2="200" y2="552"/><line x1="12" y1="170" x2="388" y2="170"/><line x1="12" y1="300" x2="388" y2="300"/><line x1="12" y1="430" x2="388" y2="430"/></g>
+<g font-size="12.5" fill="#444" text-anchor="middle">
+<text x="100" y="158">Steckplätze für Karten</text>
+<text x="300" y="158">Blech mit Buchsen hinten</text>
+<text x="100" y="288">alte Vorgänger von PCI</text>
+<text x="300" y="288">Steckplatz vor PCIe</text>
+<text x="100" y="418">Chip führt CPU-Aufträge aus</text>
+<text x="300" y="418">Karte hat kurz die Kontrolle</text>
+<text x="100" y="548">2 Karten, 1 IRQ-Nummer</text>
+<text x="300" y="548">schnelles PCI für Server</text>
+</g>
+
+<!-- Zeile 1 -->
+<g>
+<!-- 1 Erweiterungsbus -->
+<rect x="55" y="52" width="90" height="56" rx="5" fill="#eceff1" stroke="#777" stroke-width="2"/>
+<rect x="65" y="62" width="70" height="7" rx="2" fill="#555"/>
+<rect x="65" y="76" width="70" height="8" rx="2" fill="#3a6ed8"/>
+<rect x="65" y="91" width="70" height="7" rx="2" fill="#555"/>
+<text x="100" y="138" text-anchor="middle" font-size="15" font-weight="700">Erweiterungsbus</text>
+
+<!-- 2 Slotblech -->
+<rect x="278" y="50" width="44" height="8" rx="2" fill="#9aa5b1" stroke="#555" stroke-width="1.5"/>
+<rect x="290" y="56" width="22" height="58" fill="#9aa5b1" stroke="#555" stroke-width="1.5"/>
+<rect x="295" y="63" width="12" height="10" rx="1" fill="#222"/>
+<circle cx="301" cy="85" r="5" fill="#222"/>
+<rect x="296" y="95" width="10" height="13" rx="2" fill="#222"/>
+<text x="300" y="138" text-anchor="middle" font-size="15" font-weight="700">Slotblech</text>
+</g>
+
+<!-- Zeile 2 -->
+<g transform="translate(0,18)">
+<!-- 3 ISA / EISA -->
+<path d="M75,228 L75,184 A25,25 0 0 1 125,184 L125,228 Z" fill="#cfd4da" stroke="#777" stroke-width="2"/>
+<text x="100" y="206" text-anchor="middle" font-weight="700" fill="#666">ISA</text>
+<line x1="60" y1="228" x2="140" y2="228" stroke="#777" stroke-width="2"/>
+<text x="100" y="252" text-anchor="middle" font-size="15" font-weight="700">ISA / EISA</text>
+
+<!-- 4 PCI -->
+<rect x="255" y="172" width="90" height="40" rx="3" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<text x="300" y="198" text-anchor="middle" font-weight="700" fill="#3a6ed8">PCI</text>
+<rect x="265" y="212" width="38" height="10" fill="#d4a017"/>
+<rect x="311" y="212" width="24" height="10" fill="#d4a017"/>
+<text x="300" y="252" text-anchor="middle" font-size="15" font-weight="700">PCI</text>
+</g>
+
+<!-- Zeile 3 -->
+<g transform="translate(0,36)">
+<!-- 5 PCI-Bridge -->
+<rect x="30" y="296" width="46" height="30" rx="3" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<text x="53" y="316" text-anchor="middle" font-size="13" font-weight="700">CPU</text>
+<path d="M80,322 Q104,282 128,322" fill="none" stroke="#c62828" stroke-width="4"/>
+<line x1="78" y1="322" x2="130" y2="322" stroke="#c62828" stroke-width="4"/>
+<line x1="132" y1="311" x2="172" y2="311" stroke="#555" stroke-width="4"/>
+<g stroke="#555" stroke-width="3"><line x1="142" y1="311" x2="142" y2="326"/><line x1="156" y1="311" x2="156" y2="326"/><line x1="170" y1="311" x2="170" y2="326"/></g>
+<text x="100" y="362" text-anchor="middle" font-size="15" font-weight="700">PCI-Bridge</text>
+
+<!-- 6 Bus-Master -->
+<rect x="262" y="304" width="76" height="32" rx="3" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<path d="M278,298 L278,278 L289,289 L300,274 L311,289 L322,278 L322,298 Z" fill="#E07B00"/>
+<text x="300" y="362" text-anchor="middle" font-size="15" font-weight="700">Bus-Master</text>
+</g>
+
+<!-- Zeile 4 -->
+<g transform="translate(0,54)">
+<!-- 7 IRQ-Sharing -->
+<rect x="44" y="386" width="44" height="26" rx="3" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<rect x="112" y="386" width="44" height="26" rx="3" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<path d="M66,412 L66,420 L100,420 M134,412 L134,420 L100,420 L100,428" fill="none" stroke="#c62828" stroke-width="3"/>
+<rect x="72" y="428" width="56" height="22" rx="4" fill="#c62828"/>
+<text x="100" y="444" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">IRQ</text>
+<text x="100" y="474" text-anchor="middle" font-size="15" font-weight="700">IRQ-Sharing</text>
+
+<!-- 8 PCI-X -->
+<rect x="266" y="384" width="68" height="70" rx="3" fill="#555"/>
+<g stroke="#888" stroke-width="2"><line x1="272" y1="396" x2="328" y2="396"/><line x1="272" y1="406" x2="328" y2="406"/><line x1="272" y1="442" x2="328" y2="442"/></g>
+<rect x="250" y="416" width="100" height="16" rx="2" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<text x="300" y="474" text-anchor="middle" font-size="15" font-weight="700">PCI-X</text>
+</g>
+</svg>

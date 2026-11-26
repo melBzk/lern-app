@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 630" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Alte CPU ausbauen in vier Schritten und ablegen. 1: Das Lüfterkabel des Kühlers vom Anschluss am Mainboard abziehen. 2: Den Kühler lösen und gerade nach oben abheben. 3: Den Hebel am Sockel öffnen. 4: Die CPU mit zwei Fingern nur an den Kanten halten und senkrecht nach oben herausheben. 5 Ablegen: links mit Häkchen die CPU in der antistatischen Tüte auf der Matte, rechts durchgestrichen eine Platine auf Alufolie: Kurzschluss.</title>
+<rect width="400" height="630" fill="#fff"/>
+<text x="200" y="28" font-size="17" text-anchor="middle" font-weight="700">Alte CPU ausbauen</text>
+
+<g fill="#fff" stroke="#ccc" stroke-width="1.5">
+<rect x="10" y="44" width="185" height="170" rx="10"/><rect x="205" y="44" width="185" height="170" rx="10"/>
+<rect x="10" y="224" width="185" height="170" rx="10"/><rect x="205" y="224" width="185" height="170" rx="10"/>
+</g>
+<g fill="#3a6ed8"><circle cx="30" cy="64" r="13"/><circle cx="225" cy="64" r="13"/><circle cx="30" cy="244" r="13"/><circle cx="225" cy="244" r="13"/></g>
+<g font-weight="700" fill="#fff" text-anchor="middle"><text x="30" y="69">1</text><text x="225" y="69">2</text><text x="30" y="249">3</text><text x="225" y="249">4</text></g>
+
+<!-- 1 Lüfterkabel abziehen -->
+<g transform="translate(10,44)">
+<rect x="20" y="110" width="150" height="10" fill="#4f8a5b"/>
+<rect x="50" y="100" width="56" height="10" fill="#555"/>
+<rect x="40" y="88" width="76" height="12" fill="#9aa5b1"/>
+<g fill="#9aa5b1"><rect x="40" y="60" width="6" height="28"/><rect x="52" y="60" width="6" height="28"/><rect x="64" y="60" width="6" height="28"/><rect x="76" y="60" width="6" height="28"/><rect x="88" y="60" width="6" height="28"/><rect x="100" y="60" width="6" height="28"/><rect x="110" y="60" width="6" height="28"/></g>
+<path d="M116,70 C136,64 140,70 142,80" fill="none" stroke="#222" stroke-width="2.5"/>
+<rect x="136" y="80" width="12" height="8" fill="#E07B00"/>
+<rect x="134" y="102" width="16" height="8" fill="#222"/>
+<line x1="162" y1="104" x2="162" y2="80" stroke="#3a6ed8" stroke-width="3"/>
+<path d="M155,82 L169,82 L162,70 Z" fill="#3a6ed8"/>
+<text x="92" y="146" text-anchor="middle" font-size="14" font-weight="700">Lüfterkabel</text>
+<text x="92" y="164" text-anchor="middle" font-size="14" font-weight="700">abziehen</text>
+</g>
+
+<!-- 2 Kühler abheben -->
+<g transform="translate(205,44)">
+<rect x="20" y="110" width="150" height="10" fill="#4f8a5b"/>
+<rect x="50" y="100" width="56" height="10" fill="#555"/>
+<ellipse cx="78" cy="99" rx="14" ry="3" fill="#8d8d8d"/>
+<rect x="40" y="62" width="76" height="12" fill="#9aa5b1"/>
+<g fill="#9aa5b1"><rect x="40" y="34" width="6" height="28"/><rect x="52" y="34" width="6" height="28"/><rect x="64" y="34" width="6" height="28"/><rect x="76" y="34" width="6" height="28"/><rect x="88" y="34" width="6" height="28"/><rect x="100" y="34" width="6" height="28"/><rect x="110" y="34" width="6" height="28"/></g>
+<line x1="142" y1="96" x2="142" y2="44" stroke="#3a6ed8" stroke-width="3.5"/>
+<path d="M134,46 L150,46 L142,32 Z" fill="#3a6ed8"/>
+<text x="92" y="146" text-anchor="middle" font-size="14" font-weight="700">Kühler lösen,</text>
+<text x="92" y="164" text-anchor="middle" font-size="14" font-weight="700">gerade abheben</text>
+</g>
+
+<!-- 3 Hebel öffnen -->
+<g transform="translate(10,224)">
+<rect x="20" y="110" width="150" height="10" fill="#4f8a5b"/>
+<rect x="44" y="94" width="76" height="16" rx="2" fill="#fff" stroke="#555" stroke-width="2"/>
+<rect x="52" y="86" width="60" height="8" fill="#c9ced4" stroke="#555" stroke-width="1.5"/>
+<line x1="132" y1="108" x2="132" y2="108" stroke="#555"/>
+<line x1="128" y1="108" x2="152" y2="54" stroke="#555" stroke-width="5" stroke-linecap="round"/>
+<line x1="128" y1="108" x2="166" y2="108" stroke="#555" stroke-width="2" stroke-dasharray="4 3"/>
+<path d="M166,100 Q168,76 158,62" fill="none" stroke="#3a6ed8" stroke-width="3"/>
+<path d="M151,66 L164,60 L158,74 Z" fill="#3a6ed8"/>
+<text x="138" y="48" font-size="13" font-weight="700">Hebel</text>
+<text x="92" y="146" text-anchor="middle" font-size="14" font-weight="700">Hebel am Sockel</text>
+<text x="92" y="164" text-anchor="middle" font-size="14" font-weight="700">öffnen</text>
+</g>
+
+<!-- 4 CPU senkrecht heraus -->
+<g transform="translate(205,224)">
+<rect x="20" y="110" width="150" height="10" fill="#4f8a5b"/>
+<rect x="56" y="96" width="76" height="14" rx="2" fill="#fff" stroke="#555" stroke-width="2"/>
+<rect x="66" y="52" width="56" height="8" fill="#c9ced4" stroke="#555" stroke-width="1.5"/>
+<rect x="62" y="60" width="64" height="8" fill="#4f8a5b"/>
+<line x1="64" y1="72" x2="124" y2="72" stroke="#c62828" stroke-width="3"/>
+<rect x="36" y="52" width="26" height="18" rx="9" fill="#f2d3b3" stroke="#8a6b4b" stroke-width="2"/>
+<rect x="126" y="52" width="26" height="18" rx="9" fill="#f2d3b3" stroke="#8a6b4b" stroke-width="2"/>
+<line x1="94" y1="46" x2="94" y2="24" stroke="#3a6ed8" stroke-width="3.5"/>
+<path d="M86,26 L102,26 L94,12 Z" fill="#3a6ed8"/>
+<text x="94" y="90" text-anchor="middle" font-size="12" font-weight="700" fill="#c62828">Unterseite nicht berühren</text>
+<text x="92" y="146" text-anchor="middle" font-size="14" font-weight="700">senkrecht heraus,</text>
+<text x="92" y="164" text-anchor="middle" font-size="14" font-weight="700">nur an den Kanten</text>
+</g>
+
+<!-- 5 Ablegen -->
+<rect x="10" y="404" width="380" height="216" rx="10" fill="#fff" stroke="#ccc" stroke-width="1.5"/>
+<circle cx="30" cy="424" r="13" fill="#3a6ed8"/><text x="30" y="429" text-anchor="middle" font-weight="700" fill="#fff">5</text>
+<text x="56" y="430" font-size="15" font-weight="700">Ablegen</text>
+<g transform="translate(0,66)">
+<rect x="22" y="460" width="170" height="16" rx="3" fill="#9aa5b1"/>
+<path d="M54,388 L160,388 L160,460 L54,460 Z" fill="#d7dde3" stroke="#555" stroke-width="2"/>
+<line x1="54" y1="398" x2="160" y2="398" stroke="#555" stroke-width="1.5" stroke-dasharray="4 3"/>
+<rect x="84" y="414" width="46" height="34" rx="3" fill="#555"/>
+<rect x="94" y="422" width="26" height="18" rx="2" fill="#c9ced4"/>
+<text x="107" y="498" text-anchor="middle" font-size="14" font-weight="700">antistatische Tüte</text>
+<text x="107" y="516" text-anchor="middle" font-size="14">oder auf die Matte</text>
+<circle cx="172" cy="408" r="16" fill="#2e7d32"/>
+<path d="M164,408 L170,415 L181,401" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M214,460 L380,460 L372,476 L222,476 Z" fill="#e0e0e0" stroke="#9e9e9e" stroke-width="2"/>
+<g stroke="#bdbdbd" stroke-width="1.5"><line x1="240" y1="462" x2="236" y2="474"/><line x1="280" y1="462" x2="284" y2="474"/><line x1="330" y1="462" x2="326" y2="474"/></g>
+<rect x="238" y="420" width="120" height="40" rx="3" fill="#4f8a5b"/>
+<rect x="252" y="428" width="24" height="20" rx="2" fill="#555"/><rect x="290" y="430" width="14" height="14" rx="7" fill="#c9ced4" stroke="#555" stroke-width="1.5"/>
+<text x="298" y="410" text-anchor="middle" font-size="13">Platine</text>
+<line x1="226" y1="480" x2="370" y2="396" stroke="#c62828" stroke-width="5" stroke-linecap="round"/>
+<text x="298" y="498" text-anchor="middle" font-size="14" font-weight="700">nie auf Alufolie:</text>
+<text x="298" y="518" text-anchor="middle" font-size="15" font-weight="700" fill="#c62828">Kurzschluss!</text>
+</g>
+</svg>

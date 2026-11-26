@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>ROM und PROM im Vergleich. Oben ROM: In der Fabrik wird der Inhalt mit einem Stempel bei der Herstellung eingeprägt; der fertige Chip trägt ein Schloss, nie mehr änderbar. Eine Sprechblase sagt: lohnt nur bei sehr großen Stückzahlen. Unten PROM: Ein leerer Chip steckt in einem Programmiergerät, ein Stift mit „1×“ schreibt einmal hinein; danach ist derselbe Chip mit Schloss fest.</title>
+<rect width="400" height="520" fill="#fff"/>
+
+<!-- ===== ROM ===== -->
+<text x="16" y="28" font-size="18" font-weight="700">ROM</text>
+<text x="70" y="28" font-size="13" fill="#444">Read Only Memory</text>
+
+<!-- Fabrik -->
+<path d="M20,150 V96 L44,110 V96 L68,110 V96 L92,110 V80 H108 V150 Z" fill="#eceff1" stroke="#555" stroke-width="2" stroke-linejoin="round"/>
+<rect x="34" y="124" width="14" height="14" fill="#9aa5b1"/><rect x="62" y="124" width="14" height="14" fill="#9aa5b1"/>
+<!-- Stempel -->
+<rect x="132" y="70" width="22" height="16" rx="3" fill="#555"/>
+<rect x="139" y="86" width="8" height="16" fill="#555"/>
+<rect x="126" y="102" width="34" height="10" rx="2" fill="#c62828"/>
+<!-- Pfeil -->
+<line x1="166" y1="120" x2="200" y2="120" stroke="#555" stroke-width="3"/>
+<polygon points="212,120 199,113 199,127" fill="#555"/>
+<!-- ROM-Chip mit Inhalt -->
+<rect x="222" y="98" width="96" height="44" rx="3" fill="#555"/>
+<g stroke="#555" stroke-width="2"><path d="M232,92 v6 M246,92 v6 M260,92 v6 M274,92 v6 M288,92 v6 M302,92 v6 M232,142 v6 M246,142 v6 M260,142 v6 M274,142 v6 M288,142 v6 M302,142 v6"/></g>
+<text x="270" y="126" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">1 0 1 1</text>
+<!-- Schloss -->
+<path d="M334,104 V96 A9,9 0 0 1 352,96 V104" fill="none" stroke="#c62828" stroke-width="3.5"/>
+<rect x="328" y="104" width="30" height="24" rx="3" fill="#c62828"/>
+
+<text x="20" y="176" font-weight="700">Inhalt wird bei der</text>
+<text x="20" y="194" font-weight="700">Herstellung eingeprägt</text>
+<text x="390" y="176" text-anchor="end" font-weight="700" fill="#c62828">nie mehr</text>
+<text x="390" y="194" text-anchor="end" font-weight="700" fill="#c62828">änderbar</text>
+
+<!-- Sprechblase -->
+<path d="M20,214 H380 A8,8 0 0 1 388,222 V252 A8,8 0 0 1 380,260 H80 L62,274 L64,260 H20 A8,8 0 0 1 12,252 V222 A8,8 0 0 1 20,214 Z" fill="#fff8e1" stroke="#f9a825" stroke-width="2"/>
+<text x="200" y="243" text-anchor="middle" font-weight="700">lohnt nur bei sehr großen Stückzahlen</text>
+
+<line x1="8" y1="292" x2="392" y2="292" stroke="#ccc" stroke-width="1.5"/>
+
+<!-- ===== PROM ===== -->
+<text x="16" y="324" font-size="18" font-weight="700">PROM</text>
+<text x="82" y="324" font-size="13" fill="#444">Programmable ROM</text>
+
+<!-- Programmiergerät -->
+<rect x="14" y="356" width="150" height="80" rx="8" fill="#eceff1" stroke="#555" stroke-width="2"/>
+<rect x="34" y="366" width="110" height="40" rx="3" fill="#9aa5b1"/>
+<!-- leerer Chip -->
+<rect x="44" y="372" width="90" height="28" rx="2" fill="#fff" stroke="#555" stroke-width="2"/>
+<text x="89" y="391" text-anchor="middle" font-size="13" fill="#888">leer</text>
+<circle cx="40" cy="422" r="5" fill="#2e7d32"/>
+<!-- Stift mit 1× -->
+<line x1="150" y1="400" x2="128" y2="380" stroke="#3a6ed8" stroke-width="8" stroke-linecap="round"/>
+<path d="M120,372 L131,376 L124,383 Z" fill="#3a6ed8"/>
+<circle cx="158" cy="368" r="16" fill="#3a6ed8"/>
+<text x="158" y="373" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">1×</text>
+<!-- Pfeil -->
+<line x1="186" y1="396" x2="216" y2="396" stroke="#555" stroke-width="3"/>
+<polygon points="228,396 215,389 215,403" fill="#555"/>
+<!-- Chip danach -->
+<rect x="236" y="374" width="90" height="44" rx="3" fill="#555"/>
+<g stroke="#555" stroke-width="2"><path d="M246,368 v6 M260,368 v6 M274,368 v6 M288,368 v6 M302,368 v6 M316,368 v6 M246,418 v6 M260,418 v6 M274,418 v6 M288,418 v6 M302,418 v6 M316,418 v6"/></g>
+<text x="281" y="402" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">1 0 1 1</text>
+<path d="M342,380 V372 A9,9 0 0 1 360,372 V380" fill="none" stroke="#c62828" stroke-width="3.5"/>
+<rect x="336" y="380" width="30" height="24" rx="3" fill="#c62828"/>
+
+<text x="14" y="462" font-weight="700">Programmiergerät:</text>
+<text x="14" y="480">Anwender schreibt</text>
+<text x="14" y="498"><tspan font-weight="700" fill="#3a6ed8">einmal</tspan> hinein</text>
+<text x="390" y="462" text-anchor="end" font-weight="700" fill="#c62828">danach fest</text>
+</svg>

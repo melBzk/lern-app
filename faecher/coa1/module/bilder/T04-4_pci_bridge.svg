@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 450" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Blockbild PCI-Bridge: Oben die CPU, daneben ein Zahnrad, die CPU rechnet weiter. Darunter die PCI-Bridge im Chipsatz, verbunden mit der CPU schnell mit eigenem Takt. Sprechblasen an der Bridge: Takt anpassen, Lesen und Schreiben ordnen. Rechts der Bridge der Hauptspeicher. Unter der Bridge der PCI-Bus mit langsamerem Takt (33 MHz) und drei Karten. Ein oranger Datenpfeil führt vom Hauptspeicher zur Grafikkarte am Bus – gleichzeitig rechnet die CPU weiter.</title>
+<rect width="400" height="450" fill="#fff"/>
+<text x="200" y="26" font-size="17" text-anchor="middle" font-weight="700">Die PCI-Bridge vermittelt</text>
+
+<!-- CPU -->
+<rect x="130" y="46" width="140" height="56" rx="6" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<text x="200" y="81" text-anchor="middle" font-size="19" font-weight="700" fill="#3a6ed8">CPU</text>
+<!-- Zahnrad -->
+<rect x="57" y="48" width="10" height="12" rx="1" fill="#3a6ed8" transform="rotate(0 62 72)"/><rect x="57" y="48" width="10" height="12" rx="1" fill="#3a6ed8" transform="rotate(45 62 72)"/><rect x="57" y="48" width="10" height="12" rx="1" fill="#3a6ed8" transform="rotate(90 62 72)"/><rect x="57" y="48" width="10" height="12" rx="1" fill="#3a6ed8" transform="rotate(135 62 72)"/><rect x="57" y="48" width="10" height="12" rx="1" fill="#3a6ed8" transform="rotate(180 62 72)"/><rect x="57" y="48" width="10" height="12" rx="1" fill="#3a6ed8" transform="rotate(225 62 72)"/><rect x="57" y="48" width="10" height="12" rx="1" fill="#3a6ed8" transform="rotate(270 62 72)"/><rect x="57" y="48" width="10" height="12" rx="1" fill="#3a6ed8" transform="rotate(315 62 72)"/>
+<circle cx="62" cy="72" r="16" fill="#3a6ed8"/>
+<circle cx="62" cy="72" r="6" fill="#fff"/>
+<text x="62" y="114" text-anchor="middle" font-size="13" font-weight="700">rechnet</text>
+<text x="62" y="130" text-anchor="middle" font-size="13" font-weight="700">weiter</text>
+
+<!-- CPU <-> Bridge -->
+<line x1="200" y1="116" x2="200" y2="168" stroke="#3a6ed8" stroke-width="5"/>
+<path d="M191,118 L209,118 L200,104 Z" fill="#3a6ed8"/><path d="M191,166 L209,166 L200,180 Z" fill="#3a6ed8"/>
+<text x="214" y="138" font-size="13" font-weight="700">schnell,</text>
+<text x="214" y="155" font-size="13" font-weight="700">eigener Takt</text>
+
+<!-- Bridge -->
+<rect x="120" y="182" width="160" height="58" rx="8" fill="#c62828"/>
+<text x="200" y="208" text-anchor="middle" font-size="17" font-weight="700" fill="#fff">PCI-Bridge</text>
+<text x="200" y="228" text-anchor="middle" font-size="13" fill="#fff">(im Chipsatz)</text>
+<!-- Sprechblasen -->
+<rect x="6" y="150" width="96" height="42" rx="10" fill="#fff" stroke="#c62828" stroke-width="2"/>
+<path d="M100,176 L120,192 L100,184" fill="#fff" stroke="#c62828" stroke-width="2"/>
+<text x="54" y="167" text-anchor="middle" font-size="13">Takt</text>
+<text x="54" y="184" text-anchor="middle" font-size="13">anpassen</text>
+<rect x="6" y="204" width="96" height="58" rx="10" fill="#fff" stroke="#c62828" stroke-width="2"/>
+<path d="M100,222 L120,222 L100,232" fill="#fff" stroke="#c62828" stroke-width="2"/>
+<text x="54" y="222" text-anchor="middle" font-size="13">Lesen und</text>
+<text x="54" y="238" text-anchor="middle" font-size="13">Schreiben</text>
+<text x="54" y="254" text-anchor="middle" font-size="13">ordnen</text>
+
+<!-- Hauptspeicher -->
+<line x1="280" y1="211" x2="304" y2="211" stroke="#555" stroke-width="4"/>
+<rect x="304" y="186" width="88" height="50" rx="5" fill="#eceff1" stroke="#555" stroke-width="2"/>
+<text x="348" y="207" text-anchor="middle" font-size="13" font-weight="700">Haupt-</text>
+<text x="348" y="224" text-anchor="middle" font-size="13" font-weight="700">speicher</text>
+
+<!-- Bridge <-> Bus -->
+<line x1="200" y1="250" x2="200" y2="290" stroke="#555" stroke-width="3"/><path d="M193,288 L207,288 L200,300 Z" fill="#555"/>
+<path d="M193,252 L207,252 L200,242 Z" fill="#555"/>
+<text x="190" y="280" text-anchor="end" font-size="13" font-weight="700">langsamer Takt (33 MHz)</text>
+
+<!-- Bus -->
+<line x1="30" y1="306" x2="370" y2="306" stroke="#555" stroke-width="7" stroke-linecap="round"/>
+<text x="30" y="296" font-weight="700">PCI-Bus</text>
+<g stroke="#555" stroke-width="3"><line x1="95" y1="306" x2="95" y2="326"/><line x1="185" y1="306" x2="185" y2="326"/></g>
+<rect x="60" y="326" width="70" height="40" rx="3" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<rect x="150" y="326" width="70" height="40" rx="3" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<rect x="240" y="326" width="80" height="40" rx="3" fill="#e8f0fe" stroke="#E07B00" stroke-width="3"/>
+<text x="95" y="351" text-anchor="middle" font-size="13">Karte</text>
+<text x="185" y="351" text-anchor="middle" font-size="13">Karte</text>
+<text x="280" y="343" text-anchor="middle" font-size="13" font-weight="700">Grafik-</text>
+<text x="280" y="359" text-anchor="middle" font-size="13" font-weight="700">karte</text>
+
+<!-- Datenpfeil -->
+<path d="M348,238 L348,262 L280,262 L280,312" fill="none" stroke="#E07B00" stroke-width="4" stroke-dasharray="8 5"/>
+<path d="M272,310 L288,310 L280,324 Z" fill="#E07B00"/>
+<text x="292" y="284" font-size="13" font-weight="700" fill="#b85f00">Daten</text>
+
+<!-- Unterschrift -->
+<text x="200" y="402" text-anchor="middle" font-weight="700" fill="#b85f00">Gleichzeitig: Hauptspeicher → Grafikkarte</text>
+<text x="200" y="424" text-anchor="middle">und die CPU rechnet weiter.</text>
+</svg>

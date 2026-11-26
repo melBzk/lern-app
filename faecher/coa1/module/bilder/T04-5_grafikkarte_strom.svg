@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 420" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Strom für die Grafikkarte. Die Grafikkarte steckt im x16-Steckplatz auf dem Mainboard. Ein oranger Pfeil vom Steckplatz in die Karte: Steckplatz liefert höchstens 75 Watt. Oben an der Karte zwei Buchsen mit Kabeln vom Netzteil: 6-polig 75 Watt und 8-polig 150 Watt. Getrennt davon blaue Doppelpfeile für die Datenspuren (Lanes): Daten sind davon unabhängig.</title>
+<rect width="400" height="420" fill="#fff"/>
+
+<!-- Netzteil und Kabel -->
+<rect x="190" y="14" width="180" height="46" rx="6" fill="#eceff1" stroke="#555" stroke-width="2"/>
+<text x="280" y="43" text-anchor="middle" font-size="16" font-weight="700">Netzteil</text>
+<g stroke="#222" stroke-width="5"><line x1="230" y1="60" x2="230" y2="146"/><line x1="330" y1="60" x2="330" y2="146"/></g>
+<text x="222" y="98" text-anchor="end" font-weight="700">6-polig:</text>
+<text x="222" y="118" text-anchor="end" font-size="16" font-weight="700" fill="#E07B00">75 W</text>
+<text x="340" y="98" font-weight="700">8-polig:</text>
+<text x="340" y="118" font-size="16" font-weight="700" fill="#E07B00">150 W</text>
+<rect x="215" y="144" width="30" height="14" rx="2" fill="#222"/>
+<rect x="311" y="144" width="38" height="14" rx="2" fill="#222"/>
+
+<!-- Grafikkarte -->
+<rect x="20" y="158" width="360" height="86" rx="6" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2.5"/>
+<circle cx="80" cy="201" r="30" fill="#fff" stroke="#3a6ed8" stroke-width="2"/><circle cx="80" cy="201" r="7" fill="#3a6ed8"/>
+<circle cx="160" cy="201" r="30" fill="#fff" stroke="#3a6ed8" stroke-width="2"/><circle cx="160" cy="201" r="7" fill="#3a6ed8"/>
+<text x="290" y="207" text-anchor="middle" font-size="16" font-weight="700">Grafikkarte</text>
+
+<!-- Steckplatz und Mainboard -->
+<rect x="40" y="252" width="280" height="22" rx="3" fill="#333"/>
+<rect x="50" y="244" width="260" height="20" fill="#d4a017"/>
+<rect x="10" y="274" width="380" height="22" rx="3" fill="#2e7d32"/>
+<text x="384" y="290" text-anchor="end" font-size="13" font-weight="700" fill="#fff">Mainboard</text>
+
+<!-- Strom über Steckplatz -->
+<line x1="60" y1="330" x2="60" y2="238" stroke="#E07B00" stroke-width="8"/>
+<path d="M60,222 l-13,18 l26,0 z" fill="#E07B00"/>
+<text x="16" y="352" font-weight="700">Steckplatz:</text>
+<text x="16" y="374" font-size="16" font-weight="700" fill="#E07B00">max. 75 W</text>
+
+<!-- Daten -->
+<g stroke="#3a6ed8" stroke-width="3">
+<line x1="190" y1="272" x2="190" y2="330"/><line x1="210" y1="272" x2="210" y2="330"/><line x1="230" y1="272" x2="230" y2="330"/><line x1="250" y1="272" x2="250" y2="330"/>
+</g>
+<g fill="#3a6ed8">
+<path d="M190,266 l-6,10 l12,0 z M210,266 l-6,10 l12,0 z M230,266 l-6,10 l12,0 z M250,266 l-6,10 l12,0 z"/>
+<path d="M190,338 l-6,-10 l12,0 z M210,338 l-6,-10 l12,0 z M230,338 l-6,-10 l12,0 z M250,338 l-6,-10 l12,0 z"/>
+</g>
+<text x="220" y="360" text-anchor="middle" font-weight="700" fill="#3a6ed8">Daten (Lanes):</text>
+<text x="220" y="380" text-anchor="middle" font-weight="700" fill="#3a6ed8">davon unabhängig</text>
+<text x="200" y="410" text-anchor="middle" font-size="13" fill="#444">Strom und Daten sind zwei getrennte Dinge.</text>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 560" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Mehrere Speicherkanäle: die Datenraten addieren sich. Beispiel DDR4-3200, ein Kanal schafft 25,6 GB pro Sekunde. Links der Speichercontroller, nach rechts vier Zeilen mit Fahrspuren zu RAM-Riegeln. Single: 1 Spur, 25,6 GB pro Sekunde. Dual: 2 Spuren, 51,2 GB pro Sekunde. Triple: 3 Spuren, 76,8 GB pro Sekunde. Quad: 4 Spuren, 102,4 GB pro Sekunde. Fußnote: Quad zum Beispiel beim AMD Threadripper 3970X mit 4 Modulen.</title>
+<rect width="400" height="560" fill="#fff"/>
+<text x="200" y="26" font-size="17" text-anchor="middle" font-weight="700">Mehr Kanäle = Datenraten addieren sich</text>
+<text x="200" y="48" font-size="14" text-anchor="middle" fill="#444">Beispiel DDR4-3200 · 1 Kanal = 25,6 GB/s</text>
+<rect x="10" y="70" width="70" height="420" rx="8" fill="#555"/>
+<text x="45" y="270" font-size="14" text-anchor="middle" fill="#fff" font-weight="700">Speicher-</text>
+<text x="45" y="288" font-size="14" text-anchor="middle" fill="#fff" font-weight="700">controller</text>
+<text x="96" y="92" font-size="16" font-weight="700" fill="#222">Single</text>
+<text x="160" y="92" font-size="13" fill="#444">1 Spur · 1 × 25,6</text>
+<rect x="80" y="126.0" width="160" height="10" fill="#888"/>
+<rect x="244" y="123.0" width="46" height="16" rx="2" fill="#2a7f62"/><rect x="246" y="135.0" width="42" height="4" fill="#d9a400"/>
+<text x="388" y="138" font-size="18" font-weight="700" text-anchor="end" fill="#222">25,6</text>
+<text x="388" y="156" font-size="13" text-anchor="end" fill="#444">GB/s</text>
+<rect x="86" y="175" width="308" height="98" rx="8" fill="#fff3e0" stroke="#E07B00" stroke-width="2"/>
+<text x="96" y="197" font-size="16" font-weight="700" fill="#E07B00">Dual</text>
+<text x="160" y="197" font-size="13" fill="#444">2 Spuren · 2 × 25,6</text>
+<rect x="80" y="223.0" width="160" height="10" fill="#888"/>
+<rect x="244" y="220.0" width="46" height="16" rx="2" fill="#2a7f62"/><rect x="246" y="232.0" width="42" height="4" fill="#d9a400"/>
+<rect x="80" y="239.0" width="160" height="10" fill="#888"/>
+<rect x="244" y="236.0" width="46" height="16" rx="2" fill="#2a7f62"/><rect x="246" y="248.0" width="42" height="4" fill="#d9a400"/>
+<text x="388" y="243" font-size="18" font-weight="700" text-anchor="end" fill="#E07B00">51,2</text>
+<text x="388" y="261" font-size="13" text-anchor="end" fill="#444">GB/s</text>
+<text x="96" y="302" font-size="16" font-weight="700" fill="#222">Triple</text>
+<text x="160" y="302" font-size="13" fill="#444">3 Spuren · 3 × 25,6</text>
+<rect x="80" y="320.0" width="160" height="10" fill="#888"/>
+<rect x="244" y="317.0" width="46" height="16" rx="2" fill="#2a7f62"/><rect x="246" y="329.0" width="42" height="4" fill="#d9a400"/>
+<rect x="80" y="336.0" width="160" height="10" fill="#888"/>
+<rect x="244" y="333.0" width="46" height="16" rx="2" fill="#2a7f62"/><rect x="246" y="345.0" width="42" height="4" fill="#d9a400"/>
+<rect x="80" y="352.0" width="160" height="10" fill="#888"/>
+<rect x="244" y="349.0" width="46" height="16" rx="2" fill="#2a7f62"/><rect x="246" y="361.0" width="42" height="4" fill="#d9a400"/>
+<text x="388" y="348" font-size="18" font-weight="700" text-anchor="end" fill="#222">76,8</text>
+<text x="388" y="366" font-size="13" text-anchor="end" fill="#444">GB/s</text>
+<text x="96" y="407" font-size="16" font-weight="700" fill="#222">Quad</text>
+<text x="160" y="407" font-size="13" fill="#444">4 Spuren · 4 × 25,6</text>
+<rect x="80" y="417.0" width="160" height="10" fill="#888"/>
+<rect x="244" y="414.0" width="46" height="16" rx="2" fill="#2a7f62"/><rect x="246" y="426.0" width="42" height="4" fill="#d9a400"/>
+<rect x="80" y="433.0" width="160" height="10" fill="#888"/>
+<rect x="244" y="430.0" width="46" height="16" rx="2" fill="#2a7f62"/><rect x="246" y="442.0" width="42" height="4" fill="#d9a400"/>
+<rect x="80" y="449.0" width="160" height="10" fill="#888"/>
+<rect x="244" y="446.0" width="46" height="16" rx="2" fill="#2a7f62"/><rect x="246" y="458.0" width="42" height="4" fill="#d9a400"/>
+<rect x="80" y="465.0" width="160" height="10" fill="#888"/>
+<rect x="244" y="462.0" width="46" height="16" rx="2" fill="#2a7f62"/><rect x="246" y="474.0" width="42" height="4" fill="#d9a400"/>
+<text x="388" y="453" font-size="18" font-weight="700" text-anchor="end" fill="#222">102,4</text>
+<text x="388" y="471" font-size="13" text-anchor="end" fill="#444">GB/s</text>
+<text x="10" y="520" font-size="13" fill="#444">Quad z. B. AMD Threadripper 3970X</text>
+<text x="10" y="538" font-size="13" fill="#444">mit 4 Modulen (Vierer-Kit)</text>
+</svg>

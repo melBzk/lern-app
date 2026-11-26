@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 500" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Zwei Kassen im Supermarkt als Vergleich für Speicherkanäle. Oben Single Channel: zwei Einkaufswagen stehen hintereinander an Kasse A und warten, Kasse B ist leer. Unten Dual Channel: je ein Wagen an Kasse A und an Kasse B, beide werden gleichzeitig bedient und sind gleichzeitig fertig. Unten: Kasse entspricht Kanal, Wagen entspricht Modul.</title>
+<defs>
+<g id="wagen">
+<path d="M0,0 H8 L14,26 H44 L50,6 H10" fill="#cfd8dc" stroke="#222" stroke-width="2.5" stroke-linejoin="round"/>
+<circle cx="18" cy="34" r="4" fill="#222"/><circle cx="40" cy="34" r="4" fill="#222"/>
+<rect x="18" y="10" width="9" height="12" fill="#3a6ed8"/><rect x="30" y="12" width="10" height="10" fill="#E07B00"/>
+</g>
+<g id="kasse">
+<rect x="0" y="0" width="70" height="44" rx="6" fill="#555"/>
+<rect x="10" y="8" width="26" height="14" rx="2" fill="#a5d6a7"/>
+</g>
+</defs>
+<rect width="400" height="500" fill="#fff"/>
+
+<!-- Single Channel -->
+<text x="16" y="32" font-size="18" font-weight="700">Single Channel</text>
+<text x="16" y="52" font-size="13" fill="#444">beide Kunden an derselben Kasse</text>
+<line x1="16" y1="112" x2="290" y2="112" stroke="#bbb" stroke-width="2" stroke-dasharray="6 6"/>
+<line x1="16" y1="182" x2="290" y2="182" stroke="#bbb" stroke-width="2" stroke-dasharray="6 6"/>
+<use xlink:href="#kasse" x="300" y="80"/>
+<text x="335" y="140" font-size="14" font-weight="700" text-anchor="middle">Kasse A</text>
+<use xlink:href="#kasse" x="300" y="152"/>
+<text x="335" y="212" font-size="14" font-weight="700" text-anchor="middle">Kasse B</text>
+<use xlink:href="#wagen" x="226" y="78"/>
+<use xlink:href="#wagen" x="150" y="78"/>
+<text x="175" y="140" font-size="13" text-anchor="middle" fill="#c62828" font-weight="700">wartet …</text>
+<text x="150" y="174" font-size="13" text-anchor="middle" fill="#666">leer – niemand nutzt sie</text>
+
+<line x1="10" y1="236" x2="390" y2="236" stroke="#ddd" stroke-width="2"/>
+
+<!-- Dual Channel -->
+<text x="16" y="270" font-size="18" font-weight="700">Dual Channel</text>
+<text x="16" y="290" font-size="13" fill="#444">jeder Kunde an einer eigenen Kasse</text>
+<use xlink:href="#kasse" x="300" y="312"/>
+<text x="335" y="372" font-size="14" font-weight="700" text-anchor="middle">Kasse A</text>
+<use xlink:href="#kasse" x="300" y="384"/>
+<text x="335" y="444" font-size="14" font-weight="700" text-anchor="middle">Kasse B</text>
+<use xlink:href="#wagen" x="226" y="310"/>
+<use xlink:href="#wagen" x="226" y="382"/>
+<line x1="16" y1="344" x2="290" y2="344" stroke="#bbb" stroke-width="2" stroke-dasharray="6 6"/>
+<line x1="16" y1="416" x2="290" y2="416" stroke="#bbb" stroke-width="2" stroke-dasharray="6 6"/>
+<path d="M196,318 H184 V408 H196" fill="none" stroke="#E07B00" stroke-width="3.5"/>
+<line x1="184" y1="363" x2="172" y2="363" stroke="#E07B00" stroke-width="3.5"/>
+<text x="164" y="350" font-size="15" font-weight="700" fill="#E07B00" text-anchor="end">beide</text>
+<text x="164" y="368" font-size="15" font-weight="700" fill="#E07B00" text-anchor="end">gleichzeitig</text>
+<text x="164" y="386" font-size="15" font-weight="700" fill="#E07B00" text-anchor="end">fertig</text>
+
+<rect x="10" y="460" width="380" height="34" rx="8" fill="#eceff1"/>
+<text x="200" y="482" text-anchor="middle" font-size="15" font-weight="700">Kasse = Kanal · Wagen = Modul</text>
+</svg>

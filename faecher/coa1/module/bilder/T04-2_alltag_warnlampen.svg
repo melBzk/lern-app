@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 560" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Vergleich aus dem Alltag. Oben ein Auto-Armaturenbrett beim Anlassen: alle Warnlampen leuchten kurz. Darunter kurz danach: alle gehen aus, nur eine rote bleibt an – dann schaust du mit der Lupe ins Autohandbuch. Unten der PC: ein Lautsprecher mit Noten. Der PC meldet sich mit Tönen statt Lampen, und die Bedeutung ist je BIOS-Hersteller verschieden.</title>
+<defs>
+<marker id="k" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker>
+</defs>
+<rect width="400" height="560" fill="#fff"/>
+<text x="200" y="26" font-size="17" font-weight="700" text-anchor="middle">Wie die Warnlampen im Auto</text>
+
+<!-- Armaturenbrett 1: alle an -->
+<circle cx="24" cy="62" r="11" fill="#222"/><text x="24" y="67" text-anchor="middle" fill="#fff" font-weight="700" font-size="13">1</text>
+<text x="42" y="67" font-weight="700">Anlassen: alle Lampen leuchten kurz</text>
+<rect x="20" y="80" width="360" height="62" rx="14" fill="#333"/>
+<g fill="#F2B100">
+<circle cx="80" cy="111" r="15"/><circle cx="140" cy="111" r="15"/><circle cx="200" cy="111" r="15"/><circle cx="260" cy="111" r="15"/><circle cx="320" cy="111" r="15"/>
+</g>
+
+<line x1="200" y1="148" x2="200" y2="176" stroke="#222" stroke-width="2.5" marker-end="url(#k)"/>
+
+<!-- Armaturenbrett 2: eine bleibt an -->
+<circle cx="24" cy="196" r="11" fill="#222"/><text x="24" y="201" text-anchor="middle" fill="#fff" font-weight="700" font-size="13">2</text>
+<text x="42" y="201" font-weight="700">kurz danach: <tspan fill="#c62828">eine bleibt an</tspan></text>
+<rect x="20" y="214" width="360" height="62" rx="14" fill="#333"/>
+<g fill="#555">
+<circle cx="80" cy="245" r="15"/><circle cx="140" cy="245" r="15"/><circle cx="260" cy="245" r="15"/><circle cx="320" cy="245" r="15"/>
+</g>
+<circle cx="200" cy="245" r="15" fill="#c62828"/>
+<text x="200" y="251" text-anchor="middle" fill="#fff" font-weight="700" font-size="17">!</text>
+
+<line x1="200" y1="282" x2="200" y2="310" stroke="#222" stroke-width="2.5" marker-end="url(#k)"/>
+
+<!-- Handbuch mit Lupe -->
+<circle cx="24" cy="330" r="11" fill="#222"/><text x="24" y="335" text-anchor="middle" fill="#fff" font-weight="700" font-size="13">3</text>
+<text x="42" y="335" font-weight="700">im Handbuch nachschauen</text>
+<path d="M120,352 L196,360 L196,430 L120,422 Z" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<path d="M272,352 L196,360 L196,430 L272,422 Z" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<g stroke="#3a6ed8" stroke-width="2"><line x1="132" y1="372" x2="184" y2="377"/><line x1="132" y1="386" x2="184" y2="391"/><line x1="132" y1="400" x2="170" y2="404"/><line x1="208" y1="377" x2="260" y2="372"/><line x1="208" y1="391" x2="260" y2="386"/></g>
+<circle cx="250" cy="404" r="18" fill="none" stroke="#222" stroke-width="4"/>
+<line x1="263" y1="417" x2="282" y2="436" stroke="#222" stroke-width="6" stroke-linecap="round"/>
+
+<!-- PC-Teil -->
+<rect x="10" y="452" width="380" height="98" rx="10" fill="#fdecea" stroke="#c62828" stroke-width="2"/>
+<rect x="26" y="486" width="12" height="20" fill="#555"/>
+<path d="M38,486 L54,474 L54,518 L38,506 Z" fill="#555"/>
+<g fill="#222" stroke="#222" stroke-width="2.2">
+<ellipse cx="66" cy="506" rx="5" ry="4" stroke="none"/><line x1="70.5" y1="506" x2="70.5" y2="484"/>
+<ellipse cx="82" cy="498" rx="5" ry="4" stroke="none"/><line x1="86.5" y1="498" x2="86.5" y2="476"/>
+<line x1="70.5" y1="484" x2="86.5" y2="476"/>
+</g>
+<text x="104" y="480" font-weight="700" font-size="15">PC: Töne statt Lampen</text>
+<text x="104" y="504">Bedeutung je</text>
+<text x="104" y="522" font-weight="700" fill="#c62828">BIOS-Hersteller verschieden</text>
+<text x="104" y="540" fill="#444" font-size="13">alles ok? Heute meist stumm.</text>
+</svg>

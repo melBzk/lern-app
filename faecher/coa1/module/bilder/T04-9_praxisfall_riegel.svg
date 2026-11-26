@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 380" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Praxisfall: Ein Kunde hält einen Riegel mit dem Etikett DDR4-3200 in der Hand und sagt: Doppelt so schnell! Daneben ein offener PC. Im ersten Steckplatz steckt ein Riegel DDR3-1600, über dem freien zweiten Steckplatz steht ein großes Fragezeichen.</title>
+<rect width="400" height="380" fill="#fff"/>
+
+<!-- Sprechblase -->
+<path d="M24,24 H190 Q200,24 200,34 V74 Q200,84 190,84 H86 L66,106 L70,84 H24 Q14,84 14,74 V34 Q14,24 24,24 Z" fill="#fff" stroke="#555" stroke-width="2"/>
+<text x="107" y="60" text-anchor="middle" font-size="16" font-weight="700">Doppelt so schnell!</text>
+
+<!-- Kunde -->
+<circle cx="70" cy="140" r="24" fill="#9aa5b1"/>
+<path d="M30,300 V214 Q30,176 70,176 Q110,176 110,214 V300 Z" fill="#9aa5b1"/>
+<path d="M100,200 L116,240" stroke="#9aa5b1" stroke-width="16" stroke-linecap="round"/>
+<text x="70" y="324" text-anchor="middle" font-size="13" fill="#555">Kunde</text>
+
+<!-- Riegel in der Hand -->
+<path d="M110,222 H216 V262 H172 V256 H166 V262 H110 Z" fill="#2e7d32"/>
+<rect x="128" y="228" width="82" height="20" rx="2" fill="#fff"/>
+<text x="169" y="243" text-anchor="middle" font-size="13" font-weight="700">DDR4-3200</text>
+<circle cx="116" cy="246" r="9" fill="#9aa5b1"/>
+
+<!-- PC -->
+<rect x="222" y="110" width="166" height="244" rx="6" fill="#fff" stroke="#555" stroke-width="3"/>
+<rect x="234" y="124" width="142" height="216" rx="3" fill="#eef3ee"/>
+<text x="305" y="372" text-anchor="middle" font-size="13" fill="#555">offener PC</text>
+<!-- Steckplatz 1 mit Riegel -->
+<rect x="244" y="292" width="122" height="12" rx="2" fill="#3a6ed8"/>
+<path d="M248,240 H362 V292 H248 Z" fill="#2e7d32"/>
+<rect x="256" y="252" width="98" height="22" rx="2" fill="#fff"/>
+<text x="305" y="268" text-anchor="middle" font-size="13" font-weight="700">DDR3-1600</text>
+<!-- Steckplatz 2 frei -->
+<rect x="244" y="214" width="122" height="12" rx="2" fill="#3a6ed8"/>
+<text x="305" y="200" text-anchor="middle" font-size="56" font-weight="700" fill="#D4607A">?</text>
+</svg>

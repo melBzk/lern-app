@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 540" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Drei Speichermodule im Vergleich, jeweils mit dem Speichercontroller oben. Links normales DIMM: viele dünne Leitungen gehen direkt vom Controller zu den Chips. Mitte Registered DIMM (R-DIMM): zwischen Controller und Chips sitzen zwei rote Register-Chips; sie übernehmen die Adressierung und entlasten den Controller; ein R-DIMM hat immer ECC; Einsatz Server und Workstation. Rechts Fully Buffered DIMM: wenige Leitungspaare, seriell ähnlich wie PCI Express, führen zu einem roten Puffer und von dort zu den Chips; Puffer zwischen Controller und Speicher, schneller, mehr Speicher möglich; Nachfolger des R-DIMM, für Server.</title>
+<rect width="400" height="540" fill="#fff"/>
+<line x1="134" y1="14" x2="134" y2="530" stroke="#ccc" stroke-width="1.5"/>
+<line x1="266" y1="14" x2="266" y2="530" stroke="#ccc" stroke-width="1.5"/>
+
+<!-- Kopfzeilen -->
+<g font-size="15" font-weight="700" text-anchor="middle">
+<text x="67" y="30">normales</text><text x="67" y="48">DIMM</text>
+<text x="200" y="30">Registered</text><text x="200" y="48">DIMM (R-DIMM)</text>
+<text x="333" y="30">Fully</text><text x="333" y="48">Buffered DIMM</text>
+</g>
+
+<!-- Controller -->
+<g fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2">
+<rect x="14" y="64" width="106" height="44" rx="5"/>
+<rect x="147" y="64" width="106" height="44" rx="5"/>
+<rect x="280" y="64" width="106" height="44" rx="5"/>
+</g>
+<g font-size="13" text-anchor="middle" font-weight="700">
+<text x="67" y="83">Speicher-</text><text x="67" y="100">controller</text>
+<text x="200" y="83">Speicher-</text><text x="200" y="100">controller</text>
+<text x="333" y="83">Speicher-</text><text x="333" y="100">controller</text>
+</g>
+
+<!-- Spalte 1: direkt, viele Leitungen -->
+<g stroke="#555" stroke-width="1.5">
+<line x1="30" y1="108" x2="26" y2="262"/><line x1="38" y1="108" x2="36" y2="262"/><line x1="46" y1="108" x2="46" y2="262"/><line x1="54" y1="108" x2="56" y2="262"/>
+<line x1="80" y1="108" x2="78" y2="262"/><line x1="88" y1="108" x2="88" y2="262"/><line x1="96" y1="108" x2="98" y2="262"/><line x1="104" y1="108" x2="108" y2="262"/>
+<line x1="62" y1="108" x2="64" y2="262"/><line x1="70" y1="108" x2="70" y2="262"/>
+</g>
+<rect x="44" y="172" width="46" height="20" fill="#fff"/>
+<text x="67" y="187" text-anchor="middle" font-size="13" font-weight="700">direkt</text>
+
+<!-- Spalte 2: Register-Chips -->
+<g stroke="#555" stroke-width="1.5">
+<line x1="170" y1="108" x2="160" y2="150"/><line x1="180" y1="108" x2="166" y2="150"/>
+<line x1="220" y1="108" x2="234" y2="150"/><line x1="230" y1="108" x2="240" y2="150"/>
+<line x1="152" y1="176" x2="150" y2="262"/><line x1="158" y1="176" x2="160" y2="262"/><line x1="164" y1="176" x2="170" y2="262"/><line x1="170" y1="176" x2="182" y2="262"/>
+<line x1="230" y1="176" x2="218" y2="262"/><line x1="236" y1="176" x2="230" y2="262"/><line x1="242" y1="176" x2="240" y2="262"/><line x1="248" y1="176" x2="250" y2="262"/>
+</g>
+<rect x="146" y="150" width="30" height="26" rx="2" fill="#c62828"/>
+<rect x="224" y="150" width="30" height="26" rx="2" fill="#c62828"/>
+<text x="200" y="204" text-anchor="middle" font-size="13" font-weight="700" fill="#c62828">Register-</text>
+<text x="200" y="220" text-anchor="middle" font-size="13" font-weight="700" fill="#c62828">Chips</text>
+
+<!-- Spalte 3: Puffer, seriell -->
+<g stroke="#555" stroke-width="1.8">
+<line x1="290" y1="108" x2="290" y2="150"/><line x1="295" y1="108" x2="295" y2="150"/>
+<line x1="304" y1="108" x2="304" y2="150"/><line x1="309" y1="108" x2="309" y2="150"/>
+</g>
+<g font-size="13">
+<text x="316" y="122">seriell,</text>
+<text x="316" y="137">ähnlich wie</text>
+<text x="316" y="152">PCI Express</text>
+</g>
+<rect x="282" y="160" width="102" height="30" rx="3" fill="#c62828"/>
+<text x="333" y="180" text-anchor="middle" fill="#fff" font-weight="700">Puffer</text>
+<g stroke="#555" stroke-width="1.5">
+<line x1="292" y1="190" x2="288" y2="262"/><line x1="304" y1="190" x2="302" y2="262"/><line x1="316" y1="190" x2="316" y2="262"/>
+<line x1="350" y1="190" x2="350" y2="262"/><line x1="362" y1="190" x2="364" y2="262"/><line x1="374" y1="190" x2="378" y2="262"/>
+</g>
+
+<!-- Module unten -->
+<g fill="#2e7d32">
+<rect x="14" y="262" width="106" height="46" rx="3"/>
+<rect x="147" y="262" width="106" height="46" rx="3"/>
+<rect x="280" y="262" width="106" height="46" rx="3"/>
+</g>
+<g fill="#222">
+<rect x="20" y="270" width="20" height="26" rx="1"/><rect x="45" y="270" width="20" height="26" rx="1"/><rect x="70" y="270" width="20" height="26" rx="1"/><rect x="95" y="270" width="20" height="26" rx="1"/>
+<rect x="153" y="270" width="20" height="26" rx="1"/><rect x="178" y="270" width="20" height="26" rx="1"/><rect x="203" y="270" width="20" height="26" rx="1"/><rect x="228" y="270" width="20" height="26" rx="1"/>
+<rect x="286" y="270" width="20" height="26" rx="1"/><rect x="311" y="270" width="20" height="26" rx="1"/><rect x="336" y="270" width="20" height="26" rx="1"/><rect x="361" y="270" width="20" height="26" rx="1"/>
+</g>
+<g text-anchor="middle" font-size="13" fill="#555">
+<text x="67" y="326">Speicherchips</text><text x="200" y="326">Speicherchips</text><text x="333" y="326">Speicherchips</text>
+</g>
+
+<!-- Etiketten: was ist besonders -->
+<g fill="#eceff1">
+<rect x="8" y="340" width="118" height="104" rx="8"/>
+<rect x="141" y="340" width="118" height="104" rx="8"/>
+<rect x="274" y="340" width="118" height="104" rx="8"/>
+</g>
+<g font-size="13" text-anchor="middle">
+<text x="67" y="364">Controller</text><text x="67" y="381">spricht die</text><text x="67" y="398">Chips direkt an</text>
+<text x="200" y="364">Register-Chips</text><text x="200" y="381">adressieren und</text><text x="200" y="398">entlasten den</text><text x="200" y="415">Controller</text>
+<text x="333" y="364">Puffer zwischen</text><text x="333" y="381">Controller und</text><text x="333" y="398">Speicher:</text><text x="333" y="415">schneller,</text><text x="333" y="432">mehr Speicher</text>
+</g>
+<text x="200" y="436" text-anchor="middle" font-weight="700" fill="#c62828">hat immer ECC</text>
+
+<!-- Einsatz -->
+<g fill="#fff" stroke="#555" stroke-width="1.5">
+<rect x="8" y="456" width="118" height="70" rx="8"/>
+<rect x="141" y="456" width="118" height="70" rx="8"/>
+<rect x="274" y="456" width="118" height="70" rx="8"/>
+</g>
+<g text-anchor="middle" font-weight="700">
+<text x="67" y="486">meist privat</text>
+<text x="200" y="486">Server,</text><text x="200" y="506">Workstation</text>
+<text x="333" y="486">Nachfolger,</text><text x="333" y="506">Server</text>
+</g>
+</svg>

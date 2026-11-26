@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 540" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Erden: Eine Person sitzt am Tisch und trägt ein Erdungsarmband. Ein Kabel führt vom Armband zur geerdeten Arbeitsmatte, von der Matte ein Kabel zur Erde. Darunter: Nylon-Kleidung kann über 20.000 Volt erzeugen, für dich harmlos, weil kaum Strom fließt. Schon ca. 10 Volt können einen Chip zerstören. Der Funke vom Finger zum Chip ist durchgestrichen: Erdung verhindert ihn.</title>
+<rect width="400" height="540" fill="#fff"/>
+<text x="200" y="28" font-size="17" text-anchor="middle" font-weight="700">Erden – dich selbst entladen</text>
+
+<!-- Stuhl -->
+<g stroke="#9aa5b1" stroke-width="5" stroke-linecap="round"><line x1="40" y1="110" x2="40" y2="196"/><line x1="40" y1="196" x2="104" y2="196"/><line x1="48" y1="196" x2="48" y2="262"/><line x1="98" y1="196" x2="98" y2="262"/></g>
+<!-- Person -->
+<circle cx="78" cy="76" r="18" fill="#f2d3b3" stroke="#8a6b4b" stroke-width="2"/>
+<rect x="56" y="98" width="44" height="94" rx="14" fill="#3a6ed8"/>
+<g stroke="#555" stroke-width="9" stroke-linecap="round"><line x1="88" y1="188" x2="140" y2="190"/><line x1="140" y1="190" x2="140" y2="258"/></g>
+<line x1="92" y1="122" x2="190" y2="164" stroke="#f2d3b3" stroke-width="12" stroke-linecap="round"/>
+<circle cx="198" cy="168" r="9" fill="#f2d3b3" stroke="#8a6b4b" stroke-width="1.5"/>
+<line x1="172" y1="146" x2="164" y2="168" stroke="#3a6ed8" stroke-width="7" stroke-linecap="round"/>
+<text x="150" y="128" font-size="14" font-weight="700" text-anchor="middle">Armband</text>
+
+<!-- Tisch + Matte -->
+<rect x="160" y="196" width="232" height="10" fill="#8a6b4b"/>
+<g stroke="#8a6b4b" stroke-width="6"><line x1="176" y1="206" x2="176" y2="262"/><line x1="378" y1="206" x2="378" y2="262"/></g>
+<rect x="180" y="184" width="190" height="12" rx="2" fill="#9aa5b1" stroke="#555" stroke-width="1.5"/>
+<text x="290" y="174" font-size="14" font-weight="700" text-anchor="middle">geerdete Matte</text>
+
+<!-- Kabel -->
+<path d="M168,162 C190,190 210,182 230,186" fill="none" stroke="#E07B00" stroke-width="3"/>
+<circle cx="230" cy="187" r="4" fill="#E07B00"/>
+<path d="M356,190 C352,214 336,214 330,222" fill="none" stroke="#E07B00" stroke-width="3"/>
+<circle cx="356" cy="190" r="4" fill="#E07B00"/>
+<g stroke="#222" stroke-width="3"><line x1="330" y1="222" x2="330" y2="232"/><line x1="312" y1="232" x2="348" y2="232"/><line x1="318" y1="240" x2="342" y2="240"/><line x1="325" y1="248" x2="335" y2="248"/></g>
+<text x="300" y="246" font-size="14" font-weight="700" text-anchor="end">Erde</text>
+
+<line x1="10" y1="280" x2="390" y2="280" stroke="#ccc" stroke-width="1.5"/>
+
+<!-- Pullover -->
+<path d="M44,300 L60,294 Q70,304 80,294 L96,300 L108,320 L96,326 L94,350 L46,350 L44,326 L32,320 Z" fill="#3a6ed8"/>
+<text x="124" y="316" font-size="15" font-weight="700">Nylon-Kleidung:</text>
+<text x="124" y="340" font-size="18" font-weight="700" fill="#3a6ed8">über 20.000 V</text>
+<text x="124" y="360" font-size="13" fill="#2e7d32">für dich harmlos: kaum Strom</text>
+
+<!-- Chip -->
+<g stroke="#555" stroke-width="2"><line x1="50" y1="368" x2="50" y2="420"/><line x1="62" y1="368" x2="62" y2="420"/><line x1="74" y1="368" x2="74" y2="420"/><line x1="86" y1="368" x2="86" y2="420"/></g>
+<rect x="40" y="374" width="56" height="40" rx="3" fill="#555"/>
+<text x="68" y="399" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">Chip</text>
+<text x="124" y="388" font-size="15" font-weight="700">Chip kaputt schon bei</text>
+<text x="124" y="412" font-size="18" font-weight="700" fill="#c62828">ca. 10 V</text>
+
+<!-- Funke durchgestrichen -->
+<rect x="10" y="436" width="380" height="94" rx="10" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2"/>
+<rect x="22" y="468" width="52" height="22" rx="11" fill="#f2d3b3" stroke="#8a6b4b" stroke-width="2"/>
+<path d="M80,462 L96,476 L89,478 L106,492 L80,484 L88,482 L74,470 Z" fill="#E07B00"/>
+<g stroke="#555" stroke-width="2"><line x1="122" y1="466" x2="122" y2="500"/><line x1="134" y1="466" x2="134" y2="500"/><line x1="146" y1="466" x2="146" y2="500"/></g>
+<rect x="114" y="472" width="40" height="22" rx="3" fill="#555"/>
+<line x1="72" y1="502" x2="112" y2="454" stroke="#c62828" stroke-width="4.5" stroke-linecap="round"/>
+<text x="172" y="474" font-size="15" font-weight="700" fill="#2e7d32">Erdung: kein Funke</text>
+<text x="172" y="496" font-size="14">vom Finger zum Chip</text>
+<text x="172" y="518" font-size="14">mindestens: Heizkörper anfassen</text>
+</svg>

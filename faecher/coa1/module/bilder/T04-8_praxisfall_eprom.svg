@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 380" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Praxisfall: Ein sonniges Fensterbrett. Darauf liegt eine grüne Platine. Auf einem Chip sitzt ein rundes Glasfenster, der Aufkleber daneben hat sich abgelöst. Sonnenstrahlen fallen auf das Fenster des Chips. Rechts ein Gerät mit einem Fragezeichen auf dem Display: Es funktioniert nicht mehr.</title>
+<rect width="400" height="380" fill="#fff"/>
+<text x="16" y="26" font-size="17" font-weight="700">Das Gerät aus dem Lager</text>
+
+<!-- Fenster mit Sonne -->
+<rect x="14" y="44" width="200" height="150" rx="3" fill="#e3f2fd" stroke="#555" stroke-width="3"/>
+<line x1="114" y1="44" x2="114" y2="194" stroke="#555" stroke-width="3"/>
+<line x1="14" y1="119" x2="214" y2="119" stroke="#555" stroke-width="3"/>
+<circle cx="56" cy="80" r="20" fill="#f9a825"/>
+<g stroke="#f9a825" stroke-width="3" stroke-linecap="round">
+<line x1="56" y1="50" x2="56" y2="54"/><line x1="26" y1="80" x2="30" y2="80"/><line x1="86" y1="80" x2="82" y2="80"/>
+<line x1="35" y1="59" x2="38" y2="62"/><line x1="77" y1="59" x2="74" y2="62"/><line x1="35" y1="101" x2="38" y2="98"/>
+</g>
+<!-- Sonnenstrahlen auf den Chip -->
+<g stroke="#f9a825" stroke-width="4" stroke-linecap="round" opacity="0.9">
+<line x1="74" y1="104" x2="138" y2="226"/><line x1="84" y1="96" x2="158" y2="224"/><line x1="64" y1="110" x2="120" y2="228"/>
+</g>
+<text x="222" y="70" font-weight="700" fill="#E07B00">monatelang</text>
+<text x="222" y="88" font-weight="700" fill="#E07B00">Sonne</text>
+
+<!-- Fensterbrett -->
+<rect x="4" y="268" width="250" height="14" rx="2" fill="#bcaaa4" stroke="#555" stroke-width="2"/>
+<!-- Platine -->
+<rect x="30" y="236" width="200" height="32" rx="3" fill="#2e7d32"/>
+<g stroke="#81c784" stroke-width="2"><path d="M40,252 H90 M180,248 H222 M180,258 H222"/></g>
+<!-- Chip mit Glasfenster -->
+<rect x="100" y="228" width="76" height="36" rx="2" fill="#555"/>
+<g stroke="#555" stroke-width="2"><path d="M108,224 v4 M120,224 v4 M132,224 v4 M144,224 v4 M156,224 v4 M168,224 v4"/></g>
+<circle cx="138" cy="246" r="11" fill="#e3f2fd" stroke="#f9a825" stroke-width="3"/>
+<!-- abgelöster Aufkleber -->
+<rect x="196" y="226" width="30" height="20" rx="3" fill="#fff8e1" stroke="#9aa5b1" stroke-width="1.5" transform="rotate(18 211 236)"/>
+<text x="20" y="306" font-size="13" fill="#444">Glasfenster frei</text>
+<line x1="70" y1="294" x2="128" y2="258" stroke="#777" stroke-width="1.3"/>
+<text x="250" y="306" font-size="13" fill="#444" text-anchor="end">Aufkleber ab</text>
+<line x1="230" y1="294" x2="214" y2="248" stroke="#777" stroke-width="1.3"/>
+
+<!-- Gerät mit Fragezeichen -->
+<rect x="272" y="150" width="116" height="130" rx="10" fill="#eceff1" stroke="#555" stroke-width="2"/>
+<rect x="286" y="166" width="88" height="62" rx="3" fill="#555"/>
+<text x="330" y="212" text-anchor="middle" font-size="40" font-weight="700" fill="#c62828">?</text>
+<circle cx="302" cy="254" r="8" fill="#9aa5b1"/><circle cx="330" cy="254" r="8" fill="#9aa5b1"/><circle cx="358" cy="254" r="8" fill="#9aa5b1"/>
+<text x="330" y="306" text-anchor="middle" font-weight="700">eingebaut:</text>
+<text x="330" y="324" text-anchor="middle" font-weight="700" fill="#c62828">geht nicht mehr</text>
+
+<text x="200" y="362" text-anchor="middle" font-size="15" font-weight="700">Was ist mit dem Chip passiert?</text>
+</svg>

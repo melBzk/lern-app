@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Entscheidungsbaum: Nach dem Einbau – was beobachtest du? Drei Äste. 1 vor dem Bild: der PC piept, kein Bild – der POST meldet einen Fehler, den Code im Handbuch nachschlagen. 2 in Windows: erwartet 16 GB, angezeigt 8 GB – das Modul ist nicht eingerastet. 3 unter Last: Abstürze mit Neustart – das Modul passt nicht zu den anderen oder ein Hardwarefehler löst einen NMI und den Bluescreen aus.</title>
+<defs>
+<marker id="k" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker>
+</defs>
+<rect width="400" height="600" fill="#fff"/>
+<text x="200" y="26" font-size="17" font-weight="700" text-anchor="middle">Drei Fehlerbilder nach dem Einbau</text>
+
+<!-- Startfrage -->
+<rect x="10" y="40" width="380" height="54" rx="10" fill="#eceff1"/>
+<!-- Schraubenschlüssel -->
+<g transform="translate(40 67) rotate(-45)">
+<rect x="-3.5" y="-2" width="7" height="22" rx="2" fill="#555"/>
+<path d="M-8,-12 A9,9 0 1 0 8,-12 L4,-12 L4,-4 L-4,-4 L-4,-12 Z" fill="#555"/>
+</g>
+<text x="66" y="62" font-weight="700" font-size="15">Nach dem Einbau:</text>
+<text x="66" y="82" font-size="15">Was beobachtest du? Wann?</text>
+
+<!-- Stamm -->
+<line x1="22" y1="94" x2="22" y2="512" stroke="#222" stroke-width="2.5"/>
+
+<!-- ===== Ast 1 ===== -->
+<circle cx="50" cy="116" r="11" fill="#222"/><text x="50" y="121" text-anchor="middle" fill="#fff" font-weight="700" font-size="13">1</text>
+<text x="68" y="121" font-weight="700">vor dem Bild</text>
+<line x1="22" y1="192" x2="36" y2="192" stroke="#222" stroke-width="2.5" marker-end="url(#k)"/>
+<rect x="38" y="132" width="160" height="120" rx="8" fill="#fff" stroke="#555" stroke-width="2"/>
+<!-- Lautsprecher -->
+<rect x="52" y="160" width="12" height="20" fill="#555"/>
+<path d="M64,160 L80,148 L80,192 L64,180 Z" fill="#555"/>
+<g fill="#222" stroke="#222" stroke-width="2.2">
+<ellipse cx="92" cy="180" rx="5" ry="4" stroke="none"/><line x1="96.5" y1="180" x2="96.5" y2="158"/>
+<ellipse cx="108" cy="172" rx="5" ry="4" stroke="none"/><line x1="112.5" y1="172" x2="112.5" y2="150"/>
+<line x1="96.5" y1="158" x2="112.5" y2="150"/>
+</g>
+<!-- schwarzer Bildschirm -->
+<rect x="128" y="150" width="58" height="40" rx="3" fill="#222"/>
+<rect x="152" y="190" width="10" height="6" fill="#555"/><rect x="142" y="196" width="30" height="3" fill="#555"/>
+<text x="118" y="232" text-anchor="middle" font-weight="700">piept, kein Bild</text>
+<line x1="198" y1="192" x2="222" y2="192" stroke="#222" stroke-width="2.5" marker-end="url(#k)"/>
+<rect x="224" y="132" width="166" height="120" rx="8" fill="#fdecea" stroke="#c62828" stroke-width="2"/>
+<text x="307" y="164" text-anchor="middle" font-weight="700">POST meldet</text>
+<text x="307" y="183" text-anchor="middle" font-weight="700">einen Fehler</text>
+<text x="307" y="212" text-anchor="middle">→ Code im Handbuch</text>
+<text x="307" y="230" text-anchor="middle">nachschlagen</text>
+
+<!-- ===== Ast 2 ===== -->
+<circle cx="50" cy="276" r="11" fill="#222"/><text x="50" y="281" text-anchor="middle" fill="#fff" font-weight="700" font-size="13">2</text>
+<text x="68" y="281" font-weight="700">in Windows</text>
+<line x1="22" y1="352" x2="36" y2="352" stroke="#222" stroke-width="2.5" marker-end="url(#k)"/>
+<rect x="38" y="292" width="160" height="120" rx="8" fill="#fff" stroke="#555" stroke-width="2"/>
+<rect x="50" y="304" width="136" height="66" rx="3" fill="#fff" stroke="#3a6ed8" stroke-width="2"/>
+<rect x="50" y="304" width="136" height="12" fill="#3a6ed8"/>
+<text x="58" y="336" font-size="13">erwartet: 16 GB</text>
+<text x="58" y="358" font-size="13" font-weight="700" fill="#c62828">angezeigt: 8 GB</text>
+<text x="118" y="396" text-anchor="middle" font-weight="700">RAM fehlt</text>
+<line x1="198" y1="352" x2="222" y2="352" stroke="#222" stroke-width="2.5" marker-end="url(#k)"/>
+<rect x="224" y="292" width="166" height="120" rx="8" fill="#fdecea" stroke="#c62828" stroke-width="2"/>
+<text x="307" y="326" text-anchor="middle" font-weight="700">Modul nicht</text>
+<text x="307" y="345" text-anchor="middle" font-weight="700">eingerastet</text>
+<text x="307" y="374" text-anchor="middle">fast immer</text>
+<text x="307" y="392" text-anchor="middle">die Ursache</text>
+
+<!-- ===== Ast 3 ===== -->
+<circle cx="50" cy="436" r="11" fill="#222"/><text x="50" y="441" text-anchor="middle" fill="#fff" font-weight="700" font-size="13">3</text>
+<text x="68" y="441" font-weight="700">unter Last (z. B. Spiel)</text>
+<line x1="22" y1="512" x2="36" y2="512" stroke="#222" stroke-width="2.5" marker-end="url(#k)"/>
+<rect x="38" y="452" width="160" height="120" rx="8" fill="#fff" stroke="#555" stroke-width="2"/>
+<rect x="54" y="466" width="84" height="54" rx="3" fill="#1f5fbf"/>
+<g stroke="#fff" stroke-width="3" stroke-linecap="round"><line x1="64" y1="482" x2="118" y2="482"/><line x1="64" y1="494" x2="128" y2="494"/><line x1="64" y1="506" x2="104" y2="506"/></g>
+<!-- Neustart-Pfeil -->
+<path d="M178,490 A14,14 0 1 1 171,477.9" fill="none" stroke="#222" stroke-width="3"/><path d="M177.5,481.7 L167.5,483 L174,471.8 Z" fill="#222"/>
+<text x="118" y="546" text-anchor="middle" font-weight="700">Abstürze,</text>
+<text x="118" y="563" text-anchor="middle" font-weight="700">Neustarts</text>
+<line x1="198" y1="512" x2="222" y2="512" stroke="#222" stroke-width="2.5" marker-end="url(#k)"/>
+<rect x="224" y="452" width="166" height="120" rx="8" fill="#fdecea" stroke="#c62828" stroke-width="2"/>
+<text x="307" y="478" text-anchor="middle" font-weight="700">Modul passt nicht</text>
+<text x="307" y="496" text-anchor="middle" font-weight="700">zu den anderen</text>
+<text x="307" y="518" text-anchor="middle" fill="#555">oder</text>
+<text x="307" y="540" text-anchor="middle" font-weight="700">Hardwarefehler</text>
+<text x="307" y="558" text-anchor="middle">(NMI) → Bluescreen</text>
+</svg>

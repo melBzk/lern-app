@@ -1397,3 +1397,18 @@ Touchscreen (und Headset) sind **Ein- und Ausgabegerät** zugleich.
 - **EUV-Lithografie (T03-15, Hintergrund):** Muster werden mit **13,5-nm**-Licht auf den Wafer übertragen; Luft und Glas verschlucken EUV → **Vakuum und Spiegel**, auch die Maske ist ein Spiegel. **ASML** ist einziger Hersteller von **EUV**-Anlagen (ältere DUV-Anlagen bauen auch Nikon, Canon). Strukturbreite („10 nm“) ≠ Wellenlänge *(Ergänzung, Hersteller/Fachpresse)*.
 
 > ⚠ **Notizen korrigiert:** Q.ANT baut keine Laser (das ist Trumpf); der Licht-Chip ersetzt die Transistoren einer Rechenoperation, nicht „Milliarden“; ASML ist nur bei EUV einziger Anbieter.
+
+## Tag 4 · 26.11.2026 – Prozessor einbauen, Fehlersuche, Bussysteme (Buch Kap. 4), Arbeitsspeicher (Buch Kap. 5)
+
+- **CPU tauschen (T04-1):** vorher CPU-Support-Liste des Mainboards prüfen, ggf. **zuerst BIOS-Update mit alter CPU** (Buch S. 12, 19; ASUS). Netzstecker ziehen, erden (Armband/Matte, mind. Heizkörper; Buch S. 137), CPU nur an den Kanten, senkrecht einsetzen (Intel). Alte Wärmeleitpaste mit Isopropanol entfernen (Intel, Corsair). Reinigen mit **Druckluft in kurzen Stößen, nicht mit Staubsauger** (Corsair, Dell) – ⚠ Mitschrift sagte Staubsauger.
+- **Fehlersuche (T04-2):** POST prüft beim Start die Hardware; Signaltöne je BIOS-Hersteller verschieden → Handbuch (Buch S. 139). Nur 8 statt 16 GB → Modul meist nicht eingerastet. RAM-Menge zeigt das Applet **System**. NMI = nicht ausblendbare Unterbrechung bei Hardwarefehler → Blue Screen (Microsoft Learn).
+- **PC zusammenstellen (T04-3):** Prüfreihenfolge CPU ↔ Mainboard (Sockel, Chipsatz, BIOS) → RAM → Gehäuse/Formfaktor → Grafikkarte + Netzteil (Steckplatz 75 W, 6-polig 75 W, 8-polig 150 W; Buch S. 26, 52) → Kühler. Netzteil am effizientesten bei 40–80 % Last (Buch S. 27).
+- **Bussysteme (T04-4, T04-5, T04-7):** PCI 32 Bit × 33 MHz ≈ 133 MB/s, gemeinsamer Bus über PCI-Bridge (Buch S. 49–50). **PCI Express** seriell, Punkt-zu-Punkt, Lanes x1/x4/x8/x16 als Steckplatz, je Lane PCIe 3.0 ≈ 985 MB/s (Buch S. 51–54). ⚠ Unterricht nannte x8 nicht; Grafikkarte über Steckplatz max. 75 W. M.2-Keys: M/B = SSD, A/E = WLAN/Bluetooth/LTE (Dell). ExpressCard seriell (1 PCIe-Lane oder USB) – ⚠ Buch S. 54 „32 Bit“ falsch.
+- **Extra (T04-6):** 8b/10b (20 % Overhead) bis PCIe 2.x, 128b/130b ab 3.0; Scrambling = Bits mit Zufallsfolge verrechnen (⚠ Buch S. 52 „umstellen“ falsch).
+- **Speicherarten (T04-8):** RAM flüchtig (DRAM/SRAM), ROM → PROM → EPROM (UV) → EEPROM → Flash (Buch S. 55–57).
+- **DDR (T04-9):** zwei Übertragungen je Takt; DDR4-3200 = I/O-Takt 1600 MHz × 2 × 8 Byte = **25,6 GB/s**, Dual Channel 51,2 GB/s (Buch S. 58–60). DDR3 240 Kontakte/1,5 V, DDR4 288/1,2 V; Generationen nicht steckkompatibel (Kerbe). SO-DIMM DDR4 260 Kontakte (⚠ Buch S. 60: 256).
+- **ECC, Registered, Latenz (T04-10):** ECC erkennt 2-Bit-, korrigiert 1-Bit-Fehler; geprüft wird im Speichercontroller (⚠ Buch S. 60: ECC-Chip). CL = Wartetakte; Zeit in ns = CL × 1000 ÷ I/O-Takt (Buch S. 62, Kingston).
+- **Aufrüsten (T04-11):** paarweise/Kit, gleiche Module; Dual Channel = je ein Modul pro Kanal (Steckplätze laut Handbuch, z. B. A2+B2). Langsameres Modul bremst alle. 32-Bit-Windows nutzt nur ca. 3–3,5 GB (Microsoft).
+
+### Offene Punkte Tag 4
+- Lösung Quiz Q2 (RAM-Typ) fehlt; Nachmittag 26.11. (weitere Quizfragen, Gruppenarbeit „billigster PC“) als Nachzügler.

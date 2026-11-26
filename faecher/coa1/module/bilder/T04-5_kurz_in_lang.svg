@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 470" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Welche Karte passt in welchen Steckplatz. Oben: Eine kurze x1-Karte steckt in einem langen x16-Steckplatz, grüner Haken: passt. Die Kerbe im Steckplatz ist eingekreist: Sie sitzt bei allen PCIe-Größen an derselben Stelle, darum passt die kurze Karte. Unten: Eine lange x16-Grafikkarte schwebt über einem kurzen x1-Steckplatz, der Kontaktstreifen ragt weit über, rotes Kreuz: passt nicht.</title>
+<rect width="400" height="470" fill="#fff"/>
+
+<!-- Teil 1: kurz in lang -->
+<text x="16" y="28" font-size="16" font-weight="700">x1-Karte in x16-Steckplatz</text>
+<rect x="30" y="60" width="120" height="62" rx="5" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<text x="90" y="96" text-anchor="middle" font-weight="700">x1-Karte</text>
+<rect x="30" y="140" width="34" height="24" rx="3" fill="#333"/><rect x="71" y="140" width="226" height="24" rx="3" fill="#333"/>
+<rect x="34" y="122" width="30" height="30" fill="#d4a017"/><rect x="71" y="122" width="37" height="30" fill="#d4a017"/>
+<circle cx="67.5" cy="152" r="15" fill="none" stroke="#E07B00" stroke-width="3"/>
+<path d="M318,104 l14,15 l28,-34" fill="none" stroke="#2e7d32" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="56" y="190" font-size="14" font-weight="700" fill="#E07B00">Kerbe: bei jeder PCIe-Größe gleich</text>
+<text x="16" y="222" font-size="16" font-weight="700" fill="#2e7d32">passt: kurze Karte in langen Steckplatz</text>
+
+<line x1="10" y1="244" x2="390" y2="244" stroke="#ccc" stroke-width="1.5"/>
+
+<!-- Teil 2: lang in kurz -->
+<text x="16" y="272" font-size="16" font-weight="700">x16-Karte in x1-Steckplatz</text>
+<rect x="30" y="290" width="290" height="62" rx="5" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<text x="175" y="326" text-anchor="middle" font-weight="700">x16-Grafikkarte</text>
+<rect x="34" y="352" width="30" height="24" fill="#d4a017"/><rect x="71" y="352" width="222" height="24" fill="#d4a017"/>
+<rect x="30" y="396" width="34" height="24" rx="3" fill="#333"/><rect x="71" y="396" width="37" height="24" rx="3" fill="#333"/>
+<text x="69" y="440" text-anchor="middle" font-size="13" fill="#444">x1-Steckplatz</text>
+<path d="M190,388 l36,36 M226,388 l-36,36" stroke="#c62828" stroke-width="7" stroke-linecap="round"/>
+<text x="16" y="462" font-size="16" font-weight="700" fill="#c62828">passt nicht: lange Karte in kurzen Steckplatz</text>
+</svg>

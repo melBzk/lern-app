@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 540" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Platz oder Tempo? Oben ein Lagerhaus mit Schild: Kapazität gleich wie viel Platz, in GB. Davor eine Straße mit zwei Spuren und Lastwagen, Schild: Datenrate gleich wie viel pro Sekunde, in GB pro Sekunde. Unten dieselbe Szene, aber eine Spur ist gesperrt: 2 Module im selben Kanal, das Lager ist voll groß, aber nur 1 Spur ist offen.</title>
+<defs>
+<g id="lager">
+<path d="M0,40 L65,0 L130,40 Z" fill="#8d6e63"/>
+<rect x="6" y="40" width="118" height="90" fill="#d7ccc8" stroke="#8d6e63" stroke-width="2"/>
+<rect x="40" y="70" width="50" height="60" fill="#8d6e63"/>
+<path d="M40,82 H90 M40,94 H90 M40,106 H90 M40,118 H90" stroke="#d7ccc8" stroke-width="2"/>
+</g>
+<g id="lkw">
+<rect x="0" y="0" width="36" height="20" rx="2" fill="#3a6ed8"/>
+<path d="M36,4 H46 L52,12 V20 H36 Z" fill="#1f4fa8"/>
+<circle cx="10" cy="22" r="4" fill="#222"/><circle cx="44" cy="22" r="4" fill="#222"/>
+</g>
+</defs>
+<rect width="400" height="540" fill="#fff"/>
+<text x="200" y="26" font-size="17" text-anchor="middle" font-weight="700">Platz oder Tempo?</text>
+
+<!-- Szene 1 -->
+<use xlink:href="#lager" x="256" y="50"/>
+<rect x="10" y="126" width="252" height="54" fill="#555"/>
+<line x1="10" y1="153" x2="262" y2="153" stroke="#fff" stroke-width="2" stroke-dasharray="12 10"/>
+<use xlink:href="#lkw" x="40" y="129"/><use xlink:href="#lkw" x="150" y="129"/>
+<use xlink:href="#lkw" x="90" y="156"/><use xlink:href="#lkw" x="196" y="156"/>
+<rect x="10" y="196" width="236" height="62" rx="8" fill="#e3ecfb" stroke="#3a6ed8" stroke-width="2"/>
+<text x="22" y="220" font-size="15" font-weight="700" fill="#1f4fa8">Datenrate (GB/s)</text>
+<text x="22" y="242" font-size="14">= wie viel pro Sekunde</text>
+<rect x="254" y="196" width="136" height="62" rx="8" fill="#efebe9" stroke="#8d6e63" stroke-width="2"/>
+<text x="266" y="220" font-size="15" font-weight="700" fill="#5d4037">Kapazität (GB)</text>
+<text x="266" y="242" font-size="14">= wie viel Platz</text>
+
+<line x1="10" y1="282" x2="390" y2="282" stroke="#ddd" stroke-width="2"/>
+
+<!-- Szene 2 -->
+<text x="200" y="310" font-size="16" text-anchor="middle" font-weight="700">2 Module im selben Kanal:</text>
+<use xlink:href="#lager" x="256" y="330"/>
+<rect x="10" y="406" width="252" height="54" fill="#555"/>
+<line x1="10" y1="433" x2="262" y2="433" stroke="#fff" stroke-width="2" stroke-dasharray="12 10"/>
+<use xlink:href="#lkw" x="40" y="409"/><use xlink:href="#lkw" x="150" y="409"/>
+<!-- Sperre untere Spur -->
+<rect x="120" y="436" width="72" height="22" fill="#fff"/>
+<path d="M120,436 h12 l-12,22 z M144,436 h12 l-24,22 h-12 z M168,436 h12 l-24,22 h-12 z M192,436 v22 h-24 z" fill="#c62828"/>
+<text x="20" y="453" font-size="13" font-weight="700" fill="#fff">gesperrt</text>
+<text x="22" y="490" font-size="15" font-weight="700" fill="#c62828">nur 1 Spur offen</text>
+<text x="22" y="510" font-size="14" fill="#c62828">= Single Channel</text>
+<text x="322" y="490" font-size="15" font-weight="700" text-anchor="middle" fill="#2e7d32">Lager voll groß</text>
+<text x="322" y="510" font-size="14" text-anchor="middle" fill="#2e7d32">z. B. volle 8 GB</text>
+</svg>

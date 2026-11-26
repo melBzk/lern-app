@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Welche Zahl bedeutet was bei DDR4-3200? In der Mitte das Etikett DDR4-3200, vier Pfeile zu vier Kärtchen: 3200 sind Millionen Übertragungen pro Sekunde. 1600 MHz ist der I/O-Takt, die Hälfte. 25,6 GB/s ist die Datenrate eines Riegels. 51,2 GB/s sind zwei Riegel im Dual Channel.</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker></defs>
+<rect width="400" height="400" fill="#fff"/>
+
+<!-- Kärtchen oben -->
+<rect x="10" y="20" width="180" height="104" rx="8" fill="#eceff1"/>
+<text x="100" y="52" text-anchor="middle" font-size="22" font-weight="700" fill="#D4607A">3200</text>
+<text x="100" y="80" text-anchor="middle">Mio. Übertragungen</text>
+<text x="100" y="100" text-anchor="middle">pro Sekunde</text>
+<rect x="210" y="20" width="180" height="104" rx="8" fill="#eceff1"/>
+<text x="300" y="52" text-anchor="middle" font-size="22" font-weight="700">1600 MHz</text>
+<text x="300" y="80" text-anchor="middle">I/O-Takt</text>
+<text x="300" y="100" text-anchor="middle">(die Hälfte)</text>
+
+<!-- Etikett Mitte -->
+<rect x="100" y="172" width="200" height="56" rx="6" fill="#fff" stroke="#2e7d32" stroke-width="3"/>
+<text x="200" y="208" text-anchor="middle" font-size="24" font-weight="700">DDR4-3200</text>
+
+<g stroke="#333" stroke-width="2">
+<line x1="150" y1="168" x2="110" y2="130" marker-end="url(#a)"/>
+<line x1="250" y1="168" x2="290" y2="130" marker-end="url(#a)"/>
+<line x1="150" y1="232" x2="110" y2="270" marker-end="url(#a)"/>
+<line x1="250" y1="232" x2="290" y2="270" marker-end="url(#a)"/>
+</g>
+
+<!-- Kärtchen unten -->
+<rect x="10" y="276" width="180" height="104" rx="8" fill="#eceff1"/>
+<text x="100" y="308" text-anchor="middle" font-size="22" font-weight="700">25,6 GB/s</text>
+<text x="100" y="336" text-anchor="middle">Datenrate</text>
+<text x="100" y="356" text-anchor="middle">eines Riegels</text>
+<rect x="210" y="276" width="180" height="104" rx="8" fill="#eceff1"/>
+<text x="300" y="308" text-anchor="middle" font-size="22" font-weight="700">51,2 GB/s</text>
+<text x="300" y="336" text-anchor="middle">zwei Riegel im</text>
+<text x="300" y="356" text-anchor="middle">Dual Channel</text>
+</svg>

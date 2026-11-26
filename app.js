@@ -838,7 +838,7 @@ function quizView() {
       inp.disabled = true;
       document.getElementById("check").remove();
       sicherheit(repeat, conf => {
-        const ok = Math.abs(v - Q.a) <= (Q.tol || 0.01);
+        const ok = Math.abs(v - Q.a) <= (Q.tol || 0.01) + 1e-9; // +1e-9: Rundungsfehler bei Kommazahlen (17,1 − 17 > 0,1)
         inp.style.borderColor = ok ? "var(--ok)" : "var(--bad)";
         answer(Q, ok, conf);
       });

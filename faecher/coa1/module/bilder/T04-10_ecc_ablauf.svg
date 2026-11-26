@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>So findet ECC einen Fehler, in drei Schritten von oben nach unten. Schritt 1 Schreiben: Aus dem Datenwort mit 64 Bit wird ein Prüfcode berechnet und auf dem roten 9. Chip gespeichert. Schritt 2 Lesen: Der Prüfcode wird neu berechnet und auf einer Waage mit dem gespeicherten Prüfcode verglichen. Schritt 3 Ergebnis mit drei Ausgängen: gleich bedeutet fehlerfrei (grüner Haken); 1 Bit falsch wird korrigiert (Schraubenschlüssel); 2 Bit falsch wird nur gemeldet: Warnmeldung, der PC läuft meist weiter (Warndreieck).</title>
+<rect width="400" height="600" fill="#fff"/>
+<text x="16" y="26" font-size="17" font-weight="700">So findet ECC einen Fehler</text>
+
+<!-- 1 Schreiben -->
+<rect x="12" y="40" width="376" height="146" rx="8" fill="#f5f7fa" stroke="#ccc" stroke-width="1.5"/>
+<circle cx="32" cy="64" r="12" fill="#3a6ed8"/><text x="32" y="69" text-anchor="middle" fill="#fff" font-weight="700">1</text>
+<text x="52" y="70" font-size="15" font-weight="700">Schreiben</text>
+<rect x="24" y="90" width="86" height="46" rx="5" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<text x="67" y="110" text-anchor="middle" font-weight="700">64 Bit</text>
+<text x="67" y="127" text-anchor="middle" font-size="13">Daten</text>
+<line x1="112" y1="113" x2="140" y2="113" stroke="#222" stroke-width="3"/>
+<path d="M138,105 L152,113 L138,121 Z" fill="#222"/>
+<rect x="156" y="88" width="34" height="48" rx="3" fill="#fff" stroke="#555" stroke-width="2"/>
+<rect x="161" y="93" width="24" height="9" fill="#555"/>
+<g fill="#9aa5b1"><rect x="162" y="107" width="6" height="6"/><rect x="170" y="107" width="6" height="6"/><rect x="178" y="107" width="6" height="6"/><rect x="162" y="116" width="6" height="6"/><rect x="170" y="116" width="6" height="6"/><rect x="178" y="116" width="6" height="6"/><rect x="162" y="125" width="6" height="6"/><rect x="170" y="125" width="6" height="6"/><rect x="178" y="125" width="6" height="6"/></g>
+<text x="173" y="158" text-anchor="middle" font-size="13" font-weight="700">Prüfcode</text>
+<text x="173" y="174" text-anchor="middle" font-size="13">berechnen</text>
+<line x1="196" y1="113" x2="272" y2="113" stroke="#222" stroke-width="3"/>
+<path d="M270,105 L284,113 L270,121 Z" fill="#222"/>
+<text x="236" y="102" text-anchor="middle" font-size="13">speichern</text>
+<rect x="288" y="90" width="88" height="46" rx="3" fill="#c62828"/>
+<text x="332" y="118" text-anchor="middle" fill="#fff" font-weight="700">9. Chip</text>
+
+<!-- 2 Lesen -->
+<rect x="12" y="198" width="376" height="146" rx="8" fill="#f5f7fa" stroke="#ccc" stroke-width="1.5"/>
+<circle cx="32" cy="222" r="12" fill="#3a6ed8"/><text x="32" y="227" text-anchor="middle" fill="#fff" font-weight="700">2</text>
+<text x="52" y="228" font-size="15" font-weight="700">Lesen</text>
+<rect x="40" y="246" width="34" height="48" rx="3" fill="#fff" stroke="#555" stroke-width="2"/>
+<rect x="45" y="251" width="24" height="9" fill="#555"/>
+<g fill="#9aa5b1"><rect x="46" y="265" width="6" height="6"/><rect x="54" y="265" width="6" height="6"/><rect x="62" y="265" width="6" height="6"/><rect x="46" y="274" width="6" height="6"/><rect x="54" y="274" width="6" height="6"/><rect x="62" y="274" width="6" height="6"/><rect x="46" y="283" width="6" height="6"/><rect x="54" y="283" width="6" height="6"/><rect x="62" y="283" width="6" height="6"/></g>
+<text x="57" y="316" text-anchor="middle" font-size="13" font-weight="700">Prüfcode neu</text>
+<text x="57" y="332" text-anchor="middle" font-size="13">berechnen</text>
+<line x1="80" y1="270" x2="136" y2="270" stroke="#222" stroke-width="3"/>
+<path d="M134,262 L148,270 L134,278 Z" fill="#222"/>
+<!-- Waage -->
+<line x1="200" y1="248" x2="200" y2="298" stroke="#555" stroke-width="3"/>
+<rect x="182" y="296" width="36" height="6" rx="2" fill="#555"/>
+<line x1="164" y1="252" x2="236" y2="252" stroke="#555" stroke-width="3" stroke-linecap="round"/>
+<path d="M164,252 L154,272 M164,252 L174,272 M236,252 L226,272 M236,252 L246,272" stroke="#555" stroke-width="1.8"/>
+<path d="M150,272 Q164,286 178,272 Z" fill="#9aa5b1" stroke="#555" stroke-width="1.5"/>
+<path d="M222,272 Q236,286 250,272 Z" fill="#9aa5b1" stroke="#555" stroke-width="1.5"/>
+<text x="200" y="324" text-anchor="middle" font-weight="700">vergleichen</text>
+<line x1="286" y1="270" x2="264" y2="270" stroke="#c62828" stroke-width="3"/>
+<path d="M266,262 L252,270 L266,278 Z" fill="#c62828"/>
+<rect x="290" y="248" width="86" height="44" rx="3" fill="#c62828"/>
+<text x="333" y="275" text-anchor="middle" fill="#fff" font-weight="700">9. Chip</text>
+<text x="333" y="314" text-anchor="middle" font-size="13" font-weight="700">gespeicherter</text>
+<text x="333" y="330" text-anchor="middle" font-size="13">Prüfcode</text>
+
+<!-- 3 Ergebnis -->
+<rect x="12" y="356" width="376" height="232" rx="8" fill="#f5f7fa" stroke="#ccc" stroke-width="1.5"/>
+<circle cx="32" cy="380" r="12" fill="#3a6ed8"/><text x="32" y="385" text-anchor="middle" fill="#fff" font-weight="700">3</text>
+<text x="52" y="386" font-size="15" font-weight="700">Ergebnis</text>
+<path d="M32,392 V542 M32,420 H54 M32,482 H54 M32,542 H54" fill="none" stroke="#555" stroke-width="2.5"/>
+<!-- gleich -->
+<text x="60" y="425" font-weight="700">gleich</text>
+<line x1="146" y1="420" x2="172" y2="420" stroke="#222" stroke-width="2.5"/>
+<path d="M170,413 L182,420 L170,427 Z" fill="#222"/>
+<path d="M190,420 L199,429 L216,408" fill="none" stroke="#2e7d32" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="230" y="425" font-weight="700" fill="#2e7d32">fehlerfrei</text>
+<!-- 1 Bit -->
+<text x="60" y="487" font-weight="700">1 Bit falsch</text>
+<line x1="146" y1="482" x2="172" y2="482" stroke="#222" stroke-width="2.5"/>
+<path d="M170,475 L182,482 L170,489 Z" fill="#222"/>
+<g transform="translate(206,484) rotate(-45)" fill="#3a6ed8">
+<rect x="-4" y="-4" width="22" height="8" rx="4"/>
+<circle cx="-8" cy="0" r="9"/>
+<rect x="-19" y="-3.5" width="10" height="7" fill="#f5f7fa"/>
+</g>
+<text x="230" y="487" font-weight="700" fill="#3a6ed8">wird korrigiert</text>
+<!-- 2 Bit -->
+<text x="60" y="547" font-weight="700">2 Bit falsch</text>
+<line x1="146" y1="542" x2="172" y2="542" stroke="#222" stroke-width="2.5"/>
+<path d="M170,535 L182,542 L170,549 Z" fill="#222"/>
+<path d="M204,526 L221,556 L187,556 Z" fill="#E07B00" stroke="#E07B00" stroke-width="2" stroke-linejoin="round"/>
+<text x="204" y="552" text-anchor="middle" fill="#fff" font-size="16" font-weight="700">!</text>
+<text x="230" y="534" font-weight="700" fill="#E07B00">nur gemeldet:</text>
+<text x="230" y="552" font-size="13">Warnmeldung,</text>
+<text x="230" y="569" font-size="13">PC läuft meist weiter</text>
+</svg>

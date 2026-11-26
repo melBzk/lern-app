@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 460" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="15" fill="#222">
+<title>Rechenweg als Treppe für DDR4-3200: 1. Etikett DDR4-3200. Geteilt durch 2 ergibt 2. I/O-Takt 1600 MHz. Mal 2 Flanken ergibt 3. 3200 Millionen Übertragungen pro Sekunde. Mal 8 Byte (64 Bit) ergibt 4. 25 600 MB/s gleich 25,6 GB/s. Mal 2 im Dual Channel ergibt 5. 51,2 GB/s. Das stimmt mit der Buchtabelle.</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker></defs>
+<rect width="400" height="460" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">DDR4-3200: vom Namen zur Datenrate</text>
+
+<!-- Stufe 1 -->
+<circle cx="24" cy="66" r="14" fill="#555"/><text x="24" y="71" text-anchor="middle" font-weight="700" fill="#fff">1</text>
+<rect x="44" y="44" width="300" height="44" rx="6" fill="#fff" stroke="#2e7d32" stroke-width="2.5"/>
+<text x="56" y="72" font-size="13" fill="#555">Etikett</text>
+<text x="194" y="73" text-anchor="middle" font-size="19" font-weight="700">DDR4-3200</text>
+<line x1="74" y1="92" x2="74" y2="118" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+<text x="90" y="110" font-weight="700" fill="#D4607A">÷ 2</text>
+
+<!-- Stufe 2 -->
+<circle cx="36" cy="144" r="14" fill="#555"/><text x="36" y="149" text-anchor="middle" font-weight="700" fill="#fff">2</text>
+<rect x="56" y="122" width="300" height="44" rx="6" fill="#eceff1"/>
+<text x="68" y="150">I/O-Takt: <tspan font-weight="700">1600 MHz</tspan></text>
+<line x1="86" y1="170" x2="86" y2="196" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+<text x="102" y="188" font-weight="700" fill="#D4607A">× 2 Flanken</text>
+
+<!-- Stufe 3 -->
+<circle cx="48" cy="222" r="14" fill="#555"/><text x="48" y="227" text-anchor="middle" font-weight="700" fill="#fff">3</text>
+<rect x="68" y="200" width="300" height="44" rx="6" fill="#eceff1"/>
+<text x="80" y="228"><tspan font-weight="700">3200 Mio.</tspan> Übertragungen/s</text>
+<line x1="98" y1="248" x2="98" y2="274" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+<text x="114" y="266" font-weight="700" fill="#D4607A">× 8 Byte (64 Bit)</text>
+
+<!-- Stufe 4 -->
+<circle cx="60" cy="300" r="14" fill="#555"/><text x="60" y="305" text-anchor="middle" font-weight="700" fill="#fff">4</text>
+<rect x="80" y="278" width="300" height="44" rx="6" fill="#eceff1"/>
+<text x="92" y="306">25 600 MB/s = <tspan font-weight="700">25,6 GB/s</tspan></text>
+<line x1="110" y1="326" x2="110" y2="352" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+<text x="126" y="344" font-weight="700" fill="#D4607A">× 2 Dual Channel</text>
+
+<!-- Stufe 5 -->
+<circle cx="72" cy="378" r="14" fill="#555"/><text x="72" y="383" text-anchor="middle" font-weight="700" fill="#fff">5</text>
+<rect x="92" y="356" width="300" height="44" rx="6" fill="#2f6b4f"/>
+<text x="242" y="385" text-anchor="middle" font-size="19" font-weight="700" fill="#fff">51,2 GB/s</text>
+
+<!-- Probe -->
+<path d="M104,430 l8,8 l16,-18" fill="none" stroke="#2e7d32" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="138" y="440" font-weight="700" fill="#2e7d32">stimmt mit der Buchtabelle</text>
+</svg>

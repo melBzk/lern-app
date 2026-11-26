@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 472" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Alle Bussysteme im Überblick als Zeitstrahl von links (früher) nach rechts (später), vier Bänder: ISA (8/16 Bit), dann EISA, daneben MCA und VLB, Bandbreite 2,39 bis 8,33 MB/s. PCI, dann PCI-X für Server, 133 bis 533 MB/s. AGP nur für Grafik, 266 bis 2133 MB/s. PCI Express 1.x bis 4.0 mit M.2, PCIe 3.x mit 16 Lanes 15 754 MB/s. Die Tachos zeigen: jede Generation ist schneller. Hinweis: Reihenfolge lernen, Jahreszahlen nicht auswendig lernen.</title>
+<rect width="400" height="472" fill="#fff"/>
+
+<!-- Zeitachse -->
+<line x1="12" y1="30" x2="374" y2="30" stroke="#555" stroke-width="3"/>
+<polygon points="372,22 388,30 372,38" fill="#555"/>
+<text x="12" y="20" font-size="13" fill="#444">früher</text>
+<text x="368" y="20" text-anchor="end" font-size="13" fill="#444">später</text>
+
+<!-- ISA -->
+<rect x="12" y="52" width="220" height="34" rx="8" fill="#eceff1" stroke="#9aa5b1" stroke-width="2"/>
+<text x="22" y="74" font-size="14" font-weight="700">ISA (8/16 Bit) → EISA</text>
+<text x="242" y="74" font-size="13" fill="#444">auch: MCA, VLB</text>
+<path d="M16,118 A14,14 0 0,1 44,118" fill="none" stroke="#555" stroke-width="3" stroke-linecap="round"/>
+<line x1="30" y1="118" x2="18.7" y2="113.9" stroke="#c62828" stroke-width="3" stroke-linecap="round"/>
+<text x="52" y="122" font-size="14" font-weight="700">ISA: 2,39–8,33 MB/s</text>
+
+<!-- PCI -->
+<rect x="70" y="140" width="230" height="34" rx="8" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<text x="80" y="162" font-size="14" font-weight="700">PCI → PCI-X (Server)</text>
+<path d="M74,206 A14,14 0 0,1 102,206" fill="none" stroke="#555" stroke-width="3" stroke-linecap="round"/>
+<line x1="88" y1="206" x2="82" y2="195.6" stroke="#c62828" stroke-width="3" stroke-linecap="round"/>
+<text x="110" y="210" font-size="14" font-weight="700">PCI: 133–533 MB/s</text>
+
+<!-- AGP -->
+<rect x="128" y="228" width="212" height="34" rx="8" fill="#fff3e0" stroke="#e08a00" stroke-width="2"/>
+<text x="138" y="250" font-size="14" font-weight="700">AGP (nur Grafik)</text>
+<path d="M132,294 A14,14 0 0,1 160,294" fill="none" stroke="#555" stroke-width="3" stroke-linecap="round"/>
+<line x1="146" y1="294" x2="148.1" y2="282.2" stroke="#c62828" stroke-width="3" stroke-linecap="round"/>
+<text x="168" y="298" font-size="14" font-weight="700">AGP: 266–2133 MB/s</text>
+
+<!-- PCIe -->
+<rect x="170" y="316" width="218" height="34" rx="8" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2"/>
+<text x="180" y="338" font-size="14" font-weight="700">PCI Express 1.x→4.0, M.2</text>
+<path d="M192,386 A14,14 0 0,1 220,386" fill="none" stroke="#555" stroke-width="3" stroke-linecap="round"/>
+<line x1="206" y1="386" x2="216.4" y2="380" stroke="#c62828" stroke-width="3" stroke-linecap="round"/>
+<text x="228" y="378" font-size="14">PCIe 3.x, 16 Lanes:</text>
+<text x="228" y="398" font-size="15" font-weight="700" fill="#c62828">15 754 MB/s</text>
+
+<!-- Hinweis -->
+<rect x="12" y="414" width="376" height="50" rx="8" fill="#eceff1"/>
+<text x="200" y="435" text-anchor="middle" font-size="14" font-weight="700">Reihenfolge lernen –</text>
+<text x="200" y="454" text-anchor="middle" font-size="14" font-weight="700">Jahreszahlen nicht auswendig lernen</text>
+</svg>

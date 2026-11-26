@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 440" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>PCI Express ist Stecker und Sprache. In der Mitte ein Schild: PCI Express gleich genormter Stecker plus Protokoll, also Sprache. Vier Geräte zeigen mit Pfeilen darauf: oben links eine Grafikkarte (x16), oben rechts eine Netzwerk- oder WLAN-Karte, unten links eine Modemkarte, unten rechts eine M.2-SSD mit NVMe, mit dem Hinweis: kein Kartensteckplatz, aber PCIe-Technik.</title>
+<rect width="400" height="440" fill="#fff"/>
+
+<!-- Grafikkarte -->
+<rect x="36" y="20" width="120" height="50" rx="5" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<circle cx="76" cy="45" r="16" fill="#fff" stroke="#3a6ed8" stroke-width="2"/><circle cx="116" cy="45" r="16" fill="#fff" stroke="#3a6ed8" stroke-width="2"/>
+<circle cx="76" cy="45" r="4" fill="#3a6ed8"/><circle cx="116" cy="45" r="4" fill="#3a6ed8"/>
+<rect x="46" y="70" width="94" height="8" fill="#d4a017"/>
+<text x="96" y="100" text-anchor="middle" font-weight="700">Grafikkarte (x16)</text>
+
+<!-- Netzwerk / WLAN -->
+<rect x="244" y="30" width="100" height="40" rx="5" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<line x1="330" y1="30" x2="330" y2="10" stroke="#3a6ed8" stroke-width="3" stroke-linecap="round"/>
+<path d="M321,14 A12,12 0 0,1 339,14" fill="none" stroke="#3a6ed8" stroke-width="2"/>
+<rect x="252" y="70" width="34" height="8" fill="#d4a017"/>
+<text x="294" y="96" text-anchor="middle" font-weight="700">Netzwerk- oder</text>
+<text x="294" y="114" text-anchor="middle" font-weight="700">WLAN-Karte</text>
+
+<!-- Pfeile -->
+<g stroke="#222" stroke-width="2.5">
+<line x1="106" y1="112" x2="140" y2="166"/><line x1="290" y1="124" x2="262" y2="166"/>
+<line x1="104" y1="320" x2="136" y2="276"/><line x1="296" y1="320" x2="264" y2="276"/>
+</g>
+<g fill="#222">
+<path d="M0,0 l-11,-6 l0,12 z" transform="translate(145,174) rotate(58)"/>
+<path d="M0,0 l-11,-6 l0,12 z" transform="translate(257,174) rotate(124)"/>
+<path d="M0,0 l-11,-6 l0,12 z" transform="translate(141,268) rotate(-54)"/>
+<path d="M0,0 l-11,-6 l0,12 z" transform="translate(259,268) rotate(-126)"/>
+</g>
+
+<!-- Mitte -->
+<rect x="50" y="176" width="300" height="92" rx="10" fill="#fff3e0" stroke="#E07B00" stroke-width="3"/>
+<text x="200" y="204" text-anchor="middle" font-size="19" font-weight="700">PCI Express</text>
+<text x="200" y="228" text-anchor="middle" font-size="15">= genormter Stecker</text>
+<text x="200" y="252" text-anchor="middle" font-size="15" font-weight="700" fill="#E07B00">+ Protokoll (Sprache)</text>
+
+<!-- Modemkarte -->
+<rect x="36" y="320" width="100" height="40" rx="5" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<rect x="40" y="330" width="18" height="16" rx="2" fill="#fff" stroke="#3a6ed8" stroke-width="2"/>
+<rect x="44" y="360" width="34" height="8" fill="#d4a017"/>
+<text x="86" y="390" text-anchor="middle" font-weight="700">Modemkarte</text>
+
+<!-- M.2-SSD -->
+<rect x="246" y="324" width="118" height="24" rx="3" fill="#455a64"/>
+<rect x="258" y="329" width="26" height="14" fill="#9aa5b1"/><rect x="290" y="329" width="26" height="14" fill="#9aa5b1"/><rect x="322" y="329" width="26" height="14" fill="#9aa5b1"/>
+<rect x="238" y="326" width="8" height="20" fill="#d4a017"/>
+<text x="304" y="374" text-anchor="middle" font-weight="700">M.2-SSD mit NVMe</text>
+<text x="304" y="396" text-anchor="middle" font-size="13" fill="#444">kein Kartensteckplatz,</text>
+<text x="304" y="414" text-anchor="middle" font-size="13" fill="#444">aber PCIe-Technik</text>
+</svg>

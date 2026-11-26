@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 560" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>EPROM: löschen mit UV-Licht. Oben ein EPROM-Chip von oben mit rundem Glasfenster in der Mitte. Drei nummerierte Schritte: 1 Schreiben mit einem EPROM-Brenner am PC, hohe Spannung 12,5 oder 21 Volt. 2 Fenster abkleben, ein Aufkleber deckt das Fenster ab. 3 Löschen unter der UV-Lampe, 10 bis 20 Minuten, dann ist alles gelöscht. Unten ein Warnschild mit Sonne: Sonnenlicht löscht auch, nach ca. 3 Tagen sind die Daten weg.</title>
+<rect width="400" height="560" fill="#fff"/>
+<text x="16" y="26" font-size="17" font-weight="700">EPROM: löschen mit UV-Licht</text>
+
+<!-- großer Chip -->
+<rect x="130" y="50" width="140" height="70" rx="4" fill="#555"/>
+<g stroke="#555" stroke-width="2.5"><path d="M142,42 v8 M158,42 v8 M174,42 v8 M190,42 v8 M206,42 v8 M222,42 v8 M238,42 v8 M254,42 v8 M142,120 v8 M158,120 v8 M174,120 v8 M190,120 v8 M206,120 v8 M222,120 v8 M238,120 v8 M254,120 v8"/></g>
+<circle cx="200" cy="85" r="20" fill="#d6e4f0" stroke="#9aa5b1" stroke-width="3"/>
+<rect x="194" y="79" width="12" height="12" fill="#9aa5b1"/>
+<line x1="226" y1="76" x2="296" y2="76" stroke="#c62828" stroke-width="2"/>
+<text x="300" y="72" font-weight="700" fill="#c62828">Glasfenster</text>
+<text x="300" y="90" font-size="13" fill="#444">oben auf dem Chip</text>
+
+<!-- Schritt 1 -->
+<circle cx="24" cy="168" r="11" fill="#c62828"/><text x="24" y="173" text-anchor="middle" fill="#fff" font-size="13" font-weight="700">1</text>
+<!-- PC + Brenner -->
+<rect x="42" y="150" width="40" height="30" rx="2" fill="#eceff1" stroke="#555" stroke-width="2"/>
+<rect x="56" y="180" width="12" height="6" fill="#555"/>
+<line x1="82" y1="172" x2="96" y2="172" stroke="#555" stroke-width="2.5"/>
+<rect x="96" y="158" width="40" height="30" rx="4" fill="#9aa5b1" stroke="#555" stroke-width="2"/>
+<rect x="104" y="164" width="24" height="12" fill="#555"/>
+<path d="M118,192 L110,204 H117 L112,214 L124,200 H117 L122,192 Z" fill="#f9a825" stroke="#555" stroke-width="1"/>
+<text x="150" y="166" font-weight="700">Schreiben</text>
+<text x="150" y="184">EPROM-Brenner am PC</text>
+<text x="150" y="202">hohe Spannung:</text>
+<text x="150" y="220" font-weight="700">12,5 oder 21 V</text>
+
+<!-- Schritt 2 -->
+<circle cx="24" cy="268" r="11" fill="#c62828"/><text x="24" y="273" text-anchor="middle" fill="#fff" font-size="13" font-weight="700">2</text>
+<rect x="46" y="248" width="86" height="40" rx="3" fill="#555"/>
+<circle cx="89" cy="268" r="12" fill="#d6e4f0"/>
+<rect x="73" y="256" width="32" height="24" rx="3" fill="#f9a825" stroke="#555" stroke-width="1.5" transform="rotate(-8 89 268)"/>
+<text x="150" y="264" font-weight="700">Fenster abkleben</text>
+<text x="150" y="282" font-size="13" fill="#444">Aufkleber schützt vor Licht</text>
+
+<!-- Schritt 3 -->
+<circle cx="24" cy="356" r="11" fill="#c62828"/><text x="24" y="361" text-anchor="middle" fill="#fff" font-size="13" font-weight="700">3</text>
+<!-- UV-Lampe -->
+<path d="M52,318 H126 L118,330 H60 Z" fill="#555"/>
+<g stroke="#7b1fa2" stroke-width="3" stroke-linecap="round">
+<line x1="89" y1="334" x2="89" y2="350"/><line x1="72" y1="334" x2="66" y2="350"/><line x1="106" y1="334" x2="112" y2="350"/>
+</g>
+<rect x="46" y="356" width="86" height="36" rx="3" fill="#555"/>
+<circle cx="89" cy="374" r="12" fill="#e1bee7" stroke="#7b1fa2" stroke-width="2"/>
+<text x="150" y="340" font-weight="700">Löschen</text>
+<text x="150" y="358">unter die <tspan font-weight="700" fill="#7b1fa2">UV-Lampe</tspan></text>
+<text x="150" y="376">10–20 Minuten</text>
+<text x="150" y="394" font-weight="700" fill="#c62828">→ alles gelöscht</text>
+
+<!-- Warnschild -->
+<rect x="10" y="426" width="380" height="118" rx="8" fill="#fff8e1" stroke="#f9a825" stroke-width="2.5"/>
+<path d="M70,438 L120,526 H20 Z" fill="#f9a825" stroke="#555" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="70" cy="496" r="12" fill="#fff"/>
+<g stroke="#fff" stroke-width="3" stroke-linecap="round">
+<line x1="70" y1="474" x2="70" y2="479"/><line x1="52" y1="496" x2="47" y2="496"/><line x1="88" y1="496" x2="93" y2="496"/><line x1="57" y1="483" x2="54" y2="480"/><line x1="83" y1="483" x2="86" y2="480"/><line x1="57" y1="509" x2="54" y2="512"/><line x1="83" y1="509" x2="86" y2="512"/>
+</g>
+<text x="138" y="466" font-size="15" font-weight="700" fill="#c62828">Achtung:</text>
+<text x="138" y="486" font-weight="700">Sonnenlicht löscht auch!</text>
+<text x="138" y="508">nach ca. 3 Tagen</text>
+<text x="138" y="526">sind die Daten weg</text>
+</svg>

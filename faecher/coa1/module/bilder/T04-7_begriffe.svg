@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 455" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Die 8 neuen Begriffe als Symbole. 1 PCMCIA oder PC Card: flache Karte wird seitlich ins Notebook geschoben, 16 Bit. 2 CardBus: dieselbe Karte mit 32, 32 Bit. 3 ExpressCard: schmalere Karte, PCIe oder USB. 4 M.2-Key: Lupe auf die Kerbe einer M.2-Karte. 5 Key M und Key B: SSD mit zwei Kerben. 6 Key A und Key E: WLAN-Karte mit Funksymbol. 7 AGP: alte Grafikkarte. 8 UMTS und LTE: Funkmast mit Signalbalken, Internet übers Handynetz.</title>
+<rect width="400" height="455" fill="#fff"/>
+<g stroke="#ddd" stroke-width="1.5">
+<line x1="200" y1="12" x2="200" y2="448"/>
+<line x1="8" y1="123" x2="392" y2="123"/>
+<line x1="8" y1="231" x2="392" y2="231"/>
+<line x1="8" y1="339" x2="392" y2="339"/>
+</g>
+<!-- Nummern -->
+<g font-size="13" font-weight="700" text-anchor="middle">
+<circle cx="20" cy="30" r="11" fill="#3a6ed8"/><text x="20" y="35" fill="#fff">1</text>
+<circle cx="220" cy="30" r="11" fill="#3a6ed8"/><text x="220" y="35" fill="#fff">2</text>
+<circle cx="20" cy="138" r="11" fill="#3a6ed8"/><text x="20" y="143" fill="#fff">3</text>
+<circle cx="220" cy="138" r="11" fill="#3a6ed8"/><text x="220" y="143" fill="#fff">4</text>
+<circle cx="20" cy="246" r="11" fill="#3a6ed8"/><text x="20" y="251" fill="#fff">5</text>
+<circle cx="220" cy="246" r="11" fill="#3a6ed8"/><text x="220" y="251" fill="#fff">6</text>
+<circle cx="20" cy="354" r="11" fill="#3a6ed8"/><text x="20" y="359" fill="#fff">7</text>
+<circle cx="220" cy="354" r="11" fill="#3a6ed8"/><text x="220" y="359" fill="#fff">8</text>
+</g>
+
+<!-- 1 PC Card -->
+<rect x="40" y="27" width="80" height="36" rx="4" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<line x1="50" y1="45" x2="90" y2="45" stroke="#3a6ed8" stroke-width="3"/>
+<polygon points="90,39 101,45 90,51" fill="#3a6ed8"/>
+<rect x="108" y="20" width="62" height="50" rx="5" fill="#9aa5b1"/>
+<text x="139" y="50" text-anchor="middle" font-size="13" fill="#fff">Note-</text>
+<text x="139" y="64" text-anchor="middle" font-size="13" fill="#fff">book</text>
+<text x="100" y="97" text-anchor="middle" font-size="15" font-weight="700">PCMCIA / PC Card</text>
+<text x="100" y="114" text-anchor="middle" font-size="13" fill="#444">16 Bit</text>
+
+<!-- 2 CardBus -->
+<rect x="240" y="27" width="80" height="36" rx="4" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<text x="276" y="52" text-anchor="middle" font-size="18" font-weight="700" fill="#3a6ed8">32</text>
+<rect x="308" y="20" width="62" height="50" rx="5" fill="#9aa5b1"/>
+<text x="339" y="50" text-anchor="middle" font-size="13" fill="#fff">Note-</text>
+<text x="339" y="64" text-anchor="middle" font-size="13" fill="#fff">book</text>
+<text x="300" y="97" text-anchor="middle" font-size="15" font-weight="700">CardBus</text>
+<text x="300" y="114" text-anchor="middle" font-size="13" fill="#444">32 Bit</text>
+
+<!-- 3 ExpressCard -->
+<rect x="56" y="141" width="64" height="24" rx="4" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<line x1="64" y1="153" x2="92" y2="153" stroke="#3a6ed8" stroke-width="3"/>
+<polygon points="92,147 102,153 92,159" fill="#3a6ed8"/>
+<rect x="108" y="128" width="62" height="50" rx="5" fill="#9aa5b1"/>
+<text x="139" y="158" text-anchor="middle" font-size="13" fill="#fff">Note-</text>
+<text x="139" y="172" text-anchor="middle" font-size="13" fill="#fff">book</text>
+<text x="100" y="205" text-anchor="middle" font-size="15" font-weight="700">ExpressCard</text>
+<text x="100" y="222" text-anchor="middle" font-size="13" fill="#444">PCIe oder USB</text>
+
+<!-- 4 M.2-Key -->
+<path d="M240,130 H340 V170 H326.5 V158 H319.5 V170 H240 Z" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<rect x="243" y="162" width="74" height="7" fill="#c9a227"/>
+<rect x="329" y="162" width="9" height="7" fill="#c9a227"/>
+<circle cx="323" cy="160" r="15" fill="none" stroke="#c62828" stroke-width="3"/>
+<line x1="334" y1="171" x2="346" y2="183" stroke="#c62828" stroke-width="5" stroke-linecap="round"/>
+<text x="300" y="205" text-anchor="middle" font-size="15" font-weight="700">M.2-Key</text>
+<text x="300" y="222" text-anchor="middle" font-size="13" fill="#444">Kerbe = Codierung</text>
+
+<!-- 5 Key M / Key B (SSD) -->
+<path d="M50,240 H150 V286 H136.5 V274 H129.5 V286 H74.5 V274 H67.5 V286 H50 Z" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<rect x="62" y="247" width="26" height="20" rx="2" fill="#555"/>
+<rect x="98" y="247" width="26" height="20" rx="2" fill="#555"/>
+<rect x="53" y="278" width="13" height="7" fill="#c9a227"/>
+<rect x="76" y="278" width="52" height="7" fill="#c9a227"/>
+<rect x="138" y="278" width="10" height="7" fill="#c9a227"/>
+<path d="M67.5,286 V274 H74.5 V286 M129.5,286 V274 H136.5 V286" fill="none" stroke="#c62828" stroke-width="2.5"/>
+<text x="100" y="313" text-anchor="middle" font-size="15" font-weight="700">Key M / Key B</text>
+<text x="100" y="330" text-anchor="middle" font-size="13" fill="#444">SSD</text>
+
+<!-- 6 Key A / Key E (WLAN) -->
+<path d="M250,242 H350 V282 H290.5 V270 H283.5 V282 H268.5 V270 H261.5 V282 H250 Z" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<rect x="253" y="274" width="7" height="7" fill="#c9a227"/>
+<rect x="270" y="274" width="12" height="7" fill="#c9a227"/>
+<rect x="292" y="274" width="56" height="7" fill="#c9a227"/>
+<path d="M261.5,282 V270 H268.5 V282 M283.5,282 V270 H290.5 V282" fill="none" stroke="#c62828" stroke-width="2.5"/>
+<circle cx="320" cy="264" r="3" fill="#3a6ed8"/>
+<path d="M311,255 A12.7,12.7 0 0,1 329,255 M305,249 A21.2,21.2 0 0,1 335,249" fill="none" stroke="#3a6ed8" stroke-width="2.5" stroke-linecap="round"/>
+<text x="300" y="313" text-anchor="middle" font-size="15" font-weight="700">Key A / Key E</text>
+<text x="300" y="330" text-anchor="middle" font-size="13" fill="#444">z. B. WLAN, LTE</text>
+
+<!-- 7 AGP -->
+<rect x="46" y="352" width="100" height="40" rx="3" fill="#eceff1" stroke="#555" stroke-width="2"/>
+<circle cx="86" cy="372" r="13" fill="none" stroke="#555" stroke-width="2.5"/>
+<path d="M86,372 L86,362 M86,372 L95,377 M86,372 L77,377" stroke="#555" stroke-width="2.5" stroke-linecap="round"/>
+<rect x="40" y="347" width="7" height="50" fill="#9aa5b1"/>
+<rect x="62" y="392" width="70" height="7" fill="#c9a227"/>
+<text x="100" y="424" text-anchor="middle" font-size="15" font-weight="700">AGP</text>
+<text x="100" y="441" text-anchor="middle" font-size="13" fill="#444">alter Grafik-Steckplatz</text>
+
+<!-- 8 UMTS / LTE: Funkmast mit Signalbalken -->
+<path d="M270,402 L282,352 L294,402 M274,386 H290 M278,370 H286" fill="none" stroke="#555" stroke-width="3" stroke-linejoin="round"/>
+<path d="M270,356 A16,16 0 0,1 270,348 M294,348 A16,16 0 0,1 294,356" fill="none" stroke="#3a6ed8" stroke-width="2.5" stroke-linecap="round"/>
+<g fill="#3a6ed8"><rect x="308" y="390" width="8" height="12" rx="1"/><rect x="320" y="380" width="8" height="22" rx="1"/><rect x="332" y="369" width="8" height="33" rx="1"/><rect x="344" y="358" width="8" height="44" rx="1"/></g>
+<text x="300" y="424" text-anchor="middle" font-size="15" font-weight="700">UMTS / LTE</text>
+<text x="300" y="441" text-anchor="middle" font-size="13" fill="#444">Internet übers Handynetz</text>
+</svg>

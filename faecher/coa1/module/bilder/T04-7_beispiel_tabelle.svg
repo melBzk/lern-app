@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 425" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Rechenweg: 1. PCIe 3.x schafft 985 MB/s je Lane. 2. mal 4 Lanes beim M.2-Steckplatz. 3. ergibt 3940 MB/s, das Buch nennt genauer 3938 MB/s. Darunter Balkenvergleich: PCI mit 133 MB/s ist ein sehr kurzer Balken, M.2 mit PCIe 3.0 x4 und 3938 MB/s ein etwa 30-mal so langer Balken – rund 30-mal schneller.</title>
+<rect width="400" height="425" fill="#fff"/>
+
+<!-- Schritt 1 -->
+<rect x="44" y="12" width="344" height="44" rx="8" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<circle cx="22" cy="34" r="12" fill="#3a6ed8"/><text x="22" y="39" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">1</text>
+<text x="216" y="40" text-anchor="middle" font-size="16" font-weight="700">PCIe 3.x: 985 MB/s je Lane</text>
+<line x1="216" y1="58" x2="216" y2="70" stroke="#555" stroke-width="3"/>
+<polygon points="208,68 224,68 216,78" fill="#555"/>
+<!-- Schritt 2 -->
+<rect x="44" y="80" width="344" height="44" rx="8" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<circle cx="22" cy="102" r="12" fill="#3a6ed8"/><text x="22" y="107" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">2</text>
+<text x="216" y="108" text-anchor="middle" font-size="16" font-weight="700">× 4 Lanes (M.2)</text>
+<line x1="216" y1="126" x2="216" y2="138" stroke="#555" stroke-width="3"/>
+<polygon points="208,136 224,136 216,146" fill="#555"/>
+<!-- Schritt 3 -->
+<rect x="44" y="148" width="344" height="58" rx="8" fill="#fff" stroke="#c62828" stroke-width="2.5"/>
+<circle cx="22" cy="177" r="12" fill="#3a6ed8"/><text x="22" y="182" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">3</text>
+<text x="216" y="174" text-anchor="middle" font-size="18" font-weight="700" fill="#c62828">= 3940 MB/s</text>
+<text x="216" y="196" text-anchor="middle" font-size="13" fill="#444">Buch: 3938 MB/s (genauer gerechnet)</text>
+
+<line x1="12" y1="224" x2="388" y2="224" stroke="#ccc" stroke-width="1.5"/>
+<text x="20" y="250" font-size="15" font-weight="700">Vergleich</text>
+<!-- PCI -->
+<text x="20" y="278" font-size="14">PCI: 133 MB/s</text>
+<rect x="20" y="286" width="12" height="24" fill="#9aa5b1"/>
+<!-- M.2 -->
+<text x="20" y="338" font-size="14">M.2 (PCIe 3.0 x4): 3938 MB/s</text>
+<rect x="20" y="346" width="360" height="24" fill="#c62828"/>
+<text x="200" y="398" text-anchor="middle" font-size="17" font-weight="700" fill="#c62828">≈ 30-mal schneller</text>
+<text x="200" y="417" text-anchor="middle" font-size="13" fill="#444">3938 ÷ 133 ≈ 30</text>
+</svg>

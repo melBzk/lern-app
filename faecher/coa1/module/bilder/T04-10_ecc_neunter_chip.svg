@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 560" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>ECC, der neunte Chip. Oben ein normales Modul ohne ECC mit 8 gleichen schwarzen Chips: 8 Chips mal 8 Bit = 64 Bit. Darunter ein ECC-Modul mit denselben 8 Chips plus einem rot hervorgehobenen 9. Chip, der den Prüfcode speichert, und einem kleinen blauen ECC-Chip, laut Buch mit dem Programm für die Korrektur. Orangefarbener Warnhinweis: Laut Herstellern berechnet und prüft der Speichercontroller in der CPU den Prüfcode. Unten links ein Server-Schrank mit grünem Haken: meist mit ECC. Unten rechts ein Heim-PC: meist ohne ECC, günstiger.</title>
+<rect width="400" height="560" fill="#fff"/>
+<text x="16" y="26" font-size="17" font-weight="700">ECC – der neunte Chip</text>
+
+<!-- normales Modul -->
+<text x="20" y="58" font-size="15" font-weight="700">normales Modul (ohne ECC)</text>
+<path d="M20,68 H380 V132 H212 V125 H200 V132 H20 Z" fill="#2e7d32"/>
+<g fill="#222">
+<rect x="30" y="78" width="28" height="34" rx="2"/><rect x="64" y="78" width="28" height="34" rx="2"/><rect x="98" y="78" width="28" height="34" rx="2"/><rect x="132" y="78" width="28" height="34" rx="2"/>
+<rect x="166" y="78" width="28" height="34" rx="2"/><rect x="200" y="78" width="28" height="34" rx="2"/><rect x="234" y="78" width="28" height="34" rx="2"/><rect x="268" y="78" width="28" height="34" rx="2"/>
+</g>
+<g fill="#d4a017"><rect x="26" y="122" width="168" height="7"/><rect x="218" y="122" width="156" height="7"/></g>
+<path d="M30,140 V146 H296 V140" fill="none" stroke="#555" stroke-width="1.8"/>
+<text x="163" y="166" text-anchor="middle" font-weight="700">8 Chips × 8 Bit = 64 Bit</text>
+
+<!-- ECC-Modul -->
+<text x="20" y="204" font-size="15" font-weight="700">ECC-Modul</text>
+<path d="M20,214 H380 V278 H212 V271 H200 V278 H20 Z" fill="#2e7d32"/>
+<g fill="#222">
+<rect x="30" y="224" width="28" height="34" rx="2"/><rect x="64" y="224" width="28" height="34" rx="2"/><rect x="98" y="224" width="28" height="34" rx="2"/><rect x="132" y="224" width="28" height="34" rx="2"/>
+<rect x="166" y="224" width="28" height="34" rx="2"/><rect x="200" y="224" width="28" height="34" rx="2"/><rect x="234" y="224" width="28" height="34" rx="2"/><rect x="268" y="224" width="28" height="34" rx="2"/>
+</g>
+<rect x="302" y="224" width="28" height="34" rx="2" fill="#c62828" stroke="#fff" stroke-width="1.5"/>
+<rect x="344" y="236" width="20" height="14" rx="1" fill="#3a6ed8" stroke="#fff" stroke-width="1.5"/>
+<g fill="#d4a017"><rect x="26" y="268" width="168" height="7"/><rect x="218" y="268" width="156" height="7"/></g>
+<line x1="316" y1="260" x2="316" y2="290" stroke="#c62828" stroke-width="2"/>
+<text x="330" y="308" text-anchor="end" font-weight="700" fill="#c62828">9. Chip: speichert den Prüfcode</text>
+<line x1="354" y1="252" x2="354" y2="324" stroke="#3a6ed8" stroke-width="2"/>
+<text x="380" y="342" text-anchor="end" fill="#3a6ed8" font-weight="700">ECC-Chip (laut Buch):</text>
+<text x="380" y="360" text-anchor="end">Programm für die Korrektur</text>
+<rect x="20" y="372" width="360" height="40" rx="6" fill="#fff4e5" stroke="#e65100" stroke-width="1.5"/>
+<text x="30" y="389" font-size="13" font-weight="700" fill="#e65100">⚠ Hersteller: Prüfcode berechnet und prüft</text>
+<text x="30" y="405" font-size="13" fill="#e65100">der Speichercontroller in der CPU.</text>
+
+<g transform="translate(0,40)">
+<!-- Server -->
+<rect x="20" y="380" width="172" height="130" rx="8" fill="#eceff1"/>
+<rect x="40" y="392" width="46" height="62" rx="3" fill="#555"/>
+<g stroke="#fff" stroke-width="2"><line x1="46" y1="406" x2="80" y2="406"/><line x1="46" y1="422" x2="80" y2="422"/><line x1="46" y1="438" x2="80" y2="438"/></g>
+<path d="M108,422 L122,436 L150,404" fill="none" stroke="#2e7d32" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="106" y="472" text-anchor="middle" font-weight="700">Server:</text>
+<text x="106" y="488" text-anchor="middle">meist mit ECC</text>
+
+<!-- Heim-PC -->
+<rect x="208" y="380" width="172" height="130" rx="8" fill="#eceff1"/>
+<rect x="228" y="394" width="62" height="42" rx="3" fill="#e8f0fe" stroke="#555" stroke-width="2.5"/>
+<path d="M259,436 V446 M246,448 H272" stroke="#555" stroke-width="3" stroke-linecap="round"/>
+<rect x="306" y="392" width="30" height="58" rx="3" fill="#555"/>
+<circle cx="321" cy="404" r="3" fill="#fff"/>
+<text x="294" y="472" text-anchor="middle" font-weight="700">Heim-PC:</text>
+<text x="294" y="488" text-anchor="middle">meist ohne ECC</text>
+<text x="294" y="505" text-anchor="middle">(günstiger)</text>
+</g>
+</svg>

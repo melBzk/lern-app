@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 370" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Zwei Taktsignale über drei Takte. Oben SDRAM: nur an jeder steigenden Flanke ein Datenpaket, also 1 Übertragung pro Takt. Unten DDR: an jeder steigenden und jeder fallenden Flanke ein Datenpaket, also 2 Übertragungen pro Takt.</title>
+<defs><marker id="p" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker></defs>
+<rect width="400" height="370" fill="#fff"/>
+
+<!-- SDRAM -->
+<text x="20" y="28" font-size="17" font-weight="700">SDRAM</text>
+<g fill="#D4607A"><rect x="37" y="48" width="16" height="16" rx="3"/><rect x="147" y="48" width="16" height="16" rx="3"/><rect x="257" y="48" width="16" height="16" rx="3"/></g>
+<path d="M20,120 H45 V76 H100 V120 H155 V76 H210 V120 H265 V76 H320 V120 H380" fill="none" stroke="#3a6ed8" stroke-width="3" stroke-linejoin="round"/>
+<!-- 1 Takt -->
+<path d="M45,132 V140 H155 V132" fill="none" stroke="#555" stroke-width="1.5"/>
+<text x="100" y="156" text-anchor="middle" font-size="13" fill="#555">1 Takt</text>
+<text x="380" y="156" text-anchor="end" font-size="15" font-weight="700">1 Übertragung pro Takt</text>
+
+<line x1="10" y1="176" x2="390" y2="176" stroke="#ccc" stroke-width="1.5"/>
+
+<!-- DDR -->
+<text x="20" y="206" font-size="17" font-weight="700">DDR</text>
+<g fill="#D4607A"><rect x="37" y="222" width="16" height="16" rx="3"/><rect x="92" y="222" width="16" height="16" rx="3"/><rect x="147" y="222" width="16" height="16" rx="3"/><rect x="202" y="222" width="16" height="16" rx="3"/><rect x="257" y="222" width="16" height="16" rx="3"/><rect x="312" y="222" width="16" height="16" rx="3"/></g>
+<path d="M20,294 H45 V250 H100 V294 H155 V250 H210 V294 H265 V250 H320 V294 H380" fill="none" stroke="#2e7d32" stroke-width="3" stroke-linejoin="round"/>
+<line x1="110" y1="312" x2="150" y2="278" stroke="#333" stroke-width="2" marker-end="url(#p)"/>
+<text x="90" y="330" text-anchor="middle">steigende Flanke ↑</text>
+<line x1="270" y1="312" x2="216" y2="278" stroke="#333" stroke-width="2" marker-end="url(#p)"/>
+<text x="290" y="330" text-anchor="middle">fallende Flanke ↓</text>
+<text x="380" y="360" text-anchor="end" font-size="15" font-weight="700" fill="#D4607A">2 Übertragungen pro Takt</text>
+</svg>

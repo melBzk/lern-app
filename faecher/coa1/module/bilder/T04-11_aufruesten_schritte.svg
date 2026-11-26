@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 600" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>RAM richtig aufrüsten in drei Schritten, Überschrift: Immer paarweise! Schritt 1: Mit der Lupe nachsehen, was schon drinsteckt und mit wie viel MHz es läuft, zum Beispiel mit CPU-Z. Schritt 2: Weggabelung, entweder ein baugleiches Modul dazukaufen oder zwei neue Module als Kit. Schritt 3: zwei gleiche Riegel mit Gleichheitszeichen: gleicher Hersteller, gleiche Werte.</title>
+<defs>
+<g id="riegel">
+<rect x="0" y="0" width="90" height="24" rx="2" fill="#2a7f62"/>
+<rect x="8" y="5" width="13" height="11" fill="#1b1b1b"/><rect x="28" y="5" width="13" height="11" fill="#1b1b1b"/><rect x="50" y="5" width="13" height="11" fill="#1b1b1b"/><rect x="70" y="5" width="13" height="11" fill="#1b1b1b"/>
+<rect x="2" y="19" width="86" height="5" fill="#d9a400"/><rect x="38" y="18" width="4" height="6" fill="#fff"/>
+</g>
+<g id="nr"><circle cx="0" cy="0" r="16" fill="#222"/></g>
+</defs>
+<rect width="400" height="600" fill="#fff"/>
+<rect x="60" y="10" width="280" height="40" rx="20" fill="#E07B00"/>
+<text x="200" y="37" font-size="19" text-anchor="middle" font-weight="700" fill="#fff">Immer paarweise!</text>
+
+<!-- Schritt 1 -->
+<use xlink:href="#nr" x="26" y="96"/><text x="26" y="102" font-size="17" font-weight="700" fill="#fff" text-anchor="middle">1</text>
+<text x="52" y="102" font-size="16" font-weight="700">Nachsehen, was drinsteckt</text>
+<use xlink:href="#riegel" x="30" y="140"/>
+<circle cx="78" cy="150" r="28" fill="#fff" fill-opacity="0.35" stroke="#222" stroke-width="4"/>
+<line x1="98" y1="170" x2="118" y2="190" stroke="#222" stroke-width="7" stroke-linecap="round"/>
+<path d="M150,124 H250 Q258,124 258,132 V170 Q258,178 250,178 H170 L156,192 L160,178 H150 Q142,178 142,170 V132 Q142,124 150,124 Z" fill="#eceff1"/>
+<text x="200" y="146" font-size="14" text-anchor="middle" font-weight="700">Was steckt drin?</text>
+<text x="200" y="166" font-size="14" text-anchor="middle" font-weight="700">Wie viel MHz?</text>
+<rect x="270" y="118" width="116" height="76" rx="4" fill="#fff" stroke="#555" stroke-width="2"/>
+<rect x="270" y="118" width="116" height="20" rx="4" fill="#555"/>
+<text x="278" y="133" font-size="13" fill="#fff" font-weight="700">CPU-Z</text>
+<text x="278" y="158" font-size="13">Typ: DDR…</text>
+<text x="278" y="180" font-size="13">Takt: … MHz</text>
+
+<line x1="200" y1="212" x2="200" y2="232" stroke="#222" stroke-width="3"/><path d="M192,230 L200,242 L208,230 Z" fill="#222"/>
+
+<!-- Schritt 2 -->
+<use xlink:href="#nr" x="26" y="270"/><text x="26" y="276" font-size="17" font-weight="700" fill="#fff" text-anchor="middle">2</text>
+<text x="52" y="276" font-size="16" font-weight="700">Entweder … oder</text>
+<path d="M200,286 V300 L100,326 M200,300 L300,326" fill="none" stroke="#999" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="16" y="322" width="168" height="50" rx="6" fill="#3a6ed8"/>
+<text x="100" y="343" font-size="14" text-anchor="middle" fill="#fff" font-weight="700">baugleiches</text>
+<text x="100" y="362" font-size="14" text-anchor="middle" fill="#fff" font-weight="700">Modul dazu</text>
+<rect x="216" y="322" width="168" height="50" rx="6" fill="#3a6ed8"/>
+<text x="300" y="343" font-size="14" text-anchor="middle" fill="#fff" font-weight="700">zwei neue</text>
+<text x="300" y="362" font-size="14" text-anchor="middle" fill="#fff" font-weight="700">Module (Kit)</text>
+<text x="200" y="353" font-size="14" text-anchor="middle" font-weight="700">oder</text>
+
+<line x1="200" y1="388" x2="200" y2="410" stroke="#222" stroke-width="3"/><path d="M192,408 L200,420 L208,408 Z" fill="#222"/>
+
+<!-- Schritt 3 -->
+<use xlink:href="#nr" x="26" y="450"/><text x="26" y="456" font-size="17" font-weight="700" fill="#fff" text-anchor="middle">3</text>
+<text x="52" y="456" font-size="16" font-weight="700">Gleiche Module nehmen</text>
+<use xlink:href="#riegel" x="40" y="486"/>
+<text x="200" y="508" font-size="34" text-anchor="middle" font-weight="700" fill="#E07B00">=</text>
+<use xlink:href="#riegel" x="270" y="486"/>
+<text x="200" y="550" font-size="15" text-anchor="middle" font-weight="700">gleicher Hersteller, gleiche Werte</text>
+<text x="200" y="574" font-size="14" text-anchor="middle" fill="#444">am sichersten: ein Kit</text>
+</svg>

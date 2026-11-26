@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 560" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>8b10b, aus 8 mach 10, von oben nach unten. 1: Der Sender hat 8 Bit Nutzdaten. 2: Ein Codierer macht daraus nach fester Regel ein neues Muster aus 10 Bit; diese 10 Bit laufen über die Leitung. Ein Balken zeigt die Menge: 8 Bit Daten-Inhalt plus 2 Bit mehr als Hilfsinformation für den Gleichtakt, das sind 20 Prozent Overhead. 3: Beim Empfänger macht der Decodierer daraus wieder 8 Bit. Verwendet bei PCIe 1.x und 2.x.</title>
+<rect width="400" height="560" fill="#fff"/>
+<text x="200" y="26" font-size="17" text-anchor="middle" font-weight="700">8b10b: aus 8 mach 10</text>
+
+<!-- 1 Sender -->
+<circle cx="22" cy="58" r="12" fill="#222"/><text x="22" y="63" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">1</text>
+<text x="42" y="63" font-weight="700">Sender: 8 Bit Nutzdaten</text>
+<g fill="#3a6ed8"><rect x="64" y="76" width="30" height="30" rx="3"/><rect x="98" y="76" width="30" height="30" rx="3"/><rect x="132" y="76" width="30" height="30" rx="3"/><rect x="166" y="76" width="30" height="30" rx="3"/><rect x="200" y="76" width="30" height="30" rx="3"/><rect x="234" y="76" width="30" height="30" rx="3"/><rect x="268" y="76" width="30" height="30" rx="3"/><rect x="302" y="76" width="30" height="30" rx="3"/></g>
+<line x1="200" y1="110" x2="200" y2="124" stroke="#222" stroke-width="3"/><path d="M200,134 l-7,-12 l14,0 z" fill="#222"/>
+
+<!-- 2 Codierer -->
+<circle cx="22" cy="158" r="12" fill="#222"/><text x="22" y="163" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">2</text>
+<rect x="110" y="136" width="180" height="46" rx="8" fill="#fff3e0" stroke="#E07B00" stroke-width="2.5"/>
+<text x="200" y="157" text-anchor="middle" font-size="16" font-weight="700">Codierer</text>
+<text x="200" y="175" text-anchor="middle" font-size="13">(feste Rechenvorschrift)</text>
+<line x1="200" y1="182" x2="200" y2="196" stroke="#222" stroke-width="3"/><path d="M200,206 l-7,-12 l14,0 z" fill="#222"/>
+
+<text x="200" y="226" text-anchor="middle" font-weight="700">Leitung: 10 Bit (neues Muster)</text>
+<g fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2.5"><rect x="30" y="236" width="30" height="30" rx="3"/><rect x="64" y="236" width="30" height="30" rx="3"/><rect x="98" y="236" width="30" height="30" rx="3"/><rect x="132" y="236" width="30" height="30" rx="3"/><rect x="166" y="236" width="30" height="30" rx="3"/><rect x="200" y="236" width="30" height="30" rx="3"/><rect x="234" y="236" width="30" height="30" rx="3"/><rect x="268" y="236" width="30" height="30" rx="3"/><rect x="302" y="236" width="30" height="30" rx="3"/><rect x="336" y="236" width="30" height="30" rx="3"/></g>
+
+<!-- Mengenbalken -->
+<text x="30" y="296" font-size="13" fill="#444">Menge darin:</text>
+<rect x="30" y="304" width="268" height="24" fill="#3a6ed8"/>
+<rect x="302" y="304" width="64" height="24" fill="#E07B00"/>
+<text x="164" y="321" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">8 Bit Daten-Inhalt</text>
+<text x="334" y="321" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">+2 Bit</text>
+<text x="366" y="348" text-anchor="end" font-size="13" fill="#E07B00" font-weight="700">Hilfsinformation (Gleichtakt)</text>
+<text x="366" y="368" text-anchor="end" font-size="15" fill="#c62828" font-weight="700">= 20 % Overhead</text>
+
+<line x1="200" y1="378" x2="200" y2="392" stroke="#222" stroke-width="3"/><path d="M200,402 l-7,-12 l14,0 z" fill="#222"/>
+
+<!-- 3 Decodierer -->
+<circle cx="22" cy="426" r="12" fill="#222"/><text x="22" y="431" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">3</text>
+<rect x="110" y="404" width="180" height="46" rx="8" fill="#fff3e0" stroke="#E07B00" stroke-width="2.5"/>
+<text x="200" y="425" text-anchor="middle" font-size="16" font-weight="700">Decodierer</text>
+<text x="200" y="443" text-anchor="middle" font-size="13">(beim Empfänger)</text>
+<line x1="200" y1="450" x2="200" y2="464" stroke="#222" stroke-width="3"/><path d="M200,474 l-7,-12 l14,0 z" fill="#222"/>
+<g fill="#3a6ed8"><rect x="64" y="480" width="30" height="30" rx="3"/><rect x="98" y="480" width="30" height="30" rx="3"/><rect x="132" y="480" width="30" height="30" rx="3"/><rect x="166" y="480" width="30" height="30" rx="3"/><rect x="200" y="480" width="30" height="30" rx="3"/><rect x="234" y="480" width="30" height="30" rx="3"/><rect x="268" y="480" width="30" height="30" rx="3"/><rect x="302" y="480" width="30" height="30" rx="3"/></g>
+<text x="200" y="532" text-anchor="middle" font-weight="700">wieder 8 Bit</text>
+<text x="200" y="552" text-anchor="middle" font-size="13" fill="#444">verwendet bei PCIe 1.x und 2.x</text>
+</svg>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Vor dem RAM-Kauf ins Mainboard-Handbuch schauen, am besten online. Links ein verstaubtes, gedrucktes Heft mit dem Hinweis: veraltet? Neues nach BIOS-Update fehlt. Rechts ein Laptop mit der Herstellerseite: Mainboard-Handbuch, PDF, aktuell. Darunter eine Checkliste: RAM-Typ, zum Beispiel DDR4; Ausbaugrenze, also maximale Gesamtmenge; welche Steckplätze zusammengehören; Kompatibilitätsliste.</title>
+<rect width="400" height="520" fill="#fff"/>
+<text x="200" y="28" font-size="17" text-anchor="middle" font-weight="700">Vor dem Kauf: ins Handbuch – online</text>
+
+<!-- gedrucktes Heft -->
+<g transform="rotate(-6 70 130)">
+<rect x="22" y="70" width="96" height="124" rx="4" fill="#e0dccf" stroke="#8d8672" stroke-width="2"/>
+<line x1="34" y1="94" x2="104" y2="94" stroke="#a39c86" stroke-width="3"/>
+<line x1="34" y1="108" x2="96" y2="108" stroke="#a39c86" stroke-width="3"/>
+<line x1="34" y1="122" x2="100" y2="122" stroke="#a39c86" stroke-width="3"/>
+<g fill="#b3ab94"><circle cx="40" cy="150" r="2"/><circle cx="62" cy="166" r="2.5"/><circle cx="88" cy="146" r="2"/><circle cx="100" cy="176" r="2.5"/><circle cx="50" cy="180" r="2"/><circle cx="78" cy="138" r="1.5"/></g>
+</g>
+<text x="70" y="222" font-size="14" font-weight="700" text-anchor="middle" fill="#666">gedrucktes Heft</text>
+<text x="70" y="244" font-size="13" text-anchor="middle" fill="#c62828" font-weight="700">veraltet?</text>
+<text x="70" y="261" font-size="13" text-anchor="middle" fill="#c62828">Neues nach</text>
+<text x="70" y="278" font-size="13" text-anchor="middle" fill="#c62828">BIOS-Update fehlt</text>
+
+<!-- Laptop -->
+<rect x="160" y="60" width="218" height="140" rx="8" fill="#555"/>
+<rect x="170" y="70" width="198" height="120" rx="3" fill="#fff"/>
+<rect x="170" y="70" width="198" height="20" fill="#eceff1"/>
+<circle cx="180" cy="80" r="3.5" fill="#bbb"/><circle cx="191" cy="80" r="3.5" fill="#bbb"/>
+<text x="268" y="84" font-size="11" text-anchor="middle" fill="#666">Seite des Herstellers</text>
+<rect x="184" y="102" width="40" height="50" rx="3" fill="#E07B00"/>
+<text x="204" y="132" font-size="13" text-anchor="middle" fill="#fff" font-weight="700">PDF</text>
+<text x="234" y="118" font-size="14" font-weight="700">Mainboard-</text>
+<text x="234" y="136" font-size="14" font-weight="700">Handbuch</text>
+<text x="234" y="156" font-size="13" fill="#2e7d32" font-weight="700">aktuell</text>
+<rect x="184" y="166" width="170" height="16" rx="3" fill="#eceff1"/>
+<path d="M146,200 H392 L382,214 H156 Z" fill="#777"/>
+<text x="270" y="236" font-size="14" font-weight="700" text-anchor="middle">am besten online</text>
+
+<!-- Checkliste -->
+<rect x="14" y="300" width="372" height="208" rx="10" fill="#eceff1"/>
+<text x="30" y="328" font-size="16" font-weight="700">Darin nachsehen:</text>
+<g fill="#fff" stroke="#222" stroke-width="2.5">
+<rect x="30" y="346" width="20" height="20" rx="3"/>
+<rect x="30" y="386" width="20" height="20" rx="3"/>
+<rect x="30" y="426" width="20" height="20" rx="3"/>
+<rect x="30" y="466" width="20" height="20" rx="3"/>
+</g>
+<g font-size="15">
+<text x="62" y="362"><tspan font-weight="700">RAM-Typ</tspan> (z. B. DDR4)</text>
+<text x="62" y="402"><tspan font-weight="700">Ausbaugrenze</tspan> (max. Gesamtmenge)</text>
+<text x="62" y="442">welche <tspan font-weight="700">Steckplätze</tspan> zusammengehören</text>
+<text x="62" y="482"><tspan font-weight="700">Kompatibilitätsliste</tspan></text>
+</g>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Quizfrage 6, vorher und nachher. Drei Steckplätze, zwei blau, einer schwarz. Vorher stecken die Module im schwarzen und in einem blauen Platz; CPU-Z meldet 8 GB und Channel Single. Großer Pfeil: ein Modul umstecken. Nachher stecken die Module in beiden blauen Plätzen; CPU-Z meldet 8 GB und Channel Dual. Merksatz: gleiche Farbe gleich Partner-Steckplatz.</title>
+<rect width="400" height="600" fill="#fff"/>
+<text x="196" y="54" font-size="18" font-weight="700">Vorher</text>
+<rect x="30" y="62" width="30" height="160" rx="3" fill="#3a6ed8"/>
+<rect x="35" y="48" width="20" height="168" rx="2" fill="#2a7f62"/>
+<rect x="39" y="60" width="12" height="22" fill="#1b1b1b"/>
+<rect x="39" y="96" width="12" height="22" fill="#1b1b1b"/>
+<rect x="39" y="132" width="12" height="22" fill="#1b1b1b"/>
+<rect x="39" y="168" width="12" height="22" fill="#1b1b1b"/>
+<rect x="76" y="62" width="30" height="160" rx="3" fill="#3a6ed8"/>
+<rect x="122" y="62" width="30" height="160" rx="3" fill="#333"/>
+<rect x="127" y="48" width="20" height="168" rx="2" fill="#2a7f62" stroke="#E07B00" stroke-width="4"/>
+<rect x="131" y="60" width="12" height="22" fill="#1b1b1b"/>
+<rect x="131" y="96" width="12" height="22" fill="#1b1b1b"/>
+<rect x="131" y="132" width="12" height="22" fill="#1b1b1b"/>
+<rect x="131" y="168" width="12" height="22" fill="#1b1b1b"/>
+<rect x="196" y="72" width="190" height="120" rx="6" fill="#fff" stroke="#555" stroke-width="2"/>
+<rect x="196" y="72" width="190" height="24" rx="6" fill="#555"/><rect x="196" y="86" width="190" height="10" fill="#555"/>
+<text x="206" y="89" font-size="13" fill="#fff" font-weight="700">CPU-Z (vereinfacht)</text>
+<text x="208" y="128" font-size="15">Größe: <tspan font-weight="700">8 GB</tspan></text>
+<text x="208" y="164" font-size="15">Channel: <tspan font-weight="700" fill="#c62828" font-size="18">Single</tspan></text>
+<path d="M137,40 Q114,4 95,34" fill="none" stroke="#E07B00" stroke-width="4"/>
+<path d="M86,28 L93,44 L102,30 Z" fill="#E07B00"/>
+<rect x="166" y="248" width="220" height="36" rx="18" fill="#E07B00"/>
+<text x="276" y="272" font-size="16" text-anchor="middle" font-weight="700" fill="#fff">ein Modul umstecken</text>
+<line x1="276" y1="286" x2="276" y2="300" stroke="#E07B00" stroke-width="5"/><path d="M264,298 L276,314 L288,298 Z" fill="#E07B00"/>
+<text x="196" y="360" font-size="18" font-weight="700">Nachher</text>
+<rect x="30" y="368" width="30" height="160" rx="3" fill="#3a6ed8"/>
+<rect x="35" y="354" width="20" height="168" rx="2" fill="#2a7f62"/>
+<rect x="39" y="366" width="12" height="22" fill="#1b1b1b"/>
+<rect x="39" y="402" width="12" height="22" fill="#1b1b1b"/>
+<rect x="39" y="438" width="12" height="22" fill="#1b1b1b"/>
+<rect x="39" y="474" width="12" height="22" fill="#1b1b1b"/>
+<rect x="76" y="368" width="30" height="160" rx="3" fill="#3a6ed8"/>
+<rect x="81" y="354" width="20" height="168" rx="2" fill="#2a7f62" stroke="#E07B00" stroke-width="4"/>
+<rect x="85" y="366" width="12" height="22" fill="#1b1b1b"/>
+<rect x="85" y="402" width="12" height="22" fill="#1b1b1b"/>
+<rect x="85" y="438" width="12" height="22" fill="#1b1b1b"/>
+<rect x="85" y="474" width="12" height="22" fill="#1b1b1b"/>
+<rect x="122" y="368" width="30" height="160" rx="3" fill="#333"/>
+<rect x="196" y="378" width="190" height="120" rx="6" fill="#fff" stroke="#555" stroke-width="2"/>
+<rect x="196" y="378" width="190" height="24" rx="6" fill="#555"/><rect x="196" y="392" width="190" height="10" fill="#555"/>
+<text x="206" y="395" font-size="13" fill="#fff" font-weight="700">CPU-Z (vereinfacht)</text>
+<text x="208" y="434" font-size="15">Größe: <tspan font-weight="700">8 GB</tspan></text>
+<text x="208" y="470" font-size="15">Channel: <tspan font-weight="700" fill="#2e7d32" font-size="18">Dual</tspan></text>
+<rect x="10" y="552" width="380" height="40" rx="8" fill="#eceff1"/>
+<rect x="24" y="562" width="14" height="20" rx="2" fill="#3a6ed8"/><rect x="42" y="562" width="14" height="20" rx="2" fill="#3a6ed8"/>
+<text x="66" y="578" font-size="15" font-weight="700">gleiche Farbe = Partner-Steckplatz</text>
+</svg>

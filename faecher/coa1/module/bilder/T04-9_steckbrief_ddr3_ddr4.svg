@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 430" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Steckbrief DDR3 und DDR4. Links Riegel DDR3: 240 Kontakte (Notebook-SO-DIMM 204), Spannung 1,5 Volt, als DDR3L 1,35 Volt, als DDR3U 1,25 Volt. Rechts Riegel DDR4: 288 Kontakte (Notebook-SO-DIMM 260), Spannung 1,2 Volt. Unten: weniger Spannung bedeutet weniger Strom und Wärme und einen längeren Akku.</title>
+<defs><marker id="p" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2e7d32"/></marker></defs>
+<rect width="400" height="430" fill="#fff"/>
+<line x1="200" y1="36" x2="200" y2="330" stroke="#ccc" stroke-width="1.5"/>
+<text x="100" y="30" text-anchor="middle" font-size="18" font-weight="700" fill="#3a6ed8">DDR3</text>
+<text x="300" y="30" text-anchor="middle" font-size="18" font-weight="700" fill="#2e7d32">DDR4</text>
+
+<!-- Riegel -->
+<path d="M15,44 H185 V100 H75 V90 H67 V100 H15 Z" fill="#2e7d32"/>
+<g fill="#1a1a1a"><rect x="24" y="52" width="22" height="24"/><rect x="54" y="52" width="22" height="24"/><rect x="84" y="52" width="22" height="24"/><rect x="114" y="52" width="22" height="24"/><rect x="144" y="52" width="22" height="24"/></g>
+<line x1="19" y1="94" x2="65" y2="94" stroke="#c9a227" stroke-width="10" stroke-dasharray="3 2"/>
+<line x1="77" y1="94" x2="181" y2="94" stroke="#c9a227" stroke-width="10" stroke-dasharray="3 2"/>
+<path d="M215,44 H385 V100 H305 V90 H297 V100 H215 Z" fill="#2e7d32"/>
+<g fill="#1a1a1a"><rect x="224" y="52" width="22" height="24"/><rect x="254" y="52" width="22" height="24"/><rect x="284" y="52" width="22" height="24"/><rect x="314" y="52" width="22" height="24"/><rect x="344" y="52" width="22" height="24"/></g>
+<line x1="219" y1="94" x2="295" y2="94" stroke="#c9a227" stroke-width="10" stroke-dasharray="3 2"/>
+<line x1="307" y1="94" x2="381" y2="94" stroke="#c9a227" stroke-width="10" stroke-dasharray="3 2"/>
+
+<!-- Zähler Kontakte -->
+<g fill="#eceff1"><rect x="35" y="112" width="130" height="72" rx="8"/><rect x="235" y="112" width="130" height="72" rx="8"/></g>
+<text x="100" y="130" text-anchor="middle" font-size="13" fill="#555">Kontakte (DIMM)</text>
+<text x="300" y="130" text-anchor="middle" font-size="13" fill="#555">Kontakte (DIMM)</text>
+<text x="100" y="158" text-anchor="middle" font-size="26" font-weight="700">240</text>
+<text x="300" y="158" text-anchor="middle" font-size="26" font-weight="700">288</text>
+<text x="100" y="177" text-anchor="middle" font-size="12" fill="#555">Notebook-SO-DIMM: 204</text>
+<text x="300" y="177" text-anchor="middle" font-size="12" fill="#555">Notebook-SO-DIMM: 260</text>
+
+<!-- Spannungsmesser -->
+<g fill="none" stroke="#555" stroke-width="3" stroke-linecap="round">
+<path d="M70,232 A30,30 0 0,1 130,232"/><path d="M270,232 A30,30 0 0,1 330,232"/>
+</g>
+<g stroke="#c62828" stroke-width="3" stroke-linecap="round"><line x1="100" y1="232" x2="116" y2="210"/><line x1="300" y1="232" x2="304" y2="206"/></g>
+<g fill="#555"><circle cx="100" cy="232" r="4"/><circle cx="300" cy="232" r="4"/></g>
+<text x="100" y="196" text-anchor="middle" font-size="13" fill="#555">Spannung</text>
+<text x="300" y="196" text-anchor="middle" font-size="13" fill="#555">Spannung</text>
+<text x="100" y="264" text-anchor="middle" font-size="22" font-weight="700">1,5 V</text>
+<text x="300" y="264" text-anchor="middle" font-size="22" font-weight="700" fill="#2e7d32">1,2 V</text>
+<text x="100" y="292" text-anchor="middle">DDR3L: 1,35 V</text>
+<text x="100" y="314" text-anchor="middle">DDR3U: 1,25 V</text>
+
+<!-- Folge weniger Spannung -->
+<line x1="300" y1="276" x2="300" y2="336" stroke="#2e7d32" stroke-width="4" marker-end="url(#p)"/>
+<rect x="10" y="346" width="380" height="76" rx="8" fill="#e3f0e9"/>
+<text x="200" y="370" text-anchor="middle" font-size="15" font-weight="700">weniger Spannung</text>
+<text x="200" y="392" text-anchor="middle" font-size="15">= weniger Strom und Wärme</text>
+<text x="200" y="412" text-anchor="middle" font-size="15">= längerer Akku</text>
+</svg>

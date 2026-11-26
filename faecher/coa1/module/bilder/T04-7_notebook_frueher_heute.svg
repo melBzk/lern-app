@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 490" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Notebook früher und heute. Oben früher: Notebook von oben, an der linken Seite Schächte (meist 2, von außen); eine Karte für Modem, UMTS, WLAN oder LAN wird hineingeschoben. Unten heute: Notebook von unten, Bodenklappe geöffnet, innen zwei M.2-Steckplätze mit einer SSD und einer WLAN-Karte; Schild: unter Abdeckung oder Boden abnehmen.</title>
+<rect width="400" height="490" fill="#fff"/>
+
+<!-- früher -->
+<text x="16" y="28" font-size="17" font-weight="700">früher</text>
+<text x="16" y="56" font-size="14">meist 2 Schächte,</text>
+<text x="16" y="74" font-size="14" font-weight="700" fill="#c62828">von außen</text>
+<line x1="125" y1="68" x2="195" y2="115" stroke="#c62828" stroke-width="2"/>
+<rect x="208" y="34" width="150" height="40" rx="4" fill="#9aa5b1"/>
+<rect x="200" y="78" width="170" height="118" rx="8" fill="#eceff1" stroke="#555" stroke-width="2"/>
+<g fill="#fff" stroke="#9aa5b1" stroke-width="1.5">
+<rect x="214" y="90" width="142" height="12" rx="2"/>
+<rect x="214" y="106" width="142" height="12" rx="2"/>
+<rect x="214" y="122" width="142" height="12" rx="2"/>
+<rect x="214" y="138" width="142" height="12" rx="2"/>
+<rect x="260" y="160" width="50" height="28" rx="3"/>
+</g>
+<line x1="200" y1="114" x2="200" y2="170" stroke="#c62828" stroke-width="6"/>
+<rect x="30" y="104" width="124" height="76" rx="5" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<text x="92" y="126" text-anchor="middle" font-size="14" font-weight="700">Modem /</text>
+<text x="92" y="146" text-anchor="middle" font-size="14" font-weight="700">UMTS /</text>
+<text x="92" y="166" text-anchor="middle" font-size="14" font-weight="700">WLAN / LAN</text>
+<line x1="158" y1="142" x2="184" y2="142" stroke="#3a6ed8" stroke-width="3"/>
+<polygon points="184,135 196,142 184,149" fill="#3a6ed8"/>
+<text x="285" y="62" text-anchor="middle" font-size="13" fill="#fff">Bildschirm</text>
+
+<line x1="8" y1="216" x2="392" y2="216" stroke="#ccc" stroke-width="1.5"/>
+
+<!-- heute -->
+<text x="16" y="246" font-size="17" font-weight="700">heute</text>
+<text x="384" y="246" text-anchor="end" font-size="13" fill="#444">Notebook von unten</text>
+<rect x="30" y="260" width="340" height="160" rx="12" fill="#eceff1" stroke="#555" stroke-width="2"/>
+<g fill="#9aa5b1"><circle cx="48" cy="278" r="6"/><circle cx="352" cy="278" r="6"/><circle cx="48" cy="402" r="6"/><circle cx="352" cy="402" r="6"/></g>
+<rect x="80" y="278" width="240" height="126" rx="4" fill="#fff" stroke="#555" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="200" y="296" text-anchor="middle" font-size="13" fill="#444">Klappe offen</text>
+<!-- M.2-Steckplatz 1: SSD -->
+<rect x="98" y="304" width="12" height="40" rx="2" fill="#555"/>
+<rect x="110" y="308" width="160" height="32" rx="3" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<rect x="111" y="310" width="6" height="28" fill="#c9a227"/>
+<circle cx="278" cy="324" r="5" fill="#9aa5b1"/>
+<text x="190" y="330" text-anchor="middle" font-size="15" font-weight="700">SSD</text>
+<!-- M.2-Steckplatz 2: WLAN -->
+<rect x="98" y="352" width="12" height="40" rx="2" fill="#555"/>
+<rect x="110" y="356" width="90" height="32" rx="3" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<rect x="111" y="358" width="6" height="28" fill="#c9a227"/>
+<circle cx="208" cy="372" r="5" fill="#9aa5b1"/>
+<text x="158" y="378" text-anchor="middle" font-size="15" font-weight="700">WLAN</text>
+<text x="300" y="368" text-anchor="end" font-size="15" font-weight="700" fill="#c62828">M.2</text>
+<text x="300" y="386" text-anchor="end" font-size="13" fill="#c62828">innen</text>
+
+<rect x="30" y="434" width="340" height="44" rx="8" fill="#eceff1"/>
+<text x="200" y="461" text-anchor="middle" font-size="15" font-weight="700">unter Abdeckung oder Boden abnehmen</text>
+</svg>

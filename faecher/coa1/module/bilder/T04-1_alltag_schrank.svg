@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Vergleich: einen Schrank umziehen. Feld 1: Eine Person misst mit dem Zollstock eine Nische und fragt: Passt er hinein? Das entspricht: Support-Liste prüfen. Feld 2: Die Person fotografiert den Schrank mit dem Handy. Das entspricht: Aufbau fotografieren. Feld 3: Schrauben fallen in eine Box. Das entspricht: Schrauben-Box. Unten: Wo der Vergleich hinkt. Ein Funke springt vom Finger auf einen Chip. Chips sterben schon an einem kleinen Funken, ca. 10 Volt reichen.</title>
+<rect width="400" height="600" fill="#fff"/>
+<text x="200" y="28" font-size="17" text-anchor="middle" font-weight="700">Wie ein Schrank-Umzug</text>
+
+<!-- Feld 1 -->
+<g transform="translate(0,44)">
+<rect x="8" y="0" width="384" height="132" rx="10" fill="#fff" stroke="#ccc" stroke-width="1.5"/>
+<circle cx="26" cy="22" r="13" fill="#3a6ed8"/><text x="26" y="27" text-anchor="middle" font-weight="700" fill="#fff">1</text>
+<rect x="132" y="22" width="14" height="100" fill="#9aa5b1"/>
+<rect x="198" y="22" width="14" height="100" fill="#9aa5b1"/>
+<rect x="132" y="22" width="80" height="12" fill="#9aa5b1"/>
+<rect x="146" y="76" width="52" height="8" fill="#f2c200" stroke="#8a6b00" stroke-width="1.5"/>
+<g stroke="#8a6b00" stroke-width="1.5"><line x1="159" y1="76" x2="159" y2="84"/><line x1="172" y1="76" x2="172" y2="84"/><line x1="185" y1="76" x2="185" y2="84"/></g>
+<rect x="46" y="8" width="122" height="24" rx="12" fill="#fff" stroke="#555" stroke-width="1.5"/>
+<path d="M78,32 L82,40 L88,32" fill="#fff" stroke="#555" stroke-width="1.5"/>
+<line x1="79" y1="32" x2="87" y2="32" stroke="#fff" stroke-width="2"/>
+<text x="107" y="25" text-anchor="middle" font-size="13">Passt er hinein?</text>
+<circle cx="90" cy="54" r="11" fill="#f2d3b3" stroke="#8a6b4b" stroke-width="1.5"/>
+<rect x="78" y="66" width="24" height="36" rx="8" fill="#3a6ed8"/>
+<g stroke="#555" stroke-width="4" stroke-linecap="round"><line x1="84" y1="102" x2="82" y2="122"/><line x1="96" y1="102" x2="98" y2="122"/></g>
+<line x1="100" y1="74" x2="146" y2="80" stroke="#f2d3b3" stroke-width="5" stroke-linecap="round"/>
+<text x="232" y="62" font-size="15" font-weight="700">Nische messen</text>
+<text x="232" y="88" font-size="15" font-weight="700" fill="#E07B00">= Support-Liste</text>
+<text x="232" y="108" font-size="15" font-weight="700" fill="#E07B00">   prüfen</text>
+</g>
+
+<!-- Feld 2 -->
+<g transform="translate(0,186)">
+<rect x="8" y="0" width="384" height="132" rx="10" fill="#fff" stroke="#ccc" stroke-width="1.5"/>
+<circle cx="26" cy="22" r="13" fill="#3a6ed8"/><text x="26" y="27" text-anchor="middle" font-weight="700" fill="#fff">2</text>
+<rect x="136" y="16" width="70" height="106" rx="3" fill="#d7b98e" stroke="#8a6b4b" stroke-width="2"/>
+<line x1="171" y1="16" x2="171" y2="122" stroke="#8a6b4b" stroke-width="2"/>
+<circle cx="165" cy="68" r="3" fill="#8a6b4b"/><circle cx="177" cy="68" r="3" fill="#8a6b4b"/>
+<circle cx="66" cy="48" r="11" fill="#f2d3b3" stroke="#8a6b4b" stroke-width="1.5"/>
+<rect x="54" y="60" width="24" height="40" rx="8" fill="#3a6ed8"/>
+<g stroke="#555" stroke-width="4" stroke-linecap="round"><line x1="60" y1="100" x2="58" y2="122"/><line x1="72" y1="100" x2="74" y2="122"/></g>
+<line x1="76" y1="70" x2="94" y2="64" stroke="#f2d3b3" stroke-width="5" stroke-linecap="round"/>
+<rect x="94" y="50" width="12" height="22" rx="2" fill="#555"/>
+<g stroke="#E07B00" stroke-width="2.5" stroke-linecap="round"><line x1="112" y1="52" x2="126" y2="44"/><line x1="112" y1="61" x2="128" y2="61"/><line x1="112" y1="70" x2="126" y2="78"/></g>
+<text x="232" y="62" font-size="15" font-weight="700">Fotos machen</text>
+<text x="232" y="88" font-size="15" font-weight="700" fill="#E07B00">= Aufbau</text>
+<text x="232" y="108" font-size="15" font-weight="700" fill="#E07B00">   fotografieren</text>
+</g>
+
+<!-- Feld 3 -->
+<g transform="translate(0,328)">
+<rect x="8" y="0" width="384" height="132" rx="10" fill="#fff" stroke="#ccc" stroke-width="1.5"/>
+<circle cx="26" cy="22" r="13" fill="#3a6ed8"/><text x="26" y="27" text-anchor="middle" font-weight="700" fill="#fff">3</text>
+<g fill="#555" stroke="#555" stroke-width="2.5" stroke-linecap="round">
+<rect x="96" y="18" width="12" height="4" rx="1"/><line x1="102" y1="22" x2="102" y2="38"/>
+<rect x="128" y="34" width="12" height="4" rx="1"/><line x1="134" y1="38" x2="134" y2="54"/>
+<rect x="158" y="22" width="12" height="4" rx="1"/><line x1="164" y1="26" x2="164" y2="42"/>
+</g>
+<g stroke="#9aa5b1" stroke-width="1.5" stroke-dasharray="3 3"><line x1="102" y1="44" x2="102" y2="74"/><line x1="134" y1="60" x2="134" y2="74"/><line x1="164" y1="48" x2="164" y2="74"/></g>
+<rect x="80" y="78" width="104" height="44" rx="4" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<text x="132" y="105" text-anchor="middle" font-size="14" font-weight="700" fill="#3a6ed8">Schrauben</text>
+<text x="232" y="62" font-size="15" font-weight="700">Schrauben</text>
+<text x="232" y="80" font-size="15" font-weight="700">sammeln</text>
+<text x="232" y="106" font-size="15" font-weight="700" fill="#E07B00">= Schrauben-Box</text>
+</g>
+
+<!-- Wo der Vergleich hinkt -->
+<g transform="translate(0,474)">
+<rect x="8" y="0" width="384" height="118" rx="10" fill="#fff3e0" stroke="#E07B00" stroke-width="2"/>
+<rect x="20" y="44" width="56" height="22" rx="11" fill="#f2d3b3" stroke="#8a6b4b" stroke-width="2"/>
+<text x="48" y="36" text-anchor="middle" font-size="13">Finger</text>
+<path d="M80,42 L98,58 L90,60 L110,76 L100,78 L124,94 L94,72 L102,70 L84,56 L92,54 Z" fill="#E07B00"/>
+<g stroke="#555" stroke-width="2"><line x1="136" y1="76" x2="136" y2="112"/><line x1="148" y1="76" x2="148" y2="112"/><line x1="160" y1="76" x2="160" y2="112"/><line x1="172" y1="76" x2="172" y2="112"/></g>
+<rect x="128" y="82" width="52" height="24" rx="3" fill="#555"/>
+<text x="154" y="99" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">Chip</text>
+<text x="196" y="30" font-size="15" font-weight="700" fill="#c62828">Wo der Vergleich</text>
+<text x="196" y="49" font-size="15" font-weight="700" fill="#c62828">hinkt:</text>
+<text x="196" y="72" font-size="14">Chips sterben schon</text>
+<text x="196" y="90" font-size="14">an einem kleinen Funken.</text>
+<text x="196" y="108" font-size="14" font-weight="700">ca. 10 V reichen</text>
+</g>
+</svg>

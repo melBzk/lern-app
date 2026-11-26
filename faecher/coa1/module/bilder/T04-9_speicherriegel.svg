@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 410" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>So sieht ein Speicherriegel aus. Oben ein langer Riegel DIMM für den Desktop-PC mit Speicherchips (DRAM), einem Etikett DDR4-3200, 8 GB, 1,2 V, goldenen Kontakten unten auf beiden Seiten, einer Kerbe, die je Generation an anderer Stelle sitzt, und seitlichen Aussparungen für die Halteklammern. Unten ein deutlich kürzerer Riegel SO-DIMM für Notebooks. Daneben ein Kasten: DIMM-Kontakte DDR3 240, DDR4 288. Maße schematisch.</title>
+<defs><marker id="p" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker></defs>
+<rect width="400" height="410" fill="#fff"/>
+<text x="20" y="26" font-size="17" font-weight="700">DIMM (Desktop-PC)</text>
+
+<!-- Beschriftungen oben -->
+<text x="20" y="52">Speicherchips (DRAM)</text>
+<line x1="60" y1="58" x2="60" y2="88" stroke="#333" stroke-width="2" marker-end="url(#p)"/>
+<text x="390" y="46" text-anchor="end">seitliche Aussparungen</text>
+<text x="390" y="62" text-anchor="end">für die Halteklammern</text>
+<line x1="356" y1="68" x2="334" y2="124" stroke="#333" stroke-width="2" marker-end="url(#p)"/>
+
+<!-- DIMM -->
+<path d="M20,80 H330 V122 H322 V138 H330 V190 H202 V174 H190 V190 H20 V138 H28 V122 H20 Z" fill="#2e7d32"/>
+<g fill="#1a1a1a"><rect x="36" y="90" width="30" height="32"/><rect x="76" y="90" width="30" height="32"/><rect x="116" y="90" width="30" height="32"/><rect x="156" y="90" width="30" height="32"/><rect x="196" y="90" width="30" height="32"/><rect x="236" y="90" width="30" height="32"/><rect x="276" y="90" width="30" height="32"/></g>
+<rect x="76" y="128" width="190" height="26" rx="3" fill="#fff"/>
+<text x="171" y="146" text-anchor="middle" font-size="14" font-weight="700">DDR4-3200 · 8 GB · 1,2 V</text>
+<line x1="28" y1="178" x2="186" y2="178" stroke="#c9a227" stroke-width="18" stroke-dasharray="4 2"/>
+<line x1="206" y1="178" x2="324" y2="178" stroke="#c9a227" stroke-width="18" stroke-dasharray="4 2"/>
+
+<!-- Beschriftungen unten -->
+<line x1="70" y1="206" x2="70" y2="190" stroke="#333" stroke-width="2" marker-end="url(#p)"/>
+<text x="20" y="222">goldene Kontakte unten –</text>
+<text x="20" y="238">auf beiden Seiten</text>
+<line x1="218" y1="206" x2="198" y2="184" stroke="#D4607A" stroke-width="2.5" marker-end="url(#p)"/>
+<text x="210" y="222" font-weight="700" fill="#D4607A">Kerbe – sitzt je Generation</text>
+<text x="210" y="238" font-weight="700" fill="#D4607A">an anderer Stelle</text>
+
+<line x1="10" y1="258" x2="390" y2="258" stroke="#ccc" stroke-width="1.5"/>
+
+<!-- SO-DIMM -->
+<text x="20" y="284" font-size="17" font-weight="700">SO-DIMM (Notebook)</text>
+<path d="M20,296 H180 V318 H174 V330 H180 V366 H118 V352 H108 V366 H20 V330 H26 V318 H20 Z" fill="#2e7d32"/>
+<g fill="#1a1a1a"><rect x="36" y="304" width="28" height="30"/><rect x="74" y="304" width="28" height="30"/><rect x="112" y="304" width="28" height="30"/></g>
+<line x1="26" y1="356" x2="106" y2="356" stroke="#c9a227" stroke-width="16" stroke-dasharray="4 2"/>
+<line x1="120" y1="356" x2="176" y2="356" stroke="#c9a227" stroke-width="16" stroke-dasharray="4 2"/>
+<text x="20" y="390">kürzer – passt nicht</text>
+<text x="20" y="406">in einen DIMM-Steckplatz</text>
+
+<!-- Infokasten -->
+<rect x="214" y="290" width="176" height="86" rx="8" fill="#eceff1"/>
+<text x="302" y="314" text-anchor="middle" font-size="14" fill="#444">DIMM-Kontakte:</text>
+<text x="302" y="340" text-anchor="middle" font-size="16" font-weight="700" fill="#3a6ed8">DDR3: 240</text>
+<text x="302" y="364" text-anchor="middle" font-size="16" font-weight="700" fill="#2e7d32">DDR4: 288</text>
+<text x="390" y="404" text-anchor="end" font-size="13" fill="#555">Maße schematisch</text>
+</svg>

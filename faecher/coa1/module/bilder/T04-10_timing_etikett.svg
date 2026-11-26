@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 536" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Die Timing-Angabe lesen. Oben das Etikett eines RAM-Riegels: DDR3-2133 CL11-11-11. Darunter Stelle für Stelle: DDR3 ist die Generation. 2133 ist die Bezeichnung, also die Datenrate. Die erste 11 ist die CL: Takte vom Lesebefehl, bis die Daten da sind. Die zweite 11 ist tRCD: warten, bis nach dem Öffnen einer Speicherreihe gelesen werden darf. Die dritte 11 ist tRP: warten, bis die nächste Reihe geöffnet werden darf. Fußzeile: Alle Zahlen sind Takte; kleiner ist schneller, bei gleichem Typ und gleichem Takt.</title>
+<rect width="400" height="536" fill="#fff"/>
+<text x="16" y="26" font-size="17" font-weight="700">Die Timing-Angabe lesen</text>
+
+<!-- Etikett -->
+<rect x="10" y="40" width="380" height="84" rx="4" fill="#2e7d32"/>
+<rect x="22" y="52" width="356" height="60" rx="4" fill="#fff" stroke="#555" stroke-width="1.5"/>
+<g font-size="24" font-weight="700" text-anchor="middle">
+<text x="64" y="91">DDR3</text>
+<text x="110" y="91" fill="#888">-</text>
+<text x="150" y="91">2133</text>
+<text x="222" y="91" fill="#c62828">CL11</text>
+<text x="263" y="91" fill="#888">-</text>
+<text x="290" y="91">11</text>
+<text x="317" y="91" fill="#888">-</text>
+<text x="344" y="91">11</text>
+</g>
+<text x="16" y="144" font-size="13" fill="#555">Stelle für Stelle:</text>
+
+<!-- Zeile 1 -->
+<rect x="20" y="152" width="86" height="40" rx="6" fill="#eceff1"/>
+<text x="63" y="179" text-anchor="middle" font-size="20" font-weight="700">DDR3</text>
+<text x="120" y="178" font-weight="700">Generation</text>
+
+<!-- Zeile 2 -->
+<rect x="20" y="206" width="86" height="40" rx="6" fill="#eceff1"/>
+<text x="63" y="233" text-anchor="middle" font-size="20" font-weight="700">2133</text>
+<text x="120" y="222" font-weight="700">Bezeichnung</text>
+<text x="120" y="240" font-size="13">(Datenrate, siehe T04-9)</text>
+
+<!-- Zeile 3: CL -->
+<rect x="20" y="260" width="86" height="40" rx="6" fill="#c62828"/>
+<text x="63" y="287" text-anchor="middle" font-size="20" font-weight="700" fill="#fff">CL11</text>
+<text x="120" y="276"><tspan font-weight="700" fill="#c62828">CL:</tspan> Takte vom Lesebefehl,</text>
+<text x="120" y="294">bis die Daten da sind</text>
+
+<!-- Zeile 4: tRCD -->
+<rect x="20" y="322" width="86" height="40" rx="6" fill="#eceff1"/>
+<text x="63" y="349" text-anchor="middle" font-size="20" font-weight="700">11</text>
+<text x="120" y="338"><tspan font-weight="700">tRCD:</tspan> warten, bis nach dem</text>
+<text x="120" y="356">Öffnen einer Speicherreihe</text>
+<text x="120" y="374">gelesen werden darf</text>
+
+<!-- Zeile 5: tRP -->
+<rect x="20" y="394" width="86" height="40" rx="6" fill="#eceff1"/>
+<text x="63" y="421" text-anchor="middle" font-size="20" font-weight="700">11</text>
+<text x="120" y="410"><tspan font-weight="700">tRP:</tspan> warten, bis die nächste</text>
+<text x="120" y="428">Reihe geöffnet werden darf</text>
+
+<!-- Fußzeile -->
+<rect x="12" y="452" width="376" height="76" rx="8" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<text x="200" y="476" text-anchor="middle" font-weight="700">Alle Zahlen = Takte</text>
+<text x="200" y="497" text-anchor="middle" font-weight="700" fill="#c62828">kleiner = schneller</text>
+<text x="200" y="516" text-anchor="middle" font-size="13">(bei gleichem Typ und gleichem Takt)</text>
+</svg>

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 440" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Alltagsvergleich Küche. Links ein gedrucktes Kochbuch mit Schloss: ROM, nur lesen, das Rezept steht fest; die aufgeschlagene Seite heißt „So startet die Küche“ und ist mit „= BIOS“ markiert. Rechts ein Whiteboard am Kühlschrank mit Stift und Schwamm und einer halb abgewischten Einkaufsliste: RAM, schreiben, wischen, neu schreiben. Unten ein Herd mit Topf: der Prozessor arbeitet mit beidem. Vom Kochbuch führt ein Pfeil nur zum Herd (lesen), zwischen Whiteboard und Herd ein Doppelpfeil (lesen und schreiben).</title>
+<rect width="400" height="440" fill="#fff"/>
+<text x="16" y="26" font-size="17" font-weight="700">Kochbuch und Whiteboard</text>
+
+<!-- Kochbuch (aufgeschlagen) -->
+<path d="M14,70 L100,80 L100,180 L14,170 Z" fill="#fffdf5" stroke="#555" stroke-width="2"/>
+<path d="M186,70 L100,80 L100,180 L186,170 Z" fill="#fffdf5" stroke="#555" stroke-width="2"/>
+<text x="24" y="100" font-size="13" font-weight="700">So startet</text>
+<text x="24" y="117" font-size="13" font-weight="700">die Küche</text>
+<g stroke="#9aa5b1" stroke-width="2"><path d="M24,132 H88 M24,144 H84 M24,156 H80 M112,104 H176 M112,116 H174 M112,128 H172 M112,140 H170 M112,152 H168"/></g>
+<rect x="44" y="160" width="54" height="20" rx="4" fill="#c62828"/>
+<text x="71" y="175" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">= BIOS</text>
+<!-- Schloss -->
+<path d="M150,64 V56 A9,9 0 0 1 168,56 V64" fill="none" stroke="#555" stroke-width="3.5"/>
+<rect x="144" y="64" width="30" height="22" rx="3" fill="#555"/>
+<circle cx="159" cy="74" r="3" fill="#fff"/>
+<text x="100" y="208" text-anchor="middle" font-weight="700">ROM: nur lesen</text>
+<text x="100" y="226" text-anchor="middle" font-size="13">das Rezept steht fest</text>
+
+<!-- Kühlschrank mit Whiteboard -->
+<rect x="218" y="42" width="168" height="152" rx="8" fill="#eceff1" stroke="#555" stroke-width="2"/>
+<rect x="222" y="54" width="6" height="40" rx="3" fill="#9aa5b1"/>
+<rect x="238" y="52" width="136" height="108" rx="3" fill="#fff" stroke="#3a6ed8" stroke-width="2"/>
+<text x="248" y="74" font-size="13" font-weight="700" fill="#3a6ed8">Einkauf:</text>
+<text x="248" y="94" font-size="14" fill="#3a6ed8">Milch</text>
+<text x="248" y="114" font-size="14" fill="#3a6ed8">Eier</text>
+<text x="248" y="134" font-size="14" fill="#3a6ed8" opacity="0.3">Mehl</text>
+<path d="M244,128 C270,122 290,140 320,126" fill="none" stroke="#fff" stroke-width="6" opacity="0.8"/>
+<!-- Stift + Schwamm -->
+<rect x="250" y="168" width="44" height="9" rx="4" fill="#3a6ed8"/>
+<path d="M294,168 L304,172.5 L294,177 Z" fill="#3a6ed8"/>
+<rect x="320" y="164" width="40" height="18" rx="4" fill="#f9a825" stroke="#555" stroke-width="1.5"/>
+<text x="302" y="214" text-anchor="middle" font-weight="700">RAM: schreiben,</text>
+<text x="302" y="232" text-anchor="middle" font-size="13">wischen, neu schreiben</text>
+
+<!-- Pfeile zum Herd -->
+<line x1="110" y1="244" x2="150" y2="294" stroke="#555" stroke-width="3"/>
+<polygon points="156,302 143,296 154,288" fill="#555"/>
+<text x="76" y="276" text-anchor="middle" font-size="13" fill="#555">lesen</text>
+<line x1="296" y1="250" x2="256" y2="294" stroke="#3a6ed8" stroke-width="3"/>
+<polygon points="250,301 252,287 262,296" fill="#3a6ed8"/>
+<polygon points="302,243 290,247 300,256" fill="#3a6ed8"/>
+<text x="330" y="274" font-size="13" fill="#3a6ed8" text-anchor="middle">lesen +</text>
+<text x="330" y="290" font-size="13" fill="#3a6ed8" text-anchor="middle">schreiben</text>
+
+<!-- Herd mit Topf -->
+<path d="M160,300 H240 V306 H160 Z" fill="#555"/>
+<path d="M166,306 H234 L230,344 H170 Z" fill="#9aa5b1" stroke="#555" stroke-width="2"/>
+<rect x="120" y="344" width="160" height="50" rx="5" fill="#eceff1" stroke="#555" stroke-width="2"/>
+<circle cx="150" cy="380" r="5" fill="#555"/><circle cx="250" cy="380" r="5" fill="#555"/>
+<text x="200" y="420" text-anchor="middle" font-weight="700" fill="#c62828">Prozessor arbeitet mit beidem</text>
+</svg>

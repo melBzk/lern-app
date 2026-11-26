@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Klemmbrett mit einer Checkliste für den Support, daneben ein Headset. 1 Was wurde zuletzt verändert? 2 Wann tritt der Fehler auf: vor dem Bild, in Windows oder unter Last? 3 Zuletzt Eingebautes prüfen: richtig eingerastet? Passt es zu den anderen? 4 RAM mit MemTest86 testen.</title>
+<rect width="400" height="600" fill="#fff"/>
+<text x="16" y="30" font-size="17" font-weight="700">Supportfall: systematisch vorgehen</text>
+
+<!-- Headset -->
+<path d="M318,90 A32,32 0 0 1 382,90" fill="none" stroke="#555" stroke-width="5"/>
+<rect x="308" y="84" width="16" height="30" rx="6" fill="#555"/>
+<rect x="376" y="84" width="16" height="30" rx="6" fill="#555"/>
+<path d="M316,112 C316,132 330,138 346,138" fill="none" stroke="#555" stroke-width="3.5"/>
+<circle cx="350" cy="138" r="5" fill="#555"/>
+<text x="350" y="166" text-anchor="middle" font-size="13" fill="#555">Support</text>
+
+<!-- Klemmbrett -->
+<rect x="14" y="56" width="284" height="530" rx="10" fill="#C8A26B"/>
+<rect x="26" y="72" width="260" height="502" rx="4" fill="#fff"/>
+<rect x="110" y="46" width="92" height="30" rx="6" fill="#777"/>
+<rect x="138" y="52" width="36" height="10" rx="4" fill="#fff"/>
+
+<!-- Punkt 1 -->
+<rect x="38" y="96" width="22" height="22" rx="4" fill="#fff" stroke="#555" stroke-width="2"/>
+<circle cx="49" cy="107" r="0"/>
+<text x="68" y="113" font-weight="700" font-size="15"><tspan fill="#c62828">1</tspan> Was wurde</text>
+<text x="68" y="133" font-weight="700" font-size="15">zuletzt verändert?</text>
+<text x="68" y="155" font-size="13" fill="#555">= erster Verdacht</text>
+
+<line x1="38" y1="174" x2="274" y2="174" stroke="#ddd" stroke-width="1.5"/>
+
+<!-- Punkt 2 -->
+<rect x="38" y="190" width="22" height="22" rx="4" fill="#fff" stroke="#555" stroke-width="2"/>
+<text x="68" y="207" font-weight="700" font-size="15"><tspan fill="#c62828">2</tspan> Wann tritt der</text>
+<text x="68" y="227" font-weight="700" font-size="15">Fehler auf?</text>
+<g font-size="14">
+<circle cx="76" cy="248" r="3.5" fill="#222"/><text x="86" y="253">vor dem Bild (Piepen)</text>
+<circle cx="76" cy="272" r="3.5" fill="#222"/><text x="86" y="277">in Windows (RAM fehlt)</text>
+<circle cx="76" cy="296" r="3.5" fill="#222"/><text x="86" y="301">unter Last (Absturz)</text>
+</g>
+
+<line x1="38" y1="320" x2="274" y2="320" stroke="#ddd" stroke-width="1.5"/>
+
+<!-- Punkt 3 -->
+<rect x="38" y="336" width="22" height="22" rx="4" fill="#fff" stroke="#555" stroke-width="2"/>
+<text x="68" y="353" font-weight="700" font-size="15"><tspan fill="#c62828">3</tspan> Zuletzt Eingebautes</text>
+<text x="68" y="373" font-weight="700" font-size="15">prüfen:</text>
+<g font-size="14">
+<circle cx="76" cy="394" r="3.5" fill="#222"/><text x="86" y="399">richtig eingerastet?</text>
+<circle cx="76" cy="418" r="3.5" fill="#222"/><text x="86" y="423">passt es zu den</text>
+<text x="86" y="441">anderen Modulen?</text>
+</g>
+
+<line x1="38" y1="462" x2="274" y2="462" stroke="#ddd" stroke-width="1.5"/>
+
+<!-- Punkt 4 -->
+<rect x="38" y="478" width="22" height="22" rx="4" fill="#fff" stroke="#555" stroke-width="2"/>
+<text x="68" y="495" font-weight="700" font-size="15"><tspan fill="#c62828">4</tspan> RAM testen:</text>
+<text x="68" y="517">mit MemTest86</text>
+
+<text x="156" y="556" text-anchor="middle" font-size="13" fill="#555">prüfen statt raten</text>
+</svg>

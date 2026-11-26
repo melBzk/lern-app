@@ -1,15 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 340" font-family="system-ui, sans-serif" fill="#222">
-<title>Ausgangslage Praxisfall: Ein Datenblatt für Arbeitsspeicher mit Takt 3200 MHz und 64 Datenleitungen. Gesucht sind Bit pro Sekunde und Byte pro Sekunde, beide noch mit Fragezeichen.</title>
+<title>Ausgangslage Praxisfall: Ein Datenblatt für Arbeitsspeicher DDR4-3200 mit 3200 Millionen Übertragungen pro Sekunde und 64 Datenleitungen. Gesucht sind Bit pro Sekunde und Byte pro Sekunde, beide noch mit Fragezeichen.</title>
 <rect width="400" height="340" fill="#fff"/>
 <text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">Das Datenblatt der Kollegin</text>
 <!-- Blatt -->
 <path d="M50,44 h250 l40,40 v170 h-290 Z" fill="#fff" stroke="#555" stroke-width="2"/>
 <path d="M300,44 v40 h40" fill="#f4f1ee" stroke="#555" stroke-width="2"/>
-<text x="70" y="76" font-size="16" font-weight="700">Arbeitsspeicher</text>
+<text x="70" y="76" font-size="15" font-weight="700">Arbeitsspeicher DDR4-3200</text>
 <line x1="70" y1="88" x2="290" y2="88" stroke="#ccc" stroke-width="2"/>
-<text x="70" y="122" font-size="15" fill="#555">Takt</text>
-<rect x="180" y="102" width="140" height="30" rx="6" fill="#fdf0e0" stroke="#E07B00" stroke-width="2"/>
-<text x="250" y="123" text-anchor="middle" font-size="16" font-weight="700">3200 MHz</text>
+<text x="70" y="122" font-size="15" fill="#555">Übertragungen/s</text>
+<rect x="190" y="102" width="130" height="30" rx="6" fill="#fdf0e0" stroke="#E07B00" stroke-width="2"/>
+<text x="255" y="123" text-anchor="middle" font-size="16" font-weight="700">3200 Mio.</text>
 <text x="70" y="166" font-size="15" fill="#555">Datenleitungen</text>
 <rect x="180" y="146" width="140" height="30" rx="6" fill="#fdecea" stroke="#c62828" stroke-width="2"/>
 <text x="250" y="167" text-anchor="middle" font-size="16" font-weight="700">64</text>

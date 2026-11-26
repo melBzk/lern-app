@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 580" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Oben drei RAM-Riegel nebeneinander: Modul 1 und 2 sind gleich, gleiche Daten. Modul 3 ist neu und andersfarbig: andere Eigenschaften, zum Beispiel Timings. Darunter eine Kurve der Speicherlast über die Zeit: im Büroalltag niedrig, alles läuft, grünes Häkchen. Beim Spiel steigt die Last stark, dann wird auch Modul 3 stark genutzt – an der Spitze ein Blitz und ein Neustart-Pfeil: Absturz.</title>
+<defs>
+<marker id="k" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker>
+<g id="chips"><rect x="10" y="14" width="40" height="20" fill="#222"/><rect x="10" y="46" width="40" height="20" fill="#222"/><rect x="10" y="78" width="40" height="20" fill="#222"/><rect x="10" y="110" width="40" height="20" fill="#222"/></g>
+</defs>
+<rect width="400" height="580" fill="#fff"/>
+<text x="200" y="26" font-size="17" font-weight="700" text-anchor="middle">Drittes Modul – Abstürze unter Last</text>
+
+<!-- Riegel stehend -->
+<g>
+<rect x="40" y="48" width="60" height="150" rx="3" fill="#2e7d32"/><use href="#chips" x="40" y="48"/><rect x="40" y="186" width="60" height="12" fill="#D4A017"/>
+<rect x="130" y="48" width="60" height="150" rx="3" fill="#2e7d32"/><use href="#chips" x="130" y="48"/><rect x="130" y="186" width="60" height="12" fill="#D4A017"/>
+<rect x="260" y="48" width="60" height="150" rx="3" fill="#E07B00"/><use href="#chips" x="260" y="48"/><rect x="260" y="186" width="60" height="12" fill="#D4A017"/>
+</g>
+<g font-weight="700" fill="#fff" text-anchor="middle" font-size="13"><text x="70" y="44" fill="#222">1</text><text x="160" y="44" fill="#222">2</text><text x="290" y="44" fill="#222">3 · neu</text></g>
+<!-- Klammer unter 1+2 -->
+<path d="M40,210 L40,220 L190,220 L190,210" fill="none" stroke="#2e7d32" stroke-width="2.5"/>
+<text x="115" y="242" text-anchor="middle" font-weight="700" fill="#2e7d32">gleiche Daten</text>
+<path d="M260,210 L260,220 L320,220 L320,210" fill="none" stroke="#E07B00" stroke-width="2.5"/>
+<text x="290" y="242" text-anchor="middle" font-weight="700" fill="#E07B00">andere</text>
+<text x="290" y="260" text-anchor="middle" font-weight="700" fill="#E07B00">Eigenschaften</text>
+<text x="290" y="278" text-anchor="middle" font-size="13" fill="#E07B00">(z. B. Timings)</text>
+
+<!-- Diagramm -->
+<text x="20" y="314" font-weight="700" font-size="15">Speicherlast</text>
+<line x1="40" y1="530" x2="40" y2="326" stroke="#222" stroke-width="2.5" marker-end="url(#k)"/>
+<line x1="40" y1="530" x2="384" y2="530" stroke="#222" stroke-width="2.5" marker-end="url(#k)"/>
+<text x="384" y="550" text-anchor="end" font-size="13" fill="#555">Zeit</text>
+<!-- Schwelle -->
+<line x1="40" y1="430" x2="380" y2="430" stroke="#E07B00" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="48" y="406" font-size="12" font-weight="700" fill="#E07B00">viel Last:</text>
+<text x="48" y="422" font-size="12" font-weight="700" fill="#E07B00">auch Modul 3 stark genutzt</text>
+<!-- Kurve -->
+<path d="M42,494 C70,488 90,500 112,492 C134,484 150,498 172,490 C196,482 206,488 222,470 C240,448 250,410 266,380 L276,362" fill="none" stroke="#3a6ed8" stroke-width="4" stroke-linecap="round"/>
+<!-- Bereiche -->
+<text x="110" y="470" text-anchor="middle" font-weight="700">Büro</text>
+<circle cx="110" cy="514" r="0" fill="none"/>
+<circle cx="160" cy="462" r="12" fill="#2e7d32"/><path d="M154,462 l4,5 l8,-10" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="250" y="514" text-anchor="middle" font-weight="700">Spiel</text>
+<!-- Blitz -->
+<path d="M282,330 L268,362 L280,362 L270,392 L298,352 L285,352 L296,330 Z" fill="#c62828"/>
+<!-- Neustart-Pfeil -->
+<path d="M336,372 A16,16 0 1 1 328,358" fill="none" stroke="#c62828" stroke-width="3.5"/>
+<path d="M334.5,363.2 L323,365 L329.5,352.6 Z" fill="#c62828"/>
+<text x="330" y="408" text-anchor="middle" font-weight="700" fill="#c62828" font-size="15">Absturz</text>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Verwechslung: ExpressCard, M.2 oder PCIe-Steckplatz? Links ExpressCard: Karte wird seitlich außen ins Notebook geschoben, Grabstein – veraltet. Mitte M.2: kleine Platine flach innen auf dem Board, in Notebook und PC, aktuell. Rechts PCIe-Steckplatz: lange Grafikkarte im Desktop-PC, aktuell. Darunter ein gemeinsames Band: alle können PCI Express nutzen (ExpressCard auch USB, M.2 auch SATA).</title>
+<rect width="400" height="300" fill="#fff"/>
+<line x1="134" y1="12" x2="134" y2="208" stroke="#ccc" stroke-width="1.5"/>
+<line x1="266" y1="12" x2="266" y2="208" stroke="#ccc" stroke-width="1.5"/>
+
+<!-- ExpressCard -->
+<text x="67" y="28" text-anchor="middle" font-size="15" font-weight="700">ExpressCard</text>
+<rect x="12" y="62" width="50" height="22" rx="3" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<polygon points="40,66 52,73 40,80" fill="#3a6ed8"/>
+<rect x="58" y="46" width="70" height="54" rx="5" fill="#9aa5b1"/>
+<text x="93" y="78" text-anchor="middle" font-size="13" fill="#fff">Notebook</text>
+<path d="M52,148 V124 A15,15 0 0,1 82,124 V148 Z" fill="#cfd8dc" stroke="#555" stroke-width="2"/>
+<path d="M67,116 V138 M60,124 H74" stroke="#555" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="44" y1="148" x2="90" y2="148" stroke="#555" stroke-width="3"/>
+<text x="67" y="172" text-anchor="middle" font-size="13">außen am Notebook</text>
+<text x="67" y="194" text-anchor="middle" font-size="14" font-weight="700" fill="#c62828">veraltet</text>
+
+<!-- M.2 -->
+<text x="200" y="28" text-anchor="middle" font-size="15" font-weight="700">M.2</text>
+<rect x="144" y="46" width="112" height="100" rx="5" fill="#eceff1" stroke="#555" stroke-width="2"/>
+<rect x="152" y="84" width="10" height="28" rx="2" fill="#555"/>
+<rect x="162" y="88" width="76" height="20" rx="2" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<rect x="163" y="90" width="5" height="16" fill="#c9a227"/>
+<circle cx="245" cy="98" r="4" fill="#9aa5b1"/>
+<text x="200" y="134" text-anchor="middle" font-size="13" fill="#444">Board</text>
+<text x="200" y="166" text-anchor="middle" font-size="13">innen, flach</text>
+<text x="200" y="182" text-anchor="middle" font-size="13">Notebook und PC</text>
+<text x="200" y="202" text-anchor="middle" font-size="14" font-weight="700" fill="#2e7d32">aktuell</text>
+
+<!-- PCIe-Steckplatz -->
+<text x="333" y="22" text-anchor="middle" font-size="15" font-weight="700">PCIe-</text>
+<text x="333" y="39" text-anchor="middle" font-size="15" font-weight="700">Steckplatz</text>
+<rect x="282" y="62" width="104" height="54" rx="3" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<circle cx="322" cy="89" r="15" fill="none" stroke="#3a6ed8" stroke-width="2.5"/>
+<path d="M322,89 L322,77 M322,89 L332,95 M322,89 L312,95" stroke="#3a6ed8" stroke-width="2.5" stroke-linecap="round"/>
+<rect x="290" y="116" width="88" height="8" fill="#555"/>
+<rect x="272" y="124" width="120" height="12" rx="2" fill="#eceff1" stroke="#555" stroke-width="2"/>
+<text x="333" y="166" text-anchor="middle" font-size="13">Desktop-PC,</text>
+<text x="333" y="182" text-anchor="middle" font-size="13">z. B. Grafikkarte</text>
+<text x="333" y="202" text-anchor="middle" font-size="14" font-weight="700" fill="#2e7d32">aktuell</text>
+
+<!-- gemeinsames Band -->
+<rect x="12" y="222" width="376" height="44" rx="10" fill="#3a6ed8"/>
+<text x="200" y="250" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">alle können PCI Express nutzen</text>
+<text x="200" y="288" text-anchor="middle" font-size="13" fill="#444">(ExpressCard auch USB, M.2 auch SATA)</text>
+</svg>
