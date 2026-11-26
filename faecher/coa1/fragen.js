@@ -3468,6 +3468,17 @@ const fragen = FRAGEN_A.map(Q => zuordnen(Q, ERLAUBT_A[Q.d], Q.d))
   .concat(FRAGEN_T1.map(Q => ({ ...Q, hd: "lm-" + Q.m })))
   .concat(FRAGEN_T3.map(Q => ({ ...Q, hd: "lm-" + Q.m })));
 
+// Symbole je Thema (Übersichtlichkeit in den Listen)
+const ikonen = {
+  2:"🧩", 3:"🧠", 5:"🗃️", 9:"🔌", 10:"💽", 11:"🖱️", 13:"🔧", 14:"🚀", 15:"🪟", 16:"💿", 17:"🌐", 19:"💾", 21:"🛡️",
+  90:"🔄", 91:"🔢", 92:"📡",
+  101:"💻", 102:"🗂️", 103:"⌨️", 104:"🔌", 105:"🎮", 106:"📠", 107:"🖨️", 108:"🧊", 109:"📺", 110:"🖥️",
+  111:"🔊", 112:"🪑", 113:"🌍", 114:"📶", 115:"⚙️", 116:"🧮",
+  201:"🎛️", 202:"🔗", 203:"📦", 204:"🧩", 205:"🚦", 206:"🧷", 207:"🔲", 208:"🏭", 209:"⏱️", 210:"💽",
+  211:"0️⃣", 212:"📏", 213:"🔋",
+  301:"⏳", 302:"🏷️", 303:"📋", 304:"👯", 305:"⚡", 306:"🪜", 307:"📚", 308:"🏃", 309:"🪆", 310:"📊",
+  311:"🛠️", 312:"🔁", 313:"⚡", 316:"❄️", 317:"🔐", 314:"💡", 315:"🔦"
+};
 const buch = Object.keys(themen).map(Number).filter(d => d < 90);
 registerFach({
   id: "coa1",
@@ -3475,6 +3486,7 @@ registerFach({
   langname: "PC-Technik",
   bereich: "Vorbereitungskurs",
   themen,
+  ikonen,
   fragen,
   gruppen: [
     ["Buchkapitel (PC-Technik – Grundlagen)", buch],

@@ -55,6 +55,13 @@ function modulZuThema(f, d) {
   const Q = ALL.find(Q => Q.fach === f.id && Q.d === +d && Q.m);
   return Q ? modulById(f.id, Q.m) : null;
 }
+// Symbol eines Themas (aus ikonen im Fach) bzw. eines Lernmoduls (über sein Quiz-Thema)
+const ikon = (f, d) => (f.ikonen || {})[d] || "📖";
+function modulIkon(m) {
+  const f = fachById(m.fach), Q = f && ALL.find(Q => Q.fach === m.fach && Q.m === m.nr);
+  return f && Q ? ikon(f, Q.d) : "📖";
+}
+const ikonHtml = i => `<div class="ikon" aria-hidden="true">${i}</div>`;
 const minuten = m => Math.max(3, Math.round(m.karten.length * 0.6)); // ca. 35 s je Karte
 
 const app = document.getElementById("app");
@@ -416,7 +423,7 @@ function themenListe(f, ds) {
     const ts = stats(themaFragen(f, d));
     const mod = modulZuThema(f, d);
     const lese = mod ? (gelesen(mod) ? "🃏 gelesen ✓ · " : '<span class="hl">🃏 noch lesen</span> · ') : "";
-    return `<div class="row" data-d="${d}">
+    return `<div class="row" data-d="${d}">${ikonHtml(ikon(f, d))}
       <div class="name">${esc(f.themen[d])}${mod && mod.extra ? ' <span class="pill extra">💡 Extra</span>' : ""}${ts.weak ? ' <span class="pill">⚠ üben</span>' : ""}
         <div class="meta">${lese}${ts.total} Fragen · ${ts.seen} gesehen · ${ts.mastered} sicher${ts.due ? ` · <span class="hl">${ts.due} fällig</span>` : ""}</div>
         <div class="bar"><div class="fill" style="width:${pct(ts.mastered, ts.total)}%"></div></div>
@@ -502,7 +509,6 @@ function mixQuiz(f) {
 
 // ---------- Lesen: alle Lernkarten-Themen eines Fachs zum freien Auswählen ----------
 const fachModule = f => MODULE.filter(m => m.fach === f.id);
-const ersteBild = m => (m.md.match(/!\[[^\]]*\]\(([^)\s]+)\)/) || [])[1];
 // Lernmodule nach Unterrichtstag gruppieren (neuester oben); Module ohne Tag → „Weitere Themen“
 function modulGruppen(f) {
   const alle = fachModule(f), genutzt = new Set();
@@ -518,9 +524,7 @@ function modulGruppen(f) {
 function modulZeile(m) {
   const r = state.read[modulKey(m)] || {};
   const status = r.fertig ? "✓ gelesen" : r.karte ? `▶ weiter bei Karte ${r.karte + 1}` : m.extra ? "freiwillig" : '<span class="hl">● neu</span>';
-  const bild = ersteBild(m);
-  return `<div class="row lese${m.extra ? " extra-modul" : ""}" data-nr="${esc(m.nr)}">
-    ${bild ? `<img class="thumb" src="${esc(bild)}" alt="" loading="lazy">` : `<div class="thumb leer">📖</div>`}
+  return `<div class="row lese${m.extra ? " extra-modul" : ""}" data-nr="${esc(m.nr)}">${ikonHtml(modulIkon(m))}
     <div class="name"><b>${m.extra ? "" : m.reihenfolge + ". "}${esc(m.titel)}</b>${m.extra ? ' <span class="pill extra">💡 Extra</span>' : ""}
       <div class="meta">${status} · ${m.karten.length} Karten · ca. ${minuten(m)} Min.</div></div>
     <div class="chev">›</div></div>`;

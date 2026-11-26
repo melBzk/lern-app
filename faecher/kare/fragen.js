@@ -440,6 +440,7 @@ registerFach({
   langname: "Kaufmännisches Rechnen",
   bereich: "Vorbereitungskurs",
   themen: DAYS,
+  ikonen: {1:"➗",2:"🔀",3:"⛓️",4:"💱",5:"⚖️",6:"🧪",7:"🍰",8:"💯",9:"🧾"},
   fragen: QUESTIONS,
   // Lernzettel: welches Kapitel (## Nummer) der Wissensbasis gehört zu welchem Thema
   wissensbasis: "faecher/kare/wissensbasis.md",

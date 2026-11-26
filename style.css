@@ -254,6 +254,9 @@ h2.heute{font-size:17px;margin:14px 0 8px;}
 /* Themenliste mit Vorschaubild */
 .row.lese .thumb{flex:none;width:64px;height:64px;border-radius:10px;object-fit:contain;background:#fff;border:1px solid var(--line);}
 .row.lese .thumb.leer{display:flex;align-items:center;justify-content:center;font-size:26px;}
+/* Themen-Symbol links in jeder Themenzeile */
+.row .ikon{flex:none;width:44px;height:44px;border-radius:12px;background:var(--bg);display:flex;align-items:center;justify-content:center;font-size:24px;line-height:1;}
+.row.lese.extra-modul .ikon,.row .ikon.extra{opacity:.7;filter:grayscale(.4);}
 .row.lese .name b{font-weight:600;}
 .hinweis{margin:4px 4px 12px;}
 
