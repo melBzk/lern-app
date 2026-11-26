@@ -818,7 +818,7 @@ registerFach({
   langname: "Wirtschafts- und Sozialkunde",
   bereich: "Vorbereitungskurs",
   themen: DAYS,
-  ikonen: {1:"🏪",2:"🔄",3:"🔷",4:"🧭",6:"📈",7:"🏦",8:"🚢",9:"📝"},
+  ikonen: Object.fromEntries(Object.keys(DAYS).map(d => [d, "ikonen/wiso-" + d + ".svg"])),
   fragen: QUESTIONS,
   // Lernzettel: welches Kapitel (## Nummer) der Wissensbasis gehört zu welchem Thema
   wissensbasis: "faecher/wiso/wissensbasis.md",

@@ -650,7 +650,7 @@ registerFach({
     96: "Grammatik · Lückensätze (Texteingabe)",
     97: "Übersetzen Deutsch → Englisch (Texteingabe)"
   },
-  ikonen: { 1:"🏢", 2:"🧑‍💻", 3:"💾", 4:"📨", 7:"🤝", 11:"😟", 111:"🌐", [TRAINER_D]:"🎯", [VOKABEL_D]:"🔤", 96:"✏️", 97:"🇬🇧" },
+  ikonen: { 1:"ikonen/ite1-1.svg", 2:"ikonen/ite1-2.svg", 3:"ikonen/ite1-3.svg", 4:"ikonen/ite1-4.svg", 7:"ikonen/ite1-7.svg", 11:"ikonen/ite1-11.svg", 111:"ikonen/ite1-111.svg", [TRAINER_D]:"ikonen/ite1-trainer.svg", [VOKABEL_D]:"ikonen/ite1-vokabeln.svg", 96:"ikonen/ite1-96.svg", 97:"ikonen/ite1-97.svg" },
   fragen,
   wissensbasis: "faecher/ite1/wissensbasis.md",
   // Kapitel der Lernübersicht (## Nummer) je Thema

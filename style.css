@@ -271,10 +271,9 @@ h2.heute{font-size:17px;margin:14px 0 8px;}
   content:"💡 Extra";display:inline-block;margin-left:6px;font-size:11px;font-weight:600;color:#5b6472;background:#e5e7eb;border-radius:20px;padding:0 7px;}
 .extra-legende{margin:-4px 6px 10px;}
 
-/* Symbolleiste je Unterrichtstag (Fachseite): jedes Symbol öffnet die Lernkarten */
-.ikonleiste{display:flex;flex-wrap:wrap;gap:6px;padding:0 0 12px;border-bottom:1px solid var(--line);}
-.ikonleiste:last-child{border-bottom:0;}
-.ikonleiste button{position:relative;width:40px;height:40px;border:1px solid var(--line);border-radius:10px;background:var(--bg);font-size:21px;line-height:1;padding:0;cursor:pointer;}
-.ikonleiste button.gelesen::after{content:"✓";position:absolute;right:-4px;bottom:-4px;width:16px;height:16px;border-radius:50%;background:var(--ok);color:#fff;font-size:10px;line-height:16px;}
-.ikonleiste button.extra{opacity:.55;filter:grayscale(.4);border-style:dashed;}
-.row:has(+ .ikonleiste){border-bottom:0;padding-bottom:8px;}
+/* eigene Symbole (SVG) */
+.row .ikon img{width:32px;height:32px;display:block;}
+.ik-klein{width:22px;height:22px;vertical-align:-5px;margin-right:2px;}
+.btn.primary .ik-klein{background:#fff;border-radius:6px;padding:1px;}
+summary .ikon{flex:none;width:44px;height:44px;border-radius:12px;background:var(--bg);display:flex;align-items:center;justify-content:center;font-size:24px;}
+summary .ikon img{width:32px;height:32px;display:block;}

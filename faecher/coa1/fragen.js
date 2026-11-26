@@ -3468,17 +3468,8 @@ const fragen = FRAGEN_A.map(Q => zuordnen(Q, ERLAUBT_A[Q.d], Q.d))
   .concat(FRAGEN_T1.map(Q => ({ ...Q, hd: "lm-" + Q.m })))
   .concat(FRAGEN_T3.map(Q => ({ ...Q, hd: "lm-" + Q.m })));
 
-// Symbole je Thema (Übersichtlichkeit in den Listen)
-const ikonen = {
-  2:"🧩", 3:"🧠", 5:"🗃️", 9:"🔌", 10:"💽", 11:"🖱️", 13:"🔧", 14:"🚀", 15:"🪟", 16:"💿", 17:"🌐", 19:"💾", 21:"🛡️",
-  90:"🔄", 91:"🔢", 92:"📡",
-  101:"💻", 102:"🗂️", 103:"⌨️", 104:"🔌", 105:"🎮", 106:"📠", 107:"🖨️", 108:"🧊", 109:"📺", 110:"🖥️",
-  111:"🔊", 112:"🪑", 113:"🌍", 114:"📶", 115:"⚙️", 116:"🧮",
-  201:"🎛️", 202:"🔗", 203:"📦", 204:"🧩", 205:"🚦", 206:"🧷", 207:"🔲", 208:"🏭", 209:"⏱️", 210:"💽",
-  211:"0️⃣", 212:"📏", 213:"🔋",
-  301:"⏳", 302:"🏷️", 303:"📋", 304:"👯", 305:"⚡", 306:"🪜", 307:"📚", 308:"🏃", 309:"🪆", 310:"📊",
-  311:"🛠️", 312:"🔁", 313:"🔌", 316:"❄️", 317:"🔐", 314:"💡", 315:"🔦"
-};
+// Symbole je Thema: eigene Zeichnungen (werkzeuge/IKONEN.md), Datei ikonen/coa1-<d>.svg
+const ikonen = Object.fromEntries(Object.keys(themen).map(d => [d, "ikonen/coa1-" + d + ".svg"]));
 const buch = Object.keys(themen).map(Number).filter(d => d < 90);
 registerFach({
   id: "coa1",
@@ -3494,9 +3485,9 @@ registerFach({
   ],
   // Themenblöcke laut Rotem Faden: Quiz und Lernzettel über mehrere Themen
   bloecke: [
-    { name: "Tag 1 · Computersystem, EVA, Ein- und Ausgabegeräte", datum: "23.11.", themen: LM_TAG1 },
-    { name: "Tag 2 · Mainboard, CPU, Speichermedien, Binärzahlen", datum: "24.11.", themen: LM_TAG2 },
-    { name: "Tag 3 · Mikroprozessor: Kerne, Takt, Cache, CISC/RISC, Virtualisierung, Leistung, Kühlung, Chip-Technik", datum: "25.11.", themen: LM_TAG3 }
+    { name: "Tag 1 · Computersystem, EVA, Ein- und Ausgabegeräte", datum: "23.11.", themen: LM_TAG1, ikon: "ikonen/coa1-tag1.svg" },
+    { name: "Tag 2 · Mainboard, CPU, Speichermedien, Binärzahlen", datum: "24.11.", themen: LM_TAG2, ikon: "ikonen/coa1-tag2.svg" },
+    { name: "Tag 3 · Mikroprozessor: Kerne, Takt, Cache, CISC/RISC, Virtualisierung, Leistung, Kühlung, Chip-Technik", datum: "25.11.", themen: LM_TAG3, ikon: "ikonen/coa1-tag3.svg" }
   ],
   wissensbasis: "faecher/coa1/wissensbasis.md",
   // Kapitel der Wissensbasis (## Nummer) = Buchkapitel; Lernmodule (Themen ab 100) bekommen keinen Eintrag
