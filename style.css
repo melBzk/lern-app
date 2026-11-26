@@ -256,3 +256,14 @@ h2.heute{font-size:17px;margin:14px 0 8px;}
 .row.lese .thumb.leer{display:flex;align-items:center;justify-content:center;font-size:26px;}
 .row.lese .name b{font-weight:600;}
 .hinweis{margin:4px 4px 12px;}
+
+/* Kern vor Extra: Zusatzwissen sichtbar absetzen */
+.pill.extra{background:#eef0f3;color:#5b6472;}
+.row.lese.extra-modul .thumb{opacity:.75;}
+.extra-kopf{margin:14px 0 2px;padding:10px 12px;border-radius:10px;background:#f3f4f6;font-weight:700;font-size:14px;color:#4b5563;}
+.extra-kopf .meta{margin-top:2px;}
+.extra-hinweis{margin:0 0 8px;padding:8px 12px;border-radius:10px;background:#f3f4f6;color:#4b5563;font-size:14px;}
+.lernkarte .extra, #sheet-body .extra{color:#6b7280;background:#f6f7f9;border-left:3px dashed #b8bec8;padding:4px 8px;border-radius:4px;}
+.lernkarte p.extra::after, .lernkarte li.extra::after, #sheet-body p.extra::after, #sheet-body li.extra::after{
+  content:"💡 Extra";display:inline-block;margin-left:6px;font-size:11px;font-weight:600;color:#5b6472;background:#e5e7eb;border-radius:20px;padding:0 7px;}
+.extra-legende{margin:-4px 6px 10px;}

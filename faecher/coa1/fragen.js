@@ -1245,7 +1245,7 @@ const FRAGEN_E = [
   { d:203, m:"T02-3", lv:3, q:"Ein Kunde hat ein ATX-Gehäuse (Midi Tower) und möchte ein Mini-ITX-Board einbauen. Was sagst du?",
     o:["Das geht meist – ein kleineres Board passt ins größere ATX-Gehäuse","Das geht nie – Formfaktor und Gehäuse müssen exakt gleich heißen","Das geht nur mit einem E-ATX-Netzteil","Das geht nur im 19-Zoll-Rack"],
     e:"Größer in kleiner geht nie, kleiner in größer meist. Laut Buch passt Mini-ITX auch ins ATX-Gehäuse und läuft mit ATX-Netzteil.", s:"Buch S. 23–24" },
-  { d:203, m:"T02-3", lv:3, t:"calc", q:"Wie viele Zentimeter breit sind 19 Zoll? (1 Zoll = 2,54 cm, zwei Nachkommastellen)",
+  { d:203, m:"T02-3", lv:3, t:"calc", extra:true, q:"Wie viele Zentimeter breit sind 19 Zoll? (1 Zoll = 2,54 cm, zwei Nachkommastellen)",
     a:48.26, tol:0.005, unit:"cm",
     e:"19 × 2,54 cm = 48,26 cm. So breit ist ein 19-Zoll-Rack.", s:"Buch S. 25 · Ergänzung" },
 
@@ -3438,16 +3438,16 @@ const themen = {
   312: "12. Die Auslagerungsdatei – virtueller Arbeitsspeicher",
   313: "13. Externe Schnittstellen vertieft – Legacy, USB-Strom, Thunderbolt (Selbststudium)",
   316: "14. Prozessorkühlung vertieft – Luft, Heatpipe, lüfterlos, Wasser (Selbststudium)",
-  314: "15. Chips der Zukunft – Rechnen mit Licht (Hintergrund)",
-  315: "16. Wie Chips gedruckt werden – EUV-Lithografie und ASML (Hintergrund)",
-  317: "17. Besondere Ausstattungsmerkmale – Optane, vPro/AMT, AMD PRO, Betriebsmodi (Selbststudium)"
+  314: "Extra: Chips der Zukunft – Rechnen mit Licht (Hintergrund)",
+  315: "Extra: Wie Chips gedruckt werden – EUV-Lithografie und ASML (Hintergrund)",
+  317: "15. Besondere Ausstattungsmerkmale – Optane, vPro/AMT, AMD PRO, Betriebsmodi (Selbststudium)"
 };
 // Reihenfolge = Lernreihenfolge (siehe Gerüst Tag01.md); T01-16 setzt T02-11/T02-12 voraus
 const LM_TAG1 = [101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116];
 // Reihenfolge = Lernreihenfolge (Grundlagen zuerst, siehe Gerüst Tag02.md), nicht Kennung
 const LM_TAG2 = [211, 212, 210, 204, 205, 206, 207, 208, 209, 213, 203, 201, 202];
 // Reihenfolge = Lernreihenfolge (siehe Gerüst Tag03.md); T03-3 ist Synthese aus T03-4/-5/-6/-9
-const LM_TAG3 = [301, 302, 306, 304, 305, 307, 308, 309, 303, 310, 311, 312, 313, 316, 314, 315, 317];
+const LM_TAG3 = [301, 302, 306, 304, 305, 307, 308, 309, 303, 310, 311, 312, 313, 316, 317, 314, 315];
 // Buchseiten → Kapitel (Startseite je Kapitel laut Inhaltsverzeichnis)
 const KAP_START = [[2,5],[3,31],[4,48],[5,55],[6,65],[7,71],[8,84],[9,94],[10,101],[11,112],[12,125],
   [13,136],[14,146],[15,166],[16,178],[17,184],[18,195],[19,205],[20,218],[21,225],[22,234]];

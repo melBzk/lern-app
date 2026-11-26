@@ -17,7 +17,15 @@ const ALL = []; // alle Fragen aller Fächer
 const AKTUELL = ["coa1"];
 // Ältere Fragen, deren Inhalt jetzt in geprüften Lernkarten steckt, tragen archiv:true.
 // Sie kommen nicht mehr in „Heute lernen“, gemischte Runden oder Block-Quizze, bleiben aber unter „Archiv“ übbar.
-const aktiv = Q => !Q.archiv;
+// Kern vor Extra: Kern = Buch, Roter Faden/Unterricht, Mitschrift dazu. Extra = Zusatzwissen (freiwillig) –
+// kommt nicht in „Wiederholen“, gemischte Runden, Tages-Quiz oder den Fortschritt, bleibt aber im Thema übbar.
+const aktiv = Q => !Q.archiv && !istExtra(Q);
+function istExtra(Q) {
+  if (Q._extra !== undefined) return Q._extra;
+  const s = Q.s || "", m = Q.m && modulById(Q.fach, Q.m);
+  return (Q._extra = !!(Q.extra || (m && m.extra) ||
+    (/^(Ergänzung|Selbstlernauftrag)/.test(s) && !/Buch|Unterricht|Mitschrift|Übung/.test(s))));
+}
 
 function registerFach(f) {
   f.fragen.forEach(Q => {
@@ -117,10 +125,10 @@ let state = load();
 const gelesen = m => !!(state.read[modulKey(m)] || {}).fertig;
 // Neue Fragen eines Lernmoduls erst, wenn das Modul gelesen ist (erst verstehen, dann abfragen)
 const neuErlaubt = Q => !Q.m || !modulById(Q.fach, Q.m) || gelesen(modulById(Q.fach, Q.m));
-// Nächstes ungelesenes Lernmodul (Fächer in Kursreihenfolge, innerhalb in Lernreihenfolge)
+// Nächstes ungelesenes Lernmodul (Fächer in Kursreihenfolge, innerhalb in Lernreihenfolge) – nur Kern, Extra ist freiwillig
 function naechstesModul(fid) {
   const reihe = FAECHER.map(f => f.id).filter(id => !fid || id === fid);
-  return reihe.flatMap(id => MODULE.filter(m => m.fach === id)).find(m => !gelesen(m)) || null;
+  return reihe.flatMap(id => MODULE.filter(m => m.fach === id && !m.extra)).find(m => !gelesen(m)) || null;
 }
 function save() { localStorage.setItem(STORE_KEY, JSON.stringify(state)); }
 
@@ -409,7 +417,7 @@ function themenListe(f, ds) {
     const mod = modulZuThema(f, d);
     const lese = mod ? (gelesen(mod) ? "🃏 gelesen ✓ · " : '<span class="hl">🃏 noch lesen</span> · ') : "";
     return `<div class="row" data-d="${d}">
-      <div class="name">${esc(f.themen[d])}${ts.weak ? ' <span class="pill">⚠ üben</span>' : ""}
+      <div class="name">${esc(f.themen[d])}${mod && mod.extra ? ' <span class="pill extra">💡 Extra</span>' : ""}${ts.weak ? ' <span class="pill">⚠ üben</span>' : ""}
         <div class="meta">${lese}${ts.total} Fragen · ${ts.seen} gesehen · ${ts.mastered} sicher${ts.due ? ` · <span class="hl">${ts.due} fällig</span>` : ""}</div>
         <div class="bar"><div class="fill" style="width:${pct(ts.mastered, ts.total)}%"></div></div>
       </div><div class="chev">›</div></div>`;
@@ -455,7 +463,7 @@ function fachView(f) {
       <p class="muted">Lernkarten und Quiz zu jedem Unterrichtstag, der neueste oben.</p>
       ${f.bloecke.slice().reverse().map(b => {
         const i = f.bloecke.indexOf(b), bs = stats(blockFragen(f, b));
-        const bm = b.themen.map(d => modulZuThema(f, d)).filter(Boolean);
+        const alleBm = b.themen.map(d => modulZuThema(f, d)).filter(Boolean), bm = alleBm.filter(m => !m.extra);
         return `<div class="row" data-b="${i}">
           <div class="name">${esc(b.name)}${bs.weak ? ' <span class="pill">⚠ üben</span>' : ""}
             <div class="meta">${esc(b.datum || "")} · 📖 ${bm.filter(gelesen).length}/${bm.length} Themen gelesen · 🧠 ${bs.total} Fragen, ${bs.mastered} sicher</div>
@@ -501,22 +509,25 @@ function modulGruppen(f) {
   const gr = (f.bloecke || []).map(b => {
     const ms = b.themen.map(d => modulZuThema(f, d)).filter(Boolean);
     ms.forEach(m => genutzt.add(m));
-    return { name: b.name, datum: b.datum, module: ms };
-  }).filter(g => g.module.length).reverse();
+    return { name: b.name, datum: b.datum, module: ms.filter(m => !m.extra), extra: ms.filter(m => m.extra) };
+  }).filter(g => g.module.length + g.extra.length).reverse();
   const rest = alle.filter(m => !genutzt.has(m));
-  if (rest.length) gr.push({ name: "Weitere Themen", module: rest });
+  if (rest.length) gr.push({ name: "Weitere Themen", module: rest.filter(m => !m.extra), extra: rest.filter(m => m.extra) });
   return gr;
 }
 function modulZeile(m) {
   const r = state.read[modulKey(m)] || {};
-  const status = r.fertig ? "✓ gelesen" : r.karte ? `▶ weiter bei Karte ${r.karte + 1}` : '<span class="hl">● neu</span>';
+  const status = r.fertig ? "✓ gelesen" : r.karte ? `▶ weiter bei Karte ${r.karte + 1}` : m.extra ? "freiwillig" : '<span class="hl">● neu</span>';
   const bild = ersteBild(m);
-  return `<div class="row lese" data-nr="${esc(m.nr)}">
+  return `<div class="row lese${m.extra ? " extra-modul" : ""}" data-nr="${esc(m.nr)}">
     ${bild ? `<img class="thumb" src="${esc(bild)}" alt="" loading="lazy">` : `<div class="thumb leer">📖</div>`}
-    <div class="name"><b>${m.reihenfolge}. ${esc(m.titel)}</b>
+    <div class="name"><b>${m.extra ? "" : m.reihenfolge + ". "}${esc(m.titel)}</b>${m.extra ? ' <span class="pill extra">💡 Extra</span>' : ""}
       <div class="meta">${status} · ${m.karten.length} Karten · ca. ${minuten(m)} Min.</div></div>
     <div class="chev">›</div></div>`;
 }
+// Extra-Themen eines Tages als eigener, klar abgesetzter Abschnitt
+const extraBlock = ms => ms.length ? `<div class="extra-kopf">💡 Extra-Wissen – freiwillig
+  <div class="meta">Nicht aus Buch oder Unterricht. Gut zum Verstehen, aber kein Kernstoff für die Klausur.</div></div>${ms.map(modulZeile).join("")}` : "";
 function lesenView(f) {
   setTitle(f.name + " · Lesen", "Lernkarten");
   const gruppen = modulGruppen(f);
@@ -528,7 +539,7 @@ function lesenView(f) {
         <div class="meta">${g.datum ? esc(g.datum) + " · " : ""}${g.module.filter(gelesen).length}/${g.module.length} gelesen</div>
         <div class="bar"><div class="fill" style="width:${pct(g.module.filter(gelesen).length, g.module.length)}%"></div></div>
       </div><div class="chev">›</div></summary>
-      ${g.module.map(modulZeile).join("")}
+      ${g.module.map(modulZeile).join("")}${extraBlock(g.extra)}
     </details>`).join("")}`;
   app.querySelectorAll("details.group").forEach(el => el.ontoggle = () => {
     el.open ? openGroups.add(el.dataset.g) : openGroups.delete(el.dataset.g);
@@ -585,7 +596,8 @@ function blockView(f, i) {
   const ts = stats(list);
   const wrong = list.filter(isWrongLast);
   const [kurz, ...rest] = b.name.split("·");
-  const blockModule = b.themen.map(d => modulZuThema(f, d)).filter(Boolean);
+  const alleModule = b.themen.map(d => modulZuThema(f, d)).filter(Boolean);
+  const blockModule = alleModule.filter(m => !m.extra), extraModule = alleModule.filter(m => m.extra);
   const naechstes = blockModule.find(m => !gelesen(m));
   setTitle(f.name + " · " + kurz.trim() + (b.datum ? " (" + b.datum + ")" : ""), rest.join("·").trim() || kurz.trim());
   app.innerHTML = `
@@ -601,7 +613,7 @@ function blockView(f, i) {
       <button class="btn ghost" id="all">🧠 Alle ${ts.total} Fragen üben</button>
       ${wrong.length ? `<button class="btn dark" id="wrong">🧠 Nur Fehler üben <small>${wrong.length} Fragen</small></button>` : ""}
     </div>
-    ${blockModule.length ? `<div class="card"><h2>📖 Themen zum Lesen</h2><p class="muted">Frei wählbar – antippen zum Lesen.</p>${blockModule.map(modulZeile).join("")}</div>
+    ${blockModule.length ? `<div class="card"><h2>📖 Themen zum Lesen</h2><p class="muted">Frei wählbar – antippen zum Lesen.</p>${blockModule.map(modulZeile).join("")}${extraBlock(extraModule)}</div>
     <div class="card"><h2>🧠 Quiz je Thema</h2>${themenListe(f, b.themen)}</div>`
     : `<div class="card"><h2>Themen in diesem Block</h2>${themenListe(f, b.themen)}</div>`}`;
   on("quiz", () => {
@@ -669,6 +681,16 @@ function karteHtml(text) {
   return `<span class="kartentyp">${esc(KARTENTYP[m[1].trim()] || m[1].trim())}</span>
     <h2 class="kartentitel">${inline(m[2])}</h2>${markdown(lines.slice(1).join("\n"))}`;
 }
+// Absätze/Listenpunkte mit dem Quellenzeichen 〔💡 Extra …〕 als „Extra“ kennzeichnen.
+// Nur ausdrücklich markierte – 💡 allein heißt oft nur „einfache eigene Erklärung eines Kernbegriffs“.
+function markiereExtra(root) {
+  let n = 0;
+  root.querySelectorAll("p, li").forEach(el => {
+    const q = [...el.querySelectorAll(":scope > .qz, :scope > strong .qz, :scope > em .qz")].map(s => s.textContent);
+    if (q.some(t => /💡\s*Extra/.test(t))) { el.classList.add("extra"); n++; }
+  });
+  return n;
+}
 
 function kartenView(m) {
   const key = modulKey(m);
@@ -680,11 +702,13 @@ function kartenView(m) {
   const zeige = () => {
     r.karte = i; save();
     const letzte = i === m.karten.length - 1;
-    setTitle(`Lernkarten · ${m.reihenfolge}. Thema`, m.titel);
+    setTitle(m.extra ? "Lernkarten · 💡 Extra-Thema" : `Lernkarten · ${m.reihenfolge}. Thema`, m.titel);
     document.body.classList.toggle("quellen", !!state.prefs.quellen);
     app.innerHTML = `
       <div class="progress"><div class="bar"><div class="fill" style="width:${pct(i + 1, m.karten.length)}%"></div></div>${i + 1}/${m.karten.length}</div>
+      ${m.extra ? `<div class="extra-hinweis">💡 <b>Extra-Wissen</b> – freiwillig, nicht aus Buch oder Unterricht.</div>` : ""}
       <div class="card lernkarte md" id="karte">${karteHtml(m.karten[i])}</div>
+      <p class="extra-legende muted klein" hidden>💡 Grau markiert = Extra-Wissen (Ergänzung zum Verstehen, kein Kernstoff).</p>
       ${letzte ? `<div class="card">
         <h2>🎉 Geschafft!</h2>
         <p class="muted">Jetzt gleich abfragen – das festigt das Gelesene am stärksten.</p>
@@ -699,6 +723,7 @@ function kartenView(m) {
         <button class="btn ${letzte ? "ghost" : "primary"}" id="weiter" ${letzte ? "disabled" : ""}>Weiter ›</button>
       </div>`;
     window.scrollTo(0, 0);
+    if (!m.extra && markiereExtra(document.getElementById("karte"))) app.querySelector(".extra-legende").hidden = false;
     if (letzte && !r.fertig) { r.fertig = today(); save(); }
     on("vor", () => { if (i > 0) { i--; zeige(); } });
     on("weiter", () => { if (i < m.karten.length - 1) { i++; zeige(); } });
@@ -734,6 +759,7 @@ function openModul(m, Q) {
   const body = document.getElementById("sheet-body");
   document.body.classList.toggle("quellen", !!state.prefs.quellen);
   body.innerHTML = m.karten.map(karteHtml).join("<hr>");
+  if (!m.extra) markiereExtra(body);
   sheet.hidden = false;
   document.body.style.overflow = "hidden";
   sheet.scrollTop = 0;
@@ -787,7 +813,7 @@ function quizView() {
   app.innerHTML = `
     <div class="progress"><div class="bar"><div class="fill" style="width:${pct(done, S.total)}%"></div></div>${done}/${S.total}</div>
     <div class="card">
-      <span class="tag">${FAECHER.length > 1 ? esc(f.name) + " · " : ""}${esc(themaName(Q))}${repeat ? " · Nochmal" : ""}</span>
+      <span class="tag">${FAECHER.length > 1 ? esc(f.name) + " · " : ""}${esc(themaName(Q))}${repeat ? " · Nochmal" : ""}${istExtra(Q) ? " · 💡 Extra" : ""}</span>
       ${Q.kontext ? `<div class="kontext">${show(Q, Q.kontext)}</div>` : ""}
       ${Q.img ? `<img class="qimg" src="${esc(Q.img)}" alt="Bild zur Frage">` : ""}
       <p class="q">${show(Q, Q.q)}</p>
