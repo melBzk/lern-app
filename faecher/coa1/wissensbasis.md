@@ -1411,4 +1411,5 @@ Touchscreen (und Headset) sind **Ein- und Ausgabegerät** zugleich.
 - **Aufrüsten (T04-11):** paarweise/Kit, gleiche Module; Dual Channel = je ein Modul pro Kanal (Steckplätze laut Handbuch, z. B. A2+B2). Langsameres Modul bremst alle. 32-Bit-Windows nutzt nur ca. 3–3,5 GB (Microsoft).
 
 ### Offene Punkte Tag 4
-- Lösung Quiz Q2 (RAM-Typ) fehlt; Nachmittag 26.11. (weitere Quizfragen, Gruppenarbeit „billigster PC“) als Nachzügler.
+- Quiz „Fragen zu CPU und RAM“ (Q1–Q20) mit Lösungsblatt nachgereicht (27.11.): Q2 = **D** (ob das System die Menge verwalten kann; „SDRAM“ = DDR3-SDRAM) 〔🎯 QL〕. Lösungsblatt-Fehler Q11: nur „Zwischenspeicher für Befehle und Daten“ richtig 〔📘 B S. 6〕. Q20: Lüfterkabel **und** Paste laut Blatt (Lüfter vergessen → Start bricht ab; Paste vergessen → startet, schaltet heiß ab). Adressbus im Quiz = CPU ↔ MCC (Speichercontroller) 〔📘 B S. 7, 10〕. Core i3 (Intel) passt nie in FM2+/AM3+ (AMD) 〔📘 B S. 10, 17〕.
+- Nachzügler weiter offen: Gruppenarbeit „billigster PC“, Endfassung Mitschrift.
