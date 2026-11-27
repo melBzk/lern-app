@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 470" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
-<title>Fünf Begriffskärtchen. Kompatibilität: zwei Puzzleteile greifen ineinander. Komponentenliste: Zettel mit den Spalten Teil, Fundort, Preis. Datenblatt: Steckbrief des Herstellers zu einem Bauteil mit Maßen, Anschlüssen und Leistungswerten, als Beispiel ein Gehäuse-Datenblatt mit „passt: Mini-ITX, microATX, ATX“. Mindestanforderungen: Spielpackung mit Häkchenliste „mind.“. PC-Konfigurator: Browserfenster mit Baukasten, rot durchgestrichen, im Auftrag verboten.</title>
-<rect width="400" height="470" fill="#fff"/>
-<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">Die 5 neuen Wörter</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 472" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Vier neue Begriffe und ein Verbot. Kompatibilität: zwei Puzzleteile greifen ineinander. Komponentenliste: Zettel mit den Spalten Teil, Fundort, Preis. Datenblatt: Steckbrief des Herstellers zu einem Bauteil mit Maßen, Anschlüssen und Leistungswerten, als Beispiel ein Gehäuse-Datenblatt mit „passt: Mini-ITX, microATX, ATX“. Mindestanforderungen: Spielpackung mit Häkchenliste „mind.“. PC-Konfigurator: Browserfenster mit Baukasten, rot durchgestrichen, im Auftrag verboten.</title>
+<rect width="400" height="472" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">4 neue Wörter + 1 Verbot</text>
 
 <!-- Karte 1: Kompatibilität -->
 <rect x="10" y="42" width="185" height="140" rx="10" fill="#eceff1"/>
@@ -43,7 +43,7 @@
 <text x="102" y="430" text-anchor="middle" font-size="14" font-weight="700">Mindest-</text>
 <text x="102" y="448" text-anchor="middle" font-size="14" font-weight="700">anforderungen</text>
 
-<!-- Karte 5: PC-Konfigurator -->
+<!-- Karte 5: PC-Konfigurator (Verbot) -->
 <rect x="205" y="322" width="185" height="140" rx="10" fill="#eceff1"/>
 <rect x="240" y="334" width="115" height="70" rx="4" fill="#fff" stroke="#555" stroke-width="2"/>
 <line x1="240" y1="348" x2="355" y2="348" stroke="#555" stroke-width="2"/>

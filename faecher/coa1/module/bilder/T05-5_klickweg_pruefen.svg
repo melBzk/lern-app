@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 560" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Schematischer Klickweg zur Fehlerüberprüfung, von oben nach unten: 1 Windows-Explorer öffnen. 2 Unter Dieser PC das Laufwerk mit rechts anklicken. 3 Eigenschaften wählen. 4 Register Tools, dann Prüfen. 5 Laufwerk scannen, oder abbrechen, wenn Windows meldet, dass keine Prüfung nötig ist. Daneben eine Sanduhr: bei großen Platten dauert es sehr lange.</title>
+<defs>
+<marker id="k" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker>
+</defs>
+<rect width="400" height="560" fill="#fff"/>
+<text x="200" y="26" font-size="17" font-weight="700" text-anchor="middle">Fehlerüberprüfung – der Klickweg</text>
+
+<!-- 1 -->
+<circle cx="24" cy="70" r="11" fill="#222"/><text x="24" y="75" text-anchor="middle" fill="#fff" font-weight="700" font-size="13">1</text>
+<rect x="44" y="48" width="290" height="44" rx="8" fill="#eceff1" stroke="#555" stroke-width="1.5"/>
+<path d="M58,62 h10 l4,4 h16 v16 h-30 z" fill="#F2B100"/>
+<text x="100" y="76" font-weight="700">Explorer öffnen</text>
+<line x1="189" y1="92" x2="189" y2="116" stroke="#222" stroke-width="2.5" marker-end="url(#k)"/>
+
+<!-- 2 -->
+<circle cx="24" cy="142" r="11" fill="#222"/><text x="24" y="147" text-anchor="middle" fill="#fff" font-weight="700" font-size="13">2</text>
+<rect x="44" y="118" width="290" height="50" rx="8" fill="#eceff1" stroke="#555" stroke-width="1.5"/>
+<rect x="56" y="132" width="32" height="20" rx="3" fill="#9aa5ad" stroke="#555" stroke-width="1.5"/><circle cx="81" cy="142" r="2.5" fill="#2e7d32"/>
+<text x="100" y="138">Dieser PC:</text>
+<text x="100" y="158" font-weight="700">Laufwerk rechtsklicken</text>
+<line x1="189" y1="168" x2="189" y2="192" stroke="#222" stroke-width="2.5" marker-end="url(#k)"/>
+
+<!-- 3 -->
+<circle cx="24" cy="216" r="11" fill="#222"/><text x="24" y="221" text-anchor="middle" fill="#fff" font-weight="700" font-size="13">3</text>
+<rect x="44" y="194" width="290" height="44" rx="8" fill="#eceff1" stroke="#555" stroke-width="1.5"/>
+<text x="100" y="222" font-weight="700">Eigenschaften</text>
+<line x1="189" y1="238" x2="189" y2="262" stroke="#222" stroke-width="2.5" marker-end="url(#k)"/>
+
+<!-- 4 -->
+<circle cx="24" cy="288" r="11" fill="#222"/><text x="24" y="293" text-anchor="middle" fill="#fff" font-weight="700" font-size="13">4</text>
+<rect x="44" y="264" width="290" height="50" rx="8" fill="#eceff1" stroke="#555" stroke-width="1.5"/>
+<text x="100" y="284">Register <tspan font-weight="700">Tools</tspan></text>
+<text x="100" y="304">→ <tspan font-weight="700">Prüfen</tspan></text>
+<line x1="189" y1="314" x2="189" y2="338" stroke="#222" stroke-width="2.5" marker-end="url(#k)"/>
+
+<!-- 5 -->
+<circle cx="24" cy="366" r="11" fill="#c62828"/><text x="24" y="371" text-anchor="middle" fill="#fff" font-weight="700" font-size="13">5</text>
+<rect x="44" y="340" width="290" height="52" rx="8" fill="#fdecea" stroke="#c62828" stroke-width="2"/>
+<text x="100" y="372" font-weight="700" fill="#c62828" font-size="15">Laufwerk scannen</text>
+
+<!-- Sanduhr -->
+<g transform="translate(348,340)">
+<rect x="0" y="0" width="34" height="6" fill="#222"/><rect x="0" y="46" width="34" height="6" fill="#222"/>
+<path d="M4,6 L30,6 L17,26 L30,46 L4,46 L17,26 Z" fill="#fff" stroke="#222" stroke-width="2"/>
+<path d="M9,10 L25,10 L17,22 Z" fill="#F2B100"/><path d="M17,34 L26,44 L8,44 Z" fill="#F2B100"/>
+</g>
+<text x="380" y="414" text-anchor="end" font-size="13" font-weight="700">große Platten =</text>
+<text x="380" y="432" text-anchor="end" font-size="13" font-weight="700">sehr lange</text>
+
+<!-- Hinweis -->
+<rect x="44" y="460" width="336" height="80" rx="8" fill="#fff" stroke="#9aa5ad" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="58" y="486" font-size="13" fill="#444">Meldet Windows „keine Prüfung nötig“:</text>
+<text x="58" y="506" font-size="13" fill="#444">abbrechen – oder trotzdem</text>
+<text x="58" y="526" font-size="13" fill="#444"><tspan font-weight="700">Laufwerk scannen</tspan>.</text>
+<line x1="70" y1="392" x2="70" y2="456" stroke="#9aa5ad" stroke-width="1.5" stroke-dasharray="4 3"/>
+</svg>

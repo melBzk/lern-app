@@ -1412,4 +1412,18 @@ Touchscreen (und Headset) sind **Ein- und Ausgabegerät** zugleich.
 
 ### Offene Punkte Tag 4
 - Quiz „Fragen zu CPU und RAM“ (Q1–Q20) mit Lösungsblatt nachgereicht (27.11.): Q2 = **D** (ob das System die Menge verwalten kann; „SDRAM“ = DDR3-SDRAM) 〔🎯 QL〕. Lösungsblatt-Fehler Q11: nur „Zwischenspeicher für Befehle und Daten“ richtig 〔📘 B S. 6〕. Q20: Lüfterkabel **und** Paste laut Blatt (Lüfter vergessen → Start bricht ab; Paste vergessen → startet, schaltet heiß ab). Adressbus im Quiz = CPU ↔ MCC (Speichercontroller) 〔📘 B S. 7, 10〕. Core i3 (Intel) passt nie in FM2+/AM3+ (AMD) 〔📘 B S. 10, 17〕.
-- Nachzügler weiter offen: Gruppenarbeit „billigster PC“, Endfassung Mitschrift.
+- Gruppenarbeit „billigster PC“: Besprechung am 27.11. ausgewertet (T04-3 Richtlinien, T05-8). Endfassung Mitschrift 26.11. weiter offen.
+
+## Tag 5 · 27.11.2026 – Massenspeicher: Datenschutz, Speicherkarten, Festplatte (Buch Kap. 10.1–10.3, S. 101–104; Kap. 13.5/13.6; S. 218)
+- **Daten schützen (T05-1):** Offline-Sicherung außer Haus (Brand/Wasser), Kriterien Kapazität, Tempo, Haltbarkeit, Datensicherheit (Buch S. 101). BitLocker verschlüsselt ganze Laufwerke, Wiederherstellungsschlüssel oft im Microsoft-Konto; Microsoft kann ihn nicht neu erstellen (Microsoft Learn/Support, abgerufen 27.11.). BitLocker ≠ Datensicherung.
+- **Speicherkarten (T05-2):** Bauform (SD/microSD), Kapazitätsklasse SD ≤ 2 GB, SDHC ≤ 32 GB, SDXC ≤ 2 TB, Tempo-Klasse Class 10 = mind. 10 MB/s schreiben (SD Association; ⚠ Buch S. 102 nennt SD/SDHC/SDXC „Geschwindigkeiten“). Flash: Floating Gate hält Ladung ohne Strom (Buch S. 57); Schreiben blockweise, langsamer als Lesen (S. 105).
+- **HDD von innen (T05-3):** ≥ 1 Platte, je Oberfläche ein Kopf, Arm um Armlager/Armmotor, Bits als Magnetisierung; Köpfe auf **Luftpolster, kein Vakuum** (Buch S. 102–103). Platine außen (Controller); Überspannung zerstört sie → USV.
+- **Spuren/Sektoren/Cluster (T05-4):** Sektor meist 512 Byte; Kapazität = Köpfe × Zylinder × Sektoren × 512 (Buchbeispiel 7,87 GiB). Cluster = Zuordnungseinheit, eine Datei je Cluster → Verschnitt (37,4 KB belegen 128 KB). Klassisch CHS: Spuren ab 0 (außen), Sektoren ab 1.
+- **Formatieren/Prüfen (T05-5):** Schnellformatierung legt nur neues Dateisystem an (HDD: Daten bleiben), vollständige schreibt Nullen (ab Vista); chkdsk /f /r /x, logische vs. physikalische Fehler (Buch S. 218). Weitergeben: HDD ganz überschreiben, SSD Secure Erase (BSI).
+- **Datenblatt (T05-6):** Drehzahl (5400/7200/10 000/15 000 U/min), Cache 512 KB–256 MB, Average Seek Time 3–12 ms, MTBF, Standard 8–12 h/Tag vs. Enterprise 24/7 (Buch S. 103–104).
+- **Anschlüsse (T05-7):** IDE (Flachband, Master/Slave = Gerät 0/1, kein Vorrang), SCSI (ID je Gerät, beide Enden terminiert), SAS (Punkt-zu-Punkt, bis 128 Geräte mit Expander), SATA (L-Stecker, eigener Stromstecker) (Buch S. 104, 142–145).
+- **Speicher aufteilen (T05-8):** SSD fürs System + HDD für Daten (Buch S. 106); 2 Laufwerke statt 1; RAID 1 = Spiegelung, mind. 2 gleich große Platten, Ausfallsicherheit, kein Tempo, muss eingerichtet werden, ersetzt keine Datensicherung (Buch S. 108–109).
+
+### Offene Punkte Tag 5
+- Lehrkraft fragen: SD/SDHC/SDXC – zählt in der Klausur „Kapazität“ (SD Association) oder „Geschwindigkeiten“ (Buch)?
+- 08:00–08:25 nicht aufgezeichnet. Block 6 läuft weiter: SSD/M.2/RAID/optische Medien, Kap. 14 BIOS.

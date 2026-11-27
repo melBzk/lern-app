@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Eine SSD mit 4 TB oder zwei SSDs mit je 2 TB. Oben: eine SSD mit den drei Fächern System, Daten und Spiele, ein Blitz trifft sie: fällt sie aus, ist alles betroffen. Unten: SSD 1 mit System und SSD 2 mit Daten und Spielen, jede steckt über eine eigene Leitung in einem eigenen M.2-Steckplatz. Ein Blitz trifft SSD 1, an SSD 2 ein Häkchen: die Daten bleiben.</title>
+<defs>
+<marker id="k" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker>
+</defs>
+<rect width="400" height="480" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">1 große oder 2 kleinere SSDs?</text>
+
+<!-- 1 x 4 TB -->
+<rect x="10" y="42" width="380" height="170" rx="10" fill="#eceff1"/>
+<text x="24" y="68" font-size="16" font-weight="700">1 × 4 TB</text>
+<rect x="30" y="86" width="270" height="56" rx="4" fill="#333"/>
+<g fill="#cfd8dc"><rect x="38" y="94" width="80" height="40" rx="2"/><rect x="125" y="94" width="80" height="40" rx="2"/><rect x="212" y="94" width="80" height="40" rx="2"/></g>
+<g font-size="13" font-weight="700" text-anchor="middle"><text x="78" y="119">System</text><text x="165" y="119">Daten</text><text x="252" y="119">Spiele</text></g>
+<path d="M346,66 l-22,38 h16 l-12,36 l30,-46 h-16 l12,-28 z" fill="#c62828"/>
+<text x="200" y="176" text-anchor="middle" font-size="15" font-weight="700" fill="#c62828">fällt aus → alles betroffen</text>
+
+<!-- 2 x 2 TB -->
+<rect x="10" y="226" width="380" height="240" rx="10" fill="#eceff1"/>
+<text x="24" y="252" font-size="16" font-weight="700">2 × 2 TB</text>
+<!-- SSD 1 -->
+<rect x="30" y="270" width="140" height="48" rx="4" fill="#333"/>
+<rect x="38" y="277" width="124" height="34" rx="2" fill="#cfd8dc"/>
+<text x="100" y="299" text-anchor="middle" font-size="13" font-weight="700">SSD 1: System</text>
+<path d="M36,262 l-14,24 h10 l-8,24 l20,-30 h-10 l8,-18 z" fill="#c62828"/>
+<!-- SSD 2 -->
+<rect x="30" y="362" width="140" height="48" rx="4" fill="#333"/>
+<rect x="38" y="369" width="124" height="34" rx="2" fill="#cfd8dc"/>
+<text x="100" y="384" text-anchor="middle" font-size="13" font-weight="700">SSD 2:</text>
+<text x="100" y="399" text-anchor="middle" font-size="13" font-weight="700">Daten / Spiele</text>
+<!-- Leitungen zu M.2 -->
+<g stroke="#222" stroke-width="2.5"><line x1="172" y1="294" x2="262" y2="294" marker-end="url(#k)"/><line x1="172" y1="386" x2="262" y2="386" marker-end="url(#k)"/></g>
+<text x="217" y="286" text-anchor="middle" font-size="13" fill="#444">eigene Leitung</text>
+<text x="217" y="378" text-anchor="middle" font-size="13" fill="#444">eigene Leitung</text>
+<g fill="#2e7d32" opacity="0.85"><rect x="266" y="276" width="112" height="36" rx="4"/><rect x="266" y="368" width="112" height="36" rx="4"/></g>
+<g font-size="13" font-weight="700" fill="#fff" text-anchor="middle"><text x="322" y="291">M.2-</text><text x="322" y="306">Steckplatz 1</text><text x="322" y="383">M.2-</text><text x="322" y="398">Steckplatz 2</text></g>
+<!-- Häkchen -->
+<circle cx="56" cy="440" r="13" fill="#2e7d32"/>
+<path d="M49,440 l5,5 l9,-10" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="78" y="445" font-size="15" font-weight="700" fill="#2e7d32">SSD 2: Daten bleiben</text>
+</svg>

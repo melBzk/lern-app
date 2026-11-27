@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Formatieren heißt Datenträger vorbereiten. Oben vorher: eine Festplatten-Scheibe mit Spuren, daneben das Inhaltsverzeichnis mit dem Eintrag Urlaub.jpg zeigt auf Spur 17, Sektor 3. Pfeil Formatieren nach unten. Nachher: dieselbe Scheibe, das Inhaltsverzeichnis ist leer. Unten ein vereinfachtes Fenster Formatieren mit zwei Auswahlfeldern: Dateisystem und Größe der Zuordnungseinheiten.</title>
+<defs>
+<marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker>
+<marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="10" markerHeight="10" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker>
+</defs>
+<rect width="400" height="600" fill="#fff"/>
+<text x="200" y="28" font-size="17" font-weight="700" text-anchor="middle">Formatieren = Datenträger vorbereiten</text>
+
+<!-- vorher -->
+<text x="20" y="62" font-weight="700" fill="#555">vorher</text>
+<g>
+<circle cx="80" cy="130" r="56" fill="#eceff1" stroke="#555" stroke-width="2"/>
+<g fill="none" stroke="#9aa5ad" stroke-width="1.5"><circle cx="80" cy="130" r="45"/><circle cx="80" cy="130" r="34"/><circle cx="80" cy="130" r="23"/></g>
+<circle cx="80" cy="130" r="8" fill="#555"/>
+<path d="M112,98 A45,45 0 0 1 123,113" fill="none" stroke="#3a6ed8" stroke-width="6" stroke-linecap="round"/>
+</g>
+<rect x="160" y="76" width="222" height="96" rx="6" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<text x="174" y="100" font-weight="700">Inhaltsverzeichnis</text>
+<line x1="174" y1="108" x2="368" y2="108" stroke="#3a6ed8" stroke-width="1"/>
+<text x="174" y="130">Urlaub.jpg →</text>
+<text x="174" y="150">Spur 17, Sektor 3</text>
+<text x="174" y="166" fill="#555">…</text>
+<line x1="166" y1="126" x2="128" y2="108" stroke="#3a6ed8" stroke-width="2" marker-end="url(#b)"/>
+
+<!-- Pfeil Formatieren -->
+<line x1="80" y1="196" x2="80" y2="254" stroke="#c62828" stroke-width="4" marker-end="url(#r)"/>
+<text x="100" y="231" font-size="16" font-weight="700" fill="#c62828">Formatieren</text>
+
+<!-- nachher -->
+<text x="20" y="282" font-weight="700" fill="#555">nachher</text>
+<g>
+<circle cx="80" cy="348" r="56" fill="#eceff1" stroke="#555" stroke-width="2"/>
+<g fill="none" stroke="#9aa5ad" stroke-width="1.5"><circle cx="80" cy="348" r="45"/><circle cx="80" cy="348" r="34"/><circle cx="80" cy="348" r="23"/></g>
+<circle cx="80" cy="348" r="8" fill="#555"/>
+</g>
+<rect x="160" y="300" width="222" height="96" rx="6" fill="#fff" stroke="#c62828" stroke-width="2"/>
+<text x="174" y="324" font-weight="700">Inhaltsverzeichnis</text>
+<line x1="174" y1="332" x2="368" y2="332" stroke="#c62828" stroke-width="1"/>
+<text x="174" y="366" fill="#c62828" font-weight="700">(leer)</text>
+<text x="174" y="386" font-size="13" fill="#444">neu angelegt</text>
+
+<!-- Fenster Formatieren (schematisch) -->
+<rect x="40" y="430" width="320" height="150" rx="8" fill="#fff" stroke="#555" stroke-width="2"/>
+<path d="M40,438 a8,8 0 0 1 8,-8 h304 a8,8 0 0 1 8,8 v20 h-320 z" fill="#555"/>
+<text x="56" y="450" fill="#fff" font-weight="700">Formatieren</text>
+<text x="56" y="484" font-size="13">Dateisystem</text>
+<rect x="56" y="492" width="288" height="26" rx="4" fill="#eceff1" stroke="#555" stroke-width="1.5"/>
+<path d="M324,501 l6,8 l6,-8 z" fill="#222"/>
+<text x="56" y="542" font-size="13">Größe der Zuordnungseinheiten</text>
+<rect x="56" y="550" width="288" height="22" rx="4" fill="#eceff1" stroke="#555" stroke-width="1.5"/>
+<path d="M324,557 l6,8 l6,-8 z" fill="#222"/>
+</svg>

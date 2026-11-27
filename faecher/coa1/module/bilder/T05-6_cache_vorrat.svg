@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 360" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Weg der Daten von links nach rechts: 1 von der drehenden Platte in den Cache, eine kleine schnelle Kiste in der Festplatte mit 512 KB bis 256 MB, darüber steht Daten auf Vorrat. 2 vom Cache weiter in den Arbeitsspeicher. Darunter: größerer Cache gleich schnellere Übertragung.</title>
+<defs>
+<marker id="k" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker>
+<marker id="a" viewBox="0 0 10 10" refX="7" refY="5" markerUnits="userSpaceOnUse" markerWidth="9" markerHeight="9" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker>
+</defs>
+<rect width="400" height="360" fill="#fff"/>
+<text x="200" y="26" font-size="17" font-weight="700" text-anchor="middle">Der Festplatten-Cache</text>
+
+<!-- Rahmen Festplatte -->
+<rect x="8" y="56" width="248" height="176" rx="12" fill="none" stroke="#9aa5ad" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="20" y="224" font-size="13" fill="#555">in der Festplatte</text>
+
+<!-- Platte -->
+<circle cx="60" cy="140" r="40" fill="#eceff1" stroke="#555" stroke-width="2"/>
+<circle cx="60" cy="140" r="28" fill="none" stroke="#9aa5ad" stroke-width="1.5"/>
+<circle cx="60" cy="140" r="5" fill="#555"/>
+<path d="M60,94 A46,46 0 0 1 100,116" fill="none" stroke="#555" stroke-width="2.5" marker-end="url(#a)"/>
+<text x="60" y="200" text-anchor="middle" font-size="13">Platte</text>
+
+<!-- Pfeil 1 -->
+<line x1="104" y1="140" x2="138" y2="140" stroke="#222" stroke-width="2.5" marker-end="url(#k)"/>
+<circle cx="120" cy="122" r="10" fill="#222"/><text x="120" y="127" text-anchor="middle" fill="#fff" font-weight="700" font-size="13">1</text>
+
+<!-- Cache -->
+<text x="196" y="82" text-anchor="middle" font-weight="700" fill="#c62828">Daten auf Vorrat</text>
+<rect x="142" y="96" width="106" height="88" rx="8" fill="#fdecea" stroke="#c62828" stroke-width="3"/>
+<g fill="#c62828"><rect x="154" y="108" width="22" height="14" rx="2"/><rect x="182" y="108" width="22" height="14" rx="2"/><rect x="210" y="108" width="22" height="14" rx="2"/><rect x="154" y="128" width="22" height="14" rx="2"/><rect x="182" y="128" width="22" height="14" rx="2"/></g>
+<text x="195" y="162" text-anchor="middle" font-weight="700">Cache</text>
+<text x="195" y="178" text-anchor="middle" font-size="13">512 KB – 256 MB</text>
+
+<!-- Pfeil 2 -->
+<line x1="250" y1="140" x2="284" y2="140" stroke="#222" stroke-width="2.5" marker-end="url(#k)"/>
+<circle cx="268" cy="122" r="10" fill="#222"/><text x="268" y="127" text-anchor="middle" fill="#fff" font-weight="700" font-size="13">2</text>
+
+<!-- RAM -->
+<rect x="290" y="112" width="100" height="40" rx="3" fill="#2e7d32"/>
+<g fill="#1b4d1f"><rect x="298" y="120" width="14" height="20"/><rect x="318" y="120" width="14" height="20"/><rect x="338" y="120" width="14" height="20"/><rect x="358" y="120" width="14" height="20"/></g>
+<g fill="#F2B100"><rect x="296" y="152" width="4" height="8"/><rect x="304" y="152" width="4" height="8"/><rect x="312" y="152" width="4" height="8"/><rect x="320" y="152" width="4" height="8"/><rect x="328" y="152" width="4" height="8"/><rect x="344" y="152" width="4" height="8"/><rect x="352" y="152" width="4" height="8"/><rect x="360" y="152" width="4" height="8"/><rect x="368" y="152" width="4" height="8"/><rect x="376" y="152" width="4" height="8"/></g>
+<text x="340" y="184" text-anchor="middle" font-size="13">Arbeits-</text>
+<text x="340" y="200" text-anchor="middle" font-size="13">speicher</text>
+
+<!-- Merksatz -->
+<rect x="20" y="262" width="360" height="76" rx="10" fill="#fdecea" stroke="#c62828" stroke-width="2"/>
+<text x="200" y="292" text-anchor="middle" font-weight="700" font-size="16">größerer Cache</text>
+<text x="200" y="318" text-anchor="middle" font-weight="700" font-size="16" fill="#c62828">= schnellere Übertragung</text>
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Average Seek Time in der Draufsicht. Eine Platte mit Spuren. Der Arm mit dem Schreib-Lese-Kopf schwenkt von einer äußeren Spur zu einer inneren Spur, auf der das gesuchte Datenstück rot markiert ist. Daneben eine Stoppuhr: 3 bis 12 Millisekunden, kleiner ist besser. Unten der Vergleich: Die SSD hat keinen Arm und ist viel schneller.</title>
+<defs>
+<marker id="r" viewBox="0 0 10 10" refX="7" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker>
+</defs>
+<rect width="400" height="500" fill="#fff"/>
+<text x="200" y="26" font-size="17" font-weight="700" text-anchor="middle">Average Seek Time</text>
+<text x="200" y="46" text-anchor="middle" fill="#444" font-size="13">mittlere Zeit, bis der Kopf an der richtigen Stelle ist</text>
+
+<!-- Platte -->
+<circle cx="140" cy="200" r="118" fill="#eceff1" stroke="#555" stroke-width="2"/>
+<g fill="none" stroke="#9aa5ad" stroke-width="1.5"><circle cx="140" cy="200" r="104"/><circle cx="140" cy="200" r="88"/><circle cx="140" cy="200" r="72"/><circle cx="140" cy="200" r="56"/><circle cx="140" cy="200" r="40"/></g>
+<circle cx="140" cy="200" r="14" fill="#555"/>
+<!-- Datenstück auf innerer Spur r=56 -->
+<path d="M196,200 A56,56 0 0 0 188,171" fill="none" stroke="#c62828" stroke-width="8"/>
+<text x="140" y="306" text-anchor="middle" font-size="13">Spuren</text>
+
+<!-- Drehpunkt Arm -->
+<circle cx="300" cy="320" r="12" fill="#555"/>
+<!-- alte Position: äußere Spur -->
+<line x1="300" y1="320" x2="224" y2="272" stroke="#9aa5ad" stroke-width="7" stroke-linecap="round" stroke-dasharray="2 9"/>
+<rect x="216" y="264" width="14" height="14" rx="2" fill="#9aa5ad" transform="rotate(32 223 271)"/>
+<text x="210" y="340" font-size="13" fill="#555" text-anchor="middle">vorher: außen</text>
+<!-- neue Position: innere Spur -->
+<line x1="300" y1="320" x2="196" y2="196" stroke="#222" stroke-width="7" stroke-linecap="round"/>
+<rect x="188" y="186" width="16" height="16" rx="2" fill="#222" transform="rotate(50 196 194)"/>
+<!-- Schwenkpfeil -->
+<path d="M246,292 A72,72 0 0 0 232,246" fill="none" stroke="#c62828" stroke-width="3" marker-end="url(#r)"/>
+<text x="262" y="232" font-weight="700" fill="#c62828" font-size="13">Arm schwenkt</text>
+
+<!-- Stoppuhr -->
+<circle cx="340" cy="120" r="32" fill="#fff" stroke="#222" stroke-width="3.5"/>
+<rect x="333" y="80" width="14" height="8" fill="#222"/>
+<path d="M340,120 L340,94 A26,26 0 0 1 364,110 Z" fill="#c62828"/>
+<text x="340" y="176" text-anchor="middle" font-weight="700" font-size="18">3 – 12 ms</text>
+<text x="340" y="196" text-anchor="middle" font-size="13" fill="#2e7d32" font-weight="700">kleiner = besser</text>
+
+<!-- Vergleich SSD -->
+<rect x="10" y="384" width="380" height="96" rx="10" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2"/>
+<rect x="28" y="404" width="76" height="40" rx="4" fill="#555"/>
+<g fill="#222" stroke="#999" stroke-width="1"><rect x="36" y="410" width="18" height="28"/><rect x="58" y="410" width="18" height="28"/><rect x="80" y="410" width="18" height="28"/></g>
+<text x="66" y="466" text-anchor="middle" font-weight="700" font-size="13">SSD</text>
+<text x="122" y="422" font-weight="700" font-size="15">kein Arm,</text>
+<text x="122" y="444" font-weight="700" font-size="15" fill="#2e7d32">viel schneller</text>
+<text x="122" y="466" font-size="13" fill="#444">daneben wirken 3 – 12 ms sehr lang</text>
+</svg>

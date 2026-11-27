@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 540" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Datensicherheit, im Unterricht: Wie sicher sind die Daten vor Manipulation? Fall 1: Die Sicherungsfestplatte hängt immer per USB-Kabel oder Netzwerk am PC. Schadsoftware auf dem PC springt über das Kabel auf die Sicherung und zerstört auch sie. Fall 2: Die Sicherungsfestplatte ist nach dem Sichern abgezogen und liegt in einer Schublade. Die Schadsoftware erreicht sie nicht, die Sicherung bleibt heil.</title>
+<defs>
+<marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker>
+<g id="bug">
+<g stroke="#222" stroke-width="2"><line x1="-14" y1="-6" x2="14" y2="-6"/><line x1="-15" y1="2" x2="15" y2="2"/><line x1="-14" y1="10" x2="14" y2="10"/><line x1="-3" y1="-14" x2="-7" y2="-20"/><line x1="3" y1="-14" x2="7" y2="-20"/></g>
+<ellipse cx="0" cy="3" rx="9" ry="12" fill="#c62828"/>
+<circle cx="0" cy="-11" r="5" fill="#222"/>
+</g>
+<g id="pc">
+<rect x="0" y="0" width="120" height="84" rx="5" fill="#333"/>
+<rect x="7" y="7" width="106" height="70" fill="#fff"/>
+<rect x="52" y="84" width="16" height="12" fill="#555"/><rect x="34" y="96" width="52" height="5" fill="#555"/>
+</g>
+<g id="platte">
+<rect x="0" y="0" width="56" height="66" rx="7" fill="#d9dde3" stroke="#444" stroke-width="1.5"/>
+<circle cx="28" cy="28" r="17" fill="#9fb3cf"/><circle cx="28" cy="28" r="4" fill="#444"/>
+<circle cx="46" cy="56" r="3" fill="#2e7d32"/>
+</g>
+</defs>
+<rect width="400" height="540" fill="#fff"/>
+<text x="200" y="28" font-size="18" font-weight="700" text-anchor="middle" fill="#c62828">Datensicherheit</text>
+<text x="200" y="50" text-anchor="middle" font-size="15">Im Unterricht: Schutz vor Manipulation</text>
+
+<!-- Fall 1 -->
+<rect x="10" y="64" width="380" height="226" rx="10" fill="#fdecea" stroke="#c62828" stroke-width="2"/>
+<circle cx="32" cy="88" r="11" fill="#c62828"/><text x="32" y="93" text-anchor="middle" fill="#fff" font-weight="700" font-size="13">1</text>
+<text x="50" y="93" font-weight="700">Platte hängt immer am PC</text>
+<g transform="translate(28 112)"><use href="#pc"/></g>
+<g transform="translate(88 152) scale(1.3)"><use href="#bug"/></g>
+<text x="88" y="232" text-anchor="middle" font-size="13">PC</text>
+<!-- Kabel -->
+<path d="M148,170 C200,170 220,210 278,200" fill="none" stroke="#555" stroke-width="4"/>
+<text x="212" y="230" text-anchor="middle" font-size="13" fill="#444">USB oder Netzwerk</text>
+<!-- springender Pfeil -->
+<path d="M120,128 C170,90 240,100 286,140" fill="none" stroke="#c62828" stroke-width="3" marker-end="url(#r)"/>
+<g transform="translate(282 150)"><use href="#platte"/></g>
+<g transform="translate(330 150) scale(0.9)"><use href="#bug"/></g>
+<text x="310" y="232" text-anchor="middle" font-size="13">Sicherung</text>
+<text x="200" y="258" text-anchor="middle" font-weight="700" fill="#c62828">Schadsoftware erwischt</text>
+<text x="200" y="277" text-anchor="middle" font-weight="700" fill="#c62828">auch die Sicherung</text>
+
+<!-- Fall 2 -->
+<rect x="10" y="304" width="380" height="226" rx="10" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2"/>
+<circle cx="32" cy="328" r="11" fill="#2e7d32"/><text x="32" y="333" text-anchor="middle" fill="#fff" font-weight="700" font-size="13">2</text>
+<text x="50" y="333" font-weight="700">nach dem Sichern abgezogen</text>
+<g transform="translate(28 352)"><use href="#pc"/></g>
+<g transform="translate(88 392) scale(1.3)"><use href="#bug"/></g>
+<text x="88" y="472" text-anchor="middle" font-size="13">PC</text>
+<!-- Kabel lose -->
+<path d="M148,410 C170,410 180,420 190,430" fill="none" stroke="#555" stroke-width="4"/>
+<rect x="186" y="426" width="12" height="9" fill="#888" transform="rotate(45 192 430)"/>
+<!-- Schublade -->
+<rect x="236" y="356" width="148" height="104" fill="#bcaaa4" stroke="#6d4c41" stroke-width="2"/>
+<rect x="244" y="366" width="132" height="84" fill="#efe6dc" stroke="#6d4c41" stroke-width="1.5"/>
+<g transform="translate(260 378) scale(0.9)"><use href="#platte"/></g>
+<circle cx="350" cy="392" r="16" fill="#2e7d32"/>
+<path d="M342,392 L348,399 L359,385" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="290" y="440" width="40" height="6" rx="3" fill="#6d4c41"/>
+<text x="310" y="476" text-anchor="middle" font-size="13">Schublade</text>
+<text x="200" y="500" text-anchor="middle" font-weight="700" fill="#2e7d32">offline:</text>
+<text x="200" y="519" text-anchor="middle" font-weight="700" fill="#2e7d32">Sicherung bleibt heil</text>
+</svg>

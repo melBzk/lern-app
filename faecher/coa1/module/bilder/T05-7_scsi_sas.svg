@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Vergleich SCSI und SAS. Oben SCSI, parallel: ein Controller, ein breites Kabel, daran drei Laufwerke hintereinander mit den Schildern ID 0, ID 1 und ID 2, am Kabelende ein Stöpsel, die Terminierung. Unten SAS, seriell: Controller in der Mitte, drei schmale Kabel sternförmig zu je einem Laufwerk. Punkt-zu-Punkt: keine ID, keine Terminierung. Ganz unten: mit Edge Expander bis 128 Geräte.</title>
+<rect width="400" height="520" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">SCSI und SAS</text>
+
+<!-- SCSI -->
+<rect x="10" y="42" width="380" height="180" rx="10" fill="#eceff1"/>
+<text x="24" y="66" font-size="15" font-weight="700">SCSI <tspan font-weight="400" fill="#444">(parallel)</tspan></text>
+<rect x="20" y="84" width="76" height="40" rx="4" fill="#2e7d32" opacity="0.85"/>
+<text x="58" y="146" text-anchor="middle" font-size="13" font-weight="700">Controller</text>
+<rect x="96" y="96" width="252" height="16" fill="#9aa5b1"/>
+<g stroke="#7b8794" stroke-width="1"><line x1="96" y1="100" x2="348" y2="100"/><line x1="96" y1="104" x2="348" y2="104"/><line x1="96" y1="108" x2="348" y2="108"/></g>
+<g fill="#9aa5b1"><rect x="132" y="112" width="10" height="22"/><rect x="202" y="112" width="10" height="22"/><rect x="272" y="112" width="10" height="22"/></g>
+<g fill="#cfd8dc" stroke="#555" stroke-width="1.5"><rect x="110" y="134" width="54" height="34" rx="3"/><rect x="180" y="134" width="54" height="34" rx="3"/><rect x="250" y="134" width="54" height="34" rx="3"/></g>
+<g fill="#fff" stroke="#3a6ed8" stroke-width="1.5"><rect x="113" y="176" width="48" height="22" rx="4"/><rect x="183" y="176" width="48" height="22" rx="4"/><rect x="253" y="176" width="48" height="22" rx="4"/></g>
+<g font-size="13" font-weight="700" fill="#3a6ed8" text-anchor="middle"><text x="137" y="192">ID 0</text><text x="207" y="192">ID 1</text><text x="277" y="192">ID 2</text></g>
+<!-- Terminierung -->
+<rect x="346" y="90" width="24" height="28" rx="4" fill="#c62828"/>
+<text x="358" y="146" text-anchor="middle" font-size="13" font-weight="700" fill="#c62828">Termi-</text>
+<text x="358" y="162" text-anchor="middle" font-size="13" font-weight="700" fill="#c62828">nierung</text>
+
+<!-- SAS -->
+<rect x="10" y="234" width="380" height="200" rx="10" fill="#eceff1"/>
+<text x="24" y="258" font-size="15" font-weight="700">SAS <tspan font-weight="400" fill="#444">(seriell)</tspan></text>
+<g stroke="#3a6ed8" stroke-width="3" fill="none">
+<line x1="200" y1="294" x2="80" y2="346"/>
+<line x1="200" y1="294" x2="200" y2="346"/>
+<line x1="200" y1="294" x2="320" y2="346"/>
+</g>
+<rect x="160" y="268" width="80" height="30" rx="4" fill="#2e7d32"/>
+<text x="200" y="288" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">Controller</text>
+<g fill="#cfd8dc" stroke="#555" stroke-width="1.5"><rect x="53" y="346" width="54" height="34" rx="3"/><rect x="173" y="346" width="54" height="34" rx="3"/><rect x="293" y="346" width="54" height="34" rx="3"/></g>
+<text x="200" y="404" text-anchor="middle" font-size="14" font-weight="700">Punkt-zu-Punkt:</text>
+<text x="200" y="422" text-anchor="middle" font-size="13">keine ID, keine Terminierung</text>
+
+<!-- Edge Expander -->
+<rect x="30" y="450" width="340" height="52" rx="10" fill="#fff" stroke="#c62828" stroke-width="2.5"/>
+<text x="200" y="482" text-anchor="middle" font-size="15" font-weight="700">mit Edge Expander: <tspan fill="#c62828">bis 128 Geräte</tspan></text>
+</svg>

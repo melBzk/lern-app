@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 560" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Eigene schematische Draufsicht auf eine geöffnete 3,5-Zoll-Festplatte. Innen: ein Stapel Platten auf der Spindel in der Mitte, der Plattenarm mit dem Schreib-/Lesekopf an der Spitze über der Platte, das Armlager als Drehpunkt, dahinter der Armmotor, ein flaches Kabel vom Arm zur Elektronik und ein Siegel-Aufkleber am Gehäuserand. Außen am unteren Rand: Datenanschluss, Jumper und Stromanschluss. Darunter gestrichelt die Elektronik-Platine (Controller) an der Unterseite. Hinweis oben: Innen luft- bzw. gasgefüllt und staubfrei, kein Vakuum.</title>
+<rect width="400" height="560" fill="#fff"/>
+<text x="200" y="26" font-size="17" font-weight="700" text-anchor="middle">Eine geöffnete Festplatte</text>
+
+<!-- Hinweis -->
+<rect x="10" y="38" width="380" height="46" rx="8" fill="#fdecea" stroke="#c62828" stroke-width="2"/>
+<text x="200" y="57" text-anchor="middle" font-size="13">Innen: luft- bzw. gasgefüllt, staubfrei</text>
+<text x="200" y="76" text-anchor="middle" font-weight="700" fill="#c62828">kein Vakuum</text>
+
+<!-- Gehäuse -->
+<rect x="20" y="96" width="230" height="324" rx="12" fill="#eceff1" stroke="#555" stroke-width="2"/>
+<!-- Platten (Stapel angedeutet) -->
+<circle cx="120" cy="211" r="92" fill="#7d90ad"/>
+<circle cx="120" cy="205" r="92" fill="#9fb3cf" stroke="#3a6ed8" stroke-width="2"/>
+<circle cx="120" cy="205" r="72" fill="none" stroke="#fff" stroke-opacity="0.6"/>
+<circle cx="120" cy="205" r="52" fill="none" stroke="#fff" stroke-opacity="0.6"/>
+<!-- Spindel -->
+<circle cx="120" cy="205" r="17" fill="#555"/>
+<circle cx="120" cy="205" r="6" fill="#ccc"/>
+
+<!-- Kabel (Flachband) -->
+<path d="M196,335 C165,350 120,360 112,420" fill="none" stroke="#d9a441" stroke-width="7"/>
+
+<!-- Armmotor hinter dem Lager -->
+<rect x="186" y="386" width="58" height="26" rx="4" fill="#555"/>
+<path d="M205,345 L196,392 L238,392 Z" fill="#7a7f88"/>
+<!-- Plattenarm -->
+<line x1="205" y1="345" x2="142" y2="140" stroke="#7a7f88" stroke-width="10" stroke-linecap="round"/>
+<!-- Armlager -->
+<circle cx="205" cy="345" r="13" fill="#555"/>
+<circle cx="205" cy="345" r="5" fill="#ccc"/>
+<!-- Kopf -->
+<rect x="133" y="128" width="18" height="14" rx="2" fill="#c62828"/>
+
+<!-- Siegel am Rand -->
+<rect x="236" y="146" width="26" height="36" rx="3" fill="#fff" stroke="#3a6ed8" stroke-width="2"/>
+<path d="M242,158 h14 M242,166 h14 M242,174 h10" stroke="#3a6ed8" stroke-width="2"/>
+
+<!-- Anschlüsse außen unten -->
+<rect x="32" y="420" width="76" height="14" fill="#333"/>
+<g fill="#333"><rect x="134" y="420" width="5" height="10"/><rect x="142" y="420" width="5" height="10"/><rect x="150" y="420" width="5" height="10"/></g>
+<rect x="182" y="420" width="56" height="14" fill="#333"/>
+<g text-anchor="middle" font-size="13">
+<text x="70" y="452" font-weight="700">Daten-</text><text x="70" y="468">anschluss</text>
+<text x="145" y="452" font-weight="700">Jumper</text><text x="145" y="468">(ältere)</text>
+<text x="210" y="452" font-weight="700">Strom-</text><text x="210" y="468">anschluss</text>
+</g>
+
+<!-- Elektronik-Platine -->
+<rect x="20" y="484" width="360" height="62" rx="8" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="200" y="510" text-anchor="middle" font-weight="700" fill="#2e7d32" font-size="15">Elektronik-Platine (Controller)</text>
+<text x="200" y="531" text-anchor="middle" font-size="13">außen an der Unterseite des Gehäuses</text>
+
+<!-- Beschriftungslinien -->
+<g stroke="#333" stroke-width="1.2">
+<line x1="266" y1="118" x2="152" y2="132"/>
+<line x1="266" y1="164" x2="262" y2="164"/>
+<line x1="266" y1="214" x2="208" y2="232"/>
+<line x1="266" y1="258" x2="134" y2="210"/>
+<line x1="266" y1="296" x2="190" y2="296"/>
+<line x1="266" y1="340" x2="218" y2="345"/>
+<line x1="266" y1="388" x2="244" y2="398"/>
+<line x1="72" y1="350" x2="150" y2="350"/>
+</g>
+<g font-size="14">
+<text x="270" y="114" font-weight="700" fill="#c62828">Schreib-/</text>
+<text x="270" y="130" font-weight="700" fill="#c62828">Lesekopf</text>
+<text x="270" y="169" font-weight="700" fill="#3a6ed8">Siegel</text>
+<text x="270" y="212" font-weight="700">Platten</text>
+<text x="270" y="228" font-size="13">(Stapel)</text>
+<text x="270" y="263" font-weight="700">Spindel</text>
+<text x="270" y="301" font-weight="700">Plattenarm</text>
+<text x="270" y="345" font-weight="700">Armlager</text>
+<text x="270" y="361" font-size="13">(Drehpunkt)</text>
+<text x="270" y="393" font-weight="700">Armmotor</text>
+<text x="28" y="354" font-weight="700">Kabel</text>
+</g>
+</svg>

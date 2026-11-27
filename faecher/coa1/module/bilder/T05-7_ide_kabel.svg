@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 380" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>IDE-Flachbandkabel, waagerecht, mit drei Steckern. Links der blaue Stecker zum Mainboard. In der Mitte der graue Stecker: Slave, das zweite Laufwerk, hier ein DVD-Laufwerk. Rechts am Kabelende der schwarze Stecker: Master, das erste Laufwerk, hier eine Festplatte. Am oberen Kabelrand eine rote Linie markiert Pin 1. Merksatz: höchstens 2 Geräte je Kabel.</title>
+<defs>
+<marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker>
+</defs>
+<rect width="400" height="380" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">Das IDE-Kabel</text>
+
+<!-- Pin 1 -->
+<text x="110" y="62" font-size="14" font-weight="700" fill="#c62828">Pin 1 (rote Linie)</text>
+<line x1="104" y1="58" x2="96" y2="96" stroke="#c62828" stroke-width="2.5" marker-end="url(#r)"/>
+
+<!-- Flachbandkabel -->
+<rect x="40" y="100" width="330" height="24" fill="#b0bac5"/>
+<g stroke="#8a96a3" stroke-width="1"><line x1="40" y1="106" x2="370" y2="106"/><line x1="40" y1="111" x2="370" y2="111"/><line x1="40" y1="116" x2="370" y2="116"/><line x1="40" y1="121" x2="370" y2="121"/></g>
+<line x1="40" y1="101" x2="370" y2="101" stroke="#c62828" stroke-width="3"/>
+
+<!-- Stecker -->
+<rect x="20" y="94" width="40" height="36" rx="3" fill="#3a6ed8"/>
+<rect x="180" y="94" width="40" height="36" rx="3" fill="#9aa5b1" stroke="#555" stroke-width="1.5"/>
+<rect x="340" y="94" width="40" height="36" rx="3" fill="#222"/>
+
+<!-- Mainboard -->
+<line x1="40" y1="130" x2="40" y2="160" stroke="#3a6ed8" stroke-width="4"/>
+<rect x="10" y="160" width="80" height="44" rx="4" fill="#2e7d32" opacity="0.85"/>
+<text x="50" y="230" text-anchor="middle" font-size="15" font-weight="700">Mainboard</text>
+<text x="50" y="248" text-anchor="middle" font-size="13" fill="#3a6ed8" font-weight="700">blau</text>
+
+<!-- Slave: DVD-Laufwerk -->
+<line x1="200" y1="130" x2="200" y2="160" stroke="#9aa5b1" stroke-width="4"/>
+<rect x="150" y="160" width="100" height="44" rx="4" fill="#cfd8dc" stroke="#555" stroke-width="1.5"/>
+<rect x="162" y="176" width="64" height="6" rx="2" fill="#555"/>
+<circle cx="238" cy="192" r="4" fill="#555"/>
+<text x="200" y="230" text-anchor="middle" font-size="15" font-weight="700">Slave</text>
+<text x="200" y="248" text-anchor="middle" font-size="13">2. Laufwerk (Mitte)</text>
+<text x="200" y="265" text-anchor="middle" font-size="13" fill="#555" font-weight="700">grau</text>
+
+<!-- Master: Festplatte -->
+<line x1="360" y1="130" x2="360" y2="160" stroke="#222" stroke-width="4"/>
+<rect x="312" y="160" width="80" height="44" rx="4" fill="#cfd8dc" stroke="#555" stroke-width="1.5"/>
+<circle cx="340" cy="182" r="14" fill="#fff" stroke="#555" stroke-width="1.5"/>
+<circle cx="340" cy="182" r="3" fill="#555"/>
+<line x1="372" y1="170" x2="348" y2="186" stroke="#555" stroke-width="2.5" stroke-linecap="round"/>
+<text x="350" y="230" text-anchor="middle" font-size="15" font-weight="700">Master</text>
+<text x="350" y="248" text-anchor="middle" font-size="13">1. Laufwerk</text>
+<text x="350" y="265" text-anchor="middle" font-size="13">(Ende) <tspan font-weight="700">schwarz</tspan></text>
+
+<!-- Merksatz -->
+<rect x="40" y="296" width="320" height="56" rx="10" fill="#fff" stroke="#c62828" stroke-width="2.5"/>
+<text x="200" y="330" text-anchor="middle" font-size="16" font-weight="700" fill="#c62828">höchstens 2 Geräte je Kabel</text>
+</svg>

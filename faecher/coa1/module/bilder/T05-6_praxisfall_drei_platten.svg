@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 470" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Praxisfall: Welche Platte für wen? Oben drei Wünsche: Wunsch 3 Server, läuft rund um die Uhr; Wunsch 1 Büro, leise Datenplatte; Wunsch 2 Videoschnitt. Darunter drei Datenblatt-Kärtchen. A: 5400 U/min, 64 MB Cache, 12 ms, SATA, 8 h am Tag. B: 7200 U/min, 256 MB Cache, 8 ms, SATA, 8 h am Tag. C: 7200 U/min, 256 MB Cache, 8 ms, SATA Enterprise, 24/7. Die Reihenfolge oben verrät nicht die Lösung.</title>
+<rect width="400" height="470" fill="#fff"/>
+<text x="200" y="26" font-size="17" font-weight="700" text-anchor="middle">Welche Platte für wen?</text>
+
+<!-- Personen (absichtlich nicht in Lösungsreihenfolge) -->
+<g>
+<circle cx="70" cy="58" r="12" fill="#fff" stroke="#222" stroke-width="2.5"/>
+<path d="M50,100 v-14 a20,20 0 0 1 40,0 v14 z" fill="#fff" stroke="#222" stroke-width="2.5"/>
+<text x="70" y="122" text-anchor="middle" font-weight="700">(3) Server</text>
+<text x="70" y="140" text-anchor="middle" font-size="13" fill="#444">rund um die Uhr</text>
+</g>
+<g>
+<circle cx="200" cy="58" r="12" fill="#fff" stroke="#222" stroke-width="2.5"/>
+<path d="M180,100 v-14 a20,20 0 0 1 40,0 v14 z" fill="#fff" stroke="#222" stroke-width="2.5"/>
+<text x="200" y="122" text-anchor="middle" font-weight="700">(1) Büro</text>
+<text x="200" y="140" text-anchor="middle" font-size="13" fill="#444">leise Datenplatte</text>
+</g>
+<g>
+<circle cx="330" cy="58" r="12" fill="#fff" stroke="#222" stroke-width="2.5"/>
+<path d="M310,100 v-14 a20,20 0 0 1 40,0 v14 z" fill="#fff" stroke="#222" stroke-width="2.5"/>
+<text x="330" y="122" text-anchor="middle" font-weight="700">(2) Videoschnitt</text>
+
+</g>
+
+<rect x="10" y="158" width="380" height="32" rx="6" fill="#FFF6D6" stroke="#F2B100" stroke-width="2"/>
+<text x="200" y="179" text-anchor="middle" font-weight="700">Zur Wahl – welche passt zu wem?</text>
+
+<!-- Karte A -->
+<rect x="10" y="204" width="120" height="252" rx="8" fill="#fff" stroke="#555" stroke-width="2"/>
+<rect x="10" y="204" width="120" height="38" rx="8" fill="#555"/>
+<rect x="10" y="230" width="120" height="12" fill="#555"/>
+<text x="70" y="230" text-anchor="middle" font-weight="700" font-size="20" fill="#fff">A</text>
+<g text-anchor="middle" font-size="14">
+<text x="70" y="272">5400 U/min</text>
+<text x="70" y="306">64 MB Cache</text>
+<text x="70" y="340">12 ms</text>
+<text x="70" y="374">SATA</text>
+<text x="70" y="420" font-weight="700">8 h/Tag</text>
+</g>
+
+<!-- Karte B -->
+<rect x="140" y="204" width="120" height="252" rx="8" fill="#fff" stroke="#555" stroke-width="2"/>
+<rect x="140" y="204" width="120" height="38" rx="8" fill="#555"/>
+<rect x="140" y="230" width="120" height="12" fill="#555"/>
+<text x="200" y="230" text-anchor="middle" font-weight="700" font-size="20" fill="#fff">B</text>
+<g text-anchor="middle" font-size="14">
+<text x="200" y="272">7200 U/min</text>
+<text x="200" y="306">256 MB Cache</text>
+<text x="200" y="340">8 ms</text>
+<text x="200" y="374">SATA</text>
+<text x="200" y="420" font-weight="700">8 h/Tag</text>
+</g>
+
+<!-- Karte C -->
+<rect x="270" y="204" width="120" height="252" rx="8" fill="#fff" stroke="#555" stroke-width="2"/>
+<rect x="270" y="204" width="120" height="38" rx="8" fill="#555"/>
+<rect x="270" y="230" width="120" height="12" fill="#555"/>
+<text x="330" y="230" text-anchor="middle" font-weight="700" font-size="20" fill="#fff">C</text>
+<g text-anchor="middle" font-size="14">
+<text x="330" y="272">7200 U/min</text>
+<text x="330" y="306">256 MB Cache</text>
+<text x="330" y="340">8 ms</text>
+<text x="330" y="374">SATA</text>
+<text x="330" y="392" font-size="13">Enterprise</text>
+<text x="330" y="420" font-weight="700" fill="#c62828">24/7</text>
+</g>
+<g stroke="#e0e0e0"><line x1="22" y1="284" x2="118" y2="284"/><line x1="22" y1="318" x2="118" y2="318"/><line x1="22" y1="352" x2="118" y2="352"/><line x1="22" y1="400" x2="118" y2="400"/>
+<line x1="152" y1="284" x2="248" y2="284"/><line x1="152" y1="318" x2="248" y2="318"/><line x1="152" y1="352" x2="248" y2="352"/><line x1="152" y1="400" x2="248" y2="400"/>
+<line x1="282" y1="284" x2="378" y2="284"/><line x1="282" y1="318" x2="378" y2="318"/><line x1="282" y1="352" x2="378" y2="352"/><line x1="282" y1="400" x2="378" y2="400"/></g>
+</svg>

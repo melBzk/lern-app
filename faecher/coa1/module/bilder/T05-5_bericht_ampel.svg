@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 560" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Was der Abschlussbericht bedeutet, als Ampel mit zwei Wegen. Grün: logischer Fehler, wird bei NTFS meist repariert. Rot: fehlerhafte Sektoren. Windows sperrt die Stelle, bald kommen weitere dazu. Also Daten sichern und die Platte ersetzen, Symbol neue Festplatte.</title>
+<defs>
+<marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2e7d32"/></marker>
+<marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker>
+</defs>
+<rect width="400" height="560" fill="#fff"/>
+<text x="200" y="26" font-size="17" font-weight="700" text-anchor="middle">Der Abschlussbericht</text>
+
+<!-- Ampel -->
+<rect x="20" y="48" width="44" height="100" rx="10" fill="#333"/>
+<circle cx="42" cy="72" r="13" fill="#c62828"/>
+<circle cx="42" cy="124" r="13" fill="#2e7d32"/>
+<line x1="42" y1="148" x2="42" y2="170" stroke="#333" stroke-width="6"/>
+
+<!-- Grüner Weg -->
+<line x1="62" y1="124" x2="92" y2="124" stroke="#2e7d32" stroke-width="3" marker-end="url(#g)"/>
+<rect x="96" y="98" width="292" height="56" rx="8" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2"/>
+<text x="110" y="120" font-weight="700" fill="#2e7d32">Logischer Fehler</text>
+<text x="110" y="142">→ meist repariert (bei NTFS)</text>
+
+<!-- Roter Weg -->
+<path d="M62,72 L80,72 L80,190 L92,190" fill="none" stroke="#c62828" stroke-width="3" marker-end="url(#r)"/>
+<rect x="96" y="172" width="292" height="40" rx="8" fill="#fdecea" stroke="#c62828" stroke-width="2"/>
+<text x="110" y="198" font-weight="700" fill="#c62828">Fehlerhafte Sektoren</text>
+
+<line x1="242" y1="212" x2="242" y2="236" stroke="#c62828" stroke-width="2.5" marker-end="url(#r)"/>
+<rect x="96" y="238" width="292" height="40" rx="8" fill="#fff" stroke="#c62828" stroke-width="2"/>
+<text x="110" y="264">Windows sperrt die Stelle</text>
+
+<line x1="242" y1="278" x2="242" y2="302" stroke="#c62828" stroke-width="2.5" marker-end="url(#r)"/>
+<rect x="96" y="304" width="292" height="40" rx="8" fill="#fff" stroke="#c62828" stroke-width="2"/>
+<text x="110" y="330">bald kommen weitere dazu</text>
+
+<line x1="242" y1="344" x2="242" y2="368" stroke="#c62828" stroke-width="2.5" marker-end="url(#r)"/>
+<rect x="96" y="370" width="292" height="62" rx="8" fill="#c62828"/>
+<text x="110" y="396" font-weight="700" fill="#fff" font-size="15">1. Daten sichern</text>
+<text x="110" y="418" font-weight="700" fill="#fff" font-size="15">2. Platte ersetzen</text>
+
+<!-- neue Festplatte -->
+<g transform="translate(176,452)">
+<rect x="0" y="0" width="120" height="76" rx="6" fill="#eceff1" stroke="#555" stroke-width="2"/>
+<circle cx="50" cy="38" r="28" fill="#fff" stroke="#9aa5ad" stroke-width="2"/>
+<circle cx="50" cy="38" r="5" fill="#555"/>
+<line x1="104" y1="64" x2="62" y2="30" stroke="#555" stroke-width="4" stroke-linecap="round"/>
+<circle cx="104" cy="64" r="5" fill="#555"/>
+<circle cx="112" cy="6" r="13" fill="#2e7d32"/>
+<text x="112" y="11" text-anchor="middle" fill="#fff" font-weight="700" font-size="16">+</text>
+</g>
+<text x="236" y="548" text-anchor="middle" font-size="13" font-weight="700">neue Festplatte</text>
+<line x1="242" y1="432" x2="242" y2="448" stroke="#c62828" stroke-width="2.5" marker-end="url(#r)"/>
+</svg>

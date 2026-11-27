@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Stark vergrößerte Seitenansicht: Der Kopf schwebt über der Plattenoberfläche, dazwischen liegt eine dünne Luftschicht, das Luftpolster, das den Kopf trägt. Es erlaubt winzige Abstände ohne Reibung. Daneben liegt ein Rauchteilchen auf der Platte, es ist größer als der Spalt. Oben rechts ist das Wort Vakuum durchgestrichen: ohne Gas (Luft oder Helium) kein Polster. Unten ein Siegel-Aufkleber: Nicht öffnen, Garantiesiegel.</title>
+<rect width="400" height="400" fill="#fff"/>
+<text x="200" y="26" font-size="17" font-weight="700" text-anchor="middle">Luftpolster statt Vakuum</text>
+
+<!-- Vakuum durchgestrichen -->
+<rect x="236" y="42" width="154" height="62" rx="8" fill="#fdecea" stroke="#c62828" stroke-width="2"/>
+<text x="313" y="72" text-anchor="middle" font-size="20" font-weight="700" fill="#555">Vakuum</text>
+<line x1="270" y1="66" x2="356" y2="66" stroke="#c62828" stroke-width="3.5"/>
+<text x="313" y="93" text-anchor="middle" font-size="12" fill="#c62828" font-weight="700">ohne Gas kein Polster</text>
+
+<!-- Kopf mit Arm -->
+<line x1="8" y1="104" x2="50" y2="124" stroke="#7a7f88" stroke-width="8" stroke-linecap="round"/>
+<rect x="36" y="118" width="190" height="46" rx="6" fill="#555"/>
+<text x="131" y="147" text-anchor="middle" fill="#fff" font-weight="700">Kopf</text>
+<!-- Luftpolster -->
+<rect x="36" y="164" width="190" height="24" fill="#cfe0fb"/>
+<text x="131" y="181" text-anchor="middle" font-size="14" font-weight="700" fill="#1f4fa8">Luftpolster</text>
+<!-- Spaltmaß -->
+<path d="M232,164 h8 M236,164 v24 M232,188 h8" stroke="#222" stroke-width="1.5" fill="none"/>
+<text x="244" y="181" font-size="13">Spalt</text>
+<!-- Rauchteilchen -->
+<circle cx="318" cy="158" r="30" fill="#bdbdbd" stroke="#555" stroke-width="2"/>
+<!-- Platte -->
+<rect x="20" y="188" width="360" height="26" fill="#9fb3cf" stroke="#3a6ed8" stroke-width="1.5"/>
+<text x="200" y="206" text-anchor="middle" font-size="13">Plattenoberfläche</text>
+
+<g text-anchor="middle">
+<text x="131" y="238" font-weight="700" fill="#1f4fa8">trägt den Kopf</text>
+<text x="131" y="256" font-size="13">winzige Abstände,</text>
+<text x="131" y="273" font-size="13">trotzdem keine Reibung</text>
+<text x="318" y="238" font-weight="700">Rauchteilchen:</text>
+<text x="318" y="256" font-size="13">größer als der Spalt</text>
+</g>
+
+<!-- Siegel -->
+<rect x="50" y="296" width="300" height="80" rx="12" fill="#fff" stroke="#3a6ed8" stroke-width="2.5" stroke-dasharray="8 4"/>
+<text x="200" y="320" text-anchor="middle" font-size="13" fill="#3a6ed8" font-weight="700">SIEGEL</text>
+<text x="200" y="342" text-anchor="middle" font-weight="700" font-size="15">Nicht öffnen – Garantiesiegel</text>
+<text x="200" y="362" text-anchor="middle" font-size="13">Gehäuse staubfrei verschlossen</text>
+</svg>

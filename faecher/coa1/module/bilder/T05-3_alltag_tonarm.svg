@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Vergleich von oben. Links ein Plattenspieler: Der Tonarm dreht sich um einen Drehpunkt hinten rechts, die Nadel liegt in der Rille, die Rille ist eine einzige Spirale. Rechts eine Festplatte: Der Plattenarm dreht sich um das Armlager, der Kopf schwebt über der Platte, die Platte hat viele getrennte Kreise. Gemeinsam: Der Arm schwenkt um einen Drehpunkt. Wo der Vergleich hinkt: Die Nadel berührt die Platte, der Kopf schwebt. Die Schallplatte hat eine Spirale, die Festplatte viele getrennte Kreise.</title>
+<defs>
+<marker id="b" viewBox="0 0 10 10" refX="8" refY="5" markerUnits="userSpaceOnUse" markerWidth="10" markerHeight="10" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker>
+</defs>
+<rect width="400" height="600" fill="#fff"/>
+<text x="200" y="26" font-size="17" font-weight="700" text-anchor="middle">Wie ein Tonarm am Plattenspieler</text>
+<text x="100" y="52" text-anchor="middle" font-weight="700" font-size="15">Plattenspieler</text>
+<text x="300" y="52" text-anchor="middle" font-weight="700" font-size="15">Festplatte</text>
+
+<!-- LINKS Plattenspieler -->
+<rect x="12" y="62" width="176" height="190" rx="8" fill="#eceff1" stroke="#555" stroke-width="2"/>
+<circle cx="90" cy="150" r="64" fill="#333"/>
+<path d="M150,150 A58,58 0 0 1 34,150 A54,54 0 0 1 142,150 A50,50 0 0 1 42,150 A46,46 0 0 1 134,150 A42,42 0 0 1 50,150 A38,38 0 0 1 126,150 A34,34 0 0 1 58,150 A30,30 0 0 1 118,150" fill="none" stroke="#bbb" stroke-width="1.3" stroke-dasharray="4 3"/>
+<circle cx="90" cy="150" r="18" fill="#c62828"/>
+<circle cx="90" cy="150" r="3" fill="#fff"/>
+<!-- Tonarm -->
+<line x1="172" y1="84" x2="130" y2="171" stroke="#7a7f88" stroke-width="6" stroke-linecap="round"/>
+<rect x="122" y="166" width="14" height="12" rx="2" fill="#555"/>
+<circle cx="172" cy="84" r="9" fill="#555" stroke="#3a6ed8" stroke-width="3"/>
+<path d="M145,192 A112,112 0 0 1 103,171" fill="none" stroke="#3a6ed8" stroke-width="2.5" marker-start="url(#b)" marker-end="url(#b)"/>
+<line x1="172" y1="95" x2="172" y2="226" stroke="#3a6ed8" stroke-width="1.2"/>
+<text x="180" y="242" text-anchor="end" font-size="13" fill="#3a6ed8" font-weight="700">Drehpunkt</text>
+
+<!-- RECHTS Festplatte -->
+<rect x="212" y="62" width="176" height="190" rx="12" fill="#eceff1" stroke="#555" stroke-width="2"/>
+<circle cx="290" cy="150" r="64" fill="#9fb3cf" stroke="#3a6ed8" stroke-width="2"/>
+<g fill="none" stroke="#fff" stroke-width="1.5"><circle cx="290" cy="150" r="56"/><circle cx="290" cy="150" r="47"/><circle cx="290" cy="150" r="38"/><circle cx="290" cy="150" r="29"/></g>
+<circle cx="290" cy="150" r="13" fill="#555"/>
+<line x1="370" y1="213" x2="305" y2="100" stroke="#7a7f88" stroke-width="8" stroke-linecap="round"/>
+<rect x="297" y="93" width="16" height="12" rx="2" fill="#c62828"/>
+<circle cx="370" cy="213" r="10" fill="#555" stroke="#3a6ed8" stroke-width="3"/>
+<path d="M275,108 A142,142 0 0 1 326,79" fill="none" stroke="#3a6ed8" stroke-width="2.5" marker-start="url(#b)" marker-end="url(#b)"/>
+<line x1="356" y1="234" x2="365" y2="222" stroke="#3a6ed8" stroke-width="1.2"/>
+<text x="352" y="244" text-anchor="end" font-size="13" fill="#3a6ed8" font-weight="700">Armlager</text>
+
+<!-- Bildunterschriften -->
+<g text-anchor="middle" font-size="13">
+<text x="100" y="274" font-weight="700">Tonarm</text>
+<text x="100" y="291">Nadel liegt in der Rille</text>
+<text x="300" y="274" font-weight="700">Plattenarm</text>
+<text x="300" y="291">Kopf über der Platte</text>
+</g>
+
+<!-- Gemeinsam -->
+<rect x="10" y="304" width="380" height="40" rx="8" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<text x="200" y="330" text-anchor="middle" font-weight="700" font-size="15" fill="#3a6ed8">Gemeinsam: Arm schwenkt um einen Drehpunkt</text>
+
+<!-- Wo der Vergleich hinkt -->
+<text x="200" y="374" text-anchor="middle" font-weight="700" font-size="15" fill="#c62828">Wo der Vergleich hinkt</text>
+
+<rect x="10" y="384" width="380" height="96" rx="8" fill="#fdecea" stroke="#c62828" stroke-width="2"/>
+<!-- Nadel berührt -->
+<rect x="40" y="440" width="120" height="10" fill="#333"/>
+<path d="M92,412 L108,412 L100,440 Z" fill="#555"/>
+<text x="100" y="472" text-anchor="middle" font-size="13" font-weight="700">Nadel berührt</text>
+<!-- Kopf schwebt -->
+<rect x="240" y="440" width="120" height="10" fill="#9fb3cf" stroke="#3a6ed8"/>
+<rect x="286" y="412" width="28" height="16" rx="2" fill="#c62828"/>
+<rect x="286" y="429" width="28" height="10" fill="#cfe0fb"/>
+<text x="300" y="472" text-anchor="middle" font-size="13" font-weight="700">Kopf schwebt</text>
+<text x="200" y="404" text-anchor="middle" font-size="13">Seitenansicht</text>
+<text x="200" y="440" text-anchor="middle" font-size="22" font-weight="700" fill="#c62828">≠</text>
+
+<rect x="10" y="492" width="380" height="98" rx="8" fill="#fdecea" stroke="#c62828" stroke-width="2"/>
+<!-- Spirale -->
+<path d="M130,540 A29,29 0 0 1 72,540 A27,27 0 0 1 126,540 A25,25 0 0 1 76,540 A23,23 0 0 1 122,540 A21,21 0 0 1 80,540 A19,19 0 0 1 118,540 A17,17 0 0 1 84,540" fill="none" stroke="#333" stroke-width="1.6"/>
+<text x="100" y="584" text-anchor="middle" font-size="13" font-weight="700">1 Spirale</text>
+<!-- Kreise -->
+<g fill="none" stroke="#3a6ed8" stroke-width="1.6"><circle cx="300" cy="540" r="29"/><circle cx="300" cy="540" r="23"/><circle cx="300" cy="540" r="17"/><circle cx="300" cy="540" r="11"/></g>
+<text x="300" y="584" text-anchor="middle" font-size="13" font-weight="700">viele getrennte Kreise</text>
+<text x="200" y="546" text-anchor="middle" font-size="22" font-weight="700" fill="#c62828">≠</text>
+</svg>

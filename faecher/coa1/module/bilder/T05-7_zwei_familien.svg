@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 470" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Zwei Familien von Festplatten-Anschlüssen, Zeitpfeil von früher nach heute. Heim-PC: IDE mit breitem grauem Flachbandkabel und zwei Laufwerken, dann SATA mit schmalem rotem Kabel und L-förmigem Stecker für ein Laufwerk, dann M.2: SSD flach direkt auf dem Mainboard, kein Kabel. Server: SCSI mit breitem Kabel und mehreren Laufwerken hintereinander, dann SAS mit schmalem Kabel und Metallbügel am Stecker. Unten: parallel heißt viele Leitungen, breites Kabel (IDE, SCSI); seriell heißt wenige Leitungen, schmales Kabel (SATA, SAS).</title>
+<defs>
+<marker id="k" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker>
+</defs>
+<rect width="400" height="470" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">Zwei Familien: alt und neu</text>
+
+<!-- Zeitpfeil -->
+<text x="14" y="56" font-size="13" fill="#444">früher</text>
+<line x1="62" y1="51" x2="336" y2="51" stroke="#222" stroke-width="2.5" marker-end="url(#k)"/>
+<text x="386" y="56" text-anchor="end" font-size="13" fill="#444">heute</text>
+
+<!-- Zeile Heim-PC -->
+<text x="14" y="86" font-size="15" font-weight="700" fill="#3a6ed8">Heim-PC</text>
+<g fill="#eceff1"><rect x="14" y="94" width="112" height="120" rx="10"/><rect x="144" y="94" width="112" height="120" rx="10"/><rect x="274" y="94" width="112" height="120" rx="10"/></g>
+<!-- IDE: breites Flachbandkabel, 2 Laufwerke -->
+<rect x="22" y="106" width="96" height="14" fill="#9aa5b1"/>
+<g stroke="#7b8794" stroke-width="1"><line x1="22" y1="110" x2="118" y2="110"/><line x1="22" y1="113" x2="118" y2="113"/><line x1="22" y1="116" x2="118" y2="116"/></g>
+<rect x="40" y="120" width="10" height="16" fill="#9aa5b1"/><rect x="90" y="120" width="10" height="16" fill="#9aa5b1"/>
+<g fill="#cfd8dc" stroke="#555" stroke-width="1.5"><rect x="24" y="136" width="42" height="28" rx="3"/><rect x="74" y="136" width="42" height="28" rx="3"/></g>
+<text x="70" y="188" text-anchor="middle" font-size="15" font-weight="700">IDE</text>
+<text x="70" y="205" text-anchor="middle" font-size="13" fill="#444">2 Laufwerke</text>
+<!-- SATA: schmales rotes Kabel, L-Stecker, 1 Laufwerk -->
+<path d="M156,112 C186,112 196,118 196,134" fill="none" stroke="#c62828" stroke-width="3"/>
+<path d="M188,134 h18 v6 h-14 v4 h-4 z" fill="#c62828"/>
+<rect x="174" y="144" width="52" height="24" rx="3" fill="#cfd8dc" stroke="#555" stroke-width="1.5"/>
+<text x="200" y="188" text-anchor="middle" font-size="15" font-weight="700">SATA</text>
+<text x="200" y="205" text-anchor="middle" font-size="13" fill="#444">1 Laufwerk</text>
+<!-- M.2: SSD flach auf Mainboard -->
+<rect x="284" y="108" width="92" height="56" rx="3" fill="#2e7d32" opacity="0.85"/>
+<rect x="294" y="128" width="72" height="16" rx="2" fill="#333"/>
+<g fill="#cfd8dc"><rect x="304" y="131" width="12" height="10"/><rect x="322" y="131" width="12" height="10"/></g>
+<text x="330" y="188" text-anchor="middle" font-size="15" font-weight="700">M.2</text>
+<text x="330" y="205" text-anchor="middle" font-size="13" fill="#444">kein Kabel</text>
+<g stroke="#222" stroke-width="2.5"><line x1="127" y1="154" x2="142" y2="154" marker-end="url(#k)"/><line x1="257" y1="154" x2="272" y2="154" marker-end="url(#k)"/></g>
+
+<!-- Zeile Server -->
+<text x="14" y="244" font-size="15" font-weight="700" fill="#3a6ed8">Server</text>
+<g fill="#eceff1"><rect x="14" y="252" width="112" height="120" rx="10"/><rect x="144" y="252" width="112" height="120" rx="10"/></g>
+<!-- SCSI: breites Kabel, mehrere Laufwerke hintereinander -->
+<rect x="20" y="264" width="100" height="16" fill="#9aa5b1"/>
+<g stroke="#7b8794" stroke-width="1"><line x1="20" y1="268" x2="120" y2="268"/><line x1="20" y1="272" x2="120" y2="272"/><line x1="20" y1="276" x2="120" y2="276"/></g>
+<g fill="#9aa5b1"><rect x="31" y="280" width="8" height="14"/><rect x="66" y="280" width="8" height="14"/><rect x="101" y="280" width="8" height="14"/></g>
+<g fill="#cfd8dc" stroke="#555" stroke-width="1.5"><rect x="21" y="294" width="28" height="26" rx="3"/><rect x="56" y="294" width="28" height="26" rx="3"/><rect x="91" y="294" width="28" height="26" rx="3"/></g>
+<text x="70" y="346" text-anchor="middle" font-size="15" font-weight="700">SCSI</text>
+<text x="70" y="363" text-anchor="middle" font-size="13" fill="#444">mehrere Geräte</text>
+<!-- SAS: schmales Kabel mit Metallbügel -->
+<path d="M156,270 C186,270 196,276 196,288" fill="none" stroke="#3a6ed8" stroke-width="3"/>
+<rect x="186" y="288" width="20" height="10" fill="#3a6ed8"/>
+<path d="M183,296 v-12 h26 v12" fill="none" stroke="#7b8794" stroke-width="2.5"/>
+<rect x="174" y="300" width="52" height="24" rx="3" fill="#cfd8dc" stroke="#555" stroke-width="1.5"/>
+<text x="200" y="346" text-anchor="middle" font-size="15" font-weight="700">SAS</text>
+<text x="200" y="363" text-anchor="middle" font-size="13" fill="#444">schmales Kabel</text>
+<line x1="127" y1="312" x2="142" y2="312" stroke="#222" stroke-width="2.5" marker-end="url(#k)"/>
+
+<!-- parallel / seriell -->
+<rect x="14" y="390" width="180" height="66" rx="10" fill="#fff" stroke="#9aa5b1" stroke-width="2"/>
+<text x="104" y="414" text-anchor="middle" font-size="15" font-weight="700">parallel</text>
+<text x="104" y="432" text-anchor="middle" font-size="13">viele Leitungen, breit</text>
+<text x="104" y="448" text-anchor="middle" font-size="13" fill="#444">IDE, SCSI</text>
+<rect x="206" y="390" width="180" height="66" rx="10" fill="#fff" stroke="#c62828" stroke-width="2"/>
+<text x="296" y="414" text-anchor="middle" font-size="15" font-weight="700" fill="#c62828">seriell</text>
+<text x="296" y="432" text-anchor="middle" font-size="13">wenige Leitungen, schmal</text>
+<text x="296" y="448" text-anchor="middle" font-size="13" fill="#444">SATA, SAS</text>
+</svg>

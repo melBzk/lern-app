@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 420" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Ausschnitt einer Spur, stark vergrößert, als Reihe kleiner Stabmagnete. Manche zeigen mit dem Nordpol (rot) nach oben, andere mit dem Südpol (blau) nach oben. Darüber schwebt der Kopf: Er magnetisiert beim Schreiben und liest beim Lesen. Beispiel-Zuordnung: Nordpol oben bedeutet 1, Südpol oben bedeutet 0. Darunter steht die Bitfolge 1 0 1 1 0 0 1 0. Vereinfachte Darstellung.</title>
+<defs>
+<marker id="k" viewBox="0 0 10 10" refX="8" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker>
+</defs>
+<rect width="400" height="420" fill="#fff"/>
+<text x="200" y="26" font-size="17" font-weight="700" text-anchor="middle">Bits als winzige Magnete</text>
+
+<!-- Kopf mit Arm -->
+<line x1="10" y1="84" x2="120" y2="100" stroke="#7a7f88" stroke-width="8" stroke-linecap="round"/>
+<rect x="116" y="92" width="36" height="24" rx="3" fill="#555"/>
+<text x="134" y="84" text-anchor="middle" font-weight="700">Kopf</text>
+<line x1="134" y1="120" x2="134" y2="144" stroke="#222" stroke-width="2.5" marker-start="url(#k)" marker-end="url(#k)"/>
+<text x="168" y="100" font-size="14"><tspan font-weight="700">schreibt:</tspan> magnetisiert</text>
+<text x="168" y="120" font-size="14"><tspan font-weight="700">liest:</tspan> erkennt die Richtung</text>
+
+<!-- Magnete -->
+<g text-anchor="middle" font-weight="700" font-size="15">
+<rect x="32" y="150" width="36" height="40" fill="#c62828"/><rect x="32" y="190" width="36" height="40" fill="#3a6ed8"/><text x="50" y="176" fill="#fff">N</text><text x="50" y="216" fill="#fff">S</text><text x="50" y="286" fill="#222" font-size="20">1</text>
+<rect x="74" y="150" width="36" height="40" fill="#3a6ed8"/><rect x="74" y="190" width="36" height="40" fill="#c62828"/><text x="92" y="176" fill="#fff">S</text><text x="92" y="216" fill="#fff">N</text><text x="92" y="286" fill="#222" font-size="20">0</text>
+<rect x="116" y="150" width="36" height="40" fill="#c62828"/><rect x="116" y="190" width="36" height="40" fill="#3a6ed8"/><text x="134" y="176" fill="#fff">N</text><text x="134" y="216" fill="#fff">S</text><text x="134" y="286" fill="#222" font-size="20">1</text>
+<rect x="158" y="150" width="36" height="40" fill="#c62828"/><rect x="158" y="190" width="36" height="40" fill="#3a6ed8"/><text x="176" y="176" fill="#fff">N</text><text x="176" y="216" fill="#fff">S</text><text x="176" y="286" fill="#222" font-size="20">1</text>
+<rect x="200" y="150" width="36" height="40" fill="#3a6ed8"/><rect x="200" y="190" width="36" height="40" fill="#c62828"/><text x="218" y="176" fill="#fff">S</text><text x="218" y="216" fill="#fff">N</text><text x="218" y="286" fill="#222" font-size="20">0</text>
+<rect x="242" y="150" width="36" height="40" fill="#3a6ed8"/><rect x="242" y="190" width="36" height="40" fill="#c62828"/><text x="260" y="176" fill="#fff">S</text><text x="260" y="216" fill="#fff">N</text><text x="260" y="286" fill="#222" font-size="20">0</text>
+<rect x="284" y="150" width="36" height="40" fill="#c62828"/><rect x="284" y="190" width="36" height="40" fill="#3a6ed8"/><text x="302" y="176" fill="#fff">N</text><text x="302" y="216" fill="#fff">S</text><text x="302" y="286" fill="#222" font-size="20">1</text>
+<rect x="326" y="150" width="36" height="40" fill="#3a6ed8"/><rect x="326" y="190" width="36" height="40" fill="#c62828"/><text x="344" y="176" fill="#fff">S</text><text x="344" y="216" fill="#fff">N</text><text x="344" y="286" fill="#222" font-size="20">0</text>
+</g>
+<rect x="22" y="230" width="356" height="12" fill="#9fb3cf" stroke="#3a6ed8" stroke-width="1.5"/>
+<text x="200" y="260" text-anchor="middle" font-size="13" fill="#555">Spur auf der Platte, stark vergrößert</text>
+
+<!-- Zuordnung -->
+<rect x="10" y="306" width="380" height="70" rx="8" fill="#fdecea" stroke="#c62828" stroke-width="2"/>
+<text x="200" y="328" text-anchor="middle" font-size="13">Beispiel:</text>
+<rect x="38" y="340" width="14" height="22" fill="#c62828"/><text x="58" y="357" font-weight="700">N oben = 1</text>
+<rect x="216" y="340" width="14" height="22" fill="#3a6ed8"/><text x="236" y="357" font-weight="700">S oben = 0</text>
+<text x="200" y="404" text-anchor="middle" font-size="13" fill="#555">eine Richtung = 1, andere Richtung = 0 · vereinfacht</text>
+</svg>

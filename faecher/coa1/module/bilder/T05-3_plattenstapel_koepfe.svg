@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 450" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Seitenansicht eines Plattenstapels: zwei Platten übereinander auf einer Spindel. Von links greifen vier Arme wie ein Kamm dazwischen. An jeder Oberfläche, oben und unten an jeder Platte, sitzt ein eigener Kopf, nummeriert 1 bis 4. Ergebnis: 2 Platten gleich 4 Oberflächen gleich 4 Köpfe. Mehr Platten bedeuten mehr Kapazität.</title>
+<rect width="400" height="450" fill="#fff"/>
+<text x="200" y="26" font-size="17" font-weight="700" text-anchor="middle">Jede Oberfläche hat ihren Kopf</text>
+<text x="200" y="48" text-anchor="middle" font-size="13">Seitenansicht</text>
+
+<!-- Spindel -->
+<rect x="262" y="96" width="16" height="230" rx="3" fill="#555"/>
+<text x="270" y="346" text-anchor="middle" font-weight="700">Spindel</text>
+
+<!-- Platten -->
+<rect x="150" y="150" width="240" height="12" rx="3" fill="#9fb3cf" stroke="#3a6ed8" stroke-width="2"/>
+<rect x="150" y="250" width="240" height="12" rx="3" fill="#9fb3cf" stroke="#3a6ed8" stroke-width="2"/>
+<text x="330" y="142" text-anchor="middle" font-weight="700" fill="#3a6ed8">Platte 1</text>
+<text x="330" y="242" text-anchor="middle" font-weight="700" fill="#3a6ed8">Platte 2</text>
+
+<!-- Plattenarm (Kamm) -->
+<rect x="28" y="108" width="28" height="190" rx="5" fill="#7a7f88"/>
+<text x="42" y="98" text-anchor="middle" font-weight="700">Plattenarm</text>
+<g stroke="#7a7f88" stroke-width="6" stroke-linecap="round">
+<line x1="56" y1="130" x2="204" y2="130"/>
+<line x1="56" y1="182" x2="204" y2="182"/>
+<line x1="56" y1="230" x2="204" y2="230"/>
+<line x1="56" y1="282" x2="204" y2="282"/>
+</g>
+<!-- Köpfe -->
+<g fill="#c62828">
+<rect x="194" y="133" width="24" height="11" rx="2"/>
+<rect x="194" y="168" width="24" height="11" rx="2"/>
+<rect x="194" y="233" width="24" height="11" rx="2"/>
+<rect x="194" y="268" width="24" height="11" rx="2"/>
+</g>
+<!-- Nummern -->
+<g font-weight="700" font-size="13" text-anchor="middle">
+<circle cx="120" cy="130" r="11" fill="#c62828"/><text x="120" y="135" fill="#fff">1</text>
+<circle cx="120" cy="182" r="11" fill="#c62828"/><text x="120" y="187" fill="#fff">2</text>
+<circle cx="120" cy="230" r="11" fill="#c62828"/><text x="120" y="235" fill="#fff">3</text>
+<circle cx="120" cy="282" r="11" fill="#c62828"/><text x="120" y="287" fill="#fff">4</text>
+</g>
+<text x="200" y="316" text-anchor="middle" font-size="13" fill="#c62828" font-weight="700">Köpfe</text>
+
+<!-- Ergebnis -->
+<rect x="10" y="362" width="380" height="44" rx="8" fill="#fdecea" stroke="#c62828" stroke-width="2"/>
+<text x="200" y="390" text-anchor="middle" font-weight="700" font-size="16">2 Platten = 4 Oberflächen = 4 Köpfe</text>
+<text x="200" y="434" text-anchor="middle" font-size="14" fill="#555">mehr Platten = mehr Kapazität</text>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 420" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Eine Reihe von 6 gleich großen Clustern. Cluster 1: Eine kleine Datei füllt nur ein Viertel, der Rest ist grau schraffiert, ungenutzt, das ist Verschnitt. Cluster 2 bis 4: Eine große Datei füllt Cluster 2 und 3 ganz und Cluster 4 zur Hälfte, der Rest von Cluster 4 ist grau. Cluster 5 und 6 sind frei. Kleine Datei: 1 Cluster, der Rest bleibt leer. Große Datei: Cluster für Cluster, nur im letzten bleibt ein Rest. Unten: Ein Cluster besteht aus einem oder mehreren Sektoren, im Beispiel 4.</title>
+<rect width="400" height="420" fill="#fff"/>
+<text x="200" y="26" font-size="17" font-weight="700" text-anchor="middle">Ein Cluster – eine Datei</text>
+
+<text x="14" y="56" font-weight="700" fill="#555">ungenutzt (Verschnitt)</text>
+<rect x="17" y="84" width="56" height="70" fill="#fff"/><rect x="17" y="84" width="14.0" height="70" fill="#2e7d32"/><rect x="31.0" y="84" width="42.0" height="70" fill="#e0e0e0"/><g stroke="#888" stroke-width="2"><line x1="39.0" y1="84.0" x2="31.0" y2="92.0"/><line x1="47.0" y1="84.0" x2="31.0" y2="100.0"/><line x1="55.0" y1="84.0" x2="31.0" y2="108.0"/><line x1="63.0" y1="84.0" x2="31.0" y2="116.0"/><line x1="71.0" y1="84.0" x2="31.0" y2="124.0"/><line x1="73.0" y1="90.0" x2="31.0" y2="132.0"/><line x1="73.0" y1="98.0" x2="31.0" y2="140.0"/><line x1="73.0" y1="106.0" x2="31.0" y2="148.0"/><line x1="73.0" y1="114.0" x2="33.0" y2="154.0"/><line x1="73.0" y1="122.0" x2="41.0" y2="154.0"/><line x1="73.0" y1="130.0" x2="49.0" y2="154.0"/><line x1="73.0" y1="138.0" x2="57.0" y2="154.0"/><line x1="73.0" y1="146.0" x2="65.0" y2="154.0"/></g><rect x="17" y="84" width="56" height="70" fill="none" stroke="#222" stroke-width="2"/><rect x="79" y="84" width="56" height="70" fill="#fff"/><rect x="79" y="84" width="56.0" height="70" fill="#3a6ed8"/><rect x="79" y="84" width="56" height="70" fill="none" stroke="#222" stroke-width="2"/><rect x="141" y="84" width="56" height="70" fill="#fff"/><rect x="141" y="84" width="56.0" height="70" fill="#3a6ed8"/><rect x="141" y="84" width="56" height="70" fill="none" stroke="#222" stroke-width="2"/><rect x="203" y="84" width="56" height="70" fill="#fff"/><rect x="203" y="84" width="28.0" height="70" fill="#3a6ed8"/><rect x="231.0" y="84" width="28.0" height="70" fill="#e0e0e0"/><g stroke="#888" stroke-width="2"><line x1="239.0" y1="84.0" x2="231.0" y2="92.0"/><line x1="247.0" y1="84.0" x2="231.0" y2="100.0"/><line x1="255.0" y1="84.0" x2="231.0" y2="108.0"/><line x1="259.0" y1="88.0" x2="231.0" y2="116.0"/><line x1="259.0" y1="96.0" x2="231.0" y2="124.0"/><line x1="259.0" y1="104.0" x2="231.0" y2="132.0"/><line x1="259.0" y1="112.0" x2="231.0" y2="140.0"/><line x1="259.0" y1="120.0" x2="231.0" y2="148.0"/><line x1="259.0" y1="128.0" x2="233.0" y2="154.0"/><line x1="259.0" y1="136.0" x2="241.0" y2="154.0"/><line x1="259.0" y1="144.0" x2="249.0" y2="154.0"/><line x1="259.0" y1="152.0" x2="257.0" y2="154.0"/></g><rect x="203" y="84" width="56" height="70" fill="none" stroke="#222" stroke-width="2"/><rect x="265" y="84" width="56" height="70" fill="#fff"/><text x="293.0" y="124.0" text-anchor="middle" font-size="13" fill="#888">frei</text><rect x="265" y="84" width="56" height="70" fill="none" stroke="#222" stroke-width="2"/><rect x="327" y="84" width="56" height="70" fill="#fff"/><text x="355.0" y="124.0" text-anchor="middle" font-size="13" fill="#888">frei</text><rect x="327" y="84" width="56" height="70" fill="none" stroke="#222" stroke-width="2"/>
+<g stroke="#555" stroke-width="1.2"><line x1="52" y1="62" x2="59" y2="106"/><line x1="186" y1="56" x2="247" y2="106"/></g>
+
+<!-- Klammern -->
+<path d="M17,162 v8 h56 v-8" fill="none" stroke="#2e7d32" stroke-width="2.5"/>
+<path d="M79,162 v8 h180 v-8" fill="none" stroke="#3a6ed8" stroke-width="2.5"/>
+<text x="14" y="190" font-weight="700" fill="#2e7d32">kleine Datei:</text>
+<text x="14" y="208" font-size="13">1 Cluster,</text>
+<text x="14" y="225" font-size="13">Rest bleibt leer</text>
+<text x="172" y="190" font-weight="700" fill="#3a6ed8">große Datei:</text>
+<text x="172" y="208" font-size="13">Cluster für Cluster,</text>
+<text x="172" y="225" font-size="13">nur im letzten bleibt Rest</text>
+
+<!-- Cluster von innen -->
+<line x1="10" y1="250" x2="390" y2="250" stroke="#ddd" stroke-width="1.5"/>
+<text x="200" y="276" text-anchor="middle" font-size="13" fill="#555">ein Cluster von innen (Beispiel)</text>
+<rect x="80" y="290" width="240" height="50" fill="#e8f0fe" stroke="#222" stroke-width="2.5"/>
+<g stroke="#3a6ed8" stroke-width="1.5" stroke-dasharray="4 3"><line x1="140" y1="290" x2="140" y2="340"/><line x1="200" y1="290" x2="200" y2="340"/><line x1="260" y1="290" x2="260" y2="340"/></g>
+<g text-anchor="middle" font-size="13" fill="#1f4fa8"><text x="110" y="320">Sektor</text><text x="170" y="320">Sektor</text><text x="230" y="320">Sektor</text><text x="290" y="320">Sektor</text></g>
+<path d="M80,350 v8 h240 v-8" fill="none" stroke="#c62828" stroke-width="2.5"/>
+<rect x="40" y="368" width="320" height="40" rx="8" fill="#fdecea" stroke="#c62828" stroke-width="2"/>
+<text x="200" y="394" text-anchor="middle" font-weight="700">1 Cluster = 1 oder mehrere Sektoren</text>
+</svg>

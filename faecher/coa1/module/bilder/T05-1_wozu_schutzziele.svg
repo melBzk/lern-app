@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Ein Tempel mit dem Dach Schutzbedarf und drei Säulen. Säule 1: Vertraulichkeit, Schloss-Symbol, zum Beispiel BitLocker. Säule 2: Integrität, Häkchen, Daten unverändert. Säule 3: Verfügbarkeit, zwei Ordner als Kopie, zum Beispiel Datensicherung. Darunter ein Schild: AP1 Grundsätze, AP2 Sicherungskonzept planen.</title>
+<rect width="400" height="480" fill="#fff"/>
+<text x="200" y="26" font-size="17" font-weight="700" text-anchor="middle">Später: Schutzbedarf einordnen</text>
+
+<!-- Dach -->
+<path d="M10,112 L200,44 L390,112 Z" fill="#3a6ed8"/>
+<text x="200" y="98" text-anchor="middle" font-weight="700" font-size="17" fill="#fff">Schutzbedarf</text>
+<rect x="10" y="112" width="380" height="12" fill="#2c56ad"/>
+
+<!-- Säulen -->
+<g fill="#eceff1" stroke="#90a4ae" stroke-width="2">
+<rect x="14" y="130" width="116" height="226"/>
+<rect x="142" y="130" width="116" height="226"/>
+<rect x="270" y="130" width="116" height="226"/>
+</g>
+
+<!-- 1 Vertraulichkeit -->
+<g transform="translate(72 172)">
+<path d="M-11,0 L-11,-10 A11,11 0 0 1 11,-10 L11,0" fill="none" stroke="#3a6ed8" stroke-width="4.5"/>
+<rect x="-17" y="-2" width="34" height="27" rx="4" fill="#3a6ed8"/>
+<circle cx="0" cy="9" r="3.5" fill="#fff"/><rect x="-1.5" y="10" width="3" height="8" fill="#fff"/>
+</g>
+<text x="72" y="232" text-anchor="middle" font-weight="700" font-size="13.5">Vertraulichkeit</text>
+<text x="72" y="256" text-anchor="middle" font-size="13" fill="#444">nur Befugte</text>
+<text x="72" y="274" text-anchor="middle" font-size="13" fill="#444">lesen</text>
+<text x="72" y="314" text-anchor="middle" font-size="13" font-weight="700" fill="#c62828">z. B.</text>
+<text x="72" y="332" text-anchor="middle" font-size="13" font-weight="700" fill="#c62828">BitLocker</text>
+
+<!-- 2 Integrität -->
+<circle cx="200" cy="180" r="20" fill="#2e7d32"/>
+<path d="M190,180 L197,188 L211,172" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="200" y="232" text-anchor="middle" font-weight="700" font-size="13.5">Integrität</text>
+<text x="200" y="256" text-anchor="middle" font-size="13" fill="#444">Daten</text>
+<text x="200" y="274" text-anchor="middle" font-size="13" fill="#444">unverändert</text>
+
+<!-- 3 Verfügbarkeit -->
+<path d="M302,160 L316,160 L321,165 L344,165 L344,192 L302,192 Z" fill="#F2B100" stroke="#8a6d00" stroke-width="1.5"/>
+<path d="M312,170 L326,170 L331,175 L354,175 L354,202 L312,202 Z" fill="#F2B100" stroke="#8a6d00" stroke-width="1.5"/>
+<text x="328" y="232" text-anchor="middle" font-weight="700" font-size="13.5">Verfügbarkeit</text>
+<text x="328" y="256" text-anchor="middle" font-size="13" fill="#444">Daten da,</text>
+<text x="328" y="274" text-anchor="middle" font-size="13" fill="#444">wenn nötig</text>
+<text x="328" y="314" text-anchor="middle" font-size="13" font-weight="700" fill="#c62828">z. B. Daten-</text>
+<text x="328" y="332" text-anchor="middle" font-size="13" font-weight="700" fill="#c62828">sicherung</text>
+
+<!-- Sockel -->
+<rect x="4" y="356" width="392" height="14" fill="#90a4ae"/>
+
+<!-- Schild -->
+<rect x="10" y="390" width="380" height="80" rx="10" fill="#eceff1" stroke="#555" stroke-width="1.5"/>
+<text x="28" y="422"><tspan font-weight="700">AP1:</tspan> Grundsätze einordnen</text>
+<text x="28" y="450"><tspan font-weight="700">AP2:</tspan> Sicherungskonzept planen</text>
+</svg>

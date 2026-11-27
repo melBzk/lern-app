@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 446" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Gelöscht oder schnell formatiert: Lassen sich die Daten retten? Links HDD mit Lupe und Werkzeugkoffer: Datenrettung oft möglich, denn die Daten liegen noch da, nur der Verzeichniseintrag fehlt. Rechts SSD mit Besen: Rettung meist nicht möglich, denn mit TRIM räumt die SSD freie Bereiche selbst leer, je nach Modell.</title>
+<rect width="400" height="446" fill="#fff"/>
+<text x="200" y="26" font-size="17" font-weight="700" text-anchor="middle">Gelöscht oder schnell formatiert</text>
+<text x="200" y="48" text-anchor="middle" fill="#444">Lassen sich die Daten retten?</text>
+
+<!-- HDD -->
+<rect x="10" y="64" width="185" height="370" rx="10" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2"/>
+<text x="102" y="92" text-anchor="middle" font-weight="700" font-size="17">HDD</text>
+<rect x="34" y="106" width="96" height="66" rx="6" fill="#eceff1" stroke="#555" stroke-width="2"/>
+<circle cx="74" cy="139" r="25" fill="#fff" stroke="#9aa5ad" stroke-width="2"/>
+<circle cx="74" cy="139" r="5" fill="#555"/>
+<line x1="120" y1="162" x2="84" y2="132" stroke="#555" stroke-width="4" stroke-linecap="round"/>
+<!-- Lupe -->
+<circle cx="140" cy="128" r="14" fill="none" stroke="#222" stroke-width="4"/>
+<line x1="150" y1="138" x2="164" y2="152" stroke="#222" stroke-width="6" stroke-linecap="round"/>
+<!-- Werkzeugkoffer -->
+<rect x="56" y="196" width="92" height="52" rx="6" fill="#c0392b"/>
+<rect x="84" y="186" width="36" height="14" rx="4" fill="none" stroke="#c0392b" stroke-width="5"/>
+<rect x="56" y="216" width="92" height="6" fill="#8e2a20"/>
+
+<text x="102" y="282" text-anchor="middle" font-weight="700" fill="#2e7d32" font-size="15">Rettung oft</text>
+<text x="102" y="301" text-anchor="middle" font-weight="700" fill="#2e7d32" font-size="15">möglich</text>
+<g font-size="13" text-anchor="middle">
+<text x="102" y="336">Daten liegen</text>
+<text x="102" y="354">noch da –</text>
+<text x="102" y="372">nur der</text>
+<text x="102" y="390">Verzeichnis-</text>
+<text x="102" y="408">eintrag fehlt</text>
+</g>
+
+<!-- SSD -->
+<rect x="205" y="64" width="185" height="370" rx="10" fill="#fdecea" stroke="#c62828" stroke-width="2"/>
+<text x="297" y="92" text-anchor="middle" font-weight="700" font-size="17">SSD</text>
+<rect x="226" y="112" width="110" height="56" rx="5" fill="#555"/>
+<g fill="#222" stroke="#999" stroke-width="1"><rect x="236" y="122" width="26" height="36"/><rect x="268" y="122" width="26" height="36"/><rect x="300" y="122" width="26" height="36"/></g>
+<!-- Besen -->
+<line x1="356" y1="104" x2="320" y2="210" stroke="#8d6e63" stroke-width="5" stroke-linecap="round"/>
+<path d="M310,206 L334,214 L326,246 L292,234 Z" fill="#F2B100" stroke="#b38300" stroke-width="1.5"/>
+<g stroke="#b38300" stroke-width="1.5"><line x1="304" y1="218" x2="298" y2="234"/><line x1="314" y1="222" x2="308" y2="238"/><line x1="324" y1="225" x2="318" y2="241"/></g>
+<text x="297" y="282" text-anchor="middle" font-weight="700" fill="#c62828" font-size="15">Rettung meist</text>
+<text x="297" y="301" text-anchor="middle" font-weight="700" fill="#c62828" font-size="15">nicht möglich</text>
+<g font-size="13" text-anchor="middle">
+<text x="297" y="336"><tspan font-weight="700">TRIM:</tspan> Windows</text>
+<text x="297" y="354">meldet freie Bereiche,</text>
+<text x="297" y="372">die SSD räumt</text>
+<text x="297" y="390">sie selbst leer</text>
+<text x="297" y="408">(je nach Modell)</text>
+</g>
+</svg>

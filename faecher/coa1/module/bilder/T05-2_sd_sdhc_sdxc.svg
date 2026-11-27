@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 440" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Treppe mit drei Stufen, jede höher als die vorige: SD bis 2 GB, SDHC bis 32 GB, SDXC bis 2 TB. Ein Pfeil über der Treppe zeigt: mehr Kapazität. Daneben ein durchgestrichener Tacho: Die Buchstaben sagen nichts über das Tempo.</title>
+<defs>
+<marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker>
+</defs>
+<rect width="400" height="440" fill="#fff"/>
+<text x="200" y="28" font-size="17" font-weight="700" text-anchor="middle">SD, SDHC, SDXC = Kapazität</text>
+
+<!-- Pfeil mehr Kapazitaet -->
+<line x1="40" y1="230" x2="300" y2="50" stroke="#c62828" stroke-width="4" marker-end="url(#r)"/>
+<text x="100" y="160" font-weight="700" fill="#c62828" font-size="15" transform="rotate(-34.7 100 160)">mehr Kapazität</text>
+
+<!-- Treppe -->
+<rect x="20" y="270" width="96" height="70" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2.5"/>
+<rect x="116" y="200" width="96" height="140" fill="#cfe0fb" stroke="#3a6ed8" stroke-width="2.5"/>
+<rect x="212" y="130" width="96" height="210" fill="#a9c6f5" stroke="#3a6ed8" stroke-width="2.5"/>
+
+<text x="68" y="300" text-anchor="middle" font-weight="700" font-size="17">SD</text>
+<text x="68" y="324" text-anchor="middle">bis 2 GB</text>
+
+<text x="164" y="230" text-anchor="middle" font-weight="700" font-size="17">SDHC</text>
+<text x="164" y="254" text-anchor="middle">bis 32 GB</text>
+<text x="164" y="276" text-anchor="middle" font-size="13" fill="#444">High</text>
+<text x="164" y="292" text-anchor="middle" font-size="13" fill="#444">Capacity</text>
+
+<text x="260" y="160" text-anchor="middle" font-weight="700" font-size="17">SDXC</text>
+<text x="260" y="184" text-anchor="middle" font-weight="700" fill="#c62828">bis 2 TB</text>
+<text x="260" y="206" text-anchor="middle" font-size="13" fill="#444">eXtended</text>
+<text x="260" y="222" text-anchor="middle" font-size="13" fill="#444">Capacity</text>
+
+<line x1="10" y1="340" x2="318" y2="340" stroke="#555" stroke-width="2"/>
+
+<!-- Tacho durchgestrichen -->
+<path d="M326,300 A32,32 0 0 1 390,300" fill="none" stroke="#555" stroke-width="5"/>
+<line x1="358" y1="300" x2="374" y2="278" stroke="#555" stroke-width="4" stroke-linecap="round"/>
+<circle cx="358" cy="300" r="5" fill="#555"/>
+<line x1="324" y1="266" x2="392" y2="318" stroke="#c62828" stroke-width="5" stroke-linecap="round"/>
+<text x="358" y="338" text-anchor="middle" font-weight="700">nicht</text>
+<text x="358" y="356" text-anchor="middle" font-weight="700">das Tempo</text>
+
+<!-- Hinweis -->
+<rect x="10" y="374" width="380" height="54" rx="10" fill="#f3f3f3" stroke="#999" stroke-width="1.5"/>
+<text x="200" y="398" text-anchor="middle">Das Tempo zeigt die</text>
+<text x="200" y="418" text-anchor="middle" font-weight="700">Geschwindigkeitsklasse (z. B. Class 10)</text>
+</svg>

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Der Kompromiss: eine Waage. Linke Schale: kleine SSD für System und Programme, startet schnell, Preisschild teuer je GB. Rechte Schale: große HDD für Fotos, Archiv und selten Genutztes, Preisschild günstig je GB. Darunter zwei Stoppuhren: Word öffnen dauert 1 Sekunde mit SSD und 2 Sekunden mit HDD. Daumen hoch: erträglich.</title>
+<rect width="400" height="500" fill="#fff"/>
+<text x="200" y="28" text-anchor="middle" font-size="17" font-weight="700">Der Kompromiss</text>
+
+<!-- Beschriftungen oben -->
+<text x="100" y="64" text-anchor="middle" font-size="13" font-weight="700">System + Programme</text>
+<text x="100" y="82" text-anchor="middle" font-size="13">startet schnell</text>
+<text x="300" y="64" text-anchor="middle" font-size="13" font-weight="700">Fotos, Archiv,</text>
+<text x="300" y="82" text-anchor="middle" font-size="13" font-weight="700">selten Genutztes</text>
+
+<!-- SSD klein -->
+<rect x="60" y="168" width="80" height="44" rx="4" fill="#333"/>
+<rect x="67" y="175" width="66" height="30" rx="2" fill="#cfd8dc"/>
+<text x="100" y="195" text-anchor="middle" font-size="14" font-weight="700">SSD</text>
+<!-- HDD groß -->
+<rect x="240" y="104" width="120" height="108" rx="6" fill="#555"/>
+<circle cx="300" cy="150" r="34" fill="#b0bec5" stroke="#cfd8dc" stroke-width="2"/>
+<circle cx="300" cy="150" r="5" fill="#555"/>
+<text x="300" y="204" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">HDD</text>
+
+<!-- Waage -->
+<rect x="30" y="212" width="140" height="8" rx="3" fill="#78909c"/>
+<rect x="230" y="212" width="140" height="8" rx="3" fill="#78909c"/>
+<rect x="96" y="220" width="8" height="24" fill="#78909c"/>
+<rect x="296" y="220" width="8" height="24" fill="#78909c"/>
+<rect x="60" y="244" width="280" height="8" rx="3" fill="#78909c"/>
+<rect x="196" y="252" width="8" height="50" fill="#78909c"/>
+<path d="M160,316 l14,-14 h52 l14,14 z" fill="#78909c"/>
+<circle cx="200" cy="248" r="7" fill="#455a64"/>
+
+<!-- Preisschilder -->
+<path d="M36,266 h104 l14,14 l-14,14 h-104 z" fill="#fff" stroke="#c62828" stroke-width="2"/>
+<circle cx="140" cy="280" r="3" fill="#c62828"/>
+<text x="86" y="285" text-anchor="middle" font-size="13" font-weight="700" fill="#c62828">teuer je GB</text>
+<path d="M246,266 h104 l14,14 l-14,14 h-104 z" fill="#fff" stroke="#2e7d32" stroke-width="2"/>
+<circle cx="350" cy="280" r="3" fill="#2e7d32"/>
+<text x="296" y="285" text-anchor="middle" font-size="13" font-weight="700" fill="#2e7d32">günstig je GB</text>
+
+<!-- Word öffnen -->
+<rect x="10" y="336" width="380" height="152" rx="10" fill="#eceff1"/>
+<text x="24" y="362" font-size="15" font-weight="700">Word öffnen:</text>
+<!-- Uhr 1 -->
+<rect x="83" y="370" width="14" height="6" rx="2" fill="#555"/>
+<circle cx="90" cy="410" r="30" fill="#fff" stroke="#555" stroke-width="3"/>
+<path d="M90,410 V384 A26,26 0 0 1 103,387.5 z" fill="#3a6ed8" opacity="0.5"/>
+<line x1="90" y1="410" x2="103" y2="387.5" stroke="#222" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="90" cy="410" r="3" fill="#222"/>
+<text x="90" y="464" text-anchor="middle" font-size="14" font-weight="700">1 s (SSD)</text>
+<!-- Uhr 2 -->
+<rect x="203" y="370" width="14" height="6" rx="2" fill="#555"/>
+<circle cx="210" cy="410" r="30" fill="#fff" stroke="#555" stroke-width="3"/>
+<path d="M210,410 V384 A26,26 0 0 1 232.5,397 z" fill="#3a6ed8" opacity="0.5"/>
+<line x1="210" y1="410" x2="232.5" y2="397" stroke="#222" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="210" cy="410" r="3" fill="#222"/>
+<text x="210" y="464" text-anchor="middle" font-size="14" font-weight="700">2 s (HDD)</text>
+<!-- Daumen hoch -->
+<g fill="#2e7d32">
+<rect x="314" y="398" width="34" height="30" rx="6"/>
+<rect x="318" y="374" width="12" height="30" rx="6"/>
+<rect x="304" y="400" width="8" height="28" rx="2"/>
+</g>
+<text x="330" y="464" text-anchor="middle" font-size="14" font-weight="700" fill="#2e7d32">erträglich</text>
+</svg>

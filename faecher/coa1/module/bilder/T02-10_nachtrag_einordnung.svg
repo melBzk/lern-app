@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 640" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Treppe Online, Nearline, Offline; nach unten wird der Zugriff langsamer. Stufe 1 Online: eingebaute Festplatte. Zwischen Online und Nearline ein USB-Stick mit Doppelpfeil: Das Buch zählt den eingesteckten Stick zu Online, im Unterricht eher Nearline – darüber kann man streiten. Stufe 2 Nearline: Wechselfestplatte, die bei Bedarf in einen Einschub geschoben wird, und Bandroboter. Stufe 3 Offline: Das Sicherungsband wird von Hand aus der Firma in einen Banksafe gebracht – außer Haus, Schutz vor Brand.</title>
+<defs>
+<marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker>
+<marker id="k" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker>
+<g id="band">
+<rect x="0" y="0" width="30" height="20" rx="2" fill="#555"/>
+<circle cx="10" cy="10" r="5" fill="#c9a36b"/>
+<rect x="20" y="4" width="7" height="12" fill="#888"/>
+</g>
+<g id="platte">
+<rect x="0" y="0" width="44" height="34" rx="4" fill="#d9dde3" stroke="#444" stroke-width="1.5"/>
+<circle cx="16" cy="17" r="12" fill="#9fb3cf"/><circle cx="16" cy="17" r="3" fill="#444"/>
+</g>
+</defs>
+<rect width="400" height="640" fill="#fff"/>
+<text x="210" y="26" font-size="17" font-weight="700" text-anchor="middle">Stick, Wechselplatte, Sicherung</text>
+
+<!-- Pfeil links -->
+<line x1="32" y1="46" x2="32" y2="628" stroke="#c62828" stroke-width="3" marker-end="url(#a)"/>
+<text x="16" y="330" font-size="14" font-weight="700" fill="#c62828" text-anchor="middle" transform="rotate(-90 16 330)">Zugriff wird langsamer</text>
+
+<!-- Stufe 1 Online -->
+<rect x="44" y="42" width="290" height="104" rx="10" fill="#eaf6ee" stroke="#2e9e5b" stroke-width="1.5"/>
+<rect x="44" y="42" width="290" height="8" rx="4" fill="#2e9e5b"/>
+<text x="58" y="74" font-size="17" font-weight="700" fill="#1c6b3c">1 Online</text>
+<text x="58" y="94" font-size="13">ständig aktiv</text>
+<g transform="translate(206 66) scale(1.2)"><use href="#platte"/></g>
+<text x="232" y="132" font-size="13" text-anchor="middle">eingebaute Festplatte</text>
+
+<!-- USB-Stick zwischen den Stufen -->
+<rect x="60" y="156" width="20" height="30" fill="#888"/>
+<rect x="76" y="162" width="44" height="18" rx="4" fill="#2e9e5b"/>
+<text x="130" y="168" font-weight="700" font-size="13">USB-Stick</text>
+<text x="130" y="186" font-size="13">Buch: Online</text>
+<text x="130" y="204" font-size="13">Unterricht: eher Nearline</text>
+<line x1="288" y1="150" x2="288" y2="222" stroke="#222" stroke-width="2.5" marker-start="url(#k)" marker-end="url(#k)"/>
+<!-- Sprechblase -->
+<path d="M300,158 L396,158 L396,208 L322,208 L304,220 L310,208 L300,208 Z" fill="#fff8d6" stroke="#C9A800" stroke-width="1.5"/>
+<text x="348" y="179" text-anchor="middle" font-size="13">darüber kann</text>
+<text x="348" y="197" text-anchor="middle" font-size="13">man streiten</text>
+
+<!-- Stufe 2 Nearline -->
+<rect x="70" y="226" width="300" height="170" rx="10" fill="#fdf2e6" stroke="#d9791f" stroke-width="1.5"/>
+<rect x="70" y="226" width="300" height="8" rx="4" fill="#d9791f"/>
+<text x="84" y="258" font-size="17" font-weight="700" fill="#8a4a0f">2 Nearline</text>
+<text x="84" y="278" font-size="13">oft gebraucht, nicht gerade jetzt</text>
+<!-- Einschub mit Wechselplatte -->
+<rect x="86" y="300" width="90" height="46" rx="4" fill="#455a64"/>
+<rect x="92" y="312" width="62" height="22" fill="#263238"/>
+<g transform="translate(128 306)"><use href="#platte"/></g>
+<line x1="196" y1="323" x2="176" y2="323" stroke="#222" stroke-width="2.5" marker-end="url(#k)"/>
+<text x="132" y="368" font-size="13" text-anchor="middle">Wechselplatte</text>
+<text x="132" y="384" font-size="13" text-anchor="middle">in den Einschub</text>
+<!-- Bandroboter -->
+<rect x="232" y="296" width="62" height="50" fill="#fff" stroke="#444" stroke-width="1.5"/>
+<line x1="232" y1="321" x2="294" y2="321" stroke="#444" stroke-width="1.5"/>
+<g transform="translate(236 299) scale(0.8)"><use href="#band"/></g><g transform="translate(264 299) scale(0.8)"><use href="#band"/></g><g transform="translate(236 324) scale(0.8)"><use href="#band"/></g>
+<path d="M300,296 h56" stroke="#666" stroke-width="4"/>
+<path d="M346,296 v18 l-18,14 h-6" fill="none" stroke="#d9791f" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<g transform="translate(298 324) scale(0.8)"><use href="#band"/></g>
+<text x="300" y="368" font-size="13" text-anchor="middle">Bandroboter</text>
+
+<!-- Stufe 3 Offline -->
+<rect x="96" y="412" width="294" height="216" rx="10" fill="#f0f1f4" stroke="#6b7280" stroke-width="1.5"/>
+<rect x="96" y="412" width="294" height="8" rx="4" fill="#6b7280"/>
+<text x="110" y="444" font-size="17" font-weight="700" fill="#374151">3 Offline</text>
+<text x="110" y="464" font-size="13">von Hand einlegen</text>
+<!-- Firma -->
+<rect x="110" y="490" width="80" height="70" fill="#eceff1" stroke="#555" stroke-width="2"/>
+<g fill="#9fb3cf"><rect x="120" y="500" width="16" height="14"/><rect x="164" y="500" width="16" height="14"/><rect x="120" y="524" width="16" height="14"/></g>
+<g transform="translate(150 528)"><use href="#band"/></g>
+<text x="150" y="578" font-size="13" text-anchor="middle">Firma</text>
+<!-- Pfeil -->
+<line x1="196" y1="525" x2="262" y2="525" stroke="#222" stroke-width="2.5" stroke-dasharray="6 4" marker-end="url(#k)"/>
+<text x="229" y="514" font-size="13" text-anchor="middle">Band</text>
+<!-- Bank mit Safe -->
+<path d="M268,492 L322,470 L376,492 Z" fill="#90a4ae" stroke="#455a64" stroke-width="2"/>
+<rect x="268" y="492" width="108" height="8" fill="#90a4ae" stroke="#455a64" stroke-width="1.5"/>
+<rect x="274" y="500" width="96" height="60" fill="#eceff1" stroke="#455a64" stroke-width="1.5"/>
+<rect x="296" y="508" width="52" height="46" rx="3" fill="#607d8b" stroke="#263238" stroke-width="1.5"/>
+<rect x="301" y="513" width="42" height="36" rx="2" fill="#eceff1"/>
+<g transform="translate(307 521)"><use href="#band"/></g>
+<text x="322" y="578" font-size="13" text-anchor="middle">Banksafe</text>
+<text x="243" y="604" font-size="14" font-weight="700" text-anchor="middle" fill="#c62828">außer Haus – Schutz vor Brand</text>
+</svg>

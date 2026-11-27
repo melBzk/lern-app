@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 540" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Zwei Fälle bei einem Brand im Firmengebäude. Fall 1: Server und Sicherungsband liegen im selben Gebäude. Beide sind durchgestrichen – System und Sicherung verbrannt. Fall 2: Das Sicherungsband wurde von Hand in einen Banksafe gebracht, also offline außer Haus gelagert. Der Server ist verbrannt, aber die Sicherung im Tresor der Bank ist gerettet.</title>
+<defs>
+<marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2e7d32"/></marker>
+<g id="band">
+<rect x="0" y="0" width="30" height="20" rx="2" fill="#555"/>
+<circle cx="10" cy="10" r="5" fill="#c9a36b"/>
+<rect x="20" y="4" width="7" height="12" fill="#888"/>
+</g>
+<g id="server">
+<rect x="0" y="0" width="36" height="70" rx="3" fill="#455a64"/>
+<g fill="#90a4ae"><rect x="5" y="8" width="26" height="8"/><rect x="5" y="24" width="26" height="8"/><rect x="5" y="40" width="26" height="8"/></g>
+<g fill="#7CFC00"><circle cx="9" cy="60" r="2.5"/><circle cx="17" cy="60" r="2.5"/></g>
+</g>
+<g id="flamme">
+<path d="M0,-22 C13,-7 15,2 11,11 A11,11 0 0 1 -11,11 C-15,2 -7,-7 0,-22 Z" fill="#e65100"/>
+<path d="M0,-5 C6,2 7,6 5,11 A5,5 0 0 1 -5,11 C-7,6 -3,2 0,-5 Z" fill="#F2B100"/>
+</g>
+<g id="x"><line x1="-24" y1="-24" x2="24" y2="24"/><line x1="24" y1="-24" x2="-24" y2="24"/></g>
+</defs>
+<rect width="400" height="540" fill="#fff"/>
+<text x="200" y="26" font-size="17" font-weight="700" text-anchor="middle">Die Sicherung gehört außer Haus</text>
+
+<!-- Fall 1 -->
+<rect x="10" y="40" width="380" height="216" rx="10" fill="#fdecea" stroke="#c62828" stroke-width="2"/>
+<circle cx="32" cy="64" r="11" fill="#c62828"/><text x="32" y="69" text-anchor="middle" fill="#fff" font-weight="700" font-size="13">1</text>
+<text x="50" y="69" font-weight="700">Sicherung im selben Gebäude</text>
+<!-- Gebäude -->
+<rect x="28" y="110" width="176" height="130" fill="#eceff1" stroke="#555" stroke-width="2"/>
+<g transform="translate(60 104)"><use href="#flamme"/></g>
+<g transform="translate(116 100) scale(1.2)"><use href="#flamme"/></g>
+<g transform="translate(172 104)"><use href="#flamme"/></g>
+<g transform="translate(46 130)"><use href="#server"/></g>
+<text x="64" y="232" text-anchor="middle" font-size="13">Server</text>
+<!-- Schrank mit Band -->
+<rect x="118" y="146" width="70" height="56" fill="#bcaaa4" stroke="#6d4c41" stroke-width="2"/>
+<g transform="translate(138 164)"><use href="#band"/></g>
+<text x="153" y="232" text-anchor="middle" font-size="13">Band</text>
+<g stroke="#c62828" stroke-width="5" stroke-linecap="round">
+<g transform="translate(64 165)"><use href="#x"/></g>
+<g transform="translate(153 174)"><use href="#x"/></g>
+</g>
+<text x="300" y="130" text-anchor="middle" font-weight="700" font-size="16">Brand:</text>
+<text x="300" y="156" text-anchor="middle">System <tspan font-weight="700">UND</tspan></text>
+<text x="300" y="176" text-anchor="middle">Sicherung</text>
+<text x="300" y="202" text-anchor="middle" font-weight="700" font-size="16" fill="#c62828">verbrannt</text>
+
+<!-- Fall 2 -->
+<rect x="10" y="272" width="380" height="256" rx="10" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2"/>
+<circle cx="32" cy="296" r="11" fill="#2e7d32"/><text x="32" y="301" text-anchor="middle" fill="#fff" font-weight="700" font-size="13">2</text>
+<text x="50" y="301" font-weight="700">Sicherung außer Haus</text>
+<!-- Firma klein -->
+<rect x="24" y="356" width="96" height="100" fill="#eceff1" stroke="#555" stroke-width="2"/>
+<g transform="translate(50 350) scale(0.8)"><use href="#flamme"/></g>
+<g transform="translate(94 350) scale(0.8)"><use href="#flamme"/></g>
+<g transform="translate(54 374)"><use href="#server"/></g>
+<g stroke="#c62828" stroke-width="5" stroke-linecap="round" transform="translate(72 409) scale(0.8)"><use href="#x"/></g>
+<text x="72" y="476" text-anchor="middle" font-size="13">Firma</text>
+<text x="72" y="494" text-anchor="middle" font-size="13" fill="#c62828">System weg</text>
+<!-- Pfeil -->
+<line x1="126" y1="400" x2="240" y2="400" stroke="#2e7d32" stroke-width="3" stroke-dasharray="7 5" marker-end="url(#g)"/>
+<text x="182" y="370" text-anchor="middle" font-size="13">von Hand</text>
+<text x="182" y="388" text-anchor="middle" font-size="13">hinbringen</text>
+<text x="182" y="422" text-anchor="middle" font-size="13" font-weight="700" fill="#2e7d32">= offline</text>
+<!-- Bank -->
+<path d="M244,352 L313,322 L382,352 Z" fill="#90a4ae" stroke="#455a64" stroke-width="2"/>
+<rect x="244" y="352" width="138" height="10" fill="#90a4ae" stroke="#455a64" stroke-width="2"/>
+<g fill="#cfd8dc" stroke="#455a64" stroke-width="1.5"><rect x="252" y="362" width="12" height="86"/><rect x="362" y="362" width="12" height="86"/></g>
+<rect x="244" y="448" width="138" height="10" fill="#90a4ae" stroke="#455a64" stroke-width="2"/>
+<text x="313" y="345" text-anchor="middle" font-size="13" font-weight="700">Bank</text>
+<!-- Tresor -->
+<rect x="276" y="370" width="74" height="70" rx="4" fill="#607d8b" stroke="#263238" stroke-width="2"/>
+<rect x="282" y="376" width="62" height="58" rx="2" fill="#eceff1"/>
+<g transform="translate(298 395)"><use href="#band"/></g>
+<circle cx="350" cy="372" r="14" fill="#2e7d32"/>
+<path d="M343,372 L348,378 L358,366" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="313" y="476" text-anchor="middle" font-size="13">Tresor</text>
+<text x="313" y="494" text-anchor="middle" font-size="14" font-weight="700" fill="#2e7d32">Sicherung gerettet</text>
+</svg>

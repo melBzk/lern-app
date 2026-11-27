@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 470" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>SATA-Anschlüsse. Oben eine Festplatte von hinten: links eine schmale Buchse mit L-förmiger Kerbe für die SATA-Daten, 7-polig; rechts eine breitere L-förmige Buchse für SATA-Strom vom Netzteil. Unten links ein vergrößerter SATA-Datenstecker in L-Form: passt nur in einer Richtung. Unten rechts eine Mainboard-Kante mit vier SATA-Buchsen: moderne Mainboards haben 4 bis 6 Anschlüsse.</title>
+<defs>
+<marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2e7d32"/></marker>
+</defs>
+<rect width="400" height="470" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">SATA: Stecker mit L-Form</text>
+
+<!-- Festplatte von hinten -->
+<text x="200" y="56" text-anchor="middle" font-size="13" fill="#444">Festplatte von hinten</text>
+<rect x="20" y="66" width="360" height="80" rx="6" fill="#cfd8dc" stroke="#555" stroke-width="2"/>
+<!-- Daten-Buchse (schmal, L) -->
+<path d="M60,94 h64 v12 h-56 v8 h-8 z" fill="#222"/>
+<!-- Strom-Buchse (breiter, L) -->
+<path d="M170,94 h140 v12 h-132 v8 h-8 z" fill="#222"/>
+<text x="92" y="170" text-anchor="middle" font-size="14" font-weight="700" fill="#c62828">SATA-Daten</text>
+<text x="92" y="188" text-anchor="middle" font-size="13">7-polig</text>
+<text x="240" y="170" text-anchor="middle" font-size="14" font-weight="700">SATA-Strom</text>
+<text x="240" y="188" text-anchor="middle" font-size="13">vom Netzteil</text>
+
+<!-- vergrößerter Datenstecker -->
+<rect x="10" y="212" width="185" height="244" rx="10" fill="#eceff1"/>
+<text x="102" y="236" text-anchor="middle" font-size="13" fill="#444">Datenstecker, vergrößert</text>
+<text x="64" y="350" font-size="13" fill="#2e7d32" font-weight="700">L-Form</text>
+<path d="M40,260 h124 v24 h-104 v16 h-20 z" fill="#c62828"/>
+<path d="M56,268 h96 v8 h-96 z" fill="#fff" opacity="0.6"/>
+<text x="102" y="412" text-anchor="middle" font-size="14" font-weight="700">passt nur in</text>
+<text x="102" y="430" text-anchor="middle" font-size="14" font-weight="700">einer Richtung</text>
+<line x1="50" y1="372" x2="50" y2="308" stroke="#2e7d32" stroke-width="3" marker-end="url(#g)"/>
+
+<!-- Mainboard-Kante -->
+<rect x="205" y="212" width="185" height="244" rx="10" fill="#eceff1"/>
+<text x="297" y="236" text-anchor="middle" font-size="13" fill="#444">Mainboard-Kante</text>
+<rect x="225" y="250" width="145" height="140" rx="4" fill="#2e7d32" opacity="0.85"/>
+<g fill="#222">
+<path d="M245,268 h70 v12 h-62 v6 h-8 z"/>
+<path d="M245,298 h70 v12 h-62 v6 h-8 z"/>
+<path d="M245,328 h70 v12 h-62 v6 h-8 z"/>
+<path d="M245,358 h70 v12 h-62 v6 h-8 z"/>
+</g>
+<text x="297" y="420" text-anchor="middle" font-size="15" font-weight="700">4–6 Anschlüsse</text>
+</svg>

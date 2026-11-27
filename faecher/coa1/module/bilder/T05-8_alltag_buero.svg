@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Alltagsvergleich aus dem Büro. Links, zwei Ordner: Ordner Privat und Ordner Arbeit stehen in zwei getrennten Schränken. Über dem linken Schrank kippt eine Kaffeetasse, Kaffee läuft hinein. Der rechte Schrank bleibt trocken, Häkchen. So wirken zwei getrennte Laufwerke. Rechts, Durchschreibeblock: ein Stift schreibt auf das obere Blatt, das untere Blatt zeigt gleichzeitig dieselbe Schrift. Original plus Kopie gleich RAID 1.</title>
+<defs>
+<marker id="k" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker>
+</defs>
+<rect width="400" height="400" fill="#fff"/>
+
+<!-- Links: Zwei Ordner -->
+<rect x="8" y="10" width="188" height="380" rx="10" fill="#eceff1"/>
+<text x="102" y="38" text-anchor="middle" font-size="16" font-weight="700">Zwei Ordner</text>
+<!-- Kaffeetasse kippt -->
+<g transform="rotate(-35 58 78)">
+<rect x="40" y="62" width="34" height="30" rx="4" fill="#fff" stroke="#555" stroke-width="2"/>
+<path d="M74,68 c10,0 10,18 0,18" fill="none" stroke="#555" stroke-width="2.5"/>
+</g>
+<path d="M38,92 c-2,10 6,14 4,26 c-1,6 4,10 3,16" fill="none" stroke="#6d4c41" stroke-width="5" stroke-linecap="round"/>
+<!-- Schrank links -->
+<rect x="20" y="140" width="76" height="140" rx="4" fill="#90a4ae" stroke="#555" stroke-width="2"/>
+<rect x="30" y="160" width="56" height="100" rx="3" fill="#fff" stroke="#555" stroke-width="1.5"/>
+<text x="58" y="215" text-anchor="middle" font-size="13" font-weight="700">Privat</text>
+<path d="M22,140 h54 c0,10 -8,14 -18,16 c-12,2 -26,4 -36,10 z" fill="#6d4c41" opacity="0.9"/>
+<ellipse cx="58" cy="148" rx="34" ry="7" fill="#6d4c41"/>
+<!-- Schrank rechts -->
+<rect x="108" y="140" width="76" height="140" rx="4" fill="#90a4ae" stroke="#555" stroke-width="2"/>
+<rect x="118" y="160" width="56" height="100" rx="3" fill="#fff" stroke="#555" stroke-width="1.5"/>
+<text x="146" y="215" text-anchor="middle" font-size="13" font-weight="700">Arbeit</text>
+<circle cx="146" cy="116" r="14" fill="#2e7d32"/>
+<path d="M139,116 l5,5 l9,-10" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="58" y="304" text-anchor="middle" font-size="13" font-weight="700" fill="#c62828">nass</text>
+<text x="146" y="304" text-anchor="middle" font-size="13" font-weight="700" fill="#2e7d32">trocken</text>
+<text x="102" y="340" text-anchor="middle" font-size="14" font-weight="700">getrennt =</text>
+<text x="102" y="360" text-anchor="middle" font-size="14" font-weight="700">2 Laufwerke</text>
+
+<!-- Rechts: Durchschreibeblock -->
+<rect x="204" y="10" width="188" height="380" rx="10" fill="#eceff1"/>
+<text x="298" y="38" text-anchor="middle" font-size="15" font-weight="700">Durchschreibeblock</text>
+<!-- unteres Blatt (Kopie) -->
+<rect x="236" y="168" width="130" height="110" rx="3" fill="#fff8e1" stroke="#555" stroke-width="1.5"/>
+<text x="301" y="244" text-anchor="middle" font-size="18" font-style="italic" fill="#3a6ed8" opacity="0.75">Hallo</text>
+<text x="301" y="268" text-anchor="middle" font-size="13" font-weight="700">Kopie</text>
+<!-- oberes Blatt (Original) -->
+<rect x="222" y="74" width="130" height="80" rx="3" fill="#fff" stroke="#555" stroke-width="1.5"/>
+<text x="287" y="112" text-anchor="middle" font-size="18" font-style="italic" fill="#3a6ed8">Hallo</text>
+<text x="287" y="142" text-anchor="middle" font-size="13" font-weight="700">Original</text>
+<!-- Stift -->
+<g transform="translate(0,14) rotate(35 330 70)">
+<rect x="324" y="30" width="12" height="46" rx="2" fill="#3a6ed8"/>
+<path d="M324,76 h12 l-6,12 z" fill="#555"/>
+</g>
+<!-- Pfeil gleichzeitig -->
+<line x1="244" y1="158" x2="244" y2="210" stroke="#c62828" stroke-width="3" marker-end="url(#k)"/>
+<text x="252" y="190" font-size="13" font-weight="700" fill="#c62828">gleichzeitig</text>
+<text x="298" y="320" text-anchor="middle" font-size="14" font-weight="700">Original + Kopie</text>
+<text x="298" y="340" text-anchor="middle" font-size="14" font-weight="700" fill="#c62828">= RAID 1</text>
+</svg>

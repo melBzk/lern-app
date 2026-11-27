@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 540" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Zwei Spalten. Links ein USB-Stick im Röntgenblick: Flash-Chip und USB-Stecker in einem Gehäuse, der USB-Anschluss ist schon eingebaut, der Stick kommt direkt in den PC. Rechts eine SD-Karte mit Flash-Chip, sie steckt in einem Kombi-Lesegerät mit mehreren Schächten, das per Kabel am PC hängt: Die Karte braucht ein Lesegerät. Unten über beide Spalten: Flash auf Halbleiterbasis, nichtflüchtig, keine Mechanik, Strom kommt vom Gerät.</title>
+<defs>
+<marker id="k" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker>
+</defs>
+<rect width="400" height="540" fill="#fff"/>
+<text x="200" y="28" font-size="17" font-weight="700" text-anchor="middle">Stick oder Karte – beides ist Flash</text>
+<line x1="200" y1="46" x2="200" y2="440" stroke="#ddd" stroke-width="1.5"/>
+
+<!-- LINKS: USB-Stick -->
+<text x="100" y="66" text-anchor="middle" font-weight="700" font-size="16">USB-Stick</text>
+<!-- PC-Symbol links -->
+<rect x="40" y="84" width="120" height="78" rx="6" fill="#eee" stroke="#555" stroke-width="2"/>
+<rect x="50" y="94" width="100" height="58" rx="2" fill="#fff" stroke="#555" stroke-width="1.5"/>
+<text x="100" y="128" text-anchor="middle" font-weight="700">PC</text>
+<rect x="84" y="162" width="32" height="10" fill="#555"/>
+<!-- USB-Buchse unten am PC -->
+<!-- Stick senkrecht, Stecker nach oben -->
+<rect x="84" y="186" width="32" height="30" fill="#ccc" stroke="#555" stroke-width="2"/>
+<rect x="91" y="194" width="7" height="7" fill="#555"/><rect x="102" y="194" width="7" height="7" fill="#555"/>
+<rect x="70" y="216" width="60" height="136" rx="10" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2.5" stroke-dasharray="6 4"/>
+<rect x="82" y="250" width="36" height="44" rx="3" fill="#c62828"/>
+<g stroke="#c62828" stroke-width="2"><line x1="78" y1="258" x2="82" y2="258"/><line x1="78" y1="270" x2="82" y2="270"/><line x1="78" y1="282" x2="82" y2="282"/><line x1="118" y1="258" x2="122" y2="258"/><line x1="118" y1="270" x2="122" y2="270"/><line x1="118" y1="282" x2="122" y2="282"/></g>
+<text x="100" y="276" text-anchor="middle" fill="#fff" font-size="13" font-weight="700">Flash</text>
+<line x1="100" y1="184" x2="100" y2="176" stroke="#222" stroke-width="2.5" marker-end="url(#k)"/>
+<text x="138" y="206" font-size="13" fill="#444">USB-</text>
+<text x="138" y="222" font-size="13" fill="#444">Stecker</text>
+<text x="100" y="376" text-anchor="middle" font-weight="700" fill="#3a6ed8">USB-Anschluss</text>
+<text x="100" y="394" text-anchor="middle" font-weight="700" fill="#3a6ed8">schon eingebaut</text>
+<text x="100" y="416" text-anchor="middle">direkt in den PC</text>
+
+<!-- RECHTS: SD-Karte -->
+<text x="300" y="66" text-anchor="middle" font-weight="700" font-size="16">Speicherkarte</text>
+<rect x="240" y="84" width="120" height="78" rx="6" fill="#eee" stroke="#555" stroke-width="2"/>
+<rect x="250" y="94" width="100" height="58" rx="2" fill="#fff" stroke="#555" stroke-width="1.5"/>
+<text x="300" y="128" text-anchor="middle" font-weight="700">PC</text>
+<!-- Kabel -->
+<path d="M300,162 L300,196" fill="none" stroke="#555" stroke-width="3"/>
+<!-- Kombi-Lesegerät -->
+<rect x="236" y="196" width="128" height="58" rx="8" fill="#ddd" stroke="#555" stroke-width="2"/>
+<rect x="246" y="208" width="34" height="6" rx="2" fill="#555"/>
+<rect x="288" y="208" width="26" height="6" rx="2" fill="#555"/>
+<rect x="322" y="208" width="14" height="6" rx="2" fill="#555"/>
+<rect x="344" y="208" width="10" height="6" rx="2" fill="#555"/>
+<text x="300" y="242" text-anchor="middle" font-size="13" font-weight="700">Kombi-Lesegerät</text>
+<!-- SD-Karte -->
+<path d="M278,290 L322,290 L322,352 L270,352 L270,298 Z" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2.5"/>
+<rect x="282" y="314" width="28" height="26" rx="2" fill="#c62828"/>
+<text x="296" y="331" text-anchor="middle" fill="#fff" font-size="11" font-weight="700">Flash</text>
+<text x="296" y="306" text-anchor="middle" font-size="12" font-weight="700" fill="#3a6ed8">SD</text>
+<line x1="296" y1="286" x2="296" y2="262" stroke="#222" stroke-width="2.5" marker-end="url(#k)"/>
+<text x="300" y="376" text-anchor="middle" font-weight="700" fill="#3a6ed8">braucht ein</text>
+<text x="300" y="394" text-anchor="middle" font-weight="700" fill="#3a6ed8">Lesegerät</text>
+<text x="300" y="416" text-anchor="middle">mehrere Kartenschächte</text>
+
+<!-- Band unten -->
+<rect x="10" y="446" width="380" height="84" rx="10" fill="#fdecea" stroke="#c62828" stroke-width="2"/>
+<text x="200" y="472" text-anchor="middle" font-weight="700" font-size="15">beide: Flash auf Halbleiterbasis</text>
+<text x="200" y="494" text-anchor="middle">nichtflüchtig · keine Mechanik</text>
+<text x="200" y="516" text-anchor="middle">Strom kommt vom Gerät</text>
+</svg>

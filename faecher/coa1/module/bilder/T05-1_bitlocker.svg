@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 590" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>BitLocker schließt das Laufwerk ab. Oben ein Laptop im Röntgenblick: Die Festplatte darin trägt ein Vorhängeschloss mit der Aufschrift BitLocker. Fall 1: Die Besitzerin meldet sich an, die Daten sind lesbar. Fall 2: Ein Dieb baut die Festplatte aus und steckt sie in seinen PC, er sieht nur Zeichensalat. Unten ein gelber Zettel: Wiederherstellungsschlüssel sicher aufbewahren – ist er weg, kann Microsoft ihn nicht neu erstellen.</title>
+<defs>
+<marker id="k" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker>
+<g id="platte">
+<rect x="0" y="0" width="54" height="40" rx="5" fill="#d9dde3" stroke="#444" stroke-width="1.5"/>
+<circle cx="22" cy="20" r="14" fill="#9fb3cf"/><circle cx="22" cy="20" r="3.5" fill="#444"/>
+</g>
+<g id="schloss">
+<path d="M-9,0 L-9,-9 A9,9 0 0 1 9,-9 L9,0" fill="none" stroke="#3a6ed8" stroke-width="4"/>
+<rect x="-14" y="-1" width="28" height="22" rx="4" fill="#3a6ed8"/>
+<circle cx="0" cy="8" r="3" fill="#fff"/><rect x="-1.2" y="9" width="2.4" height="7" fill="#fff"/>
+</g>
+</defs>
+<rect width="400" height="590" fill="#fff"/>
+<text x="200" y="26" font-size="17" font-weight="700" text-anchor="middle">BitLocker: das Laufwerk abschließen</text>
+
+<!-- Laptop Röntgenblick -->
+<rect x="100" y="44" width="200" height="110" rx="6" fill="#e8f0fe" stroke="#333" stroke-width="3" stroke-dasharray="8 5"/>
+<path d="M80,154 L320,154 L308,168 L92,168 Z" fill="#555"/>
+<g transform="translate(130 80)"><use href="#platte"/></g>
+<g transform="translate(206 88) scale(1.5)"><use href="#schloss"/></g>
+<text x="212" y="140" text-anchor="middle" font-weight="700" fill="#3a6ed8">BitLocker</text>
+<text x="148" y="140" text-anchor="middle" font-size="13">Platte</text>
+
+<!-- Fall 1 -->
+<rect x="10" y="184" width="380" height="132" rx="10" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2"/>
+<circle cx="32" cy="208" r="11" fill="#2e7d32"/><text x="32" y="213" text-anchor="middle" fill="#fff" font-weight="700" font-size="13">1</text>
+<text x="50" y="213" font-weight="700">Besitzerin meldet sich an</text>
+<!-- Person -->
+<circle cx="60" cy="240" r="11" fill="#8d6e63"/>
+<path d="M40,290 L40,272 Q40,256 60,256 Q80,256 80,272 L80,290 Z" fill="#2e7d32"/>
+<!-- Schlüssel/Anmeldung -->
+<rect x="96" y="250" width="86" height="28" rx="4" fill="#fff" stroke="#555" stroke-width="1.5"/>
+<text x="139" y="270" text-anchor="middle" font-size="15" fill="#222">••••••</text>
+<line x1="192" y1="264" x2="240" y2="264" stroke="#222" stroke-width="2.5" marker-end="url(#k)"/>
+<!-- Dokument -->
+<path d="M252,232 L286,232 L298,244 L298,298 L252,298 Z" fill="#fff" stroke="#555" stroke-width="2"/>
+<g stroke="#3a6ed8" stroke-width="2.5"><line x1="260" y1="254" x2="290" y2="254"/><line x1="260" y1="266" x2="290" y2="266"/><line x1="260" y1="278" x2="280" y2="278"/></g>
+<text x="346" y="260" text-anchor="middle" font-weight="700" fill="#2e7d32">Daten</text>
+<text x="346" y="279" text-anchor="middle" font-weight="700" fill="#2e7d32">lesbar</text>
+
+<!-- Fall 2 -->
+<rect x="10" y="332" width="380" height="140" rx="10" fill="#fdecea" stroke="#c62828" stroke-width="2"/>
+<circle cx="32" cy="356" r="11" fill="#c62828"/><text x="32" y="361" text-anchor="middle" fill="#fff" font-weight="700" font-size="13">2</text>
+<text x="50" y="361" font-weight="700">Dieb baut die Platte aus</text>
+<!-- Dieb -->
+<circle cx="60" cy="390" r="11" fill="#333"/>
+<rect x="49" y="385" width="22" height="6" fill="#111"/>
+<path d="M40,442 L40,422 Q40,406 60,406 Q80,406 80,422 L80,442 Z" fill="#333"/>
+<!-- Platte mit Schloss -->
+<g transform="translate(92 398)"><use href="#platte"/></g>
+<g transform="translate(140 404) scale(0.9)"><use href="#schloss"/></g>
+<line x1="160" y1="418" x2="204" y2="418" stroke="#222" stroke-width="2.5" marker-end="url(#k)"/>
+<!-- fremder PC -->
+<rect x="212" y="378" width="164" height="70" rx="5" fill="#333"/>
+<rect x="219" y="385" width="150" height="56" fill="#111"/>
+<text x="294" y="410" text-anchor="middle" font-family="Consolas, monospace" font-size="15" fill="#7CFC00">x7#q§Ü%k</text>
+<text x="294" y="430" text-anchor="middle" font-family="Consolas, monospace" font-size="15" fill="#7CFC00">?ß9!zR…</text>
+<text x="294" y="463" text-anchor="middle" font-weight="700" fill="#c62828">nur Zeichensalat</text>
+<text x="120" y="463" text-anchor="middle" font-size="13">in seinen PC</text>
+
+<!-- Zettel -->
+<g transform="rotate(-2 200 530)">
+<rect x="30" y="490" width="340" height="88" fill="#FFE97A" stroke="#C9A800" stroke-width="1.5"/>
+<!-- Schlüssel -->
+<g transform="translate(54 534)">
+<circle cx="0" cy="0" r="10" fill="none" stroke="#222" stroke-width="4"/>
+<rect x="10" y="-2" width="26" height="4" fill="#222"/><rect x="26" y="2" width="4" height="7" fill="#222"/><rect x="32" y="2" width="4" height="9" fill="#222"/>
+</g>
+<text x="100" y="516" font-weight="700">Wiederherstellungsschlüssel</text>
+<text x="100" y="538" font-weight="700" fill="#c62828">sicher aufbewahren!</text>
+<text x="100" y="560" font-size="13">Weg? Microsoft kann ihn</text>
+<text x="100" y="575" font-size="13">nicht neu erstellen.</text>
+</g>
+</svg>

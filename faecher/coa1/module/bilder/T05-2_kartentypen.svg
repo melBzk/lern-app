@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 390" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Vier Speicherkarten maßstäblich nebeneinander, von groß nach klein. CompactFlash: quer liegend, dick, als Kontakte zwei Reihen vieler kleiner Löcher an einer Kante. MMC: flach, 7 Kontaktflächen. SD-Karte: gleich groß wie die MMC, 9 Kontakte und ein Schreibschutz-Schieber an der Seite. Die MMC ist die Vorgängerin der SD-Karte. microSD: winzig.</title>
+<defs>
+<marker id="k" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker>
+</defs>
+<rect width="400" height="390" fill="#fff"/>
+<text x="200" y="28" font-size="17" font-weight="700" text-anchor="middle">Speicherkarten im Größenvergleich</text>
+<text x="200" y="50" font-size="13" text-anchor="middle" fill="#555">maßstäblich, von groß nach klein</text>
+
+<!-- Vorgängerin-Pfeil MMC -> SD -->
+<path d="M196,118 C210,92 254,92 268,118" fill="none" stroke="#c62828" stroke-width="2.5" marker-end="url(#k)"/>
+<text x="232" y="86" text-anchor="middle" font-size="13" font-weight="700" fill="#c62828">Vorgängerin</text>
+
+<!-- CompactFlash quer: ca. 43 breit x 36 hoch mm, Massstab 3 px/mm; Anschluss: zwei Lochreihen an einer langen Kante -->
+<path d="M6,155 L14,145 L143,145 L135,155 Z" fill="#999" stroke="#555" stroke-width="1.5"/>
+<path d="M135,155 L143,145 L143,253 L135,263 Z" fill="#888" stroke="#555" stroke-width="1.5"/>
+<rect x="6" y="155" width="129" height="108" rx="3" fill="#ddd" stroke="#555" stroke-width="2"/>
+<g fill="#222">
+<circle cx="18" cy="148" r="1.1"/><circle cx="22.8" cy="148" r="1.1"/><circle cx="27.6" cy="148" r="1.1"/><circle cx="32.4" cy="148" r="1.1"/><circle cx="37.2" cy="148" r="1.1"/><circle cx="42" cy="148" r="1.1"/><circle cx="46.8" cy="148" r="1.1"/><circle cx="51.6" cy="148" r="1.1"/><circle cx="56.4" cy="148" r="1.1"/><circle cx="61.2" cy="148" r="1.1"/><circle cx="66" cy="148" r="1.1"/><circle cx="70.8" cy="148" r="1.1"/><circle cx="75.6" cy="148" r="1.1"/><circle cx="80.4" cy="148" r="1.1"/><circle cx="85.2" cy="148" r="1.1"/><circle cx="90" cy="148" r="1.1"/><circle cx="94.8" cy="148" r="1.1"/><circle cx="99.6" cy="148" r="1.1"/><circle cx="104.4" cy="148" r="1.1"/><circle cx="109.2" cy="148" r="1.1"/><circle cx="114" cy="148" r="1.1"/><circle cx="118.8" cy="148" r="1.1"/><circle cx="123.6" cy="148" r="1.1"/><circle cx="128.4" cy="148" r="1.1"/><circle cx="133.2" cy="148" r="1.1"/>
+<circle cx="15" cy="152" r="1.1"/><circle cx="19.8" cy="152" r="1.1"/><circle cx="24.6" cy="152" r="1.1"/><circle cx="29.4" cy="152" r="1.1"/><circle cx="34.2" cy="152" r="1.1"/><circle cx="39" cy="152" r="1.1"/><circle cx="43.8" cy="152" r="1.1"/><circle cx="48.6" cy="152" r="1.1"/><circle cx="53.4" cy="152" r="1.1"/><circle cx="58.2" cy="152" r="1.1"/><circle cx="63" cy="152" r="1.1"/><circle cx="67.8" cy="152" r="1.1"/><circle cx="72.6" cy="152" r="1.1"/><circle cx="77.4" cy="152" r="1.1"/><circle cx="82.2" cy="152" r="1.1"/><circle cx="87" cy="152" r="1.1"/><circle cx="91.8" cy="152" r="1.1"/><circle cx="96.6" cy="152" r="1.1"/><circle cx="101.4" cy="152" r="1.1"/><circle cx="106.2" cy="152" r="1.1"/><circle cx="111" cy="152" r="1.1"/><circle cx="115.8" cy="152" r="1.1"/><circle cx="120.6" cy="152" r="1.1"/><circle cx="125.4" cy="152" r="1.1"/><circle cx="130.2" cy="152" r="1.1"/>
+</g>
+<text x="70" y="186" text-anchor="middle" font-size="13" fill="#444">dick</text>
+<text x="70" y="206" text-anchor="middle" font-size="13" fill="#444">Kontakte:</text>
+<text x="70" y="224" text-anchor="middle" font-size="13" fill="#444" font-weight="700">viele Löcher</text>
+<text x="70" y="242" text-anchor="middle" font-size="13" fill="#444">an einer Kante</text>
+
+<!-- MMC 24 x 32 mm -->
+<path d="M160,167 L218,167 L232,181 L232,263 L160,263 Z" fill="#fff" stroke="#555" stroke-width="2"/>
+<g fill="#F2B100">
+<rect x="165" y="172" width="6" height="14"/><rect x="174" y="172" width="6" height="14"/><rect x="183" y="172" width="6" height="14"/><rect x="192" y="172" width="6" height="14"/><rect x="201" y="172" width="6" height="14"/><rect x="210" y="172" width="6" height="14"/><rect x="219" y="180" width="6" height="14"/>
+</g>
+<text x="196" y="222" text-anchor="middle" font-size="13" fill="#444">flach</text>
+<text x="196" y="240" text-anchor="middle" font-size="13" fill="#444" font-weight="700">7 Kontakte</text>
+
+<!-- SD 24 x 32 mm -->
+<path d="M246,167 L304,167 L318,181 L318,263 L246,263 Z" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<g fill="#F2B100">
+<rect x="249" y="172" width="5" height="14"/><rect x="256" y="172" width="5" height="14"/><rect x="263" y="172" width="5" height="14"/><rect x="270" y="172" width="5" height="14"/><rect x="277" y="172" width="5" height="14"/><rect x="284" y="172" width="5" height="14"/><rect x="291" y="172" width="5" height="14"/><rect x="298" y="174" width="5" height="14"/><rect x="306" y="180" width="5" height="14"/>
+</g>
+<!-- Schreibschutz-Schieber -->
+<rect x="240" y="198" width="8" height="18" rx="1" fill="#555"/>
+<text x="282" y="222" text-anchor="middle" font-size="13" fill="#444" font-weight="700">9 Kontakte</text>
+<text x="282" y="240" text-anchor="middle" font-size="13" fill="#444">+ Schieber</text>
+
+<!-- microSD 11 x 15 mm -->
+<path d="M346,218 L377,218 L377,263 L346,263 L346,240 L350,236 L346,232 Z" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+
+<!-- Namen -->
+<line x1="10" y1="276" x2="390" y2="276" stroke="#ddd" stroke-width="1.5"/>
+<text x="68" y="300" text-anchor="middle" font-weight="700" font-size="15">Compact-</text>
+<text x="68" y="318" text-anchor="middle" font-weight="700" font-size="15">Flash</text>
+<text x="196" y="300" text-anchor="middle" font-weight="700" font-size="15">MMC</text>
+<text x="282" y="300" text-anchor="middle" font-weight="700" font-size="15" fill="#3a6ed8">SD-Karte</text>
+<text x="362" y="300" text-anchor="middle" font-weight="700" font-size="15" fill="#3a6ed8">microSD</text>
+<text x="68" y="340" text-anchor="middle" font-size="13" fill="#555">Digitalkameras</text>
+<text x="196" y="318" text-anchor="middle" font-size="13" fill="#555">älter</text>
+<text x="282" y="318" text-anchor="middle" font-size="13" fill="#555">heute Standard</text>
+<text x="362" y="318" text-anchor="middle" font-size="13" fill="#555">winzig</text>
+<text x="200" y="374" text-anchor="middle" font-size="13" fill="#555">MMC und SD: gleich groß, andere Kontakte</text>
+</svg>

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 540" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Checkliste für die richtige Speicherkarte, daneben eine Kamera mit aufgeklapptem Handbuch. 1 Welche Bauform? SD oder microSD. 2 Welche Kapazitätsklasse? SDHC bis 32 GB, SDXC über 32 GB. 3 Welche Klasse? Zum Beispiel mindestens Class 10. Unten: Handbuch oder Datenblatt des Geräts lesen.</title>
+<defs>
+<marker id="k" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker>
+</defs>
+<rect width="400" height="540" fill="#fff"/>
+<text x="200" y="30" font-size="17" font-weight="700" text-anchor="middle">Die richtige Karte fürs Gerät</text>
+
+<!-- Kamera -->
+<rect x="250" y="62" width="76" height="50" rx="6" fill="#555"/>
+<rect x="262" y="53" width="20" height="11" rx="2" fill="#555"/>
+<circle cx="288" cy="87" r="16" fill="#fff"/><circle cx="288" cy="87" r="9" fill="#555"/>
+<!-- Handbuch aufgeklappt -->
+<path d="M300,128 L344,134 L344,184 L300,178 Z" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<path d="M388,128 L344,134 L344,184 L388,178 Z" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<g stroke="#3a6ed8" stroke-width="1.5"><line x1="307" y1="144" x2="337" y2="148"/><line x1="307" y1="154" x2="337" y2="158"/><line x1="307" y1="164" x2="330" y2="167"/><line x1="351" y1="148" x2="381" y2="144"/><line x1="351" y1="158" x2="381" y2="154"/></g>
+<text x="344" y="202" text-anchor="middle" font-size="13" fill="#3a6ed8">Handbuch</text>
+
+<!-- Karte 1 -->
+<rect x="14" y="56" width="226" height="94" rx="10" fill="#fff" stroke="#555" stroke-width="2"/>
+<circle cx="38" cy="82" r="12" fill="#222"/><text x="38" y="87" text-anchor="middle" fill="#fff" font-weight="700" font-size="13">1</text>
+<text x="58" y="88" font-weight="700" font-size="15">Welche Bauform?</text>
+<text x="58" y="112">Welcher Schacht?</text>
+<text x="58" y="134" fill="#3a6ed8" font-weight="700">SD, microSD</text>
+
+<line x1="127" y1="154" x2="127" y2="172" stroke="#222" stroke-width="2.5" marker-end="url(#k)"/>
+
+<!-- Karte 2 -->
+<rect x="14" y="176" width="226" height="118" rx="10" fill="#fff" stroke="#555" stroke-width="2"/>
+<circle cx="38" cy="202" r="12" fill="#222"/><text x="38" y="207" text-anchor="middle" fill="#fff" font-weight="700" font-size="13">2</text>
+<text x="58" y="208" font-weight="700" font-size="15">Kapazitätsklasse?</text>
+<text x="58" y="232"><tspan fill="#3a6ed8" font-weight="700">SDHC</tspan> bis 32 GB</text>
+<text x="58" y="254"><tspan fill="#3a6ed8" font-weight="700">SDXC</tspan> über 32 GB</text>
+<text x="58" y="278" font-size="13" fill="#444">Kann das Gerät SDXC?</text>
+
+<line x1="127" y1="298" x2="127" y2="316" stroke="#222" stroke-width="2.5" marker-end="url(#k)"/>
+
+<!-- Karte 3 -->
+<rect x="14" y="320" width="226" height="94" rx="10" fill="#fdecea" stroke="#c62828" stroke-width="2.5"/>
+<circle cx="38" cy="346" r="12" fill="#c62828"/><text x="38" y="351" text-anchor="middle" fill="#fff" font-weight="700" font-size="13">3</text>
+<text x="58" y="352" font-weight="700" font-size="15">Welche Klasse?</text>
+<text x="58" y="376">z. B. mindestens</text>
+<text x="58" y="398" fill="#c62828" font-weight="700">Class 10</text>
+
+<!-- Hinweis Geraet kann nur SDHC -->
+<rect x="250" y="224" width="140" height="92" rx="8" fill="#f3f3f3" stroke="#999" stroke-width="1.5"/>
+<text x="320" y="246" text-anchor="middle" font-size="13">Gerät kennt nur</text>
+<text x="320" y="264" text-anchor="middle" font-size="13" font-weight="700">SDHC?</text>
+<text x="320" y="282" text-anchor="middle" font-size="13">Dann liest es</text>
+<text x="320" y="300" text-anchor="middle" font-size="13" font-weight="700" fill="#c62828">keine SDXC</text>
+<line x1="248" y1="262" x2="242" y2="262" stroke="#999" stroke-width="1.5"/>
+
+<!-- Unten -->
+<rect x="10" y="440" width="380" height="84" rx="10" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<text x="200" y="472" text-anchor="middle" font-weight="700" font-size="15">Handbuch / Datenblatt</text>
+<text x="200" y="494" text-anchor="middle" font-weight="700" font-size="15">des Geräts lesen</text>
+<text x="200" y="514" text-anchor="middle" font-size="13" fill="#444">dann begründet auswählen</text>
+</svg>

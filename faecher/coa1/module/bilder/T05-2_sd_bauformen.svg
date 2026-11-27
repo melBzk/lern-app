@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 470" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Die SD-Karte in drei Bauformen, maßstäblich: Standard-SD ist die größte, zum Beispiel in der Kamera. miniSD ist mittelgroß, zum Beispiel in älteren Handys. microSD ist die kleinste, etwa fingernagelgroß, zum Beispiel in Smartphone und Drohne. Rechts ein Adapter in SD-Größe, in den eine microSD gesteckt wird: So passt die microSD in den SD-Schacht.</title>
+<defs>
+<marker id="k" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker>
+</defs>
+<rect width="400" height="470" fill="#fff"/>
+<text x="200" y="28" font-size="17" font-weight="700" text-anchor="middle">Eine SD-Karte, drei Größen</text>
+<text x="130" y="52" font-size="13" text-anchor="middle" fill="#555">maßstäblich</text>
+
+<!-- Standard-SD 24 x 32 mm, 3 px/mm -->
+<path d="M20,104 L78,104 L92,118 L92,200 L20,200 Z" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2.5"/>
+<g fill="#F2B100"><rect x="24" y="109" width="5" height="13"/><rect x="31" y="109" width="5" height="13"/><rect x="38" y="109" width="5" height="13"/><rect x="45" y="109" width="5" height="13"/><rect x="52" y="109" width="5" height="13"/><rect x="59" y="109" width="5" height="13"/><rect x="66" y="109" width="5" height="13"/></g>
+<text x="56" y="166" text-anchor="middle" font-weight="700" fill="#3a6ed8">SD</text>
+
+<!-- miniSD 20 x 21,5 mm -->
+<path d="M114,136 L164,136 L174,146 L174,200 L114,200 Z" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2.5"/>
+<g fill="#F2B100"><rect x="118" y="140" width="4" height="10"/><rect x="124" y="140" width="4" height="10"/><rect x="130" y="140" width="4" height="10"/><rect x="136" y="140" width="4" height="10"/><rect x="142" y="140" width="4" height="10"/><rect x="148" y="140" width="4" height="10"/><rect x="154" y="140" width="4" height="10"/></g>
+<text x="144" y="182" text-anchor="middle" font-weight="700" font-size="13" fill="#3a6ed8">mini</text>
+
+<!-- microSD 11 x 15 mm -->
+<path d="M200,155 L233,155 L233,200 L200,200 L200,178 L204,174 L200,170 Z" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2.5"/>
+<text x="216" y="246" text-anchor="middle" font-size="13" fill="#555">fingernagelgroß</text>
+
+<!-- Namen -->
+<text x="56" y="226" text-anchor="middle" font-weight="700" font-size="15">Standard-SD</text>
+<text x="144" y="226" text-anchor="middle" font-weight="700" font-size="15">miniSD</text>
+<text x="216" y="226" text-anchor="middle" font-weight="700" font-size="15">microSD</text>
+
+<!-- Geraete -->
+<!-- Kamera -->
+<rect x="28" y="282" width="56" height="38" rx="5" fill="#555"/>
+<rect x="38" y="275" width="16" height="9" rx="2" fill="#555"/>
+<circle cx="56" cy="301" r="12" fill="#fff"/><circle cx="56" cy="301" r="7" fill="#555"/>
+<text x="56" y="342" text-anchor="middle" font-size="13">Kamera</text>
+<!-- aelteres Handy mit Tasten -->
+<rect x="130" y="270" width="28" height="56" rx="5" fill="#555"/>
+<rect x="134" y="276" width="20" height="16" fill="#fff"/>
+<g fill="#fff"><rect x="135" y="298" width="5" height="4"/><rect x="142" y="298" width="5" height="4"/><rect x="149" y="298" width="5" height="4"/><rect x="135" y="306" width="5" height="4"/><rect x="142" y="306" width="5" height="4"/><rect x="149" y="306" width="5" height="4"/><rect x="135" y="314" width="5" height="4"/><rect x="142" y="314" width="5" height="4"/><rect x="149" y="314" width="5" height="4"/></g>
+<text x="144" y="342" text-anchor="middle" font-size="13">älteres Handy</text>
+<!-- Smartphone -->
+<rect x="196" y="270" width="26" height="50" rx="5" fill="#555"/>
+<rect x="199" y="276" width="20" height="36" rx="1" fill="#fff"/>
+<!-- Drohne -->
+<g stroke="#555" stroke-width="3"><line x1="236" y1="282" x2="262" y2="300"/><line x1="262" y1="282" x2="236" y2="300"/></g>
+<rect x="243" y="285" width="12" height="12" rx="3" fill="#555"/>
+<g fill="none" stroke="#555" stroke-width="2"><ellipse cx="236" cy="281" rx="8" ry="2.5"/><ellipse cx="262" cy="281" rx="8" ry="2.5"/><ellipse cx="236" cy="301" rx="8" ry="2.5"/><ellipse cx="262" cy="301" rx="8" ry="2.5"/></g>
+<text x="232" y="342" text-anchor="middle" font-size="13">Smartphone,</text>
+<text x="232" y="358" text-anchor="middle" font-size="13">Drohne</text>
+
+<!-- Adapter -->
+<line x1="276" y1="70" x2="276" y2="360" stroke="#ddd" stroke-width="1.5"/>
+<text x="338" y="76" text-anchor="middle" font-weight="700" fill="#c62828">Adapter</text>
+<path d="M302,92 L360,92 L374,106 L374,188 L302,188 Z" fill="#fff" stroke="#c62828" stroke-width="2.5"/>
+<g fill="#F2B100"><rect x="306" y="97" width="5" height="13"/><rect x="313" y="97" width="5" height="13"/><rect x="320" y="97" width="5" height="13"/><rect x="327" y="97" width="5" height="13"/><rect x="334" y="97" width="5" height="13"/><rect x="341" y="97" width="5" height="13"/><rect x="348" y="97" width="5" height="13"/></g>
+<text x="338" y="130" text-anchor="middle" font-size="13" fill="#c62828">SD-Größe</text>
+<!-- Schlitz unten -->
+<rect x="320" y="184" width="37" height="8" fill="#fff" stroke="#c62828" stroke-width="2"/>
+<!-- microSD wird eingesteckt -->
+<path d="M322,214 L355,214 L355,259 L322,259 L322,237 L326,233 L322,229 Z" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2.5"/>
+<line x1="338" y1="210" x2="338" y2="150" stroke="#222" stroke-width="2.5" marker-end="url(#k)"/>
+<text x="338" y="280" text-anchor="middle" font-size="13" fill="#3a6ed8" font-weight="700">microSD</text>
+
+<!-- Merksatz -->
+<rect x="10" y="380" width="380" height="78" rx="10" fill="#fdecea" stroke="#c62828" stroke-width="2"/>
+<text x="200" y="408" text-anchor="middle" font-weight="700" font-size="15">Adapter:</text>
+<text x="200" y="430" text-anchor="middle">microSD passt in den SD-Schacht</text>
+<text x="200" y="448" text-anchor="middle" font-size="13" fill="#555">gleiche Technik, nur andere Größe</text>
+</svg>

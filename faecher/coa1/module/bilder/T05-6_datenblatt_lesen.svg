@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Worauf achten? Ein Beispiel-Datenblatt Festplatte 4 TB mit fünf markierten Zeilen: Drehzahl 7200 U/min mit kreisendem Pfeil, Cache 256 MB mit kleiner Kiste, Average Seek Time 8 ms mit Stoppuhr, Schnittstelle SATA 600 MB/s mit Stecker, Dauerbetrieb 24/7 mit Uhr.</title>
+<defs>
+<marker id="a" viewBox="0 0 10 10" refX="7" refY="5" markerUnits="userSpaceOnUse" markerWidth="10" markerHeight="10" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#3a6ed8"/></marker>
+</defs>
+<rect width="400" height="520" fill="#fff"/>
+<text x="200" y="28" font-size="18" font-weight="700" text-anchor="middle">Worauf achten?</text>
+
+<!-- Blatt -->
+<path d="M20,46 h320 l40,40 v420 h-360 z" fill="#fafafa" stroke="#555" stroke-width="2"/>
+<path d="M340,46 v40 h40" fill="#eceff1" stroke="#555" stroke-width="2"/>
+<text x="38" y="78" font-size="13" fill="#555">Datenblatt (Beispiel)</text>
+<text x="38" y="102" font-size="18" font-weight="700">Festplatte 4 TB</text>
+<line x1="38" y1="114" x2="362" y2="114" stroke="#555"/>
+
+<!-- Zeile 1 Drehzahl -->
+<rect x="34" y="126" width="332" height="68" rx="8" fill="#e8f0fe"/>
+<rect x="34" y="126" width="6" height="68" fill="#3a6ed8"/>
+<path d="M78,148 A14,14 0 1 1 64,146" fill="none" stroke="#3a6ed8" stroke-width="3.5" marker-end="url(#a)"/>
+<text x="110" y="153" font-size="13" fill="#444">Drehzahl</text>
+<text x="110" y="179" font-size="17" font-weight="700">7200 U/min</text>
+
+<!-- Zeile 2 Cache -->
+<rect x="34" y="200" width="332" height="68" rx="8" fill="#fff4e0"/>
+<rect x="34" y="200" width="6" height="68" fill="#e08a00"/>
+<path d="M56,228 l14,-8 l14,8 v20 l-14,8 l-14,-8 z" fill="#F2B100" stroke="#b38300" stroke-width="2"/>
+<path d="M56,228 l14,8 l14,-8 M70,236 v20" fill="none" stroke="#b38300" stroke-width="2"/>
+<text x="110" y="227" font-size="13" fill="#444">Cache</text>
+<text x="110" y="253" font-size="17" font-weight="700">256 MB</text>
+
+<!-- Zeile 3 Seek -->
+<rect x="34" y="274" width="332" height="68" rx="8" fill="#fdecea"/>
+<rect x="34" y="274" width="6" height="68" fill="#c62828"/>
+<circle cx="70" cy="312" r="16" fill="#fff" stroke="#222" stroke-width="3"/>
+<rect x="66" y="290" width="8" height="6" fill="#222"/>
+<line x1="70" y1="312" x2="78" y2="302" stroke="#c62828" stroke-width="3" stroke-linecap="round"/>
+<text x="110" y="301" font-size="13" fill="#444">Average Seek Time</text>
+<text x="110" y="327" font-size="17" font-weight="700">8 ms</text>
+
+<!-- Zeile 4 Schnittstelle -->
+<rect x="34" y="348" width="332" height="68" rx="8" fill="#e8f5e9"/>
+<rect x="34" y="348" width="6" height="68" fill="#2e7d32"/>
+<path d="M54,372 h26 v10 l-6,6 h-14 l-6,-6 z" fill="#2e7d32"/>
+<line x1="67" y1="388" x2="67" y2="404" stroke="#2e7d32" stroke-width="4"/>
+<g stroke="#fff" stroke-width="2"><line x1="60" y1="376" x2="74" y2="376"/></g>
+<text x="110" y="375" font-size="13" fill="#444">Schnittstelle</text>
+<text x="110" y="401" font-size="17" font-weight="700">SATA 600 MB/s</text>
+
+<!-- Zeile 5 Dauerbetrieb -->
+<rect x="34" y="422" width="332" height="68" rx="8" fill="#f1e8f8"/>
+<rect x="34" y="422" width="6" height="68" fill="#8e44ad"/>
+<circle cx="70" cy="456" r="17" fill="#fff" stroke="#8e44ad" stroke-width="3"/>
+<line x1="70" y1="456" x2="70" y2="444" stroke="#222" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="70" y1="456" x2="79" y2="460" stroke="#222" stroke-width="2.5" stroke-linecap="round"/>
+<text x="110" y="449" font-size="13" fill="#444">Dauerbetrieb</text>
+<text x="110" y="475" font-size="17" font-weight="700">24/7</text>
+</svg>

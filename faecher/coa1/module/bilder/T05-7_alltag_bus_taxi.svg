@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 470" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Vergleich aus dem Alltag. Oben eine Buslinie: eine Straße mit drei Haltestellen ID 0, ID 1, ID 2 und am Ende das Schild Endstation. So ist SCSI: jedes Gerät hat eine Nummer, die SCSI-ID, und am Ende steht die Terminierung. Unten drei Taxis, jedes fährt auf eigener Straße direkt von einem Haus zum Ziel. So sind SATA und SAS: jedes Laufwerk hat ein eigenes Kabel.</title>
+<rect width="400" height="470" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">Buslinie oder Taxi?</text>
+
+<!-- Buslinie -->
+<rect x="10" y="42" width="380" height="190" rx="10" fill="#eceff1"/>
+<text x="24" y="66" font-size="15" font-weight="700">Buslinie</text>
+<rect x="20" y="126" width="330" height="22" fill="#9aa5b1"/>
+<line x1="20" y1="137" x2="350" y2="137" stroke="#fff" stroke-width="2" stroke-dasharray="10 8"/>
+<!-- Bus -->
+<rect x="24" y="100" width="56" height="26" rx="5" fill="#3a6ed8"/>
+<g fill="#e8f0fe"><rect x="30" y="105" width="10" height="9"/><rect x="44" y="105" width="10" height="9"/><rect x="58" y="105" width="10" height="9"/></g>
+<g fill="#222"><circle cx="36" cy="127" r="4"/><circle cx="68" cy="127" r="4"/></g>
+<!-- Haltestellen -->
+<g stroke="#555" stroke-width="2"><line x1="128" y1="96" x2="128" y2="126"/><line x1="198" y1="96" x2="198" y2="126"/><line x1="268" y1="96" x2="268" y2="126"/></g>
+<g fill="#fff" stroke="#555" stroke-width="1.5"><rect x="104" y="76" width="48" height="22" rx="4"/><rect x="174" y="76" width="48" height="22" rx="4"/><rect x="244" y="76" width="48" height="22" rx="4"/></g>
+<g font-size="13" font-weight="700" text-anchor="middle"><text x="128" y="92">ID 0</text><text x="198" y="92">ID 1</text><text x="268" y="92">ID 2</text></g>
+<!-- Endstation -->
+<line x1="352" y1="96" x2="352" y2="148" stroke="#c62828" stroke-width="3"/>
+<rect x="306" y="62" width="78" height="34" rx="4" fill="#c62828"/>
+<text x="345" y="84" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">Endstation</text>
+<text x="200" y="182" text-anchor="middle" font-size="15" font-weight="700">SCSI</text>
+<text x="200" y="202" text-anchor="middle" font-size="13">Nummer = SCSI-ID</text>
+<text x="200" y="220" text-anchor="middle" font-size="13">Endstation = <tspan fill="#c62828" font-weight="700">Terminierung</tspan></text>
+
+<!-- Taxis -->
+<rect x="10" y="244" width="380" height="216" rx="10" fill="#eceff1"/>
+<text x="24" y="268" font-size="15" font-weight="700">Taxi</text>
+<!-- Häuser -->
+<g fill="#cfd8dc" stroke="#555" stroke-width="1.5">
+<path d="M24,296 l16,-14 l16,14 v22 h-32 z"/>
+<path d="M24,346 l16,-14 l16,14 v22 h-32 z"/>
+<path d="M24,396 l16,-14 l16,14 v22 h-32 z"/>
+</g>
+<!-- Straßen -->
+<g stroke="#9aa5b1" stroke-width="12" fill="none">
+<path d="M58,306 C200,306 230,340 316,348"/>
+<path d="M58,356 H316"/>
+<path d="M58,406 C200,406 230,372 316,364"/>
+</g>
+<!-- Ziel -->
+<rect x="316" y="318" width="62" height="76" rx="4" fill="#fff" stroke="#555" stroke-width="2"/>
+<text x="347" y="361" text-anchor="middle" font-size="13" font-weight="700">Ziel</text>
+<!-- Taxis -->
+<g fill="#f2c200" stroke="#555" stroke-width="1">
+<rect x="112" y="297" width="34" height="15" rx="4"/>
+<rect x="156" y="348" width="34" height="15" rx="4"/>
+<rect x="112" y="397" width="34" height="15" rx="4"/>
+</g>
+<text x="200" y="438" text-anchor="middle" font-size="15" font-weight="700">SATA / SAS</text>
+<text x="200" y="455" text-anchor="middle" font-size="13">jedes Laufwerk <tspan font-weight="700">eigenes Kabel</tspan></text>
+</svg>

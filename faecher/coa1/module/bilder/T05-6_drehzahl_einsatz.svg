@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Welche Drehzahl wofür, typische Zuordnung laut Unterricht. Laptop mit Akku: 4200 oder 5400 U/min, kleine 2,5-Zoll-Platten, sparen Strom. Tower-PC: 7200 U/min. Server-Schrank: 10 000 oder 15 000 U/min, SCSI- bzw. SAS-Platten. Pfeil rechts: höhere Drehzahl ist schneller, aber lauter.</title>
+<defs>
+<marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker>
+</defs>
+<rect width="400" height="500" fill="#fff"/>
+<text x="200" y="26" font-size="17" font-weight="700" text-anchor="middle">Welche Drehzahl wofür?</text>
+
+<!-- Laptop -->
+<rect x="10" y="46" width="330" height="116" rx="10" fill="#eceff1"/>
+<rect x="30" y="70" width="70" height="46" rx="3" fill="#fff" stroke="#555" stroke-width="2.5"/>
+<path d="M22,118 h86 l-6,10 h-74 z" fill="#555"/>
+<rect x="40" y="134" width="40" height="18" rx="2" fill="#fff" stroke="#2e7d32" stroke-width="2"/>
+<rect x="80" y="139" width="4" height="8" fill="#2e7d32"/>
+<rect x="43" y="137" width="24" height="12" fill="#2e7d32"/>
+<text x="120" y="78" font-weight="700" font-size="15">Laptop</text>
+<rect x="120" y="86" width="196" height="30" rx="6" fill="#fff" stroke="#3a6ed8" stroke-width="2"/>
+<text x="218" y="107" text-anchor="middle" font-weight="700" font-size="15">4200 / 5400 U/min</text>
+<text x="120" y="136" font-size="13">2,5-Zoll-Platten,</text>
+<text x="120" y="153" font-size="13">weniger Strom → gut für den Akku</text>
+
+<!-- Tower -->
+<rect x="10" y="174" width="330" height="96" rx="10" fill="#eceff1"/>
+<rect x="44" y="186" width="42" height="72" rx="4" fill="#fff" stroke="#555" stroke-width="2.5"/>
+<rect x="52" y="196" width="26" height="6" rx="1" fill="#9aa5ad"/><rect x="52" y="208" width="26" height="6" rx="1" fill="#9aa5ad"/>
+<circle cx="65" cy="244" r="4" fill="none" stroke="#555" stroke-width="2"/>
+<text x="120" y="206" font-weight="700" font-size="15">Tower-PC</text>
+<rect x="120" y="214" width="196" height="30" rx="6" fill="#fff" stroke="#3a6ed8" stroke-width="2"/>
+<text x="218" y="235" text-anchor="middle" font-weight="700" font-size="15">7200 U/min</text>
+<text x="120" y="262" font-size="13">normale Platten</text>
+
+<!-- Server -->
+<rect x="10" y="282" width="330" height="116" rx="10" fill="#eceff1"/>
+<rect x="38" y="294" width="54" height="92" rx="4" fill="#333"/>
+<g fill="#555"><rect x="44" y="302" width="42" height="14" rx="2"/><rect x="44" y="322" width="42" height="14" rx="2"/><rect x="44" y="342" width="42" height="14" rx="2"/><rect x="44" y="362" width="42" height="14" rx="2"/></g>
+<g fill="#2e7d32"><circle cx="80" cy="309" r="2.5"/><circle cx="80" cy="329" r="2.5"/><circle cx="80" cy="349" r="2.5"/><circle cx="80" cy="369" r="2.5"/></g>
+<text x="120" y="314" font-weight="700" font-size="15">Server</text>
+<rect x="120" y="322" width="196" height="30" rx="6" fill="#fff" stroke="#c62828" stroke-width="2"/>
+<text x="218" y="343" text-anchor="middle" font-weight="700" font-size="15">10 000 / 15 000 U/min</text>
+<text x="120" y="372" font-size="13">SCSI- bzw. SAS-Platten</text>
+
+<!-- Pfeil rechts -->
+<line x1="368" y1="60" x2="368" y2="386" stroke="#c62828" stroke-width="4" marker-end="url(#r)"/>
+<text x="384" y="230" font-size="13" font-weight="700" fill="#c62828" text-anchor="middle" transform="rotate(90 384 230)">schneller, aber lauter</text>
+
+<text x="200" y="432" text-anchor="middle" font-size="13" fill="#444">typische Zuordnung laut Unterricht</text>
+<text x="200" y="460" text-anchor="middle" font-size="13" fill="#444">U/min = Umdrehungen pro <tspan font-weight="700">Minute</tspan></text>
+</svg>

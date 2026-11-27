@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 430" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Datenhaltbarkeit: Wie lange bleiben die Daten auf dem Medium? Zeitstrahl von heute bis in vielen Jahren. Für drei Sicherungsmedien – DVD, externe Festplatte und Magnetband – läuft je ein Balken nach rechts und verblasst; am Ende steht ein Fragezeichen statt einer Jahreszahl. Unten rot: Eine Sicherung, die nach Jahren nicht mehr lesbar ist, nützt dir nichts.</title>
+<defs>
+<marker id="k" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker>
+<linearGradient id="fade" x1="0" x2="1" y1="0" y2="0">
+<stop offset="0" stop-color="#3a6ed8"/><stop offset="0.45" stop-color="#3a6ed8"/><stop offset="1" stop-color="#3a6ed8" stop-opacity="0.05"/>
+</linearGradient>
+</defs>
+<rect width="400" height="430" fill="#fff"/>
+<text x="200" y="28" font-size="18" font-weight="700" text-anchor="middle" fill="#c62828">Datenhaltbarkeit</text>
+<text x="200" y="52" text-anchor="middle" font-size="15">Wie lange bleiben die Daten</text>
+<text x="200" y="71" text-anchor="middle" font-size="15">auf dem Medium?</text>
+
+<!-- DVD -->
+<circle cx="44" cy="110" r="20" fill="#f2c48e" stroke="#b5651d" stroke-width="1.5"/><circle cx="44" cy="110" r="5" fill="#fff" stroke="#b5651d"/>
+<text x="44" y="148" text-anchor="middle" font-size="13">DVD</text>
+<rect x="90" y="100" width="250" height="20" rx="4" fill="url(#fade)"/>
+<text x="362" y="117" text-anchor="middle" font-size="22" font-weight="700" fill="#c62828">?</text>
+
+<!-- externe Festplatte -->
+<rect x="24" y="174" width="40" height="44" rx="6" fill="#d9dde3" stroke="#444" stroke-width="1.5"/>
+<circle cx="44" cy="192" r="11" fill="#9fb3cf"/><circle cx="44" cy="192" r="3" fill="#444"/>
+<circle cx="56" cy="211" r="2" fill="#2e7d32"/>
+<text x="44" y="234" text-anchor="middle" font-size="13">ext. Platte</text>
+<rect x="90" y="186" width="250" height="20" rx="4" fill="url(#fade)"/>
+<text x="362" y="203" text-anchor="middle" font-size="22" font-weight="700" fill="#c62828">?</text>
+
+<!-- Magnetband -->
+<g transform="translate(23 262) scale(1.4)">
+<rect x="0" y="0" width="30" height="20" rx="2" fill="#555"/>
+<circle cx="10" cy="10" r="5" fill="#c9a36b"/>
+<rect x="20" y="4" width="7" height="12" fill="#888"/>
+</g>
+<text x="44" y="310" text-anchor="middle" font-size="13">Magnetband</text>
+<rect x="90" y="266" width="250" height="20" rx="4" fill="url(#fade)"/>
+<text x="362" y="283" text-anchor="middle" font-size="22" font-weight="700" fill="#c62828">?</text>
+
+<!-- Zeitstrahl -->
+<line x1="90" y1="332" x2="388" y2="332" stroke="#222" stroke-width="2.5" marker-end="url(#k)"/>
+<line x1="90" y1="324" x2="90" y2="340" stroke="#222" stroke-width="2.5"/>
+<text x="90" y="356" text-anchor="middle" font-weight="700">heute</text>
+<text x="388" y="356" text-anchor="end" font-weight="700">in vielen Jahren</text>
+
+<!-- Hinweis -->
+<rect x="10" y="372" width="380" height="50" rx="10" fill="#fdecea" stroke="#c62828" stroke-width="2"/>
+<text x="200" y="393" text-anchor="middle" font-size="13">Nach Jahren nicht mehr lesbar?</text>
+<text x="200" y="412" text-anchor="middle" font-size="13" font-weight="700" fill="#c62828">Dann nützt die Sicherung nichts.</text>
+</svg>

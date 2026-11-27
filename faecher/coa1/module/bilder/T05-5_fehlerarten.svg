@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 560" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Zwei Arten von Fehlern. Oben logischer Fehler: Fehler im Dateisystem, die Pfeile im Inhaltsverzeichnis zeigen auf falsche Kästchen oder ins Leere. Darunter physikalischer Fehler: eine Festplattenscheibe mit Kratzer in der Magnetschicht und ein USB-Stick mit durchgestrichenem Speicherchip. Unten ein Hinweisschild: 1. lesbare Daten sichern, 2. prüfen.</title>
+<defs>
+<marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="10" markerHeight="10" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker>
+</defs>
+<rect width="400" height="560" fill="#fff"/>
+<text x="200" y="26" font-size="17" font-weight="700" text-anchor="middle">Zwei Arten von Fehlern</text>
+
+<!-- Logisch -->
+<rect x="10" y="42" width="380" height="180" rx="10" fill="#e8f0fe" stroke="#3a6ed8" stroke-width="2"/>
+<text x="24" y="68" font-weight="700" font-size="16" fill="#3a6ed8">Logischer Fehler</text>
+<text x="24" y="88" font-size="13" fill="#444">Fehler im Dateisystem</text>
+<rect x="28" y="104" width="120" height="100" rx="4" fill="#fff" stroke="#3a6ed8" stroke-width="2"/>
+<text x="40" y="124" font-size="13" font-weight="700">Verzeichnis</text>
+<g font-size="13"><text x="40" y="148">Datei A</text><text x="40" y="170">Datei B</text><text x="40" y="192">Datei C</text></g>
+<g fill="#fff" stroke="#555" stroke-width="1.5">
+<rect x="270" y="104" width="34" height="28"/><rect x="304" y="104" width="34" height="28"/><rect x="338" y="104" width="34" height="28"/>
+<rect x="270" y="132" width="34" height="28"/><rect x="304" y="132" width="34" height="28"/><rect x="338" y="132" width="34" height="28"/>
+<rect x="270" y="160" width="34" height="28"/><rect x="304" y="160" width="34" height="28"/><rect x="338" y="160" width="34" height="28"/>
+</g>
+<g stroke="#c62828" stroke-width="2.2" fill="none" marker-end="url(#b)">
+<path d="M100,144 C180,144 220,190 300,178"/>
+<path d="M100,166 C180,166 230,110 300,118"/>
+<path d="M100,188 C160,200 190,208 226,206"/>
+</g>
+<text x="232" y="212" font-size="16" font-weight="700" fill="#c62828">? ins Leere</text>
+
+<!-- Physikalisch -->
+<rect x="10" y="236" width="380" height="200" rx="10" fill="#fdecea" stroke="#c62828" stroke-width="2"/>
+<text x="24" y="262" font-weight="700" font-size="16" fill="#c62828">Physikalischer Fehler</text>
+<text x="24" y="282" font-size="13" fill="#444">Schaden am Datenträger selbst</text>
+<!-- Scheibe mit Kratzer -->
+<circle cx="90" cy="344" r="48" fill="#eceff1" stroke="#555" stroke-width="2"/>
+<g fill="none" stroke="#9aa5ad" stroke-width="1.5"><circle cx="90" cy="344" r="38"/><circle cx="90" cy="344" r="28"/></g>
+<circle cx="90" cy="344" r="7" fill="#555"/>
+<path d="M60,320 L78,330 L70,336 L96,350 L88,356 L112,366" fill="none" stroke="#c62828" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="90" y="410" text-anchor="middle" font-size="13">Festplatte:</text>
+<text x="90" y="426" text-anchor="middle" font-size="13">Magnetschicht defekt</text>
+<!-- USB-Stick -->
+<rect x="232" y="318" width="26" height="22" fill="#9aa5ad" stroke="#555" stroke-width="1.5"/>
+<rect x="238" y="324" width="5" height="5" fill="#555"/><rect x="248" y="324" width="5" height="5" fill="#555"/>
+<rect x="258" y="306" width="110" height="46" rx="8" fill="#555"/>
+<rect x="290" y="316" width="44" height="26" rx="2" fill="#222"/>
+<g stroke="#bbb" stroke-width="1.5"><line x1="296" y1="312" x2="296" y2="316"/><line x1="306" y1="312" x2="306" y2="316"/><line x1="316" y1="312" x2="316" y2="316"/><line x1="326" y1="312" x2="326" y2="316"/><line x1="296" y1="342" x2="296" y2="346"/><line x1="306" y1="342" x2="306" y2="346"/><line x1="316" y1="342" x2="316" y2="346"/><line x1="326" y1="342" x2="326" y2="346"/></g>
+<g stroke="#c62828" stroke-width="4" stroke-linecap="round"><line x1="282" y1="308" x2="342" y2="350"/><line x1="342" y1="308" x2="282" y2="350"/></g>
+<text x="300" y="410" text-anchor="middle" font-size="13">USB-Stick:</text>
+<text x="300" y="426" text-anchor="middle" font-size="13">Speicherchip zerstört</text>
+
+<!-- Hinweisschild -->
+<rect x="10" y="452" width="380" height="96" rx="10" fill="#FFF6D6" stroke="#F2B100" stroke-width="2.5"/>
+<path d="M38,470 L58,504 L18,504 Z" fill="#F2B100"/>
+<text x="38" y="500" text-anchor="middle" font-weight="700" font-size="17">!</text>
+<circle cx="88" cy="482" r="11" fill="#222"/><text x="88" y="487" text-anchor="middle" fill="#fff" font-weight="700" font-size="13">1</text>
+<text x="106" y="487" font-weight="700" font-size="15">lesbare Daten sichern</text>
+<circle cx="88" cy="520" r="11" fill="#222"/><text x="88" y="525" text-anchor="middle" fill="#fff" font-weight="700" font-size="13">2</text>
+<text x="106" y="525" font-weight="700" font-size="15">dann prüfen</text>
+</svg>

@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 450" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Drei DVD-Arten nebeneinander. 1 DVD-ROM, Auge: nur lesen (ROM heißt Read-Only Memory). 2 DVD-R, Stift mit der Zahl 1: einmal beschreiben (R heißt recordable). 3 DVD-RW, Kreispfeil: mehrfach beschreiben, also löschen und neu beschreiben (RW heißt rewritable). Zusatz: Eine RW-Scheibe, mit UDF formatiert, nutzt du festplattenähnlich. DVD-RAM ist wiederbeschreibbar und für Computer optimiert.</title>
+<defs>
+<marker id="k" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker>
+<marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="10" markerHeight="10" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2e7d32"/></marker>
+</defs>
+<rect width="400" height="450" fill="#fff"/>
+<text x="200" y="26" font-size="17" font-weight="700" text-anchor="middle">ROM, R oder RW?</text>
+
+<!-- Scheiben -->
+<g stroke="#b5651d" stroke-width="2">
+<circle cx="70" cy="110" r="46" fill="#f2c48e"/><circle cx="200" cy="110" r="46" fill="#f2c48e"/><circle cx="330" cy="110" r="46" fill="#f2c48e"/>
+</g>
+<g fill="#fff" stroke="#b5651d" stroke-width="2"><circle cx="70" cy="110" r="9"/><circle cx="200" cy="110" r="9"/><circle cx="330" cy="110" r="9"/></g>
+
+<!-- Etiketten -->
+<g font-weight="700" font-size="15" text-anchor="middle">
+<text x="70" y="54">DVD-ROM</text>
+<text x="200" y="54">DVD-R</text>
+<text x="330" y="54">DVD-RW</text>
+</g>
+
+<!-- Auge -->
+<g transform="translate(70 110)">
+<path d="M-30,0 Q0,-26 30,0 Q0,26 -30,0 Z" fill="#fff" stroke="#222" stroke-width="2.5"/>
+<circle cx="0" cy="0" r="10" fill="#3a6ed8"/><circle cx="0" cy="0" r="4" fill="#222"/>
+</g>
+<!-- Stift mit 1 -->
+<g transform="translate(192 116) rotate(-40)">
+<rect x="-6" y="-30" width="12" height="44" fill="#c62828" stroke="#222" stroke-width="1.5"/>
+<path d="M-6,14 L6,14 L0,26 Z" fill="#f2e3c6" stroke="#222" stroke-width="1.5"/>
+</g>
+<circle cx="224" cy="88" r="14" fill="#222"/><text x="224" y="94" text-anchor="middle" fill="#fff" font-weight="700" font-size="16">1</text>
+<!-- Kreispfeil -->
+<path d="M352,104 A22,22 0 1 1 340,90" fill="none" stroke="#2e7d32" stroke-width="5" marker-end="url(#b)"/>
+<circle cx="330" cy="110" r="9" fill="#fff" stroke="#b5651d" stroke-width="2"/>
+
+<!-- Bedeutung -->
+<g text-anchor="middle">
+<text x="70" y="184" font-weight="700">nur lesen</text>
+<text x="200" y="184" font-weight="700">einmal</text>
+<text x="200" y="202" font-weight="700">beschreiben</text>
+<text x="330" y="184" font-weight="700">mehrfach</text>
+<text x="330" y="202" font-weight="700">beschreiben</text>
+<text x="330" y="222" font-size="13" fill="#444">löschen und</text>
+<text x="330" y="238" font-size="13" fill="#444">neu beschreiben</text>
+</g>
+<g text-anchor="middle" font-size="13" fill="#444">
+<text x="70" y="266">Read-Only</text>
+<text x="70" y="282">Memory</text>
+<text x="200" y="266">recordable</text>
+<text x="330" y="266">rewritable</text>
+</g>
+
+<!-- Warnhinweis R -->
+<rect x="10" y="298" width="380" height="36" rx="8" fill="#fdecea" stroke="#c62828" stroke-width="1.5"/>
+<text x="200" y="321" text-anchor="middle" font-size="14"><tspan font-weight="700" fill="#c62828">R ≠ nur lesen.</tspan> Nur lesen = ROM.</text>
+
+<!-- Zusatz -->
+<rect x="10" y="348" width="380" height="92" rx="10" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2"/>
+<text x="24" y="374" font-weight="700" fill="#2e7d32">Zusatz:</text>
+<text x="24" y="396">RW mit <tspan font-weight="700">UDF</tspan> formatiert</text>
+<text x="44" y="414">→ festplattenähnlich nutzbar</text>
+<text x="24" y="432"><tspan font-weight="700">DVD-RAM:</tspan> wiederbeschreibbar, für Computer optimiert</text>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 470" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Rechnung: Wie lange dauert eine Umdrehung? Links 5400 Umdrehungen pro Minute geteilt durch 60 gleich 90 pro Sekunde, eine Umdrehung dauert etwa 11,1 Millisekunden. Rechts 7200 Umdrehungen pro Minute geteilt durch 60 gleich 120 pro Sekunde, eine Umdrehung dauert etwa 8,3 Millisekunden. Darunter: Bei 7200 kommt eine Stelle schneller wieder am Kopf vorbei.</title>
+<defs>
+<marker id="a" viewBox="0 0 10 10" refX="7" refY="5" markerUnits="userSpaceOnUse" markerWidth="10" markerHeight="10" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker>
+<marker id="ar" viewBox="0 0 10 10" refX="7" refY="5" markerUnits="userSpaceOnUse" markerWidth="10" markerHeight="10" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker>
+<marker id="k" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker>
+</defs>
+<rect width="400" height="470" fill="#fff"/>
+<text x="200" y="26" font-size="17" font-weight="700" text-anchor="middle">Wie lange dauert 1 Umdrehung?</text>
+
+<!-- Scheibe links -->
+<circle cx="100" cy="110" r="50" fill="#eceff1" stroke="#555" stroke-width="2"/>
+<circle cx="100" cy="110" r="36" fill="none" stroke="#9aa5ad" stroke-width="1.5"/>
+<circle cx="100" cy="110" r="6" fill="#555"/>
+<circle cx="136" cy="110" r="5" fill="#3a6ed8"/>
+<path d="M100,52 A58,58 0 0 1 152,82" fill="none" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+<!-- Scheibe rechts -->
+<circle cx="300" cy="110" r="50" fill="#eceff1" stroke="#c62828" stroke-width="2.5"/>
+<circle cx="300" cy="110" r="36" fill="none" stroke="#9aa5ad" stroke-width="1.5"/>
+<circle cx="300" cy="110" r="6" fill="#555"/>
+<circle cx="336" cy="110" r="5" fill="#3a6ed8"/>
+<path d="M300,52 A58,58 0 0 1 352,82" fill="none" stroke="#c62828" stroke-width="3" marker-end="url(#ar)"/>
+<path d="M300,48 A62,62 0 0 1 340,63" fill="none" stroke="#c62828" stroke-width="3"/>
+
+<!-- Rechnung links -->
+<g text-anchor="middle">
+<text x="100" y="194" font-size="18" font-weight="700">5400 U/min</text>
+<text x="100" y="222">÷ 60 =</text>
+<text x="100" y="244" font-weight="700">90 pro Sekunde</text>
+<text x="100" y="276" font-size="13" fill="#444">1 Umdrehung</text>
+<rect x="40" y="286" width="120" height="40" rx="8" fill="#eceff1"/>
+<text x="100" y="313" font-size="20" font-weight="700">≈ 11,1 ms</text>
+</g>
+<!-- Rechnung rechts -->
+<g text-anchor="middle">
+<text x="300" y="194" font-size="18" font-weight="700" fill="#c62828">7200 U/min</text>
+<text x="300" y="222">÷ 60 =</text>
+<text x="300" y="244" font-weight="700">120 pro Sekunde</text>
+<text x="300" y="276" font-size="13" fill="#444">1 Umdrehung</text>
+<rect x="240" y="286" width="120" height="40" rx="8" fill="#c62828"/>
+<text x="300" y="313" font-size="20" font-weight="700" fill="#fff">≈ 8,3 ms</text>
+</g>
+<line x1="200" y1="60" x2="200" y2="330" stroke="#ccc" stroke-dasharray="4 4"/>
+
+<!-- Fazit -->
+<line x1="60" y1="364" x2="340" y2="364" stroke="#c62828" stroke-width="4" marker-end="url(#k)"/>
+<text x="200" y="396" text-anchor="middle" font-weight="700" font-size="15">7200 U/min: eine Stelle kommt</text>
+<text x="200" y="416" text-anchor="middle" font-weight="700" font-size="15">schneller wieder am Kopf vorbei</text>
+<text x="200" y="450" text-anchor="middle" font-size="13" fill="#444">Rechenweg: 1 s ÷ 90 ≈ 11,1 ms · 1 s ÷ 120 ≈ 8,3 ms</text>
+</svg>

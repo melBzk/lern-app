@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 474" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Vergleich aus dem Alltag mit zwei Notizzetteln. Links Bleistift mit Radiergummi: Ein Wort wird wegradiert und neu geschrieben – so wie auf USB-Stick und SD-Karte eine einzelne Datei geändert oder gelöscht wird. Rechts Kugelschreiber: Ein Wort ist nur durchgestrichen, es bleibt stehen – so wie auf einer gebrannten CD oder DVD eine einzelne Datei nicht änderbar ist. Hinweis unten: Flash radiert intern immer einen ganzen Block.</title>
+<rect width="400" height="474" fill="#fff"/>
+<text x="200" y="28" font-size="17" font-weight="700" text-anchor="middle">Bleistift oder Kugelschreiber</text>
+
+<!-- LINKS Zettel -->
+<rect x="14" y="52" width="176" height="200" rx="4" fill="#fffbe6" stroke="#bbb" stroke-width="1.5"/>
+<g stroke="#e0d9b8" stroke-width="1"><line x1="22" y1="92" x2="182" y2="92"/><line x1="22" y1="132" x2="182" y2="132"/><line x1="22" y1="172" x2="182" y2="172"/><line x1="22" y1="212" x2="182" y2="212"/></g>
+<text x="30" y="86" font-size="16" fill="#666">Foto_1</text>
+<!-- wegradiert -->
+<text x="30" y="126" font-size="16" fill="#ccc">Foto_2</text>
+<rect x="26" y="108" width="62" height="22" rx="3" fill="none" stroke="#999" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="30" y="166" font-size="16" fill="#3a6ed8" font-weight="700">Urlaub</text>
+<text x="96" y="166" font-size="13" fill="#3a6ed8">neu</text>
+<!-- Bleistift mit Radiergummi -->
+<g transform="translate(150,170) rotate(35)">
+<rect x="-7" y="-80" width="14" height="10" fill="#e88a9a"/>
+<rect x="-7" y="-70" width="14" height="5" fill="#999"/>
+<rect x="-7" y="-65" width="14" height="60" fill="#F2B100" stroke="#a07800" stroke-width="1"/>
+<path d="M-7,-5 L7,-5 L0,12 Z" fill="#e8c9a0"/>
+<path d="M-2.5,6 L2.5,6 L0,12 Z" fill="#333"/>
+</g>
+<text x="102" y="282" text-anchor="middle" font-weight="700" fill="#3a6ed8" font-size="15">USB-Stick, SD-Karte</text>
+<text x="102" y="304" text-anchor="middle">einzelne Datei</text>
+<text x="102" y="322" text-anchor="middle">ändern oder löschen</text>
+<path d="M88,346 l8,8 l16,-16" fill="none" stroke="#2e7d32" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+<!-- RECHTS Zettel -->
+<rect x="210" y="52" width="176" height="200" rx="4" fill="#fffbe6" stroke="#bbb" stroke-width="1.5"/>
+<g stroke="#e0d9b8" stroke-width="1"><line x1="218" y1="92" x2="378" y2="92"/><line x1="218" y1="132" x2="378" y2="132"/><line x1="218" y1="172" x2="378" y2="172"/><line x1="218" y1="212" x2="378" y2="212"/></g>
+<text x="226" y="86" font-size="16" fill="#1a3a8a">Foto_1</text>
+<text x="226" y="126" font-size="16" fill="#1a3a8a">Foto_2</text>
+<line x1="222" y1="120" x2="286" y2="120" stroke="#1a3a8a" stroke-width="2.5"/>
+<text x="296" y="126" font-size="13" fill="#c62828">bleibt</text>
+<!-- Kugelschreiber -->
+<g transform="translate(334,176) rotate(35)">
+<rect x="-6" y="-82" width="12" height="74" rx="4" fill="#1a3a8a"/>
+<rect x="-2" y="-92" width="4" height="16" fill="#1a3a8a"/>
+<path d="M-6,-8 L6,-8 L0,10 Z" fill="#bbb"/>
+</g>
+<text x="298" y="282" text-anchor="middle" font-weight="700" fill="#c62828" font-size="15">gebrannte CD/DVD</text>
+<text x="298" y="304" text-anchor="middle">einzelne Datei</text>
+<text x="298" y="322" text-anchor="middle">nicht änderbar</text>
+<g stroke="#c62828" stroke-width="4" stroke-linecap="round"><line x1="290" y1="338" x2="306" y2="354"/><line x1="306" y1="338" x2="290" y2="354"/></g>
+
+<!-- Hinweis -->
+<rect x="14" y="378" width="372" height="84" rx="10" fill="#f3f3f3" stroke="#999" stroke-width="1.5"/>
+<text x="200" y="408" text-anchor="middle" font-weight="700">Wo der Vergleich hinkt:</text>
+<text x="200" y="432" text-anchor="middle">Flash radiert intern immer</text>
+<text x="200" y="450" text-anchor="middle">einen <tspan font-weight="700">ganzen Block</tspan></text>
+</svg>

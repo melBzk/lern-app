@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 690" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Drei Wege, den Speicher aufzuteilen. Feld 1, SSD plus HDD: eine kleine SSD für das System, schnell, und eine große HDD für Daten, viel Platz und günstig. Urteil: schnell und günstig. Feld 2, zwei SSDs: SSD 1 mit System und SSD 2 mit Daten und Spielen, jede mit eigenem Pfeil zu einem eigenen Steckplatz M.2 (1) und M.2 (2). Urteil: getrennt. Feld 3, RAID 1: ein Pfeil Daten teilt sich zu Laufwerk A und Laufwerk B, auf beiden liegt derselbe gelbe Ordner. Urteil: doppelt. Unten: worauf achten? Preis, Tempo, Ausfallsicherheit.</title>
+<defs>
+<marker id="k" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker>
+</defs>
+<rect width="400" height="690" fill="#fff"/>
+<text x="200" y="26" text-anchor="middle" font-size="17" font-weight="700">Drei Wege, den Speicher aufzuteilen</text>
+
+<!-- Feld 1: SSD + HDD -->
+<rect x="10" y="40" width="380" height="180" rx="10" fill="#eceff1"/>
+<text x="24" y="66" font-size="16" font-weight="700">1 · SSD + HDD</text>
+<rect x="232" y="48" width="148" height="26" rx="13" fill="#3a6ed8"/>
+<text x="306" y="66" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">schnell + günstig</text>
+<!-- SSD klein mit Bildschirm-Symbol -->
+<rect x="40" y="96" width="110" height="52" rx="4" fill="#333"/>
+<rect x="48" y="103" width="94" height="38" rx="2" fill="#cfd8dc"/>
+<rect x="78" y="109" width="34" height="24" rx="2" fill="#fff" stroke="#555" stroke-width="1.5"/>
+<rect x="78" y="109" width="34" height="6" fill="#3a6ed8"/>
+<text x="95" y="168" text-anchor="middle" font-size="13" font-weight="700">SSD: System</text>
+<text x="95" y="186" text-anchor="middle" font-size="13">schnell</text>
+<!-- HDD groß mit Ordnerstapel -->
+<rect x="200" y="86" width="170" height="80" rx="6" fill="#555"/>
+<circle cx="245" cy="126" r="30" fill="#b0bec5" stroke="#cfd8dc" stroke-width="2"/>
+<circle cx="245" cy="126" r="5" fill="#555"/>
+<path d="M296,104 h18 l5,6 h27 v34 h-50 z" fill="#f2c200" stroke="#333" stroke-width="1.2"/>
+<path d="M302,112 h18 l5,6 h27 v34 h-50 z" fill="#f2c200" stroke="#333" stroke-width="1.2"/>
+<text x="285" y="186" text-anchor="middle" font-size="13" font-weight="700">HDD: Daten</text>
+<text x="285" y="204" text-anchor="middle" font-size="13">viel Platz, günstig</text>
+
+<!-- Feld 2: Zwei SSDs -->
+<rect x="10" y="232" width="380" height="170" rx="10" fill="#eceff1"/>
+<text x="24" y="258" font-size="16" font-weight="700">2 · Zwei SSDs</text>
+<rect x="272" y="240" width="108" height="26" rx="13" fill="#3a6ed8"/>
+<text x="326" y="258" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">getrennt</text>
+<rect x="30" y="278" width="150" height="46" rx="4" fill="#333"/>
+<rect x="38" y="285" width="134" height="32" rx="2" fill="#cfd8dc"/>
+<text x="105" y="306" text-anchor="middle" font-size="13" font-weight="700">SSD 1: System</text>
+<rect x="30" y="342" width="150" height="46" rx="4" fill="#333"/>
+<rect x="38" y="349" width="134" height="32" rx="2" fill="#cfd8dc"/>
+<text x="105" y="370" text-anchor="middle" font-size="13" font-weight="700">SSD 2: Daten/Spiele</text>
+<g stroke="#222" stroke-width="2.5"><line x1="182" y1="301" x2="262" y2="301" marker-end="url(#k)"/><line x1="182" y1="365" x2="262" y2="365" marker-end="url(#k)"/></g>
+<g fill="#2e7d32" opacity="0.85"><rect x="266" y="284" width="112" height="34" rx="4"/><rect x="266" y="348" width="112" height="34" rx="4"/></g>
+<g font-size="14" font-weight="700" fill="#fff" text-anchor="middle"><text x="322" y="306">M.2 (1)</text><text x="322" y="370">M.2 (2)</text></g>
+
+<!-- Feld 3: RAID 1 -->
+<rect x="10" y="414" width="380" height="180" rx="10" fill="#eceff1"/>
+<text x="24" y="440" font-size="16" font-weight="700">3 · RAID 1</text>
+<rect x="272" y="422" width="108" height="26" rx="13" fill="#c62828"/>
+<text x="326" y="440" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">doppelt</text>
+<rect x="150" y="456" width="100" height="30" rx="8" fill="#3a6ed8"/>
+<text x="200" y="476" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">Daten</text>
+<g stroke="#222" stroke-width="2.5" fill="none">
+<path d="M200,486 V500 H105 V516" marker-end="url(#k)"/>
+<path d="M200,500 H295 V516" marker-end="url(#k)"/>
+</g>
+<rect x="45" y="520" width="120" height="64" rx="8" fill="#fff" stroke="#555" stroke-width="2"/>
+<text x="105" y="540" text-anchor="middle" font-size="13" font-weight="700">Laufwerk A</text>
+<path d="M88,548 h12 l4,5 h18 v24 h-34 z" fill="#f2c200" stroke="#555" stroke-width="1.5"/>
+<rect x="235" y="520" width="120" height="64" rx="8" fill="#fff" stroke="#555" stroke-width="2"/>
+<text x="295" y="540" text-anchor="middle" font-size="13" font-weight="700">Laufwerk B</text>
+<path d="M278,548 h12 l4,5 h18 v24 h-34 z" fill="#f2c200" stroke="#555" stroke-width="1.5"/>
+
+<!-- Leiste: worauf achten -->
+<text x="200" y="620" text-anchor="middle" font-size="14" font-weight="700">Worauf achten?</text>
+<!-- Geldbörse -->
+<rect x="48" y="632" width="38" height="26" rx="5" fill="#8d6e63"/>
+<rect x="70" y="639" width="18" height="12" rx="3" fill="#6d4c41"/>
+<circle cx="78" cy="645" r="2.5" fill="#f2c200"/>
+<text x="67" y="680" text-anchor="middle" font-size="13">Preis</text>
+<!-- Tacho -->
+<path d="M180,658 a20,20 0 0 1 40,0" fill="none" stroke="#555" stroke-width="4" stroke-linecap="round"/>
+<line x1="200" y1="658" x2="212" y2="642" stroke="#c62828" stroke-width="3" stroke-linecap="round"/>
+<circle cx="200" cy="658" r="3.5" fill="#222"/>
+<text x="200" y="680" text-anchor="middle" font-size="13">Tempo</text>
+<!-- Schild -->
+<path d="M333,630 l16,6 v10 c0,9 -7,14 -16,17 c-9,-3 -16,-8 -16,-17 v-10 z" fill="#2e7d32"/>
+<path d="M326,646 l5,5 l9,-9" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="333" y="680" text-anchor="middle" font-size="13">Ausfallsicherheit</text>
+</svg>

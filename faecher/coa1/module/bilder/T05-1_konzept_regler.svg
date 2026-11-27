@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#222">
+<title>Wie oft sichern? Drei Regler: Wie wichtig sind die Daten? Wie schnell müssen sie wieder da sein? Wie viel Verlust kannst du verkraften? Daraus ergibt sich das Sicherungskonzept: täglich, seltener oder nur einmal im Jahr. Unten der Merksatz: Jede Datensicherung ist besser als keine.</title>
+<defs>
+<marker id="k" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker>
+<g id="kal">
+<rect x="-30" y="-26" width="60" height="56" rx="5" fill="#fff" stroke="#555" stroke-width="2"/>
+<rect x="-30" y="-26" width="60" height="14" rx="5" fill="#3a6ed8"/>
+<rect x="-30" y="-18" width="60" height="6" fill="#3a6ed8"/>
+<rect x="-18" y="-32" width="4" height="10" rx="2" fill="#555"/><rect x="14" y="-32" width="4" height="10" rx="2" fill="#555"/>
+</g>
+</defs>
+<rect width="400" height="520" fill="#fff"/>
+<text x="200" y="26" font-size="17" font-weight="700" text-anchor="middle">Wie oft sichern? Drei Regler</text>
+
+<!-- Regler -->
+<g fill="#cfd8dc"><rect x="66" y="50" width="8" height="120" rx="4"/><rect x="196" y="50" width="8" height="120" rx="4"/><rect x="326" y="50" width="8" height="120" rx="4"/></g>
+<g fill="#3a6ed8"><rect x="66" y="80" width="8" height="90" rx="4"/><rect x="196" y="120" width="8" height="50" rx="4"/><rect x="326" y="66" width="8" height="104" rx="4"/></g>
+<g fill="#222"><rect x="52" y="72" width="36" height="16" rx="4"/><rect x="182" y="112" width="36" height="16" rx="4"/><rect x="312" y="58" width="36" height="16" rx="4"/></g>
+
+<text x="70" y="198" text-anchor="middle" font-weight="700" font-size="15">wichtig?</text>
+<text x="70" y="218" text-anchor="middle" font-size="13">Wie wichtig sind</text>
+<text x="70" y="234" text-anchor="middle" font-size="13">die Daten?</text>
+
+<text x="200" y="198" text-anchor="middle" font-weight="700" font-size="15">schnell?</text>
+<text x="200" y="218" text-anchor="middle" font-size="13">Wie schnell wieder</text>
+<text x="200" y="234" text-anchor="middle" font-size="13">da sein?</text>
+
+<text x="330" y="198" text-anchor="middle" font-weight="700" font-size="15">Verlust?</text>
+<text x="330" y="218" text-anchor="middle" font-size="13">Wie viel Verlust</text>
+<text x="330" y="234" text-anchor="middle" font-size="13">verkraftbar?</text>
+
+<!-- Pfeil -->
+<line x1="200" y1="248" x2="200" y2="280" stroke="#222" stroke-width="2.5" marker-end="url(#k)"/>
+<text x="214" y="270" font-size="13" fill="#444">danach richtet sich das Konzept</text>
+
+<!-- Kalender -->
+<rect x="10" y="290" width="380" height="120" rx="10" fill="#eceff1"/>
+<g transform="translate(70 336)"><use href="#kal"/>
+<g fill="#3a6ed8"><circle cx="-18" cy="0" r="3"/><circle cx="-6" cy="0" r="3"/><circle cx="6" cy="0" r="3"/><circle cx="18" cy="0" r="3"/><circle cx="-18" cy="10" r="3"/><circle cx="-6" cy="10" r="3"/><circle cx="6" cy="10" r="3"/><circle cx="18" cy="10" r="3"/><circle cx="-18" cy="20" r="3"/><circle cx="-6" cy="20" r="3"/><circle cx="6" cy="20" r="3"/><circle cx="18" cy="20" r="3"/></g></g>
+<g transform="translate(200 336)"><use href="#kal"/>
+<g fill="#cfd8dc"><circle cx="-6" cy="0" r="3"/><circle cx="6" cy="0" r="3"/><circle cx="18" cy="0" r="3"/><circle cx="-18" cy="10" r="3"/><circle cx="-6" cy="10" r="3"/><circle cx="6" cy="10" r="3"/><circle cx="18" cy="10" r="3"/><circle cx="-18" cy="20" r="3"/><circle cx="-6" cy="20" r="3"/><circle cx="6" cy="20" r="3"/><circle cx="18" cy="20" r="3"/></g>
+<circle cx="-18" cy="0" r="4" fill="#3a6ed8"/></g>
+<g transform="translate(330 336)"><use href="#kal"/>
+<text x="0" y="16" text-anchor="middle" font-size="15" font-weight="700" fill="#3a6ed8">1×</text></g>
+<text x="70" y="392" text-anchor="middle" font-weight="700">täglich</text>
+<text x="200" y="392" text-anchor="middle" font-weight="700">seltener</text>
+<text x="330" y="392" text-anchor="middle" font-weight="700">jährlich</text>
+<text x="135" y="346" text-anchor="middle" font-size="13" fill="#444">oder</text>
+<text x="265" y="346" text-anchor="middle" font-size="13" fill="#444">oder</text>
+
+<!-- Merksatz -->
+<rect x="10" y="428" width="380" height="80" rx="10" fill="#c62828"/>
+<text x="200" y="460" text-anchor="middle" font-weight="700" font-size="17" fill="#fff">Jede Datensicherung</text>
+<text x="200" y="486" text-anchor="middle" font-weight="700" font-size="17" fill="#fff">ist besser als keine.</text>
+</svg>
